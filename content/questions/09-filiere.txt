@@ -1,0 +1,382 @@
+# Filière juge-arbitrage (GdB 06.02 et annexes 01 à 03, édition 2026/1).
+@theme filiere
+@doc 06.02
+@levels JALA JALC JAFA JAFC
+
+Q fil-001 | D: 1 | R: 06.02 1
+Combien de grades comporte le corps des juges-arbitres en France ?
+- Trois
+- Quatre
++ Cinq : ligue accrédité, ligue certifié, fédéral accrédité, fédéral certifié, international
+- Six
+> GdB 06.02 §1 : cinq niveaux/grades (JALA, JALC, JAFA, JAFC, juge-arbitre international). Les grades continentaux et BWF ne relèvent pas de la FFBaD.
+
+Q fil-002 | D: 1 | R: 06.02 8
+À partir de quel âge le statut de juge-arbitre peut-il être obtenu ?
+- 16 ans
+- 17 ans
++ 18 ans
+- 21 ans
+> GdB 06.02 §1 et §8 : les membres du corps des juges-arbitres sont âgés de 18 ans révolus ; un candidat peut s'engager dans la formation avant (dans l'année de ses 17 ans pour le JALA). Aucune limite d'âge n'est fixée pour officier.
+
+Q fil-003 | D: 1 | R: 06.02 3.3.1
+Quelles formations faut-il avoir validées avant la formation de juge-arbitre de ligue accrédité ?
++ Les formations « Gestionnaire et organisateur de compétitions » GEO 1 et GEO 2
+- La formation d'arbitre de ligue accrédité
+- La formation d'entraîneur bénévole
+- Aucune
+> GdB 06.02 art. 3.3.1 : le candidat a validé les formations GEO 1 et GEO 2, ne fait l'objet d'aucune sanction disciplinaire, et prépare au préalable un questionnaire sur le RGC.
+
+Q fil-004 | D: 1 | R: 06.02 3.3.2
+Quelle est la durée de la formation théorique de juge-arbitre de ligue accrédité ?
+- 4 heures
++ 7 heures
+- 14 heures
+- 20 heures
+> GdB 06.02 art. 3.3.2 : formation théorique de sept heures (préconisée sur une journée, adaptable en soirées) et stage pratique d'au moins une journée.
+
+Q fil-005 | D: 1 | R: 06.02 3.3.2
+Lors du stage pratique JALA, le candidat est :
++ juge-arbitre assistant d'un juge-arbitre de ligue certifié minimum, sur une compétition d'au moins une journée avec finales
+- juge-arbitre principal seul
+- arbitre de chaise
+- observateur sans responsabilité
+> GdB 06.02 art. 3.3.2 : stage pratique d'au moins une journée ; le candidat est JA assistant avec un JALC minimum sur une compétition se déroulant au minimum sur une journée avec finales. L'examen théorique est réalisé lors de ce stage.
+
+Q fil-006 | D: 1 | R: 06.02 3.3.4
+Quand a lieu le contrôle de connaissances (examen théorique) du JALA ?
+- À la fin de la formation théorique, le même jour
++ Lors du stage pratique
+- Lors de l'examen pratique final
+- En ligne, avant la formation
+> GdB 06.02 art. 3.3.2 et 3.3.4 : le contrôle de connaissances est réalisé lors du stage pratique ; seuls les candidats qui l'ont réussi peuvent se présenter à l'examen pratique.
+
+Q fil-007 | D: 1 | R: 06.02 3.3.5
+Un candidat JALA échoue au contrôle de connaissances. De quel délai dispose-t-il pour une session de rattrapage ?
+- 1 mois
+- 3 mois
++ 6 mois à compter de la date de son premier examen
+- 1 an
+> GdB 06.02 art. 3.3.5 : 6 mois pour repasser une session de rattrapage organisée par la ligue (présentiel ou à distance, candidat seul, durée limitée, surveillance). Un nouvel échec impose de refaire toute la formation théorique.
+
+Q fil-008 | D: 1 | R: 06.02 3.3.5
+Quelles conditions la session de rattrapage du contrôle de connaissances JALA doit-elle respecter ?
++ Le candidat répond seul
++ La durée est limitée
++ L'épreuve est surveillée
+- Le candidat peut la passer en binôme
+> GdB 06.02 art. 3.3.5 : la ligue organise la session sous la forme de son choix (présentiel, à distance) en respectant le cadrage initial : candidat seul à répondre, durée limitée, surveillance.
+
+Q fil-009 | D: 2 | R: 06.02 4.2.1
+Dans quel délai le candidat JALA doit-il se présenter à l'examen de validation après l'obtention de l'attestation de formation ?
+- 6 mois
+- 1 an
++ Au plus tard à la fin des deux ans
+- 3 ans
+> GdB 06.02 art. 4.2.1 : à partir de 18 ans révolus et au plus tard à la fin des deux ans après l'attestation de formation ; passé ce délai et sans justification valable, il faut refaire la formation initiale.
+
+Q fil-010 | D: 2 | R: 06.02 4.2.2
+Lors de l'examen pratique JALA, quel rôle le candidat tient-il ?
++ Il remplit le rôle de juge-arbitre principal, même si dans Poona c'est le certificateur qui est déclaré comme tel
+- Il est JA adjoint sans responsabilités
+- Il arbitre les finales
+- Il observe le certificateur
+> GdB 06.02 art. 4.2.2 : certification sur une journée de compétition (niveau P à N1) avec finales où des arbitres peuvent officier ; le candidat remplit le rôle de JA principal, le certificateur étant déclaré dans Poona. Les candidats doivent justifier d'au moins une journée de stage pratique.
+
+Q fil-011 | D: 2 | R: 06.02 4.1
+Pour l'examen de juge-arbitre de ligue accrédité, quel grade doit avoir le certificateur ?
++ Un grade supérieur à celui délivré
+- Le même grade (JALA)
+- Obligatoirement fédéral certifié
+- Peu importe le grade
+> GdB 06.02 §4.1 : les certificateurs peuvent délivrer un grade équivalent au leur, à l'exception des examens JALA et JAFA pour lesquels le certificateur est de grade supérieur.
+
+Q fil-012 | D: 1 | R: 06.02 5.3.1
+Combien de journées d'activité par an un juge-arbitre de ligue accrédité doit-il totaliser au minimum ?
+- 1
+- 2
++ 3
+- 5
+> GdB 06.02 art. 5.3.1 : le JALA doit totaliser au minimum trois journées d'activité durant l'année en cours ; une journée de formateur responsable GEO peut être comptée (5.3.2).
+
+Q fil-013 | D: 1 | R: 06.02 5.4.1
+Combien de journées d'activité par an un juge-arbitre de ligue certifié doit-il totaliser au minimum ?
+- 3
++ 5
+- 7
+- 10
+> GdB 06.02 art. 5.4.1 : le JALC totalise au minimum cinq journées d'activité durant l'année ; deux journées de formateur responsable (GEO, JALA) peuvent être comptées (5.4.2).
+
+Q fil-014 | D: 2 | R: 06.02 5.5.1
+Combien de journées d'activité par année civile un juge-arbitre fédéral (accrédité, certifié ou international) doit-il totaliser ?
+- 5
++ 7, sur des compétitions de niveau national (internationaux, championnats de France, ICN, CEJ, compétitions avec joueurs classés N)
+- 10
+- 12
+> GdB 06.02 art. 5.5.1 : au moins sept journées d'activité sur une année civile sur les compétitions listées ; deux journées de formateur responsable peuvent être comptées (5.5.2).
+
+Q fil-015 | D: 1 | R: 06.02 5.3.3
+À quelle date le juge-arbitre de ligue doit-il adresser sa feuille d'activité à sa CLOT ?
+- Au 31 août
+- Au 1er septembre
++ Au 15 décembre
+- Au 31 décembre
+> GdB 06.02 art. 5.3.3 et 5.4.3 : feuille d'activité électronique dûment complétée adressée à la CLOT pour le 15 décembre (à la CFOT pour les grades fédéraux, 5.5.3).
+
+Q fil-016 | D: 2 | R: 06.02 6.2
+Un juge-arbitre de ligue accrédité n'envoie pas sa feuille d'activité pour le 15 décembre. Conséquence ?
++ Cela équivaut à une absence d'activité pour toute l'année civile correspondante
+- Aucune conséquence
+- Une amende
+- Une rétrogradation immédiate
+> GdB 06.02 §6.2 : l'absence d'envoi de la feuille d'activité pour le 15 décembre équivaut à une absence d'activité pour toute l'année civile correspondante.
+
+Q fil-017 | D: 2 | R: 06.02 6.2
+Un juge-arbitre de ligue accrédité peut-il être rétrogradé ?
++ Non, mais il peut être mis « inactif » (pas d'activité pendant 2 années civiles consécutives ou activité insuffisante pendant 3 années civiles consécutives)
+- Oui, au rang de GEO
+- Oui, après un avertissement
+- Non, et il ne peut pas être mis inactif
+> GdB 06.02 §6.2 : un JALA ne peut être rétrogradé ; il peut être mis inactif en cas d'absence d'activité durant deux années civiles consécutives ou d'activité insuffisante durant trois années civiles consécutives.
+
+Q fil-018 | D: 2 | R: 06.02 6.1
+Un juge-arbitre ne prend pas sa licence pour la saison N-1/N. Que se passe-t-il ?
++ Il passe au statut inactif le 15 août de l'année N
+- Rien tant qu'il n'officie pas
+- Il perd définitivement son grade
+- Il doit repasser la formation GEO
+> GdB 06.02 §6.1 : l'absence de prise de licence pour la saison N-1/N entraîne le passage au statut inactif le 15 août de l'année N. Les grades ne sont pas acquis à vie.
+
+Q fil-019 | D: 2 | R: 06.02 6.2
+Un juge-arbitre de ligue accrédité « inactif » depuis plus de deux ans souhaite reprendre. Que doit-il faire ?
++ Participer à nouveau à une formation initiale et réussir l'examen de validation
+- Simplement reprendre une licence
+- Officier sur une journée avec un JALC
+- Passer un entretien avec la CLOT
+> GdB 06.02 §6.2 : inactif depuis plus de deux ans, il doit suivre de nouveau une formation initiale et ne retrouve son statut actif qu'en cas de succès à l'examen (4.2). Inactif depuis moins de deux ans, il peut être invité à la formation théorique initiale, mais doit aussi réussir l'examen.
+
+Q fil-020 | D: 1 | R: 06.02 3.4.1
+Quels prérequis faut-il remplir pour suivre la formation de juge-arbitre de ligue certifié ?
++ Être JALA depuis deux ans minimum
++ Avoir effectué la formation d'arbitre de ligue accrédité
++ N'avoir reçu aucun courrier d'avertissement au cours des deux années civiles précédentes
+- Avoir arbitré une finale de championnat de France
+> GdB 06.02 art. 3.4.1 : JALA depuis deux ans, activité conforme et feuilles transmises, formation d'arbitre de ligue accrédité, aucun avertissement sur deux ans civils, aucune sanction en cours.
+L: JALC JAFA JAFC
+
+Q fil-021 | D: 2 | R: 06.02 3.4.3
+Quels thèmes sont abordés lors de la formation JALC ?
++ Le contrôle antidopage
++ Le juge-arbitrage en interclubs nationaux (partie théorique)
++ Les échéanciers complexes et des cas concrets
+- La formation d'entraîneur
+> GdB 06.02 art. 3.4.3 : contrôle antidopage, JA ICN (partie théorique), travail sur des échéanciers complexes, cas concrets et échanges sur des situations vécues.
+L: JALC JAFA JAFC
+
+Q fil-022 | D: 2 | R: 06.02 4.3.1
+Combien de journées de compétition le candidat JALC doit-il justifier sur les trois dernières années civiles ?
+- 6
+- 9
++ 12
+- 15
+> GdB 06.02 art. 4.3.1 : son activité sur les trois dernières années civiles comporte au minimum douze journées de compétition (en respectant l'article 5.3.1).
+L: JALC JAFA JAFC
+
+Q fil-023 | D: 2 | R: 06.02 4.3.2
+Sur quel type de compétition l'examen JALC est-il organisé ?
++ Un championnat de ligue ou un tournoi ouvert aux joueurs de niveau national, se déroulant sur deux jours au minimum
+- Un tournoi d'une journée de niveau départemental
+- Un championnat de France
+- Une rencontre d'interclubs nationaux
+> GdB 06.02 art. 4.3.2 et 4.3.3 : championnat de ligue ou tournoi ouvert au niveau national sur deux jours minimum ; compétitions de tout niveau de P à N1.
+L: JALC JAFA JAFC
+
+Q fil-024 | D: 2 | R: 06.02 4.3.4
+De quelles parties se compose l'examen de juge-arbitre de ligue certifié ?
++ Un questionnaire oral et une partie pratique
+- Un QCM écrit de 40 questions uniquement
+- Un mémoire écrit
+- Une épreuve d'arbitrage sur chaise
+> GdB 06.02 art. 4.3.4 : l'examen comporte une partie sous forme d'un questionnaire oral et une partie pratique ; il faut aussi un rapport positif d'un ÉJAL (ou ÉJAF). Un candidat ajourné peut se présenter à un examen ultérieur (4.3.5).
+L: JALC JAFA JAFC
+
+Q fil-025 | D: 2 | R: 06.02.A01
+Sur quelles compétitions un JALA peut-il officier comme juge-arbitre principal ?
++ Des compétitions sans arbitre avec des joueurs de niveau N2 maximum, dans une salle de 7 terrains maximum (ICD/ICR sans arbitre compris)
+- Toutes les compétitions avec arbitres
+- Les championnats de France
+- Les interclubs nationaux
+> GdB 06.02.A01 (édition 2026) : JALA : compétitions avec des joueurs de niveau N2 maximum, 1 salle de 7 terrains au maximum, sans arbitre (ICD/ICR sans arbitre) ; en multisalles, uniquement comme JA adjoint ; si des joueurs N1 sont présents, seulement s'il y a un JALC.
+
+Q fil-026 | D: 2 | R: 06.02.A01
+Des joueurs classés N1 participent à un tournoi d'une salle de 6 terrains, sans arbitres. Un JALA peut-il y officier ?
++ Seulement si un JALC est présent
+- Oui, seul comme JA principal
+- Non, jamais
+- Oui, s'il a plus de deux ans d'ancienneté
+> GdB 06.02.A01 : si des joueurs N1 sont présents dans la salle, le JALA est autorisé seulement s'il y a un JALC.
+
+Q fil-027 | D: 2 | R: 06.02.A01
+Sur quelles compétitions un JALC peut-il être juge-arbitre principal ?
++ Toutes les compétitions, y compris multisalles et avec arbitres, ainsi que les interclubs avec arbitres (hors compétitions fédérales et assimilées)
+- Uniquement les tournois sans arbitre
+- Uniquement les championnats de France
+- Uniquement les interclubs départementaux
+> GdB 06.02.A01 et page « Devenir juge-arbitre » de la FFBaD : JALC = toutes les compétitions (multisalles) avec arbitres et les interclubs avec arbitres, à l'exception des compétitions fédérales et assimilées.
+L: JALC JAFA JAFC
+
+Q fil-028 | D: 2 | R: 06.02 3.5.1
+Quels sont les prérequis pour postuler à la formation de juge-arbitre fédéral accrédité ?
++ Être JALC depuis deux ans minimum, avec une activité conforme
++ N'avoir reçu aucun courrier d'avertissement au cours des deux années civiles précédentes
+- Avoir été JA principal d'un championnat de France
+- Parler anglais couramment
+> GdB 06.02 art. 3.5.1 : JALC depuis deux ans, activité conforme (5.4.1), aucun avertissement sur deux ans, aucune sanction en cours ; sélection selon l'avis de la CLOT, la déontologie, le niveau et la diversité de l'activité sur trois saisons et la qualité des rapports.
+L: JAFA JAFC
+
+Q fil-029 | D: 2 | R: 06.02 3.5.2
+Comment se déroule la formation de juge-arbitre fédéral accrédité ?
++ Vingt heures de théorie sur trois jours, dont le premier la veille de la compétition, avec un contrôle de connaissances avec documents
+- Sept heures en soirée
+- Huit heures en deux demi-journées
+- Six heures en anglais
+> GdB 06.02 art. 3.5.2 et 3.5.3 : vingt heures sur trois jours ; contenus : compétitions fédérales, préparation, communication avec la FFBaD, plateau de jeu, rotations des arbitres, logiciel BEC/BWF, cas concrets, contrôle de connaissances avec documents.
+L: JAFA JAFC
+
+Q fil-030 | D: 2 | R: 06.02 3.5.5
+Un candidat JAFA échoue au contrôle de connaissances de la formation. Existe-t-il une session de rattrapage ?
+- Oui, dans les 6 mois
++ Non : il ne peut pas poursuivre sur les stages pratiques et doit postuler à une session théorique ultérieure
+- Oui, à l'oral le lendemain
+- Oui, lors de son examen pratique
+> GdB 06.02 art. 3.5.5 : pas de session de rattrapage ; le candidat doit postuler à une session théorique ultérieure.
+L: JAFA JAFC
+
+Q fil-031 | D: 2 | R: 06.02 3.5.4
+Outre le contrôle de connaissances, quelles formations en ligne le candidat JAFA doit-il réaliser pour valider sa formation ?
++ La formation initiale des escortes antidopage et celle des délégués antidopage
+- La formation GEO 3
+- La formation d'arbitre fédéral
+- Une formation en anglais
+> GdB 06.02 art. 3.5.4 : les candidats réalisent les formations en ligne d'escorte antidopage et de délégué antidopage ; seuls ceux qui ont réussi le contrôle et réalisé ces formations valident la formation.
+L: JAFA JAFC
+
+Q fil-032 | D: 2 | R: 06.02 4.4.2
+Avant l'examen JAFA, sur combien de compétitions fédérales le candidat doit-il officier au minimum ?
+- Une
++ Deux (par exemple un CEJ et un championnat de France)
+- Trois
+- Cinq
+> GdB 06.02 art. 4.4.2 : avant de se présenter à l'examen, le candidat doit officier au minimum sur deux compétitions fédérales comme JA adjoint.
+L: JAFA JAFC
+
+Q fil-033 | D: 3 | R: 06.02 4.4.5
+Combien de fois un candidat ajourné à l'examen JAFA peut-il se présenter à nouveau ?
++ Une seconde fois seulement, sans limite de temps entre les deux sessions
+- Autant de fois qu'il le souhaite
+- Jamais
+- Deux fois dans l'année suivante
+> GdB 06.02 art. 4.4.5 : un candidat ajourné est autorisé à se présenter une seconde fois seulement, sans limite de temps entre les deux sessions.
+L: JAFA JAFC
+
+Q fil-034 | D: 3 | R: 06.02 4.4.3
+Sur quelles compétitions l'examen JAFA peut-il se dérouler ?
++ Les compétitions organisées par la FFBaD, à l'exception des ICN
+- Les interclubs nationaux
+- Les tournois privés de niveau national
+- Les championnats régionaux
+> GdB 06.02 art. 4.4.3 : le candidat est convoqué comme JA principal ; l'examen se déroule chaque saison sur les compétitions organisées par la FFBaD (à l'exception des ICN), avec des certificateurs ÉJAF.
+L: JAFA JAFC
+
+Q fil-035 | D: 3 | R: 06.02 3.6.3
+Comment se déroule la formation de juge-arbitre fédéral certifié ?
++ Huit heures sous forme d'atelier, en deux demi-journées dont la première la veille de la compétition, de préférence lors d'un championnat de France
+- Vingt heures sur trois jours
+- Sept heures en ligne
+- Trois jours en anglais sur une compétition internationale
+> GdB 06.02 art. 3.6.3 et 3.6.4 : huit heures en deux demi-journées ; atelier : cas concrets, nouvelles pratiques en juge-arbitrage et en arbitrage, briefings.
+L: JAFC
+
+Q fil-036 | D: 3 | R: 06.02 4.5.1
+Sur quelle compétition se déroule l'examen de juge-arbitre fédéral certifié ?
++ Un championnat de France, de préférence les championnats de France jeunes, où le candidat est JA principal
+- Une rencontre de Top 12
+- Un tournoi international BWF
+- Un championnat régional
+> GdB 06.02 art. 4.5.1 : l'examen JAFC se déroule sur un championnat de France, de préférence jeunes, le candidat étant juge-arbitre principal ; il doit avoir été auparavant JA principal de plusieurs compétitions fédérales.
+L: JAFA JAFC
+
+Q fil-037 | D: 3 | R: 06.02 4.5.3
+Quels éléments conditionnent l'accès à l'examen JAFC ?
++ Les rapports positifs de deux ÉJAF et l'avis collégial positif des ÉJAF
++ Les feuilles d'activité et rapports de JA des trois dernières saisons
++ Le comportement du juge-arbitre (charte) et sa progression
+- Un examen écrit en anglais
+> GdB 06.02 art. 4.5.3 : feuilles d'activité et rapports des trois dernières saisons, motivations, rapports positifs de deux ÉJAF, avis collégial positif, progression, comportement ; examen au plus tard deux ans après la formation.
+L: JAFC
+
+Q fil-038 | D: 2 | R: 06.02 5.1.2
+Que signifie ÉJAF ?
++ Évaluateur en juge-arbitrage fédéral (JAFC et au-delà, liste définie par la CFOT)
+- Équipe des juges-arbitres de France
+- Examen de juge-arbitre fédéral
+- Élève juge-arbitre fédéral
+> GdB 06.02 art. 5.1.2 : les ÉJAF sont des évaluateurs en juge-arbitrage fédéral, au moins JAFC ; ils interviennent sur les championnats de France, compétitions internationales ou à la demande des ligues. Les ÉJAL (ligue) sont désignés par chaque CLOT parmi les JALC minimum (5.1.3).
+
+Q fil-039 | D: 3 | R: 06.02 6.3.2
+Lesquels de ces critères peuvent entraîner la rétrogradation d'un JALC au grade de JALA ?
++ L'absence d'activité durant deux années civiles consécutives
++ Une activité insuffisante durant trois années civiles consécutives
++ Deux évaluations négatives par des ÉJAL sur deux compétitions différentes durant deux années civiles consécutives
+- Un seul rapport de JA rendu avec un jour de retard
+> GdB 06.02 art. 6.3.2 : aussi l'absence de transmission de la feuille d'activité deux années consécutives et la non-participation à deux compétitions de ligue après convocation ; la rétrogradation peut être contestée devant la commission des réclamations et litiges.
+L: JALC JAFA JAFC
+
+Q fil-040 | D: 2 | R: 06.02 5.2
+Pour quels motifs un juge-arbitre peut-il bénéficier d'une « année blanche » d'activité, sur justificatif ?
++ Mutation professionnelle dans un pays ne permettant pas d'officier
++ Grossesse ou longue maladie
++ Crise sanitaire ou autre cas de force majeure
+- Manque de temps lié aux études
+> GdB 06.02 §5.2 : en informant l'instance de référence avec justificatif, le JA peut bénéficier d'une année blanche ; au-delà d'une saison, une mise en sommeil à plus long terme est étudiée.
+
+Q fil-041 | D: 2 | R: 06.02 7
+Qui peut prononcer une sanction disciplinaire contre un juge-arbitre pour infraction au code de conduite ou à la charte ?
++ Exclusivement une commission disciplinaire de ligue ou la commission disciplinaire fédérale (avec appel possible devant la commission fédérale d'appel)
+- La CLOT
+- Le juge-arbitre principal de la compétition
+- FormaBad
+> GdB 06.02 §7 : toute infraction au code de conduite des OT, à la charte du JA ou à la charte d'éthique peut faire l'objet d'une sanction décidée exclusivement par une commission disciplinaire (ligue ou fédérale).
+
+Q fil-042 | D: 2 | R: 06.02 2
+La fonction de juge-arbitre est-elle accessible aux personnes en situation de handicap ?
++ Oui, dans les mêmes conditions que pour les personnes valides
+- Non
+- Uniquement au grade JALA
+- Uniquement pour les compétitions de para-badminton
+> GdB 06.02 §2 : la fonction de juge-arbitre est accessible, dans les mêmes conditions, aux personnes valides et aux personnes en situation de handicap ; les formations prennent en compte l'accessibilité.
+
+Q fil-043 | D: 2 | R: 06.02.A02
+Selon la grille d'évaluation (annexe 02), quel niveau de maîtrise est attendu d'un JALA pour « affecter les arbitres (rotations, niveaux) » ?
++ 0 (en acquisition) : ce n'est pas attendu d'un JALA, qui officie sans arbitres
+- + (maîtrise satisfaisante)
+- ++ (maîtrise solide)
+- +++ (maîtrise complète)
+> GdB 06.02.A02 : affecter et manager les arbitres : 0 pour le JALA, + pour le JALC, ++ pour le JAFA, +++ pour le JAFC. Idem pour la coordination d'un contrôle antidopage.
+
+Q fil-044 | D: 2 | R: 06.02.A02
+Que signifie le symbole « ++ » dans la grille des critères d'accessibilité aux grades ?
++ Maîtrise solide : autonomie sur la grande majorité des situations, quelques imprécisions mineures sans impact sur l'équité
+- En acquisition
+- Maîtrise satisfaisante avec guidage léger
+- Maîtrise complète et anticipation des risques
+> GdB 06.02.A02 : +++ maîtrise complète ; ++ maîtrise solide ; + maîtrise satisfaisante (guidage léger) ; 0 en acquisition.
+
+Q fil-045 | D: 3 | R: 06.02.A03
+Selon le mode opératoire (annexe 03), qu'est-ce qu'une « récidive » ?
++ Commettre une deuxième infraction au cours des deux années civiles complètes qui suivent la notification de la première
+- Commettre deux infractions le même jour
+- Commettre une infraction pendant deux saisons consécutives
+- Recevoir deux rapports négatifs la même année
+> GdB 06.02.A03 : est considérée comme récidive le fait de commettre une deuxième infraction au cours des deux années civiles complètes qui suivent la date de notification de la première.
+L: JALC JAFA JAFC

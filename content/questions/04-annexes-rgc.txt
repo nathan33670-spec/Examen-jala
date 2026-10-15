@@ -1,0 +1,288 @@
+# Annexes du règlement général des compétitions (GdB 03.01.A01 à A14).
+@theme annexes
+@levels JALA JALC JAFA JAFC
+
+Q anx-001 | D: 1 | R: 03.01.A12
+Combien de phases au maximum une compétition peut-elle comporter selon l'annexe 12 du RGC ?
+- Une seule
++ Deux (phase qualificative + phase finale)
+- Trois
+- Pas de limite
+> Annexe 12 du RGC : il ne peut pas y avoir plus de deux phases au cours d'une compétition (phase qualificative + phase finale).
+
+Q anx-002 | D: 1 | R: 03.01.A12
+Un tableau compte 5 inscrits. Quel format l'annexe 12 prévoit-elle ?
++ Une poule unique de 5
+- Deux poules (3 + 2)
+- Une élimination directe
+- Une poule de 3 et une de 2
+> Annexe 12 : de 3 à 5 inscrits, poule unique (de 3, 4 ou 5). L'élimination directe n'est possible qu'à partir de 8 inscrits.
+
+Q anx-003 | D: 2 | R: 03.01.A12
+Un tableau compte 7 paires. Quels formats l'annexe 12 autorise-t-elle ?
++ Une poule de 3 et une poule de 4
++ Une poule unique de 7
+- Une élimination directe de 8 avec une exemption
+- Deux poules de 3 et une paire exemptée
+> Annexe 12 : pour 7 inscrits, une poule de 3 + une poule de 4, ou une poule unique de 7. L'élimination directe n'est possible qu'à partir de 8.
+
+Q anx-004 | D: 2 | R: 03.01.A12
+Un tableau compte 9 joueurs. Quels formats en poules sont prévus par l'annexe 12 ?
++ Trois poules de 3
++ Une poule de 4 et une poule de 5
+- Une poule de 4, une de 3 et une de 2
+- Une poule unique de 9
+> Annexe 12 : pour 9 inscrits, 3 poules de 3, ou une poule de 4 + une poule de 5 ; l'élimination directe est aussi possible (à partir de 8).
+
+Q anx-005 | D: 2 | R: 03.01.A12
+Pour 12 inscrits, quelles configurations de poules sont prévues ?
++ 3 poules de 4
++ 4 poules de 3
++ 2 poules de 6
+- 1 poule de 5 et 1 poule de 7
+> Annexe 12 : pour 12 inscrits, 3 poules de 4, 4 poules de 3 ou 2 poules de 6 (ou élimination directe).
+
+Q anx-006 | D: 2 | R: 03.01.A12
+Entre 13 et 32 inscrits, la phase de poules est possible mais limitée à :
+- 6 poules
+- 8 poules
++ 10 poules
+- 16 poules
+> Annexe 12 : de 13 à 32 inscrits, poules possibles mais limitées à 10 poules (conformément à l'article 3.2.2.5 du RGC).
+
+Q anx-007 | D: 1 | R: 03.01.A12
+À partir de combien d'inscrits l'élimination directe est-elle obligatoire ?
+- 17
+- 25
++ 33
+- 65
+> Annexe 12 : à partir de 33 inscrits, l'élimination directe est obligatoire.
+
+Q anx-008 | D: 2 | R: 03.01.A12
+Quelles compétitions ne sont pas concernées par le tableau des formats de l'annexe 12 ?
++ Les rencontres PromoBad
++ Les championnats de France individuels
+- Les tournois jeunes
+- Les championnats régionaux
+> Annexe 12 : ne sont pas concernés par ces formats les compétitions PromoBad et les championnats de France individuels.
+
+Q anx-009 | D: 3 | R: 03.01.A12
+Un organisateur souhaite proposer une « montante-descendante » dans un tournoi officiel. Est-ce possible ?
+- Oui, c'est un format homologué
++ Non : ce format ne permet pas encore l'intégration des résultats dans Poona et ne peut pas être utilisé en compétition officielle
+- Oui, pour les jeunes uniquement
+- Oui, si le juge-arbitre est JALC
+> Annexe 12 §3 : les formats non compatibles Poona (course à élimination, double à la mêlée, montante-descendante, pyramide, ronde italienne, double ou triple repêchage…) ne peuvent pas être utilisés dans le cadre de compétitions officielles. Voir aussi RGC 3.2.2.9.
+L: JALC JAFA JAFC
+
+Q anx-010 | D: 3 | R: 03.01.A12
+Le tableau à entrées progressives (entrée échelonnée selon le classement) est utilisable :
++ uniquement dans le cadre des grands championnats (France, régionaux, départementaux)
+- dans tous les tournois
+- uniquement en PromoBad
+- jamais en France
+> Annexe 12, note 1 : le tableau à entrées progressives est utilisable uniquement dans le cadre des grands championnats (France, régionaux et départementaux).
+L: JALC JAFA JAFC
+
+Q anx-011 | D: 2 | R: 03.01.A12
+Dans un tournoi par équipes (format homologable), une équipe doit comprendre au moins :
++ 2 joueurs pour un minimum de 3 matchs
+- 4 joueurs pour 5 matchs
+- 6 joueurs
+- 3 joueurs pour 3 matchs
+> Annexe 12 §2.2 : tournoi par équipes en poules, aller-retour ou élimination directe ; une équipe doit comprendre au moins 2 joueurs pour un minimum de 3 matchs.
+
+Q anx-012 | D: 2 | R: 03.01.A12
+Que désigne le format « PO XED » ?
++ Des poules suivies de plusieurs tableaux à élimination directe (les premiers ensemble, les deuxièmes ensemble…), en classement intégral
+- Une poule unique suivie d'une finale
+- Des poules suivies d'une consolante
+- Une ronde suisse
+> Annexe 12 : « PO XED » = poules vers plusieurs tableaux à élimination directe ; les premiers de chaque poule se rencontrent, les seconds se rencontrent, etc. (classement intégral).
+L: JALC JAFA JAFC
+
+Q anx-013 | D: 1 | R: 03.01.A07
+Selon l'annexe 07 (matchs en deux sets gagnants de 15 points), quelle est la durée moyenne indicative d'un match de niveau Promotion ?
++ 22 minutes
+- 26 minutes
+- 30 minutes
+- 35 minutes
+> Annexe 07 du RGC (édition 2026) : National 30-33 min en simple et 30-37 min en double ; Régional 26-30 et 26-33 min ; Départemental 26 min ; Promotion 22 min.
+
+Q anx-014 | D: 2 | R: 03.01.A07
+Pour bâtir l'échéancier d'un tournoi de niveau national, quelle durée moyenne indicative retenir pour un double ?
+- 22 minutes
+- 26 minutes
++ 30 à 37 minutes
+- 45 minutes
+> Annexe 07 : au niveau National, 30-33 min en simple et 30-37 min en double (matchs en deux sets gagnants de 15 points).
+
+Q anx-015 | D: 1 | R: 03.01.A08
+Pour quelles catégories le « terrain poussins » est-il utilisé ?
++ Poussins et plus jeunes
+- Benjamins et plus jeunes
+- Minimes et plus jeunes
+- Toutes les catégories jeunes
+> Annexe 08 du RGC : par dérogation aux règles du jeu, les compétitions dédiées aux catégories poussins et plus jeunes se disputent sur un terrain spécialement aménagé.
+
+Q anx-016 | D: 2 | R: 03.01.A08
+Quelles sont les caractéristiques du terrain poussins ?
++ La ligne de fond est la ligne de service long du double (longueur 11,88 m)
++ Le filet est abaissé de 150 mm (1,40 m aux poteaux, 1,374 m au centre)
+- La largeur est réduite à 5,18 m en double
+- Un traçage spécifique est obligatoire
+> Annexe 08 : longueur totale 11,88 m (au lieu de 13,40 m), largeur inchangée (5,18 m en simple, 6,10 m en double), filet abaissé de 150 mm ; aucun traçage spécifique n'est nécessaire.
+
+Q anx-017 | D: 1 | R: 03.01.A10
+Dans un tableau benjamins d'un tournoi autorisé par la FFBaD (hors championnats de France jeunes), quand le conseil aux joueurs est-il permis ?
+- À tout moment, volant hors jeu
++ Uniquement lors des interruptions normales du jeu (entre les sets et à la pause du milieu de set)
+- Jamais
+- Uniquement par l'arbitre
+> Annexe 10 du RGC : le conseil entre les points n'est pas autorisé ; il est autorisé lors des interruptions normales (entre les sets et au milieu des sets). S'applique aux tableaux benjamins et plus jeunes, sauf dérogation du règlement particulier.
+
+Q anx-018 | D: 2 | R: 03.01.A10
+L'interdiction du conseil entre les points pour les jeunes s'applique-t-elle aux championnats de France jeunes ?
+- Oui
++ Non
+- Seulement pour les minimes
+- Seulement en double
+> Annexe 10 : cette disposition ne s'applique pas aux championnats de France jeunes. Le règlement particulier d'une compétition (notamment par équipes) peut aussi y déroger.
+
+Q anx-019 | D: 2 | R: 03.01.A10
+Les ligues et comités peuvent-ils adapter la règle de conseil aux jeunes pour les compétitions qu'ils autorisent ?
++ Oui : adopter les mêmes dispositions, ou d'autres plus souples ou plus contraignantes
+- Non, la règle nationale s'impose sans adaptation
+- Oui, uniquement pour l'assouplir
+- Oui, uniquement pour la durcir
+> Annexe 10 §3 : les ligues et comités peuvent adopter les mêmes dispositions ou d'autres plus souples ou plus contraignantes, en veillant à leur aspect éducatif.
+
+Q anx-020 | D: 2 | R: 03.01.A14
+Selon l'annexe 14, quels horaires cadres la FFBaD préconise-t-elle pour une rencontre nocturne un samedi soir ?
+- 18h00 à minuit
++ 17h00 à 02h00
+- 19h00 à 01h00
+- 20h00 à 03h00
+> Annexe 14 : du dimanche au jeudi, 17h00 à minuit (sauf lendemain férié) ; le vendredi et le samedi, 17h00 à 02h00.
+
+Q anx-021 | D: 2 | R: 03.01.A14
+Une rencontre nocturne a des fins de matchs programmées après minuit. Que faut-il faire dans Poona ?
++ Déclarer les deux journées
+- Déclarer uniquement le premier jour
+- Rien de particulier
+- Déclarer la compétition comme non officielle
+> Annexe 14 art. 2.4.3 : pour tout tournoi nocturne dont les fins de matchs sont programmées après minuit, les deux journées doivent être déclarées dans Poona.
+
+Q anx-022 | D: 3 | R: 03.01.A14
+Pour obtenir l'appellation « nocturne », que doit comporter le titre de la rencontre ?
++ Un des termes : « night », « nocturne », « afterwork », « nuit », « soirée » ou « black »
+- Le mot « nocturne » obligatoirement
+- L'heure de début
+- Le nom de la ligue
+> Annexe 14 art. 1.2 : le titre doit comporter l'un de ces termes, en attendant une case à cocher « tournoi nocturne » dans Poona. Il est recommandé d'ouvrir les tableaux à partir de la catégorie minime.
+
+Q anx-023 | D: 1 | R: 03.01.A02
+Parmi ces informations, lesquelles doivent figurer dans le règlement particulier d'une compétition ?
++ Le nom du juge-arbitre principal et du GEO
++ La marque et le type du volant officiel ainsi que le mode de fourniture des volants
++ Le temps de repos minimum entre deux matchs
+- La liste nominative des arbitres de chaque match
+> Annexe 02 du RGC : dates, inscriptions, numéro d'autorisation, licenciés concernés, JA principal et GEO, tableaux et mode de compétition, mode de comptage, nombre maximum de participants et critère en cas de surnombre, droits, volants, mode d'arbitrage, fusion éventuelle, temps de repos, échauffement, règle sur les obstacles, choix d'un nouveau partenaire…
+
+Q anx-024 | D: 2 | R: 03.01.A02
+Où doit être précisée la règle applicable lorsque le volant touche un obstacle au-dessus du terrain (structure, panier de basket…) ?
++ Dans le règlement particulier de la compétition (et rappelée au briefing)
+- Nulle part, c'est toujours une faute
+- Dans le rapport du juge-arbitre
+- Sur la convocation des joueurs
+> Annexe 02 : le règlement particulier mentionne, le cas échéant, la règle concernant les volants touchant un obstacle au-dessus du terrain (règle 13.3.5 et règlements locaux).
+
+Q anx-025 | D: 1 | R: 03.01.A03
+Que doit contenir la convocation adressée aux joueurs dont l'inscription est retenue ?
++ La confirmation de l'inscription (séries, disciplines)
++ L'heure de convocation dans la salle et l'heure prévue du premier match
++ Les adresses et plans utiles
+- Le numéro de licence de l'adversaire
+> Annexe 03 du RGC : confirmation de l'inscription, heure de convocation et heure prévue du premier match, adresses et plans, le cas échéant l'hébergement retenu.
+
+Q anx-026 | D: 3 | R: 03.01.A05
+Pour la séparation par provenance, à quelle association appartient une paire composée de deux joueurs de clubs différents ?
++ À aucune association
+- Au club du joueur le mieux classé
+- Aux deux clubs
+- Au club du joueur inscrit en premier
+> Annexe 05 du RGC (règle BWF 12.11) : une paire composée de deux joueurs de deux associations différentes n'appartient à aucune association membre.
+L: JALC JAFA JAFC
+
+Q anx-027 | D: 2 | R: 03.01.A05
+Dans un tableau de 32 à 63 inscrits, comment sont placées les têtes de série n°5 à 8 ?
++ Tirées au sort entre les huitièmes restants du tableau
+- Placées dans l'ordre en haut de chaque quart
+- Tirées au sort dans tout le tableau
+- Placées à côté des têtes de série 1 à 4
+> Annexe 05 : TdS 1 en haut, TdS 2 en bas, TdS 3 et 4 tirées au sort entre les deux quarts restants, TdS 5 à 8 entre les huitièmes restants, TdS 9 à 16 entre les seizièmes restants.
+
+Q anx-028 | D: 1 | R: 03.01.A09
+Qu'est-ce qu'une compétition « officielle » ?
++ Une compétition qui présente des garanties suffisantes quant au respect des règlements pour que ses résultats soient pris en compte officiellement (classements)
+- Toute compétition organisée par un club
+- Une compétition à laquelle participent des joueurs classés N
+- Une compétition avec arbitres
+> Annexe 09 art. 1.1.2 et 1.1.3 : les compétitions officielles présentent a priori des garanties suffisantes ; elles sont ouvertes exclusivement aux licenciés (et étrangers autorisés), sauf exceptions (conventions, PromoBad).
+
+Q anx-029 | D: 2 | R: 03.01.A09
+Les résultats d'une compétition non officielle (rencontre amicale, exhibition…) comptent-ils pour le classement ?
+- Oui, avec un coefficient réduit
++ Non : elles ne peuvent pas être homologuées et leurs résultats ne sont pas pris en compte
+- Oui, si un JA est présent
+- Oui, sur demande du club
+> Annexe 09 art. 1.6.3 : les compétitions non officielles ne peuvent pas être homologuées et leurs résultats ne sont pas pris en compte dans les classements nationaux. Elles restent soumises aux règles du jeu (1.6.2).
+
+Q anx-030 | D: 2 | R: 03.01.A09
+Combien de titres de champion une même instance peut-elle délivrer par saison, par discipline et par catégorie ?
++ Un seul
+- Deux (individuel et par équipes)
+- Autant que de séries de classement
+- Pas de limite
+> Annexe 09 art. 2.1.1 : chaque instance ne peut délivrer qu'un seul et unique titre de champion par saison, par discipline et par catégorie.
+
+Q anx-031 | D: 2 | R: 03.01.A09
+Les vainqueurs d'une compétition décernant un « titre fédéral national » limité à une catégorie de classement peuvent-ils se prévaloir du titre de « Champion de France » ?
++ Non, en aucun cas
+- Oui
+- Oui, suivi de la série
+- Oui, s'ils sont classés N
+> Annexe 09 art. 1.2.6 et 1.2.7 : les vainqueurs de ces compétitions ne peuvent en aucun cas se prévaloir d'un titre de « Champion de France ».
+L: JALC JAFA JAFC
+
+Q anx-032 | D: 1 | R: 03.01.A09
+Quelles compétitions sont dispensées d'autorisation préalable ?
++ Les compétitions fédérales (une déclaration dans le logiciel fédéral reste nécessaire)
+- Les tournois privés de niveau départemental
+- Les rencontres amicales entre clubs
+- Les rencontres PromoBad
+> Annexe 09 art. 1.1.14 : toutes les compétitions, officielles ou non, à l'exception des compétitions fédérales, doivent faire l'objet d'une autorisation préalable. Pour les compétitions fédérales, l'autorisation implicite est matérialisée par une déclaration dans le logiciel fédéral (RGC 2.6).
+
+Q anx-033 | D: 2 | R: 03.01.A09
+Que désignent ICN, ICR et ICD ?
++ Les interclubs organisés respectivement par la Fédération, une ligue et un département (comité)
+- Trois niveaux de classement des joueurs
+- Trois catégories de juges-arbitres
+- Les intercomités national, régional et départemental
+> Annexe 09 art. 3.1 : interclubs = championnat par équipes de clubs organisé par la Fédération (ICN), une ligue (ICR) ou un département (ICD).
+
+Q anx-034 | D: 2 | R: 03.01.A09
+Un « Trophée » au sens de l'annexe 09 est :
++ réservé aux catégories jeunes, comportant plusieurs étapes et pouvant délivrer un classement final
+- un tournoi vétérans
+- une compétition par équipes
+- la récompense d'un championnat de France
+> Annexe 09 art. 2.1.3 : le trophée est réservé aux catégories jeunes (Trophée régional ou départemental jeunes), avec plusieurs étapes, et peut délivrer un classement final.
+
+Q anx-035 | D: 1 | R: 03.01.A04 1.1.3
+Dans un tableau d'élimination directe dont le nombre d'inscrits n'est pas une puissance de 2, comment les places vacantes (exemptions) sont-elles placées ?
++ Aux emplacements numérotés « Vacant 1 », « Vacant 2 »… des schémas de l'annexe 04, dans cet ordre
+- Par tirage au sort libre
+- Toutes en haut du tableau
+- Au choix du GEO
+> RGC 3.2.2.1 et annexe 04 art. 1.1.3 : s'il y a une place vacante, elle est placée à l'emplacement « Vacant 1 » ; s'il y en a deux, aux emplacements « Vacant 1 » et « Vacant 2 », et ainsi de suite. Dans les schémas, la place « Vacant 1 » se situe face à la tête de série n°1.

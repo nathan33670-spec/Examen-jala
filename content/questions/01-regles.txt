@@ -1,0 +1,526 @@
+# Règles du jeu (Règles officielles du badminton, édition mai 2026 — système 3×15 appliqué
+# par la FFBaD depuis le 1er septembre 2026).
+# Format : voir README (Q id | L: niveaux | D: difficulté | R: document article).
+@theme regles
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+
+Q reg-001 | D: 1 | R: REGLES 7.2
+Depuis le 1er septembre 2026, dans les compétitions autorisées par la FFBaD, un set est remporté par le côté qui atteint en premier (hors prolongation) :
+- 11 points
++ 15 points
+- 21 points
+- 25 points
+> La FFBaD applique le système 3×15 depuis le 1er septembre 2026 (au niveau international, la BWF l'applique à partir du 4 janvier 2027). Règle 7.2 : un set est remporté par le côté qui atteint en premier 15 points, sauf prolongation (règles 7.4 et 7.5).
+
+Q reg-002 | D: 1 | R: REGLES 7.4
+Le score est de 14-14 dans un set. Que se passe-t-il ?
+- Le côté qui marque le point suivant remporte le set
++ Le côté qui, le premier, mène de 2 points remporte le set
+- Le set se poursuit jusqu'à 21 points
+- Le set est rejoué
+> Règle 7.4 : si le score atteint 14 égalité, le côté qui, le premier, mène de 2 points remporte le set (plafond prévu par la règle 7.5).
+
+Q reg-003 | D: 2 | R: REGLES 7.5
+Le score atteint 20-20 dans un set. Quel est le score maximal possible de ce set ?
+- 22-20
++ 21-20
+- 30-29
+- 30-28
+> Règle 7.5 : si le score atteint 20 égalité, le côté qui marque le 21e point remporte le set. Le score maximal d'un set est donc 21-20.
+
+Q reg-004 | D: 1 | R: REGLES 7.1
+Sauf disposition contraire (annexes 2 et 3 des règles), un match se dispute :
+- en un seul set
++ au meilleur des trois sets
+- au meilleur des cinq sets
+- en deux sets, avec un set décisif en cas d'égalité
+> Règle 7.1 : un match se dispute au meilleur des trois sets, sauf dispositions contraires (matchs à handicap, systèmes de score alternatifs).
+
+Q reg-005 | D: 1 | R: REGLES 16.2.1
+Dans le système de score en 3×15, l'intervalle en cours de set (60 secondes maximum) est accordé lorsque le côté qui mène atteint :
+- 7 points
++ 8 points
+- 10 points
+- 11 points
+> Règle 16.2.1 : un intervalle n'excédant pas 60 secondes est autorisé dans chaque set lorsque le score du côté qui mène atteint 8 points (11 points dans l'ancien système en 21 points).
+
+Q reg-006 | D: 1 | R: REGLES 16.2.2
+Quelle est la durée maximale de l'intervalle entre le premier et le deuxième set ?
+- 60 secondes
+- 90 secondes
++ 120 secondes
+- 5 minutes
+> Règle 16.2.2 : un intervalle n'excédant pas 120 secondes est autorisé entre le premier et le deuxième set et entre le deuxième et le troisième set.
+
+Q reg-007 | D: 1 | R: REGLES 8.1.3
+Dans le troisième set d'un match en 3×15, les joueurs changent de demi-terrain lorsqu'un côté atteint en premier :
+- 7 points
++ 8 points
+- 11 points
+- 15 points
+> Règle 8.1.3 : les joueurs changent de demi-terrain dans le troisième set lorsqu'un côté atteint en premier 8 points (sauf match à handicap).
+
+Q reg-008 | D: 1 | R: REGLES 8.2
+Les joueurs ont oublié de changer de demi-terrain au milieu du troisième set. L'erreur est constatée à 12-9. Que doit-on faire ?
+- Rejouer le set depuis 8 points
+- Remettre le score à 8-x et changer de côté
++ Changer de demi-terrain dès que le volant n'est plus en jeu, en maintenant le score de 12-9
+- Ne rien faire, l'occasion est passée
+> Règle 8.2 : le changement de demi-terrain doit s'effectuer dès que l'on s'aperçoit de l'erreur et que le volant n'est plus en jeu. Le score existant est maintenu.
+
+Q reg-009 | D: 1 | R: REGLES 7.6
+Quel côté sert en premier dans le deuxième set ?
+- Le côté qui a gagné le tirage au sort
++ Le côté qui a remporté le premier set
+- Le côté qui a perdu le premier set
+- Le côté qui a servi en premier au premier set
+> Règle 7.6 : le côté qui remporte un set sert en premier dans le set suivant.
+
+Q reg-010 | D: 1 | R: REGLES 6
+Le côté qui gagne le tirage au sort choisit :
+- uniquement de servir ou de recevoir
+- uniquement le demi-terrain
++ entre servir ou recevoir en premier, et le choix du demi-terrain ; l'adversaire prend l'alternative restante
+- de servir et le demi-terrain
+> Règle 6 : le gagnant du tirage au sort exerce son choix sur l'une des deux alternatives (servir ou recevoir en premier, ou commencer sur l'un ou l'autre demi-terrain) ; le perdant exerce son choix sur l'alternative restante.
+
+Q reg-011 | D: 1 | R: REGLES 1.3
+Le volant tombe exactement sur la ligne de fond du terrain adverse. Il est :
++ bon (« in »), les lignes faisant partie de la zone qu'elles délimitent
+- faute (« out »)
+- à rejouer (« let »)
+- bon uniquement en simple
+> Règle 1.3 : toutes les lignes font partie de la zone qu'elles délimitent.
+
+Q reg-012 | D: 1 | R: REGLES 1.1
+Quelle est la largeur réglementaire des lignes du terrain ?
+- 30 mm
++ 40 mm
+- 50 mm
+- 60 mm
+> Règle 1.1 : le terrain est un rectangle tracé avec des lignes d'une largeur de 40 mm.
+
+Q reg-013 | D: 1 | R: REGLES 1.10
+À quelle hauteur doit se trouver le bord supérieur du filet ?
+- 1,55 m au centre et 1,524 m aux poteaux
++ 1,524 m au centre du terrain et 1,55 m au niveau des lignes de côté du double
+- 1,50 m partout
+- 1,524 m partout
+> Règle 1.10 : le bord supérieur du filet est à 1,524 m au centre du terrain et à 1,55 m au niveau des lignes de côté du terrain de double. Les poteaux mesurent 1,55 m (règle 1.4).
+
+Q reg-014 | D: 1 | R: REGLES 1.5
+Lors d'un match de simple, les poteaux doivent être placés :
+- sur les lignes de côté du simple
++ sur les lignes de côté du double
+- à 50 cm à l'extérieur des lignes de côté du double
+- indifféremment, selon le matériel disponible
+> Règle 1.5 : les poteaux sont placés sur les lignes de côté du terrain de double, que le jeu soit en simple ou en double.
+
+Q reg-015 | D: 2 | R: REGLES 1.6
+Quelles sont les caractéristiques du filet ?
+- Maille de 10 à 15 mm, hauteur de 600 mm
++ Maille de 15 à 20 mm, hauteur de 760 mm, longueur d'au moins 6,1 m
+- Maille de 20 à 25 mm, hauteur de 760 mm, longueur d'au moins 6,7 m
+- Maille libre, hauteur de 800 mm
+> Règles 1.6 et 1.7 : cordelette de couleur sombre, maille comprise entre 15 et 20 mm, hauteur de 760 mm, longueur d'au moins 6,1 m. Le haut est bordé d'une bande blanche de 75 mm (règle 1.8).
+
+Q reg-016 | D: 2 | R: REGLES 2.2
+Combien de plumes un volant en plumes doit-il comporter ?
+- 12
+- 14
++ 16
+- 18
+> Règle 2.2.1 : le volant doit avoir 16 plumes fixées dans la base.
+
+Q reg-017 | D: 2 | R: REGLES 2.2.6
+Quel doit être le poids d'un volant ?
+- Entre 4,00 et 4,74 g
++ Entre 4,74 et 5,50 g
+- Entre 5,00 et 6,00 g
+- Entre 5,50 et 6,24 g
+> Règle 2.2.6 : le volant doit peser entre 4,74 et 5,50 grammes (tolérance de 10 % pour les volants synthétiques, règle 2.3.3).
+
+Q reg-018 | D: 2 | R: REGLES 3
+Comment le test de vitesse d'un volant doit-il être effectué ?
++ Par un dégagement en frappe basse, le contact se faisant au-dessus de la ligne de fond, dans une direction montante et parallèle aux lignes de côté
+- Par un smash depuis la ligne de service court
+- Par un service long depuis la zone de service droite
+- Par un dégagement en frappe haute depuis le milieu du terrain
+> Règle 3.1 : le joueur effectue un dégagement en frappe basse, le contact se faisant au-dessus de la ligne de fond ; le volant est frappé dans une direction montante et parallèle aux lignes de côté.
+
+Q reg-019 | D: 2 | R: REGLES 3.2
+Lors du test, un volant de vitesse réglementaire doit tomber :
++ entre 530 mm et 990 mm avant l'autre ligne de fond, à l'intérieur du terrain
+- entre 0 et 530 mm avant l'autre ligne de fond
+- sur la ligne de service long du double adverse
+- entre 1 m et 1,50 m avant l'autre ligne de fond
+> Règle 3.2 : le volant doit tomber au moins à 530 mm et au plus à 990 mm de l'autre ligne de fond, à l'intérieur du terrain (schéma B).
+
+Q reg-020 | D: 2 | R: REGLES 4.1
+Quelles sont les dimensions maximales du cadre d'une raquette ?
+- 650 mm de long et 220 mm de large
++ 680 mm de long et 230 mm de large
+- 700 mm de long et 250 mm de large
+- Il n'y a pas de limite
+> Règle 4.1 : le cadre n'excède pas 680 mm de longueur totale et 230 mm de largeur totale.
+
+Q reg-021 | D: 2 | R: REGLES 9.2
+À quel moment le service commence-t-il ?
+- Quand le serveur lâche le volant
++ Au premier mouvement vers l'avant de la tête de la raquette du serveur, une fois les joueurs prêts
+- Quand l'arbitre annonce le score
+- Quand le volant est frappé
+> Règle 9.2 : dès que les joueurs sont prêts pour le service, le premier mouvement de la tête de la raquette du serveur vers l'avant est le commencement du service.
+
+Q reg-022 | D: 2 | R: REGLES 9.3
+Le serveur, en tentant de servir, manque complètement le volant. Que se passe-t-il ?
+- Il recommence son service
++ C'est une faute : en essayant de servir, le serveur ne doit pas manquer le volant
+- C'est un let
+- C'est une faute uniquement en double
+> Règles 9.1.8 et 9.3 : le service est exécuté lorsque le volant est frappé ou lorsque le serveur, en essayant de servir, manque le volant ; manquer le volant est une faute de service.
+
+Q reg-023 | D: 1 | R: REGLES 9.1.3
+Lors du service, le receveur pose le pied sur la ligne centrale de sa zone de réception. C'est :
++ une faute du receveur
+- autorisé si le pied ne dépasse pas la ligne
+- un let
+- une faute du serveur
+> Règle 9.1.3 : le serveur et le receveur doivent se placer dans des zones de service diagonalement opposées sans toucher les lignes délimitant ces zones.
+
+Q reg-024 | D: 2 | R: REGLES 9.1.4
+Pendant le service, le receveur lève le talon tout en gardant l'avant du pied au sol, sans déplacer son pied. C'est :
++ autorisé : une partie quelconque des deux pieds doit rester en contact avec le sol, dans une position stationnaire
+- une faute, les deux pieds doivent être à plat
+- un let
+- une faute uniquement si l'arbitre l'a déjà averti
+> Règle 9.1.4 : une partie quelconque des deux pieds du serveur et du receveur doit rester en contact avec la surface du terrain, dans une position stationnaire, du commencement du service jusqu'à son exécution.
+
+Q reg-025 | D: 2 | R: REGLES 9.1.6
+Dans quelles compétitions la FFBaD applique-t-elle la règle de service à hauteur fixe (volant entièrement sous 1,15 m) ?
+- Dans toutes les compétitions
++ À la phase finale du Top 12 et au championnat de France individuel (Élite)
+- Dans tous les tournois de niveau national
+- Uniquement dans les championnats de France jeunes
+> Note de la règle 9.1.6 : la FFBaD applique la règle des 1,15 m à la phase finale du Top 12 et au championnat de France Élite ; pour toutes les autres compétitions, elle applique la règle alternative de l'annexe 3.
+
+Q reg-026 | D: 2 | R: REGLES Annexe 3
+Dans un tournoi régional, quelle règle de hauteur de service s'applique ?
+- Volant entièrement sous 1,15 m
++ Volant entièrement sous la taille du serveur (dernière côte), tige et tête de raquette inclinées vers le bas
+- Volant sous l'épaule du serveur
+- Aucune contrainte de hauteur
+> Hors phase finale du Top 12 et championnat de France Élite, la FFBaD applique la règle alternative 9.1.6 de l'annexe 3 : volant sous la taille (ligne au niveau de la partie la plus basse de la dernière côte) et tige et tête de la raquette inclinées vers le bas.
+
+Q reg-027 | D: 2 | R: REGLES 9.1.5
+Selon la règle 9.1.5 en vigueur, lors du service :
++ le serveur doit lâcher le volant sans lui ajouter d'effet, et la raquette doit frapper en premier la base du volant
+- le serveur peut faire tourner le volant avant de le frapper
+- la raquette peut frapper d'abord les plumes
+- le serveur doit tenir le volant par la base
+> Règle 9.1.5 : le serveur doit lâcher le volant sans lui ajouter d'effet, et la raquette du serveur doit frapper en premier la base du volant.
+
+Q reg-028 | D: 1 | R: REGLES 9.4
+Le serveur sert alors que le receveur n'est pas prêt et que celui-ci ne tente pas de renvoyer le volant. Que se passe-t-il ?
+- Faute du serveur
+- Point pour le serveur
++ Let
+- Faute du receveur
+> Règles 9.4 et 14.2.1 : le serveur ne doit pas servir avant que le receveur soit prêt ; il y a let. Le receveur est toutefois considéré comme prêt s'il tente un retour.
+
+Q reg-029 | D: 1 | R: REGLES 10.1
+En simple, le serveur a 7 points. De quelle zone sert-il ?
+- De la zone de service droite
++ De la zone de service gauche
+- De la zone de son choix
+- De la zone où il a servi au point précédent
+> Règle 10.1 : en simple, on sert de la zone droite lorsque le serveur a 0 ou un nombre pair de points, de la zone gauche lorsqu'il a un nombre impair de points.
+
+Q reg-030 | D: 2 | R: REGLES 11.4
+En double, quel est l'ordre de service dans un set ?
++ Serveur initial (zone droite) → partenaire du receveur initial → partenaire du serveur initial → receveur initial → serveur initial…
+- Serveur initial → partenaire du serveur initial → receveur initial → partenaire du receveur initial…
+- Serveur initial → receveur initial → partenaire du serveur initial → partenaire du receveur initial…
+- L'ordre est libre à chaque changement de service
+> Règle 11.4 : le droit de servir passe du serveur initial (zone droite) au partenaire du receveur initial, puis au partenaire du serveur initial, puis au receveur initial, et ainsi de suite.
+
+Q reg-031 | D: 2 | R: REGLES 11.1.5
+En double, quand les joueurs changent-ils de zone de service ?
+- Après chaque échange
++ Uniquement lorsqu'ils gagnent un point alors qu'ils sont au service
+- Lorsqu'ils perdent le service
+- À chaque intervalle
+> Règle 11.1.5 : les joueurs ne doivent pas changer de zone de service jusqu'à ce qu'ils gagnent un point lorsqu'ils sont au service.
+
+Q reg-032 | D: 2 | R: REGLES 11.6
+Au début du deuxième set d'un double, qui peut servir en premier ?
+- Obligatoirement le joueur qui a servi en premier au premier set
++ N'importe quel joueur du côté qui a gagné le premier set
+- Le joueur qui a marqué le dernier point du premier set
+- Le joueur désigné par l'arbitre
+> Règle 11.6 : n'importe quel joueur du côté qui a gagné un set peut servir en premier dans le set suivant et n'importe quel joueur du côté perdant peut recevoir en premier.
+
+Q reg-033 | D: 2 | R: REGLES 12
+On s'aperçoit, après plusieurs échanges, qu'un joueur a servi de la mauvaise zone de service. Que fait-on ?
+- On annule les points marqués depuis l'erreur
+- On rejoue le dernier échange
++ On corrige l'erreur quand le volant n'est pas en jeu et le score atteint est maintenu
+- Le côté fautif perd un point
+> Règle 12.2 : une erreur de zone de service est corrigée quand le volant n'est pas en jeu et le score atteint est maintenu.
+
+Q reg-034 | D: 2 | R: REGLES 13.2
+Au service, le volant passe au-dessus du filet puis reste pris dans le filet. C'est :
++ une faute
+- un let
+- un point pour le serveur
+- un service à rejouer sans pénalité
+> Règle 13.2.2 : au service, le volant qui, après être passé au-dessus du filet, est pris dans le filet constitue une faute (au-delà du service, ce serait un let, règle 14.2.3).
+
+Q reg-035 | D: 2 | R: REGLES 14.2.3
+Pendant un échange (le service ayant été renvoyé), le volant reste suspendu au sommet du filet. Hors para-badminton en fauteuil, c'est :
+- une faute du dernier joueur ayant frappé
++ un let
+- un point pour le côté qui n'a pas frappé
+- une faute uniquement en simple
+> Règle 14.2.3 : après que le service a été renvoyé, le volant pris sur le filet et suspendu à son sommet, ou pris dans le filet après l'avoir franchi, donne un let (sauf en catégorie fauteuil roulant, où c'est une faute).
+
+Q reg-036 | D: 1 | R: REGLES 13.2.3
+Au service, le volant est frappé par le partenaire du receveur. C'est :
++ une faute du côté à la réception
+- un let
+- un point pour le côté à la réception
+- autorisé
+> Règle 13.2.3 : il y a faute si, au service, le volant est frappé par le partenaire du receveur.
+
+Q reg-037 | D: 1 | R: REGLES 13.3.3
+Pendant l'échange, le volant touche le plafond puis retombe dans le terrain adverse. C'est :
++ une faute
+- un let
+- bon si le volant retombe dans les limites
+- une faute uniquement si un règlement local le prévoit
+> Règle 13.3.3 : il y a faute si, en jeu, le volant touche le plafond ou les murs latéraux. Seul un règlement local (obstacles liés au bâtiment) peut prévoir un traitement différent pour certains obstacles (règle 13.3.5).
+
+Q reg-038 | D: 2 | R: REGLES 13.3.7
+Un joueur frappe le volant avec le cadre et le cordage de sa raquette en un seul coup. C'est :
+- une faute de double touche
++ autorisé, ce n'est pas une faute
+- un let
+- une faute uniquement au service
+> Règle 13.3.7 : frapper deux fois de suite est une faute, mais un volant frappant la tête et la partie cordée de la raquette en un seul coup n'est pas une faute.
+
+Q reg-039 | D: 1 | R: REGLES 13.4.1
+Pendant l'échange, le short d'un joueur frôle le filet. C'est :
++ une faute
+- autorisé si le joueur n'a pas été gêné
+- un let
+- une faute seulement si le filet bouge
+> Règle 13.4.1 : il y a faute si, pendant que le volant est en jeu, un joueur touche le filet ou ses supports avec sa raquette, son corps ou ses vêtements.
+
+Q reg-040 | D: 2 | R: REGLES 13.4.2
+Un joueur frappe le volant de son côté du filet puis, dans l'élan, sa raquette passe au-dessus du filet sans le toucher. C'est :
++ autorisé (il « suit » le volant)
+- une faute d'invasion
+- un let
+- une faute si l'adversaire proteste
+> Règle 13.4.2 : le joueur a le droit de suivre le volant par-dessus le filet avec sa raquette au cours du coup, si le point de contact initial était de son côté du filet.
+
+Q reg-041 | D: 2 | R: REGLES 13.4.3
+Un joueur glisse sous le filet dans le demi-terrain adverse sans gêner ni distraire son adversaire. C'est :
++ autorisé
+- toujours une faute
+- un let
+- un avertissement pour mauvaise conduite
+> Règle 13.4.3 : l'invasion par-dessous le filet n'est une faute que si l'adversaire est gêné ou distrait (voir aussi l'instruction aux arbitres 5.9.1.1).
+
+Q reg-042 | D: 2 | R: REGLES 13.4.5
+Un joueur crie « faute ! » au moment où son adversaire frappe le volant. Selon les instructions aux arbitres, c'est :
++ une distraction délibérée, donc une faute
+- un let
+- autorisé, c'est une réaction spontanée
+- un avertissement sans conséquence sur l'échange
+> Règle 13.4.5 et instruction 5.9.1.4 : un joueur qui annonce « faute » à l'adversaire lorsqu'il effectue un coup doit être considéré comme distrayant délibérément son adversaire.
+
+Q reg-043 | D: 2 | R: REGLES 14.2
+Parmi ces situations, lesquelles donnent un let ?
++ Le serveur et le receveur commettent une faute simultanément au service
++ Le volant se désintègre et sa base se sépare complètement du reste
+- Le volant touche le plafond
++ Un juge de ligne n'a pas vu le volant tomber et l'arbitre ne peut pas décider
+> Règle 14.2 : let si les deux commettent une faute au service, si le volant se désintègre avec séparation complète de la base, si le juge de ligne est masqué et que l'arbitre (ou le système de révision) ne peut décider. Le volant au plafond est une faute (13.3.3).
+
+Q reg-044 | D: 1 | R: REGLES 14.3
+Lorsqu'un let est annoncé :
+- le point est attribué au côté qui ne servait pas
++ le jeu depuis le dernier service ne compte pas et le joueur qui a servi en dernier sert à nouveau
+- le service passe à l'adversaire
+- on rejoue les deux derniers échanges
+> Règle 14.3 : lorsqu'un let se produit, le jeu depuis le dernier service ne compte pas et le joueur qui a servi en dernier sert à nouveau.
+
+Q reg-045 | D: 2 | R: REGLES 15.1
+Le volant touche le haut du filet et commence à retomber du côté du joueur qui l'a frappé. Il est :
++ « pas en jeu » (l'échange est terminé)
+- encore en jeu tant qu'il n'a pas touché le sol
+- à rejouer
+- en jeu si l'adversaire le touche
+> Règle 15.1 : le volant n'est plus en jeu lorsqu'il touche le filet ou un poteau et commence à tomber vers la surface du terrain du côté du joueur qui l'a frappé.
+
+Q reg-046 | D: 1 | R: REGLES 16.4
+Un joueur demande un temps de récupération pour reprendre son souffle en plein set. L'arbitre doit :
+- l'accorder une fois par set
++ le refuser : le jeu ne peut en aucun cas être retardé pour récupérer ses forces ou recevoir des conseils
+- l'accorder s'il est blessé
+- appeler le juge-arbitre pour décider
+> Règle 16.4.1 : en aucun cas le jeu ne peut être retardé pour permettre à un joueur de récupérer ses forces ou son souffle ou de recevoir des conseils. L'arbitre est le seul juge d'un retard de jeu (16.4.2).
+
+Q reg-047 | D: 2 | R: REGLES 16.5.1
+Hors compétitions réservées aux jeunes, quand un joueur peut-il recevoir des conseils pendant un match ?
+- À tout moment, même volant en jeu
++ Lorsque le volant n'est pas en jeu, jusqu'à ce que les joueurs aient pris position pour servir et recevoir
+- Uniquement pendant les intervalles
+- Jamais pendant un match
+> Règle 16.5.1 : un joueur ne peut recevoir des conseils que lorsque le volant n'est pas en jeu et jusqu'à ce que les joueurs aient pris position pour servir et recevoir. Pour les jeunes, voir l'annexe 10 du RGC.
+
+Q reg-048 | D: 1 | R: REGLES 16.5.2
+Un joueur peut-il quitter le terrain pendant un match ?
+- Oui, à tout moment s'il prévient son adversaire
++ Non, sans la permission de l'arbitre, sauf pendant les intervalles prévus à la règle 16.2
+- Oui, entre deux échanges
+- Non, jamais, même pendant les intervalles
+> Règle 16.5.2 : aucun joueur ne peut quitter le terrain pendant un match sans la permission de l'arbitre, excepté pendant les intervalles de la règle 16.2.
+
+Q reg-049 | D: 2 | R: REGLES 16.7
+Un joueur déjà averti pour mauvaise conduite récidive. L'arbitre doit :
+- lui donner un second avertissement
++ le fauter pour mauvaise conduite (carton rouge) et signaler immédiatement l'infraction au juge-arbitre
+- le disqualifier lui-même
+- arrêter le match
+> Règles 16.7.1.2 et 16.7.2 : l'arbitre faute le côté déjà averti et signale immédiatement l'infraction au juge-arbitre, qui a le pouvoir de disqualifier le côté sanctionné.
+
+Q reg-050 | D: 2 | R: REGLES 16.7.1.3
+En cas de manquement flagrant (insulte grave envers l'arbitre), sans avertissement préalable, l'arbitre :
+- doit obligatoirement commencer par un avertissement
++ peut directement fauter le joueur pour mauvaise conduite
+- peut directement disqualifier le joueur
+- doit attendre la fin du match pour faire un rapport
+> Règle 16.7.1.3 : l'arbitre faute pour mauvaise conduite le côté en cas d'infraction flagrante, même sans avertissement préalable. Seul le juge-arbitre peut disqualifier (16.7.2).
+
+Q reg-051 | D: 1 | R: REGLES 16.7.2
+Qui a le pouvoir de disqualifier un joueur pour mauvaise conduite ?
+- L'arbitre du match
++ Le juge-arbitre
+- Le comité d'organisation
+- Le juge de service
+> Règle 16.7.2 et RGC 2.8.1 : le juge-arbitre a le pouvoir de disqualifier. L'arbitre faute et en réfère immédiatement au juge-arbitre.
+
+Q reg-052 | D: 2 | R: REGLES 16.6.2
+Un joueur abîme délibérément les plumes du volant pour le ralentir. Comment cela est-il traité ?
+- C'est autorisé si l'adversaire est d'accord
++ C'est une mauvaise conduite (règle 16.6.2) : le volant doit être changé et la règle 16.7 appliquée
+- L'arbitre se contente de changer le volant
+- Le joueur perd automatiquement le set
+> Règle 16.6.2 : un joueur ne doit pas modifier délibérément ou abîmer le volant de façon à changer sa vitesse ou son vol. Instruction 5.13.2 : le volant est changé et la règle 16.7 appliquée.
+
+Q reg-053 | D: 2 | R: REGLES 17.1
+Qui a la responsabilité globale du tournoi ?
++ Le juge-arbitre
+- L'arbitre le plus gradé
+- Le GEO principal
+- Le président du club organisateur
+> Règle 17.1 : le juge-arbitre a la responsabilité globale du tournoi ou de la compétition dont un match fait partie ; l'arbitre est responsable du match, du terrain et de la zone immédiatement autour (17.2).
+
+Q reg-054 | D: 2 | R: REGLES 17.5.1
+L'arbitre peut-il corriger l'annonce d'un juge de ligne ?
+- Non, jamais
++ Oui, si au-delà d'un doute raisonnable l'annonce est nettement incorrecte
+- Oui, dès qu'il a un doute
+- Oui, à la demande d'un joueur
+> Règle 17.5.1 : la décision d'un officiel est définitive sur les points de fait dont il est responsable, sauf si, de l'avis de l'arbitre et au-delà d'un doute raisonnable, l'annonce du juge de ligne est nettement incorrecte.
+
+Q reg-055 | D: 2 | R: REGLES 17.6.8
+Jusqu'à quand un joueur peut-il porter une réclamation sur l'application d'une règle ?
+- Jusqu'à la fin du set
++ Avant que le service suivant soit exécuté ou, en fin de match, avant que le côté qui réclame quitte le terrain
+- Dans les 8 jours suivant la compétition
+- Jusqu'à la remise des récompenses
+> Règle 17.6.8 : les réclamations insatisfaites sur les règles sont portées au juge-arbitre ; elles doivent être faites avant le service suivant ou, en fin de match, avant que le côté qui réclame quitte le terrain.
+
+Q reg-056 | D: 2 | R: REGLES 17.3
+Quel officiel annonce les fautes de service du serveur ?
+- Le juge de ligne le plus proche
++ Le juge de service
+- Le juge-arbitre
+- L'arbitre uniquement
+> Règle 17.3 : le juge de service annonce les fautes de service du serveur (règles 9.1.2 à 9.1.8). L'arbitre peut aussi annoncer une faute de service (instruction 5.4.3).
+
+Q reg-057 | D: 3 | R: REGLES Annexe 3
+Par arrangement préalable inscrit au règlement particulier, quels systèmes de score alternatifs les règles permettent-elles ?
++ Un seul set de 21 points
++ Au meilleur des 3 sets de 21 points
++ Au meilleur des 5 sets de 11 points
+- Au meilleur des 3 sets de 11 points
+> Annexe 3 des règles : il est permis de jouer, par arrangement préalable, un seul set de 21 points, au meilleur des 3 sets de 21 points ou au meilleur des 5 sets de 11 points (le 3×15 étant désormais le système standard).
+
+Q reg-058 | D: 3 | R: REGLES Annexe 3
+Dans un match au meilleur des 5 sets de 11 points, à quel moment l'intervalle de 60 secondes a-t-il lieu ?
+- À 6 points dans chaque set
++ Seulement au cinquième set, lorsque le premier score atteint 6 points
+- À la fin de chaque set uniquement
+- Il n'y a pas d'intervalle
+> Annexe 3, cas 3 : intervalle de 60 secondes seulement au cinquième set lorsque le premier score atteint 6 points (avec changement de demi-terrain) ; intervalles de 120 secondes entre les sets.
+
+Q reg-059 | D: 3 | R: REGLES 16.2
+Pour un match télévisé, que peut décider le juge-arbitre concernant les intervalles ?
++ Avant le match, qu'ils sont obligatoires et d'une durée fixe
+- Qu'ils sont supprimés
+- Qu'ils durent 3 minutes
+- Rien, les intervalles relèvent de l'arbitre
+> Règle 16.2 : pour un match télévisé, le juge-arbitre peut décider, avant le match, que les intervalles de la règle 16.2 sont obligatoires et d'une durée fixe.
+
+Q reg-060 | D: 3 | R: REGLES 16.3.2
+Un câble électrique pend au-dessus d'un terrain pendant un match. Qui peut décider de suspendre le jeu ?
++ L'arbitre, si des circonstances indépendantes de la volonté des joueurs le rendent nécessaire
++ Le juge-arbitre, qui peut donner des instructions à l'arbitre pour suspendre le jeu
+- Les joueurs d'un commun accord
+- Le GEO
+> Règle 16.3 : l'arbitre peut suspendre le jeu pour la durée nécessaire ; lors de circonstances particulières, le juge-arbitre peut lui donner des instructions pour suspendre le jeu. Le score acquis est maintenu (16.3.3).
+
+Q reg-061 | D: 2 | R: REGLES 16.3.3
+Le jeu est suspendu à 9-7 dans le deuxième set en raison d'une fuite d'eau. Au moment de reprendre :
++ le jeu reprend au score de 9-7
+- le set est rejoué depuis 0-0
+- le match est rejoué
+- le score est remis à l'égalité
+> Règle 16.3.3 : si le jeu est suspendu, le score acquis est maintenu et le jeu reprend à ce score.
+
+Q reg-062 | D: 3 | R: REGLES Annexe 6
+Avec un système de révision instantanée (SRI), combien de challenges un joueur peut-il demander ?
+- Deux par match
+- Un par set
++ Un nombre illimité, jusqu'à ce que deux challenges soient perdus dans le set
+- Trois par set
+> Annexe 6, §3 : un joueur ou une paire dispose d'un nombre illimité de challenges jusqu'à ce que deux challenges soient perdus durant chaque set. Un challenge réussi ne fait pas perdre de droit.
+
+Q reg-063 | D: 3 | R: REGLES Annexe 2
+Dans un match à handicap, le changement de demi-terrain du troisième set intervient :
+- à 8 points, comme dans un match normal
++ lorsqu'un côté a marqué la moitié du nombre total de points requis pour remporter le set (arrondi à l'unité supérieure)
+- à la fin du deuxième set uniquement
+- il n'y a pas de changement de demi-terrain
+> Annexe 2 : pour les matchs à handicap, la règle 8.1.3 est modifiée : changement lorsqu'un côté a marqué la moitié du nombre total de points requis pour le set (nombre immédiatement supérieur si ce n'est pas un entier).
+
+Q reg-064 | D: 2 | R: REGLES 9.5
+En double, pendant le service, où peuvent se placer les partenaires du serveur et du receveur ?
++ N'importe où dans leur demi-terrain, à condition de ne pas masquer la vue du serveur ou du receveur
+- Obligatoirement dans la zone de service qui n'est pas utilisée
+- Derrière la ligne de fond
+- Obligatoirement à côté de leur partenaire
+> Règle 9.5 : en double, pendant la délivrance du service, les partenaires peuvent se placer où ils veulent à l'intérieur de leur demi-terrain, à condition de ne pas perturber la vision du serveur ou du receveur.
+
+Q reg-065 | D: 1 | R: REGLES 13.3.4
+A frappe un smash qui touche l'épaule de son adversaire B, puis le volant sort des limites du terrain. Que décide-t-on ?
+- Faute de A, car le volant est sorti
++ Faute de B : un volant en jeu qui touche le corps ou les vêtements d'un joueur est une faute ; A marque le point
+- Let
+- Faute de A uniquement si B n'a pas pu esquiver
+> Règle 13.3.4 : il y a faute si le volant en jeu touche le corps ou les vêtements d'un joueur. Le volant a touché B avant de sortir : B commet la faute et A marque le point.

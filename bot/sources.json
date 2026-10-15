@@ -1,0 +1,46 @@
+{
+  "_comment": "Configuration du bot de mise à jour des règlements. Les motifs (glob) s'appliquent au nom de fichier PDF du Guide du Badminton (GdB) publié sur gdb.ffbad.org. Mettre \"all\": true pour synchroniser l'intégralité du Guide.",
+  "api": "https://gdb.ffbad.org",
+  "all": false,
+  "include": [
+    "GUI00.01*",
+    "GUI02.01_*",
+    "GUI02.04*",
+    "GUI03.00*",
+    "GUI03.01*",
+    "GUI03.02*",
+    "GUI03.03*",
+    "GUI03.04*",
+    "GUI03.06_*",
+    "GUI03.06A01*",
+    "GUI03.07*",
+    "GUI03.08*",
+    "GUI03.11*",
+    "GUI04.00A01*",
+    "GUI04.07_*",
+    "GUI04.07A0[124579]*",
+    "GUI04.07F0[2-7]*",
+    "GUI06.01A01*",
+    "GUI06.02*",
+    "GUI06.04*",
+    "GUI07.0[1-9]_*",
+    "GUI07.01A01*",
+    "GUI07.04F01*",
+    "GUI07.1[12]*",
+    "GUI08.03_*",
+    "GUI08.03A01*"
+  ],
+  "exclude": [],
+  "extra": [
+    {
+      "id": "REGLES",
+      "title": "Règles officielles du badminton (règles du jeu et instructions aux officiels techniques)",
+      "folder": "03 Règlements sportifs généraux",
+      "filename": "Regles_officielles_du_badminton.pdf",
+      "discover_from": "03.00",
+      "discover_host": "echange.ffbad.org",
+      "fallback_url": "https://media.ffbad.org/documents/regles_officielles_du_badminton_version_2024-05-11.pdf"
+    }
+  ],
+  "upcoming_seasons": true
+}

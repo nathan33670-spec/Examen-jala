@@ -1,0 +1,122 @@
+{
+  "checklists": [
+    {
+      "id": "avant",
+      "title": "Avant la compétition",
+      "items": [
+        { "id": "a1", "text": "Accepter la désignation puis contacter l'organisateur (GEO principal, club) et les éventuels JA adjoints ; convenir des canaux de communication.", "ref": "Instructions aux OT 3.2.1" },
+        { "id": "a2", "text": "Vérifier que la demande d'autorisation a été déposée sur Poona 90 jours avant la compétition, avec le règlement particulier.", "ref": "GdB 03.02 art. 2.4.1" },
+        { "id": "a3", "text": "Relire et approuver le règlement particulier : dates, tableaux et séries, mode de comptage, nombre maximum de participants, volant officiel, temps de repos, échauffement, mode d'arbitrage, fusion éventuelle de tableaux…", "ref": "Annexe 02 du RGC · Instructions 3.2.4" },
+        { "id": "a4", "text": "Vérifier les conditions pour officier : JA licencié et qualifié pour le niveau, ne pas appartenir au club organisateur (sauf exception JALC, R4 max), nombre de JA adjoints selon les salles et les terrains.", "ref": "GdB 03.02 art. 2.3" },
+        { "id": "a5", "text": "Demander le rapport de JA de l'édition précédente et repérer les problèmes signalés.", "ref": "Instructions 3.2.3" },
+        { "id": "a6", "text": "Envoyer une check-list à l'organisateur : salle, terrains et dégagements, éclairage, table de marque, sonorisation, secours, chaises d'arbitre, local antidopage si nécessaire.", "ref": "Instructions 3.2.5" },
+        { "id": "a7", "text": "Contrôler les inscriptions : licences, séries ou cotes (règle des +1000 points), catégories d'âge, compétitions qui se chevauchent, joueurs suspendus.", "ref": "RGC 2.12, 3.1 et 3.2.1.5" },
+        { "id": "a8", "text": "Valider le nombre et la forme des tableaux (8 en élimination directe, 6 avec poules, 3 en poule unique ; annexe 12), désigner les têtes de série, séparer les joueurs d'un même club, contrôler le tirage au sort.", "ref": "RGC 3.2" },
+        { "id": "a9", "text": "Construire ou valider l'échéancier : matchs entre 8 h et 23 h, fin à 19 h ou 21 h, 8 matchs maximum par joueur et par jour, temps de repos, durées moyennes de l'annexe 07 et marge.", "ref": "RGC 2.16 et 3.3.1" },
+        { "id": "a10", "text": "S'assurer que les convocations indiquent l'heure de convocation et l'heure prévue du premier match.", "ref": "Annexe 03 du RGC" },
+        { "id": "a11", "text": "Préparer le briefing (joueurs, capitaines, arbitres) et les documents à afficher.", "ref": "Instructions 3.4" }
+      ]
+    },
+    {
+      "id": "jourj",
+      "title": "Le jour de la compétition",
+      "items": [
+        { "id": "j1", "text": "Arriver bien avant le début et inspecter l'aire de jeu : sol, poteaux sur les lignes de côté de double, filet à 1,524 m au centre et 1,55 m aux poteaux, éclairage, obstacles, dégagements.", "ref": "Instructions 3.3.6 · Règle 1" },
+        { "id": "j2", "text": "Vérifier la table de marque, la sonorisation, la trousse de secours et la possibilité d'appeler les secours à tout moment.", "ref": "RGC 2.22" },
+        { "id": "j3", "text": "Afficher au plus tard une heure avant le début : échéancier et tableaux ; afficher aussi le règlement particulier, les codes de conduite et le règlement des cartons.", "ref": "RGC 2.17 et 3.2.4 · GdB 07.04 §4" },
+        { "id": "j4", "text": "Pointer les joueurs présents ; traiter forfaits, retards et remplacements selon le moment (avant ou après publication des tableaux).", "ref": "RGC 3.2.5" },
+        { "id": "j5", "text": "Superviser le test des volants (toutes les vitesses, des deux côtés du terrain) et décider seul de la vitesse retenue.", "ref": "Instructions 3.5.4" },
+        { "id": "j6", "text": "Faire les briefings nécessaires (arbitres, capitaines) et rappeler les règlements locaux (volant touchant un obstacle).", "ref": "Instructions 3.4" },
+        { "id": "j7", "text": "Lancer les matchs à l'heure, tenir l'échéancier à jour, respecter les temps de repos ; appel avec au plus 60 minutes d'avance, forfait possible après 5 minutes.", "ref": "RGC 3.3.1.2" },
+        { "id": "j8", "text": "Contrôler les tenues avant les matchs ; en cas de doute, autoriser et photographier pour le rapport.", "ref": "GdB 03.07 · Instructions 3.5.15" },
+        { "id": "j9", "text": "Rester présent en permanence (ou son adjoint), observer les terrains, intervenir sur les blessures, incidents et cartons.", "ref": "RGC 2.8.1 · Instructions 3.6" },
+        { "id": "j10", "text": "Classer les poules selon l'article 3.4.1 et réaliser le tirage au sort des sorties de poule (public, ou tenu secret jusqu'à la fin des poules).", "ref": "RGC 3.2.2.7 et 3.4.1" },
+        { "id": "j11", "text": "Organiser la remise des récompenses avec l'organisateur (tenue correcte, pas d'objets non autorisés sur le podium).", "ref": "Instructions 3.5.24" }
+      ]
+    },
+    {
+      "id": "apres",
+      "title": "Après la compétition",
+      "items": [
+        { "id": "p1", "text": "Vérifier que tous les résultats sont saisis et conserver une copie du fichier de la compétition.", "ref": "GdB 03.02 art. 3.2.4" },
+        { "id": "p2", "text": "S'assurer que le GEO principal importe le fichier des résultats sur Poona dans les 3 jours.", "ref": "GdB 03.02 art. 3.2.3" },
+        { "id": "p3", "text": "Saisir le rapport de JA sur Poona dans les 5 jours (3 jours pour les interclubs).", "ref": "GdB 03.02 art. 3.2.2 · Instructions 3.7.4" },
+        { "id": "p4", "text": "Consigner tous les forfaits et préciser ceux qui restent « à justifier ».", "ref": "GdB 07.05" },
+        { "id": "p5", "text": "Consigner tous les cartons ; en cas de carton noir, joindre le formulaire signé et envoyer un rapport circonstancié au secrétariat arbitrage de la FFBaD.", "ref": "GdB 07.04" },
+        { "id": "p6", "text": "Signaler les tenues non conformes (photo), les incidents et les comportements relevant de la commission disciplinaire.", "ref": "GdB 03.07 §5 · 07.08" },
+        { "id": "p7", "text": "Mettre à jour sa feuille d'activité, à transmettre pour le 15 décembre.", "ref": "GdB 06.02 §5" }
+      ]
+    },
+    {
+      "id": "icn",
+      "title": "Rencontre d'interclubs nationaux (JALC et plus)",
+      "items": [
+        { "id": "i1", "text": "Vérifier la convocation de l'équipe hôte (au moins 20 jours avant) : horaire, marque et type de volants, couleur de tenue.", "ref": "GdB 04.07.A04 §1" },
+        { "id": "i2", "text": "Gymnase ouvert au moins 1 h 30 avant ; table de marque installée 1 h 15 avant le début prévu.", "ref": "GdB 04.07.A04 §6-7" },
+        { "id": "i3", "text": "Feuilles de présence validées par les capitaines au plus tard 1 h avant ; contrôle des pièces d'identité des joueurs et arbitres au plus tard 45 min avant.", "ref": "GdB 04.07.A04 art. 7.1.1-7.1.2" },
+        { "id": "i4", "text": "Briefing avec les capitaines et les arbitres au plus tard 45 min avant ; fixer l'heure limite de validation des compositions (15 min minimum).", "ref": "GdB 04.07.A04 art. 7.1.3" },
+        { "id": "i5", "text": "Contrôler les compositions : hiérarchie selon le CPPH, quota de JIFF, 3 mutés maximum, 2 matchs maximum par joueur et jamais deux dans la même discipline.", "ref": "GdB 04.07 §6, 9, 11 et 12" },
+        { "id": "i6", "text": "Réaliser un seul test de volants en début de rencontre ; décider seul de la vitesse.", "ref": "Instructions 3.5.4" },
+        { "id": "i7", "text": "Fixer l'ordre des matchs (équité, repos, enchaînement) en tenant compte des propositions des capitaines.", "ref": "GdB 04.07.A04 art. 7.1.5" },
+        { "id": "i8", "text": "Valider électroniquement les résultats avec les deux capitaines et envoyer le rapport sous 3 jours.", "ref": "GdB 04.07 §21 · Instructions 3.7.4" }
+      ]
+    }
+  ],
+  "criteria": [
+    { "group": "Avant la compétition", "items": [
+      { "id": "c-a1", "text": "Prendre contact (organisateur, FFBaD, officiels)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-a2", "text": "Prodiguer des conseils d'organisation (salle, flux, postes, protocole)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-a3", "text": "Dimensionner la compétition (tableaux, échéancier, durées, aire de jeu)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-a4", "text": "Réaliser une checklist préparatoire partagée", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Pendant — organisation générale", "items": [
+      { "id": "c-b1", "text": "Appliquer les règlements général et complémentaire", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b2", "text": "Inspecter complètement l'aire de jeu", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b3", "text": "Contrôler les informations officielles", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b4", "text": "Contrôler les affichages (horaires, tableaux, résultats)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Pendant — technique et logistique", "items": [
+      { "id": "c-b5", "text": "Réaliser un test de volants", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b6", "text": "Gérer les volants tout au long de la compétition (consommation, température, hygrométrie)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b7", "text": "Affecter les arbitres (rotations, niveaux)", "need": { "JALA": "0", "JALC": "+", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-b8", "text": "Manager les arbitres tout au long de la compétition", "need": { "JALA": "0", "JALC": "+", "JAFA": "++", "JAFC": "+++" } }
+    ] },
+    { "group": "Pendant — temps et ponctualité", "items": [
+      { "id": "c-b9", "text": "Respecter les horaires et démarrer à l'heure", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b10", "text": "Ajuster l'échéancier et informer les acteurs de ces ajustements", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Pendant — supervision spécifique", "items": [
+      { "id": "c-b11", "text": "Coordonner la mise en œuvre d'un contrôle antidopage (et en respecter la confidentialité)", "need": { "JALA": "0", "JALC": "+", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-b12", "text": "Contrôler les tenues (conformité, décisions)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-b13", "text": "Gérer les conflits (joueurs, organisateurs, officiels, public)", "need": { "JALA": "+", "JALC": "++", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-b14", "text": "Organiser la remise des récompenses (communication, protocole)", "need": { "JALA": "+", "JALC": "++", "JAFA": "++", "JAFC": "+++" } }
+    ] },
+    { "group": "Briefing", "items": [
+      { "id": "c-c1", "text": "Briefing de qualité sur le fond (informations complètes, exactes, à jour)", "need": { "JALA": "+", "JALC": "++", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-c2", "text": "Briefing de qualité sur la forme (concision, clarté des supports)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-c3", "text": "Présentation orale du briefing et posture adaptée", "need": { "JALA": "+", "JALC": "++", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-c4", "text": "Répondre aux questions de manière adaptée", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Après la compétition", "items": [
+      { "id": "c-d1", "text": "Réaliser un rapport de JA exhaustif", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-d2", "text": "Réaliser le rapport de JA dans les délais", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-d3", "text": "Mener un débriefing avec les organisateurs", "need": { "JALA": "+", "JALC": "++", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-d4", "text": "Transmettre et archiver les fichiers et incidents", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Compétences générales", "items": [
+      { "id": "c-e1", "text": "Maîtriser les règles du badminton", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-e2", "text": "Connaître les instructions aux officiels techniques (dont JA)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-e3", "text": "Maîtriser les logiciels de compétition (FFBaD / BWF)", "need": { "JALA": "+", "JALC": "+", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-e4", "text": "Anticiper (prévention, plans de repli)", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] },
+    { "group": "Management et leadership", "items": [
+      { "id": "c-f1", "text": "Affirmer son leadership et sa posture", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-f2", "text": "Prendre des décisions efficaces et assumées", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-f3", "text": "Manager et coordonner les officiels", "need": { "JALA": "0", "JALC": "+", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-f4", "text": "Déléguer et superviser les juges-arbitres adjoints", "need": { "JALA": "0", "JALC": "+", "JAFA": "++", "JAFC": "+++" } },
+      { "id": "c-f5", "text": "Construire et maintenir les relations avec les parties prenantes", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-f6", "text": "Installer un climat de travail coopératif et motivant", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } },
+      { "id": "c-f7", "text": "Communiquer avec clarté et rester accessible", "need": { "JALA": "+", "JALC": "++", "JAFA": "+++", "JAFC": "+++" } }
+    ] }
+  ]
+}

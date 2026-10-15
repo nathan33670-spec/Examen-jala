@@ -1,0 +1,204 @@
+# Autorisation et homologation des tournois (GdB 03.02) et intégration des résultats (GdB 03.04).
+@theme tournois
+@levels JALA JALC JAFA JAFC
+
+Q tou-001 | D: 1 | R: 03.02 2.4.1
+Combien de jours avant la compétition l'organisateur doit-il déposer la demande d'autorisation d'un tournoi sur Poona ?
+- 30 jours
+- 60 jours
++ 90 jours, accompagnée du règlement particulier
+- 120 jours
+> GdB 03.02 art. 2.4.1 : toute demande doit être établie sur Poona par l'organisateur 90 jours avant la date de la compétition, obligatoirement accompagnée du règlement particulier.
+
+Q tou-002 | D: 1 | R: 03.02 1.4
+Quelle instance gère l'autorisation d'un tournoi ouvert aux joueurs de niveau National ?
++ La Fédération
+- La ligue
+- Le comité départemental
+- Le club organisateur
+> GdB 03.02 art. 1.4 : la Fédération gère les autorisations et homologations des tournois autorisant des joueurs classés N ; chaque ligue gère les tournois limités aux niveaux R, D ou P.
+
+Q tou-003 | D: 2 | R: 03.02 2.4.3
+Dans quel délai la ligue doit-elle valider la demande d'autorisation d'un tournoi de niveau régional (dossier complet) ?
++ 15 jours
+- 8 jours
+- 30 jours
+- 90 jours
+> GdB 03.02 art. 2.4.3 : pour les niveaux P, D, R et les catégories jeunes et vétérans, la ligue doit valider la demande dans les 15 jours ; les délais sont prolongés tant que la demande est incomplète (2.4.5).
+
+Q tou-004 | D: 1 | R: 03.02 2.3.1
+Parmi ces conditions, lesquelles s'appliquent au juge-arbitre principal d'un tournoi ?
++ Être licencié à la date du tirage au sort
++ Être qualifié (formation de juge-arbitre validée, conformément à la filière)
++ Ne pas appartenir au club organisateur (sauf exception prévue)
+- Être obligatoirement de grade fédéral
+> GdB 03.02 art. 2.3.1 : le JA doit être licencié à la date du tirage au sort, qualifié selon la filière (annexe 1) et ne pas appartenir au club organisateur ; il ne doit faire l'objet d'aucune sanction comme joueur ou comme officiel.
+
+Q tou-005 | D: 1 | R: 03.02 2.3.1
+Le juge-arbitre adjoint d'un tournoi peut-il appartenir au club organisateur ?
++ Oui
+- Non, jamais
+- Seulement s'il est JALC
+- Seulement en l'absence de JA principal
+> GdB 03.02 art. 2.3.1 : le juge-arbitre adjoint doit être licencié à la date du tirage au sort et qualifié ; il peut appartenir au club organisateur.
+
+Q tou-006 | D: 2 | R: 03.02 2.3.4
+Dans quel cas un JALC peut-il être JA principal d'un tournoi organisé par son propre club ?
++ Sur une compétition de niveau géographique d'invitation national maximum, avec des joueurs R4 maximum, en présence obligatoire d'un GEO 2 ou GEO 1 promo
+- Jamais
+- Dans tous les cas, s'il le déclare
+- Uniquement pour un tournoi jeunes
+> GdB 03.02 art. 2.3.4 (rappelé dans l'annexe 01 de la filière JA) : un JALC peut officier comme JA principal sur une compétition organisée par son propre club, de niveau d'invitation national maximum, avec des joueurs R4 maximum ; la présence d'un GEO 2 ou GEO 1 promo est obligatoire.
+
+Q tou-007 | D: 1 | R: 03.02 2.3.2
+Un tournoi se déroule dans une salle de 14 terrains. Combien faut-il de juges-arbitres au minimum ?
+- Un JA principal seul
++ Un JA principal et un JA adjoint
+- Un JA principal et deux adjoints
+- Deux JA principaux
+> GdB 03.02 art. 2.3.2 : dans une salle de plus de 7 terrains, il y a un JA adjoint par tranche supplémentaire de 7 terrains (9 terrains = 1 JA + 1 JAA ; 14 terrains = 1 JA + 1 JAA).
+
+Q tou-008 | D: 1 | R: 03.02 2.3.2
+Un tournoi se déroule dans deux salles de 7 terrains chacune. Quelle organisation du juge-arbitrage faut-il prévoir ?
++ Un JA principal dans une salle et un JA adjoint dans l'autre salle
+- Un seul JA qui circule entre les deux salles
+- Deux JA principaux
+- Un JA et un GEO
+> GdB 03.02 art. 2.3.2 : lorsque le tournoi se déroule sur plusieurs salles, il y a autant de juges-arbitres adjoints que de salles supplémentaires.
+
+Q tou-009 | D: 2 | R: 03.02 2.3.2
+Un tournoi utilise une salle de 16 terrains. Combien de JA adjoints sont nécessaires au minimum ?
+- 1
++ 2
+- 3
+- 0
+> GdB 03.02 art. 2.3.2 : un JA adjoint par tranche supplémentaire de 7 terrains : jusqu'à 7 terrains, le JA seul ; de 8 à 14, un adjoint ; de 15 à 21, deux adjoints.
+
+Q tou-010 | D: 1 | R: 03.02 2.3.1
+Que doit respecter le GEO principal d'un tournoi ?
++ Être licencié à la date du tirage au sort et titulaire d'une attestation de stage GEO ; il doit être présent et il est fortement recommandé qu'il ne joue pas
+- Être juge-arbitre
+- Ne pas appartenir au club organisateur
+- Être licencié depuis au moins 5 ans
+> GdB 03.02 art. 2.3.1 : le GEO principal (et ses adjoints) doit être licencié à la date du tirage, titulaire d'une attestation de stage GEO ; il peut appartenir au club organisateur ; il doit être présent et ne pas jouer de préférence.
+
+Q tou-011 | D: 1 | R: 03.02 2.3.5
+Une compétition est réservée aux joueurs non classés jusqu'à P10. Est-il obligatoire d'avoir un juge-arbitre ?
++ Non (hors PromoBad), sous réserve de la présence d'un GEO 2 ou d'un GEO 1 promo
+- Oui, un JALA au minimum
+- Oui, un JALC au minimum
+- Non, et aucun officiel n'est requis
+> GdB 03.02 art. 2.3.5 et RGC 2.8.1 : il est possible d'organiser des compétitions NC jusqu'à P10 sans JA, sous réserve de la présence d'un GEO 2 ou d'un GEO 1 promo.
+
+Q tou-012 | D: 2 | R: 03.02 2.1
+Quelles sont les conséquences de l'organisation d'un tournoi non autorisé ?
++ Les organisateurs s'exposent à des sanctions disciplinaires ou à des pénalités sportives
++ Les licenciés qui y participent sont passibles de sanctions disciplinaires
+- Le tournoi est automatiquement homologué a posteriori
+- Aucune, si les règles du jeu sont respectées
+> GdB 03.02 art. 2.1 : tout tournoi non autorisé est de fait interdit ; organisateurs et participants s'exposent à des sanctions (avertissement, suspension…).
+
+Q tou-013 | D: 2 | R: 03.02 1.2.3
+Pourquoi une compétition, même amicale, doit-elle faire l'objet d'une déclaration préalable ?
++ Parce que la loi impose à la Fédération de contrôler les compétitions sur le territoire
++ Parce que l'assurance des licenciés ne couvre la manifestation que si elle a été déclarée
+- Pour que les résultats comptent au classement
+- Pour obtenir un juge-arbitre gratuit
+> GdB 03.02 art. 1.2.3 : obligation légale de contrôle par la Fédération et couverture d'assurance des licenciés conditionnée à la déclaration.
+
+Q tou-014 | D: 2 | R: 03.02 2.2.2
+Un club demande l'autorisation d'un tournoi aux mêmes dates qu'une compétition fédérale. Que peut faire l'instance compétente ?
++ Refuser l'autorisation
+- Elle doit obligatoirement l'accepter
+- Elle doit déplacer la compétition fédérale
+- Elle doit consulter les joueurs
+> GdB 03.02 art. 2.2.2 : lorsqu'un tournoi est organisé aux mêmes dates qu'une compétition fédérale, l'autorisation peut être refusée.
+
+Q tou-015 | D: 1 | R: 03.02 3.2.2
+Dans quel délai le juge-arbitre doit-il saisir son rapport sur Poona après un tournoi ?
+- 48 heures
+- 3 jours
++ 5 jours
+- 15 jours
+> GdB 03.02 art. 3.2.2 et 03.04 §3 : le juge-arbitre saisit son rapport sur Poona dans les 5 jours suivant la compétition (sauf règlement particulier).
+
+Q tou-016 | D: 1 | R: 03.02 3.2.3
+Qui importe le fichier des résultats d'un tournoi sur Poona, et dans quel délai ?
++ Le GEO principal, dans les 3 jours suivant la compétition
+- Le juge-arbitre, le soir même
+- La ligue, sous 15 jours
+- Le club du vainqueur
+> GdB 03.02 art. 3.2.3 et 03.04 §4 : le GEO principal importe le fichier des résultats dans les 3 jours suivant la compétition (sauf règlement particulier).
+
+Q tou-017 | D: 2 | R: 03.04 4
+Combien de temps le juge-arbitre doit-il conserver une copie du fichier des résultats et de son rapport ?
+- Jusqu'à l'homologation
+- Un mois
++ Douze mois
+- Cinq ans
+> GdB 03.04 §3 et §4 : le JA conserve une copie de son rapport et une copie du fichier des résultats pendant douze mois (03.02 art. 3.2.4 : il doit dans tous les cas conserver une copie du fichier).
+
+Q tou-018 | D: 1 | R: 03.02 3.1.3
+Sans information contraire de l'instance qui l'a autorisé, quand un tournoi est-il homologué ?
+- Le lendemain
+- À J+8
++ À J+30
+- À la fin de la saison
+> GdB 03.02 art. 3.1.3 : sans information contraire des instances ayant autorisé la compétition, le tournoi est homologué à J+30.
+
+Q tou-019 | D: 2 | R: 03.02 3.1.2
+Au vu de quels éléments l'homologation d'un tournoi est-elle décidée ?
++ Le respect des règlements et de l'équité sportive (qualification des JA, confection des tableaux, horaires)
++ Le respect des éléments de la demande d'autorisation (tableaux, nom du JA, volant officiel…)
++ Le versement de la participation fédérale
+- Le nombre de spectateurs
+> GdB 03.02 art. 3.1.2 : ces conditions sont jugées au vu des tableaux, du rapport du juge-arbitre ou de toute autre pièce ; seules les compétitions autorisées peuvent être homologuées.
+
+Q tou-020 | D: 2 | R: 03.02 4.1.2
+Un tournoi n'a pas respecté les règlements et n'est pas homologué. Quelle autre conséquence est possible pour l'organisateur ?
++ Des pénalités sportives, par exemple une interdiction d'organiser pendant une durée donnée
+- La radiation du club
+- La suppression des licences des joueurs
+- Aucune autre conséquence
+> GdB 03.02 art. 4.1.2 : la non-homologation peut être assortie d'autres pénalités sportives (interdiction d'organisation pour une durée donnée) ; l'instance peut néanmoins valider les résultats pour le classement (4.1.3).
+
+Q tou-021 | D: 2 | R: 03.02 2.3.3
+Selon le règlement des tournois, quand faut-il, dans la mesure du possible, faire appel à des arbitres diplômés ?
++ Pour les demi-finales et finales, avec des juges de service notamment en double
+- Pour tous les matchs
+- Uniquement pour les tableaux N
+- Jamais en tournoi privé
+> GdB 03.02 art. 2.3.3 : dans la mesure du possible, les demi-finales et finales sont arbitrées par des arbitres diplômés, secondés notamment pour les doubles par des juges de service.
+
+Q tou-022 | D: 2 | R: 03.04 4
+Qui intègre les résultats d'une compétition fédérale nationale individuelle (championnat de France) dans Poona ?
++ Le juge-arbitre principal, le dimanche soir de la compétition
+- Le GEO sous 3 jours
+- La ligue organisatrice sous 15 jours
+- Le secrétariat de la vie sportive sous 21 jours
+> GdB 03.04 §4 : le JA principal de chaque compétition fédérale nationale individuelle intègre les résultats le dimanche soir ; les responsables interclubs sous 21 jours ; le GEO sous 3 jours pour les autres compétitions.
+L: JALC JAFA JAFC
+
+Q tou-023 | D: 2 | R: 03.04 2
+Que doit utiliser l'organisateur pour gérer la compétition ?
++ Un logiciel agréé par la FFBaD, capable de produire un fichier de résultats compatible avec Poona (ex. BadNet, BadPlus)
+- N'importe quel tableur
+- Une feuille papier uniquement
+- Le logiciel BWF obligatoirement
+> GdB 03.04 §2 et annexe 13 du RGC : logiciel agréé générant un fichier compatible Poona ; logiciels agréés pour l'individuel : BadNet et BadPlus ; pour les équipes : BadNet et ICBad.
+
+Q tou-024 | D: 2 | R: 03.02 2.3.1
+Le juge-arbitre pressenti pour un tournoi fait l'objet d'une sanction en cours en tant que joueur. Peut-il être désigné ?
+- Oui, la sanction ne concerne que son activité de joueur
++ Non : l'autorisation suppose l'absence de toute sanction comme joueur ou comme officiel technique pour les juges-arbitres
+- Oui, s'il est JALC
+- Oui, si la ligue l'accepte
+> GdB 03.02 art. 2.3.1 : parmi les critères d'autorisation figure l'absence de toute sanction comme joueur ou comme officiel technique pour les juges-arbitres.
+
+Q tou-025 | D: 1 | R: 03.02 2.3.1
+Les officiels techniques présents sur un tournoi doivent :
++ porter les tenues officielles
+- porter la tenue du club organisateur
+- porter une tenue de joueur
+- porter une tenue libre
+> GdB 03.02 art. 2.3.1 : le port des tenues officielles pour les officiels techniques présents fait partie des critères d'autorisation ; voir aussi RGC 2.8.2.

@@ -1,0 +1,263 @@
+# Cartons, forfaits, pénalités sportives et réclamations (GdB 07.01, 07.04, 07.05, 07.06).
+@theme sanctions
+@levels JALA JALC JAFA JAFC
+
+Q sac-001 | D: 1 | R: 07.04 1
+Que matérialise chaque carton ?
++ Jaune : avertissement pour mauvaise conduite ; rouge : faute pour mauvaise conduite ; noir : disqualification
+- Jaune : faute ; rouge : avertissement ; noir : disqualification
+- Jaune : retard ; rouge : faute ; noir : exclusion du gymnase
+- Jaune : avertissement ; rouge : disqualification ; noir : suspension
+> GdB 07.04 §1 : le carton est la représentation visuelle de l'article 16.7 des règles (instruction 5.17) : jaune = avertissement, rouge = faute, noir = disqualification pour mauvaise conduite.
+
+Q sac-002 | D: 1 | R: 07.04 1
+Qui est habilité à donner des cartons ?
++ Les arbitres et les juges-arbitres
+- Les arbitres, les juges de service et les juges de ligne
+- Le juge-arbitre uniquement
+- Tout officiel technique et le GEO
+> GdB 07.04 §1 : seuls les arbitres et les juges-arbitres sont habilités à donner des cartons.
+
+Q sac-003 | D: 1 | R: 07.04 3.3
+Un joueur reçoit trois cartons jaunes en douze mois glissants. Quelle sanction s'applique ?
+- Un avertissement écrit
++ Une interdiction de toute compétition pendant deux mois
+- Une suspension de six mois
+- Une amende
+> GdB 07.04 §3.3 : un joueur sanctionné trois fois par un carton jaune dans une période de douze mois glissants est interdit de toute compétition pendant deux mois.
+
+Q sac-004 | D: 1 | R: 07.04 3.2
+Combien de cartons rouges en douze mois glissants entraînent une interdiction de compétition de deux mois ?
+- Un
++ Deux
+- Trois
+- Quatre
+> GdB 07.04 §3.2 : un joueur sanctionné deux fois par un carton rouge dans une période de douze mois glissants est interdit de toute compétition pendant deux mois.
+
+Q sac-005 | D: 2 | R: 07.04 3.2
+À partir de quand s'applique la suspension de deux mois liée aux cartons jaunes ou rouges ?
++ De plein droit, à compter du troisième lundi suivant le dernier jour de la compétition
+- Dès le lendemain de la compétition
+- Après décision de la commission disciplinaire
+- Au début de la saison suivante
+> GdB 07.04 §3.2 et 3.3 : la suspension est applicable de plein droit à compter du troisième lundi suivant le dernier jour de la compétition ; chaque carton est notifié par courriel au joueur, avec copie au président de son club.
+
+Q sac-006 | D: 1 | R: 07.04 3.1
+Quelle est la conséquence immédiate d'un carton noir ?
++ La disqualification immédiate du joueur de la compétition en cours et l'engagement d'office de poursuites disciplinaires
+- La perte du match en cours seulement
+- Une amende fixe
+- Une suspension automatique d'un an
+> GdB 07.04 §3.1 : un carton noir entraîne la disqualification immédiate du joueur de la compétition en cours ; des poursuites disciplinaires sont engagées d'office (article 10 du règlement disciplinaire).
+
+Q sac-007 | D: 2 | R: 07.04 3.1
+Après un carton noir, le joueur est suspendu à titre conservatoire jusqu'à la décision de première instance. Quelle est la durée maximale de cette mesure ?
+- Un mois
++ Deux mois à compter du fait générateur
+- Six mois
+- Jusqu'à la fin de la saison
+> GdB 07.04 §3.1 : le licencié disqualifié est suspendu à titre conservatoire de toute compétition jusqu'à la décision de la commission disciplinaire de première instance ; cette mesure ne peut excéder deux mois à compter du fait générateur.
+
+Q sac-008 | D: 1 | R: 07.04 2
+Avant son départ de la compétition, que remet le juge-arbitre à un joueur qui a reçu un carton noir ?
++ Un formulaire de notification exposant les procédures, les sanctions encourues et les moyens de défense, à signer en deux exemplaires
+- Une amende à régler
+- Une copie de son rapport de juge-arbitre
+- Rien, la Fédération notifie plus tard
+> GdB 07.04 §2 : le JA remet un formulaire (notification de disqualification, 07.04.F01) renseigné avec l'identité, le numéro de licence, la compétition et la date ; le licencié le signe en deux exemplaires, dont l'un revient au JA.
+
+Q sac-009 | D: 2 | R: 07.04 2
+Un joueur mineur disqualifié refuse de signer le formulaire de notification. Que fait le juge-arbitre ?
++ Il fait signer le responsable d'équipe (ou son délégué) pour le mineur ; en cas de refus, il sollicite la signature de tout licencié présent témoignant du refus
+- Il annule la disqualification
+- Il signe lui-même à la place du joueur
+- Il appelle la police
+> GdB 07.04 §2 : pour un mineur, le responsable d'équipe ou la personne qu'il délègue signe ; en cas de refus de signature, le JA sollicite la signature de tout licencié présent témoignant du refus.
+
+Q sac-010 | D: 2 | R: 07.04 2.3
+Qui traite un carton noir après la compétition ?
+- La ligue où s'est déroulée la compétition
++ La Fédération : le JA envoie une copie du formulaire et un rapport circonstancié au secrétariat arbitrage de la FFBaD
+- Le club du joueur
+- Le comité départemental
+> GdB 07.04 §2.3 : en cas de carton noir, le traitement est effectué par la Fédération ; le JA joint la copie du formulaire à son rapport pour la ligue et envoie copie et rapport circonstancié au secrétariat arbitrage de la FFBaD. Les cartons jaunes et rouges sont traités par la ligue sous deux semaines (§2.1-2.2).
+
+Q sac-011 | D: 2 | R: 07.04 2.1
+Dans quel délai la ligue traite-t-elle l'annexe « Incidents » du rapport de JA en cas de carton jaune ou rouge ?
+- 48 heures
+- Une semaine
++ Deux semaines au maximum suivant le dernier jour de la compétition
+- Un mois
+> GdB 07.04 §2.1 et 2.2 : traitement par la ligue où s'est déroulée la compétition, dans un délai maximum de deux semaines suivant le dernier jour de la compétition.
+
+Q sac-012 | D: 1 | R: 07.04 4
+Où le règlement relatif aux cartons doit-il être affiché ou disponible ?
++ Sur les sites de compétition et à la table de marque ; il doit aussi être mentionné sur les formulaires d'inscription
+- Uniquement sur le site de la FFBaD
+- Dans le vestiaire des arbitres
+- Nulle part, il est connu de tous
+> GdB 07.04 §4 : le règlement doit être mentionné sur tous les formulaires d'inscription, affiché sur les sites de compétition et disponible à la table de marque.
+
+Q sac-013 | D: 2 | R: 07.04 2
+Où le juge-arbitre consigne-t-il tous les cartons distribués ?
++ Dans l'annexe « Incidents » de son rapport, transmis aux instances concernées
+- Sur la feuille de match uniquement
+- Dans un courriel au club du joueur
+- Il ne consigne que les cartons noirs
+> GdB 07.04 §2 : tous les cartons sont consignés par le juge-arbitre dans son rapport (annexe « Incidents »).
+
+Q sac-014 | D: 1 | R: 07.05 1
+Un joueur inscrit ne se présente pas, sans prévenir et sans raison valable. Comment le juge-arbitre qualifie-t-il ce forfait ?
++ Forfait volontaire
+- Forfait involontaire
+- Abandon
+- Absence non sanctionnable
+> GdB 07.05 §1 : le forfait volontaire consiste, pour un joueur inscrit, à ne pas se présenter sans raison valable ou sans prévenir, ou à renoncer sans raison valable à jouer un match.
+
+Q sac-015 | D: 1 | R: 07.05 1
+Dans quel délai un joueur doit-il justifier un forfait involontaire (absence pour raison valable) ?
+- 48 heures
++ 5 jours ouvrables au maximum après le dernier jour de la compétition, sur MyFFBaD
+- 8 jours calendaires
+- Avant la compétition suivante
+> GdB 07.05 §1 : la raison valable doit être dûment justifiée au maximum 5 jours ouvrables après le dernier jour de la compétition, sur MyFFBaD.
+
+Q sac-016 | D: 1 | R: 07.05 2.1
+Quelle est la sanction prévue pour un premier forfait volontaire ?
++ Une suspension de 2 mois
+- Un avertissement
+- Une suspension de 6 mois
+- Une amende de 50 euros
+> GdB 07.05 §2.1 : forfait volontaire = suspension de 2 mois ; forfait volontaire avec récidive = 6 mois ; participation en étant suspendu = 6 mois.
+
+Q sac-017 | D: 2 | R: 07.05 2.1
+Un joueur suspendu pour forfait participe quand même à un tournoi. Quelle sanction encourt-il ?
+- 2 mois de suspension
++ 6 mois de suspension
+- 1 an de suspension
+- Une simple amende
+> GdB 07.05 §2.1 : la participation en étant suspendu est sanctionnée par une suspension de 6 mois (comme un forfait volontaire avec récidive).
+
+Q sac-018 | D: 2 | R: 07.05 1
+Un joueur absent appelle le matin pour dire qu'il est malade, mais n'a pas de justificatif. Comment le juge-arbitre indique-t-il ce forfait ?
++ Comme « à justifier » : si un justificatif non équivoque est transmis dans les délais, le responsable régional le déclarera involontaire
+- Comme volontaire, sans recours possible
+- Comme involontaire, sans justificatif
+- Il ne l'indique pas
+> GdB 07.05 §1 : le JA est le seul juge du caractère du forfait ; si le justificatif n'est pas présent le jour de la compétition, il indique que le forfait « reste à justifier » ; le responsable régional le déclare involontaire si un justificatif non équivoque est transmis dans les délais.
+
+Q sac-019 | D: 2 | R: 07.05 2.2
+Un joueur licencié en Centre-Val de Loire est forfait sur un tournoi en Île-de-France. Quelle ligue assure le suivi du forfait ?
++ La ligue Île-de-France, où s'est déroulée la compétition
+- La ligue Centre-Val de Loire, ligue du joueur
+- La Fédération
+- Les deux ligues conjointement
+> GdB 07.05 §2.2 : le suivi des forfaits s'effectue au niveau de la ligue sur laquelle la compétition s'est déroulée, même si la compétition est nationale.
+
+Q sac-020 | D: 2 | R: 07.05 1
+À partir de quand une sanction pour forfait devient-elle applicable ?
++ De plein droit, à compter du troisième lundi suivant le dernier jour de la compétition
+- Le lendemain de la compétition
+- Après audition du joueur
+- À la fin de la saison
+> GdB 07.05 §1 : la sanction devient applicable de plein droit à compter du troisième lundi suivant le dernier jour de la compétition ; les communications se font par courriel.
+
+Q sac-021 | D: 1 | R: 07.05 1
+Où le juge-arbitre consigne-t-il les forfaits ?
++ Dans son rapport, onglet « Forfaits »
+- Sur la feuille de match
+- Uniquement sur le tableau affiché
+- Dans un courriel à la ligue
+> GdB 07.05 §1 : tous les forfaits sont consignés par le juge-arbitre dans son rapport (onglet « Forfaits »).
+
+Q sac-022 | D: 2 | R: 07.05 1
+Un joueur arrive avec deux heures de retard pour une raison valable (accident sur l'autoroute), alors que son match aurait dû être joué. Comment peut-il être qualifié ?
++ Forfait involontaire, à l'appréciation du juge-arbitre, s'il n'est plus possible de jouer sans perturber durablement la compétition
+- Forfait volontaire obligatoirement
+- Abandon
+- Il doit obligatoirement jouer, l'échéancier étant décalé
+> GdB 07.05 §1 : est un forfait involontaire le fait, pour une raison valable appréciée par le JA, d'arriver trop en retard pour jouer un match sans perturber durablement la compétition.
+
+Q sac-023 | D: 1 | R: 07.05 1
+Un joueur déclaré forfait volontaire le samedi peut-il jouer son double prévu le dimanche ?
+- Oui, le forfait ne concerne qu'un tableau
++ Non, un forfait volontaire entraîne le retrait de tous les tableaux de la compétition
+- Oui, avec l'accord de son partenaire
+- Oui, s'il paie une amende
+> GdB 07.05 §1 et RGC 2.18.2 : un forfait volontaire entraîne le retrait de tous les tableaux de la compétition.
+
+Q sac-024 | D: 2 | R: 07.06 1.1
+Un joueur estime qu'une faute (carton rouge) prononcée contre lui est injustifiée. Peut-il la faire annuler par une instance fédérale ?
+- Oui, devant la commission compétitions
++ Non : c'est une décision de fait, qui ne peut être remise en cause par une instance fédérale (seules certaines erreurs de forme peuvent être prises en compte dans les suites disciplinaires)
+- Oui, devant la commission d'appel
+- Oui, s'il a un enregistrement vidéo
+> GdB 07.06 §1.1 : les décisions des officiels de terrain sont des décisions de fait définitives ; la prononciation d'une faute ou d'une disqualification aussi. Les suites disciplinaires peuvent prendre en compte des erreurs de forme (officiel non habilité, erreur sur la personne…).
+
+Q sac-025 | D: 2 | R: 07.06 2
+Qu'est-ce qu'une « pénalité sportive » ?
++ Une mesure d'ordre intérieur (retrait de points, amende, interdiction d'organiser…) visant à faire respecter les règlements sportifs, prévue par le règlement de la compétition
+- Une sanction disciplinaire prononcée par la commission de discipline
+- Une décision de l'arbitre sur le terrain
+- Une sanction pénale
+> GdB 07.06 §2 : les pénalités sportives sanctionnent des infractions aux règlements sportifs ne relevant ni d'une décision de fait ni de poursuites disciplinaires ; elles ne peuvent être prononcées que si elles sont prévues dans le règlement de la compétition et peuvent faire l'objet d'une réclamation.
+L: JALC JAFA JAFC
+
+Q sac-026 | D: 3 | R: 07.06 1.2
+Quelle instance est exclusivement compétente pour les infractions relevant de la lutte contre le dopage ?
++ L'Agence française de lutte contre le dopage
+- La commission disciplinaire fédérale
+- La commission médicale nationale
+- Le juge-arbitre
+> GdB 07.06 §1.2 : les infractions relevant de la lutte contre le dopage relèvent de la compétence exclusive de l'Agence française de lutte contre le dopage (AFLD).
+L: JALC JAFA JAFC
+
+Q sac-027 | D: 3 | R: 07.01 3.1.1
+Dans quel délai une réclamation doit-elle être adressée à la commission d'examen des réclamations et litiges de première instance ?
++ Dans les sept jours suivant le fait générateur ou la réception de la décision faisant grief, avec les droits de consignation
+- Dans les huit jours, sans frais
+- Dans le mois
+- Avant la fin de la compétition
+> GdB 07.01 art. 3.1.1 : sept jours, accompagnée des droits de consignation (annexe 1). L'appel devant la commission fédérale d'appel se fait aussi dans les sept jours suivant la notification (art. 4.1.2).
+L: JALC JAFA JAFC
+
+Q sac-028 | D: 1 | R: 03.01 2.24
+Selon le RGC, dans quel délai une réclamation relative au déroulement d'une compétition doit-elle être introduite auprès de la commission compétitions (sauf disposition contraire) ?
+- 48 heures
+- 5 jours
++ 8 jours, par écrit
+- 1 mois
+> RGC 2.24 : toute réclamation relative au déroulement d'une compétition est à introduire par écrit dans les huit jours auprès de la commission compétitions compétente.
+
+Q sac-029 | D: 2 | R: 07.04 3.1
+Un joueur disqualifié (carton noir) en simple était qualifié pour la demi-finale de double. Peut-il monter sur le podium de son tableau de simple (troisième place déjà acquise) ?
++ Non : la disqualification met fin à sa compétition ; les récompenses, points et classement peuvent être suspendus à titre conservatoire jusqu'à la décision disciplinaire
+- Oui, la disqualification ne vaut que pour le match en cours
+- Oui, s'il s'excuse publiquement
+- Oui, mais sans médaille
+> GdB 07.04 §3.1 et instruction 3.6.2.2 : la disqualification vaut pour tous les tableaux de la compétition ; la FAQ juge-arbitrage de la CFOT précise que le joueur ne doit pas être récompensé, les récompenses pouvant être suspendues à titre conservatoire.
+
+Q sac-030 | D: 2 | R: 07.04 1
+Dans un match en auto-arbitrage, le juge-arbitre constate une mauvaise conduite flagrante d'un joueur sur le terrain pendant le match. Peut-il lui donner un carton ?
++ Oui : seuls les arbitres et juges-arbitres peuvent donner des cartons ; en l'absence d'arbitre, le JA est responsable de la discipline sur la surface de jeu
+- Non, seul un arbitre peut donner un carton
+- Oui, mais uniquement un carton jaune
+- Non, il doit faire un rapport à la commission disciplinaire
+> GdB 07.04 §1 et RGC 2.8.1 : le JA peut donner les cartons ; il est responsable de la discipline sur la surface de jeu en l'absence d'arbitre. En auto-arbitrage, il montre lui-même le carton et fait l'annonce.
+
+Q sac-031 | D: 2 | R: 07.08 3.2
+Après son match, un joueur regagne les tribunes et insulte un officiel depuis les gradins. Quelle est la bonne réaction du juge-arbitre ?
++ Faire un rapport circonstancié pour la commission disciplinaire (le joueur n'étant plus sur l'aire de jeu, un carton n'est pas adapté)
+- Lui donner un carton rouge depuis la table de marque
+- Le disqualifier immédiatement d'un carton noir
+- Ignorer l'incident
+> Un carton se donne pour un comportement sur l'aire de jeu (instructions 5.17.10 et 5.17.11). En dehors, l'infraction au code de conduite des joueurs (07.08 §3.2) relève d'un rapport à la commission disciplinaire (FAQ JA de la CFOT).
+
+Q sac-032 | D: 3 | R: 07.06 2.2
+Quand une pénalité sportive prend-elle effet ?
++ Dès le fait générateur si le règlement le prévoit explicitement ; sinon, après notification aux contrevenants par un moyen prouvant la date de réception
+- Toujours le lendemain de la compétition
+- Uniquement après appel
+- Au début de la saison suivante
+> GdB 07.06 §2.2 : prise d'effet dès le fait générateur si le règlement correspondant le prévoit explicitement ; dans tous les autres cas, notification par tout moyen prouvant la date de réception.
+L: JAFA JAFC

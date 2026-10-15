@@ -1,0 +1,548 @@
+# Instructions aux officiels techniques (partie II des Règles officielles du badminton, mai 2026).
+@theme instructions
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+
+Q ins-001 | D: 1 | R: REGLES Instr. 2.1
+Quels sont les rôles et responsabilités d'un juge-arbitre adjoint nommé sur une compétition ?
+- Il assiste le juge-arbitre mais ne peut prendre aucune décision
++ Les mêmes rôles et responsabilités que le juge-arbitre
+- Il ne s'occupe que de la table de marque
+- Il remplace le juge-arbitre uniquement en son absence
+> Instruction 2.1 : lorsqu'ils sont nommés, les juges-arbitres adjoints ont les mêmes rôles et responsabilités que le juge-arbitre. Leur décision est considérée comme celle du juge-arbitre (instruction 4.1.3.2).
+
+Q ins-002 | D: 2 | R: REGLES Instr. 4.1.3.2
+Un joueur conteste auprès du juge-arbitre principal une décision prise par le juge-arbitre adjoint. Que se passe-t-il ?
+- Le juge-arbitre principal réexamine la décision
++ Il n'y a pas d'appel : la décision d'un JA adjoint est considérée comme une décision du juge-arbitre
+- Le joueur peut saisir le comité d'organisation
+- La décision est suspendue jusqu'à la fin de la compétition
+> Instruction 4.1.3.2 : une décision d'un juge-arbitre adjoint sera considérée comme une décision du juge-arbitre ; il n'y a aucun appel d'une telle décision au juge-arbitre.
+
+Q ins-003 | D: 1 | R: REGLES Instr. 2.7
+À quel moment commence la responsabilité de l'arbitre d'un match ?
+- À l'annonce « Jouez »
++ Dès son entrée sur l'aire de jeu avant le match, jusqu'à ce qu'il quitte l'aire de jeu à la fin du match
+- Au moment du tirage au sort
+- Au premier service
+> Instruction 2.7 : la responsabilité de l'arbitre prend effet dès son entrée sur l'aire de jeu avant le match jusqu'à ce qu'il quitte l'aire de jeu à la fin de son match.
+
+Q ins-004 | D: 2 | R: REGLES Instr. 2.7
+Comment l'aire de jeu est-elle définie dans les instructions ?
++ La surface totale sur laquelle les terrains sont posés et où les spectateurs ne sont pas autorisés
+- Le terrain et ses lignes uniquement
+- Le gymnase dans son ensemble
+- Le terrain et un espace de 2 mètres autour
+> Instruction 2.7 : l'aire de jeu est la surface totale sur laquelle les terrains sont posés et où les spectateurs ne sont pas autorisés.
+
+Q ins-005 | D: 1 | R: REGLES Instr. 2.5
+Un juge de ligne a été masqué et ne peut pas juger. L'arbitre n'a pas pu voir non plus et il n'y a pas de système de révision. L'arbitre annonce :
+- faute contre le dernier frappeur
++ let
+- le point pour le serveur
+- il demande l'avis des joueurs
+> Instruction 2.5 : lorsqu'un officiel n'a pu prendre de décision, l'arbitre décide ; si aucune décision ne peut être prise, un let doit être annoncé.
+
+Q ins-006 | D: 2 | R: REGLES Instr. 3.1.2
+Le juge-arbitre peut-il déléguer la désignation des arbitres pour les matchs ?
+- Non, il doit tout faire lui-même
++ Oui, à un JA adjoint ou à un coordinateur des arbitres, mais la responsabilité globale lui incombe
+- Oui, et la responsabilité passe alors au coordinateur
+- Oui, au comité d'organisation uniquement
+> Instruction 3.1.2 : la désignation peut être déléguée aux JA adjoints ou à d'autres officiels (coordinateur des arbitres), mais la responsabilité globale incombe au juge-arbitre. Des officiels neutres sont désignés dans la mesure du possible.
+
+Q ins-007 | D: 1 | R: REGLES Instr. 3.1.4
+Selon les instructions, quand le juge-arbitre (ou un adjoint) doit-il être disponible sur l'aire de jeu ?
++ Continuellement, bien avant le début du programme et après la fin de la compétition chaque jour
+- Uniquement pendant les phases finales
+- Seulement lorsqu'un arbitre l'appelle
+- Pendant les heures de match, une pause d'une heure étant possible
+> Instruction 3.1.4 (et RGC 2.8.1) : le juge-arbitre ou un adjoint doit être continuellement disponible sur l'aire de jeu, bien avant le début et après la fin de la compétition chaque jour.
+
+Q ins-008 | D: 2 | R: REGLES Instr. 3.1.5
+Un incident majeur se produit pendant le tournoi. Que prévoient les instructions ?
+- Le signaler uniquement dans le rapport final
++ Le signaler le plus tôt possible à l'instance responsable, avec les preuves disponibles et les déclarations des officiels impliqués
+- En informer seulement le club organisateur
+- Attendre la décision de la commission disciplinaire
+> Instruction 3.1.5 : tout incident majeur doit être signalé le plus tôt possible, accompagné des preuves disponibles et des déclarations des officiels impliqués ; un rapport complet suit après le tournoi.
+
+Q ins-009 | D: 2 | R: REGLES Instr. 3.2.3
+Bien avant le tournoi, quel document le juge-arbitre doit-il demander à l'instance sportive ?
++ Le rapport du juge-arbitre de l'édition précédente
+- La liste des arbitres de la saison précédente
+- Les résultats de l'année précédente
+- Le budget de l'organisateur
+> Instruction 3.2.3 : le JA demande le rapport de l'édition précédente pour se familiariser avec les problèmes majeurs ; ce rapport est confidentiel et n'est pas transmis hors de l'équipe des juges-arbitres.
+
+Q ins-010 | D: 1 | R: REGLES Instr. 3.2.4
+Qui approuve le règlement particulier avant sa publication ?
+- Le GEO seul
++ Le juge-arbitre, assisté de l'instance responsable ou de l'organisation
+- La ligue uniquement
+- Le président du club organisateur
+> Instruction 3.2.4 : le juge-arbitre approuve le règlement particulier avant sa publication ; il vérifie qu'il contient toutes les informations requises et que le programme provisoire est réaliste et équitable.
+
+Q ins-011 | D: 2 | R: REGLES Instr. 3.2.4.3
+Le programme de compétition provisoire peut-il être publié avant l'approbation du règlement particulier ?
+- Oui, s'il est indiqué « provisoire »
++ Non
+- Oui, si le GEO l'a validé
+- Oui, sur Poona uniquement
+> Instruction 3.2.4.3 : le programme de compétition provisoire ne doit pas être publié avant l'approbation du règlement particulier.
+
+Q ins-012 | D: 2 | R: REGLES Instr. 3.2.5
+À quoi sert la check-list que le juge-arbitre envoie aux organisateurs bien avant le tournoi ?
++ À s'assurer que les éléments clés d'un tournoi réussi sont en place et à développer des plans pour combler les lacunes
+- À évaluer les arbitres
+- À établir le tirage au sort
+- À calculer les indemnités du juge-arbitre
+> Instruction 3.2.5 : la check-list, adaptée au niveau du tournoi et à l'expérience du comité d'organisation, vise à confirmer les éléments clés (installations, santé et sécurité, logistique) et à combler les lacunes.
+
+Q ins-013 | D: 2 | R: REGLES Instr. 3.2.7
+Que doit vérifier le juge-arbitre avant d'approuver la publication du tirage au sort ?
++ Le placement des têtes de série, des places vacantes et des qualifiés
++ La séparation des inscrits conformément au RGC ou au règlement particulier
+- Les horaires de transport des joueurs
+- Le montant des droits d'inscription encaissés
+> Instruction 3.2.7.1 : le JA vérifie que les têtes de série, les places vacantes et les qualifiés sont placés correctement et que la séparation est conforme au RGC ou au règlement particulier.
+
+Q ins-014 | D: 1 | R: REGLES Instr. 3.3.6
+Lors de l'inspection de l'aire de jeu, que vérifie notamment le juge-arbitre ?
++ La qualité et la sécurité de la surface de jeu
++ L'espace suffisant autour des terrains et l'absence de lumière gênante en fond
++ L'éclairage de chaque terrain
+- La couleur des maillots des joueurs
+> Instruction 3.3.6 : surface de bonne qualité et sûre, espace et dégagements suffisants, arrière-plans sans lumière gênante, éclairage adéquat et uniforme, placement du matériel.
+
+Q ins-015 | D: 3 | R: REGLES Instr. 3.3.11 | L: JALC JAFA JAFC
+Qui décide qui tient la copie de travail officielle du fichier du logiciel de gestion du tournoi ?
+- Le GEO
++ Le juge-arbitre
+- La ligue
+- Le responsable informatique du club
+> Instruction 3.3.11 : le juge-arbitre décide et communique qui a la responsabilité de maintenir en permanence la copie de travail officielle du fichier du logiciel de gestion du tournoi.
+
+Q ins-016 | D: 2 | R: REGLES Instr. 3.4.2 | L: JALC JAFA JAFC
+Comment le juge-arbitre doit-il conduire la réunion des responsables d'équipes ?
++ De manière professionnelle mais détendue : parler clairement, lentement, avec un langage simple, et faire une pause après chaque partie pour les questions
+- Rapidement, en distribuant un document sans commentaire
+- En laissant les capitaines animer la réunion
+- Uniquement par écrit
+> Instruction 3.4.2 : autorité calme et accessibilité ; parler clairement, lentement, langage simple, interprète si nécessaire, pause après chaque partie pour les questions.
+
+Q ins-017 | D: 3 | R: REGLES Instr. 3.4.5 | L: JAFA JAFC
+Dans quels cas le juge-arbitre peut-il refaire un tirage au sort (le jeu n'ayant pas commencé) ?
++ Une erreur a été commise dans le contrôle des entrées ou lors du tirage
++ Dans des circonstances exceptionnelles, le tableau principal est fortement déséquilibré et il n'y a pas de qualification
++ Un tableau de qualification est très déséquilibré (plus d'une position qualificative non remplie)
+- Un joueur tête de série demande à changer de moitié de tableau
+> Instruction 3.4.5 : le tirage n'est refait que si le jeu n'a pas commencé et dans ces trois situations. Voir aussi l'article 3.2.5.7 du RGC (jamais après le lancement du tableau).
+
+Q ins-018 | D: 3 | R: REGLES Instr. 3.4.7 | L: JAFA JAFC
+Une nation (ou un club) n'était pas représentée à la réunion des responsables d'équipes. Que fait le juge-arbitre ?
++ Il le documente dans son rapport
+- Il retire ses joueurs du tournoi
+- Il inflige un carton jaune au responsable
+- Rien
+> Instruction 3.4.7 : le JA documente dans son rapport tout membre dont l'équipe ou les joueurs n'étaient pas représentés à la réunion des responsables d'équipes.
+
+Q ins-019 | D: 2 | R: REGLES Instr. 3.4.8.3
+Avant le briefing des arbitres, quel point spécifique à la salle le juge-arbitre doit-il vérifier ?
++ L'existence de règlements locaux concernant les « lets » ou les « fautes » lorsqu'un volant touche un obstacle
+- La marque des chaises d'arbitre
+- Les horaires d'ouverture de la buvette
+- Le nombre de places en tribune
+> Instruction 3.4.8.3 : vérifier s'il y a des règlements locaux concernant les lets ou les fautes si un volant touche un obstacle ; ces règles figurent aussi dans le règlement particulier (annexe 02 du RGC).
+
+Q ins-020 | D: 2 | R: REGLES Instr. 3.4.10.8
+Lors du briefing des arbitres, le juge-arbitre leur rappelle leurs obligations au titre du code de conduite, en particulier :
++ concernant les paris et l'utilisation des réseaux sociaux
+- concernant le choix de leurs tenues personnelles
+- concernant la tarification de leurs indemnités
+- concernant le classement des joueurs
+> Instruction 3.4.10.8 : rappeler aux arbitres leurs obligations en vertu du code de déontologie et du code de conduite des officiels techniques, en particulier les paris et l'utilisation des médias sociaux.
+
+Q ins-021 | D: 2 | R: REGLES Instr. 3.5.1.6
+Le juge-arbitre peut-il aller sur un terrain pendant un match sans être appelé par l'arbitre ?
+- Non, jamais
++ Oui, si nécessaire
+- Uniquement entre deux sets
+- Uniquement en phase finale
+> Instruction 3.5.1.6 : le juge-arbitre peut, si nécessaire, aller sur le terrain pendant un match sans être appelé par l'arbitre.
+
+Q ins-022 | D: 1 | R: REGLES Instr. 3.5.4
+Qui doit, de préférence, réaliser le test des volants avant le début de la compétition ?
++ Un joueur participant au tournoi (de préférence un joueur masculin) ou une personne qualifiée approuvée par le juge-arbitre
+- Le juge-arbitre lui-même
+- Le fournisseur des volants
+- Chaque joueur avant son match
+> Instruction 3.5.4.1 : les volants devraient être testés par un joueur actif dans le tournoi, de préférence un joueur masculin, ou par une personne qualifiée approuvée par le juge-arbitre.
+
+Q ins-023 | D: 2 | R: REGLES Instr. 3.5.4
+Lors du test des volants supervisé par le juge-arbitre :
++ toutes les vitesses disponibles sont testées des deux extrémités du terrain
++ le JA tient compte de la façon dont les volants ont été frappés (force, trajectoire, position sur la ligne de fond)
+- le testeur choisit la vitesse retenue
+- le JA annonce sa décision au testeur et lui demande son avis
+> Instruction 3.5.4 : toutes les vitesses sont testées des deux côtés, le JA corrige le testeur si nécessaire, tient compte de la frappe, communique sa décision au contrôleur des volants mais ne la communique pas au testeur et ne lui demande pas son avis.
+
+Q ins-024 | D: 2 | R: REGLES Instr. 3.5.4.6
+Après le test, le joueur qui a testé les volants demande quelle vitesse a été retenue et donne son avis. Que fait le juge-arbitre ?
+- Il lui communique la vitesse et tient compte de son avis
++ Il ne lui communique pas sa décision et ne lui demande pas son opinion
+- Il fait voter les joueurs présents
+- Il refait le test avec un autre joueur
+> Instruction 3.5.4.6 : ne pas communiquer la décision concernant la vitesse des volants au testeur ni lui demander son opinion. La décision est communiquée au contrôleur des volants (3.5.4.5).
+
+Q ins-025 | D: 2 | R: REGLES Instr. 3.5.4.7
+Les volants doivent-ils être testés de nouveau en cours de journée ?
++ Oui, si les conditions de jeu changent considérablement (température, humidité) ou si les observations ou les arbitres le justifient
+- Non, jamais après le test initial
+- Oui, avant chaque match
+- Oui, toutes les deux heures
+> Instructions 3.5.4.7 et 3.5.4.8 : re-tester si les conditions changent considérablement ; si elles ne changent pas et que les volants sont réguliers, il n'est pas nécessaire de tester chaque jour.
+
+Q ins-026 | D: 1 | R: REGLES Instr. 5.13.4
+Qui est le seul à décider de la vitesse des volants à utiliser ?
+- L'arbitre du match
+- Les joueurs d'un commun accord
++ Le juge-arbitre
+- Le comité d'organisation
+> Instruction 5.13.4 et RGC 2.8.1 : le juge-arbitre est le seul juge de la vitesse des volants. Si les deux côtés souhaitent en changer, le juge-arbitre doit être appelé immédiatement.
+
+Q ins-027 | D: 2 | R: REGLES Instr. 3.6.3
+Appelé sur un terrain parce que les deux joueurs veulent changer de vitesse de volant, le juge-arbitre :
++ parle d'abord à l'arbitre pour ajouter ses commentaires à ses propres observations avant de décider
+- accepte automatiquement puisque les deux joueurs sont d'accord
+- refuse systématiquement une fois le match commencé
+- fait refaire un test officiel par chaque joueur
+> Instruction 3.6.3.1 : le JA parle d'abord à l'arbitre ; des tests par les joueurs peuvent être faits mais apportent souvent peu d'information valable.
+
+Q ins-028 | D: 3 | R: REGLES Instr. 3.6.3.2
+Aucun volant de la bonne vitesse n'est disponible. Que permettent exceptionnellement les instructions ?
++ Casser la pointe des plumes, de préférence par le juge de service ou une personne neutre, en dernier recours
+- Utiliser des volants en plastique
+- Laisser chaque joueur préparer ses volants
+- Arrêter la compétition
+> Instruction 3.6.3.2 : casser la pointe des plumes peut exceptionnellement être fait, de préférence par le juge de service ou une autre personne neutre, seulement en dernier recours pour continuer à jouer.
+
+Q ins-029 | D: 2 | R: REGLES Instr. 3.5.3.2
+Quel est le rôle principal du médecin du tournoi lorsqu'il est appelé sur le terrain ?
++ Informer le joueur de la gravité de sa blessure, sans administrer de traitement retardant indûment le jeu
+- Décider si le joueur doit abandonner
+- Soigner le joueur jusqu'à ce qu'il puisse reprendre, quel que soit le temps nécessaire
+- Remplacer le juge-arbitre pour gérer l'incident
+> Instructions 3.5.3.2 et 3.6.1.2 : le médecin agit sous la direction du juge-arbitre ; il informe le joueur de la gravité de la blessure ; la décision de continuer appartient au joueur.
+
+Q ins-030 | D: 1 | R: REGLES Instr. 3.6.1.2
+Un joueur blessé est examiné par le médecin du tournoi. Qui décide de la poursuite du match ?
+- Le médecin
+- Le juge-arbitre
++ Le joueur
+- L'arbitre
+> Instruction 3.6.1.2 : le médecin détermine rapidement s'il est médicalement conseillé de continuer, mais la décision, prise aussi vite que possible, reste au joueur.
+
+Q ins-031 | D: 2 | R: REGLES Instr. 3.6.1.1
+Appelé sur un terrain pour une blessure, que fait d'abord le juge-arbitre ?
++ Il parle à l'arbitre pour connaître les faits, appelle si nécessaire le médecin, et rappelle à l'arbitre de chronométrer le retard
+- Il interroge directement le joueur blessé
+- Il annonce l'abandon du joueur
+- Il suspend tous les matchs de la salle
+> Instruction 3.6.1.1 : le JA se présente immédiatement, parle d'abord à l'arbitre, appelle le médecin si nécessaire (qui attend aux abords du terrain) et rappelle à l'arbitre de chronométrer le retard dû à la blessure.
+
+Q ins-032 | D: 2 | R: REGLES Instr. 3.6.1.3
+Combien de personnes le juge-arbitre peut-il autoriser sur le terrain pour assister un joueur blessé ?
+- Une
++ Deux au maximum, la même considération étant accordée au camp adverse
+- Trois
+- Autant que nécessaire
+> Instruction 3.6.1.3 : le JA peut permettre à un maximum de deux personnes d'assister et conseiller le joueur blessé et d'aider à la traduction ; en toute équité, même considération pour le camp adverse.
+
+Q ins-033 | D: 2 | R: REGLES Instr. 3.6.1.2
+Pendant un échange, un joueur saigne légèrement au genou. Le médecin peut-il intervenir ?
++ Oui, pour un secours rapide comme un pansement sur le saignement ; un traitement prenant du temps n'est autorisé que pendant les arrêts de jeu réguliers
+- Non, jamais avant la fin du set
+- Oui, et le match est suspendu aussi longtemps que nécessaire
+- Uniquement si l'adversaire est d'accord
+> Instruction 3.6.1.2 : le médecin peut appliquer un secours rapide (bandage sur un saignement) ; aucun traitement prenant du temps n'est autorisé, sauf pendant les arrêts de jeu réguliers. Instruction 5.14.2 : en cas de saignement, le jeu est retardé jusqu'à ce que le saignement s'arrête ou que la plaie soit pansée.
+
+Q ins-034 | D: 2 | R: REGLES Instr. 3.6.1.6.1
+Un joueur s'effondre, inconscient, après un choc à la tête. Le médecin du tournoi doit-il attendre l'instruction du juge-arbitre ?
+- Oui, toujours
++ Non : en cas de suspicion d'arrêt cardiaque ou de commotion avec perte de connaissance, il peut s'occuper immédiatement du joueur
+- Oui, sauf si l'arbitre l'appelle
+- Non, mais il doit d'abord obtenir l'accord du joueur adverse
+> Instruction 3.6.1.6.1 : dans ces cas, le médecin peut, sans instruction du juge-arbitre, s'occuper immédiatement du joueur et prodiguer les premiers soins jusqu'à son transport à l'hôpital.
+
+Q ins-035 | D: 3 | R: REGLES Instr. 3.6.1.4
+Un joueur « blessé » hésite à plusieurs reprises à reprendre et semble profiter de la situation pour récupérer. Que peut faire le juge-arbitre ?
++ Résoudre la situation en quelques minutes et, si nécessaire, signaler une disqualification potentielle
+- Lui accorder autant de temps qu'il le souhaite
+- Lui imposer un abandon immédiat
+- Demander à l'adversaire de décider
+> Instruction 3.6.1.4 : la situation doit être résolue en quelques minutes ; le JA peut signaler une disqualification potentielle si le joueur exploite la blessure pour reprendre sa respiration ou hésite à plusieurs reprises.
+
+Q ins-036 | D: 2 | R: REGLES Instr. 3.6.2.1
+Appelé par l'arbitre après un carton rouge, que fait d'abord le juge-arbitre en arrivant sur le terrain ?
++ Il parle d'abord à l'arbitre (et si nécessaire au juge de service) pour être informé, puis s'adresse aux joueurs
+- Il s'adresse immédiatement au joueur sanctionné
+- Il annule le carton
+- Il demande la version des spectateurs
+> Instruction 3.6.2.1 : le JA parle d'abord à l'arbitre (et au juge de service si nécessaire), puis aux joueurs. Pendant que le JA est sur le terrain ou à proximité, le jeu est réputé suspendu.
+
+Q ins-037 | D: 2 | R: REGLES Instr. 3.6.2.2
+Un joueur inscrit en simple et en double mixte est disqualifié par le juge-arbitre pendant son simple. Quelles conséquences ?
++ Il est disqualifié de tous les tableaux du tournoi
++ Son partenaire de double peut continuer dans d'autres tableaux du tournoi
+- Il peut continuer en double mixte
+- Son partenaire de double mixte est aussi disqualifié de tous ses tableaux
+> Instruction 3.6.2.2 : un joueur disqualifié l'est pour tous les tableaux du tournoi (et, par équipes, pour tous les matchs futurs) ; le partenaire de double peut continuer dans d'autres tableaux. Un processus disciplinaire peut être recommandé dans le rapport.
+
+Q ins-038 | D: 1 | R: REGLES Instr. 5.17.5
+Le juge-arbitre décide de disqualifier un joueur lors d'un match arbitré. Comment la décision est-elle matérialisée ?
+- Le juge-arbitre lève lui-même un carton rouge
++ Un carton noir est donné à l'arbitre, qui annonce la disqualification en levant le carton noir
+- Le juge-arbitre l'annonce au micro de la salle
+- L'arbitre lève un carton jaune puis un carton rouge
+> Instruction 5.17.5 : lorsque le juge-arbitre décide de disqualifier, un carton noir est donné à l'arbitre, qui annonce « …, disqualifié(s) pour mauvaise conduite » en levant le carton noir. En auto-arbitrage, le JA donne lui-même le carton et fait l'annonce.
+
+Q ins-039 | D: 2 | R: REGLES Instr. 3.6.2.3
+Après avoir annoncé sa décision sur un incident, le juge-arbitre :
++ l'explique clairement, brièvement et avec conviction, quitte le terrain et le jeu reprend ; il n'y a pas d'autre discussion ni d'appel
+- ouvre un débat avec les joueurs et leurs conseillers
+- reste sur le terrain jusqu'à la fin du match
+- soumet sa décision au vote des officiels
+> Instruction 3.6.2.3 : le JA résout la situation le plus rapidement possible, explique sa décision clairement, brièvement et avec conviction, quitte le terrain ; il ne doit pas y avoir d'autre discussion ou appel.
+
+Q ins-040 | D: 2 | R: REGLES Instr. 3.5.15.1
+Le juge-arbitre a un doute sur la conformité de la tenue d'un joueur. Que recommandent les instructions ?
++ Autoriser la tenue et en soumettre une photo à l'instance sportive après le tournoi
+- Interdire la tenue par précaution
+- Demander l'avis de l'adversaire
+- Faire jouer le joueur torse nu
+> Instruction 3.5.15.1 : en cas d'incertitude, le JA autorise les vêtements en question et en soumet une photo à l'institution sportive après le tournoi pour examen.
+
+Q ins-041 | D: 2 | R: REGLES Instr. 3.5.15.3
+Deux adversaires portent un maillot de la même couleur mais des shorts de couleurs nettement différentes. Selon les instructions :
++ ils sont considérés comme habillés différemment
+- l'un d'eux doit changer de maillot
+- le plus jeune doit changer de tenue
+- le match ne peut pas commencer
+> Instruction 3.5.15.3 : le JA tient compte à la fois des maillots et des shorts ; des joueurs portant la même couleur de maillot mais des shorts de couleurs significativement différentes sont considérés habillés différemment.
+
+Q ins-042 | D: 2 | R: REGLES Instr. 3.5.16
+Pendant un échange, un conseiller veut faire passer une raquette de rechange à son joueur. Selon les instructions, tout équipement à passer aux joueurs en dehors des intervalles doit être :
++ donné au juge-arbitre et non passé directement aux joueurs
+- lancé sur le terrain
+- passé directement au joueur s'il en fait la demande
+- refusé jusqu'à la fin du match
+> Instruction 3.5.16 : tout équipement (raquettes, boissons…) à passer aux joueurs durant un match, hors intervalles, doit être donné au juge-arbitre et non passé directement aux joueurs. Le joueur peut changer de raquette au bord du terrain pendant un échange (instruction 5.10.1).
+
+Q ins-043 | D: 1 | R: REGLES Instr. 3.5.17
+Combien de conseillers au maximum peuvent se tenir au bord du terrain pour chaque côté ?
+- Un
++ Deux
+- Trois
+- Illimité
+> Instruction 3.5.17 : deux conseillers au maximum pour chaque côté. Si un kiné ou un médecin d'équipe veut rejoindre le joueur pendant un intervalle alors que deux conseillers sont déjà présents, l'un d'eux doit quitter le terrain.
+
+Q ins-044 | D: 2 | R: REGLES Instr. 3.5.18.2
+Un conseiller récidive en invectivant les arbitres depuis sa chaise. Quelle mesure le juge-arbitre peut-il prendre ?
++ L'exclure de l'aire de jeu pour une durée appropriée (fin du match, session, un ou plusieurs jours) et le signaler dans son rapport
+- Lui donner un carton rouge qui fait perdre un point à son joueur
+- Disqualifier le joueur conseillé
+- Rien, le code de conduite ne concerne que les joueurs
+> Instruction 3.5.18 : le JA peut exclure un conseiller de l'aire de jeu pour une durée appropriée selon la gravité ; les violations graves sont signalées via le rapport (code de conduite des conseillers, entraîneurs et éducateurs).
+
+Q ins-045 | D: 2 | R: REGLES Instr. 5.12.7
+Un conseiller perturbe le jeu en criant pendant un échange, ce qui distrait l'adversaire. L'arbitre :
++ annonce un let, et appelle immédiatement le juge-arbitre si l'incident se répète
+- faute le joueur conseillé
+- donne un carton jaune au conseiller
+- ignore l'incident
+> Instruction 5.12.7 et règle 14.2.5 : si le jeu est perturbé ou un adversaire distrait par un conseiller, un let est annoncé ; le juge-arbitre est appelé si l'incident se répète.
+
+Q ins-046 | D: 2 | R: REGLES Instr. 3.5.19.5
+Lors de la construction de l'échéancier, quel principe d'équité le juge-arbitre doit-il respecter en plus du temps de repos minimal ?
++ Les adversaires d'un match ne doivent pas avoir des temps de repos disproportionnellement différents depuis leurs matchs précédents
+- Les têtes de série doivent toujours jouer en premier
+- Les joueurs locaux doivent jouer en fin de journée
+- Les doubles doivent toujours précéder les simples
+> Instruction 3.5.19.5 : s'assurer que les adversaires n'aient pas des temps de repos disproportionnellement différents ; viser un repos plus long entre deux matchs d'un même joueur (3.5.19.4).
+
+Q ins-047 | D: 2 | R: REGLES Instr. 3.5.22 | L: JALC JAFA JAFC
+Pour l'ordre des demi-finales et finales, quelle règle générale les instructions recommandent-elles pour un joueur présent dans plusieurs finales ?
++ En général, les simples avant les doubles hommes et dames, en tenant compte des temps de repos
+- Toujours le double mixte en premier
+- L'ordre alphabétique des tableaux
+- Les tableaux les plus faibles en premier
+> Instruction 3.5.22 : le JA tient compte des demandes TV, de l'intérêt des spectateurs, des joueurs présents dans plusieurs finales (temps de repos, simples avant les doubles masculins et féminins en général) et des joueurs locaux. RGC 3.3.1.6 : l'ordre des phases finales n'est pas réglementé.
+
+Q ins-048 | D: 2 | R: REGLES Instr. 3.5.24
+Lors de la remise des récompenses, le juge-arbitre s'assure que :
++ les joueurs sont habillés de manière appropriée
++ les joueurs ne montent pas sur le podium avec des objets non autorisés (raquettes, drapeaux hors compétitions par équipes)
++ les joueurs ne sont pas accompagnés sur le podium par des membres de leur famille
+- chaque joueur prononce un discours
+> Instruction 3.5.24 : tenue appropriée, pas d'objets non autorisés (drapeaux, excepté en compétition par équipes, raquettes), pas d'accompagnants sur le podium.
+
+Q ins-049 | D: 2 | R: REGLES Instr. 3.5.26
+À la fin de chaque journée de compétition, quel contrôle logistique le juge-arbitre effectue-t-il sur les volants ?
++ Il se procure les quantités utilisées et restantes pour s'assurer qu'il reste assez de volants de la bonne vitesse pour les matchs restants
+- Il retourne les volants usagés au fournisseur
+- Il compte les volants restants uniquement le dernier jour
+- Aucun, c'est l'affaire du club
+> Instruction 3.5.26 : se procurer les quantités de volants utilisés et restants (fichier et décompte réel) pour vérifier la quantité suffisante de la vitesse appropriée.
+
+Q ins-050 | D: 1 | R: REGLES Instr. 3.7.4
+Dans quel délai le juge-arbitre doit-il envoyer son rapport après un tournoi individuel ?
+- 48 heures
+- 3 jours
++ 5 jours au plus tard (3 jours pour les interclubs)
+- 15 jours
+> Instruction 3.7.4 : rapport au plus tard cinq jours après la fin du tournoi (trois jours pour les interclubs), selon le modèle standard. Le règlement des tournois (03.02 art. 3.2.2) prévoit aussi la saisie sur Poona dans les 5 jours.
+
+Q ins-051 | D: 3 | R: REGLES Instr. 3.7.3.1 | L: JALC JAFA JAFC
+Le juge-arbitre a observé une situation où l'arbitre a donné un carton qui n'aurait pas dû l'être. Que permettent les instructions ?
++ Ne pas valider ce carton
+- Rejouer le match
+- Donner un carton au joueur adverse
+- Rien : un carton donné est définitif
+> Instruction 3.7.3.1 : le JA peut décider de ne pas valider un carton mis par un arbitre s'il (ou un adjoint) a observé la situation et décide que le carton n'aurait pas dû être mis.
+
+Q ins-052 | D: 2 | R: REGLES Instr. 3.7.1
+Le dernier match est terminé. Le juge-arbitre peut-il quitter la salle immédiatement ?
+- Oui, sa mission s'arrête au dernier point
++ Non : il reste responsable de la surveillance du tournoi, finalise les résultats, remercie les intervenants et s'assure que les contrôles antidopage en cours sont terminés
+- Oui, s'il a désigné un remplaçant parmi les joueurs
+- Oui, après avoir remis le fichier au GEO
+> Instructions 3.7.1 et 3.7.2 : le JA est responsable de la surveillance continue du tournoi après la fin du dernier match ; il finalise les résultats, remercie les officiels et veille à ce que les tests de dopage en cours soient terminés.
+
+Q ins-053 | D: 2 | R: REGLES Instr. 4.1.5.3
+Le juge-arbitre s'aperçoit qu'il a commis une erreur dans une décision. Que préconisent les instructions ?
++ L'admettre, la corriger et présenter ses excuses
+- Maintenir la décision pour préserver son autorité
+- Attendre une réclamation écrite
+- Laisser l'arbitre corriger à sa place
+> Instruction 4.1.5.3 : si une erreur est commise, l'admettre, la corriger et présenter ses excuses.
+
+Q ins-054 | D: 2 | R: REGLES Instr. 4.2.2
+Un responsable d'équipe vient demander une décision au juge-arbitre. Quelles attitudes sont préconisées ?
++ Écouter attentivement et poser des questions pour clarifier les faits
++ Prendre le temps de consulter la réglementation si nécessaire
++ Communiquer la décision à la personne et à tous ceux qu'elle affecte
+- Décider immédiatement pour montrer son autorité, même sans avoir tous les éléments
+> Instruction 4.2.2 : écouter, questionner, prendre le temps de réfléchir et de consulter, garder à l'esprit le rôle de défenseur de l'interlocuteur, mesurer l'urgence et le risque de précédent, décider quand on est prêt, communiquer la décision.
+
+Q ins-055 | D: 2 | R: REGLES Instr. 4.3.2 | L: JALC JAFA JAFC
+Concernant l'antidopage, le juge-arbitre a notamment la responsabilité de :
++ vérifier que l'organisateur fournit des conditions de travail adéquates pour le contrôle
++ faire savoir aux responsables d'équipes qu'un contrôle aléatoire ou ciblé peut avoir lieu
++ aider les agents antidopage à exécuter leur tâche si cela lui est demandé
+- choisir lui-même les joueurs contrôlés
+> Instruction 4.3.2 : conditions de travail adéquates, information des responsables d'équipes, aide aux agents antidopage, santé et fair-play (l'horaire peut être modifié pour un joueur contrôlé). Le JA ne désigne pas les joueurs contrôlés.
+
+Q ins-056 | D: 2 | R: REGLES Instr. 4.3.3
+Le juge-arbitre soupçonne un match arrangé. Que prévoient les instructions ?
++ Observer de près, prendre rapidement des mesures appropriées et en informer immédiatement la fédération
+- Attendre la fin de la compétition pour en parler
+- Disqualifier immédiatement les deux joueurs sans observation
+- Rien, cela relève uniquement de la police
+> Instruction 4.3.3 : informer les responsables d'équipes des règlements, observer de près le jeu et l'environnement, prendre rapidement des mesures appropriées en cas d'action suspecte et informer immédiatement la fédération.
+
+Q ins-057 | D: 3 | R: REGLES Instr. 3.8.5.1 | L: JALC JAFA JAFC
+Dans une compétition par équipes, lorsque le juge-arbitre fixe l'ordre des matchs, quels principes s'efforce-t-il de respecter ?
++ Aucun joueur ne joue deux matchs consécutifs
++ Un joueur engagé en simple et en double hommes ou dames joue d'abord le simple
+- Les doubles mixtes sont toujours joués en premier
+- L'équipe qui reçoit choisit seule l'ordre
+> Instruction 3.8.5.1 : dans la mesure du possible, aucun joueur ne joue deux matchs consécutifs, et les joueurs jouant en simple et en double masculin ou féminin jouent d'abord en simple.
+
+Q ins-058 | D: 3 | R: REGLES Instr. 3.8.7 | L: JALC JAFA JAFC
+Dans un tournoi par équipes, le juge-arbitre peut disqualifier une équipe qui :
++ manque de signaler son arrivée au moment stipulé
++ manque d'effectuer son programme requis
++ n'a pas rempli ses obligations ou enfreint les règles et règlements
+- a perdu ses deux premières rencontres
+> Instruction 3.8.7 : le JA peut disqualifier à n'importe quelle étape toute équipe qui ne signale pas son arrivée à temps, n'effectue pas son programme, ou ne remplit pas ses obligations.
+
+Q ins-059 | D: 1 | R: REGLES Instr. 5.2.2.1
+Combien de temps dure en principe la prise en compte du terrain (préparation) avant un match arbitré, et quand commence-t-elle ?
++ 2 minutes, à partir du moment où l'arbitre s'assoit sur sa chaise, jusqu'à l'annonce « Jouez »
+- 5 minutes à partir de l'appel du match
+- 3 minutes à partir du tirage au sort
+- 1 minute après le test des volants
+> Instruction 5.2.2.1 : sauf instruction contraire du JA, les deux minutes de préparation commencent lorsque l'arbitre s'assoit et se terminent par l'annonce « Jouez » ; « Prêt(e)s à jouer » est annoncé à 90 secondes. Le RGC (art. 2.17) impose au moins deux minutes de temps de préparation.
+
+Q ins-060 | D: 2 | R: REGLES Instr. 5.4.13
+Pendant l'intervalle en cours de set, quand les conseillers doivent-ils quitter le terrain ?
++ Lorsque l'arbitre annonce « 20 secondes »
+- À la fin de l'intervalle
+- Dès que le joueur a bu
+- Ils peuvent rester jusqu'à la reprise
+> Instructions 5.4.12 et 5.4.13 : à 40 secondes, l'arbitre annonce « 20 secondes » (deux fois) ; les conseillers (deux au plus par côté) doivent alors quitter le terrain. Entre les sets, l'annonce a lieu à 100 secondes (5.6.6).
+
+Q ins-061 | D: 2 | R: REGLES Instr. 5.15.1
+Le téléphone d'un joueur sonne dans son sac au bord du terrain pendant un match. Comment est-ce traité ?
++ Comme une infraction à la règle 16.6.4, sanctionnée selon la règle 16.7
+- C'est un let
+- Ce n'est pas sanctionnable
+- Le joueur perd le set
+> Instruction 5.15.1 : un appareil électronique d'un joueur qui sonne sur le terrain ou dans son environnement immédiat, ou utilisé pour communiquer pendant un match, est une infraction à la règle 16.6.4, sanctionnée selon la règle 16.7.
+
+Q ins-062 | D: 2 | R: REGLES Instr. 5.17.10
+Avant l'annonce « Jouez », un joueur insulte son adversaire sur le terrain. Que se passe-t-il ?
++ La mauvaise conduite est traitée (avertissement, faute ou disqualification) ; un carton n'a pas d'incidence sur le score mais compte pour les infractions suivantes
+- Rien, le match n'a pas commencé
+- Le joueur perd le premier set
+- L'incident est uniquement noté pour le rapport
+> Instruction 5.17.10 : une mauvaise conduite sur l'aire de jeu avant « Jouez » est traitée selon 5.17.3 à 5.17.5 ; le carton n'a aucune incidence sur le score mais est pris en compte si d'autres infractions se produisent.
+
+Q ins-063 | D: 2 | R: REGLES Instr. 5.17.11
+Juste après la poignée de main finale, encore sur l'aire de jeu, un joueur jette violemment sa raquette contre la chaise d'arbitre. Peut-il être sanctionné d'un carton ?
++ Oui : une mauvaise conduite après le match sur l'aire de jeu est traitée par carton et signalée immédiatement au juge-arbitre
+- Non, le match est terminé
+- Oui, mais seulement par la commission disciplinaire
+- Non, seul le joueur adverse peut porter plainte
+> Instruction 5.17.11 : une mauvaise conduite après le match qui se produit sur l'aire de jeu est traitée par carton (5.17.3 à 5.17.5) et signalée immédiatement au juge-arbitre. Hors de l'aire de jeu, on passe par un rapport à la commission disciplinaire.
+
+Q ins-064 | D: 3 | R: REGLES Instr. 5.10.8 | L: JAFA JAFC
+Lorsque le compte à rebours (shot clock) est utilisé, de combien de temps disposent les joueurs entre deux échanges ?
+- 15 secondes
+- 20 secondes
++ 25 secondes
+- 30 secondes
+> Instruction 5.10.8.2 : le compte à rebours démarre lorsque l'arbitre saisit le score de l'échange précédent et se termine quand 25 secondes se sont écoulées.
+
+Q ins-065 | D: 3 | R: REGLES Instr. 3.5.11.2 | L: JAFA JAFC
+Si la neutralité complète des arbitres ne peut pas être assurée sur tous les terrains, à quels matchs le juge-arbitre donne-t-il la priorité ?
++ À la neutralité de l'arbitre et du juge de service sur le terrain télévisé
+- Aux matchs des joueurs les plus jeunes
+- Aux premiers tours
+- Aux matchs de double
+> Instruction 3.5.11.2 : la priorité est donnée à la neutralité de l'arbitre et du juge de service sur le terrain télévisé, puis, si possible, aux autres terrains.
+
+Q ins-066 | D: 3 | R: REGLES Instr. 3.5.5.2 | L: JAFA JAFC
+Dans une compétition sans qualification, jusqu'à quand un joueur de la liste de réserve peut-il être promu dans le tableau principal ?
++ Jusqu'à la publication de l'échéancier du ou des premiers jours
+- Jusqu'au début du premier match du tableau
+- Jusqu'à la clôture des inscriptions
+- Jusqu'à la fin du premier tour
+> Instruction 3.5.5.2 : pour les compétitions sans qualifications, un joueur de la liste de réserve peut être promu dans le tableau principal jusqu'à la publication de l'échéancier du (des) premier(s) jour(s).
+
+Q ins-067 | D: 2 | R: REGLES Instr. 5.14.3
+Un joueur s'approche de l'arbitre et dit qu'il ne peut plus continuer à cause d'une douleur. Que fait l'arbitre ?
++ Il lui demande « Abandonnez-vous ? » et, s'il confirme, fait l'annonce appropriée ; s'il doute de la légitimité, il appelle le juge-arbitre
+- Il déclare le joueur forfait
+- Il lui accorde 5 minutes de récupération
+- Il donne un carton jaune pour retard de jeu
+> Instruction 5.14.3 : l'arbitre demande « Abandonnez-vous ? » et fait l'annonce appropriée si le joueur confirme ; en cas de doute sur la blessure, il appelle le juge-arbitre (5.14.3.1).
+
+Q ins-068 | D: 2 | R: REGLES Instr. 3.6.1.9
+Pendant l'intervalle entre deux sets, un joueur quitte le terrain pour aller aux toilettes en raison de maux aigus. Que demandent les instructions aux officiels ?
++ Faire preuve de flexibilité pour les joueurs quittant et revenant sur le terrain durant un intervalle pour cause de maux aigus ou de besoins sanitaires
+- Sanctionner systématiquement d'un carton jaune
+- Déclarer l'abandon du joueur
+- Refuser toute sortie
+> Instructions 3.6.1.9 et 5.10.10 : l'arbitre, de concert avec le juge-arbitre, fait preuve de flexibilité dans ce cas.

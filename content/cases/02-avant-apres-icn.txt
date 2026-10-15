@@ -1,0 +1,400 @@
+# Cas pratiques — préparation, après-compétition, interclubs et situations de niveau fédéral.
+
+=== cas-preparation-tournoi | L: JALA JALC JAFA JAFC | T: Préparation | Vous êtes désigné JA d'un tournoi
+CONTEXTE
+Un club vous sollicite le 1er février comme juge-arbitre principal de son tournoi du 26 avril (séries D et P, une salle de 7 terrains, deux jours). Le président vous envoie un projet de règlement particulier.
+ÉTAPE
+Pour que le tournoi puisse être autorisé dans les délais, la demande sur Poona doit être déposée :
++ 90 jours avant la compétition, avec le règlement particulier : ici avant fin janvier, le délai est donc déjà dépassé et la ligue doit être contactée
+- 30 jours avant, il reste du temps
+- 15 jours avant
+- La veille du tirage au sort
+> GdB 03.02 art. 2.4.1 : demande sur Poona 90 jours avant, accompagnée du règlement particulier ; la ligue valide ensuite sous 15 jours (2.4.3).
+ÉTAPE
+Dans le projet de règlement particulier, quels éléments manquants devez-vous faire ajouter ?
++ Le temps de repos minimum entre deux matchs
++ Le volant officiel (marque, type) et le mode de fourniture des volants
++ Le mode d'arbitrage retenu et le nombre maximum de participants avec le critère en cas de surnombre
+- La liste des joueurs têtes de série
+> Annexe 02 du RGC : contenu minimal du règlement particulier ; le JA l'approuve avant sa publication (instruction 3.2.4).
+ÉTAPE
+Le président vous propose d'être JA principal alors que vous êtes licencié dans son club (vous êtes JALA). Que répondez-vous ?
++ Je ne peux pas être JA principal d'un tournoi de mon club ; je peux en revanche être JA adjoint
+- J'accepte, aucune règle ne l'interdit
+- J'accepte si les joueurs sont D9 maximum
+- J'accepte si un autre JALA est présent
+> GdB 03.02 art. 2.3.1 : le JA principal ne doit pas appartenir au club organisateur (l'adjoint le peut). L'exception de l'art. 2.3.4 concerne un JALC (invitation nationale maximum, joueurs R4 maximum, GEO 2 ou GEO 1 promo présent).
+DÉBRIEF
+Préparer en amont, c'est : vérifier la procédure d'autorisation et ses délais, approuver un règlement particulier complet, vérifier la conformité de la désignation (incompatibilités, nombre de JA selon salles et terrains), puis envoyer une check-list à l'organisateur.
+RÉF: 03.02 2.4 ; 03.02 2.3 ; 03.01.A02 ; REGLES Instr. 3.2.4
+
+=== cas-dimensionnement | L: JALA JALC JAFA JAFC | T: Préparation | Le tournoi tiendra-t-il dans la journée ?
+CONTEXTE
+Tournoi d'une journée (dimanche, non suivi d'un jour férié), ouvert à plusieurs ligues, niveau départemental, 7 terrains, début 8h30. Inscriptions : SH 24 joueurs, SD 12 joueuses, DH 16 paires, DD 9 paires, DMx 20 paires. L'organisateur veut faire uniquement des poules de 4 avec 2 sortants.
+ÉTAPE
+Quelle heure de fin maximale devez-vous respecter ?
++ 19h00
+- 21h00
+- 23h00
+- Aucune, c'est le JA qui décide
+> RGC 2.16 : compétition ouverte à d'autres joueurs que ceux d'une seule ligue : fin à 19h00.
+ÉTAPE
+Avec une durée moyenne de 26 minutes (annexe 07, niveau départemental) et environ 160 matchs, combien de rotations faut-il sur 7 terrains et quel horaire de fin obtient-on sans marge ?
++ Environ 23 rotations, soit près de 10 heures de jeu : fin vers 18h30, sans aucune marge pour les temps morts
+- Environ 10 rotations : fin à 13h00
+- Environ 40 rotations : fin à minuit
+- On ne peut pas l'estimer
+> 160 / 7 ≈ 23 rotations ; 23 × 26 min ≈ 10 h ; début 8h30 → fin ≈ 18h30 avant marge. Le RGC (3.3.1.3) demande de prévoir une marge (temps morts, phases finales) : le programme est trop juste.
+ÉTAPE
+Quelles mesures peuvent rendre le tournoi réalisable ?
++ Limiter le nombre d'inscrits (critère prévu au règlement particulier) ou le nombre de tableaux par joueur
++ Adapter les formats (par exemple des poules de 3 ou un seul sortant là où c'est cohérent avec l'annexe 12)
+- Faire commencer les matchs à 7h00
+- Prolonger jusqu'à 22h00 malgré la règle
+> RGC 2.16 et 3.1.4 ; annexe 12. L'outil « Dimensionner une compétition » de l'application permet de tester ces scénarios.
+DÉBRIEF
+Dimensionner = compter les matchs, convertir en rotations avec une durée moyenne réaliste (annexe 07, en 3×15), ajouter une marge, vérifier les limites horaires et le maximum de 8 matchs par joueur et par jour. C'est un critère explicitement évalué (annexe 02 de la filière : « dimensionner la compétition »).
+RÉF: 03.01 2.16 ; 03.01 3.3.1.3 ; 03.01.A07 ; 03.01.A12
+
+=== cas-ouverture-salle | L: JALA JALC JAFA JAFC | T: Préparation | Inspection de la salle le matin
+CONTEXTE
+Vous arrivez à 7h15 pour un tournoi qui commence à 8h30. En faisant le tour de la salle : un poteau du terrain 3 est placé sur la ligne de côté du simple, un panier de basket surplombe le terrain 6, il n'y a pas de trousse de secours à la table de marque, l'échéancier n'est pas encore affiché.
+ÉTAPE
+Pour le terrain 3, que demandez-vous ?
++ Replacer les poteaux sur les lignes de côté du double, même pour les matchs de simple, et vérifier la hauteur du filet (1,524 m au centre, 1,55 m aux poteaux)
+- Rien, en simple les poteaux peuvent être sur la ligne de simple
+- Supprimer le terrain 3
+- Abaisser le filet de 15 cm
+> Règles 1.5 et 1.10 ; instruction 3.3.6.
+ÉTAPE
+Le panier de basket au-dessus du terrain 6 : que faites-vous ?
++ Vérifier si le règlement particulier prévoit une règle locale (let ou faute) pour un volant touchant cet obstacle et la rappeler aux joueurs et arbitres ; à défaut, appliquer la règle générale
+- Interdire le terrain 6
+- Décider au cas par cas pendant les matchs
+- Considérer que c'est toujours un let
+> Règle 13.3.5, instruction 3.4.8.3 et annexe 02 du RGC.
+ÉTAPE
+Qu'exigez-vous avant le début de la compétition ?
++ Une trousse de secours disponible et la possibilité d'appeler les secours à tout moment
++ L'affichage de l'échéancier et des tableaux au plus tard une heure avant le début
+- La présence d'un médecin sur place
+- La présence d'arbitres sur tous les terrains
+> RGC 2.22 (trousse de secours, contact d'urgence) ; RGC 2.17 et 3.2.4 (échéancier et tableaux une heure avant).
+DÉBRIEF
+L'inspection de l'aire de jeu et des affichages fait partie des critères évalués à tous les grades (annexe 02 : « inspecter complètement l'aire de jeu », « contrôler les affichages »). Arriver tôt permet de corriger avant le premier match.
+RÉF: REGLES 1 ; REGLES Instr. 3.3.6 ; 03.01 2.22 ; 03.01 2.17
+
+=== cas-apres-competition | L: JALA JALC JAFA JAFC | T: Après la compétition | Clôturer correctement le tournoi
+CONTEXTE
+Le tournoi se termine dimanche à 18h20. Bilan : 6 forfaits (dont 2 sans nouvelles), 1 carton jaune, 1 carton noir, un maillot non conforme photographié.
+ÉTAPE
+Dans quel délai devez-vous saisir votre rapport sur Poona ?
++ 5 jours
+- 24 heures
+- 15 jours
+- 1 mois
+> GdB 03.02 art. 3.2.2 et 03.04 §3 ; instruction 3.7.4 (3 jours pour les interclubs).
+ÉTAPE
+Qui importe le fichier des résultats, et dans quel délai ?
++ Le GEO principal, dans les 3 jours ; vous conservez une copie du fichier (12 mois)
+- Vous, le soir même
+- La ligue, dans le mois
+- Le club du vainqueur
+> GdB 03.02 art. 3.2.3-3.2.4 et 03.04 §4.
+ÉTAPE
+Pour les deux joueurs absents sans nouvelles, comment les inscrivez-vous ?
++ Comme forfaits « à justifier » : ils disposent de 5 jours ouvrables pour déposer un justificatif sur MyFFBaD ; sinon, la sanction s'applique
+- Comme forfaits involontaires
+- Vous ne les mentionnez pas
+- Comme abandons
+> GdB 07.05 §1.
+ÉTAPE
+Pour le carton noir, quelles pièces transmettez-vous ?
++ La copie du formulaire de notification signé (dans votre rapport) et un rapport circonstancié envoyé au secrétariat arbitrage de la FFBaD
+- Rien de plus que la mention dans le rapport
+- Un courriel au club du joueur
+- Une plainte au commissariat
+> GdB 07.04 §2 et §2.3.
+DÉBRIEF
+Le rapport (forfaits, incidents, cartons, tenues, horaires réels, remarques sur l'organisation) est la trace officielle de la compétition et conditionne son homologation (J+30 sans information contraire). Pensez ensuite à mettre à jour votre feuille d'activité (à transmettre pour le 15 décembre).
+RÉF: 03.02 3.2 ; 03.04 3 ; 07.05 1 ; 07.04 2
+
+=== cas-icn-retard | L: JALC JAFA JAFC | T: Interclubs | Retard de l'équipe visiteuse en N3
+CONTEXTE
+Rencontre de N3 prévue à 16h00. L'équipe visiteuse appelle à 14h50 : bouchons, arrivée estimée à 16h10.
+ÉTAPE
+Jusqu'à quelle heure la rencontre doit-elle pouvoir être lancée ?
++ Le retard est toléré jusqu'à 1 heure après l'heure limite de signature de la feuille de présence (15h15), soit 16h15 ; les premiers matchs ne peuvent pas démarrer après 16h30
+- La rencontre est perdue par forfait dès 15h15
+- Le retard est illimité
+- La rencontre doit commencer à 16h00 précises
+> GdB 04.07.A04 art. 10.1.1 : retard toléré jusqu'à 1 h après l'heure limite de signature (45 min avant l'heure prévue) ; démarrage au plus tard 1 h 15 après cette heure limite.
+ÉTAPE
+À 16h05, quatre joueurs visiteurs (deux hommes, deux femmes) sont arrivés. Que faites-vous ?
++ L'équipe est considérée comme complète : vous faites signer les arrivants, faites le briefing des capitaines, laissez 15 minutes pour la composition, fixez l'ordre des matchs et lancez la rencontre au plus vite
+- Vous attendez tous les joueurs inscrits
+- Vous déclarez l'équipe forfait
+- Vous lancez sans contrôler les identités
+> GdB 04.07.A04 art. 10.1.1 : équipe complète dès 4 joueurs (au moins 1 homme et 1 femme).
+ÉTAPE
+Après la rencontre, que doit faire l'équipe en retard ?
++ Envoyer une lettre explicative à la commission fédérale des interclubs dans les 5 jours ; vous consignez les faits dans votre rapport
+- Rien
+- Payer une amende au JA
+- S'excuser auprès de l'équipe adverse uniquement
+> GdB 04.07.A04 art. 10.1.2.
+DÉBRIEF
+En ICN, les horaires sont stricts mais encadrés : le JA prévient la commission dès qu'il est informé d'un retard, applique la planification de rattrapage et documente tout. L'équipe qui reçoit, elle, ne bénéficie d'aucune tolérance (10.1.3).
+RÉF: 04.07.A04 10 ; 04.07.A04 7.1
+
+=== cas-icn-identite | L: JALC JAFA JAFC | T: Interclubs | Contrôle des identités et compositions
+CONTEXTE
+Rencontre de N2 à 16h00. À 15h20, un joueur de l'équipe A se présente à la table de marque sans pièce d'identité ; il est pourtant connu de tous et a joué toute la saison. L'arbitre de l'équipe B a aussi oublié ses papiers.
+ÉTAPE
+Le joueur peut-il participer ?
++ Non : sans pièce d'identité valable au plus tard 45 minutes avant la rencontre, il ne peut pas jouer, même s'il est connu
+- Oui, puisqu'il est connu du JA
+- Oui, sur attestation du capitaine
+- Oui, s'il présente sa licence sur son téléphone
+> GdB 04.07.A04 art. 7.1.2 : vérification obligatoire même si le joueur est connu ; aucune dérogation ; pièces admises listées à l'annexe 09 du règlement ICN.
+ÉTAPE
+Que faites-vous ensuite ?
++ Informer les deux capitaines, qui peuvent modifier leur composition dans un délai de 10 minutes maximum
+- Déclarer forfait tous les matchs de l'équipe A
+- Autoriser l'équipe A seule à modifier sa composition, sans limite de temps
+- Retarder la rencontre d'une heure
+> GdB 04.07.A04 art. 7.1.2.
+ÉTAPE
+Et l'arbitre de l'équipe B ?
++ Il est autorisé à arbitrer pour le bon déroulement de la rencontre ; vous le signalez dans votre rapport
+- Il ne peut pas arbitrer et l'équipe B est sanctionnée
+- Il doit être remplacé par un joueur
+- Il arbitre sans que rien ne soit signalé
+> GdB 04.07.A04 art. 7.1.2.
+DÉBRIEF
+Le contrôle des identités est une étape clé du JA en ICN : il conditionne la validité des compositions. La composition d'une équipe n'est pas communiquée à l'adversaire tant que tous les joueurs n'ont pas été validés.
+RÉF: 04.07.A04 7.1 ; 04.07 6
+
+=== cas-icn-blessure | L: JALC JAFA JAFC | T: Interclubs | Blessure et remplacement en rencontre ICN
+CONTEXTE
+Rencontre de N1. Le joueur aligné en SH1 et en DMx1 se blesse pendant son simple et abandonne. Un autre joueur de l'équipe, inscrit sur la feuille de présence, n'a joué qu'un match (un double hommes).
+ÉTAPE
+Le joueur blessé peut-il être remplacé pour le DMx1 ?
++ Oui : il a débuté son premier match ; le remplaçant doit figurer sur la feuille de présence, être qualifié et ne pas dépasser deux matchs dans la rencontre
+- Non, aucun remplacement n'est possible en ICN
+- Oui, par n'importe quel licencié du club présent dans la salle
+- Non, car il a abandonné
+> GdB 04.07 §14 et §12 : remplacement possible après le début du premier match ; le remplacement avant le premier match n'est pas autorisé.
+ÉTAPE
+Le remplacement modifie l'ordre hiérarchique des deux mixtes (somme des CPPH). Aucun des deux mixtes n'a commencé. Que faites-vous ?
++ Vous pouvez autoriser l'inversion des paires pour respecter la hiérarchie (la paire ayant le plus de points en DMx1)
+- Vous laissez l'ordre initial même s'il ne respecte plus la hiérarchie
+- Vous annulez le DMx2
+- Vous faites jouer les mixtes en un set
+> GdB 04.07 §14 : si aucun des deux matchs d'une discipline n'a été joué, le JA peut autoriser l'inversion des joueurs (en simple) ou des équipes (en double) pour respecter la hiérarchie.
+ÉTAPE
+Si aucun remplaçant qualifié n'est disponible, que se passe-t-il pour le DMx1 ?
++ Il est perdu par forfait (sans pénalité supplémentaire liée à l'abandon dans le match précédent)
+- Il est reporté à la rencontre suivante
+- Il est joué par le joueur blessé à son rythme
+- Il est annulé et non comptabilisé
+> GdB 04.07 §14 et §17 : le match est perdu par forfait ; le barème à −1 ne s'applique pas à un match non joué en raison d'un abandon dans un match précédent.
+DÉBRIEF
+Retenez : 2 matchs maximum par joueur et jamais deux dans la même discipline ; remplacement seulement après le début du premier match ; hiérarchie à respecter (CPPH de J-8) ; tout est contrôlé et consigné par le JA.
+RÉF: 04.07 12 ; 04.07 14 ; 04.07 17
+
+=== cas-icn-hierarchie | L: JALC JAFA JAFC | T: Interclubs | Erreur de hiérarchie découverte après la rencontre
+CONTEXTE
+En vérifiant les feuilles après une rencontre de N3, vous constatez que les joueurs alignés en SH1 et SH2 de l'équipe A ont été inversés par rapport à la hiérarchie CPPH. Les deux matchs ont été joués : SH1 gagné, SH2 perdu.
+ÉTAPE
+Quelles conséquences sportives ?
++ Les matchs indûment décalés (SH1 et SH2) sont perdus par forfait, avec un point de pénalité pour l'erreur de hiérarchie
+- Aucune, les matchs ont été joués
+- Seul le SH2 est perdu
+- La rencontre est rejouée
+> GdB 04.07 §16 : sont perdus par forfait tous les matchs indûment décalés à la suite d'une erreur de hiérarchie ; un point de pénalité par erreur de hiérarchie (plafond de 3 points par rencontre hors forfait stratégique).
+ÉTAPE
+Pour le classement individuel des joueurs (CPPH), comment est traité le SH1 gagné par le joueur en infraction ?
++ Il est déclaré gagné par forfait par son adversaire ; un match perdu par le joueur en infraction est comptabilisé tel quel
+- Il reste gagné
+- Il est annulé pour les deux joueurs
+- Il compte double
+> GdB 04.07 §16.
+DÉBRIEF
+La vérification des compositions avant la validation (CPPH du vendredi J-8, JIFF, mutés, nombre de matchs) évite ces situations. Le JA signale l'anomalie dans son rapport ; la commission fédérale des interclubs applique les pénalités.
+RÉF: 04.07 9 ; 04.07 16
+
+=== cas-antidopage | L: JALC JAFA JAFC | T: Antidopage | Contrôle antidopage pendant la compétition
+CONTEXTE
+Championnat régional. À 11h00, un agent préleveur se présente à la table de marque avec un ordre de mission : trois joueurs seront contrôlés à l'issue de leur dernier match de la journée. L'un d'eux a encore deux matchs.
+ÉTAPE
+Quelle est votre première action ?
++ Accueillir l'agent, vérifier avec l'organisateur que le local prévu garantit confidentialité, sécurité et équipements, et désigner les escortes si nécessaire
+- Refuser le contrôle sans accord préalable du club
+- Annoncer au micro le nom des joueurs contrôlés
+- Demander aux joueurs s'ils acceptent
+> Instructions 3.3.5.3 et 4.3.2 : conditions de travail adéquates et confidentialité ; tous les participants, y compris les mineurs, doivent se soumettre aux contrôles (RGC 2.4).
+ÉTAPE
+Le joueur contrôlé doit encore jouer sa finale en fin d'après-midi. Que pouvez-vous faire ?
++ Adapter l'horaire si nécessaire pour concilier le contrôle et le temps de repos du joueur, en préservant l'équité
+- Le déclarer forfait pour la finale
+- Annuler le contrôle
+- Le faire jouer sans temps de repos
+> Instruction 4.3.2.4 : l'horaire de jeu peut, si nécessaire, être modifié pour accueillir les joueurs soumis à un contrôle antidopage.
+ÉTAPE
+En fin de journée, quand pouvez-vous quitter la salle ?
++ Après la fin des contrôles en cours, la finalisation des résultats et le départ organisé des joueurs
+- Dès le dernier match terminé
+- Avant la remise des prix
+- Quand l'agent préleveur vous y autorise seulement
+> Instruction 3.7.2.
+DÉBRIEF
+Le JA n'est pas l'agent de contrôle : il facilite (local, escortes, horaires) et garantit la confidentialité. C'est un critère évalué à partir du JALC (annexe 02) et un contenu de la formation JALC ; les JAFA suivent les formations en ligne d'escorte et de délégué antidopage.
+RÉF: REGLES Instr. 4.3.2 ; 03.01 2.4 ; 06.02.A02
+
+=== cas-federal-briefing | L: JAFA JAFC | T: Compétitions fédérales | Réunion des responsables d'équipes d'une compétition fédérale
+CONTEXTE
+Vous êtes JA principal d'une étape du Circuit Élite Jeunes. La réunion des responsables d'équipes a lieu la veille à 19h. Depuis la publication du tirage, trois forfaits ont été reçus ; la liste de réserve compte cinq joueurs.
+ÉTAPE
+Pendant la réunion, comment exécutez-vous les promotions depuis la liste de réserve ?
++ À la fin de la réunion, en intégrant les forfaits annoncés ; si le responsable d'un joueur de réserve ne peut pas confirmer immédiatement sa présence, vous passez au suivant
+- Au début de la réunion, avant d'entendre les forfaits
+- Par tirage au sort parmi la liste de réserve
+- En laissant les responsables choisir entre eux
+> Instructions 3.4.4 et 3.4.4.3.
+ÉTAPE
+Le tirage peut-il être republié en affichant les forfaits avant la fin de la réunion ?
++ Non, le tirage n'est pas republié avec les forfaits avant la conclusion de la réunion
+- Oui, dès réception de chaque forfait
+- Oui, sur demande d'un responsable
+- Oui, mais seulement en ligne
+> Instruction 3.2.9.
+ÉTAPE
+Un club n'est pas représenté à la réunion. Que faites-vous ?
++ Vous le documentez dans votre rapport
+- Vous retirez ses joueurs du tournoi
+- Vous lui infligez une amende
+- Rien
+> Instruction 3.4.7.
+DÉBRIEF
+La réunion des responsables d'équipes se prépare (salle, feuille de présence, documents à distribuer, liste des forfaits) et se conduit avec une autorité calme : parler lentement, faire des pauses pour les questions. Elle se termine par l'exécution des forfaits et promotions, puis la mise à jour du fichier et de l'échéancier du premier jour.
+RÉF: REGLES Instr. 3.4 ; REGLES Instr. 3.2.9
+
+=== cas-federal-arbitres | L: JAFA JAFC | T: Gestion des officiels | Affectation des arbitres en phase finale
+CONTEXTE
+Championnat de France. Pour les demi-finales du samedi, vous disposez de 10 arbitres de niveaux variés ; deux joueurs d'une même ligue que trois arbitres disputent une demi-finale sur le terrain télévisé. Un évaluateur d'arbitres est présent.
+ÉTAPE
+Quel principe guide la désignation de l'arbitre du terrain télévisé ?
++ Priorité à la neutralité de l'arbitre et du juge de service sur le terrain télévisé, puis aux performances observées, à l'expérience et au travail d'équipe
+- L'ancienneté uniquement
+- Le choix de l'arbitre lui-même
+- Le tirage au sort
+> Instructions 3.5.11.2 et 3.5.23.
+ÉTAPE
+Un arbitre a eu une forte tension avec un joueur au tour précédent. Ce joueur est en demi-finale. Que faites-vous ?
++ Éviter, si nécessaire, d'affecter cet arbitre à un match de ce joueur
+- L'affecter pour montrer votre confiance
+- Demander l'avis du joueur
+- Retirer l'arbitre de la compétition
+> Instruction 3.5.11.3.
+ÉTAPE
+Quel rôle donnez-vous à l'évaluateur d'arbitres dans vos désignations ?
++ Vous sollicitez ses retours sur la performance des arbitres pour guider les affectations des phases finales ; vous gardez l'autorité finale
+- Il désigne seul les arbitres
+- Vous l'ignorez
+- Il valide vos choix obligatoirement
+> Instructions 3.5.12.1 à 3.5.12.3.
+DÉBRIEF
+Manager les officiels (affectation, rotations, temps de repos, retours constructifs en privé) est attendu à « ++ » pour le JAFA et « +++ » pour le JAFC (annexe 02). La neutralité prime, en particulier sur le terrain télévisé.
+RÉF: REGLES Instr. 3.5.11 ; REGLES Instr. 3.5.23 ; 06.02.A02
+
+=== cas-federal-redraw | L: JAFA JAFC | T: Tableaux et tirage | Tableau fortement déséquilibré
+CONTEXTE
+Compétition fédérale sans qualification. Après la publication du tableau de simple hommes (32 joueurs), quatre têtes de série du haut du tableau déclarent forfait avant la réunion des responsables d'équipes. Le jeu n'a pas commencé.
+ÉTAPE
+Pouvez-vous refaire le tirage ?
++ Oui : le jeu n'a pas commencé et, dans ces circonstances exceptionnelles, le tableau principal est fortement déséquilibré sans qualification
+- Non, jamais après publication
+- Oui, même après le premier tour
+- Oui, mais uniquement pour le haut du tableau
+> Instruction 3.4.5 et RGC 3.2.5.7 : nouveau tirage possible si le jeu n'a pas commencé (erreur, ou tableau fortement déséquilibré) ; jamais après le lancement du tableau.
+ÉTAPE
+Avant de décider, de quoi tenez-vous compte ?
++ Des conséquences sur les horaires et les convocations des joueurs concernés
+- De l'avis des joueurs restants uniquement
+- Du nombre de spectateurs
+- De rien d'autre
+> RGC 3.2.5.7.
+DÉBRIEF
+Le nouveau tirage est exceptionnel : il est motivé, documenté dans le rapport et communiqué à tous. Les remplacements par la liste de réserve restent possibles jusqu'à la publication de l'échéancier du premier jour (instruction 3.5.5.2).
+RÉF: REGLES Instr. 3.4.5 ; 03.01 3.2.5.7
+
+=== cas-federal-sri | L: JAFA JAFC | T: Technologie | Le système de révision instantanée affiche une incohérence
+CONTEXTE
+Finale télévisée avec système de révision instantanée (SRI). Un joueur demande un challenge ; l'écran affiche « IN » en texte mais l'image montre le volant clairement dehors. L'arbitre vous appelle.
+ÉTAPE
+Que faites-vous en premier ?
++ Tenter de joindre l'opérateur du SRI pour obtenir la décision correcte ou l'explication du dysfonctionnement, puis indiquer à l'arbitre comment procéder
+- Décider vous-même « OUT » sans consulter personne
+- Faire rejouer le point systématiquement
+- Laisser l'arbitre décider seul
+> Instructions 3.5.1.8 et 5.8.10 ; annexe 6 des règles, §1.3.
+ÉTAPE
+Le joueur perd-il un challenge dans cette situation ?
++ Non : lorsque le SRI dysfonctionne ou indique « pas de décision », aucun challenge n'est perdu
+- Oui
+- Oui, sauf s'il gagne le point
+- Il perd tous ses challenges du set
+> Annexe 6 des règles, §3.5.
+DÉBRIEF
+Avec le SRI, le JA (ou un adjoint) surveille la bonne gestion des challenges et intervient avant l'échange suivant. Rappel : challenges illimités jusqu'à deux challenges perdus par set.
+RÉF: REGLES Annexe 6 ; REGLES Instr. 5.8
+
+=== cas-federal-finales | L: JAFA JAFC | T: Compétitions fédérales | Organiser la journée des finales
+CONTEXTE
+Championnat de France jeunes : cinq finales dans chaque catégorie. Une joueuse est en finale de simple dames, de double dames et de double mixte. La télévision demande que le double mixte soit joué en dernier.
+ÉTAPE
+Quels facteurs prenez-vous en compte pour l'ordre des finales ?
++ Les demandes de la télévision, l'intérêt des spectateurs, les temps de repos des joueurs présents dans plusieurs finales (simple en général avant les doubles) et les obligations contractuelles
+- Uniquement l'ordre alphabétique des tableaux
+- Uniquement les souhaits des joueurs
+- L'ordre des tableaux sur la feuille d'inscription
+> Instruction 3.5.22 ; RGC 3.3.1.6 (ordre des phases finales non réglementé, déterminé avec l'accord du JA).
+ÉTAPE
+Lors de la remise des récompenses, que vérifiez-vous ?
++ Une tenue appropriée, pas d'objets non autorisés sur le podium (raquette, drapeau hors compétition par équipes) et pas d'accompagnants
+- Que chaque joueur ait sa raquette pour la photo
+- Que les parents montent sur le podium
+- Rien, c'est le rôle de l'organisateur
+> Instruction 3.5.24.
+DÉBRIEF
+La journée des finales est une vitrine : protocole, présentation, neutralité et compétences des arbitres désignés, respect des temps de repos. Le JA valide aussi la reconfiguration éventuelle de l'aire de jeu (instruction 3.5.21).
+RÉF: REGLES Instr. 3.5.22 ; REGLES Instr. 3.5.24 ; 03.01 3.3.1.6
+
+=== cas-jalc-multisalles | L: JALC JAFA JAFC | T: Organisation | Tournoi sur deux salles avec arbitres
+CONTEXTE
+Vous êtes JALC, JA principal d'un tournoi national (joueurs jusqu'à N1) sur deux salles : 9 terrains dans la salle A, 5 terrains dans la salle B. Les demi-finales et finales seront arbitrées.
+ÉTAPE
+Combien de juges-arbitres adjoints faut-il au minimum ?
++ Deux : un pour la tranche de terrains au-delà de 7 dans la salle A, un pour la salle B
+- Un seul
+- Aucun, un JALC suffit
+- Trois
+> GdB 03.02 art. 2.3.2 : un JA adjoint par salle supplémentaire et, dans une salle de plus de 7 terrains, un adjoint par tranche supplémentaire de 7 terrains.
+ÉTAPE
+Un JALA peut-il être votre adjoint dans la salle B ?
++ Oui : en multisalles, le JALA peut intervenir comme juge-arbitre adjoint
+- Non, il faut un JALC
+- Oui, mais seulement comme JA principal
+- Non, un JALA ne peut pas officier en présence de joueurs N1
+> GdB 06.02.A01 : en multisalles, le JALA intervient uniquement comme JA adjoint ; avec des joueurs N1, il est autorisé s'il y a un JALC.
+ÉTAPE
+Pour les matchs arbitrés, qui valide la liste des arbitres et peut les changer en cours de match ?
++ Vous, le juge-arbitre
+- Le coordinateur des arbitres seul
+- L'organisateur
+- Les joueurs
+> RGC 2.8.1 ; instruction 3.1.2 (délégation possible, responsabilité globale du JA).
+DÉBRIEF
+Le JALC est le premier grade autorisé sur des compétitions multisalles avec arbitres : il délègue (adjoints, coordinateur) tout en gardant la responsabilité globale, et coordonne les officiels (critère « + » pour le JALC à l'annexe 02).
+RÉF: 03.02 2.3.2 ; 06.02.A01 ; 03.01 2.8.1

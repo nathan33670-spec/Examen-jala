@@ -1,0 +1,308 @@
+# Championnat de France interclubs (GdB 04.07, annexe 04 : déroulement d'une rencontre de saison régulière).
+@theme interclubs
+@levels JALC JAFA JAFC
+
+Q icn-001 | D: 1 | R: 04.07 12
+Combien de matchs comporte une rencontre de saison régulière en N1, N2 ou N3 ?
+- 5
+- 6
++ 8 : 2 SH, 2 SD, 1 DH, 1 DD, 2 DMx
+- 10
+> GdB 04.07 §12 : 8 matchs dans les divisions autres que le Top 12 (2 simples hommes, 2 simples dames, 1 double hommes, 1 double dames, 2 doubles mixtes).
+L: JALA JALC JAFA JAFC
+
+Q icn-002 | D: 2 | R: 04.07 12
+Combien de matchs comporte une rencontre de saison régulière de Top 12 ?
++ 6 : 1 SH, 1 SD, 1 DH, 1 DD, 2 DMx
+- 8
+- 5
+- 7
+> GdB 04.07 §12 : en Top 12, 6 matchs (1 SH, 1 SD, 1 DH, 1 DD, 2 DMx).
+
+Q icn-003 | D: 1 | R: 04.07 12
+Dans une rencontre d'interclubs nationaux, combien de matchs un joueur peut-il disputer au maximum ?
++ Deux, et jamais deux dans la même discipline
+- Trois
+- Deux, éventuellement dans la même discipline
+- Un seul
+> GdB 04.07 §12 : un joueur ne peut disputer lors d'une même rencontre ni plus de deux matchs, ni deux matchs dans la même discipline.
+
+Q icn-004 | D: 2 | R: 04.07 9
+Sur quelle base la hiérarchie des joueurs (SH1/SH2…) est-elle établie en ICN ?
++ Le classement fédéral (CPPH) du vendredi précédant la semaine de la journée (J-8 pour un samedi) ; en double, la somme des points des deux joueurs dans la discipline
+- Le classement de début de saison
+- Le choix libre du capitaine
+- L'âge des joueurs
+> GdB 04.07 §9 : hiérarchie selon le CPPH du vendredi précédant la semaine comprenant la journée ; en double, addition des points des deux joueurs ; à CPPH égal, le capitaine choisit.
+
+Q icn-005 | D: 2 | R: 04.07 6
+Quelle composition minimale par sexe doit comporter une équipe à chaque rencontre ICN ?
++ Au moins 3 hommes et 3 femmes
+- Au moins 2 hommes et 2 femmes
+- Au moins 4 hommes et 4 femmes
+- Aucune exigence
+> GdB 04.07 §6 : à chaque rencontre, la composition d'équipe comporte au minimum 3 hommes et 3 femmes.
+
+Q icn-006 | D: 2 | R: 04.07 11
+Combien de joueurs mutés une équipe peut-elle aligner au maximum lors d'une rencontre ICN ?
+- 1
+- 2
++ 3
+- 4
+> GdB 04.07 §11 : l'équipe alignée pour chaque rencontre doit comprendre au maximum 3 joueurs mutés (notion distincte de celle de JIFF).
+
+Q icn-007 | D: 2 | R: 04.07 6
+Qu'est-ce qu'un JIFF ?
++ Un joueur issu de la formation française : licencié compétiteur actif à la FFBaD en minimes ou cadets, ou pendant au moins 10 ans
+- Un joueur international de la fédération française
+- Un jeune inscrit en filière fédérale
+- Un joueur titulaire d'une licence française depuis un an
+> GdB 04.07 §6 : JIFF = avoir été licencié compétiteur actif en catégorie minimes ou cadets, ou pendant au moins 10 ans ; quotas minimaux de 50 % (Top 12/N1) et 60 % (N2/N3) sur la feuille de composition.
+
+Q icn-008 | D: 1 | R: 04.07.A04 7.1.1
+Au plus tard quand le capitaine doit-il valider la feuille de présence de son équipe sur l'application ?
+- 15 minutes avant la rencontre
+- 45 minutes avant la rencontre
++ Une heure avant l'heure prévue de la rencontre
+- Deux heures avant
+> GdB 04.07.A04 art. 7.1.1 : le gymnase est ouvert au moins 1 h 30 avant ; le capitaine saisit et valide la feuille de présence dès son arrivée et au plus tard une heure avant l'heure prévue.
+
+Q icn-009 | D: 1 | R: 04.07.A04 7.1.2
+Au plus tard quand le juge-arbitre doit-il avoir contrôlé les pièces d'identité des joueurs et de l'arbitre ?
++ Avant l'heure prévue pour le briefing, soit 45 minutes avant l'heure de la rencontre
+- Avant le premier match du joueur concerné
+- Une heure avant la rencontre
+- Ce contrôle est facultatif si le joueur est connu
+> GdB 04.07.A04 art. 7.1.2 : contrôle obligatoire au plus tard 45 min avant, même si le joueur est connu ; aucune dérogation. Un joueur non contrôlé dans ce délai ne peut pas participer à la rencontre.
+
+Q icn-010 | D: 2 | R: 04.07.A04 7.1.2
+Un joueur ne peut pas présenter de pièce d'identité valable dans les délais. Que fait le juge-arbitre ?
++ Il ne peut pas participer ; le JA en informe les deux capitaines qui peuvent modifier leur composition dans un délai de 10 minutes maximum
+- Il joue sur attestation de son capitaine
+- Il joue si le JA le connaît personnellement
+- Il joue mais ses matchs sont perdus par forfait
+> GdB 04.07.A04 art. 7.1.2 : il ne peut en aucun cas participer ni figurer sur la composition ; le JA informe les deux capitaines, qui peuvent modifier leur composition dans un délai n'excédant pas 10 minutes.
+
+Q icn-011 | D: 2 | R: 04.07.A04 7.1.2
+L'arbitre fourni par une équipe n'a pas de pièce d'identité. Peut-il arbitrer ?
++ Oui, pour le bon déroulement de la rencontre, mais le JA doit le signaler dans son rapport
+- Non, l'équipe est sanctionnée d'un forfait
+- Non, il doit être remplacé par un joueur
+- Oui, sans formalité
+> GdB 04.07.A04 art. 7.1.2 : si l'arbitre ne peut pas présenter de pièce d'identité, il est quand même autorisé à arbitrer ; le JA le signale dans son rapport.
+
+Q icn-012 | D: 1 | R: 04.07.A04 7.1.3
+Au plus tard quand a lieu la réunion du juge-arbitre avec les capitaines et les arbitres ?
++ 45 minutes avant l'heure prévue de la rencontre
+- 15 minutes avant
+- 1 heure 30 avant
+- Juste avant le premier match
+> GdB 04.07.A04 art. 7.1.3 : le briefing avec les capitaines et avec les arbitres a lieu au plus tard 45 min avant ; le JA fixe l'heure limite de validation des compositions, avec un minimum de 15 minutes.
+
+Q icn-013 | D: 2 | R: 04.07.A04 7.1.3
+De combien de temps minimum les capitaines disposent-ils pour valider la composition de leur équipe après le briefing ?
+- 5 minutes
+- 10 minutes
++ 15 minutes
+- 30 minutes
+> GdB 04.07.A04 art. 7.1.3 : le JA fixe l'heure limite de validation des compositions, avec un minimum de 15 minutes. Un retard de validation est consigné au rapport et passible d'amende (7.1.4).
+
+Q icn-014 | D: 2 | R: 04.07.A04 7.1.4
+La composition d'équipe validée peut-elle être communiquée à l'adversaire avant que tous les joueurs aient été validés par le JA ?
++ Non
+- Oui, dès qu'elle est saisie
+- Oui, avec l'accord du JA
+- Oui, si l'adversaire a déjà validé la sienne
+> GdB 04.07.A04 art. 7.1.2 : la composition d'une équipe ne peut pas être communiquée à l'adversaire tant que l'ensemble des joueurs n'a pas été validé par le JA.
+
+Q icn-015 | D: 1 | R: 04.07.A04 7.1.5
+Qui détermine l'ordre des matchs d'une rencontre d'ICN ?
++ Le juge-arbitre ; si un ordre proposé par les capitaines est compatible avec un bon déroulement, il est utilisé
+- Le capitaine de l'équipe qui reçoit
+- Un tirage au sort
+- Le règlement fixe un ordre immuable
+> GdB 04.07.A04 art. 7.1.5 : l'ordre des matchs est déterminé par le JA (équité, repos, enchaînement) ; les capitaines peuvent proposer un ordre ; si plusieurs ordres sont compatibles, le JA choisit.
+
+Q icn-016 | D: 2 | R: 04.07.A04 8.1.1
+À quelles heures une rencontre d'ICN peut-elle débuter ?
++ Le samedi entre 12h30 et 19h, le dimanche entre 10h et 14h
+- Le samedi entre 9h et 20h, le dimanche entre 9h et 17h
+- Le samedi uniquement, à 16h
+- Librement, avec l'accord des deux clubs
+> GdB 04.07.A04 art. 8.1.1 : samedi 12h30 au plus tôt et 19h au plus tard ; dimanche 10h au plus tôt et 14h au plus tard ; horaire standard par défaut : samedi 16h (18h en Top 12).
+
+Q icn-017 | D: 2 | R: 04.07.A04 8.1.3
+Un club reçoit deux rencontres d'ICN le même jour dans son gymnase. Quel écart minimum entre les horaires prévus ?
++ 3 heures 30
+- 2 heures
+- 3 heures
+- 4 heures
+> GdB 04.07.A04 art. 8.1.3 : le début de la deuxième rencontre doit être espacé de 3 h 30 minimum par rapport à l'heure prévue de la première (même règle pour deux clubs partageant un équipement, 8.1.4).
+
+Q icn-018 | D: 2 | R: 04.07.A04 10.1.1
+L'équipe visiteuse prévient d'un retard. Jusqu'à quel retard la rencontre doit-elle être lancée ?
++ Jusqu'à 1 heure par rapport à l'heure limite de signature de la feuille de présence (45 min avant l'heure prévue)
+- 15 minutes
+- 30 minutes après l'heure prévue
+- 2 heures
+> GdB 04.07.A04 art. 10.1.1 : pour un retard jusqu'à 1 h par rapport à l'heure limite de signature, la rencontre est lancée selon une planification adaptée ; au-delà, si l'équipe n'est pas complète, la rencontre n'a pas lieu et la commission décide.
+
+Q icn-019 | D: 3 | R: 04.07.A04 10.1.1
+En cas de retard d'une équipe, quand celle-ci est-elle considérée comme « complète » pour lancer la rencontre ?
++ Dès qu'elle compte 4 joueurs dont au moins 1 homme et 1 femme
+- Lorsqu'elle compte 6 joueurs
+- Lorsque tous les joueurs inscrits sont arrivés
+- Dès qu'un joueur est arrivé
+> GdB 04.07.A04 art. 10.1.1 : dès qu'une équipe est composée de 4 joueurs (avec au moins 1 homme et 1 femme), elle est considérée comme complète ; les premiers matchs ne peuvent pas démarrer plus de 1 h 15 après l'heure limite de signature.
+
+Q icn-020 | D: 2 | R: 04.07.A04 10.1.3
+Les joueurs de l'équipe qui reçoit peuvent-ils arriver en retard ?
++ Non : ils doivent être présents à l'heure limite de présentation des pièces d'identité (45 min avant), aucun retard n'est possible
+- Oui, jusqu'à 1 heure
+- Oui, s'ils préviennent le JA
+- Oui, comme l'équipe visiteuse
+> GdB 04.07.A04 art. 10.1.3 : l'équipe qui accueille doit avoir ses joueurs présents à l'heure limite de présentation des pièces d'identité ; aucun retard n'est possible pour ces joueurs.
+
+Q icn-021 | D: 2 | R: 04.07.A04 10.1.2
+Après un retard d'équipe, que doit faire l'équipe en retard ?
++ Envoyer une lettre explicative à la commission fédérale chargée des interclubs dans les 5 jours, le JA consignant les faits dans son rapport
+- Payer une amende au JA sur place
+- Rien, le JA décide seul
+- S'excuser auprès de l'équipe adverse
+> GdB 04.07.A04 art. 10.1.2 : le JA consigne les faits ; l'équipe en retard envoie une lettre explicative dans les 5 jours ; la commission décide de la sanction ou de l'amende.
+
+Q icn-022 | D: 2 | R: 04.07 14
+Un joueur se blesse avant son premier match, après la validation de la composition. Peut-il être remplacé ?
++ Non : le remplacement avant le premier match n'est pas autorisé
+- Oui, par n'importe quel joueur présent
+- Oui, si le capitaine adverse est d'accord
+- Oui, par un joueur de rang inférieur
+> GdB 04.07 §14 : un joueur ayant débuté son premier match et dans l'impossibilité de disputer son second peut être remplacé ; le remplacement avant le premier match n'est pas autorisé.
+
+Q icn-023 | D: 2 | R: 04.07 14
+Un joueur se blesse pendant son premier match (simple) et ne peut pas jouer son double mixte. Quelles conditions pour son remplacement ?
++ Le remplaçant figure sur la déclaration de présence, est qualifié et n'a pas déjà joué deux matchs
++ La hiérarchie des matchs doit être respectée
+- Le remplaçant peut être pris parmi les spectateurs licenciés
+- Aucune condition
+> GdB 04.07 §14 : le remplaçant est qualifié (chapitres 6, 7, 10, 11), figure sur la feuille de présence, respecte le nombre de matchs autorisés et la hiérarchie ; si aucun des deux matchs de la discipline n'a été joué, le JA peut autoriser l'inversion pour respecter la hiérarchie. À défaut, le match est perdu par forfait.
+
+Q icn-024 | D: 2 | R: 04.07 17
+Selon le règlement ICN, combien de points vaut un match perdu par forfait (hors abandon dans un match précédent) ?
+- 0
++ −1
+- +1 pour l'adversaire seulement
+- −2
+> GdB 04.07 §17 : match gagné +1, perdu 0, forfait −1 (sauf match non joué en raison d'un abandon dans un match précédent).
+
+Q icn-025 | D: 2 | R: 04.07 18
+Une rencontre de N2 se termine sur le score de 5-3. Combien de points chaque équipe marque-t-elle au classement général ?
++ 5 pour l'équipe gagnante, 3 pour l'équipe perdante
+- 3 et 1
+- 3 et 0
+- 2 et 1
+> GdB 04.07 §18 : chaque équipe marque le nombre de matchs gagnés (pas de bonus) : 5-3 = 5 et 3 points (4-2 en Top 12 = 4 et 2).
+
+Q icn-026 | D: 2 | R: 04.07 16
+Si un joueur non qualifié joue en SH1, quels matchs sont perdus par forfait ?
++ Le SH1 et les matchs hiérarchiquement inférieurs disputés en conséquence (SH2)
+- Uniquement le SH1
+- Toute la rencontre
+- Aucun si le joueur a perdu
+> GdB 04.07 §16 : est perdu par forfait un match joué par un joueur non qualifié et les matchs hiérarchiquement inférieurs (SH2 si le 1 n'est pas en règle) ; une pénalité d'un point au classement s'ajoute par joueur non qualifié aligné.
+
+Q icn-027 | D: 2 | R: 04.07 16
+Un joueur est aligné dans les trois disciplines (simple, double et mixte). Pour quel match est-il considéré comme non qualifié ?
++ Pour le double (hommes ou dames)
+- Pour le simple
+- Pour le mixte
+- Pour les trois
+> GdB 04.07 §16 : dans le cas d'un joueur aligné dans les trois disciplines, c'est pour le double (hommes ou dames) qu'il est considéré comme non qualifié.
+
+Q icn-028 | D: 3 | R: 04.07 16
+Qu'est-ce qu'un « forfait stratégique » en ICN ?
++ Un match non joué alors que le nombre de joueuses et joueurs présents le permettrait
+- Un forfait déclaré avant la rencontre
+- Un abandon sur blessure
+- Un forfait de l'équipe qui reçoit
+> GdB 04.07 §16 : un forfait stratégique est un match non joué alors que le nombre de joueurs présents le permettrait ; il entraîne un point de pénalité en plus de celui de chaque match non joué, sans plafond.
+
+Q icn-029 | D: 3 | R: 04.07 16
+Quel est le nombre maximal de points de pénalité par équipe et par rencontre (hors forfait stratégique) ?
+- 1
+- 2
++ 3
+- 5
+> GdB 04.07 §16 : le nombre de points de pénalité par équipe et par rencontre est limité à trois, même si le nombre d'infractions est supérieur, sauf en cas de forfait stratégique.
+
+Q icn-030 | D: 2 | R: 04.07 13
+Quel grade minimum de juge-arbitre est requis pour une rencontre de N1, N2 ou N3 ? Et de Top 12 ?
++ Ligue certifié pour N1-N3 ; fédéral accrédité pour le Top 12
+- Ligue accrédité pour N1-N3 ; ligue certifié pour le Top 12
+- Fédéral certifié dans tous les cas
+- Ligue certifié dans tous les cas
+> GdB 04.07 §13 : le JA est au minimum de grade fédéral accrédité pour les équipes de Top 12 et ligue certifié pour les autres divisions ; il est licencié la veille de la date d'activité et désigné par la CFOT.
+
+Q icn-031 | D: 2 | R: 04.07 13
+Quelles fonctions l'arbitre fourni par une équipe d'ICN peut-il cumuler pendant la rencontre ?
++ Aucune : sa seule fonction est l'arbitrage (pas joueur, capitaine, conseiller, kiné…)
+- Il peut être capitaine
+- Il peut être conseiller entre deux matchs
+- Il peut jouer un match s'il n'arbitre pas celui-ci
+> GdB 04.07 §13 : l'arbitre ne doit avoir comme seule et unique fonction que l'arbitrage ; il ne peut en aucun cas être joueur, capitaine, conseiller, kinésithérapeute ou toute autre fonction.
+
+Q icn-032 | D: 2 | R: 04.07.A04 3
+Quels volants l'équipe hôte doit-elle fournir en N1, N2 et N3 ?
++ Au moins une vitesse de volants de la même marque et du même type, en quantité suffisante, de catégorie Standard minimum pour le championnat National
+- Deux vitesses obligatoirement
+- Les volants sont fournis par chaque équipe
+- Des volants plastique
+> GdB 04.07.A04 §3 : en Top 12, au moins deux vitesses ; en N1-N3, au moins une vitesse ; volants Élite pour le championnat Élite, Standard minimum pour le championnat National ; volants non agréés passibles d'amende.
+
+Q icn-033 | D: 2 | R: REGLES Instr. 3.5.4
+Comment doit être réalisé le test des volants en interclubs nationaux (pratique harmonisée par la CFOT) ?
++ Un seul test en début de rencontre, de chaque côté du terrain, par un seul joueur référent, le JA décidant seul de la vitesse
+- Un test avant chaque match par les joueurs concernés
+- Un test par un joueur de chaque équipe, chacun choisissant sa vitesse
+- Aucun test : on utilise la vitesse indiquée sur le tube
+> Instruction 3.5.4 et note CFOT : principe d'équité ; un seul test en début de rencontre (pas à chaque match), de chaque côté, par un seul joueur référent ; la vitesse n'est changée qu'en cas de changement majeur des conditions ; le JA a le dernier mot.
+
+Q icn-034 | D: 2 | R: 04.07.A04 6
+Combien de temps avant le début prévu la table de marque doit-elle être installée, et par qui doit-elle être tenue ?
++ 1 h 15 avant ; par au moins une personne n'ayant aucune autre fonction sur la rencontre (GEO recommandé)
+- 30 minutes avant ; par le capitaine de l'équipe hôte
+- 2 heures avant ; par le juge-arbitre
+- Le matin même ; par l'arbitre
+> GdB 04.07.A04 §6 : PC et imprimante installés 1 h 15 avant le début prévisionnel ; au moins une personne sans autre fonction (GEO recommandé) ; trousse de secours complète à la table de marque ; amende possible en cas de négligence constatée par le JA.
+
+Q icn-035 | D: 2 | R: 04.07 21
+À la fin d'une rencontre d'ICN, comment les résultats sont-ils validés ?
++ Électroniquement par les deux capitaines et le JA dès la fin de la rencontre
+- Par courrier du club recevant sous 15 jours
+- Par le JA seul le lendemain
+- Par la ligue
+> GdB 04.07 §21 : validation électronique par les deux capitaines et le JA ; en cas de problème informatique, le club recevant envoie le dossier à la Fédération dans les deux jours ouvrés.
+
+Q icn-036 | D: 3 | R: 04.07 20
+Un joueur est disqualifié par le JA pendant une rencontre d'ICN. Peut-il être remplacé pour ses matchs suivants ?
++ Non : il ne peut plus jouer dans la rencontre et son remplacement n'est pas autorisé
+- Oui, par un joueur présent sur la feuille de présence
+- Oui, avec l'accord du capitaine adverse
+- Oui, uniquement en double
+> GdB 04.07 §20 : tout joueur disqualifié ne peut plus jouer de match dans la rencontre en cours et son remplacement n'est pas autorisé ; il est suspendu à titre conservatoire selon le règlement des cartons.
+
+Q icn-037 | D: 3 | R: 04.07 10
+Un joueur a participé à trois rencontres de saison régulière avec l'équipe 1 de son club (N2). Peut-il ensuite jouer avec l'équipe 2 (N3) ?
++ Non, il ne peut plus être aligné dans une équipe de division inférieure du championnat interclubs national
+- Oui, sans limite
+- Oui, une fois par mois
+- Oui, s'il n'a pas joué la semaine précédente
+> GdB 04.07 §10 : un joueur ayant participé à au moins trois rencontres dans une ou plusieurs équipes d'une division supérieure ne peut plus être aligné dans une équipe de division inférieure (cinq rencontres en Top 12) ; un joueur ne peut jouer qu'avec une seule équipe de son club par semaine.
+
+Q icn-038 | D: 2 | R: 04.07 15
+Deux équipes d'ICN ont des maillots de même couleur. Qui doit changer ?
++ L'équipe visiteuse, la priorité étant donnée à l'équipe qui reçoit (couleur mentionnée sur l'invitation)
+- L'équipe qui reçoit
+- Celle désignée par tirage au sort
+- Aucune, c'est autorisé
+> GdB 04.07 §15 : les équipes disposent de deux jeux de maillots de couleurs différentes ; tous les joueurs d'une équipe portent des maillots identiques et des shorts de même couleur ; priorité à l'équipe qui reçoit.

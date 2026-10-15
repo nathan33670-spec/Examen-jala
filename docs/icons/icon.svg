@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0f4c5c"/>
+  <g transform="rotate(-35 256 256)">
+    <path d="M170 120 L342 120 L296 318 L216 318 Z" fill="#ffffff"/>
+    <path d="M198 120 L232 318 M226 120 L245 318 M256 120 L256 318 M286 120 L267 318 M314 120 L280 318" stroke="#c9dde3" stroke-width="7"/>
+    <path d="M178 165 L334 165 M188 210 L324 210 M199 258 L313 258" stroke="#c9dde3" stroke-width="7"/>
+    <rect x="206" y="312" width="100" height="22" rx="6" fill="#e36414"/>
+    <path d="M206 334 h100 v14 a50 50 0 0 1 -100 0 z" fill="#e36414"/>
+  </g>
+  <text x="256" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" fill="#ffffff">JA</text>
+</svg>

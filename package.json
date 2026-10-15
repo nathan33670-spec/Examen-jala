@@ -1,0 +1,12 @@
+{
+  "name": "prepa-ja-badminton",
+  "private": true,
+  "type": "module",
+  "description": "Application web hors-ligne de préparation aux examens de juge-arbitre de badminton (FFBaD).",
+  "scripts": {
+    "build": "python3 scripts/build_site.py",
+    "check": "python3 scripts/build_site.py --check && python3 -m unittest discover -s tests -v",
+    "serve": "python3 -m http.server -d docs 8765",
+    "test:e2e": "node tests/smoke.mjs http://localhost:8765/"
+  }
+}

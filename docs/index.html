@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Prépa JA Badminton</title>
+  <meta name="description" content="Préparation aux examens théoriques et pratiques de juge-arbitre de badminton (JALA, JALC, JAFA, JAFC) : questions, examens blancs, cas pratiques et règlements, utilisable hors ligne.">
+  <meta name="theme-color" content="#0f4c5c" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1f26" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Prépa JA">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="topbar">
+    <button class="icon-btn back" id="backBtn" aria-label="Retour" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <a class="brand" href="#/">
+      <img src="icons/icon.svg" alt="" width="28" height="28">
+      <span>Prépa JA</span>
+    </a>
+    <span class="level-pill" id="levelPill" title="Niveau visé"></span>
+    <span class="net" id="netStatus" hidden>Hors ligne</span>
+    <a class="icon-btn" href="#/recherche" aria-label="Rechercher">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+    </a>
+    <a class="icon-btn" href="#/reglages" aria-label="Réglages">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg>
+    </a>
+  </header>
+
+  <div class="banner" id="updateBanner" hidden>
+    <span>Une nouvelle version (questions ou règlements) est disponible.</span>
+    <button class="btn small" id="updateBtn">Mettre à jour</button>
+  </div>
+
+  <main id="main" tabindex="-1">
+    <div class="loading" id="boot">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Chargement…</p>
+      <noscript><p>Cette application nécessite JavaScript.</p></noscript>
+    </div>
+  </main>
+
+  <nav class="tabbar" aria-label="Navigation principale">
+    <a href="#/" data-tab="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+      <span>Accueil</span>
+    </a>
+    <a href="#/entrainement" data-tab="train">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h10"/><circle cx="19" cy="19" r="2"/></svg>
+      <span>Questions</span>
+    </a>
+    <a href="#/examen" data-tab="exam">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+      <span>Examen</span>
+    </a>
+    <a href="#/pratique" data-tab="practice">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg>
+      <span>Pratique</span>
+    </a>
+    <a href="#/docs" data-tab="docs">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h9l5 5v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M14 4v5h5"/></svg>
+      <span>Règlements</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

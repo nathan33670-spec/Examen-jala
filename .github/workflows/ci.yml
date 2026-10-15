@@ -1,0 +1,43 @@
+name: Contrôles
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dépendances Python
+        run: pip install -r bot/requirements.txt
+
+      - name: Contenu valide et fichiers générés à jour
+        run: python scripts/build_site.py --check
+
+      - name: Tests unitaires
+        run: python -m unittest discover -s tests -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Syntaxe JavaScript
+        run: for f in docs/js/*.js docs/sw.js; do node --check "$f"; done
+
+      - name: Tests de bout en bout (Chromium)
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          python -m http.server -d docs 8765 &
+          sleep 2
+          node tests/smoke.mjs http://localhost:8765/

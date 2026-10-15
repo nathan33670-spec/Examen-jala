@@ -1,0 +1,49 @@
+# Glossaire — format : Terme :: définition
+Abandon :: Arrêt d'un match en cours par un joueur qui ne se sent plus en mesure de le terminer ; il ne peut plus jouer dans le tableau (RGC 2.18.4).
+AFLD :: Agence française de lutte contre le dopage, seule compétente pour les infractions de dopage.
+Aire de jeu :: Surface totale où sont posés les terrains et où les spectateurs ne sont pas autorisés ; les cartons ne s'appliquent qu'aux comportements sur l'aire de jeu.
+Annexe 02 (filière JA) :: Grille des critères observés à l'examen et en évaluation, avec un niveau attendu (0, +, ++, +++) par grade.
+Arrêt :: Règle selon laquelle les résultats d'un joueur forfait ou ayant abandonné sont retirés du classement de la poule, sauf poule unique (RGC 3.4.4).
+Auto-arbitrage :: Match sans arbitre : les joueurs annoncent eux-mêmes ; le JA est responsable de la discipline sur la surface de jeu.
+BWF :: Badminton World Federation, fédération internationale qui édicte les Laws of Badminton et les instructions aux officiels techniques.
+CEJ :: Circuit Élite Jeunes, compétition fédérale qualificative pour les championnats de France jeunes.
+CFOT :: Commission fédérale des officiels techniques ; gère les grades fédéraux (JAFA et au-delà).
+CLOT :: Commission de ligue des officiels techniques ; gère les JALA, JALC, arbitres de ligue et juges de ligne accrédités, par délégation de la CFOT.
+Conseiller :: Personne (entraîneur, capitaine, joueur) assise au fond du terrain pour conseiller un joueur ; deux au maximum par côté.
+Cote (CPPH) :: Nombre de points représentant le niveau d'un joueur dans une discipline (simple, double, mixte), mis à jour chaque semaine (nuit du mercredi au jeudi).
+CPPH :: Classement par points hebdomadaire.
+Décision de fait :: Décision d'un officiel de terrain (point, faute, disqualification) qui ne peut être remise en cause par une instance fédérale (GdB 07.06).
+Échéancier :: Programme horaire indicatif de la compétition, publié au plus tard une heure avant le début ; les matchs peuvent être appelés jusqu'à 60 minutes en avance.
+ÉJAF :: Évaluateur en juge-arbitrage fédéral (JAFC et plus), désigné par la CFOT.
+ÉJAL :: Évaluateur en juge-arbitrage de ligue (JALC minimum), désigné par la CLOT.
+FormaBad :: Organisme de formation de la FFBaD, responsable du cursus de formation des officiels techniques avec la CFOT.
+Forfait involontaire :: Absence, retard ou renoncement à un tableau pour une raison indépendante de la volonté du joueur (blessure, convocation imprévue en équipe de France…) ; justificatif sous 5 jours ouvrables.
+Forfait volontaire :: Absence sans raison valable ou sans prévenir, ou renoncement sans raison valable à jouer un match ; retrait de tous les tableaux et suspension de 2 mois.
+GdB :: Guide du Badminton, recueil officiel des statuts et règlements de la FFBaD, publié chaque saison sur gdb.ffbad.org.
+GEO :: Gestionnaire et organisateur de compétition ; formations GEO 1 et GEO 2, prérequis de la formation JALA.
+Homologation :: Validation a posteriori d'une compétition autorisée qui s'est déroulée conformément aux règlements ; tournoi homologué à J+30 sans information contraire.
+ICD / ICR / ICN :: Interclubs départementaux, régionaux et nationaux.
+Instructions aux officiels techniques :: Partie II des Règles officielles du badminton : missions et conduite des juges-arbitres, arbitres, juges de service et de ligne.
+JA :: Juge-arbitre, responsable de la conduite de la compétition, de l'équité et de l'application des règlements.
+JAA :: Juge-arbitre adjoint ; mêmes rôles et responsabilités que le JA, sa décision vaut décision du JA.
+JAFA :: Juge-arbitre fédéral accrédité.
+JAFC :: Juge-arbitre fédéral certifié.
+JALA :: Juge-arbitre de ligue accrédité, premier grade de la filière.
+JALC :: Juge-arbitre de ligue certifié.
+JIFF :: Joueur issu de la formation française (licencié compétiteur en minimes ou cadets, ou pendant 10 ans) ; quotas en interclubs nationaux.
+Juge de service :: Officiel assis près du poteau, qui juge les fautes de service du serveur.
+Let :: Interruption de l'échange qui fait rejouer le point : le dernier serveur sert à nouveau.
+Liste d'attente :: Joueurs non retenus en raison du nombre limité de places ; considérés comme non inscrits.
+Mode d'arbitrage :: Arbitrage ou auto-arbitrage retenu pour chaque phase, à indiquer dans le règlement particulier.
+MyFFBaD :: Espace en ligne des licenciés (licence, justification des forfaits…).
+PromoBad :: Rencontre aux contraintes allégées, ouverte à tous les niveaux, pouvant se dérouler sans juge-arbitre (GEO 1 promo ou GEO 2).
+Poona :: Base de données fédérale (licences, compétitions, autorisations, résultats, rapports de JA).
+Règle des +1000 :: Dans un tableau, la cote du mieux classé ne peut dépasser de plus de 1000 points celle du moins bien classé (RGC 3.2.1.5).
+Règlement particulier :: Règlement propre à une compétition, qui complète le RGC sans pouvoir y contrevenir ; approuvé par le JA (annexe 02 du RGC).
+RGC :: Règlement général des compétitions (GdB 03.01).
+SRI :: Système de révision instantanée (vidéo) permettant aux joueurs de contester une décision de ligne par un challenge.
+TdS :: Tête de série : joueur ou paire placé dans le tableau pour éviter que les plus forts se rencontrent trop tôt.
+Temps de repos :: Durée minimale entre deux matchs d'un même joueur, comprise entre 20 et 30 minutes et fixée par le règlement particulier.
+Terrain poussins :: Terrain réduit (ligne de fond = ligne de service long du double, 11,88 m) avec filet abaissé de 15 cm, pour les poussins et plus jeunes.
+3×15 :: Système de score appliqué en France depuis le 1er septembre 2026 : match au meilleur des trois sets de 15 points (deux sets gagnants), deux points d'écart à partir de 14-14, plafond à 21 points.
+WO :: Walk-over : victoire par forfait de l'adversaire (15-0, 15-0).

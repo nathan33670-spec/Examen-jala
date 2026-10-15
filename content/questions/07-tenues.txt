@@ -1,0 +1,222 @@
+# Tenues vestimentaires et publicité (GdB 03.07, en vigueur au 1er septembre 2024).
+@theme tenues
+@doc 03.07
+@levels JALA JALC JAFA JAFC
+
+Q ten-001 | D: 1 | R: 03.07 1.2.1
+Qui a toute autorité pour apprécier la conformité des tenues sur une compétition ?
++ Le juge-arbitre
+- L'arbitre du match
+- Le comité d'organisation
+- La ligue
+> GdB 03.07 art. 1.2.1 : pour chaque compétition, le juge-arbitre a toute autorité ; ses décisions sont consignées dans un rapport, preuves photographiques à l'appui.
+
+Q ten-002 | D: 2 | R: 03.07 1.2.2
+Le juge-arbitre peut-il être plus restrictif que le règlement sur les tenues ?
+- Oui, librement
++ Non : il décide si une tenue est conforme sans être plus restrictif que le règlement, en s'adaptant au contexte (spectateurs, télévision…)
+- Oui, pour les finales
+- Oui, s'il le précise au briefing
+> GdB 03.07 art. 1.2.2 : le JA peut décider si une tenue est conforme ou non sans pour autant être plus restrictif que le règlement ; il peut adapter son appréciation au contexte. Le règlement particulier peut en revanche imposer des règles plus strictes (art. 4.1.2).
+
+Q ten-003 | D: 1 | R: 03.07 1.3.1
+Jusqu'où peut descendre le short d'un joueur ?
++ Au-dessus du niveau du genou
+- Jusqu'au milieu du tibia
+- Aucune limite
+- Au niveau de la cheville
+> GdB 03.07 art. 1.3.1 : le bas de la tenue (short, shorty, jupe ou robe) ; la longueur tolérée pour le short est au-dessus du niveau du genou.
+
+Q ten-004 | D: 1 | R: 03.07 1.3.2
+Parmi ces vêtements, lesquels sont interdits en tant que tenue de match ?
++ Un maillot de football
++ Un bermuda
++ Un cuissard de cycliste porté seul
+- Un polo de sport sans manches
+> GdB 03.07 art. 1.3.2 : toute tenue clairement associée à une autre discipline sportive est interdite (maillots de bain, d'athlétisme, de sports collectifs, cuissards de cycliste…) ; bermudas et caleçons ne sont pas des tenues de sport.
+
+Q ten-005 | D: 2 | R: 03.07 1.3.4
+Dans quel cas le juge-arbitre peut-il autoriser le port d'un pantalon de survêtement pendant un match ?
++ Dans des cas particuliers, à la demande motivée du joueur, ou lorsque la température de la salle est inférieure ou égale à 12 °C
+- Jamais
+- Toujours, si le joueur le souhaite
+- Uniquement pour les vétérans
+> GdB 03.07 art. 1.3.4 : port du pantalon de survêtement autorisé par le JA dans des cas particuliers, à la demande motivée du joueur, ou lorsque la température dans la salle est inférieure ou égale à 12°.
+
+Q ten-006 | D: 1 | R: 03.07 1.3.5
+Un joueur souhaite jouer avec une casquette. Le juge-arbitre :
++ refuse : aucun couvre-chef n'est autorisé en match (le bandeau sportif n'en est pas un)
+- accepte si la salle est très éclairée
+- accepte si la casquette ne porte pas de publicité
+- accepte en double uniquement
+> GdB 03.07 art. 1.3.5 : aucun couvre-chef n'est autorisé en match ; le bandeau sportif n'est pas considéré comme tel.
+
+Q ten-007 | D: 2 | R: 03.07 1.3.5
+Quelle est la largeur maximale d'un bandeau sportif ?
+- 5 cm
++ 8 cm
+- 10 cm
+- Il n'y a pas de limite
+> GdB 03.07 art. 1.3.5 : la largeur du bandeau sportif ne doit pas dépasser 8 cm.
+
+Q ten-008 | D: 1 | R: 03.07 1.4.1
+Les deux partenaires d'une paire de double doivent-ils porter la même tenue ?
++ C'est recommandé, mais la couleur est libre sauf règlement particulier plus restrictif (interclubs, championnats)
+- Oui, c'est obligatoire dans toutes les compétitions
+- Non, c'est interdit
+- Oui, uniquement en double mixte
+> GdB 03.07 art. 1.4.1 : les couleurs sont libres ; une tenue similaire ou identique pour les deux partenaires est recommandée ; un règlement particulier peut imposer des conditions plus restrictives.
+
+Q ten-009 | D: 2 | R: 03.07 1.4.2
+Un maillot porte un grand dessin abstrait sans aucune marque. Est-il autorisé ?
++ Oui, les dessins abstraits sont admis s'ils sont exempts de publicité, de référence commerciale ou de contenu religieux, racial ou idéologique
+- Non, seuls les maillots unis sont autorisés
+- Oui, uniquement s'il représente un volant
+- Non, sauf accord de la Fédération
+> GdB 03.07 art. 1.4.2 : dessins abstraits admis s'ils sont exempts de publicité, de référence commerciale ou promotionnelle, de contenu religieux, racial ou idéologique ; tolérance pour les dessins représentant volant, raquette, joueur, terrain, filet.
+
+Q ten-010 | D: 2 | R: 03.07 2.1.1
+Combien d'inscriptions publicitaires au maximum peuvent figurer sur le devant du maillot, sur les sept emplacements prévus (épaules, col, poitrine) ?
+- Trois
+- Cinq
++ Sept, chacune dans une surface de 30 cm² maximum, sigles inclus
+- Illimité
+> GdB 03.07 art. 2.1.1 : sept inscriptions maximum (épaule gauche/droite, col gauche/droit, poitrine gauche/centre/droite), chacune dans une surface de 30 cm² maximum, le total incluant les sigles. S'y ajoutent une bande horizontale de 30 cm max sous la poitrine et 120 cm² sur chaque manche.
+
+Q ten-011 | D: 2 | R: 03.07 2.1.1
+Quelle surface publicitaire maximale est autorisée sur chaque manche du maillot ?
+- 30 cm²
+- 60 cm²
++ 120 cm²
+- 200 cm²
+> GdB 03.07 art. 2.1.1 : une surface publicitaire de 120 cm² maximum située sur chaque manche est autorisée.
+
+Q ten-012 | D: 2 | R: 03.07 2.1.2
+Dans le dos du maillot, quelle hauteur doivent avoir les lettres du nom du joueur ?
+- Entre 3 et 5 cm
++ Une hauteur constante entre 5 et 10 cm, en alphabet romain et lettres capitales
+- Exactement 10 cm
+- Libre
+> GdB 03.07 art. 2.1.2 : nom de famille (ou abréviation, éventuellement initiales du prénom), en alphabet romain et capitales, hauteur constante entre 5 et 10 cm ; même règle pour le nom du club, du comité ou de la ville.
+
+Q ten-013 | D: 3 | R: 03.07 2.1.2
+Dans un tournoi privé (hors compétitions fédérales), un joueur peut-il faire floquer son prénom ou un surnom dans le dos à la place de son nom ?
++ Oui, s'ils ne sont pas contraires aux lois et règlements, ne portent pas atteinte aux mœurs et ne font pas référence à une appartenance religieuse
+- Non, seul le nom de famille est admis
+- Oui, sans aucune restriction
+- Oui, uniquement pour les jeunes
+> GdB 03.07 art. 2.1.2 : sur les tournois hors compétitions fédérales (championnats, circuits, interclubs nationaux, Top 12…), prénoms et surnoms sont acceptés à la place du nom de famille, sous ces réserves.
+L: JALC JAFA JAFC
+
+Q ten-014 | D: 2 | R: 03.07 2.2
+Combien d'inscriptions publicitaires sont autorisées sur un short ou une jupe ?
++ Deux, chacune de 20 cm² maximum, sigle du fabricant inclus
+- Une seule de 30 cm²
+- Trois de 20 cm²
+- Aucune
+> GdB 03.07 art. 2.2 : le short ou la jupe peut porter deux inscriptions publicitaires, chacune ne dépassant pas 20 cm², incluant le sigle du fabricant.
+
+Q ten-015 | D: 2 | R: 03.07 2.3.1
+Quelle taille maximale peut avoir chaque inscription sur un bandeau, un serre-poignet ou des chaussettes ?
+- 10 cm²
++ 20 cm²
+- 30 cm²
+- 50 cm²
+> GdB 03.07 art. 2.3.1 : les autres vêtements (bandeaux, serre-poignets, genouillères, bandages, chaussettes…) peuvent porter une ou plusieurs inscriptions, chacune ne dépassant pas 20 cm².
+
+Q ten-016 | D: 2 | R: 03.07 2.3.2
+Un joueur porte un manchon de compression avec un grand logo publicitaire d'un sponsor. Que prévoit le règlement ?
++ Les articles de compression ou contention ne peuvent porter que la marque du fabricant ; sinon, un justificatif médical de prescription doit être présenté au JA le jour même
+- Tout est autorisé sur les articles de compression
+- Il peut le garder s'il le cache avec du ruban adhésif
+- C'est autorisé si le logo fait moins de 120 cm²
+> GdB 03.07 art. 2.3.2 et 5.1.2 : les articles de compression/contention ne peuvent avoir d'inscriptions autres que la marque du fabricant ; en cas d'inscription non conforme, un justificatif médical est fourni le jour de la compétition. La FAQ JA de la CFOT exclut l'usage de ruban adhésif pour masquer une publicité.
+
+Q ten-017 | D: 1 | R: 03.07 2.4
+Les inscriptions publicitaires sur les raquettes, housses, serviettes ou tubes de volants sont :
++ non réglementées
+- limitées à 20 cm²
+- interdites en compétition fédérale
+- soumises à l'accord du juge-arbitre
+> GdB 03.07 art. 2.4 : les inscriptions sur l'équipement des joueurs (raquettes, housses, serviettes, tubes de volants…) ne sont pas réglementées.
+
+Q ten-018 | D: 2 | R: 03.07 2
+Un joueur non sélectionné porte un maillot de l'équipe de France avec « France » inscrit dans le dos. Est-ce autorisé ?
++ Non, sauf s'il est inscrit dans la compétition par la FFBaD au sein d'une équipe de France
+- Oui, c'est un maillot officiel
+- Oui, s'il l'a acheté en boutique
+- Oui, en tournoi privé
+> GdB 03.07 §2 : les maillots des équipes de France sur lesquels le mot « France » est indiqué dans le dos sont interdits, sauf si le joueur est inscrit dans une compétition par la FFBaD au sein d'une équipe de France.
+
+Q ten-019 | D: 2 | R: 03.07 2.5.2
+Un joueur a un tatouage visible à caractère publicitaire pour une marque. Que dit le règlement ?
++ Les joueurs ne peuvent pas afficher de tatouage ou de peinture diffamatoires, à caractère commercial ou publicitaire, ou véhiculant un message politique ou religieux
+- Les tatouages ne sont pas réglementés
+- Il doit le déclarer comme une des sept publicités autorisées
+- C'est autorisé s'il mesure moins de 20 cm²
+> GdB 03.07 art. 2.5.2 : interdiction d'afficher des tatouages ou peintures diffamatoires, à caractère commercial ou publicitaire, ou véhiculant un message politique ou religieux.
+
+Q ten-020 | D: 2 | R: 03.07 2.5.5
+Les règles sur les inscriptions publicitaires s'appliquent-elles aux arbitres ?
++ Oui : elles s'appliquent sur le terrain et dans l'espace réglementaire qui l'entoure, donc également aux arbitres
+- Non, uniquement aux joueurs
+- Uniquement aux juges de ligne
+- Uniquement en compétition internationale
+> GdB 03.07 art. 2.5.5 : l'ensemble de ces règles est applicable sur le terrain et dans l'espace réglementaire qui l'entoure ; il s'applique donc également aux arbitres. Toutes les inscriptions sont admises en dehors de ces limites.
+
+Q ten-021 | D: 2 | R: 03.07 2.3.1
+Un joueur entre sur le terrain avec une veste portant une grande publicité non réglementaire. Que dit le règlement ?
++ C'est toléré sur le terrain, mais seulement avant le début du match
+- Il doit l'enlever avant d'entrer sur l'aire de jeu
+- C'est autorisé pendant tout le match
+- Il reçoit un carton jaune
+> GdB 03.07 art. 2.3.1 : le port d'un vêtement muni d'inscriptions non réglementaires est toléré sur le terrain, mais seulement avant le début du match.
+
+Q ten-022 | D: 1 | R: 03.07 5.1.2
+Le juge-arbitre constate qu'un maillot n'est pas conforme. Quand et comment doit-il intervenir ?
++ Le signaler au joueur avant le début du match ; le joueur doit immédiatement changer l'article non conforme pour ne pas retarder l'échéancier
+- Attendre la fin du match pour le signaler
+- Donner directement un carton jaune
+- Disqualifier le joueur
+> GdB 03.07 art. 5.1.2 : le JA le signale avant le début du match ; en application du code de conduite (art. 3.2.4 et 3.2.7), le joueur doit s'adapter immédiatement en changeant l'article non conforme.
+
+Q ten-023 | D: 2 | R: 03.07 5.1.3
+Un joueur refuse de changer de maillot non conforme. Que consigne le juge-arbitre ?
++ Le cas dans son rapport, avec si possible une photo, en précisant s'il est incertain ou si le joueur a refusé de changer ; la ligue pourra engager une procédure en cas de récidive
+- Rien, c'est le choix du joueur
+- Une disqualification automatique
+- Une amende sur place
+> GdB 03.07 art. 5.1.3 : le JA consigne les tenues non conformes dans son rapport (photo si possible, refus éventuel) ; la ligue du joueur pourra déclencher une procédure disciplinaire en cas de récidive ou d'atteinte à l'image du badminton.
+
+Q ten-024 | D: 2 | R: 03.07 4.1.3
+Lors d'une compétition se déroulant en France sous l'égide de la BWF, quel règlement de tenue s'applique ?
++ Celui imposé par la BWF
+- Le règlement 03.07 de la FFBaD
+- Le règlement le plus favorable au joueur
+- Celui du club organisateur
+> GdB 03.07 art. 4.1.3 : lors de compétitions sous l'égide d'organismes internationaux (CIO, IPC, BWF, confédérations continentales), le règlement applicable est celui imposé par ces organismes.
+
+Q ten-025 | D: 2 | R: 03.07 1.4.3
+Quel emblème peut apparaître sur le devant du maillot au titre de la représentation géographique ?
++ Le drapeau ou l'emblème du pays, de la région, du département, du comité, du club ou de la ville, dans les dimensions autorisées pour les publicités
+- Uniquement le drapeau français
+- Le logo de n'importe quelle marque
+- Aucun emblème
+> GdB 03.07 art. 1.4.3 : le drapeau ou l'emblème du pays représenté peut apparaître sur le devant ; pour la France, on entend par pays : le pays, le comité départemental, la région, le département, le club, la ville ou la province ; dimensions conformes à l'art. 2.1.
+
+Q ten-026 | D: 2 | R: 03.07 2.5.4
+Un joueur porte la publicité d'un concurrent direct du partenaire principal d'une compétition télévisée. Que peut faire le juge-arbitre ?
++ Après concertation avec l'organisateur, interdire cette publicité et consigner la décision dans son rapport
+- Rien, toute publicité réglementaire est permise
+- L'autoriser seulement hors des terrains TV
+- Lui retirer des points de classement
+> GdB 03.07 art. 2.5.4 : en cas d'incompatibilité entre le contenu d'une publicité et les partenaires de la compétition ou les chaînes de télévision, ou de contenu offensant, le JA peut, après concertation avec l'organisateur, interdire la publicité ; la décision est consignée dans le rapport.
+L: JALC JAFA JAFC
+
+Q ten-027 | D: 2 | R: 03.07 1.3.1
+Une joueuse se présente avec un legging porté sous une jupe. Est-ce autorisé ?
++ Oui : le legging, assimilé à un sous-vêtement, est accepté sous un short ou une jupe ; porté seul, il ne l'est pas
+- Non, les leggings sont interdits
+- Oui, même porté seul
+- Uniquement si la salle est froide
+> GdB 03.07 art. 1.3.1 (bas de tenue : short, jupe ou robe). La FAQ juge-arbitrage de la CFOT précise que le legging est considéré comme un sous-vêtement : autorisé sous un short ou une jupe, sans publicité sur la partie visible autre que la marque, mais pas porté seul.

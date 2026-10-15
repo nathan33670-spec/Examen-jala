@@ -1,0 +1,104 @@
+# Santé, sécurité et antidopage (RGC 2.22, règlement médical 02.01, instructions aux officiels techniques).
+@theme sante
+@levels JALA JALC JAFA JAFC
+
+Q med-001 | D: 1 | R: 03.01 2.22
+Qui a la responsabilité de prévenir les services médicaux d'urgence lors d'une compétition ?
++ Le comité d'organisation
+- Le juge-arbitre
+- Le joueur blessé
+- La ligue
+> RGC 2.22 : la possibilité de contacter un service médical d'urgence doit être assurée à tout moment ; le comité d'organisation a la responsabilité de prévenir ces services. Le JA s'assure que le dispositif existe (instruction 3.6.1.5).
+
+Q med-002 | D: 2 | R: 02.01 6
+Lors d'une compétition, le médecin de surveillance estime qu'un joueur ne doit pas poursuivre. Que prévoit le règlement médical ?
++ Il peut prendre toute décision de motif médical concernant la participation ou la poursuite de la compétition et l'indique au juge-arbitre et à l'organisateur
+- Il ne peut que conseiller le joueur
+- Il doit obtenir l'accord du juge-arbitre
+- Sa décision ne s'applique qu'au match suivant
+> GdB 02.01 §6 : le médecin assurant la surveillance d'une compétition peut prendre toute décision de motif médical concernant la participation ou la poursuite de la compétition ; il l'indique au JA et à l'organisateur. Pendant un match, la décision de continuer appartient sinon au joueur (instruction 3.6.1.2).
+L: JALC JAFA JAFC
+
+Q med-003 | D: 2 | R: 02.01 4.3
+Un joueur présente un certificat d'inaptitude temporaire à la pratique en compétition. Quel usage peut-il en faire ?
++ Il peut servir de justificatif de forfait involontaire pour une ou plusieurs compétitions, traité selon le règlement des forfaits
+- Aucun, seul un certificat d'hospitalisation est accepté
+- Il annule automatiquement ses sanctions
+- Il lui permet de jouer avec des règles adaptées
+> GdB 02.01 art. 4.3 : tout médecin peut établir un certificat d'inaptitude temporaire ; il peut être utilisé comme justificatif de forfait involontaire, traité selon la réglementation fédérale des forfaits (07.05).
+
+Q med-004 | D: 1 | R: REGLES Instr. 5.14.2
+Un joueur saigne pendant un match. Que prévoient les instructions ?
++ Le jeu est retardé jusqu'à ce que le saignement s'arrête ou que la plaie soit pansée, et tout sang sur le terrain est nettoyé
+- Le joueur doit abandonner
+- Le jeu continue, le joueur se soignera à l'intervalle
+- Le match est rejoué
+> Instruction 5.14.2 : le jeu est retardé jusqu'à ce que le saignement s'arrête, que la plaie soit convenablement pansée ou que le JA en avise l'arbitre ; tout sang sur le terrain, même sec, est nettoyé dès que possible.
+
+Q med-005 | D: 2 | R: REGLES Instr. 4.3.2.4
+Un joueur est désigné pour un contrôle antidopage alors qu'il doit encore jouer un match. Que peut faire le juge-arbitre ?
++ Modifier si nécessaire l'horaire de jeu pour tenir compte du contrôle, en veillant à la santé et à l'équité
+- Annuler le contrôle
+- Déclarer le joueur forfait
+- Refuser l'accès au contrôle jusqu'à la fin de la compétition
+> Instruction 4.3.2.4 : le JA veille à la santé et à la sécurité des joueurs et au fair-play ; l'horaire de jeu peut, si nécessaire, être modifié pour accueillir les joueurs sélectionnés ou soumis à un contrôle antidopage.
+L: JALC JAFA JAFC
+
+Q med-006 | D: 2 | R: REGLES Instr. 3.3.5.3
+Lors de la visite du site, que vérifie le juge-arbitre concernant le local antidopage ?
++ Qu'il est adéquat en termes de confidentialité, de sécurité et d'équipements
+- Qu'il est situé à côté de la buvette
+- Qu'il est équipé d'un terrain d'échauffement
+- Rien, cela relève des agents antidopage uniquement
+> Instruction 3.3.5.3 : s'assurer que la salle proposée pour le contrôle antidopage est adéquate en termes de confidentialité, de sécurité et d'équipements.
+L: JALC JAFA JAFC
+
+Q med-007 | D: 2 | R: 06.02.A02
+Selon la grille d'évaluation des juges-arbitres, à partir de quel grade la coordination de la mise en œuvre d'un contrôle antidopage est-elle attendue (niveau « + » au moins) ?
+- JALA
++ JALC
+- JAFA
+- JAFC uniquement
+> GdB 06.02.A02 : coordonner un contrôle antidopage et en respecter la confidentialité : 0 pour le JALA, + pour le JALC, ++ pour le JAFA, +++ pour le JAFC. La formation JALC aborde le contrôle antidopage (06.02 art. 3.4.3).
+
+Q med-008 | D: 2 | R: REGLES Instr. 3.5.3.4
+Pendant toute la durée du jeu, où doit se trouver le médecin du tournoi (ou tout personnel médicalement qualifié) ?
++ À côté du terrain ou en contact direct avec le juge-arbitre
+- À l'infirmerie, sans contact
+- Dans les tribunes
+- Il n'intervient qu'à la demande des joueurs
+> Instruction 3.5.3.4 : bien avant le premier match et en tout temps lorsque le jeu est en cours, le médecin doit être placé à côté du terrain ou avoir un contact direct avec le JA pour l'assister en cas de blessure.
+L: JALC JAFA JAFC
+
+Q med-009 | D: 1 | R: REGLES Instr. 3.6.1.5
+Avant la compétition, que doit savoir le juge-arbitre en matière d'urgence médicale ?
++ Qu'un service d'urgence (ambulance, hôpital) est disponible et comment mettre en place une assistance médicale immédiate
+- Le numéro de téléphone personnel de chaque joueur
+- Le nom du médecin traitant des joueurs
+- Rien, cela relève uniquement de l'organisateur
+> Instruction 3.6.1.5 : le JA s'assure qu'un service d'urgence est disponible et sait comment mettre en place une assistance médicale immédiate ; les responsables d'équipes en sont informés.
+
+Q med-010 | D: 2 | R: REGLES Instr. 3.7.2
+Pourquoi le juge-arbitre veille-t-il, à la fin du tournoi, à ce que les contrôles antidopage en cours soient terminés avant de quitter le gymnase ?
++ Parce que sa responsabilité de surveillance se poursuit après le dernier match, jusqu'à la fin des opérations (résultats, contrôles, retour des joueurs)
+- Parce qu'il doit signer chaque prélèvement
+- Parce qu'il est l'agent préleveur
+- Ce n'est pas son rôle
+> Instructions 3.7.1 et 3.7.2 : le JA reste responsable de la surveillance continue du tournoi après la fin du dernier match et veille à ce que les tests de dopage encore en cours soient terminés.
+L: JALC JAFA JAFC
+
+Q med-011 | D: 1 | R: 03.01 2.10
+Que peut faire le juge-arbitre si la sécurité des joueurs n'est plus assurée (sol glissant après une fuite d'eau) ?
++ Suspendre ou interrompre la compétition jusqu'à ce que les exigences de sécurité soient à nouveau remplies
+- Laisser les joueurs décider
+- Continuer en demandant aux joueurs d'être prudents
+- Annuler définitivement le tournoi sans consulter personne
+> RGC 2.10 et instruction 5.11.1 : le JA peut suspendre ou interrompre la compétition si les exigences techniques ou de sécurité ne sont pas ou plus remplies ; le jeu reprend au score acquis une fois le terrain praticable.
+
+Q med-012 | D: 2 | R: 02.01 4.1.2
+Un joueur mineur doit-il fournir un certificat médical pour participer à une compétition ?
++ Non, si ses représentants légaux attestent d'une réponse négative à toutes les rubriques du questionnaire de santé du sportif mineur ; sinon, un certificat est nécessaire
+- Oui, chaque saison
+- Oui, pour chaque compétition
+- Non, jamais
+> GdB 02.01 art. 4.1.2 et 4.1.3 : suppression du certificat médical pour les mineurs sous réserve de l'attestation relative au questionnaire de santé ; en cas de réponse positive, un certificat médical est requis.

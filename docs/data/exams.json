@@ -1,0 +1,102 @@
+{
+  "JALA": {
+    "official": {
+      "summary": "Le contrôle de connaissances (examen théorique) se déroule pendant le stage pratique. Sa réussite conditionne l'accès à l'examen pratique de validation du grade, passé sur une journée de compétition avec finales.",
+      "points": [
+        "Prérequis : formations GEO 1 et GEO 2, aucune sanction disciplinaire en cours ; inscription possible dans l'année des 17 ans, validation à 18 ans révolus ; préparation préalable d'un questionnaire sur le règlement général des compétitions.",
+        "Formation théorique de 7 heures (filière, fonction de JA en individuel et par équipes, citoyenneté, règles et codes de conduite, instructions aux juges-arbitres), puis stage pratique d'au moins une journée comme JA assistant d'un JALC minimum.",
+        "Contrôle de connaissances passé seul, en temps limité et sous surveillance. Seuil de réussite : 80 % du total des points (mémento d'évaluation JALA de la CFOT).",
+        "En cas d'échec : session de rattrapage dans les 6 mois (présentiel ou à distance) ; nouvel échec = refaire toute la formation théorique.",
+        "Examen pratique : une journée de compétition avec finales (niveau P à N1) ; le candidat tient le rôle de JA principal aux côtés d'un certificateur de grade supérieur. À passer au plus tard 2 ans après l'attestation de formation."
+      ],
+      "sources": [
+        { "doc": "06.02", "art": "3.3", "label": "GdB 06.02 §3.3 (formation JALA)" },
+        { "doc": "06.02", "art": "4.2", "label": "§4.2 (accès au grade)" },
+        { "doc": "06.02.A01", "art": "", "label": "Annexe 01 (architecture des grades)" },
+        { "doc": "06.02.A02", "art": "", "label": "Annexe 02 (critères évalués)" }
+      ]
+    },
+    "sim": {
+      "questions": 40,
+      "minutes": 60,
+      "passPct": 80,
+      "documents": false,
+      "penalty": 0,
+      "note": "Le nombre de questions et la durée ne sont pas publiés par la FFBaD : valeurs d'entraînement modifiables. Le seuil de 80 % reprend celui du mémento d'évaluation JALA.",
+      "themes": { "regles": 3, "instructions": 2, "rgc": 5, "annexes": 2, "sanctions": 3, "conduite": 1.5, "tenues": 1.5, "tournois": 2, "filiere": 1.5, "joueurs": 1, "interclubs": 0.5, "sante": 1 }
+    }
+  },
+  "JALC": {
+    "official": {
+      "summary": "L'examen se déroule sur une compétition d'au moins deux jours (championnat de ligue ou tournoi ouvert aux joueurs de niveau national) : un questionnaire oral et une partie pratique, avec rapport positif d'un ÉJAL ou ÉJAF.",
+      "points": [
+        "Prérequis : JALA depuis au moins 2 ans, activité conforme (3 journées par an) et feuilles d'activité transmises, formation d'arbitre de ligue accrédité, aucun courrier d'avertissement sur les 2 années civiles précédentes, aucune sanction en cours.",
+        "Formation de 7 heures (contrôle antidopage, JA en interclubs nationaux, échéanciers complexes, cas concrets) et stage pratique d'une journée d'interclubs (ICN ou ICR) comme JA assistant d'un JALC minimum.",
+        "Accès à l'examen : au moins 12 journées de compétition sur les 3 dernières années civiles ; examen au plus tard 2 ans après l'attestation de formation.",
+        "Examen : questionnaire oral pendant la compétition évaluée et évaluation pratique ; un candidat ajourné peut se présenter à un examen ultérieur."
+      ],
+      "sources": [
+        { "doc": "06.02", "art": "3.4", "label": "GdB 06.02 §3.4 (formation JALC)" },
+        { "doc": "06.02", "art": "4.3", "label": "§4.3 (accès au grade)" },
+        { "doc": "06.02.A02", "art": "", "label": "Annexe 02 (critères évalués)" }
+      ]
+    },
+    "sim": {
+      "questions": 30,
+      "minutes": 45,
+      "passPct": 80,
+      "documents": false,
+      "penalty": 0,
+      "note": "L'épreuve officielle de connaissances est orale : entraînez-vous aussi avec le « mode oral ». Seuil par défaut aligné sur celui du JALA (aucun barème publié pour l'oral).",
+      "themes": { "regles": 2.5, "instructions": 3, "rgc": 4, "annexes": 2, "sanctions": 2.5, "conduite": 1.5, "tenues": 1.5, "tournois": 2, "filiere": 1.5, "joueurs": 1, "interclubs": 3, "sante": 1.5 }
+    }
+  },
+  "JAFA": {
+    "official": {
+      "summary": "Formation fédérale de 20 heures sur 3 jours lors d'une compétition fédérale, validée par un contrôle de connaissances avec documents, puis examen comme JA principal d'une compétition fédérale.",
+      "points": [
+        "Prérequis : JALC depuis au moins 2 ans, activité conforme (5 journées par an), aucun avertissement sur 2 ans, sélection par la CFOT (avis de la CLOT, déontologie, niveau et diversité de l'activité sur 3 saisons, qualité des rapports de JA).",
+        "Contrôle de connaissances avec documents à l'issue de la formation ; pas de session de rattrapage (il faut postuler à une session théorique ultérieure). Formations en ligne d'escorte et de délégué antidopage obligatoires.",
+        "Avant l'examen : officier sur au moins deux compétitions fédérales (par exemple un CEJ et un championnat de France) comme JA adjoint.",
+        "Examen : JA principal d'une compétition fédérale (hors ICN), évalué par un ÉJAF sur la préparation et toute la compétition, avec contrôle oral des connaissances ; deux tentatives au maximum ; examen au plus tard 3 ans après l'attestation de formation."
+      ],
+      "sources": [
+        { "doc": "06.02", "art": "3.5", "label": "GdB 06.02 §3.5 (formation JAFA)" },
+        { "doc": "06.02", "art": "4.4", "label": "§4.4 (accès au grade)" }
+      ]
+    },
+    "sim": {
+      "questions": 50,
+      "minutes": 90,
+      "passPct": 80,
+      "documents": true,
+      "penalty": 0,
+      "note": "Le contrôle officiel se fait avec documents : la bibliothèque des règlements reste accessible pendant la simulation. Seuil par défaut de 80 % (non publié).",
+      "themes": { "regles": 2.5, "instructions": 4, "rgc": 4, "annexes": 2, "sanctions": 2.5, "conduite": 1.5, "tenues": 1.5, "tournois": 1.5, "filiere": 1.5, "joueurs": 1, "interclubs": 3, "sante": 2 }
+    }
+  },
+  "JAFC": {
+    "official": {
+      "summary": "Atelier de 8 heures (deux demi-journées) organisé de préférence lors d'un championnat de France, validé par un contrôle de connaissances, puis examen comme JA principal d'un championnat de France.",
+      "points": [
+        "Prérequis : JAFA depuis au moins 2 ans, activité conforme (7 journées par an sur des compétitions de niveau national), aucun avertissement sur 2 ans, sélection par la CFOT.",
+        "Contenus : cas concrets et situations vécues, nouvelles pratiques en juge-arbitrage et en arbitrage, briefings.",
+        "Accès à l'examen : rapports positifs de deux ÉJAF, avis collégial positif des ÉJAF, JA principal de plusieurs compétitions fédérales ; examen au plus tard 2 ans après l'attestation de formation.",
+        "Examen : JA principal d'un championnat de France (de préférence les championnats de France jeunes) ; la préparation en amont et toute la compétition sont évaluées."
+      ],
+      "sources": [
+        { "doc": "06.02", "art": "3.6", "label": "GdB 06.02 §3.6 (formation JAFC)" },
+        { "doc": "06.02", "art": "4.5", "label": "§4.5 (accès au grade)" }
+      ]
+    },
+    "sim": {
+      "questions": 40,
+      "minutes": 60,
+      "passPct": 80,
+      "documents": true,
+      "penalty": 0,
+      "note": "Simulation orientée cas concrets et instructions aux officiels techniques. Seuil par défaut de 80 % (non publié).",
+      "themes": { "regles": 2, "instructions": 4.5, "rgc": 3.5, "annexes": 1.5, "sanctions": 2.5, "conduite": 2, "tenues": 1.5, "tournois": 1, "filiere": 1.5, "joueurs": 1, "interclubs": 2.5, "sante": 2 }
+    }
+  }
+}

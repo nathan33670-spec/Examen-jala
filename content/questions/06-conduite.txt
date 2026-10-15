@@ -1,0 +1,245 @@
+# Codes de conduite (joueurs, conseillers, officiels techniques) et charte des officiels techniques.
+@theme conduite
+@levels JALA JALC JAFA JAFC
+
+Q cdc-001 | D: 1 | R: 07.08 3.1.1
+Après la publication des tableaux, un joueur peut-il annuler sa participation sans justification ?
+- Oui, à condition de prévenir l'organisateur
++ Non, sauf preuve d'une véritable blessure, maladie, deuil ou autre cas de force majeure
+- Oui, jusqu'à la veille de la compétition
+- Oui, s'il trouve un remplaçant
+> Code de conduite des joueurs (07.08) art. 3.1.1 : un joueur ne peut annuler sa participation après la publication des tableaux sans apporter la preuve d'une véritable blessure, maladie, deuil ou autre cas de force majeure.
+
+Q cdc-002 | D: 2 | R: 07.08 3.1.3
+Un joueur se retire d'un tournoi pour blessure, puis participe à une autre compétition entre sa déclaration de blessure et la date du tournoi dont il s'est retiré. C'est :
++ une infraction au code de conduite des joueurs
+- autorisé si la blessure est guérie
+- autorisé s'il s'agit d'une compétition par équipes
+- autorisé avec l'accord du juge-arbitre
+> 07.08 art. 3.1.3 : annuler sa participation pour blessure ou maladie et participer à une autre compétition entre la déclaration et la date de la compétition dont le joueur s'est retiré est une infraction.
+
+Q cdc-003 | D: 1 | R: 07.08 3.2.3
+Un joueur refuse de serrer la main de son adversaire à la fin du match. Quelle est la conduite à tenir du juge-arbitre ?
++ Ne pas donner de carton, mais consigner le comportement de manière circonstanciée dans le rapport pour une éventuelle suite disciplinaire
+- Donner un carton jaune
+- Donner un carton rouge
+- Disqualifier le joueur
+> 07.08 art. 3.2.3 : serrer la main des adversaires et remercier les officiels fait partie des règles de bonne conduite. La FAQ JA de la CFOT précise qu'un tel refus relève du disciplinaire (rapport) et non d'un carton.
+
+Q cdc-004 | D: 1 | R: 07.08 3.2.6
+Selon le code de conduite des joueurs, quels sont les seuls motifs valables d'abandon d'un match ?
++ Les blessures, maladies ou situations d'urgence avérées
+- La fatigue et le score défavorable
+- Le désaccord avec une décision arbitrale
+- La volonté de se préserver pour un autre tableau
+> 07.08 art. 3.2.6 : seules des blessures, maladies ou situations d'urgence avérées constituent des motifs valables d'abandon ; un abus manifeste (joueur déjà blessé qui n'aurait pas dû jouer) est une infraction.
+
+Q cdc-005 | D: 2 | R: 07.08 3.2.8
+Un joueur et son entraîneur échangent des signes pendant les échanges (hors moments autorisés). Que dit le code de conduite ?
++ Toute communication audible ou visuelle entre un joueur et son entraîneur peut être considérée comme des conseils prodigués
+- Les signes ne sont pas des conseils
+- C'est autorisé en compétition jeunes
+- C'est autorisé si l'arbitre ne le voit pas
+> 07.08 art. 3.2.8 : ne pas chercher à recevoir des conseils pendant le match, excepté lorsque c'est permis par les règles ; toute communication audible ou visuelle peut être considérée comme des conseils.
+
+Q cdc-006 | D: 1 | R: 07.08 3.2.13
+Un joueur frappe violemment le filet avec sa raquette pendant un match. Ce comportement est :
++ une infraction au code de conduite, qui constitue une infraction à la règle 16.6.4 sanctionnée par l'arbitre (règle 16.7)
+- tolérée sous le coup de l'émotion
+- sanctionnée uniquement si la raquette casse
+- une simple faute de jeu
+> 07.08 art. 3.2.13 ; instruction 5.17.1 : les infractions aux articles 3.2.2-3.2.3 et 3.2.6 à 3.2.15 du code de conduite des joueurs sont des infractions à la règle 16.6.4, sanctionnées selon la règle 16.7.
+
+Q cdc-007 | D: 2 | R: 07.08 3.2.15
+Un joueur touche sans autorisation l'épaule de l'arbitre pour contester un point. Selon le code de conduite :
++ le fait même de toucher sans autorisation un participant peut être considéré comme une agression physique
+- c'est autorisé s'il n'y a pas de violence
+- c'est un simple geste d'humeur
+- c'est sanctionnable uniquement par un carton jaune
+> 07.08 art. 3.2.15 : ne pas agresser physiquement tout autre participant ; le fait même de toucher sans autorisation l'une de ces personnes peut être considéré comme une agression physique.
+
+Q cdc-008 | D: 2 | R: 07.08 3.2.14
+Le soir de la compétition, un joueur publie sur les réseaux sociaux un message insultant envers le juge-arbitre. Cela relève-t-il du code de conduite ?
++ Oui : les propos offensants sur les réseaux sociaux sont visés par le code de conduite et peuvent donner lieu à des poursuites disciplinaires
+- Non, le code ne s'applique que dans le gymnase
+- Non, c'est la liberté d'expression
+- Uniquement si le joueur est mineur
+> 07.08 art. 3.2.14 : s'abstenir de tenir des propos offensants, à caractère personnel, comportant des préjugés ou mettant en doute l'intégrité d'autrui, dans l'enceinte du site ou sur différents supports de communication tels que les réseaux sociaux.
+
+Q cdc-009 | D: 2 | R: 07.08 3.1.4
+Un joueur organise son départ trop tôt, l'empêchant de participer à la remise des prix où il était récompensé. Est-ce une infraction ?
++ Oui, le code de conduite vise un départ empêchant de remplir ses obligations (match, contrôle antidopage, médias, partenaires, remise des prix)
+- Non, la remise des prix est facultative
+- Uniquement en compétition fédérale
+- Uniquement s'il n'a pas prévenu
+> 07.08 art. 3.1.4 : organiser son départ de la compétition trop tôt, rendant impossible un match programmé plus tard ou empêchant de remplir ses obligations (contrôle antidopage, médias, partenaires, cérémonie de remise des prix), est une infraction.
+
+Q cdc-010 | D: 1 | R: 07.07 4.6
+Où les conseillers doivent-ils se tenir pendant un match ?
++ Assis sur les chaises prévues à chaque extrémité du terrain derrière leurs joueurs, sauf aux arrêts de jeu autorisés
+- Debout au bord du terrain
+- Dans les tribunes uniquement
+- Où ils le souhaitent sur l'aire de jeu
+> Code de conduite des conseillers (07.07) art. 4.6 : rester assis sur les chaises prévues à chaque extrémité du terrain derrière leurs joueurs, sauf aux arrêts de jeu autorisés ; pour aller sur un autre terrain, se déplacer lorsque le volant n'est pas en jeu.
+
+Q cdc-011 | D: 1 | R: 07.07 4.5
+Parmi ces tenues, lesquelles sont jugées inappropriées pour un conseiller sur l'aire de jeu ?
++ Un jean
++ Des tongs ou sandales
++ Un bermuda
+- Un survêtement aux couleurs du club
+> 07.07 art. 4.5 : le conseiller porte la tenue de l'équipe (ou des vêtements de sport), ou un tee-shirt, polo, chemise ou chemisier et un pantalon long ou une jupe ; jeans, tongs, sandales, bermudas et shorts de bain sont inappropriés. Le juge-arbitre décide.
+
+Q cdc-012 | D: 2 | R: 07.07 4.11
+Un conseiller assis au fond du court utilise sa tablette pour analyser le match pendant les échanges. Est-ce permis ?
++ Non : les conseillers ne doivent utiliser aucun appareil électronique à quelque fin que ce soit
+- Oui, tant qu'il ne communique pas avec le joueur
+- Oui, en dehors des intervalles
+- Oui, si l'adversaire est d'accord
+> 07.07 art. 4.11 et instruction 5.12.6 : les conseillers au bord du terrain ne doivent utiliser aucun moyen électronique (téléphone, ordinateur portable…) à quelque fin que ce soit.
+
+Q cdc-013 | D: 2 | R: 07.07 4.1
+Dans une compétition par équipes, quel est le rôle du capitaine d'équipe vis-à-vis du juge-arbitre ?
++ Relayer pleinement les informations techniques entre le JA et les joueurs, assister aux réunions demandées et signaler les forfaits en temps utile
+- Prendre les décisions d'arbitrage pour son équipe
+- Choisir les arbitres des matchs
+- Valider l'échéancier
+> 07.07 art. 4.1 à 4.4 : le capitaine relaie les informations techniques et logistiques, assiste à la réunion des capitaines et signale tout forfait en temps utile selon la procédure réglementaire.
+
+Q cdc-014 | D: 1 | R: 07.09 2
+Qui est concerné par le code de conduite des officiels techniques ?
++ Les juges-arbitres, arbitres, juges de service, juges de ligne, évaluateurs, coordinateurs et délégués techniques
+- Uniquement les arbitres
+- Uniquement les juges-arbitres
+- Les joueurs et les entraîneurs
+> Code de conduite des officiels techniques (07.09) §2 : le terme « officiel technique » inclut juges-arbitres, arbitres, juges de service, juges de ligne, évaluateurs, coordinateurs et délégués techniques.
+
+Q cdc-015 | D: 1 | R: 07.09 4.13
+Un arbitre demande un autographe et un échange de maillot à un joueur international après le match qu'il a arbitré. Selon le code de conduite des officiels techniques :
++ c'est interdit
+- c'est autorisé après le match
+- c'est autorisé si le joueur est d'accord
+- c'est autorisé hors compétition fédérale
+> 07.09 art. 4.13 : maintenir une limite claire avec les joueurs : pas de relations inappropriées, pas de fraternisation, pas de demande d'autographes ni d'échanges de tee-shirts ou de pin's.
+
+Q cdc-016 | D: 1 | R: 07.09 4.9
+Quand un officiel technique doit-il porter la tenue réglementaire ?
++ En tout temps lorsqu'il est en service ; hors service, une tenue appropriée
+- Uniquement pendant les finales
+- Uniquement pour les matchs télévisés
+- Quand l'organisateur la fournit
+> 07.09 art. 4.9 : porter la tenue réglementaire de l'officiel technique en tout temps en service ; hors service, porter une tenue appropriée.
+
+Q cdc-017 | D: 2 | R: 07.09 4.10
+Un arbitre ayant accepté une sélection se retire la veille pour aller à une fête familiale. Le code de conduite :
++ demande d'éviter de se retirer d'une compétition sans raison valable (blessure, maladie, urgence) une fois une sélection acceptée
+- l'autorise s'il prévient 24 heures avant
+- l'autorise librement
+- prévoit une amende automatique
+> 07.09 art. 4.10 : éviter de se retirer d'une compétition sans raison valable (blessure, maladie ou situation d'urgence) une fois une sélection acceptée.
+
+Q cdc-018 | D: 2 | R: 07.09 4.5
+Lors d'un repas, un juge-arbitre critique ouvertement les compétences d'un collègue arbitre devant des joueurs. Que dit le code de conduite ?
++ S'abstenir de critiquer les compétences et la valeur des collègues ; apporter soutien et lignes directrices
+- C'est autorisé si les critiques sont fondées
+- C'est autorisé hors du gymnase
+- C'est recommandé pour améliorer l'arbitrage
+> 07.09 art. 4.5 : s'abstenir de critiquer les compétences et la valeur des collègues ; apporter un soutien et donner des lignes directrices. Le retour sur la performance se fait dans un cadre privé (instruction 3.5.10.2).
+
+Q cdc-019 | D: 2 | R: 07.12 4.9
+Selon la charte des officiels techniques, un officiel peut-il consommer de l'alcool pendant la compétition ?
++ Non : ni alcool, ni produit dopant ou prohibé durant la compétition, et un comportement digne en dehors
+- Oui, avec modération pendant la pause déjeuner
+- Oui, une fois sa session terminée dans le gymnase
+- Oui, si l'organisateur l'offre
+> Charte et gestion des officiels techniques (07.12) art. 4.9 : ne pas consommer d'alcool, de produit dopant ou prohibé durant la compétition et garder un comportement digne en dehors de celle-ci.
+
+Q cdc-020 | D: 2 | R: 07.12 3
+Qui gère les juges-arbitres de ligue accrédités et certifiés ?
++ Les commissions de ligue des officiels techniques (CLOT), par délégation de la CFOT
+- La Commission fédérale des officiels techniques (CFOT) directement
+- Les comités départementaux
+- FormaBad
+> 07.12 §3.1-3.2 : la CFOT gère les JA et arbitres à partir du grade « fédéral accrédité » ; par délégation, les CLOT gèrent les juges-arbitres et arbitres de ligue accrédités et certifiés et les juges de ligne accrédités.
+
+Q cdc-021 | D: 2 | R: 07.12 4.2
+Un club organisateur invite directement un juge-arbitre pour son tournoi. Est-ce possible ?
++ Oui : au sein de la FFBaD, les comités et clubs organisateurs peuvent inviter des officiels techniques
+- Non, seule la CLOT peut désigner un JA
+- Non, seule la FFBaD peut désigner un JA
+- Oui, uniquement pour les tournois PromoBad
+> 07.12 art. 4.2 : les instances assurent les nominations par convocations ; les comités et clubs organisateurs peuvent inviter des officiels techniques. Toute autre invitation est transmise à la commission en charge de la gestion des officiels.
+
+Q cdc-022 | D: 2 | R: 07.12 4.4
+Qui verse en principe l'indemnité d'un officiel technique invité par un club ?
++ Le club qui l'a invité (ou l'instance qui l'a nommé)
+- La Fédération dans tous les cas
+- Les joueurs via un supplément d'inscription
+- L'officiel n'est jamais indemnisé
+> 07.12 art. 4.4 à 4.8 : indemnités, restauration, hébergement et transport sont en principe pris en charge par l'instance ayant nommé ou le club ayant invité, sauf cahier des charges ou convention différente.
+
+Q cdc-023 | D: 2 | R: 07.12 4.5
+Quelles obligations déclaratives la charte impose-t-elle aux officiels techniques concernant les sommes perçues ?
++ Tenir à jour un document recensant les sommes perçues par manifestation et signaler, le cas échéant, le dépassement de la franchise en vigueur
+- Aucune
+- Déclarer chaque indemnité à la commission disciplinaire
+- Reverser les indemnités à leur club
+> 07.12 art. 4.5 : tenir à jour un document recensant les sommes perçues, remplir une attestation de non-dépassement de franchise ou informer la ligue, la FFBaD et l'organisateur en cas de dépassement.
+L: JALC JAFA JAFC
+
+Q cdc-024 | D: 2 | R: 07.12 4.9
+Selon la charte, jusqu'à quand les officiels techniques sont-ils tenus d'être présents sur une compétition ?
++ De la réunion du juge-arbitre avant le début jusqu'à la fin des finales ou l'heure de départ convenue avec l'instance qui les a nommés
+- Jusqu'à la fin de leur dernier match arbitré
+- Jusqu'aux demi-finales
+- Selon leurs disponibilités
+> 07.12 art. 4.9 : être présents pour la réunion du juge-arbitre avant le début de la compétition et jusqu'à la fin des finales ou l'heure prévisionnelle de départ convenue.
+
+Q cdc-025 | D: 2 | R: 07.12 4.9
+Un arbitre est remplacé par le juge-arbitre en cours de journée pour une rotation. Selon la charte, il doit :
++ accepter volontiers le système de rotation, un remplacement ou une prolongation demandés par le juge-arbitre ou un coordinateur
+- refuser s'il n'est pas d'accord
+- demander une indemnité supplémentaire
+- quitter la compétition
+> 07.12 art. 4.9 : accepter volontiers la rotation, un remplacement ou une prolongation sur demande du JA ou d'un coordinateur ; accepter sans critiques déplacées les désignations pour les phases finales.
+
+Q cdc-026 | D: 1 | R: 07.09 4.7
+Selon le code de conduite des officiels techniques, l'officiel doit actualiser régulièrement ses connaissances. De quoi ?
++ Des lois du badminton, des règles et règlements du jeu, des tendances et des principes de leur application
+- Uniquement des règles du jeu
+- Des classements des joueurs
+- Des tarifs des licences
+> 07.09 art. 4.7 : actualiser régulièrement ses connaissances des Lois du Badminton, des règles et règlements, des tendances et des principes de leur application (voir aussi instruction 4.1.1.1 pour le JA).
+
+Q cdc-027 | D: 2 | R: 07.08 3.2.11
+Un joueur frappe rageusement le volant vers les tribunes après un point perdu. Quel article du code de conduite est en cause ?
++ Ne pas frapper délibérément un volant de manière dangereuse ou imprudente, sur le terrain ou en dehors
+- Aucun, c'est un geste d'humeur toléré
+- L'article sur les tenues
+- L'article sur les inscriptions aux compétitions
+> 07.08 art. 3.2.11 : ne pas frapper délibérément un volant de manière dangereuse ou imprudente, avec négligence, ni abîmer délibérément un volant. Sanction selon la règle 16.7.
+
+Q cdc-028 | D: 2 | R: 07.08 3.2.7
+Un joueur montre ostensiblement la marque du volant avec sa raquette pour contester l'annonce du juge de ligne. Selon le code de conduite :
++ c'est une tentative d'influencer la décision d'un officiel, contraire au code de conduite
+- c'est un droit du joueur
+- c'est autorisé une fois par set
+- c'est autorisé si le SRI n'est pas disponible
+> 07.08 art. 3.2.7 : respecter les officiels techniques et ne pas essayer d'influencer leurs décisions par des gestes avec le bras, la main ou la raquette, ou oralement (voir aussi instruction 5.9.1.5).
+
+Q cdc-029 | D: 2 | R: 07.08 3.5
+Que dit le code de conduite des joueurs sur la « conduite contraire à la probité du sport » ?
++ Les joueurs ont l'obligation de ne pas adopter de conduite contraire à l'intégrité du jeu ; un comportement nuisant gravement à la réputation du sport peut être considéré comme portant atteinte à l'image du badminton
+- Elle ne concerne que les paris en ligne
+- Elle ne s'applique qu'aux joueurs internationaux
+- Elle ne s'applique pas en dehors des compétitions
+> 07.08 art. 3.5 : obligation de ne pas avoir de conduite contraire à l'intégrité du jeu ; les condamnations pénales graves ou comportements nuisant gravement à la réputation du sport peuvent être considérés comme portant atteinte à l'image du badminton.
+L: JALC JAFA JAFC
+
+Q cdc-030 | D: 3 | R: REGLES Instr. 3.5.18
+Pendant un match, un conseiller déplace sa chaise, ce qui masque un panneau publicitaire. Que doit faire le juge-arbitre ?
++ Prendre des mesures immédiates : les conseillers ne peuvent pas déplacer leur siège de la position assignée sans permission
+- Rien, la position des chaises est libre
+- Faire perdre un point au joueur conseillé
+- Attendre la fin du match
+> Instructions 3.5.18.1 et 5.12.3 : le JA prend des mesures immédiates si un conseiller déplace son siège de sorte que la visibilité d'une publicité (ou d'un juge de ligne) soit perturbée.

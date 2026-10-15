@@ -1,0 +1,89 @@
+name: Mise à jour des règlements
+
+# Bot : interroge le Guide du Badminton (gdb.ffbad.org), intègre les nouvelles versions
+# des règlements, reconstruit le cache hors-ligne, publie et ouvre une issue listant
+# les questions à relire.
+on:
+  schedule:
+    - cron: '23 4 * * 1,4'  # lundi et jeudi, 04:23 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "commit = publication directe ; pr = pull request à valider"
+        required: false
+        default: commit
+        type: choice
+        options: [commit, pr]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: update-regulations
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installer les outils
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          pip install -r bot/requirements.txt
+
+      - name: Interroger le Guide du Badminton
+        id: bot
+        run: python bot/update_regulations.py --site docs --report "$RUNNER_TEMP/rapport.md"
+
+      - name: Vérifier le contenu généré
+        if: steps.bot.outputs.changed == 'true'
+        run: python scripts/build_site.py --check --lenient
+
+      - name: Publier directement
+        if: steps.bot.outputs.changed == 'true' && inputs.mode != 'pr'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Règlements FFBaD : mise à jour automatique (saison ${{ steps.bot.outputs.season }})"
+          git push
+          # un push fait avec GITHUB_TOKEN ne déclenche pas les autres workflows : on lance le déploiement
+          gh workflow run deploy-pages.yml --ref "$GITHUB_REF_NAME"
+          gh label create reglements --color 0F4C5C --description "Mises à jour des règlements FFBaD" --force || true
+          gh issue create \
+            --title "Règlements FFBaD mis à jour le $(date +%F) : questions à relire" \
+            --body-file "$RUNNER_TEMP/rapport.md" --label reglements
+
+      - name: Proposer une pull request
+        if: steps.bot.outputs.changed == 'true' && inputs.mode == 'pr'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="bot/reglements-$(date +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add docs
+          git commit -m "Règlements FFBaD : nouvelles versions détectées (saison ${{ steps.bot.outputs.season }})"
+          git push -u origin "$branch"
+          gh pr create --base "$GITHUB_REF_NAME" --head "$branch" \
+            --title "Règlements FFBaD : nouvelles versions détectées" \
+            --body-file "$RUNNER_TEMP/rapport.md"
+
+      - name: Résumé
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/rapport.md" ]; then cat "$RUNNER_TEMP/rapport.md" >> "$GITHUB_STEP_SUMMARY"; fi

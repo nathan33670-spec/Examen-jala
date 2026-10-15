@@ -1,0 +1,200 @@
+# Catégories d'âge (GdB 02.04), classement des joueurs (GdB 03.06) et licences (GdB 08.03).
+@theme joueurs
+@levels JALA JALC JAFA JAFC
+
+Q jou-001 | D: 1 | R: 02.04 1.1.2
+À partir de quel âge un joueur est-il dans la catégorie Vétérans ?
+- 30 ans
++ 35 ans
+- 40 ans
+- 45 ans
+> GdB 02.04 art. 1.1.2 : vétérans = adultes de 35 ans ou plus ; seniors = adultes de moins de 35 ans et de 19 ans ou plus.
+
+Q jou-002 | D: 1 | R: 02.04 1.1.2
+Quelle est la bonne correspondance des catégories jeunes ?
++ Minibad < 9 ans ; Poussins 9-10 ans ; Benjamins 11-12 ans ; Minimes 13-14 ans ; Cadets 15-16 ans ; Juniors 17-18 ans
+- Poussins < 9 ans ; Benjamins 9-10 ; Minimes 11-12 ; Cadets 13-14 ; Juniors 15-16
+- Minibad < 8 ans ; Poussins 8-9 ; Benjamins 10-11 ; Minimes 12-13 ; Cadets 14-15 ; Juniors 16-18
+- Benjamins < 11 ans ; Minimes 11-13 ; Cadets 14-16 ; Juniors 17-19
+> GdB 02.04 art. 1.1.2 : juniors < 19 et ≥ 17 ans ; cadets < 17 et ≥ 15 ; minimes < 15 et ≥ 13 ; benjamins < 13 et ≥ 11 ; poussins < 11 et ≥ 9 ; minibad < 9 ans.
+
+Q jou-003 | D: 2 | R: 02.04 1.1.3
+Pour les catégories jeunes, à quelle date l'âge est-il apprécié ?
++ Au 1er janvier qui suit immédiatement la saison en cours, à zéro heure
+- Au 1er septembre, début de la saison
+- Au jour de la compétition
+- Au 31 décembre de l'année précédente
+> GdB 02.04 art. 1.1.3 : pour les jeunes, l'âge s'apprécie au 1er janvier qui suit immédiatement la saison en cours ; pour les autres catégories, au 1er janvier inclus dans la saison en cours (1.1.4).
+
+Q jou-004 | D: 2 | R: 02.04.A01
+Pour la saison 2026-2027, dans quelle catégorie joue un enfant né en 2015 ?
+- Poussin
++ Benjamin
+- Minime
+- Minibad
+> GdB 02.04.A01 (saison 26/27) : benjamins nés en 2015 et 2016 ; poussins 2017-2018 ; minimes 2013-2014 ; cadets 2011-2012 ; juniors 2009-2010 ; minibad 2019 et après.
+
+Q jou-005 | D: 2 | R: 02.04.A01
+Pour la saison 2026-2027, quelles sont les années de naissance des joueurs vétérans ?
++ 1991 et avant
+- 1990 et avant
+- 1992 et avant
+- 1989 et avant
+> GdB 02.04.A01 : saison 26/27, vétérans nés en 1991 et avant ; seniors nés entre 1992 et 2008 inclus.
+
+Q jou-006 | D: 3 | R: 02.04.A01
+Pour la saison 2026-2027, dans quelle catégorie vétéran joue une personne née en 1980 ?
+- V2
++ V3
+- V4
+- V1
+> GdB 02.04.A01 (26/27) : V1 1987-1991, V2 1982-1986, V3 1977-1981, V4 1972-1976, V5 1967-1971…
+
+Q jou-007 | D: 1 | R: 03.06 4.1
+Quelles sont les séries de classement du niveau Régional ?
+- R1, R2, R3
++ R4, R5, R6
+- R7, R8, R9
+- R10, R11, R12
+> GdB 03.06 art. 4.1 : National N1-N2-N3, Régional R4-R5-R6, Départemental D7-D8-D9, Promotion P10-P11-P12, et NC (non compétiteur, n'ayant jamais disputé de match officiel).
+
+Q jou-008 | D: 1 | R: 03.06 4.1
+Que signifie « NC » dans le classement ?
++ Non-compétiteur : joueur n'ayant jamais disputé de match en compétition officielle
+- Non classé faute de licence
+- Nouveau compétiteur de moins de 3 mois
+- Niveau club
+> GdB 03.06 art. 4.1 : le niveau NC regroupe les joueurs n'ayant jamais disputé de match en compétition officielle.
+
+Q jou-009 | D: 1 | R: 03.06 2.3
+Quand les cotes (CPPH) des joueurs sont-elles mises à jour ?
++ Chaque semaine, dans la nuit du mercredi au jeudi
+- Chaque lundi
+- Une fois par mois
+- Après chaque compétition, en temps réel
+> GdB 03.06 art. 2.3 : les cotes sont mises à jour de manière hebdomadaire, dans la nuit de mercredi à jeudi ; un résultat est pris en compte à la mise à jour qui suit son entrée dans Poona.
+
+Q jou-010 | D: 2 | R: 03.06 2.2
+Combien de cotes chaque joueur possède-t-il ?
++ Trois : simple, double et mixte
+- Une seule cote globale
+- Cinq, une par discipline (SH, SD, DH, DD, DMx)
+- Deux : simple et double
+> GdB 03.06 art. 2.2 : trois cotes distinctes (simple, double, mixte) ; les cotes de double sont individuelles. Les tableaux intergenres utilisent la cote de simple ou de double.
+
+Q jou-011 | D: 2 | R: 03.06 3.4
+Un match gagné par forfait fait-il gagner des points de classement ?
++ Non : il y a échange de points sur abandon, mais pas lors de victoires ou défaites par forfait
+- Oui, le maximum de points
+- Oui, la moitié des points
+- Uniquement en compétition fédérale
+> GdB 03.06 art. 3.4 : il y a un échange de points lors de victoires ou défaites sur abandon, mais pas lors de victoires ou défaites par forfait.
+
+Q jou-012 | D: 2 | R: 03.06.A01 3.2
+Quelle est la cote minimale d'un joueur dans chaque discipline ?
+- 0
+- 100
++ 400
+- 1000
+> GdB 03.06.A01 art. 3.2 : la cote minimale dans chaque discipline est de 400 ; tout nouveau licencié se voit attribuer la cote minimale lors de son premier match (03.06 art. 3.2).
+
+Q jou-013 | D: 3 | R: 03.06.A01 2.4
+Quel coefficient d'enjeu (E) s'applique aux points échangés lors d'un championnat de France ?
+- 1
+- 1,3
++ 1,5
+- 2
+> GdB 03.06.A01 art. 2.4 : championnats de France 1,5 ; régionaux 1,4 ; départementaux 1,3 ; circuits élite nationaux 1,3 ; circuits et trophées régionaux 1,2 ; départementaux 1,1 ; tournois 1 ; PromoBad 0,2 ; compétitions non officielles 0.
+L: JALC JAFA JAFC
+
+Q jou-014 | D: 2 | R: 03.06.A01 2.4
+Quel coefficient d'enjeu s'applique aux matchs des rencontres PromoBad ?
+- 0
++ 0,2
+- 0,5
+- 1
+> GdB 03.06.A01 art. 2.4 : rencontres PromoBad 0,2 (formats alternatifs pris en compte comme rencontres PromoBad, art. 2.3).
+
+Q jou-015 | D: 2 | R: 03.06 2.6
+Le classement des joueurs de quelles catégories n'est pas publié ?
++ Poussins et Minibad
+- Benjamins et plus jeunes
+- Vétérans
+- Juniors
+> GdB 03.06 art. 2.6 : le classement des joueurs de catégorie Poussin ou Minibad n'est pas publié.
+
+Q jou-016 | D: 2 | R: 03.06 5.3
+Un joueur licencié dans une fédération étrangère participe à un tournoi français. Qui lui attribue une série et des points ?
++ Le JA ou le GEO de la compétition, sans dépasser les points du meilleur français du tableau
+- La FFBaD après la compétition
+- Sa fédération d'origine
+- Personne, il est classé NC
+> GdB 03.06 art. 5.3 : ces joueurs sont enregistrés dans des clubs fictifs et se voient attribuer une série avec des points de reclassement par le JA ou le GEO ; les points attribués ne peuvent pas être supérieurs au meilleur français du tableau.
+L: JALC JAFA JAFC
+
+Q jou-017 | D: 2 | R: 03.06 6.1
+Qui doit intégrer les résultats des compétitions françaises dans la base du classement ?
++ Les JA, les GEO et les gestionnaires d'interclubs, selon les règlements prévus
+- Chaque joueur sur MyFFBaD
+- Les présidents de club
+- La FFBaD exclusivement
+> GdB 03.06 art. 6.1 : seuls les JA, les GEO et les gestionnaires d'interclubs doivent intégrer les résultats à la base de données du classement (voir 03.02 art. 3.2.3 et 03.04).
+
+Q jou-018 | D: 1 | R: 08.03 2.1.1
+Quelle est la durée de validité de la licence « classique » ?
++ La saison sportive, du 1er septembre de l'année N au 31 août de l'année N+1
+- Un an à compter de la date de prise
+- L'année civile
+- Deux saisons
+> GdB 08.03 art. 2.1.1 : la licence classique est annuelle, délivrée pour la saison sportive (1er septembre N – 31 août N+1) ; elle permet notamment de participer aux compétitions.
+
+Q jou-019 | D: 2 | R: 08.03 2.2
+Un joueur avec une licence estivale peut-il participer à un tournoi en juillet ?
++ Oui : la licence estivale (1er mai – 31 août) permet de participer aux compétitions organisées par la Fédération, ses ligues, comités et clubs
+- Non, elle ne permet que la pratique loisir
+- Oui, mais seulement en PromoBad
+- Non, sauf accord du juge-arbitre
+> GdB 08.03 art. 2.2 : licence temporaire de 4 mois (1er mai – 31 août) conférant le droit de pratiquer et de participer aux compétitions.
+
+Q jou-020 | D: 2 | R: 08.03 3.1
+Un pratiquant titulaire d'un « titre de participation découverte » peut-il s'inscrire dans un tournoi officiel ?
++ Non : ce titre (une journée) ouvre droit à une manifestation promotionnelle déclarée ou à la pratique à l'essai en club
+- Oui, pour un tournoi
+- Oui, en PromoBad uniquement
+- Oui, s'il a un certificat médical
+> GdB 08.03 art. 3.1 : le titre de participation découverte, valable une journée, ouvre droit à une manifestation promotionnelle déclarée et à la pratique à l'essai (3 essais maximum).
+
+Q jou-021 | D: 2 | R: 08.03 5
+À partir de quand un adhérent est-il licencié ?
++ À la date de validation du paiement effectif de la licence
+- À la date de sa demande au club
+- Au 1er septembre
+- À la réception de sa carte
+> GdB 08.03 §5 : l'adhérent est licencié à la date de validation du paiement effectif de la licence. Pour participer à une compétition, il doit l'être au plus tard la veille du premier jour (RGC 2.12.1).
+
+Q jou-022 | D: 2 | R: 02.01 4.1.1
+Un joueur majeur renouvelle sa licence. Doit-il fournir un certificat médical ?
++ Non, s'il atteste avoir répondu négativement à toutes les rubriques du questionnaire de santé ; sinon, il doit produire un certificat
+- Oui, chaque saison
+- Oui, tous les trois ans
+- Non, jamais
+> GdB 02.01 art. 4.1.1 : pas d'obligation de certificat pour tous les majeurs ; un questionnaire de santé doit être renseigné ; une réponse positive impose un certificat médical (de moins de six mois).
+L: JALA JALC JAFA JAFC
+
+Q jou-023 | D: 3 | R: 03.06 3.6
+En double, comment sont répartis les points gagnés par une paire dont les deux joueurs ont un écart de cote important ?
++ Le joueur le mieux coté gagne moins de points en cas de victoire (et en perd plus en cas de défaite) que son partenaire moins bien coté
+- Les points sont toujours partagés à égalité
+- Seul le joueur le mieux coté marque des points
+- Seul le joueur le moins bien coté marque des points
+> GdB 03.06 art. 3.6 : si l'écart est faible, répartition équitable ; s'il est important, le mieux coté gagne moins et perd plus, pour faire converger les cotes et éviter les paires trop hétérogènes.
+L: JALC JAFA JAFC
+
+Q jou-024 | D: 2 | R: 03.06 6.2
+Qui peut émettre une demande de reclassement d'un joueur dans Poona ?
++ Un élu ou dirigeant du club, ou un responsable de ligue ou de la Fédération
+- Le joueur lui-même uniquement
+- Le juge-arbitre d'un tournoi
+- N'importe quel licencié
+> GdB 03.06 art. 6.2 : la demande se fait avec le module « demande de reclassement » de Poona, émise par un élu/dirigeant du club ou par un responsable de ligue ou de la Fédération (qui avise alors le club).
+L: JALC JAFA JAFC
