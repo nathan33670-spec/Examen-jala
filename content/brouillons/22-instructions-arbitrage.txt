@@ -1,0 +1,407 @@
+# Instructions aux arbitres, juges de service et juges de ligne (Règles officielles, partie II, sections 5 à 8) et terminologie officielle (annexe 4).
+@theme instructions
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+
+Q iar-001 | D: 1 | R: REGLES Instr. 5.1
+Avant le match, en dehors du terrain, quelles vérifications incombent à l'arbitre ? (plusieurs réponses)
++ Obtenir la feuille de score
+- Fixer la vitesse des volants qui seront utilisés pendant le match
++ S'assurer que le nombre prévu de juges de ligne (et, le cas échéant, de préposés au terrain) est présent
++ S'assurer que les appareils électroniques et de communication des joueurs sont éteints ou en mode silencieux
+- Contrôler les licences des joueurs auprès de la table de marque
+> Instruction 5.1 : avant le match, l'arbitre obtient la feuille de score, vérifie la présence des juges de ligne et préposés au terrain, la conformité des tenues et de l'équipement, l'extinction ou la mise en silencieux des appareils des joueurs et leur alignement. La vitesse des volants relève du seul juge-arbitre (instruction 5.13.4).
+
+Q iar-002 | D: 1 | R: REGLES Instr. 5.1.5
+Au moment de conduire les joueurs vers le terrain, dans quel ordre l'arbitre les aligne-t-il ?
+- Par ordre de classement, le mieux classé en tête
+- Le vainqueur du tirage au sort en tête
++ Selon l'ordre des noms imprimés sur la feuille de score, ou selon les instructions du juge-arbitre
+- Par ordre alphabétique des clubs
+> Instruction 5.1.5 : l'arbitre s'assure que les joueurs sont alignés selon l'ordre des noms imprimés sur la feuille de score ou selon les instructions du juge-arbitre.
+
+Q iar-003 | D: 2 | R: REGLES Instr. 5.2.1
+Au tirage au sort, le gagnant choisit de servir. Avant même de s'installer, il se ravise et demande à recevoir en premier. Que fait l'arbitre ?
+- Il accepte, puisque le match n'a pas commencé
+- Il accepte si l'adversaire n'a pas encore choisi son demi-terrain
++ Il refuse : les choix faits au tirage au sort sont définitifs
+- Il refait le tirage au sort
+> Instruction 5.2.1 : l'arbitre effectue le tirage au sort de manière équitable et note les choix faits par les côtés l'ayant remporté ou perdu ; ces choix, une fois faits, sont définitifs.
+
+Q iar-004 | D: 2 | R: REGLES Instr. 5.2.2.1
+Pendant la période de prise en compte du terrain, à quoi sert l'annonce « Prêt(e)s à jouer » et quand l'arbitre la fait-il, sauf instruction différente du juge-arbitre ?
+- Elle met fin à l'échauffement, au bout de deux minutes exactement
++ Elle demande aux joueurs de se préparer à commencer le match ; elle est faite à 90 secondes de la période de deux minutes
+- Elle appelle les joueurs pour le tirage au sort, avant qu'ils entrent sur le terrain
+- Elle remplace l'annonce « Jouez » lorsque le match est en retard
+> Instruction 5.2.2.1 : les deux minutes de préparation commencent lorsque l'arbitre s'assoit sur sa chaise et se terminent par « Jouez » ; à 90 secondes, l'arbitre annonce « Prêt(e)s à jouer » pour signifier aux joueurs de se préparer à commencer le match.
+
+Q iar-005 | D: 2 | R: REGLES Instr. 5.2.2.2
+Avant un match de double arbitré avec une feuille de score papier, que note l'arbitre sur la feuille une fois installé sur sa chaise ?
+- Uniquement « 0 » pour chaque côté
+- « S » pour le serveur ; le receveur n'est indiqué qu'en simple
++ « 0 » pour chaque côté, « S » pour le serveur et « R » pour le receveur
+- L'heure d'arrivée des joueurs sur le terrain et le résultat du tirage au sort
+> Instruction 5.2.2.2 : lorsqu'une feuille de score est utilisée, l'arbitre note « 0 » pour chaque côté et « S » pour le serveur et, dans le cas d'un match de double, « R » pour le receveur.
+
+Q iar-006 | D: 1 | R: REGLES Instr. 5.2.2.3
+Une fois assis sur sa chaise avant le match, que doit vérifier l'arbitre ? (plusieurs réponses)
++ Que le système d'affichage du score fonctionne
+- Que les volants ont été testés par les deux joueurs
++ Que les chaises des juges de ligne et des conseillers sont correctement positionnées
+- Que les joueurs ont bien pointé à la table de marque
+> Instructions 5.2.2.3 et 5.2.2.4 : l'arbitre vérifie que tout système d'affichage du score fonctionne et que les chaises des juges de ligne et des conseillers sont correctement positionnées.
+
+Q iar-007 | D: 2 | R: REGLES Instr. 5.3.1
+Dans un tournoi individuel, le joueur X (club A), à droite de l'arbitre, sert en premier contre Y (club B), à sa gauche. Quelle annonce de début de match est correcte ?
+- « Mesdames et Messieurs ; à ma gauche, Y, B ; et à ma droite, X, A. X au service ; zéro égalité ; jouez »
++ « Mesdames et Messieurs ; à ma droite, X, A ; et à ma gauche, Y, B. X au service ; zéro égalité ; jouez »
+- « Mesdames et Messieurs ; à ma droite, A, représenté par X ; et à ma gauche, B, représenté par Y. A au service ; zéro égalité ; jouez »
+- « Mesdames et Messieurs ; X, A, contre Y, B. X au service ; zéro partout ; jouez »
+> Instruction 5.3.1 et annexe 4, 2.1.1 : en simple d'une compétition individuelle, l'arbitre présente d'abord le joueur à sa droite puis celui à sa gauche (nom puis pays/club), indique le serveur, puis « zéro égalité ; jouez ». La formule « représenté par » est réservée aux compétitions par équipes.
+
+Q iar-008 | D: 2 | R: REGLES Instr. 5.3.1
+Lors d'une rencontre par équipes arbitrée, comment l'arbitre désigne-t-il le serveur dans l'annonce de début d'un simple ?
+- Par le nom du joueur : « X au service »
++ Par le nom de l'équipe : « A au service »
+- Par le nom du joueur suivi de son équipe : « X, A, au service »
+- Il n'annonce pas le serveur, seulement « zéro égalité ; jouez »
+> Instruction 5.3.1 et annexe 4, 2.1.2 : en compétition par équipes, l'annonce est « à ma droite, A, représenté par X ; et à ma gauche, B, représenté par Y. A au service ; zéro égalité ; jouez ».
+
+Q iar-009 | D: 2 | R: REGLES Instr. 5.3.1
+Au début d'un double dans un tournoi individuel, comment l'arbitre indique-t-il qui sert et qui reçoit ?
+- « X et W au service ; zéro égalité ; jouez »
+- « X au service ; Y à la réception ; zéro partout ; jouez »
+- « Côté droit au service ; zéro égalité ; jouez »
++ « X au service sur Y ; zéro égalité ; jouez »
+> Instruction 5.3.1 et annexe 4, 2.1.3 : en double d'une compétition individuelle, l'annonce se termine par « X au service sur Y ; zéro égalité ; jouez ».
+
+Q iar-010 | D: 2 | R: REGLES Instr. 5.3.1
+Dans un tournoi individuel, les partenaires de double W et X sont licenciés dans le même club A. Comment l'arbitre les présente-t-il ?
+- « W, A et X, A »
++ « W et X, A »
+- « A, représenté par W et X »
+- « W, X, du club A »
+> Instruction 5.3.1 : si les partenaires de double représentent le même pays ou la même équipe, le nom du pays ou de l'équipe est annoncé après les noms des deux joueurs, par exemple « W et X, A » ; on annonce « et » entre les noms des partenaires (instruction 6.7).
+
+Q iar-011 | D: 1 | R: REGLES Instr. 5.3.2
+Quelle annonce de l'arbitre marque le commencement du match ?
+- « Prêt(e)s à jouer »
+- « Zéro égalité »
++ « Jouez »
+- « Service »
+> Instruction 5.3.2 : l'annonce « Jouez » indique le commencement du match.
+
+Q iar-012 | D: 2 | R: REGLES Instr. 5.3.3
+Avec une feuille de score papier, à quel moment l'arbitre note-t-il l'heure de début du match ?
+- Au moment du tirage au sort
+- Lorsqu'il s'assoit sur sa chaise, au début des deux minutes de préparation
++ Juste avant d'annoncer « Jouez »
+- À la fin du premier échange
+> Instruction 5.3.3 : si une feuille de score est utilisée, l'arbitre note l'heure de début du match sur la feuille avant d'annoncer « Jouez » (avec une tablette, il appuie sur l'icône « Jouez » immédiatement avant l'annonce).
+
+Q iar-013 | D: 1 | R: REGLES Instr. 5.3.1
+En présentant les joueurs au début du match, quel geste accompagne l'annonce de l'arbitre ?
+- Il lève la main droite au-dessus de la tête
++ Il tend le bras à droite puis à gauche au moment où il prononce les noms
+- Il désigne le serveur avec la main gauche
+- Aucun geste : seule l'annonce verbale est prévue
+> Instruction 5.3.1 : l'arbitre annonce le match en indiquant, en tendant son bras à droite puis à gauche, les joueurs au moment où leurs noms sont prononcés.
+
+Q iar-014 | D: 1 | R: REGLES Instr. 5.4.2
+Pendant le match, comment l'arbitre gère-t-il le score après chaque échange ?
++ Il le note (sur la tablette ou la feuille) puis l'annonce, toujours en commençant par le score du serveur
+- Il l'annonce puis le note, en commençant par le score du joueur qui mène
+- Il l'annonce en commençant par le score du côté situé à sa droite
+- Il ne l'annonce qu'en cas de changement de serveur
+> Instruction 5.4.2 : l'arbitre note (sur la tablette ou la feuille) et ensuite annonce le score ; il annonce toujours le score du serveur en premier.
+
+Q iar-015 | D: 2 | R: REGLES Instr. 5.4.6
+En simple, le serveur mène 9-6 et perd l'échange. Quelle est l'annonce de l'arbitre ?
+- « Service perdu, 9-7 »
+- « Faute, 7-9 »
++ « Service perdu, 7-9 »
+- « 7-9 », sans autre précision
+> Instruction 5.4.6 : lorsqu'un côté perd un échange et le droit de servir, l'arbitre annonce « Service perdu » suivi du score en faveur du côté prenant le service, dont le score est annoncé en premier (instruction 5.4.2).
+
+Q iar-016 | D: 2 | R: REGLES Instr. 5.4.3
+Un juge de service est désigné sur le match. Pendant le service, que regarde plus particulièrement l'arbitre ?
+- Le serveur, pour confirmer les annonces du juge de service
++ Le receveur
+- Les juges de ligne de fond
+- Le tableau d'affichage du score
+> Instruction 5.4.3 : pendant le service, si un juge de service est désigné, l'arbitre regarde plus particulièrement le receveur ; il peut également annoncer une faute de service.
+
+Q iar-017 | D: 1 | R: REGLES Instr. 5.4.5
+Comment l'arbitre signale-t-il que la présence du juge-arbitre est requise sur son terrain ?
+- Il lève la main gauche au-dessus de sa tête
+- Il descend de sa chaise et se rend à la table de marque
++ Il lève la main droite au-dessus de sa tête
+- Il annonce « Juge-arbitre » au micro
+> Instruction 5.4.5 : l'arbitre lève la main droite au-dessus de sa tête lorsque la présence d'un juge-arbitre est requise sur le terrain. La main gauche levée est utilisée pour une demande au système de révision instantanée.
+
+Q iar-018 | D: 2 | R: REGLES Instr. 5.4.7
+Dans quelles situations l'arbitre doit-il annoncer « Jouez » ? (plusieurs réponses)
++ Pour reprendre le jeu après un intervalle
+- Après chaque échange, à la suite de l'annonce du score
++ Pour reprendre le jeu après la décision d'un challenge ou après une interruption
++ Pour demander à des joueurs qui tardent de reprendre le jeu
+- Pour signaler la fin d'un set
+> Instruction 5.4.7 : « Jouez » est annoncé pour indiquer le commencement du match ou du set, pour continuer le jeu après un intervalle ou un changement de demi-terrain, pour reprendre le jeu après un challenge ou une interruption, et pour demander aux joueurs de reprendre le jeu.
+
+Q iar-019 | D: 2 | R: REGLES Instr. 5.4.8.1
+Le juge de service annonce « Faute » parce que le serveur a frappé le volant trop haut. Quelle annonce fait l'arbitre ?
+- « Faute », puis le score
++ « Faute au service annoncée, trop haut », puis l'annonce du score
+- « Let »
+- « Service perdu », sans explication
+> Instruction 5.4.8.1 : lorsqu'une faute de service est annoncée par le juge de service, l'arbitre annonce « Faute au service annoncée » suivi de l'explication en utilisant la terminologie de l'annexe 4, section 4 (ici « trop haut », annexe 4, 4.1).
+
+Q iar-020 | D: 3 | R: REGLES Instr. 5.4.8.3
+Pendant un échange, dans quels cas l'arbitre doit-il annoncer lui-même « Faute » ? (plusieurs réponses)
++ Un joueur touche le filet avec sa raquette alors que le volant est en jeu
+- Le volant tombe hors des limites du terrain et le juge de ligne annonce « Out » avec le geste
++ Un joueur frappe le volant deux fois de suite
+- Le volant ne passe pas au-dessus du filet, sans qu'aucune clarification soit nécessaire
+> Instruction 5.4.8.3 : « Faute » n'a pas à être annoncé pour les fautes évidentes des règles 13.2.1, 13.2.2, 13.3.1 (l'annonce et le geste du juge de ligne suffisent) et 13.3.2 à 13.3.5 (volant qui ne passe pas le filet, touche le plafond, un joueur ou un objet extérieur), sauf besoin de clarification. Une touche de filet (13.4.1) ou une double frappe (13.3.7) doivent être annoncées.
+
+Q iar-021 | D: 3 | R: REGLES Instr. 5.4.9
+Premier set d'un match en 3 sets de 15 points : le score est de 7-7 et le receveur gagne l'échange. Quelle est l'annonce de l'arbitre ?
+- « 8-7 ; changez de demi-terrain »
++ « Service perdu, 8-7 ; arrêt de jeu »
+- « Arrêt de jeu ; service perdu, 7-8 »
+- « Service perdu, 8-7 ; jouez »
+> Règle 16.2.1 (intervalle lorsque le côté qui mène atteint 8 points en 3×15) et instruction 5.4.9 : l'arbitre annonce « Service perdu » le cas échéant, suivi immédiatement du score (celui du nouveau serveur en premier) et « Arrêt de jeu ». Le changement de demi-terrain n'a lieu que dans le troisième set.
+
+Q iar-022 | D: 2 | R: REGLES Instr. 5.4.10
+Quand commence le décompte de l'intervalle en cours de set ?
+- Quand les applaudissements du public ont cessé
+- Quand les joueurs ont rejoint leur chaise
++ Dès que l'échange se termine, ou dès que la décision du challenge est prise, indépendamment des applaudissements
+- À l'annonce « Terrain…, 20 secondes »
+> Instruction 5.4.10 : indépendamment des applaudissements, le temps de l'intervalle doit être conforme à la règle 16.2.1 (60 secondes au plus) et débute lorsque l'échange se termine ou lorsque la décision du challenge est prise.
+
+Q iar-023 | D: 1 | R: REGLES Instr. 5.4.11
+Au début de chaque intervalle, que demande l'arbitre aux préposés au terrain ou aux juges de ligne ?
+- De changer le volant
+- D'apporter de l'eau aux joueurs
++ D'essuyer le terrain
+- De vérifier la hauteur du filet
+> Instruction 5.4.11 : au début de chaque intervalle (règle 16.2.1), l'arbitre demande aux préposés au terrain ou aux juges de ligne d'essuyer le terrain. Il en va de même à la fin de chaque set (instruction 5.6.4).
+
+Q iar-024 | D: 2 | R: REGLES Instr. 5.4.12
+Dans une salle de plusieurs terrains, quelle annonce l'arbitre du terrain 4 fait-il à 40 secondes de l'intervalle en cours de set ?
+- « 20 secondes restantes », une seule fois
+- « Terrain 4, reprise du jeu »
++ « Terrain 4, 20 secondes », annonce répétée
+- « Terrain 4, jouez »
+> Instruction 5.4.12 : lors des arrêts de jeu durant les sets, à 40 secondes, l'arbitre annonce « Terrain … [n° du terrain] (si plus d'un terrain est utilisé), 20 secondes » et répète l'annonce.
+
+Q iar-025 | D: 2 | R: REGLES Instr. 5.4.15
+Lors d'un tournoi où le juge-arbitre n'a pas rendu les intervalles obligatoires, les deux joueurs indiquent qu'ils ne souhaitent pas prendre l'intervalle en cours de set. Que fait l'arbitre ?
++ Il laisse le set se poursuivre sans intervalle
+- Il impose l'intervalle de 60 secondes, qui est obligatoire
+- Il impose un intervalle réduit de 30 secondes
+- Il appelle le juge-arbitre pour qu'il décide
+> Instruction 5.4.15 : si les deux côtés ne veulent pas bénéficier de l'intervalle, le set ou le match se poursuit sans intervalle, excepté si les intervalles sont rendus obligatoires par le juge-arbitre.
+
+Q iar-026 | D: 1 | R: REGLES Instr. 5.4.14
+Comment l'arbitre fait-il reprendre le jeu à la fin de l'intervalle en cours de set ?
+- « Zéro égalité ; jouez »
++ Il répète le score, suivi de « Jouez »
+- « Prêt(e)s à jouer », puis « Service »
+- « Reprise du jeu », sans rappeler le score
+> Instruction 5.4.14 : pour reprendre le jeu après l'intervalle, l'arbitre répète le score, suivi de « Jouez » (même principe après l'intervalle du troisième set, instruction 5.6.12).
+
+Q iar-027 | D: 2 | R: REGLES Instr. 5.5.3
+Le serveur n'a plus besoin que d'un point pour remporter le premier set. Où l'arbitre place-t-il l'annonce « Point de set » ?
+- Avant d'annoncer le score
+- Après le score complet (score du serveur puis du receveur)
++ Immédiatement après le score du serveur et avant celui du receveur
+- Il ne l'annonce que si le receveur le demande
+> Instruction 5.5.3 et annexe 4, 3.1.10 : les annonces « Point de set » et « Point de match » suivent toujours immédiatement le score du serveur et précèdent le score du receveur, par exemple « 14, point de set, 10 » dans le système en 3×15.
+
+Q iar-028 | D: 2 | R: REGLES Instr. 5.5.1
+Le côté A a gagné le premier set. Dans le deuxième set, A sert et n'a plus besoin que d'un point pour gagner ce set. Que doit annoncer l'arbitre entre les deux scores ?
+- « Point de set »
++ « Point de match »
+- « Balle de match »
+- Rien de particulier : seul le score est annoncé
+> Instruction 5.5.1 : l'arbitre annonce « Point de set » ou « Point de match », selon le cas. Ici, gagner ce point donnerait le match à A : c'est donc « Point de match » (annexe 4, 3.1.11).
+
+Q iar-029 | D: 3 | R: REGLES Annexe 4 3.1.12
+Dans un match en 3 sets de 15 points, le score du premier set atteint 20-égalité. Quelle annonce fait l'arbitre ?
+- « 20 égalité », sans autre mention
+- « 20, point de set, 20 »
++ « 20, point de set, égalité »
+- « Dernier point ; 20 égalité »
+> Règle 7.5 : à 20-égalité, le côté qui marque le 21e point remporte le set ; les deux côtés sont donc à un point du set. L'annexe 4 (3.1.12) prévoit alors l'annonce « …, point de set, égalité » (et instruction 5.5.2 : annonce pour chaque côté).
+
+Q iar-030 | D: 2 | R: REGLES Instr. 5.6.1
+Le dernier échange d'un set vient d'être décidé, sans challenge ni correction d'une annonce de ligne. Le public applaudit longuement. Que fait l'arbitre ?
+- Il attend la fin des applaudissements pour être entendu
++ Il annonce « Set » immédiatement, quels que soient les applaudissements
+- Il annonce directement « Premier set remporté par… »
+- Il annonce « Arrêt de jeu »
+> Instruction 5.6.1 : « Set » doit toujours être immédiatement annoncé après que le dernier échange de chaque set a été décidé, quels que soient les applaudissements (sauf challenge ou correction d'une annonce de ligne).
+
+Q iar-031 | D: 2 | R: REGLES Instr. 5.6.1
+À quel moment commence l'intervalle de 120 secondes entre deux sets ?
++ À l'annonce « Set » par l'arbitre
+- Lorsque les joueurs ont changé de demi-terrain
+- À la fin de l'annonce « Premier set remporté par… »
+- Lorsque les conseillers ont rejoint les joueurs
+> Instruction 5.6.1 : l'annonce « Set » constitue le début de l'intervalle autorisé par la règle 16.2.2 (120 secondes au plus entre les sets).
+
+Q iar-032 | D: 2 | R: REGLES Instr. 5.6.3
+X a gagné le premier set 15-12. Y remporte le deuxième set 15-10. Quelle annonce fait l'arbitre après « Set » ?
+- « Deuxième set remporté par Y, 10-15 ; un set partout »
++ « Deuxième set remporté par Y, 15-10 ; un set égalité »
+- « Deuxième set remporté par Y, 15-10 ; dernier set »
+- « Y mène, un set à un ; 15-10 »
+> Instruction 5.6.3 et annexe 4, 6.3 et 6.4 : après le deuxième set, l'arbitre annonce « Deuxième set remporté par … [nom], … [score] ; un set égalité ». Le score du set est donné du point de vue du vainqueur du set.
+
+Q iar-033 | D: 1 | R: REGLES Instr. 5.6.9
+Les joueurs ont gagné un set chacun. Comment l'arbitre lance-t-il le troisième set ?
+- « Troisième set ; zéro égalité ; jouez »
+- « Set décisif ; zéro partout ; jouez »
++ « Dernier set ; zéro égalité ; jouez »
+- « Un set égalité ; jouez »
+> Instruction 5.6.9 et annexe 4, 2.3 : lorsqu'il y a un troisième set, l'arbitre annonce « Dernier set ; zéro égalité ; jouez ».
+
+Q iar-034 | D: 2 | R: REGLES Instr. 5.6.10
+Dans le troisième set d'un match en 3 sets de 15 points, le serveur mène 7-5 et gagne l'échange. Quelle est l'annonce de l'arbitre ?
+- « 8-5 ; arrêt de jeu », les joueurs changeant de demi-terrain à la fin de l'intervalle
++ « 8-5 ; arrêt de jeu ; changez de demi-terrain »
+- « 8-5 ; changez de demi-terrain ; jouez », sans intervalle
+- « Set ; 8-5 »
+> Règles 8.1.3 et 16.2.1 (8 points en 3×15) et instruction 5.6.10 : dans le troisième set, lorsque le score le plus élevé atteint le seuil de l'intervalle, l'arbitre annonce le score suivi immédiatement de « Arrêt de jeu ; changez de demi-terrain ».
+
+Q iar-035 | D: 2 | R: REGLES Instr. 5.6.5
+Le dernier échange du match vient d'être joué et l'arbitre a annoncé « Set ». À quel moment annonce-t-il « Match remporté par … » ?
+- Immédiatement, avant que les joueurs ne quittent leur place
++ Après que les joueurs ont serré la main de leurs adversaires, de l'arbitre et du juge de service
+- Après avoir fait signer la feuille de score aux joueurs
+- Il ne l'annonce pas : c'est la table de marque qui proclame le résultat
+> Instruction 5.6.5 : si un set conclut le match, après que les joueurs ont serré la main de leurs adversaires, de l'arbitre et du juge de service, l'arbitre annonce « Match remporté par … [nom(s)], … [scores] ».
+
+Q iar-036 | D: 1 | R: REGLES Instr. 5.6.6
+Pendant l'intervalle entre deux sets, à quel moment l'arbitre annonce-t-il « Terrain…, 20 secondes » ?
+- À 40 secondes
+- À 60 secondes
++ À 100 secondes
+- À 120 secondes
+> Instruction 5.6.6 : lors des intervalles entre les sets (120 secondes), l'arbitre annonce « Terrain … [n°], 20 secondes » à 100 secondes et répète l'annonce. En cours de set (60 secondes), l'annonce a lieu à 40 secondes.
+
+Q iar-037 | D: 2 | R: REGLES Instr. 5.6.7
+Entre deux sets, à partir de quand les conseillers peuvent-ils rejoindre leurs joueurs sur le terrain ?
+- Dès l'annonce « Set »
++ Après que les joueurs ont changé de demi-terrain
+- Seulement après l'annonce « Terrain…, 20 secondes »
+- Jamais : ils restent sur leur chaise pendant les intervalles
+> Instruction 5.6.7 : lors des intervalles entre les sets, après que les joueurs ont changé de demi-terrain, chaque côté peut être rejoint par deux conseillers accrédités au plus, qui doivent quitter le terrain à l'annonce « 20 secondes ».
+
+Q iar-038 | D: 2 | R: REGLES Instr. 5.6.4
+À la fin d'un set, une fois que l'arbitre a annoncé « Set » et terminé son annonce, que fait le juge de service, lorsqu'il y en a un ?
+- Il essuie lui-même le terrain
+- Il va chercher de nouveaux volants à la table de marque
++ Il se lève et va placer au centre du terrain, sous le filet, le panneau indiquant l'intervalle, si ce panneau est fourni
+- Il reste assis jusqu'à la reprise du jeu
+> Instruction 5.6.4 : une fois que l'arbitre a annoncé « Set » et fini son annonce, le juge de service se lève et place au centre du terrain, sous le filet, le panneau indiquant l'intervalle, si ce panneau est fourni ; l'arbitre fait essuyer le terrain.
+
+Q iar-039 | D: 1 | R: REGLES Instr. 5.7.1
+À la fin du match, quelles informations l'arbitre note-t-il sur la feuille de score papier ? (plusieurs réponses)
++ L'heure de fin du match
+- Le nom du juge-arbitre
++ La durée du match
++ La quantité de volants utilisés
+- Le nombre de lets annoncés
+> Instruction 5.7.1 : à la fin du match, l'arbitre note l'heure de fin, la durée du match et la quantité de volants utilisés sur la feuille de score, si elle est utilisée.
+
+Q iar-040 | D: 3 | R: REGLES Instr. 5.7.2
+Parmi ces incidents survenus pendant un match arbitré, lesquels ne nécessitent pas d'être rapportés au juge-arbitre ? (plusieurs réponses)
++ Une tenue non conforme que le joueur a corrigée
++ Une blessure n'ayant pas entraîné d'abandon
+- Un avertissement pour mauvaise conduite donné à un joueur
++ Une suspension de jeu due à une réparation mineure du terrain
+> Instruction 5.7.2 : certains incidents, comme une tenue non conforme corrigée, une blessure n'entraînant pas d'abandon ou une suspension pour réparation mineure du terrain, n'ont pas à être rapportés. En revanche, tout incident lié à une mauvaise conduite et les mesures prises doivent être enregistrés et signalés au juge-arbitre (instruction 5.17.2).
+
+Q iar-041 | D: 2 | R: REGLES Instr. 5.7.2
+Un incident survenu sur le terrain devra être signalé par le juge-arbitre après le tournoi. Que fait l'arbitre à la fin du match ?
+- Il rédige un rapport séparé qu'il envoie à la ligue sous 48 heures
++ Il apporte immédiatement au juge-arbitre la feuille de score complétée des notes relatives à l'incident
+- Il attend la fin de la journée pour en parler au juge-arbitre
+- Il informe directement le club du joueur concerné
+> Instruction 5.7.2 : si des incidents sont à signaler par le juge-arbitre après le tournoi, l'arbitre doit immédiatement apporter au juge-arbitre la feuille de score imprimée ou complétée des notes relatives aux incidents (exemples en annexe 4, section 7).
+
+Q iar-042 | D: 2 | R: REGLES Instr. 5.8.1
+Le volant tombe nettement dehors, à plus d'un mètre derrière la ligne de fond. L'arbitre doit-il regarder le juge de ligne ?
+- Non, c'est évident et l'arbitre annonce lui-même « Out »
++ Oui : il regarde toujours le juge de ligne lorsque le volant tombe dehors, quelle que soit la distance
+- Seulement si un joueur conteste
+- Seulement si le volant tombe à moins de 50 cm de la ligne
+> Instruction 5.8.1 : l'arbitre doit toujours regarder le(s) juge(s) de ligne lorsque le volant atterrit près d'une ligne, et toujours lorsque le volant tombe en dehors, quelle que soit la distance. Les juges de ligne sont entièrement responsables de leurs décisions (sauf instructions 5.8.2 à 5.8.4).
+
+Q iar-043 | D: 2 | R: REGLES Instr. 5.8.2
+Un juge de ligne annonce « Out » alors que l'arbitre a vu, au-delà d'un doute raisonnable, le volant tomber nettement dans le terrain. Que doit annoncer l'arbitre ?
+- « Let »
+- « Juge de ligne, répétez votre décision, s'il vous plaît »
++ « Correction, IN »
+- Rien : le juge de ligne est seul responsable de sa ligne
+> Instruction 5.8.2 et règle 17.5.1 : si, de l'avis de l'arbitre et au-delà d'un doute raisonnable, un juge de ligne a clairement effectué une annonce incorrecte, l'arbitre annonce immédiatement « Correction, IN » si le volant est « in », ou « Correction, OUT » s'il est « out ».
+
+Q iar-044 | D: 2 | R: REGLES Instr. 5.8.3.1
+Dans un match arbitré sans juge de ligne, le receveur renvoie le volant qui tombe hors des limites du terrain. Quelle est l'annonce de l'arbitre ?
+- « Faute », puis le score
+- Le score seulement
++ « Out », puis le score
+- « Out », « Service perdu », puis le score
+> Instruction 5.8.3.1 : en l'absence de juge de ligne, l'arbitre annonce immédiatement « Out » lorsque le volant atterrit en dehors des limites, puis le score ou « Service perdu » et le score. Ici le serveur gagne l'échange et conserve le service : pas de « Service perdu ».
+
+Q iar-045 | D: 2 | R: REGLES Instr. 5.8.3.2
+Dans un match arbitré sans juge de ligne, le volant tombe sur la ligne. Quelle est l'annonce de l'arbitre ?
+- « In », puis le score
+- « Bon », puis le score
+- « Let »
++ Le score (ou « Service perdu » et le score), sans autre annonce
+> Instruction 5.8.3.2 : en l'absence de juge de ligne, si le volant atterrit dans les limites du terrain (la ligne en fait partie), l'arbitre annonce simplement le score ou « Service perdu » et le score.
+
+Q iar-046 | D: 2 | R: REGLES Instr. 5.8.3.3 | L: JAFA JAFC
+Sur un terrain équipé d'un système de révision instantanée (SRI) opérationnel, le juge de ligne est masqué et l'arbitre n'a pas pu voir l'impact non plus. Que fait l'arbitre ?
+- Il annonce « Let » et fait rejouer l'échange
++ Il annonce « Non jugé » et demande une décision au SRI en levant la main gauche au-dessus de sa tête
+- Il demande aux joueurs s'ils souhaitent un challenge
+- Il lève la main droite pour appeler le juge-arbitre
+> Instruction 5.8.3.3 : lorsque ni le juge de ligne ni l'arbitre ne peuvent décider, l'arbitre annonce « Let » suivi du score, excepté si un SRI est opérationnel : il annonce alors « Non jugé » et demande une décision par le SRI tout en levant la main gauche au-dessus de sa tête.
+
+Q iar-047 | D: 3 | R: REGLES Instr. 5.8.3.3.2 | L: JAFA JAFC
+Après une annonce « Non jugé » de l'arbitre, le système de révision instantanée indique « Pas de décision ». Que doit annoncer l'arbitre ?
+- « Out », puisque le doute profite au défenseur
++ « Let », suivi du score, puis « Jouez »
+- Le score inchangé, le serveur conservant le point
+- Il demande aux joueurs de se mettre d'accord
+> Instructions 5.8.3.3.2 et 5.8.9.1 : si le SRI indique « Pas de décision » alors que l'annonce initiale était « Non jugé », l'arbitre annonce « Let » suivi du score et ensuite « Jouez ». Aucun challenge n'est perdu (annexe 6, 3.5).
+
+Q iar-048 | D: 3 | R: REGLES Instr. 5.8.9 | L: JAFA JAFC
+Un joueur demande un challenge sur l'annonce « Out » d'un juge de ligne. Le système de révision instantanée indique « Pas de décision ». Que se passe-t-il ?
+- L'échange est rejoué (let) et le joueur perd un challenge
++ La décision initiale « Out » est maintenue et le joueur ne perd pas de challenge
+- La décision est inversée au profit du joueur qui a demandé le challenge
+- Le juge-arbitre est appelé pour trancher
+> Instruction 5.8.9 : si le SRI indique « Pas de décision », il s'agit d'un let seulement si l'annonce d'origine était « Non jugé » ; sinon la décision initiale est maintenue. Lorsque le SRI indique « Pas de décision », aucun challenge n'est perdu (annexe 6, 3.5).
+
+Q iar-049 | D: 3 | R: REGLES Instr. 5.8.4 | L: JAFA JAFC
+Un joueur qui dispose encore de challenges conteste une annonce « Out » d'un juge de ligne, mais seulement après avoir discuté avec son partenaire et ramassé le volant. Que fait l'arbitre ?
+- Il accepte le challenge, puisque le service suivant n'a pas encore été exécuté
++ Il refuse le challenge, qui doit être demandé immédiatement après l'annonce (« Vous n'avez pas challengé immédiatement »)
+- Il accepte le challenge mais retire un challenge au joueur pour retard
+- Il demande l'avis du juge de service
+> Instruction 5.8.4 et annexe 4, 3.4.11 : tout challenge doit être demandé par le joueur immédiatement après qu'il a observé l'annonce de l'arbitre ou du juge de ligne, en annonçant clairement « Challenge » et/ou en levant la main.
+
+Q iar-050 | D: 2 | R: REGLES Instr. 5.8.5 | L: JAFA JAFC
+Dans un double d'un tournoi individuel, Martin demande un challenge sur une annonce « Out ». Quelle annonce fait l'arbitre ?
+- « Martin et Durand challenge, l'annonce OUT », main droite levée
++ « Martin challenge, l'annonce OUT », main gauche levée au-dessus de la tête
+- « Challenge demandé », sans geste
+- « Martin challenge, l'annonce IN », main gauche levée
+> Instruction 5.8.5 : dans un tournoi individuel, l'arbitre annonce « [nom du joueur qui demande le challenge] challenge (que ce soit un simple ou un double), l'annonce [IN ou OUT] » tout en levant la main gauche au-dessus de sa tête. En compétition par équipes, c'est le nom de l'équipe qui est annoncé.

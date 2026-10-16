@@ -1,0 +1,906 @@
+# Tenues et publicité (03.07, 03.07.A01, 03.08), rencontres PromoBad (03.11), règlement médical (02.01) et lutte contre le dopage (07.03) - saison 2026-2027.
+@theme tenues
+@doc 03.07
+@levels JALA JALC JAFA JAFC
+
+Q tps-001 | D: 1 | R: 03.07 1.3.1
+Parmi ces vêtements, lesquels peuvent constituer le haut de la tenue d'un joueur en compétition ? (Cochez les réponses exactes)
+- Un maillot de basket-ball
++ Un polo avec col
+- Un maillot de cyclisme
++ Une chemisette sans col et sans manches
+> GdB 03.07 art. 1.3.1 : le haut de la tenue se compose d'un maillot, d'un polo ou d'une chemisette, avec ou sans col, avec ou sans manche. Les tenues clairement associées à une autre discipline (sports collectifs, cyclisme…) sont interdites (art. 1.3.2).
+
+Q tps-002 | D: 1 | R: 03.07 1.3.1
+Quels éléments peuvent constituer le bas de la tenue d'une joueuse ? (Cochez les réponses exactes)
++ Une jupe
+- Un caleçon
++ Une robe
++ Un shorty de sport
+> GdB 03.07 art. 1.3.1 : le bas de la tenue se compose d'un short, d'un shorty de sport, d'une jupe ou d'une robe. Les bermudas et caleçons ne sont pas considérés comme des tenues de sport et sont interdits (art. 1.3.2).
+
+Q tps-003 | D: 2 | R: 03.07 1.3.2
+Une joueuse se présente avec une jupe-short et un polo de tennis. Que décide le juge-arbitre ?
+- Il refuse : seule une tenue spécifique au badminton est admise
+- Il refuse la jupe-short mais accepte le polo
++ Il accepte : seuls sont exclus les vêtements spécifiques à des sports autres que les sports de raquettes
+- Il accepte uniquement si la tenue est blanche
+> GdB 03.07 art. 1.3.2 : on entend par « tenue de badminton » une tenue de sport, à l'exclusion de tout vêtement spécifique à des sports autres que les sports de raquettes. Une tenue de tennis est donc admise.
+
+Q tps-004 | D: 2 | R: 03.07 1.3.3
+Un joueur porte un maillot couvert d'un immense motif fluorescent que son adversaire juge très gênant. Que prévoit le règlement ?
++ Le juge-arbitre peut juger non conformes des vêtements dont les motifs, par leurs dimensions, leurs couleurs, leurs textes ou le sujet représenté, peuvent être une distraction ou une gêne pour l'adversaire, les spectateurs ou autres
+- Les couleurs étant libres, aucun motif ne peut être refusé
+- Le maillot ne peut être refusé que sur réclamation écrite de l'adversaire
+- Seul l'arbitre du match peut se prononcer, sans en référer au juge-arbitre
+> GdB 03.07 art. 1.3.3 : des vêtements de forme excentrique ou portant des motifs qui, par leurs dimensions, couleurs, textes ou sujet, peuvent être une distraction ou une gêne pour l'adversaire, les spectateurs ou autres, peuvent être appréciés par le JA comme non conformes.
+
+Q tps-005 | D: 3 | R: 03.07 1.3.4
+Le thermomètre de la salle indique exactement 12 °C. Un joueur demande à garder son pantalon de survêtement pour disputer son match. Que peut faire le juge-arbitre ?
+- Refuser : il faut une température strictement inférieure à 10 °C
+- Refuser : le pantalon de survêtement est interdit pendant les matchs dans tous les cas
+- L'autoriser seulement si l'adversaire est d'accord
++ L'autoriser : le port du pantalon de survêtement peut être autorisé lorsque la température est inférieure ou égale à 12 °C
+> GdB 03.07 art. 1.3.4 : le port du pantalon de survêtement pendant les matchs peut être autorisé par le JA dans des cas particuliers, à la demande motivée du joueur ou lorsque la température dans la salle est inférieure ou égale à 12°.
+
+Q tps-006 | D: 1 | R: 03.07 1.2.3
+Selon le règlement des tenues, à qui revient le devoir d'éviter que la tenue négligée ou incorrecte de quelques joueurs dévalorise les compétitions de badminton ?
+- Uniquement au comité d'organisation
++ Au juge-arbitre et aux joueurs
+- Uniquement à la ligue
+- Uniquement aux arbitres de chaise
+> GdB 03.07 art. 1.2.3 : il est du devoir du juge-arbitre et des joueurs d'éviter que la tenue négligée ou incorrecte de quelques joueurs dévalorise les compétitions de badminton.
+
+Q tps-007 | D: 2 | R: 03.07 1.4.2
+Un maillot porte un dessin abstrait. Dans quels cas ce dessin est-il refusé ? (Cochez les réponses exactes)
++ S'il comporte une référence commerciale ou un contenu promotionnel
+- S'il comporte plusieurs couleurs vives
++ S'il véhicule un contenu à caractère religieux, racial ou idéologique
+- S'il n'est pas aux couleurs du club du joueur
+> GdB 03.07 art. 1.4.2 : les dessins abstraits sont admis s'ils sont exempts de publicité, de référence commerciale ou de contenu promotionnel, à caractère religieux, racial ou idéologique. Les couleurs de la tenue sont libres (art. 1.4.1).
+
+Q tps-008 | D: 1 | R: 03.07 1.4.2
+Un maillot uni porte un grand dessin représentant un volant et une raquette, sans aucune marque. Est-il admis ?
+- Non : seuls les dessins abstraits sont admis
+- Non, sauf autorisation écrite de la fédération
+- Oui, mais seulement en double
++ Oui : une tolérance existe pour les dessins représentant volant, raquette, joueur, terrain ou filet de badminton exempts de publicité
+> GdB 03.07 art. 1.4.2 : une tolérance est faite pour les dessins représentant volant, raquette, joueur de badminton, terrain de badminton, filet s'ils sont exempts de publicité, de référence commerciale ou de contenu promotionnel.
+
+Q tps-009 | D: 3 | R: 03.07 1.4.3
+Un joueur porte sur l'emplacement « poitrine gauche » de son maillot l'emblème de son club, d'une surface de 60 cm². Qu'en est-il ?
++ Non conforme : l'emblème est admis, mais ses dimensions doivent respecter celles autorisées pour les publicités, soit 30 cm² maximum sur cet emplacement
+- Conforme : les emblèmes du club ne sont soumis à aucune limite de taille
+- Non conforme : seul le drapeau français peut figurer sur le devant du maillot
+- Conforme, car la limite est de 120 cm² sur la poitrine
+> GdB 03.07 art. 1.4.3 et 2.1.1 : l'emblème du pays représenté (pour la France : pays, région, département, comité, club, ville…) peut figurer sur le devant, mais ses dimensions doivent être en accord avec celles des publicités : 30 cm² maximum par emplacement de poitrine.
+
+Q tps-010 | D: 1 | R: 03.07 2
+Un joueur se présente avec un maillot et un short totalement unis, sans aucune inscription. Le règlement particulier du tournoi ne prévoit rien à ce sujet. Que décide le juge-arbitre ?
+- Il refuse : le nom du joueur doit figurer dans le dos
+- Il refuse : le nom du club doit figurer dans le dos
++ Il accepte : sauf règlement particulier, il est possible de jouer sans aucune inscription
+- Il accepte uniquement pour un joueur non classé
+> GdB 03.07 §2 : sauf règlement particulier, il est possible de jouer sans aucune inscription.
+
+Q tps-011 | D: 3 | R: 03.07 2
+Au sens du règlement des tenues, quelles inscriptions sont désignées sous le terme de « publicité » ? (Cochez les réponses exactes)
++ Le sigle du fabricant du vêtement
+- Le nom de famille du joueur inscrit dans le dos
++ Le nom ou le logo du club
++ La marque commerciale d'un partenaire
+> GdB 03.07 §2 : les inscriptions comportant une marque ou un emblème commercial ou promotionnel, le nom ou le logo du club ou d'un partenaire ainsi que le sigle du fabricant du vêtement sont désignées sous le terme de « publicité ». Le nom du joueur relève de règles propres (art. 2.1.2).
+
+Q tps-012 | D: 2 | R: 03.07 2.1.1
+Sur le devant d'un maillot, deux logos de partenaires de 12 cm² chacun sont juxtaposés sur l'emplacement « poitrine gauche ». Qu'en est-il ?
+- Conforme : leur surface totale ne dépasse pas 30 cm²
+- Conforme : le nombre d'inscriptions par emplacement est libre
+- Non conforme : aucune publicité n'est autorisée sur la poitrine
++ Non conforme : une seule inscription publicitaire est autorisée sur chaque emplacement
+> GdB 03.07 art. 2.1.1 : sept inscriptions maximum sur sept emplacements (épaules, col, poitrine gauche/centre/droite), chacune dans une surface de 30 cm² maximum ; une inscription publicitaire sur chaque emplacement est autorisée.
+
+Q tps-013 | D: 2 | R: 03.07 2.1.1
+Sur le devant du maillot, sous les trois emplacements de la poitrine, une bande horizontale publicitaire est autorisée. Quelle est sa hauteur maximale ?
+- 10 cm
+- 20 cm
+- 40 cm
++ 30 cm, de hauteur constante
+> GdB 03.07 art. 2.1.1 : une bande horizontale, située en dessous des emplacements poitrine gauche, centre et droite, de hauteur constante n'excédant pas 30 cm, peut contenir une ou plusieurs inscriptions publicitaires.
+
+Q tps-014 | D: 2 | R: 03.07 2.1.2
+Quelles bandes horizontales sont autorisées dans le dos du maillot ?
+- Une seule bande de 30 cm maximum, réservée au nom du joueur
++ Une bande de 20 cm de hauteur maximum pouvant contenir le logo du club, et une bande supplémentaire de 20 cm maximum pouvant contenir une ou plusieurs publicités
+- Aucune : seuls le nom du joueur et celui du club sont admis dans le dos
+- Deux bandes de 10 cm maximum chacune
+> GdB 03.07 art. 2.1.2 : dans le dos peuvent figurer une bande horizontale de hauteur constante n'excédant pas 20 cm pouvant contenir le logo du club et une bande supplémentaire de 20 cm maximum pouvant contenir une ou plusieurs inscriptions publicitaires.
+
+Q tps-015 | D: 2 | R: 03.07 2.1.2
+Où le sigle ou le nom du fabricant (ou du distributeur) peut-il figurer dans le dos du maillot ? (Cochez les réponses exactes)
++ En haut de chaque épaule ou au centre du haut du maillot, dans 30 cm² maximum
+- Au centre du dos, entre le nom du joueur et le nom du club, sans limite de taille
++ En bas du maillot, dans une surface de 30 cm² maximum
+- Sur toute la largeur du dos, sur une bande de 20 cm
+> GdB 03.07 art. 2.1.2 : dans le dos figurent, dans l'ordre, une inscription du fabricant ou du distributeur en haut (chaque épaule ou centre) de 30 cm² maximum, le nom du joueur, le nom du club…, les bandes horizontales, puis une inscription du fabricant en bas du maillot de 30 cm² maximum.
+
+Q tps-016 | D: 2 | R: 03.07 2.1.2
+Un joueur porte dans le dos son nom écrit en lettres minuscules cursives de 7 cm de haut. Est-ce conforme ?
++ Non : le nom doit être écrit en alphabet romain et en lettres capitales
+- Oui : seule la hauteur des lettres est réglementée
+- Oui, si les lettres contrastent avec la couleur du maillot
+- Non : la hauteur minimale des lettres est de 8 cm
+> GdB 03.07 art. 2.1.2 : le nom du joueur est écrit en alphabet romain et en lettres capitales, d'une hauteur constante comprise entre 5 et 10 cm.
+
+Q tps-017 | D: 3 | R: 03.07 2.1.2
+Lors d'un championnat départemental, quelles inscriptions du nom du joueur Julien Dupont sont admises dans le dos de son maillot ? (Cochez les réponses exactes)
++ « DUPONT »
+- « JULIEN »
++ « J. DUPONT »
+- « JULIEN DUPONT »
+> GdB 03.07 art. 2.1.2 : seul le nom de famille (ou une abréviation de celui-ci) et éventuellement l'initiale ou les initiales du prénom sont admis. Les prénoms et surnoms ne sont acceptés que sur les tournois hors compétitions fédérales (championnats, circuits, interclubs nationaux…).
+
+Q tps-018 | D: 3 | R: 03.07 2.1.2
+Le nom du club d'un joueur est trop long pour tenir en intégralité sur une seule ligne dans le dos du maillot. Que permet le règlement ?
+- L'écrire sur une seule ligne en lettres de 3 cm
++ L'écrire sur deux lignes sur la largeur du dos, la ligne inférieure pouvant alors avoir une hauteur inférieure à 5 cm
+- Le remplacer obligatoirement par le logo du club
+- Rien : un nom qui ne tient pas sur une ligne de 5 à 10 cm est interdit
+> GdB 03.07 art. 2.1.2 : afin de permettre au nom du club, du comité, de la ligue ou de la ville d'être en intégralité, et sur deux lignes, sur la largeur du dos, la hauteur de la ligne inférieure peut être inférieure à 5 cm. L'acronyme ou l'abréviation du club est aussi admis.
+
+Q tps-019 | D: 2 | R: 03.07 2.1.2
+Un joueur porte un maillot bleu marine floqué dans le dos de son nom en lettres bleu foncé, à peine lisibles. Qu'en dit le règlement ?
++ Non conforme : la couleur des lettres doit être contrastée par rapport à la couleur du maillot
+- Conforme : la couleur des lettres est libre
+- Conforme, si les lettres mesurent au moins 10 cm
+- Non conforme : les lettres doivent obligatoirement être blanches
+> GdB 03.07 art. 2.1.2 : la couleur des lettres doit être contrastée par rapport à la couleur du maillot ou de la robe.
+
+Q tps-020 | D: 2 | R: 03.07 2.1.2 | L: JALC JAFA JAFC
+En interclubs nationaux, que doit obligatoirement comporter le dos du maillot ?
+- Le nom du joueur et le nom du club, tous deux en lettres de 10 cm exactement
+- Uniquement le logo du club, dans une bande de 20 cm
+- Aucune inscription n'est obligatoire
++ L'une des inscriptions prévues (nom du joueur, ou nom du club, du comité ou de la ville) d'une hauteur comprise entre 5 et 10 cm, une autre pouvant figurer en plus petit sur une seule ligne en dessous
+> GdB 03.07 art. 2.1.2 : en interclubs nationaux, une des inscriptions prévues doit obligatoirement figurer avec une hauteur comprise entre 5 et 10 cm ; une autre des options citées peut apparaître en une seule ligne, en plus petit, en dessous.
+
+Q tps-021 | D: 3 | R: 03.07 2.2
+Le short d'un joueur porte le sigle du fabricant (10 cm²) et deux logos de partenaires de 15 cm² chacun. Est-il conforme ?
+- Oui : chaque inscription respecte la limite de 20 cm²
+- Oui : le sigle du fabricant n'entre pas dans le décompte
++ Non : le short ne peut porter que deux inscriptions publicitaires, sigle du fabricant inclus
+- Non : aucun logo de partenaire n'est autorisé sur un short
+> GdB 03.07 art. 2.2 : le short ou la jupe peut porter deux inscriptions publicitaires, chacune ne dépassant pas 20 cm², incluant le sigle du fabricant. Trois inscriptions dépassent ce nombre.
+
+Q tps-022 | D: 2 | R: 03.07 2.3.1
+Un joueur porte des chaussettes sur lesquelles figurent trois petites inscriptions de 10 cm² chacune. Est-ce conforme ?
++ Oui : les vêtements autres que le maillot et le short peuvent porter une ou plusieurs inscriptions, chacune ne dépassant pas 20 cm²
+- Non : deux inscriptions maximum, comme sur le short
+- Non : aucune inscription n'est autorisée sur les chaussettes
+- Non : une seule inscription par vêtement est autorisée
+> GdB 03.07 art. 2.3.1 : les autres vêtements portés par le joueur (bandeaux, serre-poignets, genouillères, bandages, chaussettes…) peuvent porter une ou plusieurs inscriptions, chacune ne dépassant pas 20 cm².
+
+Q tps-023 | D: 3 | R: 03.07 2.3.2
+Une joueuse porte un manchon de compression sur lequel figure uniquement la marque de son fabricant, en grand (environ 50 cm²). Est-ce conforme ?
+- Non : toute inscription sur un vêtement autre que le maillot et le short est limitée à 20 cm²
+- Non, sauf présentation d'un justificatif médical
++ Oui : les articles de compression ou de contention peuvent porter la marque du fabricant, quelle que soit sa taille
+- Non : les articles de compression doivent être totalement unis
+> GdB 03.07 art. 2.3.2 : les articles pour la compression et/ou la contention ne peuvent avoir d'inscriptions autres que la marque du fabricant, quelle que soit sa taille. Le justificatif médical n'est exigé que pour une inscription publicitaire non conforme (art. 5.1.2).
+
+Q tps-024 | D: 2 | R: 03.07 2.5.3
+Un joueur porte sur son maillot la publicité d'une marque de boisson alcoolisée. Que prévoit le règlement des tenues ?
++ Les publicités doivent être conformes à la législation en vigueur, notamment pour les produits dont la publicité est réglementée ou interdite dans le cadre des activités sportives
+- Toute marque est admise dès lors que les surfaces sont respectées
+- La publicité est admise si l'organisateur est sponsorisé par la même marque
+- Seul l'arbitre du match décide, en fonction du public présent
+> GdB 03.07 art. 2.5.3 : les publicités doivent être conformes à la législation en vigueur, notamment en ce qui concerne les produits ou services dont la publicité est réglementée ou interdite dans le cadre des activités sportives.
+
+Q tps-025 | D: 1 | R: 03.07 2.5.1
+Les inscriptions et publicités figurant sur les tenues ne doivent pas comporter :
+- de texte en langue étrangère
+- plus de deux couleurs
++ de messages contraires aux lois et règlements en vigueur ou aux bonnes mœurs
+- de couleurs différentes de celles du club
+> GdB 03.07 art. 2.5.1 : les inscriptions et les publicités ne doivent pas comporter de messages contraires aux lois et règlements en vigueur ou aux bonnes mœurs.
+
+Q tps-026 | D: 2 | R: 03.07 2.5.5
+Entre deux matchs, un joueur circule dans les tribunes avec une veste couverte de publicités non réglementaires. Que doit faire le juge-arbitre ?
++ Rien : les règles s'appliquent sur le terrain et dans l'espace réglementaire qui l'entoure ; en dehors, toutes les inscriptions sont admises
+- Lui demander de retirer immédiatement sa veste
+- Lui infliger un avertissement
+- Consigner une tenue non conforme dans son rapport
+> GdB 03.07 art. 2.5.5 : l'ensemble de ces règles est applicable sur le terrain et dans l'espace réglementaire qui l'entoure ; toutes les inscriptions sont admises en dehors de ces limites.
+
+Q tps-027 | D: 2 | R: 03.07 3.1.2
+Un joueur enfreint les règles relatives aux tenues pendant la compétition. Quelles suites sont possibles ? (Cochez les réponses exactes)
+- Une amende fixée et encaissée sur place par le juge-arbitre
++ Les sanctions prévues par les Règles du jeu, au cours de la compétition
+- Un retrait immédiat de points au classement décidé par le juge-arbitre
++ Une demande de sanctions complémentaires déposée par le juge-arbitre auprès des juridictions compétentes
+> GdB 03.07 art. 3.1.2 : les infractions sont passibles, au cours de la compétition, des sanctions décrites par les Règles du jeu ; elles peuvent en outre faire l'objet de demandes de sanctions complémentaires auprès des juridictions compétentes, déposées par le JA.
+
+Q tps-028 | D: 2 | R: 03.07 4.1.1
+À quelles compétitions s'applique le règlement des tenues vestimentaires et publicité de la FFBaD ?
+- Uniquement aux compétitions fédérales (championnats)
++ Aux compétitions officielles disputées en France, hexagone et outre-mer, qu'elles soient fédérales ou autorisées (tournois, compétitions par équipes)
+- Uniquement aux compétitions de niveau national
+- À toutes les compétitions en France, y compris celles organisées sous l'égide de la BWF
+> GdB 03.07 art. 4.1.1 : la circulaire s'applique lors des compétitions officielles disputées en France (hexagone et outre-mer) : compétitions fédérales (fédération, ligue, comité) et compétitions autorisées organisées par d'autres organismes (tournois, compétitions par équipes). Les compétitions internationales suivent leur propre règlement (art. 4.1.3).
+
+Q tps-029 | D: 3 | R: 03.07 4.1.2
+Des règles de tenue plus strictes que celles du règlement fédéral peuvent être imposées par les règlements complémentaires :
+- dans n'importe quel tournoi, sur simple décision de l'organisateur
+- uniquement lors des compétitions internationales
++ lors des compétitions fédérales ou des compétitions par équipes, et dans des cas exceptionnels avec l'accord du comité exécutif
+- jamais : le règlement fédéral ne peut pas être durci
+> GdB 03.07 art. 4.1.2 : des règles plus strictes peuvent être imposées par les règlements complémentaires lors des compétitions fédérales ou des compétitions par équipes et, dans des cas exceptionnels, avec l'accord du comité exécutif.
+
+Q tps-030 | D: 2 | R: 03.07 5.1.3
+Un joueur récidive en portant une tenue non conforme, déjà consignée dans plusieurs rapports de juges-arbitres. Qui peut déclencher une procédure disciplinaire à son encontre ?
+- Le juge-arbitre, directement sur place
++ La ligue du joueur
+- Le club organisateur
+- L'adversaire du joueur
+> GdB 03.07 art. 5.1.3 : conformément au code de conduite des joueurs, la ligue du joueur pourra déclencher une procédure disciplinaire si elle constate que celui-ci récidive et/ou si elle estime que son comportement porte atteinte à l'image du badminton.
+
+Q tps-031 | D: 1 | R: 03.07.A01 1.1 | L: JALC JAFA JAFC
+Aux championnats de France individuels, quels maillots sont autorisés (sous réserve du règlement général des tenues) ? (Cochez les réponses exactes)
++ Un maillot portant le nom de la ligue du joueur
+- Un maillot du pôle espoirs du joueur
++ Un maillot dépourvu de toute inscription
+- Un maillot de l'UNSS
++ Un maillot portant le nom du club du joueur
+> GdB 03.07.A01 art. 1.1 et 1.2 : sont autorisés les maillots et robes portant le nom de la ligue, du comité ou du club du joueur, ou dépourvus de toute inscription ; sont interdits notamment ceux des pôles espoirs et des fédérations affinitaires (FF Sport U, UNSS…).
+
+Q tps-032 | D: 2 | R: 03.07.A01 1.2 | L: JALC JAFA JAFC
+Aux championnats de France individuels, un joueur porte un maillot floqué du logo du tournoi international organisé par son club. Que décide le juge-arbitre ?
++ Il le refuse : les maillots faisant la publicité d'une autre compétition sont interdits
+- Il l'accepte, car il s'agit d'une compétition de son club
+- Il l'accepte si le logo fait moins de 30 cm²
+- Il l'accepte jusqu'aux quarts de finale
+> GdB 03.07.A01 art. 1.2 : sont interdits aux championnats de France individuels les maillots et robes faisant de la publicité pour une autre compétition (tournoi, championnat départemental, régional, national, compétition internationale).
+
+Q tps-033 | D: 3 | R: 03.07.A01 1.2 | L: JALC JAFA JAFC
+Un joueur sélectionné en équipe de France se présente aux championnats de France individuels avec son maillot de l'équipe de France portant « France » dans le dos. Est-ce autorisé ?
+- Oui, puisqu'il est membre de l'équipe de France
+- Oui, à partir des demi-finales
+- Oui, s'il masque les publicités du maillot
++ Non : ces maillots sont interdits aux championnats de France individuels, où il n'est pas inscrit au sein d'une équipe de France
+> GdB 03.07.A01 art. 1.2 : les maillots des équipes de France portant « France » dans le dos sont interdits aux championnats de France individuels. Selon le 03.07 §2, ils ne sont admis que si le joueur est inscrit par la FFBaD au sein d'une équipe de France.
+
+Q tps-034 | D: 2 | R: 03.07.A01 2.1.1 | L: JALC JAFA JAFC
+Aux championnats de France individuels, à partir de quel stade les partenaires de double doivent-ils porter des maillots (ou robes) et des shorts (ou jupes) de couleur majoritairement identique ?
+- Dès le premier match
+- À partir des huitièmes de finale
++ À partir des quarts de finale
+- Uniquement en finale
+> GdB 03.07.A01 art. 2.1.1 : une couleur identique est recommandée dès le premier match ; à partir des quarts de finale, les partenaires doivent porter des maillots ou robes de couleur majoritairement identique et des shorts ou jupes de couleur majoritairement identique.
+
+Q tps-035 | D: 2 | R: 03.07.A01 2.1.2 | L: JALC JAFA JAFC
+Aux championnats de France individuels, à partir de quel stade les adversaires doivent-ils porter des maillots ou robes de couleur significativement différente ?
+- Dès le premier tour, en double uniquement
++ À partir des demi-finales, en simple et en doubles
+- À partir des quarts de finale, en simple uniquement
+- Uniquement en finale
+> GdB 03.07.A01 art. 2.1.2 : à partir des demi-finales, en simple et en doubles, les adversaires doivent porter des maillots ou robes de couleur significativement différente.
+
+Q tps-036 | D: 3 | R: 03.07.A01 2.1.3 | L: JALC JAFA JAFC
+En demi-finale de simple des championnats de France, les deux joueurs se présentent en maillot rouge. Qui a le choix de la couleur du maillot ?
+- Le joueur qui a gagné le tirage au sort avant le match
+- Le juge-arbitre, après concertation avec l'organisateur
+- Le joueur le plus jeune
++ Le joueur ayant la tête de série la plus haute ou, à défaut, la cote CPPH la plus élevée au moment du tirage au sort
+> GdB 03.07.A01 art. 2.1.3 : en demi-finales, en cas de couleur non significativement différente, le choix revient au joueur ou à la paire ayant la tête de série la plus haute ou, à défaut, la cote CPPH la plus élevée au moment du tirage au sort.
+
+Q tps-037 | D: 3 | R: 03.07.A01 2.1.1 | L: JALC JAFA JAFC
+Aux championnats de France individuels, une paire de double dispute son premier tour avec un partenaire en jaune et l'autre en vert. Que fait le juge-arbitre ?
++ Il laisse jouer : la couleur identique n'est que recommandée avant les quarts de finale
+- Il impose un changement de maillot avant le match
+- Il applique une amende de 50 € à chaque joueur
+- Il déclare la paire forfait
+> GdB 03.07.A01 art. 2.1.1 : en double, il est recommandé que les partenaires portent des tenues de couleur identique dès leur premier match ; l'obligation de couleur majoritairement identique ne s'applique qu'à partir des quarts de finale.
+
+Q tps-038 | D: 1 | R: 03.07.A01 3 | L: JALC JAFA JAFC
+Quelle sanction s'applique en cas de non-respect des instructions sur les tenues aux championnats de France individuels ?
+- Un avertissement (carton jaune) à chaque match
+- Une amende forfaitaire de 100 € par paire pour toute la compétition
+- La disqualification du joueur
++ Une amende de 50 € par joueur et par match disputé
+> GdB 03.07.A01 art. 3 : en cas de non-respect de ces instructions, une amende de 50 € par joueur et par match disputé est appliquée.
+
+Q tps-039 | D: 2 | R: 03.07.A01 2.1.4 | L: JALC JAFA JAFC
+Lors des championnats de France individuels, un joueur doit changer son maillot trempé en cours de match. Que prévoient les instructions sur les couleurs ?
+- Il peut prendre un maillot de n'importe quelle couleur
+- Il doit obtenir l'accord de son adversaire sur la nouvelle couleur
++ Les joueurs doivent prévoir des maillots ou robes de même couleur en quantité suffisante s'ils sont amenés à en changer en cours de match
+- Le changement de maillot est interdit pendant un match
+> GdB 03.07.A01 art. 2.1.4 : les joueurs doivent prendre leurs dispositions pour avoir des maillots ou robes en quantité suffisante de même couleur s'ils sont amenés à en changer en cours de match.
+
+Q tps-040 | D: 1 | R: 03.08 1.1.1
+Au sens du règlement sur la publicité sur la surface de jeu, que comprend la surface de jeu ?
++ Les terrains eux-mêmes et un espace libre entourant chaque terrain
+- Uniquement les lignes et l'intérieur des terrains
+- L'ensemble de la salle, tribunes comprises
+- Les terrains et la table de marque
+> GdB 03.08 art. 1.1.1 : conformément au RGC (art. 2.10), la surface de jeu, définie selon le niveau de compétition par le règlement technique, comprend les terrains eux-mêmes et un espace libre entourant chaque terrain.
+
+Q tps-041 | D: 2 | R: 03.08 2.1.1
+Combien d'emblèmes du fournisseur du terrain peuvent être placés au sol, et où ?
+- Quatre emblèmes, un à chaque coin du terrain
+- Un seul emblème, au centre du terrain sous le filet
++ Deux emblèmes identiques au maximum, un de chaque côté, à au moins 30 cm au-delà de la ligne de fond
+- Deux emblèmes le long des lignes de côté, à au moins 10 cm
+> GdB 03.08 art. 2.1.1 : au maximum deux emblèmes identiques du fournisseur du terrain, un de chaque côté, à au moins 30 cm au-delà de la ligne de fond ; s'y ajoutent au maximum deux publicités identiques placées de la même manière.
+
+Q tps-042 | D: 2 | R: 03.08 2.1.1
+Quelles sont les dimensions maximales de chaque emblème ou publicité placé au sol au-delà de la ligne de fond ?
+- 100 cm de long et 20 cm de large
+- 150 cm de long et 50 cm de large
+- 200 cm de long et 50 cm de large
++ 170 cm de long et 30 cm de large
+> GdB 03.08 art. 2.1.1 : chaque emblème et chaque publicité doivent avoir au maximum 170 cm de long et 30 cm de large.
+
+Q tps-043 | D: 3 | R: 03.08 2.1.1 | L: JAFA JAFC
+Lors d'une compétition internationale, où doit être placée la seconde publicité au sol (hors emblèmes du fournisseur du terrain) ?
++ À au moins 30 cm au-delà de la ligne latérale
+- À au moins 30 cm au-delà de la ligne de fond, comme en compétition nationale
+- Sous le filet, entre les poteaux
+- Nulle part : elle est interdite en compétition internationale
+> GdB 03.08 art. 2.1.1 : pour les compétitions internationales, la seconde publicité (hors fournisseur) doit être placée à au moins 30 cm au-delà de la ligne latérale, et non de la ligne de fond.
+
+Q tps-044 | D: 2 | R: 03.08 2.1.2
+Comment doivent être placés les emblèmes du fournisseur du filet ?
+- Au centre de la bande blanche, sur 10 cm de haut au maximum
+- Dans les mailles du filet, sans limite de taille
+- Uniquement sur les poteaux
++ Sur la bande blanche, à 4 cm du poteau, un à chaque extrémité du filet sur les côtés opposés du terrain, de 3,5 cm de haut et 10 cm de large au maximum
+> GdB 03.08 art. 2.1.2 : au maximum deux emblèmes identiques du fournisseur du filet, un à chaque extrémité, situés sur les côtés opposés du terrain ; chacun sur la bande blanche à 4 cm du poteau, de 3,5 cm de haut et 10 cm de large au maximum.
+
+Q tps-045 | D: 2 | R: 03.08 2.1.3
+Quelles conditions s'appliquent aux emblèmes du fournisseur des poteaux ? (Cochez les réponses exactes)
++ Deux emblèmes identiques au maximum par poteau, un de chaque côté
+- Chaque emblème peut mesurer jusqu'à 30 cm de large
++ Aucun emblème ne doit dépasser de la surface du poteau
+- Ils doivent être placés sur le pied du poteau
++ Chaque emblème mesure au maximum 30 cm de haut et 3 cm de large
+> GdB 03.08 art. 2.1.3 : au maximum deux emblèmes identiques du fournisseur des poteaux sur chaque poteau, un de chaque côté ; aucun ne doit dépasser de la surface du poteau ; taille maximale 30 cm de haut et 3 cm de large.
+
+Q tps-046 | D: 2 | R: 03.08 2.1.4
+Lors d'un tournoi national (hors compétition internationale), des publicités peuvent-elles figurer sur les paniers mis à disposition des joueurs près du terrain ?
++ Oui, deux publicités identiques au maximum par panier, une de chaque côté, de 20 cm de haut et 40 cm de large au maximum
+- Non : les paniers doivent rester neutres
+- Oui, une seule publicité par panier, sans limite de taille
+- Oui, quatre publicités par panier, de 30 cm² chacune
+> GdB 03.08 art. 2.1.4 : pour les compétitions autres qu'internationales, au maximum deux publicités identiques sur chaque panier ou bac, une de chaque côté, de 20 cm de haut et 40 cm de large au maximum.
+
+Q tps-047 | D: 1 | R: 03.08 2.1.5
+La publicité sur la chaise d'arbitre et sur l'équipement utilisé par les joueurs est :
+- interdite sauf autorisation du comité exécutif
+- limitée à 30 cm² par élément
++ autorisée dans tous les cas, mais elle peut être limitée par voie de circulaire
+- réservée aux compétitions internationales
+> GdB 03.08 art. 2.1.5 : la publicité sur la chaise d'arbitre et sur l'équipement utilisé par les joueurs est autorisée dans tous les cas ; elle peut être limitée par voie de circulaire.
+
+Q tps-048 | D: 3 | R: 03.08 2.1.6
+Dans une salle où l'espace entourant les terrains est plus réduit que l'espace réglementaire, un organisateur souhaite placer des chevalets publicitaires. À quelles conditions est-ce possible ? (Cochez les réponses exactes)
++ Avoir demandé et obtenu l'autorisation spéciale du comité exécutif
+- L'accord du juge-arbitre le jour de la compétition suffit
++ Placer les chevalets au milieu de l'espace séparant les terrains
+- Placer les chevalets à 30 cm au-delà des lignes de fond
++ Utiliser des chevalets de 1,5 m de long et 50 cm de large au maximum
+> GdB 03.08 art. 2.1.6 : des chevalets de 1,5 m de long et 50 cm de large au maximum peuvent être admis lorsque l'espace entourant les terrains est réduit, sur demande de l'organisateur et autorisation spéciale du comité exécutif ; ils sont alors placés au milieu de l'espace séparant les terrains.
+
+Q tps-049 | D: 2 | R: 03.08 2.1.7
+Un organisateur souhaite apposer la publicité d'un partenaire sur le filet des terrains. Est-ce possible ?
+- Non, jamais
+- Oui, avec le seul accord du juge-arbitre
+- Oui, si la publicité ne dépasse pas 30 cm²
++ Oui, à condition d'en avoir fait la demande et d'avoir obtenu l'autorisation spéciale du comité exécutif
+> GdB 03.08 art. 2.1.7 : des publicités de dimensions plus grandes que celles définies, ainsi que des publicités sur le filet, peuvent être admises à condition que l'organisateur en ait fait la demande et ait obtenu l'autorisation spéciale du comité exécutif.
+
+Q tps-050 | D: 1 | R: 03.08 3.1.1
+Les juges de ligne et les scoreurs peuvent-ils porter des publicités ?
+- Non, jamais
++ Oui : ils sont placés en dehors de la surface de jeu
+- Oui, uniquement celle du fournisseur des volants
+- Uniquement avec l'accord des joueurs
+> GdB 03.08 art. 3.1.1 : les juges de ligne et les scoreurs, devant être placés en dehors de la surface de jeu, peuvent porter des publicités.
+
+Q tps-051 | D: 3 | R: 03.08 2.1.1
+Sans aucune autorisation particulière, quels dispositifs publicitaires un organisateur de tournoi peut-il installer sur la surface de jeu ? (Cochez les réponses exactes)
+- Une banderole publicitaire accrochée au filet
++ Deux publicités identiques de 150 cm × 30 cm au sol, une de chaque côté, à 40 cm au-delà de la ligne de fond
+- Une publicité au sol de 250 cm de long derrière chaque ligne de fond
++ La publicité d'un partenaire sur la chaise d'arbitre
+> GdB 03.08 art. 2.1.1, 2.1.5 et 2.1.7 : deux publicités identiques au sol (170 × 30 cm maximum, à au moins 30 cm au-delà de la ligne de fond) et la publicité sur la chaise d'arbitre sont autorisées ; les publicités sur le filet ou de dimensions plus grandes exigent une autorisation spéciale du comité exécutif.
+
+Q tps-052 | D: 1 | R: 03.11 1.3 | T: tournois
+Qui est chargé de gérer les autorisations et les homologations des rencontres PromoBad ?
++ Le comité départemental sur le territoire duquel se déroule la rencontre, la ligue régionale en étant tenue informée
+- Le secteur Vie sportive de la fédération
+- La ligue régionale, dans tous les cas
+- Le juge-arbitre de la rencontre
+> GdB 03.11 art. 1.3 : chaque comité départemental gère les autorisations et homologations des rencontres PromoBad de son territoire ; la ligue régionale est tenue informée. Le secteur Vie sportive contrôle l'application du règlement.
+
+Q tps-053 | D: 2 | R: 03.11 1.3 | T: tournois
+Dans quels cas la ligue régionale assure-t-elle elle-même la gestion des autorisations et homologations des rencontres PromoBad ? (Cochez les réponses exactes)
++ À défaut de comité départemental existant
+- Lorsque la rencontre réunit plus de 100 joueurs
++ Sur demande expresse du comité compétent
++ En l'absence d'action du comité
+> GdB 03.11 art. 1.3 : à défaut de comité existant, sur demande expresse du comité compétent ou en l'absence d'action du comité, ces fonctions sont assurées par la ligue régionale.
+
+Q tps-054 | D: 1 | R: 03.11 2.1 | T: tournois
+Parmi ces structures, lesquelles peuvent organiser une rencontre PromoBad ? (Cochez les réponses exactes)
+- Une entreprise privée non affiliée
++ Un club
+- Un joueur licencié, à titre individuel
++ Un groupement de clubs
+> GdB 03.11 art. 2.1 : l'organisateur d'une rencontre peut être un comité, un club ou un groupement de clubs ; un comité peut organiser des circuits de rencontres.
+
+Q tps-055 | D: 2 | R: 03.11 2.2 | T: tournois
+Un comité organise un circuit de rencontres PromoBad en cinq étapes. Que permet le règlement ?
+- Chaque étape doit obligatoirement avoir son propre règlement particulier
+- Le circuit est dispensé de règlement particulier
++ Le circuit peut faire l'objet d'un règlement particulier commun à toutes les étapes
+- Les circuits de rencontres PromoBad sont interdits
+> GdB 03.11 art. 2.1 et 2.2 : un comité peut organiser des circuits de rencontres ; un circuit peut faire l'objet d'un règlement particulier commun à toutes les étapes.
+
+Q tps-056 | D: 2 | R: 03.11 2.2 | T: tournois
+Un organisateur de rencontre PromoBad affirme que le règlement général des compétitions (RGC) ne s'applique pas à sa rencontre. A-t-il raison ?
++ Non : l'ensemble des règlements fédéraux, notamment le RGC, s'applique, complété par un règlement particulier
+- Oui : seul le règlement particulier s'applique
+- Oui : seules les règles du jeu s'appliquent
+- Non, mais seulement si un juge-arbitre est présent
+> GdB 03.11 art. 2.2 : l'ensemble des règlements fédéraux est applicable aux rencontres PromoBad, notamment le RGC et le règlement PromoBad, complétés par un règlement particulier (déroulement, licenciés autorisés, conditions locales).
+
+Q tps-057 | D: 2 | R: 03.11 2.3 | T: tournois
+Une rencontre PromoBad se déroule sans juge-arbitre. Le GEO 2 désigné souhaite s'inscrire dans un tableau et quitter la salle après ses matchs. Que prévoit le règlement ?
+- Il peut quitter la salle dès que l'échéancier est lancé
+- Il peut jouer et partir : un joueur volontaire le remplacera
++ Le GEO doit être présent pendant toute la durée de la compétition, et il est fortement recommandé qu'il n'y joue pas
+- La présence d'un GEO n'est pas obligatoire en PromoBad
+> GdB 03.11 art. 2.3 : sans juge-arbitre, la présence d'un GEO 1 promo ou d'un GEO 2 est obligatoire ; ce GEO doit être présent pendant toute la durée du tournoi et il est fortement recommandé qu'il ne joue pas.
+
+Q tps-058 | D: 3 | R: 03.11 2.3 | T: tournois
+Un organisateur souhaite faire officier de jeunes arbitres et des juges-arbitres en formation lors de sa rencontre PromoBad. Quelle condition doit être remplie ?
+- Aucune : c'est la vocation même des rencontres PromoBad
+- La présence d'un GEO 1 promo suffit
+- La rencontre doit être supervisée par un juge-arbitre de grade fédéral
++ La rencontre doit être supervisée par un juge-arbitre de grade ligue certifié au minimum
+> GdB 03.11 art. 2.3 : pour que des officiels techniques en formation ou de jeunes arbitres puissent officier sur une rencontre PromoBad, celle-ci doit être supervisée par un juge-arbitre de grade ligue certifié minimum.
+
+Q tps-059 | D: 3 | R: 03.11 2.3 | T: tournois
+La veille d'un tournoi ouvert aux joueurs jusqu'à la série R, le juge-arbitre désigné se désiste et aucun remplaçant n'est trouvé. Que permet le règlement PromoBad ?
+- La compétition doit obligatoirement être annulée
++ En l'absence de juge-arbitre, la compétition « classique » peut se transformer en rencontre PromoBad, avec la présence obligatoire d'un GEO 1 promo ou d'un GEO 2
+- Un joueur classé peut faire office de juge-arbitre
+- La compétition se tient sans officiel et reste un tournoi classique
+> GdB 03.11 art. 2.3 : en absence de JA, une compétition « classique » peut se transformer en PromoBad ; la présence d'un GEO 1 promo ou d'un GEO 2 est alors obligatoire.
+
+Q tps-060 | D: 1 | R: 03.11 2.4 | T: tournois
+Dans quelle salle une rencontre PromoBad peut-elle se dérouler ?
+- Uniquement dans une salle homologuée pour les compétitions nationales
++ Dans toute salle où la pratique du badminton n'est pas interdite pour des raisons de sécurité en application du règlement technique fédéral
+- Uniquement dans une salle d'au moins sept terrains
+- Dans n'importe quel lieu, y compris en extérieur
+> GdB 03.11 art. 2.4 : une rencontre PromoBad peut se dérouler dans toute salle dans laquelle la pratique du badminton n'est pas interdite pour des raisons de sécurité en application du règlement technique fédéral.
+
+Q tps-061 | D: 2 | R: 03.11 2.5 | T: tournois
+Un organisateur de rencontre PromoBad propose des matchs à la durée (10 minutes chacun). Est-ce une formule autorisée ?
++ Non : seules les formules permettant l'intégration des résultats dans Poona et le calcul du classement sont autorisées, ce que ne permettent pas les matchs à la durée
+- Oui : en PromoBad, toutes les formules sont libres
+- Oui, si le GEO l'accepte
+- Oui, à condition que chaque joueur dispute au moins trois matchs
+> GdB 03.11 art. 2.5 : toutes les formules permettant l'intégration des résultats dans Poona et le calcul du classement sont autorisées ; les matchs à la durée ou les systèmes de marque non identifiés dans les règles du jeu ne permettent pas l'intégration des résultats.
+
+Q tps-062 | D: 3 | R: 03.11 2.5 | T: tournois
+Lors d'une rencontre PromoBad, un tableau est ouvert à plusieurs catégories d'âge (des benjamins aux cadets). Un benjamin s'y inscrit. Doit-il fournir un certificat de surclassement ?
++ Non : par dérogation au règlement médical, les tableaux ouverts à plusieurs catégories d'âge n'imposent pas de certificat de surclassement
+- Oui, comme pour toute compétition officielle
+- Oui, sauf s'il a rempli le questionnaire de santé
+- Non, à condition que ses parents soient présents
+> GdB 03.11 art. 2.5 : les organisateurs peuvent ouvrir les tableaux sans les limiter à certaines catégories ; par dérogation au règlement médical, les tableaux ouverts à plusieurs catégories d'âge n'imposent pas de certificat de surclassement.
+
+Q tps-063 | D: 1 | R: 03.11 2.5 | T: tournois
+En rencontre PromoBad, la désignation de têtes de série et la séparation par provenance sont :
+- obligatoires, comme dans tout tournoi
+- obligatoires uniquement pour les tableaux de simple
+- interdites
++ facultatives
+> GdB 03.11 art. 2.5 : la désignation de têtes de série ou la séparation par provenance ne sont pas obligatoires.
+
+Q tps-064 | D: 2 | R: 03.11 2.5 | T: tournois
+Les tableaux d'une rencontre PromoBad doivent-ils être réservés à certaines séries de classement ?
+- Oui, un tableau par série est obligatoire
++ Non : les organisateurs sont invités à rassembler des compétiteurs de niveau comparable, sans nécessairement limiter l'accès à certaines séries ou catégories
+- Oui, uniquement aux joueurs non classés
+- Non, les tableaux doivent obligatoirement mélanger toutes les séries
+> GdB 03.11 art. 2.5 : les organisateurs sont invités à organiser, dans la mesure du possible, des tableaux rassemblant des compétiteurs de niveau de jeu comparable, sans nécessairement en limiter l'accès à certaines séries, catégories ou autres critères.
+
+Q tps-065 | D: 2 | R: 03.11 2.6 | T: tournois
+Un joueur licencié dans une autre fédération sportive française, mais pas à la FFBaD, souhaite participer à une rencontre PromoBad. Est-ce possible ?
+- Non : seuls les licenciés FFBaD sont admis, sans exception
++ Oui, à des fins de promotion, dans les conditions limitatives énoncées par le règlement intérieur
+- Oui, sans aucune condition
+- Oui, s'il présente un certificat médical de moins de six mois
+> GdB 03.11 art. 2.6 : les participants doivent être licenciés à la fédération (annexe 09 du RGC) ; toutefois, les joueurs licenciés dans une autre fédération sportive française peuvent être admis à des fins de promotion, dans les conditions limitatives du règlement intérieur.
+
+Q tps-066 | D: 1 | R: 03.11 2.7 | T: tournois
+Selon le principe retenu pour le classement, à performance égale, un joueur marque en rencontre PromoBad :
+- autant de points qu'en tournoi
++ moins de points que dans un tournoi ou une compétition fédérale
+- plus de points qu'en tournoi, pour encourager la participation
+- aucun point : les rencontres PromoBad ne comptent pas pour le classement
+> GdB 03.11 art. 2.7 : le règlement des classements prend en compte les résultats des rencontres PromoBad en respectant le principe selon lequel, à performance égale, un joueur y marque moins de points que dans un tournoi ou une compétition fédérale.
+
+Q tps-067 | D: 3 | R: 03.11 2.8 | T: tournois
+Une rencontre PromoBad se joue en matchs d'un seul set. L'organisateur prévoit que certains joueurs disputent 10 matchs dans la journée. Qu'en est-il ?
+- C'est possible : la limite de 8 matchs par jour ne vaut que pour les matchs au meilleur des trois sets
+- C'est possible avec l'accord écrit des joueurs
+- C'est possible si le GEO l'accepte
++ C'est interdit : en PromoBad, il n'est pas autorisé de disputer plus de 8 matchs par jour, quel que soit le format des matchs
+> GdB 03.11 art. 2.8 : pour des raisons de sécurité, il n'est pas autorisé de disputer plus de 8 matchs par jour, quel que soit le format des matchs de la rencontre.
+
+Q tps-068 | D: 2 | R: 03.11 2.8 | T: tournois
+Une rencontre PromoBad du samedi se termine à 0 h 30 dans la nuit de samedi à dimanche. Un joueur ayant participé peut-il disputer une compétition le dimanche ?
+- Oui, si elle commence après 10 h
+- Oui, sans restriction
++ Non : lorsqu'une compétition dépasse minuit, il n'est pas autorisé de jouer en compétition ou en tournoi le lendemain
+- Oui, mais uniquement une autre rencontre PromoBad
+> GdB 03.11 art. 2.8 : pour des raisons de sécurité, lorsqu'une compétition dépasse minuit, il n'est pas autorisé de jouer en compétition/tournoi le lendemain. Les rencontres nocturnes relèvent de l'annexe du RGC correspondante.
+
+Q tps-069 | D: 2 | R: 03.11 3.1 | T: tournois
+Une rencontre PromoBad se déroule sans avoir été autorisée. Quelles conséquences sont prévues ? (Cochez les réponses exactes)
++ La rencontre est, de fait, interdite
+- Seuls les organisateurs peuvent être sanctionnés, jamais les joueurs
++ Les licenciés qui y participent sont passibles de sanctions disciplinaires
++ Les organisateurs s'exposent à des sanctions disciplinaires ou à des pénalités sportives
+- Les résultats sont automatiquement pris en compte pour le classement
+> GdB 03.11 art. 3.1 : toute rencontre non autorisée est, de fait, interdite ; ses organisateurs s'exposent à des sanctions disciplinaires ou pénalités sportives et les licenciés qui y participent sont passibles de sanctions disciplinaires (avertissement, suspension…).
+
+Q tps-070 | D: 2 | R: 03.11 3.2 | T: tournois
+Sur quels critères repose l'autorisation d'une rencontre PromoBad ? (Cochez les réponses exactes)
+- La présence d'un juge-arbitre fédéral
++ La conformité du règlement particulier
+- Un nombre minimal de 50 participants
++ L'absence de pénalité sportive ou de sanction disciplinaire contre l'organisateur portant sur l'organisation ou la gestion d'une rencontre
++ Le respect de la réglementation et des modalités de demande d'autorisation
+> GdB 03.11 art. 3.2 : l'autorisation repose sur le respect de la réglementation, le respect des modalités de demande, la conformité du règlement particulier et l'absence de pénalité sportive ou de sanction disciplinaire contre l'organisateur portant sur l'organisation ou la gestion d'une rencontre.
+
+Q tps-071 | D: 1 | R: 03.11 3.3 | T: tournois
+Dans quel délai minimal la demande d'autorisation d'une rencontre PromoBad doit-elle être établie dans Poona par l'organisateur ?
+- 8 jours avant le premier jour de compétition
+- 30 jours avant le premier jour de compétition
++ 15 jours avant le premier jour de compétition
+- 2 mois avant le premier jour de compétition
+> GdB 03.11 art. 3.3 : toute demande d'autorisation doit être établie dans Poona, par l'organisateur, au moins 15 jours avant le premier jour de compétition.
+
+Q tps-072 | D: 2 | R: 03.11 3.3 | T: tournois
+Lors de la demande d'autorisation d'une rencontre PromoBad dans Poona, qui doit valider la demande, et quel est son rôle ?
++ Un GEO 1 promo ou un GEO 2, chargé de superviser la préparation de la compétition et de transmettre les résultats et un rapport sur son déroulement
+- Un juge-arbitre de la ligue, chargé de diriger la compétition
+- Le président du comité, chargé de signer l'homologation
+- Le délégué fédéral, chargé du contrôle des tenues
+> GdB 03.11 art. 3.3 : la demande est accompagnée d'une validation, dans Poona, par un GEO 1 promo ou un GEO 2, chargé de la supervision de la préparation, de la transmission des résultats et d'un rapport sur le déroulement de la compétition.
+
+Q tps-073 | D: 2 | R: 03.11 3.3 | T: tournois
+Une demande complète d'autorisation de rencontre PromoBad est déposée dans Poona. De combien de jours l'instance responsable dispose-t-elle pour la valider ou non ?
+- 2 jours
+- 15 jours
++ 5 jours
+- 20 jours
+> GdB 03.11 art. 3.3 : l'instance responsable de l'autorisation dispose de 5 jours pour valider ou non la demande ; si la demande n'est pas complète, les délais sont prolongés jusqu'à ce qu'elle le soit.
+
+Q tps-074 | D: 3 | R: 03.11 3.3 | T: tournois
+Une demande d'autorisation de rencontre PromoBad a été déposée sans le règlement particulier. Que se passe-t-il ?
+- La demande est validée ; le règlement particulier pourra être fourni le jour de la compétition
+- La rencontre est automatiquement autorisée au bout de 5 jours
++ La demande est incomplète : les délais sont prolongés jusqu'à ce qu'elle soit complète
+- Le GEO rédigera le règlement particulier après la compétition
+> GdB 03.11 art. 3.3 : la demande doit être accompagnée du règlement particulier ; si elle n'est pas complète, les délais sont prolongés jusqu'à ce qu'elle le soit.
+
+Q tps-075 | D: 2 | R: 03.11 3.4 | T: tournois
+Sauf information contraire de l'instance compétente, quand une rencontre PromoBad autorisée et conforme est-elle homologuée ?
+- Dès l'import des résultats dans Poona
+- 5 jours après son déroulement
+- À la fin de la saison
++ 20 jours après son déroulement
+> GdB 03.11 art. 3.4 : sauf information contraire de l'instance compétente pour l'homologation, la rencontre est homologuée 20 jours après son déroulement.
+
+Q tps-076 | D: 2 | R: 03.11 3.4 | T: tournois
+Une rencontre PromoBad s'est tenue sans autorisation préalable, mais s'est parfaitement déroulée. Peut-elle être homologuée ?
++ Non : seules les rencontres autorisées peuvent être homologuées
+- Oui, si le rapport du GEO est favorable
+- Oui, avec un coefficient réduit
+- Oui, si l'organisateur paie une amende
+> GdB 03.11 art. 3.4 et 3.1 : seules les rencontres autorisées peuvent être par la suite homologuées ; une rencontre non autorisée est, de fait, interdite.
+
+Q tps-077 | D: 1 | R: 03.11 3.5 | T: tournois
+Après une rencontre PromoBad, dans quels délais l'organisateur doit-il transmettre les résultats et le rapport ?
+- Résultats et rapport le soir même
+- Résultats dans les 15 jours, rapport dans les 20 jours
+- Résultats dans les 5 jours, rapport dans les 3 jours
++ Résultats importés dans Poona dans les 3 jours, rapport fourni dans les 5 jours
+> GdB 03.11 art. 3.5 : les résultats doivent être importés dans Poona par l'organisateur dans un délai de trois jours suivant la rencontre ; le rapport sur la compétition doit être fourni dans le délai de cinq jours.
+
+Q tps-078 | D: 3 | R: 03.11 3.6 | T: tournois
+Une rencontre PromoBad autorisée n'a pas respecté certaines dispositions du règlement. Que peut décider l'instance compétente ? (Cochez les réponses exactes)
++ Prononcer la non-homologation de la rencontre
+- Retirer leur licence aux joueurs participants
++ Assortir la non-homologation d'autres pénalités sportives, comme une interdiction d'organisation pour une durée donnée
++ Valider néanmoins les résultats, qui sont alors pris en compte pour le classement des joueurs
+> GdB 03.11 art. 3.6 : l'instance compétente peut prononcer la non-homologation, éventuellement assortie d'autres pénalités sportives (interdiction d'organisation pour une durée donnée…) ; elle peut néanmoins valider les résultats, alors pris en compte pour le classement.
+
+Q tps-079 | D: 1 | R: 03.11 3.6 | T: tournois
+Que sont devenus les « Tournois flash jeunes » ?
+- Ils restent régis par un règlement spécifique
++ Leurs règlements sont abrogés : ces compétitions doivent désormais respecter le règlement des rencontres PromoBad
+- Ils sont devenus des compétitions non officielles
+- Ils ont été intégrés au circuit élite jeunes
+> GdB 03.11 art. 3.6 : les règlements concernant les « Tournois flash jeunes » sont abrogés ; les compétitions de cette catégorie doivent désormais respecter le règlement des rencontres PromoBad.
+
+Q tps-080 | D: 1 | R: 02.01 4 | T: sante
+Au regard du règlement médical, qu'implique toute prise de licence à la FFBaD ?
+- Un examen médical annuel obligatoire
++ L'acceptation de l'intégralité du règlement médical fédéral
+- La production d'un certificat médical à chaque compétition
+- La souscription d'une assurance santé complémentaire
+> GdB 02.01 §4 : toute prise de licence à la fédération implique l'acceptation de l'intégralité du règlement médical fédéral.
+
+Q tps-081 | D: 2 | R: 02.01 4.1.3 | T: sante
+Quelles caractéristiques doit présenter le questionnaire de santé du joueur ? (Cochez les réponses exactes)
++ Il est individuel et nominatif
+- Il doit être visé par un médecin
++ Il doit être daté et signé
+- Il doit être renouvelé avant chaque compétition
++ Le joueur doit répondre à toutes les questions
+> GdB 02.01 art. 4.1.3 : le questionnaire de santé est individuel et nominatif ; le joueur (et les personnes exerçant l'autorité parentale s'il est mineur) doit répondre à toutes les questions ; il doit être daté et signé. Il est valable pour toute la durée de validité de la licence.
+
+Q tps-082 | D: 2 | R: 02.01 4.1.3 | T: sante
+Un joueur majeur a répondu « non » à toutes les questions du questionnaire de santé. Que fait-il du questionnaire ?
++ Il conserve le questionnaire et atteste avoir répondu par la négative à chacune des questions
+- Il le remet au juge-arbitre à chaque compétition
+- Il l'envoie au médecin fédéral régional
+- Il le fait contresigner par son médecin traitant
+> GdB 02.01 art. 4.1.3 : en cas de réponse négative à toutes les questions, le licencié (et son représentant légal pour les mineurs) conserve le questionnaire et atteste avoir répondu par la négative à chacune des questions ; l'attestation est remise au club avec la demande de licence.
+
+Q tps-083 | D: 2 | R: 02.01 4.1.3 | T: sante
+Où sont conservés l'attestation relative au questionnaire de santé ou, le cas échéant, le certificat médical remis avec la demande de licence ?
+- Au siège de la ligue, sous la responsabilité du médecin fédéral régional
++ Au siège du club ayant délivré la licence, sous la responsabilité de son président
+- À la fédération, dans la base Poona
+- Chez le joueur, qui les présente au juge-arbitre à chaque compétition
+> GdB 02.01 art. 4.1.3 et 4.2.1 : l'attestation, comme le certificat médical, est conservée au siège du club ayant délivré la licence, sous la responsabilité de son président.
+
+Q tps-084 | D: 2 | R: 02.01 4.1.3 | T: sante
+Un joueur a rempli et attesté son questionnaire de santé en septembre, lors du renouvellement de sa licence. Doit-il le refaire avant chaque tournoi de la saison ?
+- Oui, avant chaque compétition
+- Oui, tous les trois mois
+- Non, il reste valable trois saisons consécutives
++ Non : le questionnaire de santé est valable pour toute la durée de validité de la licence
+> GdB 02.01 art. 4.1.3 : le questionnaire de santé est valable pour toute la durée de validité de la licence.
+
+Q tps-085 | D: 2 | R: 02.01 4.1.2 | T: sante
+Pour un joueur mineur, qui renseigne le questionnaire de santé et qui atteste des réponses négatives auprès de la fédération ?
++ Le sportif et les personnes exerçant l'autorité parentale le renseignent conjointement ; ces dernières attestent que chaque rubrique a donné lieu à une réponse négative
+- Le médecin de famille, seul
+- Le président du club, après un entretien avec le joueur
+- Le joueur seul, dès l'âge de 12 ans
+> GdB 02.01 art. 4.1.2 : le sportif mineur et les personnes exerçant l'autorité parentale renseignent conjointement le questionnaire ; ces dernières attestent que chacune des rubriques donne lieu à une réponse négative. À défaut, un certificat de moins de six mois est exigé.
+
+Q tps-086 | D: 3 | R: 02.01 4.2.1 | T: sante
+En octobre, lors de sa demande de licence, un joueur répond « oui » à une question du questionnaire de santé. Il présente un certificat médical de non contre-indication daté du mois de mars précédent. Est-il recevable ?
+- Oui : un certificat est valable un an
+- Oui, s'il a été établi par un médecin du sport
+- Non : le certificat doit dater de moins d'un mois
++ Non : le certificat doit dater de moins de six mois avant la date de la demande de licence
+> GdB 02.01 art. 4.2.1 : le certificat médical, exigé en cas de réponse positive au questionnaire, doit dater de moins de six mois avant la date de la demande ou du renouvellement de la licence. Un certificat de mars (7 mois) ne convient pas.
+
+Q tps-087 | D: 2 | R: 02.01 4.2.1 | T: sante
+Quelles affirmations sur le certificat médical de non contre-indication fourni avec une demande de licence sont exactes ? (Cochez les réponses exactes)
+- Il doit être présenté au juge-arbitre lors de chaque compétition
++ Il est valable pour toute la durée de validité de la licence
+- Il doit obligatoirement être établi par le médecin fédéral régional
++ Il doit être individuel et nominatif
+> GdB 02.01 art. 4.2.1 et 4.2.2 : le certificat est valable pour toute la durée de validité de la licence et conservé au siège du club ; il doit être individuel et nominatif (formulaire officiel fortement recommandé).
+
+Q tps-088 | D: 2 | R: 02.01 4.2.2 | T: sante
+Un joueur fournit un certificat médical de non contre-indication rédigé par son médecin sur papier libre. Que doit-il faire en plus ?
+- Rien de plus, le papier libre suffit
++ Signer la partie « Engagement du joueur » du modèle officiel de certificat
+- Le faire viser par le médecin fédéral régional
+- Le faire valider par le juge-arbitre de sa prochaine compétition
+> GdB 02.01 art. 4.2.2 : l'utilisation du formulaire officiel est fortement recommandée ; si le certificat est établi sur papier libre, le joueur doit tout de même signer la partie « Engagement du joueur » du modèle officiel.
+
+Q tps-089 | D: 1 | R: 02.01 4.3 | T: sante
+Qui peut établir un certificat d'inaptitude temporaire à la pratique du badminton en compétition ?
+- Uniquement le médecin fédéral national
++ Tout médecin titulaire du doctorat, inscrit à l'Ordre des médecins, pour une personne examinée lui paraissant en mauvaise condition physique
+- Uniquement le médecin de surveillance de la compétition
+- Le juge-arbitre, après avis d'un kinésithérapeute
+> GdB 02.01 art. 4.3 : tout médecin, titulaire du doctorat d'État, inscrit à l'Ordre des médecins, peut établir un certificat d'inaptitude temporaire à la pratique en compétition à tout sujet examiné lui paraissant en mauvaise condition physique.
+
+Q tps-090 | D: 2 | R: 02.01 4.4 | T: sante
+Un licencié se soustrait à la vérification de sa situation au regard des obligations du contrôle médico-sportif. Quelle en est la conséquence ?
+- Une simple amende
+- Une radiation définitive
++ Il est considéré comme contrevenant aux règlements fédéraux et suspendu jusqu'à régularisation de sa situation
+- Aucune, ces obligations sont facultatives
+> GdB 02.01 art. 4.4 : tout licencié qui se soustrait à la vérification de sa situation au regard des obligations du contrôle médico-sportif est considéré comme contrevenant aux règlements fédéraux et est suspendu jusqu'à régularisation.
+
+Q tps-091 | D: 2 | R: 02.01 6 | T: sante
+Selon le règlement médical, à qui appartient-il de prévoir la surveillance médicale d'une compétition ?
++ À l'organisateur, avec des moyens humains et matériels adaptés à l'importance de la manifestation
+- Au juge-arbitre
+- À la commission médicale nationale
+- Au médecin fédéral régional
+> GdB 02.01 §6 : les moyens à mettre en œuvre doivent être adaptés à l'importance de la manifestation ; il appartient dans tous les cas à l'organisateur de toute compétition de prévoir la surveillance médicale.
+
+Q tps-092 | D: 2 | R: 02.01 6 | T: sante
+L'organisateur d'un tournoi prévoit la présence d'un médecin pour assurer la surveillance de la compétition. Que prévoit le règlement médical ?
+- Aucune formalité : sa présence est toujours bénévole
+- Le médecin doit être licencié dans le club organisateur
++ Un contrat de travail doit être établi pour la surveillance de la compétition
+- Le médecin doit être désigné juge-arbitre adjoint
+> GdB 02.01 §6 et art. 3.5.7 : si la présence d'un médecin est prévue, il convient d'établir un contrat de travail pour la surveillance de la compétition ; ce médecin peut être rémunéré et bénéficie d'une assurance en responsabilité civile professionnelle.
+
+Q tps-093 | D: 2 | R: 02.01 3.5.7 | T: sante
+Après son intervention, à qui le médecin assurant la surveillance d'une compétition remet-il un rapport d'activité, et dans quel but ?
+- Au juge-arbitre, pour le seul rapport de compétition
+- À l'organisateur, pour le calcul de ses honoraires
+- À l'Agence française de lutte contre le dopage
++ À la commission médicale nationale, pour tenir à jour le registre de morbidité (et/ou de mortalité) de la fédération
+> GdB 02.01 art. 3.5.7 : le médecin de surveillance de compétition remet, post intervention, un rapport d'activité à la CMN afin de permettre de tenir à jour le registre de morbidité (et/ou de mortalité) de la fédération.
+
+Q tps-094 | D: 3 | R: 02.01 3.5.8 | T: sante | L: JALC JAFA JAFC
+Lors d'un déplacement d'un collectif national, un joueur se blesse gravement ; aucun médecin n'est présent, seul le kinésithérapeute de l'équipe est là. Que permet la réglementation rappelée par le règlement médical ?
++ En cas d'urgence et en l'absence d'un médecin, le kinésithérapeute peut accomplir les gestes de secours nécessaires jusqu'à l'intervention d'un médecin, à qui il remet un compte rendu
+- Le kinésithérapeute ne peut rien faire sans ordonnance médicale
+- Le kinésithérapeute peut délivrer un certificat de contre-indication définitive
+- Le kinésithérapeute doit attendre l'accord du juge-arbitre avant tout geste
+> GdB 02.01 art. 3.5.8 : en cas d'urgence et en l'absence d'un médecin, le masseur-kinésithérapeute est habilité à accomplir les gestes de secours nécessaires jusqu'à l'intervention d'un médecin ; un compte rendu des actes accomplis est remis au médecin dès son intervention.
+
+Q tps-095 | D: 2 | R: 02.01 7.1.2 | T: sante
+Lors d'un tournoi autorisé par la FFBaD, un joueur étranger non licencié à la FFBaD est désigné pour un contrôle antidopage. Doit-il s'y soumettre ?
+- Non : seuls les licenciés FFBaD sont concernés
+- Non, sauf accord de sa fédération nationale
++ Oui : les joueurs étrangers participant à des compétitions autorisées par la FFBaD sont tenus de se soumettre aux contrôles et aux prélèvements
+- Oui, uniquement s'il est classé au niveau national
+> GdB 02.01 art. 7.1.2 : les joueurs licenciés à la FFBaD, ainsi que les joueurs étrangers participant à des compétitions autorisées par la FFBaD, sont tenus de se soumettre aux contrôles et aux prélèvements correspondants.
+
+Q tps-096 | D: 1 | R: 02.01 7.1.1 | T: sante
+Quand des contrôles antidopage peuvent-ils être organisés par les instances habilitées ?
+- Uniquement lors des championnats de France
+- Uniquement lors des compétitions internationales
+- Uniquement à la demande du juge-arbitre
++ À l'occasion des compétitions ou lors des périodes d'entraînement
+> GdB 02.01 art. 7.1.1 : des contrôles peuvent être organisés par les instances habilitées, à l'occasion des compétitions ou lors des périodes d'entraînement.
+
+Q tps-097 | D: 3 | R: 02.01 7.1.1 | T: sante
+Selon le règlement médical et le règlement fédéral relatif au dopage, quelles affirmations sont exactes ? (Cochez les réponses exactes)
++ La FFBaD met en œuvre la lutte contre le dopage dans le respect des textes de l'Agence mondiale antidopage et de la fédération internationale
+- Le règlement fédéral de lutte contre le dopage fixe seul les procédures applicables
++ Les modalités de la lutte contre le dopage sont précisées par les règles de l'Agence française de lutte contre le dopage
+- Les modalités de contrôle sont fixées par le règlement particulier de chaque compétition
+> GdB 02.01 art. 7.1.1 et 7.1.3 : la FFBaD met en œuvre la lutte contre le dopage dans le respect de la réglementation en vigueur et des textes de l'AMA et de la fédération internationale ; les modalités sont précisées par les règles de l'AFLD. Le règlement fédéral antidopage a été abrogé (GdB 07.03).
+
+Q tps-098 | D: 1 | R: 07.03 | T: sante
+Quels textes régissent aujourd'hui la lutte contre le dopage pour les licenciés de la FFBaD ?
+- Le règlement fédéral de lutte contre le dopage, toujours en vigueur
+- Le règlement particulier de chaque compétition
+- Le code de conduite des joueurs uniquement
++ Les dispositions du Code du sport transposant les principes du code mondial antidopage, le règlement fédéral ayant été abrogé
+> GdB 07.03 : le règlement fédéral de lutte contre le dopage a été abrogé par de nouvelles dispositions du Code du sport (ordonnance du 19 décembre 2018 et décret du 12 avril 2019) transposant les principes du code mondial antidopage.
+
+Q tps-099 | D: 2 | R: 02.01 9 | T: sante
+Le règlement médical comporte en annexe un formulaire « Contrôle antidopage – autorisation de prélèvement ». Pour quels sportifs est-il prévu ?
++ Pour les mineurs ou les majeurs protégés
+- Pour tous les sportifs de haut niveau
+- Pour les joueurs étrangers
+- Pour les sportifs ayant refusé un premier contrôle
+> GdB 02.01 §9 : le formulaire 2 « Contrôle anti-dopage – autorisation de prélèvement » concerne les mineurs ou majeurs protégés. Tous les participants, y compris les mineurs, sont tenus de se soumettre aux contrôles (RGC 2.4).
+
+Q tps-100 | D: 2 | R: 02.01 3.1 | T: sante
+Parmi ces sujets, lesquels relèvent des avis et propositions de la commission médicale nationale (CMN) ? (Cochez les réponses exactes)
++ Les critères de surclassement
+- La désignation des juges-arbitres des championnats de France
+- L'homologation des tournois
++ Les contre-indications médicales liées à la pratique de la discipline
+> GdB 02.01 art. 3.1 : la CMN émet des avis et propositions notamment sur la surveillance médicale des sportifs, la lutte et la prévention du dopage, les contre-indications médicales liées à la pratique de la discipline et les critères de surclassement.
+
+Q tps-101 | D: 2 | R: 02.01 3.5 | T: sante
+Les élus fédéraux, le DTN ou l'encadrement technique d'une équipe peuvent-ils imposer une décision médicale à un médecin de l'équipe ?
+- Oui : le DTN a autorité sur les décisions médicales
+- Oui, si le joueur est d'accord
++ Non : ils doivent respecter l'indépendance professionnelle des professionnels de santé vis-à-vis des décisions médicales et ne peuvent exercer sur eux aucune contrainte
+- Oui, en compétition internationale uniquement
+> GdB 02.01 art. 3.5 : les élus fédéraux, le DTN et les membres de l'encadrement technique de chaque équipe doivent respecter l'indépendance professionnelle des professionnels de santé vis-à-vis des décisions « médicales » et ne peuvent exercer sur eux aucune contrainte.
+
+Q tps-102 | D: 3 | R: 02.01 3.5.3 | T: sante | L: JALC JAFA JAFC
+Au vu des résultats de la surveillance médicale réglementaire, le médecin coordonnateur du suivi médical établit un certificat de contre-indication pour un sportif de haut niveau. Quelle en est la conséquence ?
+- Le sportif peut poursuivre les compétitions nationales ; seules ses sélections en équipe de France sont suspendues
++ Le certificat est transmis au président de la fédération, qui suspend la participation du sportif aux compétitions organisées ou autorisées par la fédération jusqu'à la levée de la contre-indication
+- Le juge-arbitre de la prochaine compétition décide si le joueur peut jouer
+- Le sportif est radié de la fédération
+> GdB 02.01 art. 3.5.3 et 5.3 : le certificat de contre-indication établi par le médecin coordonnateur est transmis au président de la fédération, qui suspend la participation de l'intéressé aux compétitions organisées ou autorisées par la fédération jusqu'à la levée par le médecin de la contre-indication.
+
+Q tps-103 | D: 2 | R: 02.01 3.5.3 | T: sante | L: JAFA JAFC
+Quelles affirmations concernant le médecin coordonnateur du suivi médical sont exactes ? (Cochez les réponses exactes)
++ Il exerce une activité d'expertise ou d'évaluation, mais pas de soins
+- Il peut être l'un des médecins des équipes nationales
++ Il est membre de droit de la commission médicale nationale
+- Il est élu par l'assemblée générale fédérale
+> GdB 02.01 art. 3.5.3 : il exerce une activité médico-administrative d'expertise ou d'évaluation mais pas de soins ; la fonction peut être assurée par le MFN ou tout autre médecin, excepté les médecins des équipes nationales ; il est désigné par l'instance dirigeante et est membre de droit de la CMN.
+
+Q tps-104 | D: 1 | R: 02.01 3.2 | T: sante | L: JAFA JAFC
+Qui est le responsable de la commission médicale nationale (CMN) ?
+- Le président de la fédération
+- Le directeur technique national
++ Le médecin fédéral national
+- Le médecin des équipes de France
+> GdB 02.01 art. 3.2 : le responsable de la CMN est le médecin fédéral national ; les membres de la CMN sont nommés par le comité exécutif sur sa proposition.
+
+Q tps-105 | D: 2 | R: 02.01 3.5.2 | T: sante | L: JAFA JAFC
+Qui désigne le médecin fédéral national (MFN), et pour quelle durée ?
++ Le président de la fédération, pour une période de quatre ans renouvelable
+- L'assemblée générale, pour deux ans
+- Le comité exécutif, pour une saison
+- Le ministère chargé des sports, pour huit ans
+> GdB 02.01 art. 3.5.2 : le MFN est désigné par le président de la fédération ; il doit être docteur en médecine, inscrit à l'Ordre, licencié à la fédération, et il est nommé pour une période de quatre ans renouvelable.
+
+Q tps-106 | D: 2 | R: 02.01 3.5.6 | T: sante | L: JALC JAFA JAFC
+Concernant le médecin fédéral régional (MFR), quelles affirmations sont exactes ? (Cochez les réponses exactes)
+- Il est obligatoirement le médecin élu au conseil d'administration de la ligue
++ Il est désigné par le président de la ligue après avis du MFN ou de la CMN
+- Il est rémunéré par la fédération pour ses missions
++ Il préside la commission médicale régionale
+> GdB 02.01 art. 3.5.6 : le MFR est désigné par le président de la ligue après avis du MFN ou de la CMN ; il peut s'agir du médecin élu au conseil d'administration régional, mais ces fonctions peuvent être distinctes ; élu fédéral, il assure bénévolement son mandat et préside la commission médicale régionale.
+
+Q tps-107 | D: 2 | R: 02.01 5.3 | T: sante | L: JAFA JAFC
+Un sportif inscrit dans une filière d'accès au haut niveau ne se soumet pas à l'ensemble des examens de surveillance médicale prévus. Qui en est informé, et quelle mesure peut être prise ?
++ Le DTN, qui peut suspendre sa convocation aux regroupements, stages et compétitions des équipes de France jusqu'à régularisation
+- Le juge-arbitre, qui doit refuser son inscription en tournoi
+- Son club, qui doit lui retirer sa licence
+- Personne : ces examens sont facultatifs
+> GdB 02.01 art. 5.3 : le DTN est informé lorsqu'un sportif ne se soumet pas à l'ensemble des examens prévus, afin qu'il puisse suspendre sa convocation aux regroupements, stages et compétitions des équipes de France jusqu'à la régularisation de sa situation.
+
+Q tps-108 | D: 1 | R: 02.01 5 | T: sante | L: JAFA JAFC
+Quel est le but de la surveillance médicale particulière des sportifs de haut niveau et des sportifs inscrits dans les filières d'accès au haut niveau ?
+- Détecter les jeunes talents
++ Prévenir les risques sanitaires inhérents à la pratique sportive intensive
+- Contrôler le respect du code de conduite
+- Établir le classement des joueurs
+> GdB 02.01 §5 : selon l'article R. 231-3 du Code du sport, cette surveillance médicale particulière a pour but de prévenir les risques sanitaires inhérents à la pratique sportive intensive.
+
+Q tps-109 | D: 1 | R: 02.01 3.5.1 | T: sante | L: JAFA JAFC
+Un médecin doit-il siéger au comité exécutif de la fédération ?
+- Non, sa présence est facultative
++ Oui : conformément aux statuts, un médecin doit être élu au sein du comité exécutif ; il exerce son mandat bénévolement
+- Oui, il est nommé par le ministère chargé des sports
+- Non : seuls les ligues et comités doivent en compter un
+> GdB 02.01 art. 3.5.1 : un médecin doit être élu au sein du comité exécutif de la fédération ; il est membre de droit de la CMN et exerce bénévolement son mandat. Pour les ligues et comités, la présence d'un médecin est laissée à leur initiative.
+
+Q tps-110 | D: 1 | R: 02.01 1 | T: sante | L: JAFA JAFC
+Comment le règlement médical fédéral est-il établi ?
++ Il est préparé par la commission médicale, adopté par le comité exécutif et approuvé par le ministère chargé des sports
+- Il est rédigé par le DTN et voté par l'assemblée générale
+- Il est imposé par l'Agence française de lutte contre le dopage
+- Il est adopté séparément par chaque ligue
+> GdB 02.01 §1 et §8 : le règlement médical est préparé par la commission médicale, adopté par le comité exécutif et approuvé par le ministère chargé des sports ; toute modification lui est transmise dans les plus brefs délais.
+
+Q tps-111 | D: 2 | R: 02.01 3.5.2 | T: sante | L: JAFA JAFC
+Qui est le garant, pour tout le personnel médical, paramédical et auxiliaire de la fédération, du respect du secret médical concernant les sportifs ?
+- Le directeur technique national
+- Le président de la fédération
+- Le médecin des équipes de France
++ Le médecin fédéral national
+> GdB 02.01 art. 3.5.2 : le MFN est le garant, pour tout le personnel médical, paramédical et auxiliaire, du respect du secret médical concernant les sportifs au sein de la fédération.
+
+Q tps-112 | D: 3 | R: 02.01 3.5.5 | T: sante | L: JAFA JAFC
+Lors d'un stage de l'équipe de France, le médecin d'équipe estime qu'un joueur doit cesser temporairement de s'entraîner. Peut-il en décider ?
+- Non : seul le DTN peut arrêter un joueur
+- Non : seul le médecin fédéral national peut le décider
++ Oui : les médecins d'équipes apportent les soins nécessaires et peuvent prononcer un arrêt temporaire de la pratique sportive s'ils le jugent nécessaire
+- Oui, mais uniquement avec l'accord écrit du joueur
+> GdB 02.01 art. 3.5.5 : les médecins d'équipes assurent la prise en charge sanitaire des sportifs qu'ils accompagnent ; ils apportent les soins qui s'imposent et peuvent prononcer un arrêt temporaire à la pratique sportive s'ils le jugent nécessaire.
