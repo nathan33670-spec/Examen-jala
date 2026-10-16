@@ -1,0 +1,1026 @@
+# Instructions aux officiels techniques, parties 1 à 4 (introduction, officiels, instructions aux juges-arbitres, conseils généraux) : situations du point de vue du juge-arbitre.
+@theme instructions
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+
+Q ija-001 | D: 1 | R: REGLES Instr. 1.3
+Selon l'introduction des instructions aux officiels techniques, quel principe tous les officiels techniques doivent-ils toujours garder à l'esprit ?
+- L'officiel a toujours le dernier mot, quelle que soit la situation
+- Le respect de l'horaire prime sur toute autre considération
++ Le jeu est pour les joueurs
+- Le spectacle offert au public prime sur l'équité
+> Instruction 1.3 : tous les officiels techniques doivent se souvenir que le jeu est pour les joueurs.
+
+Q ija-002 | D: 1 | R: REGLES Instr. 1.2
+Selon les instructions, de quelle manière les officiels techniques doivent-ils contrôler un tournoi et un match ?
+- Par une application littérale de chaque règle, sans tenir compte des circonstances
++ De manière ferme, avec équité et bon sens, sans être officieux
+- Avec souplesse, en laissant les joueurs régler les litiges entre eux
+- En privilégiant avant tout le respect de l'horaire
+> Instruction 1.2 : le but des instructions est d'informer les officiels techniques sur la manière de contrôler un tournoi et un match de manière ferme, avec équité et bon sens, sans être officieux, tout en veillant au respect des règles et des statuts du badminton.
+
+Q ija-003 | D: 1 | R: REGLES Instr. 1.1
+Dans quel but les instructions aux officiels techniques sont-elles édictées par la BWF ?
++ Pour standardiser le contrôle du badminton au niveau mondial
+- Pour remplacer les règlements sportifs de chaque fédération nationale
+- Pour fixer les indemnités des officiels techniques
+- Pour définir le classement des joueurs
+> Instruction 1.1 : les instructions aux officiels techniques sont édictées par la BWF dans un souci de standardiser le contrôle mondial du badminton conformément à ses statuts.
+
+Q ija-004 | D: 2 | R: REGLES Instr. 1.5
+Lors d'un tournoi de Para-badminton, comment s'appliquent les instructions aux officiels techniques ?
+- Elles ne s'appliquent pas : seul le règlement de Para-badminton compte
+- Elles s'appliquent intégralement, sans aucune adaptation possible
++ Elles s'appliquent de manière générale, mais les clauses spécifiques des instructions de Para-badminton, lorsqu'elles sont acceptées, les remplacent
+- Le juge-arbitre choisit librement les clauses qu'il souhaite appliquer
+> Instruction 1.5 : les instructions s'appliquent généralement au Para-badminton ; toutefois, lorsque les instructions aux officiels techniques de Para-badminton sont acceptées, leurs clauses spécifiques remplacent ces instructions dans les tournois de Para-badminton.
+
+Q ija-005 | D: 1 | R: REGLES Instr. 2.2
+Lors d'un tournoi avec arbitres, qui désigne l'arbitre d'un match et sous l'autorité de qui agit-il ?
+- Le comité d'organisation, sous l'autorité du club organisateur
++ Le juge-arbitre, à qui l'arbitre rend compte et sous l'autorité duquel il agit
+- La table de marque, sous l'autorité du GEO
+- La ligue, sous l'autorité de sa commission des officiels techniques
+> Instruction 2.2 (règle 17.2) : un arbitre est désigné pour un match par le juge-arbitre ; il doit lui rendre compte et agir sous son autorité.
+
+Q ija-006 | D: 2 | R: REGLES Instr. 2.3 | L: JALC JAFA JAFC
+En cours de match, il apparaît qu'un juge de service doit être remplacé. Comment ce remplacement peut-il être décidé ?
+- Il est impossible : la composition des officiels est figée une fois le match commencé
+- Il est de droit dès qu'un joueur le demande
++ Le juge-arbitre ou l'arbitre peut le remplacer, en consultation mutuelle
+- Seul le comité d'organisation peut décider d'un remplacement
+> Instruction 2.3 (règle 17.6.4) : le juge de service et les juges de ligne sont normalement désignés par le juge-arbitre et peuvent être remplacés par le juge-arbitre ou l'arbitre en consultation mutuelle.
+
+Q ija-007 | D: 2 | R: REGLES Instr. 2.4 | L: JALC JAFA JAFC
+Le juge de service annonce une faute de service. Le joueur sanctionné, persuadé que son service était correct, demande que le juge-arbitre soit appelé pour faire annuler la faute. Que se passe-t-il ?
+- Le juge-arbitre visionne une vidéo et tranche
+- Le juge-arbitre annule la faute si l'adversaire est d'accord
++ La décision du juge de service est définitive sur ce point de fait dont il est responsable : elle n'est pas annulée
+- L'échange est rejoué par un let
+> Instruction 2.4 (règle 17.5) : la décision d'un officiel est définitive sur tous les points de fait de jeu dont cet officiel est responsable ; les seules exceptions concernent la correction d'un juge de ligne par l'arbitre et l'utilisation du SRI.
+
+Q ija-008 | D: 2 | R: REGLES Instr. 2.4.2 | L: JAFA JAFC
+Lors d'un match où un Système de Révision Instantanée (SRI) est en service, un joueur fait un challenge sur une annonce de ligne. Sur quelle base la décision est-elle prise ?
+- L'arbitre décide seul, le SRI n'étant qu'indicatif
+- L'annonce du juge de ligne reste définitive
++ Le SRI est utilisé pour décider, quelle que soit la ligne ayant fait l'objet du challenge
+- Le juge-arbitre est systématiquement appelé pour trancher
+> Instruction 2.4.2 (règle 17.5.2) : lorsqu'un SRI est en service, il doit être utilisé pour décider quelle que soit la ligne ayant fait l'objet d'un challenge.
+
+Q ija-009 | D: 3 | R: REGLES Instr. 2.5 | L: JAFA JAFC
+Sur un terrain où un SRI est en service, le juge de ligne a été masqué et l'arbitre n'a pas pu voir l'impact du volant. Que se passe-t-il ?
+- L'arbitre annonce obligatoirement un let
+- Le point est accordé au dernier frappeur
++ Le SRI est utilisé pour annoncer la décision de la ligne
+- Le juge-arbitre décide après avoir interrogé les joueurs
+> Instruction 2.5 : lorsqu'un officiel n'a pas pu prendre de décision, l'arbitre décide ; si aucune décision ne peut être prise, un let est annoncé, sauf si le SRI est en service, auquel cas il est utilisé pour annoncer la décision de la ligne (Annexe 6, article 1.2).
+
+Q ija-010 | D: 1 | R: REGLES Instr. 2.6
+De quoi l'arbitre d'un match est-il responsable, selon les instructions ?
+- De l'ensemble du tournoi
++ Du terrain et de ses environs immédiats
+- De toute la salle, y compris les tribunes
+- Uniquement des lignes du terrain
+> Instruction 2.6 (règle 17.2) : l'arbitre est responsable du terrain et de ses environs immédiats ; le juge-arbitre a la charge globale du tournoi (instruction 3.1.1).
+
+Q ija-011 | D: 2 | R: REGLES Instr. 3.1.1
+Avant de prendre une décision importante liée au règlement particulier d'une compétition, qui le juge-arbitre doit-il consulter ?
+- Les joueurs concernés, qui votent
++ L'institution sportive ou l'instance organisatrice, ainsi que le comité d'organisation
+- Personne : le juge-arbitre décide toujours seul
+- Uniquement l'arbitre du match en cours
+> Instruction 3.1.1 : le juge-arbitre a la charge globale du tournoi ; il consulte les institutions sportives (fédération, ligue, comité, club) ou l'instance organisatrice, en particulier pour les questions liées au règlement particulier, ainsi que le comité d'organisation, avant de prendre des décisions importantes.
+
+Q ija-012 | D: 2 | R: REGLES Instr. 3.1.3
+Selon les instructions, à qui s'adressent les briefings réguliers organisés par le juge-arbitre pendant le tournoi ? Cochez les réponses exactes.
++ Aux officiels techniques
+- Aux spectateurs
++ Aux autres intervenants, comme les responsables d'équipe et les organisateurs
+- Aux journalistes accrédités
+> Instruction 3.1.3 : le juge-arbitre tient des briefings réguliers pour s'assurer que tous les officiels techniques et autres intervenants (responsables d'équipe, organisateurs, etc.) connaissent leurs responsabilités et les décisions pertinentes prises ; si nécessaire, il prépare et distribue un document ou un mémo.
+
+Q ija-013 | D: 2 | R: REGLES Instr. 3.1.5
+Pendant un tournoi de plusieurs jours, de quoi le juge-arbitre doit-il tenir informée l'institution sportive responsable, au fil de la compétition ?
+- De rien : tout figure dans le rapport final
+- Uniquement des cartons rouges
++ Des résultats quotidiens du tournoi
+- Uniquement des réclamations écrites
+> Instruction 3.1.5 : le juge-arbitre tient informée l'institution sportive responsable des résultats quotidiens ; tout incident majeur est signalé le plus tôt possible ; après le tournoi, un rapport complet sur le modèle standard est remis dans le délai imparti.
+
+Q ija-014 | D: 1 | R: REGLES Instr. 3.2.1
+Un juge-arbitre vient d'accepter une affectation sur un tournoi. Quelle démarche les instructions attendent-elles de lui en premier lieu ?
++ Contacter le directeur du tournoi et les autres intervenants clés pour se présenter et engager une relation de travail
+- Attendre d'être contacté par l'organisateur la semaine du tournoi
+- Contacter directement les joueurs inscrits
+- Réaliser lui-même le tirage au sort
+> Instruction 3.2.1 : après avoir accepté une affectation, le juge-arbitre contacte le directeur du tournoi et les autres intervenants clés (adjoints, JA local, délégués) pour se présenter, entamer un dialogue et convenir des canaux de communication et des responsabilités.
+
+Q ija-015 | D: 2 | R: REGLES Instr. 3.2.2
+Avant le tournoi, le juge-arbitre doit connaître le calendrier des activités préalables et veiller à ce qu'elles soient achevées à temps. Lesquelles sont citées par les instructions ? Cochez les réponses exactes.
++ La publication du règlement particulier
+- La remise des récompenses
++ La liste des joueurs inscrits et des remplaçants
++ Le déroulement du tirage
+> Instruction 3.2.2 : le juge-arbitre doit connaître le calendrier des activités avant le tournoi (publication du règlement particulier, liste des joueurs inscrits et remplaçants, déroulement du tirage) et assurer la liaison avec la fédération ou la ligue pour qu'elles soient achevées à temps.
+
+Q ija-016 | D: 2 | R: REGLES Instr. 3.2.3
+Le président du club organisateur demande au juge-arbitre de lui transmettre le rapport du juge-arbitre de l'édition précédente pour le diffuser à ses bénévoles. Que prévoient les instructions ?
+- Le juge-arbitre peut le transmettre, puisqu'il concerne le même tournoi
+- Le juge-arbitre doit le publier pour que chacun en tire les leçons
++ Le rapport est considéré comme confidentiel et ne doit pas être transmis en dehors de l'équipe des juges-arbitres
+- Le juge-arbitre peut le transmettre à condition d'en retirer les noms
+> Instruction 3.2.3 : le juge-arbitre se familiarise avec les problèmes majeurs du rapport de l'édition précédente ; ce rapport, dans son ensemble, est considéré comme confidentiel et n'est pas transmis à du personnel extérieur à l'équipe de juges-arbitres. L'organisateur peut, lui, le demander à l'instance ayant autorisé la compétition (RGC 2.8.1).
+
+Q ija-017 | D: 2 | R: REGLES Instr. 3.2.4.2
+En approuvant le règlement particulier, le juge-arbitre vérifie que le programme provisoire est réaliste et équitable pour les joueurs. Quels éléments de ce programme sont cités par les instructions ? Cochez les réponses exactes.
++ Les horaires de jeu
+- Le nom des arbitres désignés pour chaque match
++ Le nombre de tours par jour
+- Le palmarès des éditions précédentes
++ Le nombre de terrains
+> Instruction 3.2.4.2 : le juge-arbitre s'assure que le programme provisoire du règlement particulier (horaires de jeu, nombre de tours par jour, nombre de terrains) est réaliste et équitable pour les joueurs, en tenant compte des besoins du tournoi et des règlements applicables. Il vérifie aussi que le règlement contient toutes les informations requises (3.2.4.1).
+
+Q ija-018 | D: 2 | R: REGLES Instr. 3.2.5.1
+Comment le juge-arbitre doit-il préparer la check-list qu'il envoie aux organisateurs avant le tournoi ?
+- En utilisant toujours la même liste exhaustive, quel que soit le tournoi
+- En laissant l'organisateur la rédiger lui-même
++ En l'adaptant au niveau du tournoi et à l'expérience du comité d'organisation, afin d'éviter la duplication du travail
+- En l'envoyant uniquement la veille du tournoi
+> Instruction 3.2.5.1 : la check-list doit être soigneusement préparée et adaptée au niveau du tournoi et à l'expérience du comité organisateur afin d'éviter la duplication du travail.
+
+Q ija-019 | D: 3 | R: REGLES Instr. 3.2.5.6
+Le juge-arbitre peut envoyer aux organisateurs une check-list initiale puis une check-list secondaire. Qu'est-ce qui les distingue ?
+- La check-list secondaire est envoyée après le tournoi pour préparer l'édition suivante
+- L'initiale concerne les points mineurs ; la secondaire, les problèmes majeurs relevés dans le rapport de l'année précédente
++ L'initiale porte sur les éléments à confirmer bien avant l'arrivée du JA ; la secondaire, envoyée dans les quelques semaines précédant le tournoi, couvre des points courants moins critiques à délai de résolution plus court
+- Aucune différence : la secondaire est un simple rappel de la première
+> Instructions 3.2.5.2 et 3.2.5.6 : la check-list initiale se concentre sur les éléments à confirmer bien avant l'arrivée (installations d'entraînement, procédures santé et sécurité, problèmes logistiques majeurs du rapport précédent) ; une liste secondaire, couvrant les points courants moins critiques et à délai plus court, peut être envoyée dans les quelques semaines précédant le tournoi ou discutée individuellement.
+
+Q ija-020 | D: 2 | R: REGLES Instr. 3.2.5.3 | L: JALC JAFA JAFC
+Quelles demandes le juge-arbitre doit-il inclure dans la check-list adressée aux organisateurs ? Cochez les réponses exactes.
+- La liste nominative des spectateurs attendus
++ Un agencement détaillé de l'aire de jeu et des zones adjacentes accessibles aux joueurs
+- Le classement de chaque joueur inscrit
++ Les horaires de transport entre les hôtels officiels, le site et les lieux d'entraînement, le cas échéant
+> Instructions 3.2.5.3 et 3.2.5.4 : la check-list inclut une demande d'agencement détaillé de l'aire de jeu et des zones adjacentes accessibles aux joueurs, ainsi qu'une demande d'horaires de transport couvrant hôtels officiels, site et installations d'entraînement, le cas échéant.
+
+Q ija-021 | D: 2 | R: REGLES Instr. 3.2.5.5
+Après avoir envoyé sa check-list, le juge-arbitre constate que plusieurs points importants restent en suspens. Que prévoient les instructions ?
+- Il attend son arrivée sur le site pour les traiter
+- Il demande à la fédération d'annuler le tournoi
+- Il les signale uniquement dans son rapport final
++ Il fait un suivi auprès des organisateurs à intervalles appropriés pour s'assurer que tous les problèmes majeurs sont réglés avant son arrivée
+> Instruction 3.2.5.5 : le juge-arbitre fait un suivi auprès des organisateurs à intervalles appropriés afin de s'assurer que tous les problèmes majeurs ont été réglés avant l'arrivée au tournoi, en coordination avec le personnel événementiel de l'institution sportive s'il est présent.
+
+Q ija-022 | D: 2 | R: REGLES Instr. 3.2.5.7 | L: JALC JAFA JAFC
+Sur quelle base le juge-arbitre s'assure-t-il, avant le tournoi, qu'un nombre suffisant d'arbitres et de juges de ligne a été prévu ?
+- Uniquement sur le nombre de joueurs inscrits
++ Sur le nombre de terrains utilisés et les règlements et directives applicables au niveau du tournoi
+- Sur le budget disponible de l'organisateur
+- Sur le nombre de spectateurs attendus
+> Instruction 3.2.5.7 : sur la base du nombre de terrains à utiliser et des règlements et directives applicables au niveau du tournoi, le juge-arbitre s'assure qu'un nombre suffisant d'arbitres et de juges de ligne d'expérience et de neutralité appropriées a été prévu.
+
+Q ija-023 | D: 2 | R: REGLES Instr. 3.2.6.1 | L: JALC JAFA JAFC
+Avant la publication de la liste initiale des joueurs, quels points le juge-arbitre vérifie-t-il soigneusement ? Cochez les réponses exactes.
++ L'exactitude de la date du classement utilisé
+- Le paiement de la licence de chaque accompagnateur
++ Le nombre autorisé d'inscriptions par tableau
+- La marque de volants choisie par chaque joueur
++ La répartition entre tableau principal, tableau de qualification et liste de réserve
+> Instruction 3.2.6.1 : le JA vérifie la date du classement utilisé, les calculs de classement ajustés et théoriques, le classement protégé, le nombre autorisé d'inscriptions par tableau et par entité (le cas échéant), et la liste des inscriptions dans le tableau principal, le tableau de qualification et la liste de réserve.
+
+Q ija-024 | D: 2 | R: REGLES Instr. 3.2.6.3
+À réception du rapport de désignation des têtes de série, que doit vérifier le juge-arbitre ?
+- Que les têtes de série correspondent aux souhaits des organisateurs
+- Que chaque club dispose d'au moins une tête de série
++ Que les têtes de série désignées sont correctes au regard de la date de classement applicable
+- Que les têtes de série sont les joueurs les plus expérimentés
+> Instruction 3.2.6.3 : le juge-arbitre vérifie que les têtes de série désignées dans le tableau principal (et de qualification, le cas échéant) sont correctes en fonction de la date de classement applicable et des exigences relatives aux classements ajustés ou théoriques.
+
+Q ija-025 | D: 3 | R: REGLES Instr. 3.2.8 | L: JALC JAFA JAFC
+Après la publication du tirage, plusieurs forfaits parviennent à l'organisation. Quel est le rôle du juge-arbitre ?
+- Il remplace lui-même les forfaits en contactant directement les joueurs de son choix
+- Il ignore les forfaits jusqu'au jour de la compétition
+- Il republie immédiatement le tirage en indiquant les forfaits
++ Il conserve la liste de tous les forfaits reçus et vérifie que les organisateurs informent correctement les associations des joueurs en lice pour une promotion, en étant en copie des échanges
+> Instruction 3.2.8 : le juge-arbitre conserve une liste de tous les forfaits reçus après la publication du tirage et vérifie que les organisateurs informent correctement les associations des joueurs en lice pour une promotion et que les réponses sont reçues ; il est en copie de tous ces échanges.
+
+Q ija-026 | D: 3 | R: REGLES Instr. 3.2.9 | L: JALC JAFA JAFC
+Après la publication initiale du tirage, l'organisateur veut republier les tableaux en y faisant apparaître les forfaits reçus. Une réunion des responsables d'équipes est prévue la veille du tournoi. Que répond le juge-arbitre ?
+- Il accepte, la transparence prime
++ Il s'y oppose : le tirage ne doit pas être republié en indiquant des forfaits avant la conclusion de la réunion des responsables d'équipes
+- Il accepte à condition que les remplaçants soient déjà indiqués
+- Il demande l'accord de chaque responsable d'équipe
+> Instruction 3.2.9 : le juge-arbitre doit s'assurer qu'après sa publication initiale, le tirage n'est pas republié en indiquant des forfaits, etc., avant la conclusion de la réunion des responsables d'équipes.
+
+Q ija-027 | D: 1 | R: REGLES Instr. 3.3.2
+Dès que possible après son arrivée sur le site du tournoi, qui le juge-arbitre rencontre-t-il pour passer en revue les détails logistiques et régler les questions en suspens ?
+- Le capitaine de chaque club présent
+- L'ensemble des arbitres
++ Le directeur du tournoi ou le président du comité d'organisation
+- Le maire de la commune
+> Instruction 3.3.2 : le juge-arbitre rencontre le directeur du tournoi ou le président du comité d'organisation dès que possible après son arrivée, pour passer en revue tous les détails logistiques et résoudre les questions en suspens apparues depuis les échanges préalables.
+
+Q ija-028 | D: 1 | R: REGLES Instr. 3.3.1
+Comment est fixé le moment de l'arrivée du juge-arbitre au tournoi ?
++ Selon les détails de la lettre d'invitation de l'organisateur ou tout accord conclu ultérieurement avec l'institution sportive
+- Librement par le juge-arbitre, sans concertation
+- Par les responsables d'équipes lors de leur réunion
+- Par la ligue, sans concertation avec l'organisateur
+> Instruction 3.3.1 : le juge-arbitre prend les dispositions nécessaires pour que son arrivée corresponde aux détails fournis dans la lettre d'invitation de l'organisateur ou à tout accord conclu ultérieurement avec l'institution sportive.
+
+Q ija-029 | D: 2 | R: REGLES Instr. 3.3.4.1 | L: JAFA JAFC
+En passant en revue le programme des navettes entre les hôtels et le site de compétition, de quoi le juge-arbitre doit-il notamment s'assurer ? Cochez les réponses exactes.
++ Que le premier voyage de chaque jour a une capacité adéquate et dépose joueurs et officiels suffisamment tôt, compte tenu de la circulation locale
+- Que le dernier voyage part à heure fixe, les joueurs terminant tard s'organisant seuls
++ Que la programmation du dernier voyage est assez souple pour tenir compte de l'incertitude sur l'heure de fin des derniers matchs
+- Que les navettes sont réservées aux seuls officiels techniques
+> Instruction 3.3.4.1 : le premier voyage de chaque jour doit avoir une capacité adéquate et déposer joueurs et officiels techniques suffisamment tôt avant le début de la compétition, compte tenu de la circulation locale ; le dernier voyage doit être assez souple pour tenir compte de l'incertitude de l'heure de fin des derniers matchs.
+
+Q ija-030 | D: 2 | R: REGLES Instr. 3.3.5
+Lors de sa reconnaissance du site en dehors de l'aire de jeu, de quoi le juge-arbitre doit-il notamment s'assurer ? Cochez les réponses exactes.
++ Que des mesures de sécurité adéquates sont prises et que les procédures d'urgence sont en place et comprises
+- Que les places de parking des joueurs sont numérotées
++ Que les toilettes et les vestiaires sont adéquats et fonctionnels
++ Que les installations médicales de support (par exemple une salle de kinésithérapie) sont propres et adéquates
+- Que chaque club dispose d'une tribune réservée
+> Instruction 3.3.5 : le juge-arbitre s'assure notamment que l'infrastructure est sans danger, que des mesures de sécurité et des procédures d'urgence sont en place et comprises, que la salle antidopage et les installations médicales sont adéquates, que toilettes et vestiaires sont fonctionnels ; il confirme aussi les places assises, les salons et les dispositions pour le recordage des raquettes.
+
+Q ija-031 | D: 2 | R: REGLES Instr. 3.3.6.5
+Lors de l'inspection initiale de l'aire de jeu, quelles actions incombent au juge-arbitre ? Cochez les réponses exactes.
++ Finaliser le placement du matériel sur l'aire de jeu (chaises d'arbitre et de conseillers, caisses de volants, tableaux d'affichage des scores...)
+- Choisir la marque des volants du tournoi
++ Vérifier que les chaises des officiels techniques ont une ergonomie adaptée à une assise prolongée
++ Confirmer dans quelles zones de l'aire de jeu les photographes seront autorisés à travailler et comment ils y accéderont
+- Attribuer un terrain fixe à chaque club
+> Instructions 3.3.6.5 à 3.3.6.7 : le juge-arbitre finalise le placement de tout le matériel sur l'aire de jeu, vérifie l'ergonomie des chaises des officiels techniques (assise prolongée durant des matchs consécutifs) et confirme les zones de travail des photographes et leur accès.
+
+Q ija-032 | D: 2 | R: REGLES Instr. 3.3.14
+Lors de l'inspection initiale de l'aire de jeu, le juge-arbitre constate qu'un terrain présente un dégagement insuffisant en fond de court. Comment doit-il procéder ?
+- Ne rien faire : l'agencement de la salle relève uniquement de l'organisateur
+- Le signaler uniquement dans son rapport après le tournoi
++ Informer le personnel du tournoi de la mesure corrective à prendre, puis vérifier lors de la dernière visite de l'aire de jeu qu'elle a été mise en œuvre
+- Demander aux joueurs de ce terrain de faire attention
+> Instructions 3.3.6, 3.3.6.3 et 3.3.14 : le juge-arbitre vérifie les dégagements sur les côtés et le fond des terrains, informe le personnel du tournoi de toute mesure corrective à prendre avant la dernière visite, puis effectue, avec ses adjoints et les intervenants clés, une dernière visite à une heure prédéterminée pour vérifier que les actions correctives ont été mises en œuvre.
+
+Q ija-033 | D: 2 | R: REGLES Instr. 3.3.7
+Le juge-arbitre doit confirmer l'emplacement de plusieurs postes autour de l'aire de jeu. Lesquels sont cités par les instructions ? Cochez les réponses exactes.
+- Le stand de vente de matériel
++ La table de marque
+- Le parking des officiels techniques
++ Le bureau du juge-arbitre et le personnel médical
+> Instruction 3.3.7 : le juge-arbitre confirme l'emplacement de la table de marque, du contrôleur des volants, du coordonnateur de l'aire de jeu, du coordonnateur informatique, du bureau du juge-arbitre et du personnel médical.
+
+Q ija-034 | D: 2 | R: REGLES Instr. 3.3.8 | L: JAFA JAFC
+Un Système de Révision Instantanée (SRI) sera en service pendant le tournoi. Que doit vérifier le juge-arbitre lors de son installation ?
+- Que les juges de ligne sont supprimés sur les terrains équipés
++ L'emplacement du stand SRI et l'existence d'un système de secours en cas d'interruption de la communication entre le stand et l'affichage ou l'aire de jeu
+- Que chaque décision du SRI est validée par le juge-arbitre avant d'être affichée
+- Que l'opérateur SRI est choisi parmi les joueurs éliminés
+> Instruction 3.3.8 : si un SRI est en service, le juge-arbitre examine l'emplacement du stand SRI et vérifie qu'un système de secours approprié a été mis en place au cas où la communication entre le stand et l'affichage des résultats ou l'aire de jeu serait interrompue.
+
+Q ija-035 | D: 2 | R: REGLES Instr. 3.3.9 | L: JALC JAFA JAFC
+Quelle procédure le juge-arbitre confirme-t-il avec le gestionnaire des volants avant le début du tournoi ?
+- Le choix de la vitesse des volants, qu'il lui délègue
++ La livraison et le retrait des volants avant et après chaque match, en précisant s'ils seront faits par le gestionnaire des volants ou par le juge de service
+- Le prix de vente des volants aux joueurs
+- La possibilité pour chaque joueur d'utiliser ses propres volants en match
+> Instruction 3.3.9 : le juge-arbitre confirme avec le gestionnaire des volants la procédure de livraison et de retrait des volants avant et après chaque match (par le gestionnaire ou par le juge de service). Le choix de la vitesse reste du ressort du juge-arbitre.
+
+Q ija-036 | D: 2 | R: REGLES Instr. 3.3.10 | L: JAFA JAFC
+En vérifiant et en approuvant le calendrier d'entraînement, de quoi le juge-arbitre doit-il s'assurer ? Cochez les réponses exactes.
+- Que les têtes de série disposent en priorité des meilleurs créneaux
++ Que le programme des premiers jours est équitable et tient compte de la taille des contingents de joueurs de chaque association
++ Que les temps d'entraînement alloués sont cohérents avec les heures d'arrivée connues des joueurs
+- Que tout entraînement sur les terrains de compétition est interdit
+> Instruction 3.3.10 : programme des premiers jours équitable et tenant compte de la taille des contingents, temps d'entraînement cohérents avec les heures d'arrivée et les transports, terrains d'entraînement sûrs, entraînement sur les terrains de compétition organisé conformément aux règlements, volants d'entraînement mis à disposition selon le règlement particulier.
+
+Q ija-037 | D: 2 | R: REGLES Instr. 3.3.10.4
+Le juge-arbitre inspecte les terrains d'entraînement et d'échauffement. Que vérifie-t-il ?
+- Rien : ces terrains ne relèvent pas de sa compétence
+- Qu'ils sont réservés aux joueurs du club organisateur
++ Que les conditions de jeu y sont sécurisées et que leur nombre et leurs heures de disponibilité sont conformes, autant que possible, au règlement particulier et au RGC
+- Qu'un arbitre y est affecté en permanence
+> Instruction 3.3.10.4 : le juge-arbitre inspecte les terrains d'entraînement et d'échauffement, veille à ce que les conditions de jeu soient sécurisées et que leur nombre et les heures disponibles soient conformes, autant que possible, aux exigences du règlement particulier et du RGC.
+
+Q ija-038 | D: 2 | R: REGLES Instr. 3.3.12 | L: JALC JAFA JAFC
+Concernant l'arrivée des joueurs sur l'aire de jeu, quelles décisions relèvent du juge-arbitre lors de son installation ?
+- Aucune : chaque joueur rejoint son terrain quand il le souhaite
++ Confirmer l'emplacement du point de rassemblement d'avant-match et décider de la gestion de l'annonce des matchs et des protocoles d'entrée et de sortie des joueurs et des officiels
+- Déléguer entièrement ces points à l'annonceur, sans en être informé
+- Supprimer le point de rassemblement pour gagner du temps
+> Instruction 3.3.12 : le juge-arbitre confirme l'emplacement du point de rassemblement d'avant-match des joueurs et prend les décisions concernant la gestion de l'annonce des matchs ainsi que les protocoles d'entrée et de sortie des joueurs et des officiels techniques.
+
+Q ija-039 | D: 3 | R: REGLES Instr. 3.3.13 | L: JALC JAFA JAFC
+Avant la réunion des responsables d'équipes, quel statut doit avoir l'horaire provisoire du premier jour de compétition ?
+- Il est publié dès que possible, puis corrigé après la réunion
++ Il est établi mais non publié, en attendant les changements pouvant résulter des forfaits et promotions exécutés lors de la réunion
+- Il n'est établi qu'après la réunion
+- Il est soumis au vote des responsables d'équipes pendant la réunion
+> Instruction 3.3.13 : le juge-arbitre s'assure que l'horaire provisoire du premier jour est établi (mais non publié) avant tout changement pouvant résulter de l'exécution des forfaits et des promotions lors de la réunion des responsables d'équipes.
+
+Q ija-040 | D: 2 | R: REGLES Instr. 3.3.13.1
+Un tournoi dispose d'un terrain retransmis en streaming. Si rien n'est déjà établi, comment le juge-arbitre peut-il organiser l'attribution des terrains pour les premiers tours ?
+- Il doit obligatoirement pré-affecter tous les matchs à des terrains précis
+- Il doit obligatoirement lancer tous les matchs sur le prochain terrain libre
+- Il laisse le diffuseur décider seul de l'affectation de tous les terrains
++ Il peut combiner une pré-affectation de certains matchs au terrain retransmis et le lancement des autres sur la base « prochain match à lancer »
+> Instruction 3.3.13.1 : le juge-arbitre détermine si les matchs des premiers tours seront pré-assignés à des terrains spécifiques, attribués sur une base « prochain match à lancer », ou une combinaison des deux (par exemple en cas de retransmission en streaming ou à la télévision sur certains terrains).
+
+Q ija-041 | D: 2 | R: REGLES Instr. 3.3.13.2 | L: JALC JAFA JAFC
+Selon quelles modalités les arbitres peuvent-ils être organisés durant les premiers jours d'un tournoi, et quand ces arrangements doivent-ils être finalisés ?
++ En décalage, par équipes sur des terrains pré-assignés ou par rotation ; les détails sont finalisés avant le briefing initial du juge-arbitre
+- Uniquement par rotation ; les détails sont fixés après le premier tour
+- Chaque arbitre choisit ses matchs ; aucune organisation préalable n'est requise
+- Uniquement par équipes ; les détails sont fixés par les évaluateurs d'arbitres
+> Instruction 3.3.13.2 : le juge-arbitre détermine si les arbitres travailleront en décalage, par équipes sur des terrains pré-assignés ou par rotation, et s'assure que ces arrangements sont finalisés avant son briefing initial, où il les communique, y compris la neutralité (3.4.11).
+
+Q ija-042 | D: 1 | R: REGLES Instr. 3.3.3 | L: JALC JAFA JAFC
+Avant le début du tournoi, le juge-arbitre doit rencontrer d'autres intervenants clés. Lesquels sont cités par les instructions ? Cochez les réponses exactes.
++ Le coordinateur des arbitres et des juges de ligne
+- Les parents des jeunes joueurs
++ Le responsable de la sécurité
+- Le gérant de la buvette
+> Instruction 3.3.3 : le juge-arbitre rencontre les intervenants clés avant le début du tournoi, par exemple l'officier événementiel de la fédération, le coordinateur de l'aire de jeu, le coordinateur des arbitres et des juges de ligne, les évaluateurs, le responsable de la sécurité et le coordinateur TV, le cas échéant.
+
+Q ija-043 | D: 2 | R: REGLES Instr. 3.4.1 | L: JALC JAFA JAFC
+Parmi ces actions, laquelle fait partie des préparatifs du juge-arbitre avant la réunion des responsables d'équipes ?
+- Faire valider l'ordre du jour par chaque responsable d'équipe
++ S'assurer qu'une feuille de présence a été préparée et que l'heure et le lieu de la réunion ont été communiqués à tous les responsables d'équipes
+- Publier les tableaux définitifs intégrant les derniers forfaits
+- Désigner les arbitres des finales
+> Instruction 3.4.1 : avant la réunion, le juge-arbitre inspecte la salle (taille, équipement), vérifie que l'heure et le lieu ont été communiqués à tous les responsables d'équipes, s'assure qu'une feuille de présence a été préparée, fait préparer les documents à distribuer et examine avec ses adjoints la matière à traiter.
+
+Q ija-044 | D: 2 | R: REGLES Instr. 3.4.1.4 | L: JALC JAFA JAFC
+Quels documents le juge-arbitre vérifie-t-il qu'ils ont été préparés pour être distribués lors de la réunion des responsables d'équipes ? Cochez les réponses exactes.
++ Des exemplaires des tableaux
+- Le rapport du juge-arbitre de l'édition précédente
+- Les évaluations individuelles des arbitres
++ Le formulaire de forfait de joueur
+> Instruction 3.4.1.4 : exemplaires des tableaux et autres documents (formulaire de forfait, permis d'enregistrement vidéo, formulaire de demande d'entraînement, horaires des navettes). Le rapport de l'édition précédente est confidentiel (3.2.3).
+
+Q ija-045 | D: 2 | R: REGLES Instr. 3.4.3 | L: JALC JAFA JAFC
+Comment le juge-arbitre construit-il sa présentation pour la réunion des responsables d'équipes ?
+- Il lit intégralement le RGC
++ Il utilise tout modèle fourni et le personnalise sur les détails et la logistique du tournoi, notamment les contacts pendant le tournoi et les règles récemment modifiées
+- Il improvise sans support pour laisser place aux questions
+- Il se limite à la lecture du règlement particulier
+> Instruction 3.4.3 : le juge-arbitre utilise tout modèle fourni et personnalise la présentation pour se concentrer sur les détails et la logistique du tournoi, en particulier les contacts pendant le tournoi et les règles et règlements récemment modifiés.
+
+Q ija-046 | D: 2 | R: REGLES Instr. 3.4.3.1 | L: JALC JAFA JAFC
+Lors de la réunion des responsables d'équipes, tous les responsables présents sont très expérimentés. Comment le juge-arbitre adapte-t-il sa présentation ?
+- Il annule la réunion, devenue inutile
+- Il supprime la partie sur l'éthique et l'intégrité, connue de tous
++ Il adapte le rythme et l'approfondissement de la matière générale à leur expérience, tout en incluant le contenu mandaté par la fédération (par exemple sur l'éthique et l'intégrité)
+- Il ne traite que la matière générale, sans aborder la logistique du tournoi
+> Instructions 3.4.3.1 et 3.4.3.2 : le juge-arbitre juge du rythme et de l'approfondissement de la matière générale en fonction de l'expérience des responsables d'équipes présents, mais tout le matériel mandaté par la fédération (par exemple sur l'éthique et l'intégrité) doit être inclus.
+
+Q ija-047 | D: 2 | R: REGLES Instr. 3.4.3.3 | L: JALC JAFA JAFC
+Lors de la réunion des responsables d'équipes, quels points relatifs au déroulement du jeu le juge-arbitre doit-il annoncer ? Cochez les réponses exactes.
+- La liste des joueurs qui seront soumis à un contrôle antidopage
++ Si la règle de la hauteur de service fixe ou les règles de services alternatives seront utilisées
+- Le nom des arbitres désignés pour les finales
++ Si le système de compte à rebours sera en service
+> Instructions 3.4.3.3 et 3.4.3.4 : le juge-arbitre rappelle aux responsables d'équipe si les règles relatives à la hauteur de service fixe ou aux services alternatifs seront utilisées, et les informe si le système de compte à rebours sera en service.
+
+Q ija-048 | D: 2 | R: REGLES Instr. 3.4.4.1 | L: JALC JAFA JAFC
+À quel moment de la réunion des responsables d'équipes le juge-arbitre distribue-t-il le « formulaire de forfait de joueur », et quand exécute-t-il les forfaits et les promotions ?
+- Formulaire distribué et forfaits exécutés à la fin de la réunion
+- Formulaire envoyé par courriel la veille ; forfaits exécutés le lendemain matin
++ Formulaire distribué au début de la réunion ; forfaits, promotions et remplacements exécutés à la fin
+- Formulaire distribué à la fin ; forfaits exécutés au début de la réunion
+> Instructions 3.4.4 et 3.4.4.1 : un formulaire de forfait est distribué à chaque responsable d'équipe au début de la réunion pour documenter les forfaits non communiqués ; le juge-arbitre exécute les forfaits, promotions et remplacements à la fin de la réunion.
+
+Q ija-049 | D: 3 | R: REGLES Instr. 3.4.4.3 | L: JALC JAFA JAFC
+Lors de la réunion, le juge-arbitre doit promouvoir le premier joueur de la liste de réserve. Son responsable d'équipe ne peut pas confirmer immédiatement que le joueur sera présent au tournoi et qu'il jouera. Que fait le juge-arbitre ?
+- Il promeut quand même le joueur, sous réserve de confirmation ultérieure
+- Il suspend la réunion jusqu'à ce que le joueur soit joint
++ Il ne promeut pas ce joueur et passe au joueur suivant de la liste de réserve
+- Il laisse la place vacante dans le tableau
+> Instruction 3.4.4.3 : si le responsable d'équipe d'un joueur à promouvoir ne peut confirmer immédiatement que le joueur sera présent et jouera, ne pas faire la promotion de ce joueur et passer au joueur suivant sur la liste de réserve.
+
+Q ija-050 | D: 2 | R: REGLES Instr. 3.4.4.2 | L: JALC JAFA JAFC
+Pendant la réunion, un responsable d'équipe annonce le forfait d'un de ses joueurs, non communiqué auparavant. Comment le juge-arbitre le traite-t-il ?
++ Il le fait documenter sur le formulaire de forfait, l'ajoute aux forfaits reçus depuis la publication des tableaux et vérifie si le joueur retiré est présent au tournoi
+- Il le refuse : les forfaits devaient être communiqués avant la réunion
+- Il le traite seulement après le premier tour
+- Il demande à l'adversaire du joueur s'il accepte ce forfait
+> Instructions 3.4.4.1 et 3.4.4.2 : le formulaire de forfait sert à documenter les forfaits non communiqués précédemment ; le juge-arbitre ajoute les forfaits communiqués lors de la réunion à ceux reçus après la publication des tableaux et confirme si les joueurs retirés sont présents au tournoi.
+
+Q ija-051 | D: 3 | R: REGLES Instr. 3.4.5.3.1 | L: JAFA JAFC
+Après forfaits et promotions, un tableau de qualification a une seule position qualificative non remplie (Q3). Le jeu n'a pas commencé. Ce tableau peut-il être considéré comme fortement déséquilibré et justifier un nouveau tirage ?
+- Oui, dès qu'une position qualificative n'est pas remplie
+- Oui, si un responsable d'équipe le demande
++ Non : un tableau de qualification n'est fortement déséquilibré que si plus d'une position qualificative n'est pas remplie
+- Non, car un tirage publié ne peut jamais être refait
+> Instructions 3.4.5.3 et 3.4.5.3.1 : un tableau de qualification est considéré comme fortement déséquilibré si, après les forfaits et les promotions, plus d'une position qualificative (Q1, Q2, etc.) n'est pas remplie. Avec une seule position vide, ce motif de nouveau tirage ne s'applique pas.
+
+Q ija-052 | D: 2 | R: REGLES Instr. 3.4.6 | L: JALC JAFA JAFC
+À l'issue de la réunion des responsables d'équipes, de quoi le juge-arbitre doit-il s'assurer ? Cochez les réponses exactes.
++ Que les forfaits, promotions, substitutions et éventuels retirages sont correctement saisis dans le fichier du logiciel de la compétition, avec les heures modifiées
+- Que les tableaux mis à jour ne sont publiés qu'à la fin du tournoi
+- Que chaque responsable d'équipe signe l'échéancier modifié
++ Que le tirage et l'échéancier mis à jour sont publiés en ligne dès que possible, si le logiciel est interactif sur Internet
+> Instruction 3.4.6 : le juge-arbitre approuve les modifications de l'échéancier du premier jour, s'assure que tout est correctement saisi et documenté dans le logiciel, que le fichier mis à jour est publié et sauvegardé, et que tirage et échéancier sont publiés en ligne dès que possible.
+
+Q ija-053 | D: 2 | R: REGLES Instr. 3.4.10.1 | L: JALC JAFA JAFC
+Lors du briefing des arbitres, quels contenus le juge-arbitre doit-il aborder ?
+- Le classement des joueurs et la désignation des têtes de série
++ Les changements récents relatifs aux règles et aux instructions, ainsi que la logistique propre au tournoi (point de rassemblement, procédures d'entrée et de sortie, nombre de juges de ligne)
+- Les résultats des contrôles antidopage des éditions précédentes
+- Le montant des droits d'inscription perçus
+> Instructions 3.4.10 et 3.4.10.1 : le juge-arbitre personnalise sa présentation sur les détails et la logistique du tournoi (point de rassemblement, entrées et sorties, nombre de juges de ligne, règles locales sur les obstacles) et rappelle tout changement récent relatif aux règles et aux instructions.
+
+Q ija-054 | D: 2 | R: REGLES Instr. 3.4.10.3 | L: JAFA JAFC
+Lors du briefing des arbitres, que doit communiquer le juge-arbitre concernant un terrain télévisé ?
+- Que les intervalles y sont supprimés pour respecter la grille de diffusion
+- Que l'arbitre y laisse le réalisateur TV décider des reprises du jeu
++ Les considérations spéciales qui s'y appliquent, par exemple le caractère obligatoire des intervalles ou l'application du SRI
+- Rien de particulier : tous les terrains sont gérés de la même façon
+> Instruction 3.4.10.3 : le cas échéant, le juge-arbitre communique toutes les considérations spéciales qui peuvent s'appliquer au(x) terrain(s) TV (par exemple les intervalles sont obligatoires, le SRI est appliqué).
+
+Q ija-055 | D: 2 | R: REGLES Instr. 3.4.10.5 | L: JALC JAFA JAFC
+La règle de la hauteur de service fixe est utilisée lors du tournoi. Que doit faire le juge-arbitre lors du briefing des arbitres ?
+- Rien : l'appareil de mesure est réglé par les joueurs
++ S'assurer que tous les arbitres sont familiarisés avec l'utilisation correcte de l'appareil de mesure de service et offrir une occasion de formation si nécessaire
+- Interdire l'utilisation de l'appareil de mesure pendant les matchs
+- Demander aux arbitres de se former après le tournoi
+> Instruction 3.4.10.5 : si la règle sur la hauteur de service fixe est utilisée, le juge-arbitre s'assure que tous les arbitres sont familiarisés avec l'utilisation correcte de l'appareil de mesure et fournit une occasion de formation si nécessaire.
+
+Q ija-056 | D: 2 | R: REGLES Instr. 3.4.10.6 | L: JAFA JAFC
+Le SRI et le compte à rebours sont utilisés lors d'un tournoi. Que rappelle le juge-arbitre aux arbitres lors du briefing ?
++ De se refamiliariser avec les règles du SRI (Annexe 6) et le vocabulaire associé, ainsi qu'avec l'utilisation du compte à rebours et sa terminologie
+- Que le SRI remplace l'arbitre pour toutes les décisions du match
+- Que le compte à rebours est géré par les joueurs eux-mêmes
+- Qu'aucune annonce particulière n'est liée à ces systèmes
+> Instructions 3.4.10.6 et 3.4.10.7 : si le SRI est utilisé, rappeler aux arbitres de se refamiliariser avec les règles (Annexe 6) et le vocabulaire associés ; si le compte à rebours est utilisé, rappeler comment il doit être utilisé et la terminologie associée.
+
+Q ija-057 | D: 1 | R: REGLES Instr. 3.4.12 | L: JAFA JAFC
+Des évaluateurs d'arbitres sont présents sur le tournoi. Quelle place le juge-arbitre leur réserve-t-il lors du briefing des arbitres ?
+- Aucune : ils n'interviennent qu'après le tournoi
+- Ils animent l'intégralité du briefing à sa place
++ Il leur laisse suffisamment de temps à la fin du briefing pour s'adresser aux arbitres
+- Ils ne s'adressent aux arbitres que pendant les matchs
+> Instruction 3.4.12 : s'il y en a, le juge-arbitre laisse suffisamment de temps à la fin du briefing pour que les évaluateurs des arbitres s'adressent aux arbitres.
+
+Q ija-058 | D: 2 | R: REGLES Instr. 3.4.15 | L: JALC JAFA JAFC
+Que doit faire le juge-arbitre à l'égard des juges de ligne avant le début du tournoi ? Cochez les réponses exactes.
+- Les laisser découvrir leurs fonctions directement sur le terrain
++ Les rencontrer et leur parler de manière à les mettre à l'aise, en soulignant qu'ils sont une partie importante de l'équipe des officiels techniques
+- Leur confier la désignation des arbitres
++ Examiner brièvement leurs fonctions et les attentes, et répondre à leurs questions
+> Instructions 3.4.13 à 3.4.17 : le juge-arbitre rencontre les juges de ligne avant le tournoi, leur parle avec une autorité calme et une facilité d'approche, souligne qu'ils sont une partie importante de l'équipe, examine brièvement leurs fonctions et attentes, et s'assure que leur coordonnateur connaît les procédures d'entrée et de sortie.
+
+Q ija-059 | D: 2 | R: REGLES Instr. 3.5.1.2
+Un joueur signale au juge-arbitre que les douches des vestiaires sont froides, un problème qui ne relève pas directement de sa compétence. Que prévoient les instructions ?
+- Le juge-arbitre répond que ce n'est pas son rôle et n'y donne pas suite
+- Le juge-arbitre interrompt la compétition jusqu'à la réparation
++ Le juge-arbitre redirige la question vers l'intervenant concerné, puis assure un suivi pour s'assurer qu'elle est résolue et que le joueur est informé du résultat
+- Le juge-arbitre le note seulement dans son rapport
+> Instruction 3.5.1.2 : le juge-arbitre redirige vers les intervenants concernés les questions qui ne relèvent pas de son domaine de compétence immédiat, mais assure un suivi pour être sûr que le problème a été résolu de manière satisfaisante et que le résultat a été communiqué à la personne qui l'a soulevé.
+
+Q ija-060 | D: 1 | R: REGLES Instr. 3.5.1.3
+Selon les instructions, quand et comment le juge-arbitre entretient-il l'esprit d'équipe avec le personnel et les bénévoles du tournoi ?
++ Au début et à la fin de chaque journée, en conversant avec eux et en les remerciant
+- Uniquement lors de la remise des récompenses
+- Par un courriel envoyé après le tournoi
+- Jamais : c'est le rôle exclusif de l'organisateur
+> Instruction 3.5.1.3 : au début et à la fin de chaque journée, le juge-arbitre tente d'encourager moralement et de promouvoir l'esprit d'équipe en conversant avec le personnel et les bénévoles du tournoi et en les remerciant.
+
+Q ija-061 | D: 2 | R: REGLES Instr. 3.5.1.4
+Le premier jour du tournoi, le juge-arbitre constate que les annonces au micro sont peu audibles et que les entrées des joueurs sur l'aire de jeu sont désordonnées. Que prévoient les instructions ?
+- Attendre l'édition suivante pour corriger
+- Supprimer les annonces au micro
++ Observer ces mécanismes dès le premier jour et faire les ajustements nécessaires pour les jours suivants
+- Ne rien faire, ces aspects ne relevant que de l'organisateur
+> Instruction 3.5.1.4 : le premier jour, le juge-arbitre observe la circulation autour de l'aire de jeu, l'efficacité des entrées et sorties, l'audibilité et le contenu des annonces, et fait les ajustements nécessaires pour les jours suivants.
+
+Q ija-062 | D: 2 | R: REGLES Instr. 3.5.1.5
+Sur un tournoi de 7 terrains, le juge-arbitre et son adjoint restent toute la journée assis côte à côte à la table de marque. Est-ce conforme aux instructions ?
+- Oui, la table de marque est le poste naturel du juge-arbitre
+- Oui, à condition que l'adjoint fasse un tour de salle par heure
++ Non : l'équipe des juges-arbitres doit se positionner de façon à observer facilement tous les terrains et éviter de rester longtemps au même endroit
+- Non : le juge-arbitre doit se tenir dans les tribunes
+> Instruction 3.5.1.5 : chaque fois que c'est possible, l'équipe des juges-arbitres se positionne de façon à pouvoir observer facilement tous les terrains utilisés ; le juge-arbitre et ses adjoints devraient éviter de rester au même endroit pendant de longues périodes.
+
+Q ija-063 | D: 3 | R: REGLES Instr. 3.5.1.7 | L: JAFA JAFC
+Le SRI est en service. Lors d'un challenge, le juge-arbitre constate que l'arbitre applique incorrectement la procédure. Que prévoient les instructions ?
+- Il attend la fin du match pour en parler à l'arbitre
+- Il laisse faire, l'arbitre étant seul responsable des challenges
+- Il fait rejouer le set
++ Il est prêt à intervenir pour que l'erreur soit corrigée avant le début de l'échange suivant
+> Instruction 3.5.1.7 : si le SRI est en service, le juge-arbitre ou ses adjoints veillent autant que possible à ce que tout challenge soit géré correctement par l'arbitre et sont prêts à intervenir si nécessaire, pour que toute erreur soit corrigée avant le début du prochain échange.
+
+Q ija-064 | D: 3 | R: REGLES Instr. 3.5.1.8 | L: JAFA JAFC
+L'arbitre appelle le juge-arbitre, car le SRI affiche une décision incohérente : le texte et la représentation graphique ne correspondent pas. Que doit faire le juge-arbitre en premier lieu ?
+- Annoncer un let sans autre vérification
++ Tenter d'appeler l'opérateur du SRI pour obtenir la décision correcte ou une explication du dysfonctionnement, puis indiquer à l'arbitre comment procéder
+- Laisser l'arbitre maintenir l'annonce initiale du juge de ligne
+- Demander aux joueurs de se mettre d'accord
+> Instruction 3.5.1.8 (et règle 17.5.2) : en cas de décision incohérente ou manifestement incorrecte du SRI, le juge-arbitre tente d'abord d'appeler l'opérateur SRI pour obtenir la décision correcte ou une explication du dysfonctionnement, puis indique à l'arbitre comment procéder.
+
+Q ija-065 | D: 2 | R: REGLES Instr. 3.5.2.1
+Chaque matin, avant le début du jeu, le juge-arbitre parcourt l'aire de jeu. Que vérifie-t-il ? Cochez les réponses exactes.
++ Que les terrains sont propres et que le matériel est en place (chaises, cône d'intervalle, serpillières, etc.)
+- Que chaque joueur a réglé ses droits d'inscription
++ Que les hauteurs des filets ont été mesurées
+- Que chaque joueur a testé lui-même les volants de son match
+> Instruction 3.5.2.1 : le juge-arbitre parcourt l'aire de jeu pour vérifier que les terrains sont propres et que tout le matériel est en position, que les hauteurs des filets ont été mesurées et que les systèmes de mesure de la hauteur de service ont été étalonnés.
+
+Q ija-066 | D: 1 | R: REGLES Instr. 3.5.2.3
+Avant le début du jeu chaque jour, quel personnel clé le juge-arbitre s'assure-t-il d'avoir en place ?
+- Les journalistes accrédités
+- Les sponsors du tournoi
++ Le contrôleur des matchs, le contrôleur des volants, le personnel de l'aire de jeu et le médecin du tournoi ou l'équipe médicale
+- Les responsables d'équipes de chaque club
+> Instructions 3.5.2.2 et 3.5.2.3 : le juge-arbitre s'assure que les outils informatiques sont opérationnels (sonorisation, tablettes, tableaux d'affichage...) et que le personnel clé est en place (contrôleur des matchs, contrôleur des volants, personnel de l'aire de jeu, médecin ou équipe médicale).
+
+Q ija-067 | D: 2 | R: REGLES Instr. 3.5.3
+Le deuxième jour du tournoi, le médecin du tournoi est remplacé par un confrère. Que doit faire le juge-arbitre ?
+- Rien : les consignes ont déjà été données au premier médecin
++ Rencontrer brièvement le nouveau médecin, notamment pour lui rappeler qu'il agit sous sa direction et quel est son rôle s'il est appelé sur le terrain
+- Lui faire transmettre les consignes par un membre du club organisateur
+- Demander à la ligue de valider ce remplacement avant tout match
+> Instructions 3.5.3 et 3.5.3.2 : avant le début de la première journée et chaque fois qu'il y a un changement de personnel médical, le juge-arbitre rencontre brièvement le médecin ; celui-ci agit sous la direction du juge-arbitre et, sur le terrain, informe le joueur de la gravité de la blessure sans retarder indûment le jeu.
+
+Q ija-068 | D: 1 | R: REGLES Instr. 3.5.3.3
+De quoi le juge-arbitre s'assure-t-il concernant l'équipement du médecin du tournoi ?
+- Qu'il apporte des médicaments à distribuer aux joueurs sur demande
++ Qu'il dispose de fournitures médicales de base dans un sac portatif (par exemple sparadraps, ciseaux, gants)
+- Qu'un brancard est installé à côté de chaque terrain
+- Rien : l'équipement médical ne concerne pas le juge-arbitre
+> Instruction 3.5.3.3 : le juge-arbitre doit s'assurer que le médecin dispose de fournitures médicales de base dans un sac portatif (par exemple sparadraps, ciseaux, gants).
+
+Q ija-069 | D: 2 | R: REGLES Instr. 3.5.4.3
+Pendant le test des volants, le testeur frappe depuis le milieu du terrain avec une frappe insuffisante. Que fait le juge-arbitre ?
+- Il laisse faire et retient la vitesse obtenue
+- Il annule le test et retient la vitesse indiquée sur les tubes
++ Il corrige le testeur pendant l'essai pour que les volants soient testés correctement, frappés depuis la ligne de fond
+- Il demande à chaque joueur de faire son propre test
+> Instructions 3.5.4.3 et 3.5.4.4 : le juge-arbitre corrige le testeur pendant l'essai, si nécessaire, pour que les volants soient testés correctement, et tient compte de la force et de la trajectoire de la frappe ainsi que de la position (sur la ligne de fond).
+
+Q ija-070 | D: 1 | R: REGLES Instr. 3.5.4.5
+À qui le juge-arbitre communique-t-il la vitesse des volants retenue à l'issue du test ?
+- Au joueur qui a testé les volants
+- À chaque responsable d'équipe, pour avis
++ Au contrôleur des volants
+- Au speaker, pour annonce publique
+> Instruction 3.5.4.5 : le juge-arbitre communique sa décision sur la vitesse des volants au contrôleur des volants ; il ne la communique pas au testeur et ne lui demande pas son opinion (3.5.4.6).
+
+Q ija-071 | D: 2 | R: REGLES Instr. 3.5.4.8
+Le deuxième jour du tournoi, la température et l'humidité sont identiques à la veille et les volants sont réguliers d'un tube à l'autre. Faut-il refaire un test de volants ?
+- Oui, le test est obligatoire chaque matin
+- Oui, avant chaque match
++ Non, ce n'est pas nécessaire dans ces conditions
+- Non, et il est interdit de refaire un test après le premier jour
+> Instruction 3.5.4.8 : si les conditions de jeu ne changent pas de manière significative et si les volants sont réguliers d'un tube à l'autre, il n'est pas nécessaire de tester les volants tous les jours suivants. Un nouveau test reste possible si les conditions changent (3.5.4.7).
+
+Q ija-072 | D: 3 | R: REGLES Instr. 3.5.5.1 | L: JAFA JAFC
+Un forfait survient dans le tableau principal et le joueur à promouvoir dans ce tableau est en train de disputer un match de qualification. Que permettent les instructions ?
+- Rien : un match en cours ne peut jamais être interrompu, la place reste vacante
+- Promouvoir l'adversaire du joueur concerné
++ Interrompre, si nécessaire, le match de qualification en cours afin d'effectuer la promotion au tableau principal
+- Annuler le match de qualification et le reprogrammer le lendemain
+> Instruction 3.5.5.1 : le juge-arbitre peut interrompre un match de qualification en cours, si nécessaire, afin d'effectuer une promotion au tableau principal.
+
+Q ija-073 | D: 3 | R: REGLES Instr. 3.5.5.3 | L: JAFA JAFC
+Dans une compétition avec tableau de qualification, jusqu'à quand un joueur de la liste de réserve peut-il être promu dans le tableau de qualification ?
+- Jusqu'à la publication de l'échéancier du tableau principal
+- Jusqu'au début du dernier tour de qualification
++ Jusqu'à la publication de l'échéancier des tours de qualification
+- Jusqu'à la clôture des inscriptions uniquement
+> Instruction 3.5.5.3 : pour les compétitions avec qualifications, un joueur de la liste de réserve peut être promu dans le tableau de qualification jusqu'à la publication de l'échéancier des tours de qualification. Sans qualifications, la promotion dans le tableau principal est possible jusqu'à la publication de l'échéancier du ou des premiers jours (3.5.5.2).
+
+Q ija-074 | D: 2 | R: REGLES Instr. 3.5.5.5
+En cours de tournoi, plusieurs joueurs déclarent forfait. Comment le juge-arbitre gère-t-il ces forfaits ?
++ Conformément au RGC, en veillant à ce qu'ils soient correctement documentés dans le fichier du logiciel et en incluant les retraits passibles d'amende dans le rapport des forfaits
+- Librement, sans obligation de documentation
+- Il laisse la table de marque les gérer sans en être informé
+- Il ne les signale qu'à la fin de la saison
+> Instructions 3.5.5, 3.5.5.4 et 3.5.5.5 : le juge-arbitre gère les forfaits et absences conformément au RGC, s'assure que promotions, forfaits, substitutions, retraits et walkovers sont correctement documentés dans le logiciel, et inclut tous les retraits faisant l'objet d'une amende dans le rapport des forfaits.
+
+Q ija-075 | D: 1 | R: REGLES Instr. 3.5.6 | L: JALC JAFA JAFC
+Selon les instructions, que doit garantir le juge-arbitre aux arbitres et aux juges de ligne tout au long du tournoi ?
+- Un classement public de leurs performances
++ Leur bien-être général et les agréments nécessaires pour s'acquitter efficacement de leurs tâches (nourriture, eau, café, thé, etc.)
+- La possibilité de choisir les matchs qu'ils arbitrent
+- Un créneau sur les terrains d'entraînement
+> Instruction 3.5.6 : le juge-arbitre veille au bien-être général des arbitres et juges de ligne tout au long du tournoi et à ce qu'ils disposent des agréments nécessaires pour s'acquitter efficacement de leurs tâches (nourriture, eau, café, thé, etc.).
+
+Q ija-076 | D: 2 | R: REGLES Instr. 3.5.7 | L: JALC JAFA JAFC
+Quelle attitude le juge-arbitre doit-il adopter envers le groupe des officiels techniques ?
+- Rester en permanence à l'écart pour préserver son autorité
+- Passer l'essentiel de son temps libre avec quelques arbitres de confiance
++ Promouvoir le travail d'équipe et la camaraderie, tout en gardant une distance suffisante pour éviter toute perception de favoritisme
+- Laisser le groupe s'organiser sans jamais intervenir
+> Instructions 3.5.7 et 3.5.8 : le juge-arbitre promeut le travail d'équipe et la camaraderie au sein des officiels techniques tout en gardant une distance suffisante pour éviter la perception de favoritisme, et s'assure qu'ils respectent le code de conduite des officiels techniques.
+
+Q ija-077 | D: 2 | R: REGLES Instr. 3.5.9 | L: JALC JAFA JAFC
+Sur quoi les briefings quotidiens des arbitres doivent-ils être centrés ?
+- Sur la critique nominative des erreurs de chaque arbitre devant le groupe
++ Sur les retours d'informations génériques de la veille, les ajustements requis et les changements de procédures pour la journée, en laissant du temps pour les questions
+- Sur le classement des joueurs restant en lice
+- Sur l'organisation des repas
+> Instruction 3.5.9 : les briefings quotidiens sont centrés sur les retours d'informations génériques de la veille, les ajustements requis et tout changement de procédure pour la journée (entrées, sorties, nombre de juges de ligne...), en laissant du temps pour les questions et les commentaires des évaluateurs s'ils sont présents.
+
+Q ija-078 | D: 2 | R: REGLES Instr. 3.5.10 | L: JALC JAFA JAFC
+Le juge-arbitre a constaté qu'un arbitre doit corriger un point de sa prestation. Comment doit-il lui faire ce retour ? Cochez les réponses exactes.
++ Rapidement après le match
+- Devant les autres arbitres, pour que tous en profitent
+- Uniquement dans le rapport du juge-arbitre, après le tournoi
++ Dans un cadre privé, loin des distractions
+> Instruction 3.5.10 : le juge-arbitre propose des commentaires constructifs rapidement après le match lorsqu'un ajustement est nécessaire, dans un cadre privé et loin des distractions, s'assure que ses instructions sont comprises puis observe l'arbitre pour vérifier qu'elles sont suivies.
+
+Q ija-079 | D: 3 | R: REGLES Instr. 3.5.11.3 | L: JALC JAFA JAFC
+Lors d'un match du premier tour, une tension significative est apparue entre l'arbitre et l'un des joueurs. Ce joueur se qualifie pour le tour suivant. Que prévoient les instructions pour les affectations ?
+- Réaffecter le même arbitre pour montrer que l'autorité de l'officiel n'est pas contestable
+- Interdire à cet arbitre d'officier pour le reste du tournoi
++ Prendre note de cette tension et, si nécessaire, éviter d'assigner cet arbitre à des matchs comportant le même joueur dans les tours suivants
+- Laisser le joueur choisir son arbitre pour le tour suivant
+> Instruction 3.5.11.3 : le juge-arbitre prend note de tous les matchs avec une tension significative entre l'arbitre (ou le juge de service) et les joueurs et, si nécessaire, évite d'assigner cet officiel à des matchs comportant le même joueur dans les tours suivants.
+
+Q ija-080 | D: 1 | R: REGLES Instr. 3.5.11.4 | L: JALC JAFA JAFC
+Lors de l'établissement des affectations des officiels techniques, à quoi le juge-arbitre doit-il veiller pour chacun d'eux ?
+- Qu'ils officient tous exactement sur le même nombre de matchs
++ Qu'ils disposent d'un temps de repos raisonnable entre leurs fonctions ou rotations
+- Qu'ils officient toujours sur le même terrain
+- Qu'ils arbitrent de préférence les joueurs de leur propre club
+> Instruction 3.5.11 : les affectations sont faites de façon juste et appropriée ; le juge-arbitre assure la neutralité dans la mesure du possible (3.5.11.1) et s'assure que tous les officiels techniques ont un temps de repos raisonnable entre les fonctions ou rotations (3.5.11.4).
+
+Q ija-081 | D: 3 | R: REGLES Instr. 3.5.12.3 | L: JAFA JAFC
+Un évaluateur d'arbitres demande que tel arbitre soit désigné sur un match précis afin de pouvoir l'évaluer. Que prévoient les instructions ?
+- Le juge-arbitre doit obligatoirement accéder à la demande, l'évaluateur décidant des affectations
+- Le juge-arbitre doit refuser, les évaluateurs n'ayant pas à intervenir dans les affectations
+- La décision revient à l'arbitre concerné
++ Le juge-arbitre répond à la demande dans la mesure du possible pour faciliter l'évaluation, mais conserve l'autorité finale sur toutes les affectations
+> Instructions 3.5.12.2 et 3.5.12.3 : dans la mesure du possible, le juge-arbitre répond aux requêtes des évaluateurs concernant les affectations afin de faciliter l'évaluation ; il a cependant l'autorité finale sur toutes les affectations des officiels techniques.
+
+Q ija-082 | D: 2 | R: REGLES Instr. 3.5.23 | L: JALC JAFA JAFC
+Pour désigner les arbitres et juges de service des demi-finales et des finales, sur quels facteurs le juge-arbitre se fonde-t-il, après la neutralité ? Cochez les réponses exactes.
++ Les performances observées tout au long du tournoi
+- La demande des joueurs finalistes
++ Le niveau d'expérience
+- La proximité géographique du domicile de l'arbitre
++ Les compétences de présentation et le travail d'équipe
+> Instruction 3.5.23 : après neutralité, les désignations pour les demi-finales et finales sont basées sur les performances observées tout au long du tournoi, le niveau d'expérience, les compétences de présentation et le travail d'équipe ; le juge-arbitre sollicite les commentaires des évaluateurs s'ils sont présents.
+
+Q ija-083 | D: 2 | R: REGLES Instr. 3.5.13.1 | L: JAFA JAFC
+Le juge-arbitre souhaite faire des commentaires sur la performance des juges de ligne. Par quel intermédiaire passe-t-il ?
+- Directement sur le terrain, pendant les échanges
++ Par l'intermédiaire du coordonnateur des juges de ligne
+- Par voie d'affichage dans la salle des officiels
+- Par l'intermédiaire des responsables d'équipes
+> Instructions 3.5.13.1 et 3.5.13.2 : le juge-arbitre fait ses commentaires et les ajustements nécessaires par l'intermédiaire du coordonnateur des juges de ligne ; il lui transmet aussi les commentaires des arbitres sur les juges de ligne les plus forts et les plus faibles pour les affectations des phases finales.
+
+Q ija-084 | D: 2 | R: REGLES Instr. 3.5.13.3 | L: JAFA JAFC
+Des juges de ligne internationaux sont présents sur le tournoi. Comment le juge-arbitre doit-il les utiliser ?
+- Exclusivement sur les premiers tours, pour former les juges de ligne locaux
+- Exclusivement sur les matchs des joueurs de leur nationalité
++ Sur les matchs les plus compétitifs et les lignes les plus difficiles, en particulier lors des dernières phases mettant en vedette des joueurs locaux
+- Comme arbitres, en remplacement des arbitres absents
+> Instruction 3.5.13.3 : si des juges de ligne internationaux sont présents, le juge-arbitre s'assure qu'ils sont utilisés pour les matchs les plus compétitifs et sur les lignes les plus difficiles, en particulier lors des matchs des dernières phases mettant en vedette des joueurs locaux.
+
+Q ija-085 | D: 2 | R: REGLES Instr. 3.5.15.2
+Au point de rassemblement, les maillots de deux adversaires semblent de couleurs nettement différentes. Que doit garder à l'esprit le juge-arbitre avant de valider les tenues ?
+- Rien : la perception au point de rassemblement fait foi
+- Que seule la couleur des chaussettes est prise en compte
++ Que la différence d'éclairage entre le point de rassemblement et l'aire de jeu peut modifier la perception des couleurs
+- Que la décision appartient aux joueurs
+> Instruction 3.5.15.2 : le juge-arbitre doit être conscient de la différence d'éclairage entre le point de rassemblement et l'aire de jeu, qui peut modifier la perception de la différenciation des couleurs entre les maillots.
+
+Q ija-086 | D: 2 | R: REGLES Instr. 3.5.15.4
+Le juge-arbitre constate qu'un joueur porte une tenue non conforme. Est-il obligé de la signaler à l'institution sportive pour l'appréciation de sanctions ?
+- Oui, systématiquement et dans tous les cas
+- Non, car les tenues ne relèvent pas du juge-arbitre
+- Oui, mais seulement s'il s'agit d'un conseiller
++ Non : le juge-arbitre a la discrétion de signaler ou non la tenue non conforme d'un joueur ou d'un conseiller
+> Instructions 3.5.15 et 3.5.15.4 : le juge-arbitre prend, si besoin, les décisions concernant la conformité des tenues d'un joueur ou d'un conseiller, et a la discrétion de signaler ou non les tenues non conformes à l'institution sportive pour l'appréciation des sanctions.
+
+Q ija-087 | D: 3 | R: REGLES Instr. 3.5.17
+Pendant l'intervalle entre deux sets, deux conseillers sont déjà installés du côté du joueur A. Le kinésithérapeute de l'équipe souhaite rejoindre le joueur. Que prévoient les instructions ?
+- Le kinésithérapeute peut rejoindre le joueur, car il ne compte pas comme conseiller
+- Le kinésithérapeute doit attendre la fin du match
++ L'un des deux conseillers doit quitter le terrain et ses abords immédiats pour que le kinésithérapeute puisse venir
+- Le joueur A reçoit un avertissement pour retard de jeu
+> Instruction 3.5.17 : deux conseillers au maximum par côté ; si un nouveau conseiller ou un kiné/médecin d'équipe souhaite rejoindre ses joueurs durant un intervalle alors que deux conseillers sont déjà présents de ce côté, l'un des deux doit quitter le terrain et ses abords immédiats.
+
+Q ija-088 | D: 2 | R: REGLES Instr. 3.5.18.3
+Un entraîneur a tenu des propos gravement insultants envers un arbitre depuis sa chaise. Au-delà des mesures immédiates sur place, que doit faire le juge-arbitre ?
+- Rien de plus, l'incident étant clos
+- Infliger un carton rouge au joueur conseillé
++ Informer l'institution sportive de cette violation grave du code de conduite des conseillers, entraîneurs et éducateurs par son rapport, ou par un rapport d'incident si nécessaire
+- Demander au club de l'entraîneur de régler le problème en interne
+> Instruction 3.5.18.3 : le juge-arbitre informe l'institution sportive de toute violation grave ou flagrante du code de conduite des conseillers, entraîneurs et éducateurs par le biais de son rapport (ou par un rapport d'incident, si nécessaire).
+
+Q ija-089 | D: 2 | R: REGLES Instr. 3.5.19.1
+Le juge-arbitre prépare l'échéancier du lendemain. Certains joueurs ne sont pas encore connus, car des matchs sont en cours. Que prévoient les instructions ?
+- Attendre que tous les joueurs soient connus pour publier, même tard dans la nuit
+- Publier le matin même, à l'ouverture de la salle
++ Publier le plus tôt possible le jour précédent, même si certains joueurs ne sont pas encore connus, mais pas avant que l'ordre des matchs (et, si nécessaire, les affectations de terrains) soit finalisé
+- Publier immédiatement un ordre provisoire, puis le modifier au fil de la soirée
+> Instruction 3.5.19.1 : l'échéancier du jour suivant devrait être publié le plus tôt possible le jour précédent, même si l'identité de certains joueurs n'est pas connue, mais pas avant que l'ordre des matchs et, si nécessaire, les affectations par terrains soient finalisés ; le juge-arbitre vérifie que la version publique est identique à celle du logiciel.
+
+Q ija-090 | D: 2 | R: REGLES Instr. 3.5.28
+Quelles heures le juge-arbitre doit-il consigner dans son rapport selon les instructions ? Cochez les réponses exactes.
+- L'heure d'arrivée de chaque joueur dans la salle
++ L'heure de publication de l'échéancier du lendemain
+- L'heure de chaque changement de volant
++ L'heure de fin de chaque journée de compétition
+> Instructions 3.5.19.1 et 3.5.28 : le juge-arbitre enregistre dans son rapport l'heure à laquelle l'échéancier du lendemain est publié et l'heure de la fin de la journée de compétition.
+
+Q ija-091 | D: 2 | R: REGLES Instr. 3.5.19.3 | L: JAFA JAFC
+La télévision demande que le match d'un joueur vedette soit programmé en début de soirée sur le terrain filmé. Comment le juge-arbitre traite-t-il cette demande ?
+- Il la refuse systématiquement : l'échéancier ne tient compte que des aspects sportifs
++ Il la négocie dans la mesure du possible, à condition qu'aucun préjudice injustifié ne soit causé à un joueur
+- Il l'accepte dans tous les cas, quelles qu'en soient les conséquences pour les joueurs
+- Il la soumet au vote des joueurs concernés
+> Instruction 3.5.19.3 : les demandes de la télévision concernant l'ordre des matchs et les affectations par terrains devraient être négociées, dans la mesure du possible, à condition qu'aucun préjudice injustifié ne soit causé à un joueur.
+
+Q ija-092 | D: 3 | R: REGLES Instr. 3.5.19.4
+Lors d'un tournoi jeunes, l'organisateur propose au juge-arbitre de réduire le temps de repos minimal entre les matchs pour tenir l'horaire. Que répond le juge-arbitre ?
+- Il accepte, le temps de repos minimal ne s'appliquant pas aux tournois jeunes
++ Il refuse : tout joueur a droit au temps de repos minimal, y compris dans les tournois jeunes, et le juge-arbitre doit même s'efforcer de prévoir un repos plus long
+- Il accepte, à condition de l'annoncer au micro
+- Il accepte uniquement pour les matchs de poule
+> Instruction 3.5.19.4 : tout joueur a droit à un minimum de repos entre deux matchs (cf. RGC), y compris dans les tournois jeunes, par équipes jeunes, de Para-badminton et les phases qualificatives ; le juge-arbitre s'efforce de prévoir un repos plus long. RGC 2.16 : ce temps (20 à 30 minutes) ne peut être réduit qu'à la demande expresse de l'intéressé ou en cas de nombre réduit de points par set.
+
+Q ija-093 | D: 2 | R: REGLES Instr. 3.5.19.6
+Pour quelle raison les instructions invitent-elles le juge-arbitre à alterner les tableaux dans un intervalle de temps donné lors de l'élaboration de l'échéancier ?
+- Pour réduire la consommation de volants
+- Pour que les joueurs d'un même club ne se croisent pas
+- Pour respecter l'ordre alphabétique des tableaux
++ Pour maximiser l'intérêt des spectateurs et la présentation générale
+> Instruction 3.5.19.6 : dans la mesure du possible, penser à organiser une alternance des tableaux dans un intervalle de temps donné afin de maximiser l'intérêt des spectateurs et la présentation générale. Le RGC (3.3.1.3) prévoit aussi d'alterner tableaux et séries pour éviter les interruptions dues au temps de repos.
+
+Q ija-094 | D: 2 | R: REGLES Instr. 3.5.21.1 | L: JALC JAFA JAFC
+Pour la journée des finales, le nombre de terrains est réduit. Qui approuve la reconfiguration de l'aire de jeu et quel en est l'objectif ?
+- L'organisateur seul ; l'objectif est de réduire les coûts de location
++ Le juge-arbitre ; l'objectif est d'offrir la présentation la plus attrayante pour les spectateurs et la télévision, en utilisant au mieux l'espace libéré
+- Les finalistes ; l'objectif est leur confort personnel
+- L'annonceur ; l'objectif est de faciliter les annonces
+> Instructions 3.5.21 et 3.5.21.1 : le juge-arbitre approuve toute reconfiguration de l'aire de jeu pour les demi-finales et finales ; lorsque le nombre de terrains est réduit, l'objectif est de fournir la présentation la plus attrayante pour les spectateurs et la télévision et d'utiliser au mieux l'espace supplémentaire.
+
+Q ija-095 | D: 2 | R: REGLES Instr. 3.5.21.2 | L: JALC JAFA JAFC
+Pour les finales, les procédures d'entrée et de sortie des joueurs sur l'aire de jeu sont modifiées. À qui le juge-arbitre doit-il communiquer ces changements ?
+- Uniquement aux joueurs finalistes
+- Uniquement au comité d'organisation
++ Aux arbitres, aux juges de ligne et à l'annonceur
+- Aux spectateurs, par voie d'affichage
+> Instruction 3.5.21.2 : tout changement dans les procédures d'entrées et de sorties est communiqué aux arbitres et aux juges de ligne, ainsi qu'à l'annonceur.
+
+Q ija-096 | D: 2 | R: REGLES Instr. 3.5.20 | L: JAFA JAFC
+Des personnalités (VIP) sont attendues pour les demi-finales et les finales. Que doit faire le juge-arbitre ?
+- Rien : la présence de VIP ne concerne que l'organisateur
++ Vérifier s'il y a des changements dans les procédures de sécurité ou les exigences d'accréditation, et les communiquer aux autres officiels techniques
+- Avancer l'horaire des finales pour libérer la salle plus tôt
+- Désigner en priorité des arbitres de la région des VIP
+> Instruction 3.5.20 : le juge-arbitre vérifie et communique aux autres officiels techniques s'il y a des changements dans les procédures de sécurité ou les exigences d'accréditation pour les demi-finales et les finales en raison de la présence de VIP.
+
+Q ija-097 | D: 1 | R: REGLES Instr. 3.5.25
+Que prévoient les instructions à la fin de chaque journée de compétition pour le juge-arbitre et ses adjoints ?
+- Une réunion avec l'ensemble des joueurs
++ Un débriefing entre eux et, le cas échéant, avec d'autres intervenants (par exemple le directeur du tournoi)
+- La rédaction et l'envoi du rapport final
+- Aucune action particulière
+> Instruction 3.5.25 : à la fin de chaque journée de compétition, le juge-arbitre et ses adjoints débriefent entre eux et avec d'autres intervenants, le cas échéant (par exemple le directeur du tournoi).
+
+Q ija-098 | D: 2 | R: REGLES Instr. 3.5.27
+À la fin de chaque journée de compétition, que doit-il advenir du fichier du logiciel du tournoi ?
+- Il est effacé pour repartir d'un fichier vierge le lendemain
++ Il est publié, et une copie de sauvegarde est envoyée à l'institution sportive et à l'équipe des juges-arbitres
+- Il est conservé uniquement sur l'ordinateur de la table de marque
+- Il n'est transmis qu'à la fin du tournoi
+> Instruction 3.5.27 : le juge-arbitre s'assure que le fichier du logiciel du tournoi est publié et qu'une copie de sauvegarde est envoyée à l'institution sportive et à l'équipe des juges-arbitres à la fin de chaque journée de compétition.
+
+Q ija-099 | D: 1 | R: REGLES Instr. 3.5.24
+Concernant les cérémonies de remise des prix, quel est le rôle du juge-arbitre ?
+- Aucun : elles relèvent exclusivement de l'organisateur
++ S'assurer auprès des organisateurs du plan des cérémonies et y participer sur demande
+- Remettre lui-même toutes les récompenses
+- Choisir les récompenses de chaque tableau
+> Instruction 3.5.24 : le juge-arbitre s'assure auprès des organisateurs du plan des cérémonies de remise des prix et y participe sur demande ; il veille aussi à la tenue des joueurs et à l'absence d'objets non autorisés ou d'accompagnants sur le podium.
+
+Q ija-100 | D: 1 | R: REGLES Instr. 3.6.1
+Depuis la table de marque, le juge-arbitre remarque qu'un joueur boite fortement depuis plusieurs échanges, sans que l'arbitre ne l'ait appelé. Peut-il se rendre sur le terrain ?
+- Non : il doit attendre d'être appelé par l'arbitre
+- Non : seul le joueur concerné peut demander sa venue
++ Oui : le juge-arbitre est appelé par l'arbitre ou intervient de sa propre initiative pour traiter les cas de blessures, de maladies ou d'incidents
+- Oui, mais uniquement si l'adversaire le demande
+> Instruction 3.6.1 : le juge-arbitre sera appelé sur le terrain par l'arbitre ou interviendra de sa propre initiative pour traiter les cas de blessures, de maladies ou d'incidents, ainsi que les problèmes de vitesse des volants, si nécessaire.
+
+Q ija-101 | D: 2 | R: REGLES Instr. 3.6.1.6
+Un joueur se rompt le tendon d'Achille en plein échange ; il ne fait aucun doute qu'il ne peut pas continuer. Que prévoient les instructions ?
+- Le médecin examine le joueur, puis on attend que celui-ci décide lui-même s'il poursuit le match
+- L'arbitre chronomètre le retard et laisse au joueur quelques minutes avant d'annoncer l'abandon
++ Le processus régulier n'est pas suivi : le médecin du tournoi prodigue les premiers soins nécessaires jusqu'à ce que le joueur puisse être transporté à l'hôpital
+- Le joueur doit d'abord quitter le terrain par ses propres moyens pour ne pas retarder les autres matchs
+> Instruction 3.6.1.6 : dans le cas d'une blessure grave, où il ne fait aucun doute que le joueur ne peut pas continuer, le processus régulier ne doit pas être pris en compte et le médecin du tournoi doit fournir les premiers soins nécessaires jusqu'à ce que le joueur puisse être transporté à l'hôpital.
+
+Q ija-102 | D: 1 | R: REGLES Instr. 3.6.1.7
+Des kinésithérapeutes sont à la disposition des joueurs dans une salle annexe du gymnase. Que doit faire le juge-arbitre de cette information ?
++ En être informé et en informer les responsables d'équipes
+- Rien : la kinésithérapie relève exclusivement de l'organisateur
+- La communiquer uniquement aux joueurs qui se blessent en cours de match
+- En réserver l'accès aux officiels techniques
+> Instruction 3.6.1.7 : le juge-arbitre doit être informé de toute action de kinésithérapie ou des installations pour les kinésithérapeutes disponibles au tournoi et informer les responsables d'équipes.
+
+Q ija-103 | D: 2 | R: REGLES Instr. 3.6.1.8 | L: JAFA JAFC
+Selon les instructions, pourquoi un service médical local doit-il être disponible en tout temps pendant le tournoi, en plus du médecin du tournoi ?
+- Parce que le médecin du tournoi ne s'occupe que des officiels techniques
+- Parce que le médecin du tournoi ne peut intervenir qu'en dehors de l'aire de jeu
+- Pour réaliser les contrôles antidopage à la place des agents habilités
++ Parce que le médecin du tournoi n'est peut-être pas autorisé à pratiquer la médecine dans le pays hôte : ce service répond aux cas de maladie parmi les joueurs et les officiels
+> Instruction 3.6.1.8 : étant donné que le médecin du tournoi n'est peut-être pas autorisé à pratiquer la médecine dans le pays hôte, un service médical local doit être disponible en tout temps pour répondre aux cas de maladie parmi les joueurs et les officiels ; le juge-arbitre transmet les informations pertinentes aux responsables d'équipes.
+
+Q ija-104 | D: 3 | R: REGLES Instr. 3.6.2.1
+Appelé sur un terrain pour un incident, le juge-arbitre s'entretient avec l'arbitre au bord du terrain. Pendant ce temps, le serveur se met en position et sert. Que prévoient les instructions ?
+- Le jeu continue normalement : seul l'arbitre peut suspendre le jeu
+- L'échange est valable puisque l'arbitre n'a pas annoncé « Arrêt »
++ Le jeu est réputé suspendu pendant que le juge-arbitre est sur le terrain ou à proximité, sauf s'il informe l'arbitre et les joueurs autrement
+- Le serveur reçoit automatiquement un carton jaune pour retard de jeu
+> Instruction 3.6.2.1 : pendant que le juge-arbitre est sur le terrain ou à proximité de celui-ci, le jeu est réputé suspendu, à moins que le juge-arbitre n'informe l'arbitre et les joueurs autrement.
+
+Q ija-105 | D: 3 | R: REGLES Instr. 3.6.2.1
+Appelé sur un terrain pour un incident, le juge-arbitre a entendu l'arbitre et le juge de service, mais il a besoin de la version d'un juge de ligne pour résoudre la situation. Comment procède-t-il ?
+- Il quitte le terrain pour aller interroger le juge de ligne, et le jeu reprend entre-temps
+- Il demande aux joueurs de lui rapporter ce qu'a vu le juge de ligne
++ Il fait appeler le juge de ligne sur le terrain et reste normalement sur le terrain jusqu'à ce que la situation soit résolue
+- Il ne peut se fonder que sur la version de l'arbitre et doit renoncer à toute autre information
+> Instruction 3.6.2.1 : en arrivant, le juge-arbitre parle d'abord à l'arbitre (et si nécessaire au juge de service), puis aux joueurs ; si des informations provenant d'autres sources sont nécessaires, ce personnel doit être appelé sur le terrain, le juge-arbitre restant normalement sur le terrain jusqu'à ce que la situation soit résolue.
+
+Q ija-106 | D: 3 | R: REGLES Instr. 3.6.2.2
+Lors d'un tournoi par équipes, le juge-arbitre disqualifie un joueur pour mauvaise conduite pendant la deuxième rencontre de son équipe. Quelles conséquences prévoient les instructions ? Cochez les réponses exactes.
++ Le joueur est disqualifié de tous les matchs futurs de ce tournoi par équipes
+- Le joueur pourra de nouveau être aligné dès la rencontre suivante de son équipe
++ Le juge-arbitre peut recommander un processus disciplinaire dans son rapport
+- L'équipe entière est automatiquement disqualifiée du tournoi
+> Instruction 3.6.2.2 : si le juge-arbitre décide de disqualifier un joueur, ce joueur est disqualifié pour tous les tableaux du tournoi et, dans un tournoi par équipes, de tous les matchs futurs dudit tournoi par équipes ; un processus disciplinaire peut être recommandé dans le rapport du juge-arbitre.
+
+Q ija-107 | D: 1 | R: REGLES Instr. 3.7.3
+Sans attendre le rapport complet, que le juge-arbitre doit-il envoyer à l'institution sportive immédiatement après le tournoi ?
+- Le bilan financier du tournoi
++ Le rapport sur les retraits et sur les cartons jaunes et rouges, qui pourront déclencher d'autres sanctions
+- La liste des arbitres proposés pour une promotion
+- Les feuilles de match de tous les tours
+> Instruction 3.7.3 : le juge-arbitre enverra immédiatement après le tournoi, à l'institution sportive, le rapport sur les retraits, les cartons jaunes et rouges, qui pourront déclencher d'autres sanctions. Le rapport complet suit dans les cinq jours (instruction 3.7.4).
+
+Q ija-108 | D: 2 | R: REGLES Instr. 3.7.4.1
+Selon les instructions, que doit contenir le rapport du juge-arbitre ? Cochez les réponses exactes.
+- Le compte rendu exhaustif de chaque match, sans hiérarchisation des faits
++ Les informations pouvant être utiles pour d'autres tournois dans le même lieu ou par le même organisateur
+- Les coordonnées personnelles de tous les joueurs inscrits
++ Des remarques sur le respect du cahier des charges et sur d'éventuelles modifications à y apporter
+> Instruction 3.7.4.1 : le rapport contient tous les détails pertinents mais se concentre sur ce qui était significatif pour le tournoi, met en évidence les informations pertinentes pour d'autres tournois dans le même lieu ou par le même organisateur, et contient des remarques quant au respect du cahier des charges et à d'éventuelles modifications à y apporter.
+
+Q ija-109 | D: 2 | R: REGLES Instr. 3.7.4.2
+Le juge-arbitre adjoint tarde à transmettre ses remarques et le rapport du juge-arbitre risque de partir hors délai. Qui est responsable de la livraison dans les délais et du contenu du rapport ?
+- Le juge-arbitre adjoint, pour la partie qui le concerne
+- Le comité d'organisation
++ Le juge-arbitre, même s'il doit consulter son ou ses adjoints lors de la rédaction
+- L'institution sportive qui a désigné les officiels
+> Instruction 3.7.4.2 : lors de la rédaction du rapport, le juge-arbitre doit consulter son (ses) adjoint(s) ; cependant, la responsabilité de la livraison dans les délais et du contenu du rapport demeure celle du juge-arbitre.
+
+Q ija-110 | D: 2 | R: REGLES Instr. 3.8.1
+Un tournoi par équipes n'est couvert par aucun règlement spécifique de la fédération ou de la ligue. Où doivent figurer les conditions d'inscription, la méthode de compétition et les modalités du tirage au sort ?
++ Dans le règlement particulier du tournoi
+- Nulle part : le juge-arbitre les fixe oralement le jour de la compétition
+- Dans la convocation de chaque équipe, rédigée librement par l'organisateur
+- Dans le rapport du juge-arbitre de l'édition précédente
+> Instruction 3.8.1 : un tournoi par équipes est régi par des règlements spécifiques émis par la fédération ou les ligues (inscriptions, méthode de compétition, tirage au sort, etc.) ; en l'absence de tels règlements, le règlement particulier du tournoi doit contenir ces termes et conditions.
+
+Q ija-111 | D: 2 | R: REGLES Instr. 3.8.1.1
+Un tournoi par équipes débute par une phase de poules. Son règlement spécifique ne dit rien de l'organisation des poules. Quelles règles s'appliquent ?
+- Celles que les capitaines d'équipe fixent d'un commun accord avant la première rencontre
++ Les règlements de la compétition générale de la fédération pour les poules et les groupes
+- Celles que propose le club organisateur le jour même
+- Aucune : le juge-arbitre tranche chaque situation au tirage au sort
+> Instruction 3.8.1.1 : les tournois par équipes sont souvent joués sous forme de poules et de groupes, au moins lors de la phase initiale, et les règlements de la compétition générale de la fédération pour les poules et les groupes s'appliquent sauf indication contraire.
+
+Q ija-112 | D: 1 | R: REGLES Instr. 3.8.3
+Dans un tournoi par équipes, quelles tâches relèvent de la responsabilité du juge-arbitre selon les instructions ? Cochez les réponses exactes.
+- Choisir les joueurs de chaque équipe pour chaque match de la rencontre
++ Approuver le classement des équipes et la désignation des têtes de série
++ Effectuer le tirage au sort, ou en vérifier le résultat
++ Approuver le calendrier global des matchs du tournoi
+> Instruction 3.8.3 : le juge-arbitre est responsable d'approuver le classement des équipes, la désignation des têtes de série, le tirage au sort (ou de vérifier son résultat) et le calendrier global des matchs. Il s'assure aussi que les inscriptions et nominations sont conformes aux règlements (3.8.2), mais la composition des équipes appartient aux équipes.
+
+Q ija-113 | D: 2 | R: REGLES Instr. 3.8.4
+Le règlement d'un tournoi par équipes ne précise ni quand ni comment chaque équipe doit communiquer ses joueurs pour les différents matchs d'une rencontre. Que prévoient les instructions ?
+- Chaque équipe communique sa composition quand elle le souhaite, jusqu'à l'appel du premier match
+- Les deux capitaines s'entendent librement entre eux avant chaque rencontre
+- L'équipe qui reçoit fixe seule le moment et la méthode
++ Le juge-arbitre décide du moment et de la méthode de ces nominations et communique sa décision lors de la réunion des responsables d'équipes
+> Instruction 3.8.4 : sauf si cela est stipulé dans les règlements, le juge-arbitre décide du moment et de la méthode de la nomination des équipes pour les matchs individuels au sein de l'équipe et communique la décision aux responsables d'équipes lors de la réunion des responsables d'équipes.
+
+Q ija-114 | D: 1 | R: REGLES Instr. 3.8.5.2
+Dans un tournoi par équipes, le juge-arbitre a fixé l'ordre des matchs d'une rencontre à partir des compositions remises. À qui doit-il le communiquer ?
+- Uniquement à l'équipe qui reçoit
++ Aux équipes et aux membres du comité d'organisation chargés de sa publication
+- Uniquement aux arbitres de la rencontre
+- À personne avant l'appel du premier match, pour éviter les calculs tactiques
+> Instructions 3.8.5 et 3.8.5.2 : sur la base des nominations, le juge-arbitre décide de l'ordre de jeu (en suivant le processus prévu par les règlements s'il existe) ; une fois décidé, il communique l'ordre des matchs aux équipes et aux membres du comité d'organisation responsables de la publication ultérieure.
+
+Q ija-115 | D: 3 | R: REGLES Instr. 3.8.6 | L: JALC JAFA JAFC
+Dans un tournoi par équipes dont le règlement spécifique ne prévoit rien sur les remplacements, un joueur nommé pour le simple tombe malade avant son premier match de la rencontre. Le juge-arbitre peut-il autoriser un remplaçant ?
+- Oui, n'importe quel joueur de l'équipe, quel que soit son classement
+- Oui, mais uniquement un joueur mieux classé, pour ne pas affaiblir l'équipe
+- Non : aucun remplacement n'est possible une fois les compositions remises
++ Oui, si le juge-arbitre estime que le joueur est réellement malade et si le remplaçant est moins bien classé que lui, à la date de classement prévue par le règlement
+> Instruction 3.8.6 : sauf stipulation contraire, avant le premier match d'un joueur dans une rencontre, le juge-arbitre peut autoriser un remplaçant pour un joueur qui, de son avis, est atteint d'une maladie, d'une blessure ou d'un autre impondérable inévitable, à condition que le joueur ou la paire de remplacement soit moins bien classé (selon la date de classement prévue par le règlement) que le joueur ou la paire à remplacer.
+
+Q ija-116 | D: 3 | R: REGLES Instr. 3.8.6.2 | L: JALC JAFA JAFC
+Dans un tournoi par équipes, le juge-arbitre a autorisé le remplacement d'un joueur blessé avant son premier match de la rencontre. Quelles affirmations sont exactes ? Cochez les réponses exactes.
+- Le joueur remplacé est exclu de toutes les rencontres suivantes du tournoi
++ Le joueur remplacé pourra jouer de nouveau lors d'une rencontre ultérieure du tournoi
+- L'équipe peut profiter du remplacement pour recomposer librement toutes ses paires
++ Toute paire non affectée par le remplacement reste inchangée
+- Le joueur remplacé peut revenir dans la même rencontre une fois rétabli
+> Instructions 3.8.6.1 et 3.8.6.2 : toute paire non affectée par la substitution doit rester inchangée ; un joueur substitué ne participera pas à cette rencontre, mais pourra jouer de nouveau lors d'une rencontre ultérieure dans le tournoi par équipes.
+
+Q ija-117 | D: 1 | R: REGLES Instr. 4.1.1.2
+Un juge-arbitre expérimenté laisse entièrement la gestion du logiciel du tournoi à la table de marque et n'en connaît pas le fonctionnement. Est-ce conforme aux conseils généraux sur le juge-arbitrage ?
+- Oui : le logiciel relève exclusivement de la table de marque
+- Oui, dès lors que son adjoint maîtrise le logiciel
++ Non : le juge-arbitre doit être familiarisé avec les outils informatiques de gestion de tournoi et leur fonctionnement
+- Oui, pour les tournois de moins de 7 terrains
+> Instruction 4.1.1.2 : le juge-arbitre doit être familiarisé avec les outils informatiques de gestion de tournoi et leur fonctionnement. Il doit aussi connaître les règles du badminton (4.1.1) et rester à jour sur les règlements fédéraux et le code de conduite des officiels techniques (4.1.1.1).
+
+Q ija-118 | D: 1 | R: REGLES Instr. 4.1.2.2
+Selon les conseils généraux, quelle attitude le juge-arbitre, représentant la FFBaD, doit-il adopter en matière de ponctualité et de tenue ?
+- Être ponctuel lui-même, la ponctualité des autres officiels relevant du comité d'organisation
+- Adapter sa tenue à celle des joueurs pour faciliter le contact
++ Donner l'exemple : être ponctuel et exiger la ponctualité des autres, s'habiller correctement et demander aux autres officiels techniques d'en faire de même
+- Exiger une tenue correcte des arbitres, sa propre tenue étant libre
+> Instruction 4.1.2.2 : le juge-arbitre, représentant la FFBaD, doit donner l'exemple ; il doit être ponctuel et exiger la ponctualité des autres, s'habiller correctement et demander aux autres officiels techniques d'en faire de même.
+
+Q ija-119 | D: 2 | R: REGLES Instr. 4.1.3.1
+Le juge-arbitre confie à son adjoint la gestion des forfaits du samedi. Une erreur est commise dans la promotion d'un joueur de la liste de réserve. Selon les conseils généraux, qu'en est-il de la responsabilité ?
++ La délégation était possible mais devait être suivie : la responsabilité finale incombe au juge-arbitre
+- La responsabilité incombe entièrement à l'adjoint, puisque la tâche lui avait été déléguée
+- Le juge-arbitre n'avait pas le droit de déléguer cette tâche
+- La responsabilité incombe au comité d'organisation
+> Instruction 4.1.3.1 : le juge-arbitre peut déléguer des tâches à d'autres officiels techniques ; cependant, la délégation doit être suivie et la responsabilité finale incombe au juge-arbitre.
+
+Q ija-120 | D: 2 | R: REGLES Instr. 4.1.4.2
+En cours de session, le juge-arbitre constate que les juges de ligne d'un terrain sont éblouis par un projecteur mal orienté. Que lui demandent les conseils généraux sur le juge-arbitrage ?
+- Rien : l'éclairage relève uniquement du gestionnaire de la salle
+- Demander aux juges de ligne de s'adapter jusqu'à la fin du tournoi
++ Faire corriger la situation, car il est responsable de fournir aux officiels techniques des conditions leur permettant de remplir leurs fonctions de manière sûre et efficace
+- Supprimer définitivement les juges de ligne sur ce terrain
+> Instruction 4.1.4.2 : le juge-arbitre est responsable de fournir à tous les officiels techniques des conditions qui leur permettront de remplir leurs fonctions de manière sûre et efficace (et, 4.1.4.1, de fournir aux joueurs de bonnes conditions de jeu en toute sécurité).
+
+Q ija-121 | D: 1 | R: REGLES Instr. 4.2.1
+Pourquoi les conseils généraux demandent-ils au juge-arbitre d'être disponible et accessible pour les responsables d'équipes, les officiels techniques et les autres intervenants ?
+- Pour pouvoir leur déléguer ses décisions
+- Pour limiter le nombre de réclamations écrites à traiter après le tournoi
+- Pour que les joueurs puissent négocier directement leur horaire avec lui
++ Pour qu'ils se sentent à l'aise de présenter leurs questions, commentaires ou réclamations, ce qui améliore généralement son processus de prise de décision
+> Instruction 4.2.1 : le juge-arbitre doit être disponible et accessible, de sorte que les responsables d'équipes, les officiels techniques et les autres intervenants soient encouragés et se sentent à l'aise de présenter leurs questions, commentaires ou réclamations ; cette approche facilite et améliore généralement son processus de prise de décision.
+
+Q ija-122 | D: 2 | R: REGLES Instr. 4.2.3
+Dès le matin, le juge-arbitre prévoit que la zone d'échauffement sera trop petite lors de la session chargée de l'après-midi. Quelle attitude préconisent les conseils généraux ?
+- Attendre les premières plaintes des joueurs pour agir
++ Anticiper et prendre des mesures préventives pour résoudre le problème avant qu'il ne se matérialise ou ne dégénère
+- Se contenter de le mentionner dans son rapport
+- Demander aux joueurs de s'échauffer à l'extérieur, sans en informer les responsables d'équipes
+> Instruction 4.2.3 : afin de minimiser la survenance de plaintes justifiées, le juge-arbitre doit anticiper et prévenir les problèmes potentiels et prendre des mesures préventives pour résoudre les problèmes avant qu'ils ne se matérialisent ou ne dégénèrent.
+
+Q ija-123 | D: 3 | R: REGLES Instr. 4.2.4
+Plusieurs responsables d'équipes se plaignent d'une disposition réglementaire que le juge-arbitre ne peut pas modifier, et le problème n'a pas pu être résolu pendant le tournoi. Que préconisent les conseils généraux ?
+- Appliquer une règle aménagée de sa propre initiative pour la suite du tournoi
+- Classer les plaintes sans suite, puisqu'elles portent sur le règlement
++ Le signaler à la fédération, par le biais du rapport du juge-arbitre ou autrement, car cela peut indiquer la nécessité d'une révision des règles ou règlements
+- Faire voter les responsables d'équipes sur une modification applicable immédiatement
+> Instruction 4.2.4 : les plaintes insatisfaites et les problèmes qui ne peuvent pas être résolus au tournoi peuvent indiquer la nécessité d'une révision des règles ou règlements et doivent être signalés à la fédération par le biais du rapport du juge-arbitre ou autrement.
+
+Q ija-124 | D: 2 | R: REGLES Instr. 4.3.1
+Concernant les paris et les résultats de matchs irréguliers, quelle obligation particulière le juge-arbitre a-t-il envers les officiels techniques travaillant sous son autorité ?
+- Aucune : chaque officiel est seul responsable du respect des codes
++ Promouvoir auprès d'eux les dispositions relatives aux paris et aux résultats irréguliers, et observer qu'ils les respectent
+- Contrôler leurs comptes de paris en ligne avant chaque journée
+- Leur faire signer une attestation sur l'honneur avant chaque match
+> Instruction 4.3.1 : le juge-arbitre et tous les officiels techniques se conforment au code d'éthique et au code de conduite des officiels techniques ; en particulier, le juge-arbitre a l'obligation de promouvoir les dispositions relatives aux paris et aux résultats de matchs irréguliers auprès des officiels techniques travaillant sous son autorité et d'observer qu'ils respectent les dispositions des codes.
+
+Q ija-125 | D: 2 | R: REGLES Instr. 4.3.3.1
+Au titre de la prévention des matchs truqués, de quoi le juge-arbitre doit-il informer les responsables d'équipes ?
+- Des cotes proposées par les sites de paris sur les matchs du tournoi
++ Des règlements et contre-mesures de la fédération concernant les joueurs qui ne font pas de leur mieux, en particulier l'observation des matchs entre joueurs d'une même institution sportive
+- De la liste des joueurs soupçonnés de trucage
+- De l'interdiction de faire se rencontrer deux joueurs d'un même club
+> Instruction 4.3.3.1 : le juge-arbitre doit informer les responsables d'équipes des règlements et contre-mesures de la fédération en place concernant les joueurs qui ne font pas de leur mieux, en particulier les dispositions pour l'observation des matchs entre joueurs d'une même institution sportive.
+
+Q ija-126 | D: 3 | R: REGLES Instr. 4.4.1
+Un photographe de presse souhaite s'installer au bord d'un terrain, à un emplacement qui masquerait la vue d'un juge de ligne. Comment le juge-arbitre traite-t-il cette demande ?
+- Il accepte : les médias sont prioritaires pour la promotion du tournoi
+- Il interdit toute présence de photographe sur l'aire de jeu pendant le tournoi
++ Il l'aide à obtenir de bonnes conditions de travail, mais pas à cet emplacement, qui compromettrait les conditions de travail du juge de ligne
+- Il laisse l'organisateur décider seul, les médias ne relevant pas de lui
+> Instruction 4.4.1 : le juge-arbitre aide à fournir des conditions de travail adéquates aux journalistes, photographes et personnel de télévision, sans compromettre la santé et la sécurité des joueurs, les conditions de travail des officiels techniques ou les conditions de jeu. Il fait aussi respecter les directives fédérales pour le personnel des médias (4.4.2).
+
+Q ija-127 | D: 2 | R: REGLES Instr. 4.4.3
+Un journaliste pose au juge-arbitre une question technique sur une décision prise lors d'un match. Aucun personnel de communication fédéral n'est présent sur le tournoi. Que prévoient les instructions ?
+- Le juge-arbitre refuse de répondre : les officiels techniques ne s'expriment jamais devant les médias
+- Il renvoie le journaliste vers l'arbitre du match concerné
++ Le juge-arbitre, au nom de tous les officiels techniques, répond lui-même aux questions techniques des médias liées au tournoi
+- Il demande au joueur concerné de répondre à sa place
+> Instruction 4.4.3 : le juge-arbitre, au nom de tous les officiels techniques, aidera le personnel de communication fédérale à répondre aux questions techniques des médias liées au tournoi ou, en leur absence, répondra à ces questions.

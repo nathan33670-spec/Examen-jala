@@ -17,10 +17,26 @@ tous les règlements officiels consultables hors ligne.
 
 ## Fonctionnalités
 
-- **506 questions** (QCM à une ou plusieurs réponses) réparties en 12 thèmes, chacune avec son
-  explication et un lien vers l'article du règlement concerné.
-- **Entraînement** avec répétition espacée (les questions ratées reviennent plus souvent),
-  filtres par thème, « à revoir », favoris, et un **mode oral** (flashcards) pour l'oral JALC.
+- **Banque de questions** (QCM à une ou plusieurs réponses) couvrant tous les chapitres utiles du
+  Guide du Badminton, chacune avec son explication et un lien vers l'article du règlement concerné.
+- **Séries sans répétition** : chaque utilisateur parcourt toute la banque dans un ordre qui lui est
+  propre ; une question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16
+  et 35 jours après des bonnes réponses successives). Les examens blancs font passer en dernier les
+  questions déjà tombées.
+- **Modes de jeu** :
+  - *Série intelligente* (10, 20 ou 40 questions, filtrables par thème) ;
+  - *Défi du jour* : 10 questions, les mêmes pour tous les candidats d'un grade ce jour-là ;
+  - *Match en 3×15* : chaque bonne réponse marque un point, chaque erreur en donne un à
+    l'adversaire ; tableau d'affichage, zone de service, intervalle à 8 points, prolongation à 14-14
+    et point décisif à 20-20, 30 s par question ;
+  - *Contre-la-montre* (90 s, une erreur coûte 5 s) et *Mort subite* (3 vies), avec records ;
+  - *Score & service* : questions générées à l'infini (score de set valide ou non, zone de service
+    en simple et en double, intervalles et changement de côté, service au set suivant), calculées
+    à partir des règles 7, 8, 10, 11 et 16.2 ;
+  - *Mode oral* (flashcards) pour l'oral JALC, *Mes erreurs*, *Favoris*.
+- **Progression ludique** : points d'expérience et niveaux (de « Ramasseur de volants » à « Légende
+  du volant »), série de jours d'entraînement, objectif quotidien, 29 badges, confettis, sons et
+  vibrations désactivables. L'XP motive mais n'entre pas dans la jauge de préparation.
 - **Examens blancs** par grade : chronomètre, navigation entre questions, questions marquées,
   correction détaillée, résultats par thème. Barème et seuil conformes aux conditions connues
   (voir plus bas), personnalisables si votre ligue communique d'autres modalités.
@@ -38,7 +54,7 @@ tous les règlements officiels consultables hors ligne.
   officielles du badminton (texte lisible et cherchable hors ligne, PDF officiels téléchargeables),
   14 fiches de synthèse, un glossaire et une recherche globale.
 - **Mode hors ligne** : l'application, les questions et le texte des règlements sont mis en cache
-  dès la première visite (≈ 1,5 Mo) ; un bouton télécharge en plus les PDF officiels (≈ 17 Mo).
+  dès la première visite ; un bouton télécharge en plus les PDF officiels (≈ 17 Mo).
 - **Bot de mise à jour** : une action GitHub vérifie deux fois par semaine le Guide du Badminton
   publié par la FFBaD, intègre les nouvelles versions et signale les questions à relire.
 - Aucune donnée personnelle envoyée : la progression reste sur l'appareil (export/import possible).
@@ -135,9 +151,14 @@ questions et fiches en tiennent compte.
 Le contenu est rédigé en texte simple dans [`content/`](content/) puis compilé :
 
 ```bash
+python scripts/doc_text.py 03.01                      # texte d'un règlement (pour rédiger)
+python scripts/check_questions.py content/questions/03-rgc.txt   # contrôle d'un lot de questions
 python scripts/build_site.py          # génère docs/data/*.json et met à jour le cache hors ligne
 python scripts/build_site.py --check  # vérifie que tout est à jour (utilisé par la CI)
 ```
+
+`check_questions.py` signale les erreurs de format, les identifiants en double, les articles
+introuvables dans le texte du règlement cité et les questions trop proches d'une question existante.
 
 Format d'une question (`content/questions/*.txt`) :
 
@@ -168,9 +189,14 @@ HTML (`content/fiches/*.html`) et le glossaire un fichier `Terme :: définition`
 
 ```bash
 python -m unittest discover -s tests -v          # bot, cohérence du contenu
+node --test tests/engine.test.mjs                # sélection sans répétition, score 3×15, XP et badges
 python -m http.server -d docs 8765 &              # serveur local
 node tests/smoke.mjs http://localhost:8765/      # parcours complet dans Chromium (Playwright)
 ```
+
+Le parcours de bout en bout joue chaque mode (série, défi du jour, match, contre-la-montre, mort
+subite, score & service, oral, examen blanc), vérifie qu'aucune question ne revient entre deux
+séries, puis teste les cas pratiques, les règlements, le cache et le fonctionnement hors ligne.
 
 La CI ([`ci.yml`](.github/workflows/ci.yml)) exécute ces contrôles à chaque push.
 

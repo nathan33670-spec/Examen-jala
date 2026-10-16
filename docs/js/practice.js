@@ -2,7 +2,9 @@
 import { esc, shuffle, richText, icons, pct } from './ui.js';
 import { state, save, recordCase, LEVELS } from './store.js';
 import { getCases, getPractice } from './data.js';
-import { isCorrect } from './quiz.js';
+import { isCorrect } from './qcommon.js';
+import { rewardActivity } from './reward.js';
+import { confetti } from './fx.js';
 import { practiceScore } from './gauge.js';
 
 const svg = (name) => icons[name].replace('<svg', '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"');
@@ -100,7 +102,13 @@ export async function renderCase(main, id) {
       draw();
     } else if (b.dataset.act === 'next') {
       run.step += 1;
-      if (run.step >= c.steps.length) recordCase(c.id, run.answers.filter((x) => x.ok).length / c.steps.length);
+      if (run.step >= c.steps.length) {
+        const score = run.answers.filter((x) => x.ok).length / c.steps.length;
+        const first = !state.cases[c.id];
+        recordCase(c.id, score);
+        if (score === 1) confetti(80);
+        rewardActivity(Math.round(10 + 30 * score) + (first ? 10 : 0), { active: false });
+      }
       draw();
       window.scrollTo(0, 0);
     } else if (b.dataset.act === 'restart') {
@@ -262,6 +270,8 @@ export function renderPouleDrill(main) {
       if (ok) state.drills.poule.ok += 1;
       save();
       draw(true);
+      if (ok) confetti(60);
+      rewardActivity(ok ? 15 : 3, { active: false });
     }
     if (b.dataset.act === 'new') renderPouleDrill(main);
   };

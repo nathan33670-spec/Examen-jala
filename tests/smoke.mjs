@@ -25,36 +25,160 @@ const go = async (hash) => {
   await page.waitForTimeout(400);
 };
 
-await step('accueil et choix du grade', async () => {
+const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('prepa-ja-v1')));
+const play = () => page.evaluate(() => JSON.parse(sessionStorage.getItem('prepa-ja-play') || 'null'));
+
+/** Répond à la question affichée : juste (good = true) ou fausse, d'après la banque de questions. */
+async function answer(good = true) {
+  await page.locator('.qcard .choice').first().waitFor();
+  const s = await play();
+  const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
+  const q = qdata.questions.find((x) => x.id === s.cur.id) || s.extra?.[s.cur.id];
+  const targets = good ? q.answer : [q.choices.findIndex((_, i) => !q.answer.includes(i))];
+  for (const ci of targets) await page.locator(`.qcard .choice[data-choice="${ci}"]`).click();
+  if (q.type === 'multiple') await page.locator('[data-act="validate"]').click();
+  await page.locator('.feedback').waitFor();
+}
+
+await step('premier lancement : grade et objectif quotidien', async () => {
   await page.goto(base);
-  await page.evaluate(() => localStorage.clear());
+  await page.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
   await page.reload();
   await page.getByText('Quel grade préparez-vous ?').waitFor();
   await page.locator('[data-onboard="JALC"]').click();
+  await page.locator('[data-goal="10"]').click();
+  await page.locator('#go').click();
+  await page.locator('.player-card').waitFor();
   await page.locator('.readiness').waitFor();
   if ((await page.textContent('#levelPill')).trim() !== 'JALC') throw new Error('grade non mémorisé');
+  if ((await store()).settings.dailyGoal !== 10) throw new Error('objectif non mémorisé');
 });
 
-await step('entraînement : répondre à une question', async () => {
+await step('série intelligente : réponse, XP, badge, bilan', async () => {
+  await page.locator('.cta-continue').click();
+  await answer(true);
+  await page.waitForTimeout(400);
+  const st = await store();
+  if (Object.keys(st.q).length !== 1) throw new Error('réponse non enregistrée');
+  if (!(st.game.xp > 0)) throw new Error('XP non attribuée');
+  if (!st.game.badges.first) throw new Error('badge « Premier volant » non attribué');
+  await page.locator('[data-act="next"]').click();
+  for (let i = 1; i < 10; i += 1) {
+    await answer(i % 3 !== 0);
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.locator('.end-card').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  if ((await store()).game.streak.cur !== 1) throw new Error('journée non comptée dans la série');
+});
+
+await step('pas de répétition entre deux séries', async () => {
   await go('#/entrainement');
-  await page.locator('#start').click();
-  await page.locator('.choice').first().waitFor();
-  await page.locator('.choice').first().click();
-  await page.locator('[data-act="validate"]').click();
-  await page.locator('.explain').waitFor();
-  await page.waitForTimeout(300);
-  const stats = await page.evaluate(() => Object.keys(JSON.parse(localStorage.getItem('prepa-ja-v1')).q).length);
-  if (stats !== 1) throw new Error(`réponse non enregistrée (${stats})`);
+  await page.locator('[data-start="smart"]').click();
+  for (let i = 0; i < 10; i += 1) {
+    await answer(true);
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.locator('.end-card').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  const seen = Object.keys((await store()).q).length;
+  if (seen !== 20) throw new Error(`questions répétées : ${seen} questions distinctes sur 20 réponses`);
+});
+
+await step('revoir mes erreurs', async () => {
+  await page.locator('[data-act="retry"]').click({ timeout: 3000 }).catch(async () => {
+    await go('#/entrainement');
+    await page.locator('[data-start="retry"]').click();
+  });
+  await answer(true);
   await page.locator('[data-act="quit"]').click();
-  await page.getByText('Bilan de la série').waitFor();
+  await page.locator('.end-card').waitFor();
 });
 
 await step('mode oral', async () => {
   await go('#/entrainement');
-  await page.locator('#oral').check();
-  await page.locator('#start').click();
+  await page.locator('[data-start="oral"]').click();
   await page.locator('[data-act="reveal"]').click();
   await page.locator('[data-act="oral-ok"]').click();
+  await page.locator('[data-act="reveal"]').waitFor();
+  await page.waitForTimeout(400);
+  if ((await store()).game.counters.oral !== 1) throw new Error('réponse orale non comptée');
+});
+
+await step('défi du jour', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="daily"]').click();
+  for (let i = 0; i < 10; i += 1) {
+    await answer(true);
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.locator('.end-card').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  const st = await store();
+  const d = Object.values(st.game.daily)[0];
+  if (!d || d.good !== 10) throw new Error('défi du jour non enregistré');
+  if (!st.game.badges.dailyPerfect) throw new Error('badge « Sans faute » manquant');
+});
+
+await step('match en 3×15 : score, intervalle, victoire', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="match"]').click();
+  await page.locator('.scoreboard').waitFor();
+  await answer(false);
+  await page.locator('[data-act="next"]').click();
+  for (let i = 0; i < 15; i += 1) {
+    await answer(true);
+    if (i === 7 && !(await page.getByText('Intervalle').count())) throw new Error('intervalle à 8 points non signalé');
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.getByText('Set gagné !').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  const st = await store();
+  if (st.game.records.matchWins !== 1) throw new Error('victoire non enregistrée');
+});
+
+await step('contre-la-montre : fin du temps et record', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="chrono"]').click();
+  await page.locator('#clock').waitFor();
+  await answer(true);
+  await page.waitForTimeout(900);
+  await answer(true);
+  await page.evaluate(() => {
+    const s = JSON.parse(sessionStorage.getItem('prepa-ja-play'));
+    s.deadline = Date.now() - 1000;
+    sessionStorage.setItem('prepa-ja-play', JSON.stringify(s));
+  });
+  await page.reload();
+  await page.getByText('Nouveau record !').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  const rec = Object.entries((await store()).game.records).find(([k]) => k.startsWith('chrono|'));
+  if (!rec || rec[1] < 2) throw new Error('record non enregistré');
+});
+
+await step('mort subite : trois vies', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="survival"]').click();
+  await answer(true);
+  for (let i = 0; i < 3; i += 1) {
+    await page.locator('[data-act="next"]').click();
+    await answer(false);
+  }
+  await page.locator('[data-act="next"]').click();
+  await page.locator('.end-card').waitFor();
+  await page.getByText('1 bonne réponse').waitFor();
+});
+
+await step('score & service : questions générées', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="score"]').click();
+  for (let i = 0; i < 15; i += 1) {
+    await answer(true);
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.getByText('15/15').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  if (Object.keys((await store()).q).some((id) => id.startsWith('gen-'))) throw new Error('question générée enregistrée dans la banque');
 });
 
 await step('examen blanc : démarrer, répondre, terminer', async () => {
@@ -71,8 +195,8 @@ await step('examen blanc : démarrer, répondre, terminer', async () => {
   await page.locator(`.qnav button >> nth=${total - 1}`).click();
   await page.locator('[data-act="submit"]').click();
   await page.getByText('Correction détaillée').waitFor();
-  const exams = await page.evaluate(() => JSON.parse(localStorage.getItem('prepa-ja-v1')).exams.length);
-  if (exams !== 1) throw new Error('examen non enregistré');
+  const st = await store();
+  if (st.exams.length !== 1) throw new Error('examen non enregistré');
 });
 
 await step('cas pratique complet', async () => {
@@ -128,6 +252,8 @@ await step('fiches, glossaire, recherche', async () => {
 await step('progression, conditions, réglages, hors-ligne', async () => {
   await go('#/progression');
   await page.getByText('Comment la jauge est calculée').waitFor();
+  await page.locator('.bdg-card.got').first().waitFor();
+  await page.locator('.act-col').first().waitFor();
   await go('#/conditions');
   await go('#/reglages');
   await go('#/hors-ligne');
@@ -153,7 +279,8 @@ await step('fonctionnement hors ligne', async () => {
   await page.goto(base + '#/doc/07.04');
   await page.locator('.reader p').first().waitFor();
   await go('#/entrainement');
-  await page.locator('#start').waitFor();
+  await page.locator('[data-start="smart"]').click();
+  await page.locator('.qcard .choice').first().waitFor();
   await context.setOffline(false);
 });
 

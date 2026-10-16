@@ -1,0 +1,1214 @@
+# Championnat de France Interclubs (ICN) : règlement 04.07 et annexes (dispositions, amendes, déroulement, phases finales, poules, identité), formulaires, modalités 04.00.A01.
+@theme interclubs
+@doc 04.07
+@levels JALC JAFA JAFC
+
+Q ic2-001 | D: 1 | R: 04.07 1
+Pour la saison 2026-2027, quel système de score est appliqué aux matchs du Championnat de France Interclubs ?
+- 2 sets gagnants de 21 points
++ 2 sets gagnants de 15 points
+- 3 sets gagnants de 11 points
+- 1 set unique de 21 points
+> GdB 04.07 §1 : pour la saison 2026/2027, le système de score est en 2 sets gagnants de 15 points, conformément au score standard en vigueur au 1er septembre 2026.
+
+Q ic2-002 | D: 1 | R: 04.07 1
+Comment est définie la « semaine » d'interclubs en ICN ?
+- Du samedi au vendredi suivant
+- Les 7 jours qui précèdent la journée
++ Du lundi au dimanche, incluant la date de la journée définie dans Poona
+- Du vendredi au jeudi suivant la journée
+> GdB 04.07 §1 : la « semaine » d'interclubs est définie du lundi au dimanche, incluant la date de la journée définie dans Poona. C'est cette semaine qui sert à appliquer la règle « une seule équipe du club par semaine » (§10).
+
+Q ic2-003 | D: 1 | R: 04.07 1 | L: JAFA JAFC
+Combien de journées comporte la saison régulière du Championnat de France Interclubs dans chaque division ?
+- 7 journées
+- 14 journées
++ 10 journées, en rencontres aller-retour
+- 5 journées, en rencontres aller simple
+> GdB 04.07 §1 : dans toutes les divisions, le championnat se déroule sur 10 journées par rencontres aller-retour pour la saison régulière, suivies d'une journée supplémentaire de phase finale.
+
+Q ic2-004 | D: 2 | R: 04.07 1
+Qui statue en première instance sur les réserves et réclamations déposées lors d'une rencontre d'ICN ?
+- Le juge-arbitre de la rencontre
+- La commission régionale des officiels techniques
+- La commission nationale d'examen des réclamations et litiges
++ La commission fédérale chargée de la gestion du Championnat de France Interclubs
+> GdB 04.07 §1 et §23 : la commission chargée de l'interclubs statue en première instance sur les réserves et réclamations ; l'appel de ses décisions est ensuite porté devant la commission nationale d'examen des réclamations et litiges (§24).
+
+Q ic2-005 | D: 2 | R: 04.07 3 | L: JAFA JAFC
+Combien d'équipes d'un même club peuvent participer au Championnat de France Interclubs ?
+- Deux équipes au maximum dans chaque division
++ Une seule dans le championnat Élite ; deux au maximum dans le championnat National, avec au maximum une équipe par division
+- Une seule équipe, toutes divisions confondues
+- Sans limite, à condition que les joueurs soient différents
+> GdB 04.07 §3 : une seule équipe d'un même club est autorisée en Élite (Top 12 / N1) ; deux équipes d'un même club sont autorisées en National (N2 / N3), avec au maximum une équipe par division.
+
+Q ic2-006 | D: 3 | R: 04.07 3 | L: JAFA JAFC
+L'équipe 1 d'un club est reléguée de N2 en N3, division où évolue déjà l'équipe 2 du même club, classée 2e de sa poule. Que se passe-t-il pour l'équipe 2 ?
+- Elle se maintient en N3 et les deux équipes cohabitent dans la division
+- Elle est promue en N2 à la place de l'équipe 1
++ Elle est également reléguée, quel que soit son classement en N3
+- La commission désigne celle des deux équipes qui reste en N3
+> GdB 04.07 §3 : si une équipe est reléguée dans une division où une autre équipe du même club est déjà présente, cette dernière est aussi reléguée quel que soit son classement dans la division inférieure.
+
+Q ic2-007 | D: 2 | R: 04.07 3 | L: JAFA JAFC
+Selon le chapitre 3 du règlement ICN, quelle sanction encourt une équipe qualifiée pour une phase finale qui déclare forfait pour cette phase ?
+- Un simple avertissement
++ La rétrogradation dans la division inférieure et l'amende pour « forfait sur une journée »
+- Le forfait général avec annulation de tous ses résultats de la saison
+- Le seul paiement d'une consignation de 80 €
+> GdB 04.07 §3 : l'équipe forfait pour une phase finale est rétrogradée dans la division inférieure et est passible de l'amende pour « forfait sur une journée » (760 € selon l'annexe 02).
+
+Q ic2-008 | D: 2 | R: 04.07 4 | L: JAFA JAFC
+Le championnat a débuté. Une équipe de N3 a été forfait lors de la 2e journée ; elle est de nouveau forfait lors de la 6e journée. Quelle est la conséquence ?
+- Elle perd 3 points de pénalité au classement général
+- Rien de plus, car les deux forfaits ne sont pas successifs
+- Elle est rétrogradée de deux divisions
++ Elle est automatiquement déclarée forfait général
+> GdB 04.07 §4 : une fois le championnat débuté, une équipe est automatiquement déclarée forfait général en étant forfait sur 2 rencontres, successives ou non ; elle subit l'amende pour forfait général et n'est pas remplacée.
+
+Q ic2-009 | D: 3 | R: 04.07 4 | L: JAFA JAFC
+Une équipe est déclarée forfait général en cours de saison. Quelles affirmations sont exactes ?
++ Elle est classée dernière de sa poule et reléguée en division inférieure à la fin de la saison
+- Les résultats individuels de ses joueurs sont annulés pour le classement
++ Toutes ses rencontres sont annulées, ainsi que les amendes, bonus et pénalités sportives de ces rencontres
+- Elle est remplacée par l'équipe classée première de la division inférieure
+> GdB 04.07 §4 : l'équipe est classée dernière et reléguée ; toutes ses rencontres sont annulées avec les amendes (remboursées), bonus et pénalités de ces rencontres ; en revanche, les résultats et sanctions individuels des joueurs sont maintenus et l'équipe n'est pas remplacée.
+
+Q ic2-010 | D: 1 | R: 04.07 5.1 | L: JAFA JAFC
+À quelle date un club engagé en ICN doit-il satisfaire ses obligations de structuration (juge-arbitre actif, école de badminton labellisée, arbitre et encadrant par équipe) ?
+- Au 1er septembre de la saison en cours
+- À la date limite d'inscription des équipes
++ Au 1er février de la saison en cours
+- À la dernière journée de la saison régulière
+> GdB 04.07 §5.1 : chaque club participant a l'obligation de compter, au 1er février de la saison en cours, un juge-arbitre actif, une école de badminton labellisée et, pour chaque équipe, un arbitre licencié au club et un encadrant diplômé ; la commission vérifie ces informations sur Poona à compter de cette date.
+
+Q ic2-011 | D: 2 | R: 04.07 5.1
+Au titre des obligations de structuration, quel arbitre un club doit-il compter parmi ses licenciés pour chacune de ses équipes de N2 ou N3 ?
+- Un arbitre de grade Fédéral Accrédité minimum
+- Un arbitre de grade Ligue Certifié minimum
++ Un arbitre actif de grade Ligue Accrédité minimum, distinct du juge-arbitre du club
+- Aucun arbitre n'est exigé en N2 et N3
+> GdB 04.07 §5.1 : pour la N2 et la N3, un arbitre actif de grade Ligue Accrédité minimum (distinct du JA du club) et un diplômé d'État (BE1, DE) ; pour le Top 12 et la N1, un arbitre Ligue Certifié minimum et un BE2/DES.
+
+Q ic2-012 | D: 3 | R: 04.07 13
+Lors d'une rencontre de N2, l'arbitre fourni par l'équipe visiteuse est de grade arbitre de Ligue Accrédité. Qu'en est-il ?
+- Il est conforme : Ligue Accrédité est le grade minimum en N2 et N3
+- L'équipe visiteuse perd la rencontre par forfait
+- Il est conforme si le capitaine adverse l'accepte
++ Il est insuffisamment gradé : l'arbitre fourni en N2 et N3 doit être au minimum Ligue Certifié, et l'équipe est passible d'une amende
+> GdB 04.07 §13 : les équipes fournissent pour chaque journée un arbitre au minimum Fédéral Accrédité en N1 et Ligue Certifié en N2 et N3 (ne pas confondre avec l'obligation de structuration du §5.1). L'annexe 02 prévoit 100 € d'amende pour un arbitre insuffisamment gradé (300 € à partir de la 2e infraction).
+
+Q ic2-013 | D: 1 | R: 04.07 5.2 | L: JAFA JAFC
+Une équipe vient d'être promue dans la division supérieure. De quels délais dispose-t-elle pour se mettre en règle avec les obligations de structuration de sa nouvelle division ?
+- Un an pour l'ensemble des obligations
+- Deux ans pour l'arbitre ; un an pour le juge-arbitre et l'entraîneur
++ Un an pour l'arbitre ; deux ans pour le juge-arbitre et l'entraîneur
+- Aucun délai : les obligations s'appliquent dès la promotion
+> GdB 04.07 §5.2 : une équipe promue dans une division supérieure dispose d'un an pour l'arbitre et de deux ans pour le juge-arbitre et l'entraîneur.
+
+Q ic2-014 | D: 2 | R: 04.07 5.1 | L: JAFA JAFC
+Quelles sont les conséquences du non-respect, par un club, des obligations de structuration du chapitre 5 ? (plusieurs réponses)
++ L'équipe ne peut pas monter en division supérieure, même si son classement le permet
+- L'équipe perd toutes ses rencontres de la saison par forfait
++ Le club est passible d'une amende
+- L'équipe est rétrogradée dès la fin de la première saison de non-respect
+> GdB 04.07 §5.1 : en cas de non-respect, l'équipe ne peut pas monter et le club est passible d'une amende (1 500 € selon l'annexe 02) ; ce n'est qu'au bout de deux saisons de non-respect que l'équipe est rétrogradée.
+
+Q ic2-015 | D: 1 | R: 04.07 6
+Selon le règlement ICN, de quelles catégories d'âge les équipes peuvent-elles être composées ?
+- Seniors et vétérans uniquement
+- Juniors, seniors et vétérans uniquement
++ Minimes, cadets, juniors, seniors et vétérans
+- Toutes catégories, dès les benjamins
+> GdB 04.07 §6 : les équipes peuvent être composées de joueurs minimes, cadets, juniors, seniors ou vétérans.
+
+Q ic2-016 | D: 2 | R: 04.07 6
+Quelles affirmations relatives au classement exigé des joueurs en ICN sont exactes ? (plusieurs réponses)
++ En Top 12 et en N1, tous les joueurs sont classés de niveau National dans au moins une discipline
+- Un joueur classé P dans les trois disciplines peut être aligné en N3
++ En N2 et en N3, tous les joueurs sont classés de niveau National, Régional ou Départemental dans au moins une discipline
+- En N1, il suffit d'être classé R4 dans les trois disciplines
+> GdB 04.07 §6 : en Top 12 et N1, joueurs classés de niveau National dans au moins une discipline ; en N2 et N3, classés National, Régional ou Départemental dans au moins une discipline. Un joueur classé P partout ne peut donc pas jouer en ICN.
+
+Q ic2-017 | D: 2 | R: 04.07 6
+Un joueur est classé R4 en simple, R5 en double et R5 en mixte. Dans quelles divisions du Championnat de France Interclubs peut-il être aligné ?
+- Dans toutes les divisions
+- En N3 uniquement
++ En N2 et en N3 uniquement
+- Dans aucune division
+> GdB 04.07 §6 : le Top 12 et la N1 exigent un classement de niveau National dans au moins une discipline ; en N2 et N3, un classement National, Régional ou Départemental dans au moins une discipline suffit.
+
+Q ic2-018 | D: 2 | R: 04.07 6
+Une équipe de N2 inscrit 8 joueurs sur sa feuille de composition d'équipe. Combien de JIFF doit-elle compter au minimum ?
++ 5
+- 4
+- 6
+- 3
+> GdB 04.07 §6 : en N2/N3, au minimum 60 % de JIFF sur la feuille de composition d'équipe ; le tableau du règlement donne, pour 8 joueurs, 5 JIFF et 3 non-JIFF au maximum (4/4 en Top 12 et N1, où le quota est de 50 %).
+
+Q ic2-019 | D: 2 | R: 04.07 6 | L: JAFA JAFC
+Une équipe de Top 12 inscrit 7 joueurs sur sa feuille de composition d'équipe. Combien de joueurs non JIFF peut-elle compter au maximum ?
+- 4
++ 3
+- 2
+- 1
+> GdB 04.07 §6 : en Top 12 et N1, au minimum 50 % de JIFF ; pour 7 joueurs, le tableau du règlement prévoit 4 JIFF et 3 non-JIFF.
+
+Q ic2-020 | D: 3 | R: 04.07 6
+Un joueur a été licencié compétiteur actif à la FFBaD pendant deux saisons, en catégorie cadet, puis a joué 8 ans à l'étranger avant de revenir en France. Est-il JIFF ?
+- Non, il lui faut au moins 10 ans de licence à la FFBaD
+- Non, car il a joué à l'étranger la saison précédente
+- Oui, mais seulement s'il est de nationalité française
++ Oui, car il a été licencié compétiteur actif à la FFBaD en catégorie minimes ou cadets
+> GdB 04.07 §6 : est JIFF le joueur qui a été licencié compétiteur actif à la FFBaD en catégorie minimes ou cadets, OU pendant au moins 10 ans. Les deux critères sont alternatifs ; la notion de JIFF est indépendante de la nationalité et de celle de muté (§11).
+
+Q ic2-021 | D: 3 | R: 04.07 6
+Une joueuse a joué en ICN avec le club A lors des premières journées, puis a obtenu en cours de saison une mutation vers le club B, également engagé en ICN. Peut-elle jouer en ICN pour le club B cette saison ?
+- Oui, dès que sa mutation est validée
+- Oui, mais uniquement dans une division inférieure à celle du club A
++ Non : au cours d'une même saison, un joueur ne peut représenter deux clubs différents dans le Championnat de France Interclubs
+- Oui, si le club A donne son accord écrit
+> GdB 04.07 §6 (art. 6.1.5) : nonobstant les dispositions du règlement des mutations, un joueur ne peut représenter deux clubs différents au cours de la même saison. L'annexe 02 prévoit alors un point de pénalité, les matchs perdus par forfait et la suspension du joueur pour le reste de la saison d'interclubs.
+
+Q ic2-022 | D: 1 | R: 04.07 7.1
+Au plus tard quand un joueur participant à une journée d'ICN doit-il être en règle (autorisation de jouer, classement officialisé, mutation) ?
+- Le jour même de la rencontre, avant le contrôle d'identité
+- La veille de la rencontre
++ Le vendredi précédant la semaine comprenant ladite journée
+- 15 jours avant la journée
+> GdB 04.07 §7.1 : tout joueur participant à une journée d'interclubs est en règle au plus tard le vendredi précédant la semaine comprenant ladite journée (autorisation de jouer, classement, mutation, classement conforme au chapitre 6).
+
+Q ic2-023 | D: 1 | R: 04.07 7.1
+Hors cas du « joker médical », quelle est la date limite de validation de la licence d'un joueur dans le club engagé en ICN ?
+- Le 30 septembre de la saison en cours
++ Le 31 octobre de la saison en cours
+- Le 31 décembre de la saison en cours
+- Le 1er février de la saison en cours
+> GdB 04.07 §7.1 : la date limite de validation de la licence dans le club engagé est fixée au 31 octobre de la saison en cours, excepté pour les joueurs ayant obtenu le statut de « joker médical » (§7.4).
+
+Q ic2-024 | D: 3 | R: 04.07 7.2 | L: JAFA JAFC
+Un joueur dispute un tournoi BWF la même semaine qu'une journée d'ICN prévue le samedi. Il est éliminé du simple le jeudi, après avoir abandonné sur blessure. Peut-il jouer la journée d'ICN ?
+- Oui, car il a été éliminé avant le vendredi
+- Oui, avec l'accord du juge-arbitre de la rencontre
+- Oui, mais uniquement en double
++ Non : en simple, l'élimination ne doit pas être la conséquence d'un forfait ou d'un abandon
+> GdB 04.07 §7.2 : le joueur doit avoir été éliminé au plus tard le vendredi précédant la journée et, en tableau de simple, cette élimination ne doit pas être la conséquence d'un forfait (volontaire ou involontaire) ou d'un abandon. En double, la commission prend position au cas par cas.
+
+Q ic2-025 | D: 2 | R: 04.07 7.2 | L: JAFA JAFC
+Un joueur inscrit à une compétition internationale (calendrier BE ou BWF) la même semaine qu'une journée d'ICN peut participer à cette journée dans quels cas ? (plusieurs réponses)
++ S'il n'est plus engagé sur la compétition internationale au plus tard lors de la réunion des responsables d'équipe de celle-ci
+- S'il prévient le juge-arbitre de la rencontre la veille
++ S'il a été éliminé au plus tard le vendredi précédant la journée, sans que cette élimination en simple résulte d'un forfait ou d'un abandon
+- S'il a perdu au premier tour, quel que soit le jour de son élimination
+> GdB 04.07 §7.2 : deux cas possibles : ne plus être engagé au plus tard lors de la réunion des responsables d'équipe de la compétition internationale, ou avoir été éliminé au plus tard le vendredi précédant la journée (en simple, pas à la suite d'un forfait ou d'un abandon). Il ne peut alors jouer que cette journée de championnat.
+
+Q ic2-026 | D: 2 | R: 04.07 7.3 | L: JAFA JAFC
+Quelle condition un joueur doit-il remplir pour pouvoir être aligné lors d'une phase finale d'ICN ?
+- Avoir joué au moins un match lors de chacune des journées de la saison régulière
++ Avoir figuré, sur au moins 50 % des rencontres de la saison régulière, sur la feuille de présence validée par le JA en ICN ou sur la feuille de rencontre en championnat régional interclubs
+- Avoir figuré sur la feuille de présence d'au moins trois rencontres
+- Aucune condition particulière, s'il est licencié au club au 31 octobre
+> GdB 04.07 §7.3 : un joueur ne peut être aligné lors d'une phase finale que s'il remplit, sur un nombre équivalent à au moins 50 % des rencontres de la saison régulière, l'une des conditions suivantes ou une combinaison : présence sur la feuille de présence validée par le JA en ICN, ou présence sur la feuille de rencontre en championnat régional interclubs.
+
+Q ic2-027 | D: 3 | R: 04.07 7.3 | L: JAFA JAFC
+Pour la condition de participation à une phase finale, les feuilles de présence de rencontres annulées à la suite du forfait général d'une équipe sont-elles prises en compte ?
++ Non, elles ne sont pas prises en compte
+- Oui, comme toute feuille de présence validée par le JA
+- Oui, uniquement si le joueur a effectivement joué un match
+- Oui, si la rencontre s'est déroulée jusqu'à son terme
+> GdB 04.07 §7.3 : la signature des feuilles de présence des rencontres annulées suite à un forfait général n'est pas prise en compte pour atteindre le seuil de 50 % des rencontres de la saison régulière.
+
+Q ic2-028 | D: 2 | R: 04.07 7.4 | L: JAFA JAFC
+Une demande de remplacement par un « joker médical » pour blessure ou maladie doit respecter quelles conditions ? (plusieurs réponses)
++ Porter sur une indisponibilité égale ou supérieure à 12 semaines
+- Être déposée auprès du juge-arbitre de la rencontre le jour de la journée
++ Être faite au plus tard 15 jours avant la date programmée de la sixième journée
+- Porter sur une indisponibilité d'au moins 4 semaines
+> GdB 04.07 §7.4 : la demande est faite auprès de la commission fédérale chargée de l'interclubs, porte sur une indisponibilité égale ou supérieure à 12 semaines, est faite au maximum 15 jours avant la date programmée de la sixième journée et comporte un dossier médical complet.
+
+Q ic2-029 | D: 3 | R: 04.07 7.4 | L: JAFA JAFC
+La joueuse retenue comme « joker médical » a une cote CPPH supérieure à celle de la joueuse remplacée en double, mais inférieure en simple et en mixte. Dans quelles disciplines peut-elle jouer ?
+- Dans les trois disciplines
+- Uniquement en double
++ Uniquement en simple et en mixte
+- Dans aucune discipline : sa candidature doit être refusée
+> GdB 04.07 §7.4 : si une ou plusieurs cotes CPPH (ou rankings BWF) du « joker médical » sont plus élevées que celles de la personne remplacée, le joker ne peut jouer que la ou les disciplines où ses cotes ou rankings sont inférieurs.
+
+Q ic2-030 | D: 3 | R: 04.07 7.4 | L: JAFA JAFC
+La joueuse remplacée par un « joker médical » reprend la compétition en disputant un tournoi à l'étranger. Que devient le joker médical ?
+- Il peut continuer à jouer jusqu'à la fin de la saison régulière
+- Il peut continuer tant que la joueuse remplacée ne rejoue pas en interclubs
++ Il ne peut plus participer à aucune rencontre interclubs, quel que soit le niveau, sauf la phase finale sous conditions
+- Il peut jouer en interclubs régionaux uniquement
+> GdB 04.07 §7.4 : dès que la personne remplacée rejoue en compétition, quel que soit le niveau, en France ou à l'étranger, le joker médical ne peut plus participer à aucune rencontre interclubs, à l'exception de la phase finale s'il remplit les conditions de l'article 7.3 et que la personne remplacée ne les remplit pas.
+
+Q ic2-031 | D: 2 | R: 04.07 7.4 | L: JAFA JAFC
+Pour une joueuse enceinte remplacée par un « joker médical », quelle période d'indisponibilité est prise en compte ?
+- De la déclaration de grossesse jusqu'à l'accouchement
++ Du 3e mois de grossesse (ou de la fourniture d'un justificatif antérieur) jusqu'à 3 mois après la date présumée d'accouchement
+- 12 semaines à compter de la date de la demande
+- Toute la saison, sans justificatif
+> GdB 04.07 §7.4 : la durée d'indisponibilité prise en compte démarre au 3e mois de grossesse (ou à partir de la fourniture de tout justificatif avant le 3e mois) et se termine 3 mois après la date présumée d'accouchement.
+
+Q ic2-032 | D: 2 | R: 04.07 7.4 | L: JAFA JAFC
+Quelle condition le joueur proposé comme « joker médical » doit-il remplir au moment de la demande ?
+- Être licencié dans le club demandeur depuis au moins un an
+- Être JIFF
+- Avoir un classement supérieur à celui du joueur remplacé
++ Ne pas être licencié dans un club (demandeur ou autre) participant au Championnat de France interclubs ou à un championnat régional interclubs
+> GdB 04.07 §7.4 : le « joker médical » ne doit pas, au moment de la demande, être licencié dans un club (club demandeur ou autre club) participant au Championnat de France interclubs ou à un championnat régional interclubs.
+
+Q ic2-033 | D: 1 | R: 04.07 7.5 | L: JAFA JAFC
+Qu'est-ce qu'un « Joueur Ultramarin Autorisé » (JUA) en ICN ?
++ Un joueur ultramarin résidant en métropole, autorisé à évoluer en ICN tout en conservant sa licence dans un club ultramarin
+- Un joueur licencié outre-mer autorisé à jouer sans contrôle d'identité
+- Un joueur de métropole autorisé à jouer pour un club ultramarin
+- Un joueur étranger qualifié par dérogation de la commission
+> GdB 04.07 §7.5 : les joueurs ultramarins résidant en métropole peuvent évoluer en Championnat de France interclubs tout en conservant leur licence dans un club ultramarin, en obtenant le statut de JUA (article 8.6 du règlement des mutations).
+
+Q ic2-034 | D: 2 | R: 04.07 8 | L: JAFA JAFC
+Pour estimer la valeur d'une équipe (chapitre 8), combien de points vaut un joueur classé N2 en simple, N3 en double et R4 en mixte, aligné uniquement en double mixte ?
++ 48 points
+- 39 points
+- 30 points
+- 117 points, somme des trois disciplines
+> GdB 04.07 §8 : pour chaque joueur, la valeur retenue est celle qui rapporte le plus de points (N2 = 48, N3 = 39, R4 = 30), quelle que soit la discipline jouée. Le règlement cite cet exemple : le joueur vaut 48 points car il est N2 en simple.
+
+Q ic2-035 | D: 2 | R: 04.07 8 | L: JAFA JAFC
+Comment s'apprécie la valeur de l'équipe d'un club au sens du chapitre 8 du règlement ICN ?
+- Par la somme des valeurs des joueurs de la déclaration de présence
+- Par la valeur du meilleur joueur de l'équipe
++ Par la moyenne des valeurs de l'ensemble des joueurs inscrits sur la composition d'équipe et ayant effectivement joué
+- Par la moyenne des valeurs des joueurs présents, qu'ils aient joué ou non
+> GdB 04.07 §8 : la valeur de l'équipe s'apprécie selon le barème en tenant compte de la moyenne de l'ensemble des joueurs inscrits sur la composition d'équipe et ayant effectivement joué.
+
+Q ic2-036 | D: 3 | R: 04.07 8 | L: JAFA JAFC
+Au cours d'une même semaine, l'équipe 2 d'un club (N3) présente une valeur globale supérieure à celle de l'équipe 1 du même club (N2). Quelle est la sanction ?
+- Seule l'équipe 2 perd sa rencontre par forfait
+- Un point de pénalité pour l'équipe 1 seulement
+- Aucune : la valeur des équipes n'est pas réglementée
++ Les deux équipes perdent leurs rencontres par forfait pour cette journée
+> GdB 04.07 §8 : une équipe d'une division inférieure ne peut en aucun cas avoir, la même semaine, une valeur globale supérieure à celle d'une équipe du même club évoluant dans une division supérieure ; en cas d'infraction, les deux équipes perdent leurs rencontres par forfait pour une même journée (annexe 02 : « erreur de hiérarchie équipe »).
+
+Q ic2-037 | D: 3 | R: 04.07 8 | L: JAFA JAFC
+Pour le calcul de la valeur d'une équipe incomplète, comment sont comptabilisés les joueurs manquants ?
+- Ils sont ignorés : la moyenne ne porte que sur les joueurs présents
+- Pour la valeur moyenne des joueurs présents
++ Pour zéro point, jusqu'à obtenir une composition minimum de 3 hommes et 3 femmes
+- Pour 1 point chacun (valeur d'un P12)
+> GdB 04.07 §8 : quand une équipe est incomplète, les joueurs et joueuses manquants sont comptabilisés pour zéro point jusqu'à obtenir une composition minimum de 3 hommes et 3 femmes.
+
+Q ic2-038 | D: 2 | R: 04.07 9
+Deux joueurs d'une même équipe ont exactement le même CPPH en simple. Comment est déterminé celui qui joue le SH1 ?
+- Le plus âgé joue le SH1
+- Le juge-arbitre procède à un tirage au sort
++ Le capitaine choisit, à chaque rencontre, la hiérarchie de ses joueurs
+- Le classement de la saison précédente les départage
+> GdB 04.07 §9 : à CPPH égal, le capitaine a le choix, à chaque rencontre, de la hiérarchie de ses joueurs ou paires.
+
+Q ic2-039 | D: 3 | R: 04.07 9
+En N2, la paire mixte A est composée de joueurs ayant 1 200 et 600 points au CPPH de mixte ; la paire mixte B, de joueurs ayant 950 et 900 points. Quelle paire doit jouer le double mixte 1 ?
++ La paire B, car la somme de ses points dans la discipline (1 850) est supérieure à celle de la paire A (1 800)
+- La paire A, car elle comprend le joueur le mieux classé
+- Au choix du capitaine, les écarts étant faibles
+- La paire dont la joueuse est la mieux classée
+> GdB 04.07 §9 : la hiérarchie des paires en double est établie en additionnant les points CPPH de chaque joueur dans la discipline de double concernée ; seule l'égalité parfaite laisse le choix au capitaine.
+
+Q ic2-040 | D: 3 | R: 04.07 10 | L: JAFA JAFC
+Un joueur a disputé quatre rencontres de saison régulière avec l'équipe de Top 12 de son club. Peut-il encore être aligné avec l'équipe du club évoluant en N2 ?
+- Non, le seuil de trois rencontres en division supérieure est dépassé
+- Oui, sans aucune limite de nombre de rencontres
+- Non, un joueur de Top 12 ne peut jamais jouer dans une autre division
++ Oui : pour le Top 12, l'interdiction ne s'applique qu'à partir de cinq rencontres (et sous réserve de ne pas jouer pour deux équipes la même semaine)
+> GdB 04.07 §10 : un joueur ayant participé à au moins trois rencontres dans une division supérieure ne peut plus jouer dans une division inférieure ; par exception, ce seuil est de cinq rencontres pour le Top 12. Un joueur ne peut jouer qu'avec une seule équipe de son club par semaine.
+
+Q ic2-041 | D: 2 | R: 04.07 10
+Un club a une équipe en N2 qui joue le samedi et une équipe en N3 qui joue le dimanche de la même semaine d'interclubs. Un joueur peut-il jouer le samedi en N2 puis le dimanche en N3 ?
+- Oui, car les rencontres ont lieu des jours différents
+- Oui, s'il n'a pas encore disputé trois rencontres en N2
++ Non : un joueur ne peut jouer qu'avec une seule équipe de son club par semaine en ICN
+- Oui, avec l'accord du juge-arbitre de la rencontre de N3
+> GdB 04.07 §10 : un joueur ne peut jouer qu'avec une seule équipe de son club par semaine en championnat de France interclubs, la semaine étant définie du lundi au dimanche (§1).
+
+Q ic2-042 | D: 1 | R: 04.07 11
+Un joueur non licencié en France la saison précédente a disputé des compétitions en Belgique cette saison-là. Comment est-il considéré pour le Championnat de France Interclubs ?
++ Comme un joueur muté
+- Comme un JIFF
+- Comme un joueur non qualifié pour toute la saison
+- Comme un joueur sans statut particulier
+> GdB 04.07 §11 : tout joueur non licencié en France et ayant participé à une compétition à l'étranger la saison précédente est considéré comme muté ; il entre donc dans le quota de 3 mutés au maximum par rencontre.
+
+Q ic2-043 | D: 3 | R: 04.07 16
+Une équipe aligne 4 joueurs mutés lors d'une rencontre, alors que le maximum est de 3. Lequel est considéré comme non qualifié ?
+- Le muté le mieux classé
+- Le muté le moins bien classé
++ Le dernier des quatre à avoir joué : les premiers joueurs à avoir joué sont considérés comme qualifiés
+- Les quatre mutés sont considérés comme non qualifiés
+> GdB 04.07 §16 : pour les cas de dépassement de quota (nombre de mutés alignés dépassé), on considère comme qualifié(s) le(s) premier(s) joueur(s) à avoir joué.
+
+Q ic2-044 | D: 2 | R: 04.07 12
+Un joueur abandonne son simple sur blessure. Il devait encore jouer le double mixte de la même rencontre. Que prévoit le règlement ?
+- Il peut jouer son mixte s'il se sent mieux entre-temps
+- Le mixte est automatiquement perdu par forfait, sans remplacement possible
+- Le juge-arbitre décide seul s'il peut jouer
++ Il ne peut pas être aligné sur son second match, mais il peut être remplacé selon les modalités du chapitre 14
+> GdB 04.07 §12 : un joueur ayant abandonné sur un match ne peut pas être aligné sur un 2e match de la même rencontre ; il peut toutefois être remplacé selon les modalités définies au §14.
+
+Q ic2-045 | D: 2 | R: 04.07 13
+Quels engagements le juge-arbitre proposé par une équipe lors de son inscription en ICN doit-il prendre ? (plusieurs réponses)
++ S'engager par écrit à officier au minimum sur deux journées dans la saison
+- Officier sur toutes les rencontres à domicile de l'équipe qui l'a proposé
++ Proposer au minimum quatre dates de disponibilité, dont au moins la moitié aux jours et horaires standard des rencontres
+- Être licencié dans le club de l'équipe, sans aucune dérogation possible
+> GdB 04.07 §13 : chaque équipe indique un JA (licencié dans son club ou, par dérogation, dans la même ligue) qui s'engage par écrit à officier au minimum sur deux journées, en proposant au moins quatre dates de disponibilité dont au moins la moitié aux jours et horaires standard (annexe 04, chapitre 8).
+
+Q ic2-046 | D: 2 | R: 04.07 13 | L: JAFA JAFC
+Un même juge-arbitre peut-il être proposé comme JA d'engagement par plusieurs équipes d'interclubs ?
+- Non, un JA ne peut représenter qu'une seule équipe
++ Oui, pour deux équipes au maximum, à condition de doubler ses engagements et disponibilités
+- Oui, sans limite, avec les mêmes engagements
+- Oui, pour trois équipes au maximum
+> GdB 04.07 §13 (et formulaire 02) : un même juge-arbitre peut représenter au maximum deux équipes d'interclubs, à condition de doubler ses engagements et disponibilités.
+
+Q ic2-047 | D: 1 | R: 04.07 13
+Qui prend en charge les indemnités et frais de déplacement du juge-arbitre d'une rencontre d'ICN, et qui prend en charge ses repas ?
++ La FFBaD prend en charge les indemnités et déplacements ; les repas sont à la charge de l'organisateur
+- Le club recevant prend tout en charge
+- Les deux clubs se partagent l'ensemble des frais
+- La ligue prend tout en charge
+> GdB 04.07 §13 : pour le JA désigné par la CFOT, indemnités, frais de déplacement et, le cas échéant, d'hébergement (sur demande préalable) sont à la charge de la FFBaD ; les repas sont à la charge de l'organisateur.
+
+Q ic2-048 | D: 1 | R: 04.07 13 | L: JAFA JAFC
+Quel arbitre une équipe de N1 doit-elle fournir pour chaque journée, à domicile comme en déplacement ?
+- Un arbitre de Ligue Accrédité minimum
+- Un arbitre de Ligue Certifié minimum
+- Aucun : les arbitres de N1 sont désignés par la CFOT
++ Un arbitre de grade Fédéral Accrédité minimum
+> GdB 04.07 §13 : les équipes fournissent un arbitre au minimum Fédéral Accrédité en N1 et Ligue Certifié en N2 et N3 ; seul le Top 12 voit ses arbitres désignés par la CFOT.
+
+Q ic2-049 | D: 2 | R: 04.07 13 | L: JAFA JAFC
+Pour une rencontre de saison régulière de Top 12, quelles affirmations sur le corps arbitral sont exactes ? (plusieurs réponses)
++ La CFOT désigne 2 arbitres au minimum de grade Fédéral Accrédité
+- Chaque équipe fournit son propre arbitre, comme en N2
++ L'équipe hôte met à disposition du JA au moins 8 juges de ligne formés, a minima accrédités
+- Les juges de ligne peuvent porter une tenue blanche, sans couvre-chef
+> GdB 04.07 §13 : en Top 12, la CFOT désigne 2 arbitres au minimum Fédéral Accrédité (frais à la charge de la FFBaD) ; l'équipe hôte fournit une cohorte d'au moins 8 juges de ligne formés, a minima accrédités, portant une tenue identique (hors couleur blanche) dont une casquette.
+
+Q ic2-050 | D: 1 | R: 04.07 13
+Qui supporte les frais de déplacement, d'hébergement, de repas et les indemnités de l'arbitre fourni par une équipe de N2 ?
+- La FFBaD
+- Le club recevant
++ Le club de l'équipe qui fournit l'arbitre
+- L'arbitre lui-même
+> GdB 04.07 §13 : pour les arbitres fournis par les équipes, les frais de déplacement et d'hébergement, les repas et indemnités sont à la charge du club.
+
+Q ic2-051 | D: 1 | R: 04.07 14
+Selon le règlement ICN, quels motifs permettent valablement à un joueur d'abandonner un match ?
++ Uniquement les blessures, maladies ou situations d'urgence avérées
+- Tout motif, dès lors que son capitaine l'accepte
+- Un score défavorable alors que la rencontre est déjà perdue
+- Le souhait de se préserver pour son match suivant
+> GdB 04.07 §14 : seules les blessures, maladies ou situations d'urgence avérées constituent des motifs valables d'abandon ; un abus manifeste (joueur déjà blessé qui n'aurait pas dû jouer) est considéré comme une infraction.
+
+Q ic2-052 | D: 3 | R: 04.07 14
+En N3, le joueur prévu en SH1 se blesse pendant son double hommes, joué en premier ; aucun des deux simples hommes n'a encore été joué. Son remplaçant qualifié est moins bien classé que le joueur du SH2. Que peut faire le juge-arbitre ?
+- Faire jouer le remplaçant en SH1 malgré l'erreur de hiérarchie
+- Déclarer le SH1 perdu par forfait, sans autre possibilité
+- Faire rejouer le double hommes avec un autre joueur
++ Autoriser l'inversion des joueurs de simple pour respecter la hiérarchie des matchs
+> GdB 04.07 §14 : le remplacement respecte la hiérarchie des matchs ; cependant, si aucun des deux matchs d'une discipline n'a été joué, le JA peut autoriser l'inversion des joueurs (en simple) ou des équipes (en double) pour respecter cette hiérarchie.
+
+Q ic2-053 | D: 1 | R: 04.07 14
+Un joueur blessé pendant son premier match ne peut pas être remplacé pour son second match, faute de joueur qualifié disponible. Quel est le sort de ce second match ?
+- Il est reporté à la fin de la rencontre
++ Il est perdu par forfait
+- Il est annulé et ne compte pour aucune équipe
+- Il est joué en un seul set par un joueur de l'équipe
+> GdB 04.07 §14 : si le joueur ne peut être remplacé, le match est alors perdu par forfait.
+
+Q ic2-054 | D: 3 | R: 04.07 17
+Un joueur abandonne son premier match sur blessure et ne peut pas être remplacé pour le second, perdu par forfait. Combien de points ce second match vaut-il pour son équipe selon le barème des points par match ?
++ 0 point : le −1 ne s'applique pas à un match non joué en raison d'un abandon dans un match précédent
+- −1 point, comme tout match perdu par forfait
+- +1 point
+- −2 points
+> GdB 04.07 §17 : match gagné +1, perdu 0, forfait −1 « sauf match non joué en raison d'un abandon dans un match précédent ». De même, l'annexe 02 exclut la pénalité pour match non joué à la suite d'une blessure.
+
+Q ic2-055 | D: 1 | R: 04.07 15
+Quelle exigence s'applique aux shorts (ou jupettes) des joueurs d'une même équipe lors d'une rencontre d'ICN ?
+- Chaque joueur choisit librement la couleur de son short
++ Tous les joueurs de l'équipe portent un short (ou une jupette) de même couleur
+- Le short doit obligatoirement être blanc
+- Le short doit être de la même couleur que le maillot
+> GdB 04.07 §15 : tous les joueurs et joueuses de l'équipe portent un short (ou une jupette) de même couleur ; pour une rencontre, ils portent aussi des maillots identiques.
+
+Q ic2-056 | D: 2 | R: 04.07.A02 1
+Lors d'une rencontre de N3, deux joueurs d'une équipe portent un maillot différent de celui de leurs coéquipiers. Quelle amende l'annexe 02 prévoit-elle pour ce non-respect du chapitre 15 ?
+- 100 € par rencontre
+- 200 € par équipe
+- Aucune amende, seulement un avertissement
++ 30 € par joueur et par rencontre
+> GdB 04.07.A02 §1 : non-respect des clauses du chapitre 15 (tenues non conformes) : 30 € par joueur et par rencontre. Le JA consigne le fait dans son rapport.
+
+Q ic2-057 | D: 2 | R: 04.07 16
+Une équipe de N3 ne dispose que d'un seul joueur pouvant disputer un simple hommes. Quel simple hommes est laissé non joué ?
++ Le SH2 : en cas de forfait de joueurs, les matchs non joués sont ceux hiérarchiquement inférieurs
+- Le SH1
+- Au choix du capitaine
+- Au choix du juge-arbitre
+> GdB 04.07 §16 : en cas de forfait de joueurs, les matchs non joués sont ceux hiérarchiquement inférieurs ; le règlement précise qu'un forfait en simple hommes se fait sur le second simple.
+
+Q ic2-058 | D: 3 | R: 04.07 16
+Il apparaît qu'une équipe a aligné en SH2 son joueur le mieux classé au CPPH et en SH1 le second, inversant ainsi la hiérarchie. Quelles sont les conséquences prévues ? (plusieurs réponses)
++ Le SH1 et le SH2 de cette équipe sont perdus par forfait
+- Seul le SH1 est perdu par forfait
++ L'équipe est sanctionnée d'un point de pénalité au classement général
+- Aucune, si l'équipe a perdu ces deux matchs
+> GdB 04.07 §16 : sont perdus par forfait tous les matchs indûment décalés à la suite d'une erreur de hiérarchie (par exemple SH1 et SH2 s'ils ont été inversés) ; l'équipe reçoit en outre un point de pénalité pour chaque erreur de hiérarchie.
+
+Q ic2-059 | D: 1 | R: 04.07 16
+Les deux équipes sont forfait sur un même match d'une rencontre d'ICN. Comment ce match est-il comptabilisé ?
+- Comme gagné par l'équipe qui reçoit
+- Il est rejoué à la fin de la rencontre
++ 0-0 par set
+- Il est annulé et retiré de la rencontre
+> GdB 04.07 §16 : si les deux équipes sont forfaits, le forfait est comptabilisé 0-0 par set.
+
+Q ic2-060 | D: 3 | R: 04.07 16
+Un joueur non qualifié a disputé deux matchs lors d'une rencontre : il a gagné son simple et perdu son double mixte. Pour le classement national par points, quelles affirmations sont exactes ? (plusieurs réponses)
++ Le simple est déclaré gagné par forfait par son adversaire
+- Le simple est comptabilisé comme une victoire du joueur non qualifié
++ Le double mixte est comptabilisé avec le score tel qu'il a été joué
+- Les deux matchs sont retirés du classement
+> GdB 04.07 §16 : pour un match disputé par un joueur en infraction, s'il est gagné par le joueur (ou la paire) en infraction, il est déclaré gagné par forfait par son adversaire ; s'il est perdu, le score est comptabilisé tel qu'il est.
+
+Q ic2-061 | D: 2 | R: 04.07 16
+Pour quelles infractions une équipe reçoit-elle un point de pénalité au classement général, en plus de la défaite sur le match ? (plusieurs réponses)
++ Pour chaque joueur non qualifié aligné
+- Pour chaque match perdu sur abandon d'un joueur
++ Pour chaque erreur de hiérarchie
+- Pour chaque carton jaune reçu par un de ses joueurs
+> GdB 04.07 §16 : un point de pénalité par match non joué à cause d'une composition incomplète (deux premières rencontres), par joueur non qualifié aligné, par erreur de hiérarchie et par forfait stratégique ; le total est plafonné à trois par rencontre, sauf forfait stratégique.
+
+Q ic2-062 | D: 3 | R: 04.07 16 | L: JAFA JAFC
+Pour la troisième fois de la saison, une équipe de N2 se présente avec une composition inférieure au minimum de 3 hommes et 3 femmes, ce qui entraîne des matchs non joués. Quelle sanction s'applique ?
+- 1 point de pénalité par match non joué, comme lors des deux premières fois
+- Le forfait général de l'équipe
++ 3 points de pénalité au classement général et une sanction financière
+- Aucune sanction supplémentaire
+> GdB 04.07 §16 : pour les deux premières rencontres concernées, 1 point de pénalité par match non joué ; pour les 3e et 4e rencontres, 3 points de pénalité et une sanction financière (500 € selon l'annexe 02) ; dès la 5e, l'équipe est déclarée forfait général.
+
+Q ic2-063 | D: 3 | R: 04.07.A05 1.1.4 | L: JAFA JAFC
+Dans quel cas une rencontre d'ICN est-elle réputée terminée dès qu'une équipe a atteint un nombre de victoires suffisant, sans disputer les matchs restants ?
++ Lors des demi-finales et de la finale de la phase finale du Top 12, dès qu'une équipe a remporté 4 matchs
+- Lors d'une rencontre de saison régulière de N2, dès qu'une équipe a remporté 5 matchs
+- Lors d'une rencontre du barrage Top 12 / N1, dès qu'une équipe a remporté 4 matchs
+- Lors d'une rencontre de la phase de classement de N1, dès qu'une équipe a remporté 5 matchs
+> GdB 04.07.A05 art. 1.1.4 : pour les ½ finales et finales du Top 12, les rencontres sont réputées terminées dès que l'une des équipes a remporté 4 matchs. En saison régulière (04.07 §17), au barrage Top 12 / N1 (A05 2.1.4) et en phase de classement de N1 (A05 3.1.3), tous les matchs doivent être disputés.
+
+Q ic2-064 | D: 2 | R: 04.07 17
+Lors d'une rencontre de saison régulière de N3, une équipe mène 5-0. Les trois matchs restants doivent-ils être joués ?
+- Non, le JA arrête la rencontre dès qu'une équipe a 5 victoires
+- Seulement si les deux capitaines le demandent
+- Non, ils sont déclarés gagnés par forfait par l'équipe qui mène
++ Oui : lors de la saison régulière, tous les matchs doivent être joués
+> GdB 04.07 §17 : lors de la saison régulière, tous les matchs doivent être joués (chaque match compte au classement : +1, 0 ou −1) ; ce n'est que lors des phases finales que le JA peut terminer la rencontre une fois la victoire acquise.
+
+Q ic2-065 | D: 2 | R: 04.07 19
+À l'issue de la saison régulière, trois équipes d'une poule terminent à égalité de points. Quel est le premier critère pour les départager ?
+- Le résultat des rencontres les ayant opposées
++ La différence entre le nombre de matchs gagnés et perdus sur l'ensemble des rencontres
+- La différence de sets sur l'ensemble des rencontres
+- Un tirage au sort
+> GdB 04.07 §19 : en cas d'égalité entre plus de deux équipes, on retient la différence matchs gagnés/perdus sur l'ensemble des rencontres, puis la différence de sets, puis la différence de points ; dès que l'égalité ne concerne plus que deux équipes, le résultat des rencontres les ayant opposées départage ; en dernier recours, tirage au sort.
+
+Q ic2-066 | D: 3 | R: 04.07 19
+Quatre équipes sont à égalité de points. Après application de la différence de matchs, l'une est première, une autre quatrième, et les deux restantes sont toujours à égalité. Comment ces deux dernières sont-elles départagées ?
+- Par la différence de sets sur l'ensemble des rencontres
+- Par la différence de points sur l'ensemble des rencontres
++ Par le résultat des rencontres les ayant opposées, calculé selon les mêmes principes
+- Par tirage au sort
+> GdB 04.07 §19 : dès que le nombre d'équipes à égalité est ramené à deux, le classement est déterminé par le résultat des rencontres les ayant opposées (victoires, matchs, sets, points), comme dans l'exemple des équipes B et C du règlement.
+
+Q ic2-067 | D: 2 | R: 04.07 20
+Que peut faire le juge-arbitre, dans son rapport, à l'égard d'une équipe qui ne respecte pas les règlements applicables ?
+- Prononcer lui-même un retrait de points au classement
++ Demander à la Commission fédérale chargée de l'interclubs de prendre des pénalités sportives contre cette équipe
+- Infliger directement une amende au club
+- Exclure l'équipe du championnat
+> GdB 04.07 §20 : le JA peut, dans son rapport, demander à la Commission fédérale chargée de l'interclubs de prendre des pénalités sportives contre une équipe ne respectant pas les règlements ; c'est la commission qui prononce pénalités et amendes.
+
+Q ic2-068 | D: 3 | R: 04.07 20
+Lors d'une rencontre, le JA constate qu'une équipe concède délibérément des matchs dans le but de favoriser une autre équipe de la poule. Que peut-il faire ?
+- Annuler lui-même la rencontre et la faire rejouer
+- Rien : le choix d'aligner ou non des joueurs appartient au capitaine
+- Déclarer immédiatement l'équipe forfait général
++ Proposer à l'instance compétente l'ouverture de poursuites disciplinaires contre l'équipe ou les licenciés concernés
+> GdB 04.07 §20 : le JA peut proposer l'ouverture de poursuites disciplinaires, notamment à l'égard d'une équipe ayant concédé des matchs, par forfait ou non, dans le but calculé de favoriser ou de porter préjudice à une autre équipe.
+
+Q ic2-069 | D: 2 | R: 04.07 21
+Lorsque la rencontre est gérée manuellement, de quoi se compose le dossier des résultats envoyé par le club recevant ? (plusieurs réponses)
++ La feuille de rencontre signée par les capitaines et le JA
++ Les feuilles de déclaration de présence signées par les joueurs et le JA
+- Le rapport du juge-arbitre contresigné par les deux capitaines
++ Les feuilles de composition d'équipe signées par les capitaines et le JA
+> GdB 04.07 §21 : le dossier comprend la feuille de rencontre (capitaines et JA), les déclarations de présence (joueurs et JA), les compositions d'équipe (capitaines et JA) et les feuilles de matchs. Le rapport du JA n'en fait pas partie.
+
+Q ic2-070 | D: 1 | R: 04.07 21
+Pendant combien de temps l'organisateur doit-il conserver les originaux des feuilles de matchs d'une rencontre d'ICN ?
+- Quinze jours
++ Deux mois
+- Jusqu'à la fin de la saison
+- Un an
+> GdB 04.07 §21 : les originaux des feuilles de matchs sont à conserver par l'organisateur durant deux mois.
+
+Q ic2-071 | D: 2 | R: 04.07 21
+Le club recevant envoie par courriel le dossier des résultats d'une rencontre gérée manuellement, mais les documents scannés sont illisibles. Comment sont-ils considérés ?
+- Comme envoyés, la date du courriel faisant foi
++ Comme non envoyés, l'organisateur étant passible d'une amende
+- Le JA doit les recopier et les renvoyer
+- La rencontre est annulée et rejouée
+> GdB 04.07 §21 : si les documents transmis ne sont pas lisibles, ils sont considérés comme non envoyés ; l'annexe 02 prévoit 200 € pour retard dans l'envoi des résultats, dossier incomplet ou document illisible.
+
+Q ic2-072 | D: 2 | R: 04.07 23
+Pendant une rencontre, un capitaine estime qu'un joueur adverse n'est pas qualifié. Que doit-il faire pour que sa réserve ne soit pas frappée de nullité ?
+- L'adresser par courrier à la commission dans les quinze jours, sans formalité sur place
+- La signaler oralement au capitaine adverse
+- Attendre la fin de la rencontre et la mentionner lors de la validation électronique
++ La signaler au JA au moment de l'infraction supposée, la faire noter sur la feuille de rencontre et la présenter sur le formulaire prévu, signé par le JA
+> GdB 04.07 §23 : les réserves portant sur des faits révélés pendant la rencontre sont, sous peine de nullité, signalées au JA, notées sur la feuille de rencontre et présentées sur le formulaire 07 (signé par le JA) au moment où l'infraction supposée est commise.
+
+Q ic2-073 | D: 1 | R: 04.07 23
+Dans quel délai une réserve déposée lors d'une rencontre d'ICN doit-elle être confirmée, et avec quel montant de consignation pour la saison 2026-2027 ?
+- Dans les quinze jours, avec une consignation de 50 €
++ Dans les cinq jours, par courrier à la Commission fédérale chargée de l'interclubs, avec une consignation de 80 €
+- Dans les 48 heures, sans consignation
+- Dans les sept jours, avec une consignation de 150 €
+> GdB 04.07 §23 : la réserve est confirmée dans les cinq jours par courrier (tout moyen prouvant la date de réception) adressé à la commission, avec une consignation dont le montant est fixé à 80 € par l'annexe 01 (§3).
+
+Q ic2-074 | D: 3 | R: 04.07.F07
+En signant le formulaire de réserve déposé par une équipe, que manifestent le juge-arbitre et le capitaine de l'équipe adverse ?
++ Uniquement la constatation du dépôt de la réserve, en aucun cas son approbation
+- Leur accord sur le bien-fondé de la réserve
+- Leur renoncement à toute réclamation ultérieure
+- L'acceptation d'un forfait sur le match concerné
+> Formulaire 04.07.F07 : le fait de signer pour le juge-arbitre et le capitaine de l'autre équipe n'est en aucun cas une approbation des réserves mais juste une constatation du dépôt de celles-ci.
+
+Q ic2-075 | D: 2 | R: 04.07 23
+Quelques jours après une rencontre, une équipe découvre un fait qui n'était pas décelable sur place (un joueur adverse non qualifié). Quelle démarche peut-elle engager ?
++ Une réclamation adressée par courrier à la Commission fédérale chargée de l'interclubs, accompagnée d'une consignation
+- Aucune : seules les réserves déposées pendant la rencontre sont recevables
+- Une réserve auprès du JA, qui modifie la feuille de rencontre
+- Un appel directement devant la commission nationale d'examen des réclamations et litiges
+> GdB 04.07 §23 : les réclamations résultant d'un fait révélé ultérieurement sont adressées par courrier à la Commission fédérale chargée de l'interclubs, par tout moyen prouvant la date de réception, accompagnées d'une consignation (80 €).
+
+Q ic2-076 | D: 2 | R: 04.07 23 | L: JAFA JAFC
+Dans quel délai la Commission fédérale chargée de l'interclubs statue-t-elle sur une réserve confirmée ou une réclamation, et que devient la consignation si la réclamation est fondée ?
+- Dans les cinq jours ; la consignation est conservée
+- Dans le mois ; la consignation est reversée au club adverse
+- Dans les 48 heures ; la consignation est conservée
++ Dans les quinze jours suivant la réception ; la consignation est remboursée
+> GdB 04.07 §23 : la commission statue en première instance dans les quinze jours suivant la réception de la lettre de confirmation de la réserve ou de la réclamation ; si la réclamation est fondée et validée, la consignation est remboursée.
+
+Q ic2-077 | D: 1 | R: 04.07 24 | L: JAFA JAFC
+Dans quel délai la Commission fédérale chargée de l'interclubs homologue-t-elle les rencontres d'une journée ?
+- Le lendemain de la journée
+- Dans les 5 jours
++ Au plus tard 12 jours après le déroulement de la journée
+- À la fin de la saison régulière
+> GdB 04.07 §24 : la commission homologue les rencontres au plus tard 12 jours après le déroulement de la journée ; une infraction révélée avant l'homologation de la 10e journée et non décelable plus tôt peut encore faire l'objet d'une enquête.
+
+Q ic2-078 | D: 2 | R: 04.07 24 | L: JAFA JAFC
+Un club conteste une décision de la Commission fédérale chargée de l'interclubs. Comment peut-il faire appel ?
++ Par l'intermédiaire de son président, dans les sept jours suivant la réception de la notification, auprès de la commission nationale d'examen des réclamations et litiges, avec une consignation
+- Par son capitaine, dans les cinq jours, auprès du juge-arbitre de la rencontre
+- Par tout licencié du club, dans le mois, auprès de la ligue
+- Aucun appel n'est possible contre ces décisions
+> GdB 04.07 §24 : le club peut, par l'intermédiaire de son président et dans un délai de sept jours à compter de la réception de la notification, faire appel auprès de la FFBaD (commission nationale d'examen des réclamations et litiges), avec paiement d'une consignation.
+
+Q ic2-079 | D: 1 | R: 04.07.A04 1
+Au plus tard quand l'équipe hôte doit-elle adresser la convocation aux équipes et au juge-arbitre d'une rencontre d'ICN ?
+- Au moins 8 jours avant la rencontre
++ Au moins 20 jours avant la compétition, avec copie à interclubs@ffbad.org
+- Au moins 30 jours avant la rencontre
+- Dans la semaine de la rencontre
+> GdB 04.07.A04 §1 : l'équipe hôte informe les équipes et le JA par courrier ou courriel, avec copie à interclubs@ffbad.org, au moins 20 jours avant la compétition. L'annexe 02 prévoit 50 € d'amende pour défaut ou retard d'envoi de la convocation.
+
+Q ic2-080 | D: 2 | R: 04.07.A04 1
+Quelles informations l'équipe hôte doit-elle notamment communiquer dans la convocation d'une rencontre d'ICN ? (plusieurs réponses)
++ La marque et le type des volants retenus
+- La liste des joueurs qu'elle alignera
++ La couleur de sa tenue pour la rencontre
+- Le classement CPPH de ses joueurs
+> GdB 04.07.A04 §1 : la convocation communique les modalités d'organisation ainsi que la marque et le type des volants retenus et la couleur de la tenue de l'équipe hôte (qui a la priorité de couleur, 04.07 §15).
+
+Q ic2-081 | D: 2 | R: 04.07.A04 2
+L'équipe hôte n'a prévu aucune buvette pour l'équipe visiteuse et les officiels techniques. Quelles affirmations sont exactes ? (plusieurs réponses)
++ L'équipe hôte est passible d'une amende pour absence de buvette
+- C'est sans conséquence : la buvette est facultative
++ Aucune demande de dérogation ne peut être déposée concernant l'absence de buvette
+- L'équipe hôte perd la rencontre par forfait
+> GdB 04.07.A04 §2 : l'équipe hôte prévoit une restauration appropriée (buvette) pour l'équipe accueillie et les officiels techniques ; l'art. 9.1.1 exclut toute dérogation sur ce point ; l'annexe 02 prévoit 60 € pour absence de buvette.
+
+Q ic2-082 | D: 1 | R: 04.07.A04 4.1.2
+Quel est le nombre minimum de terrains requis pour une rencontre de saison régulière d'ICN, et comment les matchs se déroulent-ils ?
+- 1 terrain ; les matchs s'enchaînent
++ 2 terrains ; les matchs se déroulent en parallèle sur les deux terrains
+- 3 terrains ; deux matchs en parallèle et un terrain d'échauffement
+- 4 terrains ; tous les matchs d'un tour en même temps
+> GdB 04.07.A04 art. 4.1.2 : le nombre minimum de terrains requis est de 2 et les matchs doivent se dérouler en parallèle sur les deux terrains.
+
+Q ic2-083 | D: 1 | R: 04.07.A04 4.1.4
+Combien de chaises d'arbitre de badminton sont requises au minimum pour une rencontre d'ICN, et quelle amende en cas d'absence ?
+- 1 chaise ; 50 € par rencontre
++ 2 chaises ; 200 € par chaise manquante et par rencontre
+- 2 chaises ; 30 € par terrain
+- Aucune chaise n'est exigée
+> GdB 04.07.A04 art. 4.1.4 : 2 chaises d'arbitre de badminton au minimum ; annexe 02 : absence de chaises d'arbitre de badminton, 200 € par chaise et par rencontre.
+
+Q ic2-084 | D: 1 | R: 04.07.A04 4.1.3 | L: JAFA JAFC
+Quelle exigence concerne le sol des terrains en Top 12 et en N1 ?
+- Des tapis sont simplement recommandés
+- Le sol doit obligatoirement être un parquet
+- Aucune exigence particulière
++ Des tapis doivent être installés sur tous les terrains utilisés, ou le sol doit être en parquet ou en matériaux respectant la norme EN 14904
+> GdB 04.07.A04 art. 4.1.3 : en Top 12 et N1, tapis sur tous les terrains ou sol en parquet / matériaux conformes à la norme EN 14904 ; en N2 et N3, ce n'est qu'une recommandation. Annexe 02 : 250 € par tapis absent et par rencontre.
+
+Q ic2-085 | D: 2 | R: 04.07.A04 5
+Quelles obligations d'affichage s'imposent lors d'une rencontre d'ICN ? (plusieurs réponses)
++ La table de marque annonce le score de la rencontre après chaque match
+- Les scoreurs restent obligatoires même si les tablettes des arbitres sont reliées à des écrans affichant le score
++ Des scoreurs ou des écrans permettent de suivre l'évolution du score sur chaque terrain
+- L'utilisation d'un tableau d'affichage sportif est interdite
+> GdB 04.07.A04 §5 : dispositif d'affichage permettant au public de suivre la rencontre ; annonce du score de la rencontre après chaque match ; scoreurs ou écrans pour chaque terrain, les scoreurs devenant inutiles si les tablettes sont reliées à des écrans ; tableau d'affichage sportif autorisé.
+
+Q ic2-086 | D: 1 | R: 04.07.A04 7.1.1
+Combien de temps au moins avant le début de la rencontre le gymnase doit-il être ouvert ?
+- 45 minutes
+- 1 heure
++ 1 heure 30
+- 2 heures
+> GdB 04.07.A04 art. 7.1.1 : le gymnase est ouvert au moins 1 heure 30 avant le début de la rencontre ; le capitaine valide ensuite la feuille de présence au plus tard une heure avant l'heure prévue.
+
+Q ic2-087 | D: 3 | R: 04.07.A04 7.1.1
+Un club a deux équipes en ICN qui jouent le même samedi dans le même gymnase, à 12h30 et à 16h. Un joueur peut-il figurer sur les feuilles de présence des deux rencontres, en ne jouant que dans l'une ?
+- Oui, tant qu'il ne joue que dans une seule rencontre
+- Oui, si le JA l'autorise
++ Non : un même joueur ne peut pas figurer sur les feuilles de présence de deux rencontres différentes au cours d'une même journée, même dans le même gymnase
+- Oui, s'il ne figure pas sur la composition de l'équipe 1
+> GdB 04.07.A04 art. 7.1.1 : en application de l'article 10.1.1 du règlement, un même joueur ne peut figurer sur les feuilles de présence de deux rencontres différentes au cours d'une même journée, même si ces rencontres se disputent dans le même gymnase.
+
+Q ic2-088 | D: 2 | R: 04.07.A04 7.1.2
+Qui constate qu'un joueur est en état de jouer lors d'une rencontre d'ICN ?
+- Le capitaine de l'équipe
+- Uniquement un médecin
+- Le capitaine de l'équipe adverse
++ Le juge-arbitre, ou à défaut l'arbitre à l'arrivée du joueur sur le terrain, avec confirmation par un médecin le cas échéant
+> GdB 04.07.A04 art. 7.1.2 : les joueurs doivent être en état de jouer, à constater par le juge-arbitre ou, à défaut, par l'arbitre à l'arrivée du joueur sur le terrain, et à confirmer par un médecin le cas échéant.
+
+Q ic2-089 | D: 1 | R: 04.07.A04 7.1.4
+Qui est responsable de la composition d'une équipe lors d'une rencontre d'ICN ?
+- Le juge-arbitre, qui la valide
++ Le capitaine, seul
+- Le président du club
+- L'entraîneur diplômé de l'équipe
+> GdB 04.07.A04 art. 7.1.4 : les capitaines sont seuls responsables de la composition de leur équipe.
+
+Q ic2-090 | D: 3 | R: 04.07.A04 7.1.4
+Après validation de la composition, un capitaine souhaite, pour des raisons tactiques, intervertir les joueurs de ses deux doubles mixtes (aucun joueur n'est blessé). Que répond le JA ?
+- C'est possible tant que le premier match n'a pas commencé
+- C'est possible avec l'accord du capitaine adverse
++ C'est impossible : une fois validée, la composition ne peut être modifiée que dans les cas de remplacement prévus au chapitre 14 du règlement
+- C'est possible si l'ordre des matchs n'est pas encore affiché
+> GdB 04.07.A04 art. 7.1.4 : une fois validée par les capitaines, la composition ne peut pas être modifiée, excepté dans les cas prévus au chapitre 14 (remplacement d'un joueur ayant débuté son premier match et ne pouvant disputer le second).
+
+Q ic2-091 | D: 2 | R: 04.07.A04 7.1.4
+Un joueur présent dans la salle, mais qui ne figure pas sur la feuille de présence validée, peut-il être inscrit sur la composition d'équipe ?
++ Non : seuls les joueurs validés sur la feuille de présence peuvent figurer valablement sur la feuille de rencontre
+- Oui, si le JA contrôle sa pièce d'identité avant son match
+- Oui, si le capitaine adverse est d'accord
+- Oui, mais uniquement pour remplacer un joueur blessé
+> GdB 04.07.A04 art. 7.1.4 : ne peuvent figurer valablement sur la feuille de rencontre que des joueurs validés sur la feuille de présence ; un remplaçant doit lui aussi figurer sur la déclaration de présence (04.07 §14).
+
+Q ic2-092 | D: 2 | R: 04.07.A02 1
+Quel montant l'annexe 02 prévoit-elle pour un retard dans la transmission (validation) de la composition d'équipe ?
+- 50 €
+- 100 €
+- 500 €
++ 200 €
+> GdB 04.07.A02 §1 : retard dans la transmission de la composition d'équipe, 200 €. Le retard est inscrit au rapport du JA et l'amende est prononcée à l'initiative de la commission (A04 art. 7.1.4).
+
+Q ic2-093 | D: 2 | R: 04.07.A04 7.1.6 | L: JAFA JAFC
+En Top 12, quelle pause peut être effectuée entre les tours de matchs d'une rencontre de saison régulière ?
++ Une pause de 20 minutes maximum, une fois les matchs des deux terrains terminés, pour permettre des animations
+- Une pause obligatoire de 10 minutes après chaque match
+- Aucune pause n'est autorisée
+- Une pause de 45 minutes à mi-rencontre
+> GdB 04.07.A04 art. 7.1.6 : en Top 12, lorsque les matchs lancés sur les terrains 1 et 2 sont tous deux terminés, une pause de 20 minutes maximum peut être effectuée pour des animations ; une nouvelle pause peut avoir lieu entre les tours 2 et 3.
+
+Q ic2-094 | D: 1 | R: 04.07.A04 7.1.7
+Quand a lieu la présentation des joueurs et du corps arbitral au public lors d'une rencontre d'ICN ?
+- 45 minutes avant l'heure de la rencontre
++ 10 minutes avant le début des matchs
+- Après le premier tour de matchs
+- À la fin de la rencontre
+> GdB 04.07.A04 art. 7.1.7 : une présentation des joueurs et du corps arbitral est faite au public 10 minutes avant le début des matchs.
+
+Q ic2-095 | D: 3 | R: 04.07.A04 8.1.3
+Un club reçoit le même samedi les rencontres de son équipe 1 (N2) et de son équipe 2 (N3), aux horaires standard. À quelles heures débutent-elles ?
+- 16h pour les deux rencontres, sur des terrains différents
++ 16h pour l'équipe 1 et 12h30 pour l'équipe 2
+- 12h30 pour l'équipe 1 et 16h pour l'équipe 2
+- 18h pour l'équipe 1 et 14h30 pour l'équipe 2
+> GdB 04.07.A04 art. 8.1.3 : hors Top 12, l'horaire standard du samedi est 16h pour l'équipe 1 et 12h30 pour les équipes 2 et/ou 3 (écart de 3 h 30) ; dans un club de Top 12, 18h pour le Top 12 et 14h30 pour les équipes 2 et/ou 3.
+
+Q ic2-096 | D: 2 | R: 04.07.A04 8.1.1
+La journée 10 de la saison régulière peut-elle faire l'objet d'une dérogation d'horaire ?
+- Oui, comme toute journée, avec l'accord des deux clubs
+- Oui, elle peut être jouée le dimanche
+- Oui, uniquement en Top 12
++ Non : elle doit être jouée le samedi aux horaires standard, sans dérogation possible
+> GdB 04.07.A04 art. 8.1.1 et 8.1.5 : la journée 10 ne peut obtenir aucune dérogation et doit être jouée le samedi aux horaires standard ; elle ne peut pas non plus être reportée (art. 9.1.3).
+
+Q ic2-097 | D: 1 | R: 04.07.A04 8.1.2 | L: JAFA JAFC
+En Top 12, une rencontre de saison régulière peut-elle se jouer à un autre jour ou horaire que ceux prévus ?
+- Non, jamais
++ Oui, au jour et à l'horaire souhaités par les équipes, à condition de rester dans la même semaine et de demander une dérogation à la commission (formulaire 08)
+- Oui, librement et sans formalité
+- Oui, dans les 15 jours suivant la date prévue
+> GdB 04.07.A04 art. 8.1.2 : en Top 12, la rencontre peut avoir lieu au jour et à l'horaire souhaités par les équipes, à condition d'être organisée la même semaine qu'initialement prévue et de demander une dérogation à la Commission fédérale chargée de l'interclubs (formulaire 08).
+
+Q ic2-098 | D: 3 | R: 04.07.A04 8.1.6 | L: JAFA JAFC
+Un club souhaite faire jouer son équipe 3 (plus haute division du championnat régional) en même temps que son équipe 2 (N3), dans le même gymnase. Quelles conditions doivent être remplies ? (plusieurs réponses)
++ Le gymnase comporte au moins 10 terrains
++ Une table de marque distincte et indépendante est mise en place (personne et matériel informatique distincts)
+- Le JA de la rencontre d'ICN juge-arbitre aussi les rencontres régionales
++ Deux JA différents officient : l'un nommé par la CFOT pour l'ICN, l'autre par la CLOT pour le régional
+> GdB 04.07.A04 art. 8.1.6 : au moins 10 terrains, respect des art. 8.1.3 et 8.1.5, table de marque différente et indépendante, et 2 JA différents (CFOT pour l'ICN, CLOT pour le championnat régional).
+
+Q ic2-099 | D: 2 | R: 04.07.A04 8.1.7 | L: JAFA JAFC
+Des rencontres du championnat régional interclubs peuvent-elles se dérouler dans le même gymnase et aux mêmes heures qu'une rencontre de N1 ?
++ Non, en aucun cas
+- Oui, si le gymnase compte au moins 10 terrains
+- Oui, avec deux JA différents
+- Oui, avec l'accord de la commission
+> GdB 04.07.A04 art. 8.1.7 : en aucun cas des rencontres du championnat régional interclubs ne peuvent avoir lieu aux mêmes heures qu'une rencontre de Top 12 ou de N1 dans le même gymnase (la cohabitation de l'art. 8.1.6 ne vise que l'équipe 2 évoluant en N2/N3).
+
+Q ic2-100 | D: 2 | R: 04.07.A04 9.1.2.2 | L: JAFA JAFC
+Un club recevant souhaite changer l'horaire d'une rencontre 4 semaines avant celle-ci. Que doit comporter sa demande de dérogation ?
+- Un simple justificatif d'empêchement d'occupation du gymnase
+- Aucune formalité : il suffit de prévenir le JA
+- L'accord de la ligue du club recevant
++ Les accords écrits du ou des clubs adverses ainsi que du JA désigné, la demande étant transmise à la commission par le club recevant
+> GdB 04.07.A04 art. 9.1.2.2 : pour un changement de jour/horaire demandé entre 6 et 2 semaines avant la rencontre, la demande est transmise à la commission par le club recevant avec les accords écrits du ou des clubs adverses et du JA désigné.
+
+Q ic2-101 | D: 3 | R: 04.07.A04 9.1.2.1 | L: JAFA JAFC
+Pour un changement d'horaire demandé plus de 6 semaines avant la rencontre, que doit comporter la demande de dérogation ?
++ Un justificatif d'empêchement d'occupation du gymnase à l'horaire standard et la nouvelle proposition, transmis en même temps par courriel à l'équipe adverse, au JA et à la commission
+- Les accords écrits de l'équipe adverse et du JA
+- Uniquement l'accord de l'équipe adverse
+- Aucune formalité particulière
+> GdB 04.07.A04 art. 9.1.2.1 : plus de 6 semaines avant, la demande comporte un justificatif d'empêchement et la nouvelle proposition, transmis simultanément par courriel à l'équipe adverse, au JA de la rencontre et à la commission ; les accords écrits ne sont exigés qu'entre 6 et 2 semaines (art. 9.1.2.2).
+
+Q ic2-102 | D: 2 | R: 04.07.A04 9.1.2.4
+Un club recevant doit changer de gymnase pour une rencontre d'ICN. Quelles affirmations sont exactes ? (plusieurs réponses)
++ La demande de dérogation ne nécessite pas d'accord mais doit être faite auprès de la commission au moins 2 semaines avant la journée
+- L'accord écrit de l'équipe adverse est obligatoire
++ Si la convocation a déjà été transmise, une nouvelle convocation est envoyée par courriel à l'équipe visiteuse et au JA, stipulant le changement de lieu accepté
+- La demande peut être faite la veille, avec l'accord du JA
+> GdB 04.07.A04 art. 9.1.2.4 : une dérogation de gymnase/hauteur/tribune ne nécessite pas d'accord mais doit être effectuée au moins 2 semaines avant la journée ; si la convocation était déjà partie, une nouvelle convocation est transmise par courriel à l'équipe visiteuse et au JA.
+
+Q ic2-103 | D: 1 | R: 04.07.A04 9.1.3 | L: JAFA JAFC
+Une rencontre est reportée pour un motif exceptionnel. Jusqu'à quand la rencontre de remplacement doit-elle se dérouler ?
+- Dans le mois qui suit la date initiale
++ Au plus tard avant la date de la journée suivante au calendrier fédéral
+- Avant la fin de la saison régulière
+- Avant la phase finale
+> GdB 04.07.A04 art. 9.1.3 : un report n'est accordé que pour motif exceptionnel, dans les mêmes délais que les changements d'horaire ; la rencontre de remplacement se déroule au plus tard avant la date de la journée suivante ; la dernière journée ne peut pas être reportée.
+
+Q ic2-104 | D: 3 | R: 04.07.A04 10.1.1
+L'équipe visiteuse, qui avait prévenu de son retard, arrive 40 minutes après l'heure limite de signature de la feuille de présence, avec 5 joueurs dont 2 femmes. Comment procède le JA ?
+- Il déclare l'équipe visiteuse forfait
+- Il attend l'arrivée de tous les joueurs annoncés
+- Il reporte la rencontre au lendemain
++ Il fait signer les retardataires dès leur arrivée, tient immédiatement la réunion avec les capitaines, puis donne 15 minutes pour rendre la composition et lance la rencontre au plus vite
+> GdB 04.07.A04 art. 10.1.1 : retard inférieur à 1 h et équipe complète (au moins 4 joueurs dont 1 homme et 1 femme) : le JA fait signer les retardataires dès leur arrivée, réalise immédiatement la réunion avec les capitaines, donne 15 minutes pour la composition, fixe l'ordre des matchs et fait démarrer la rencontre le plus rapidement possible.
+
+Q ic2-105 | D: 3 | R: 04.07.A04 10.1.1
+Une rencontre de N3 est prévue à 16h. L'équipe visiteuse est en retard. Au plus tard à quelle heure les premiers matchs doivent-ils démarrer ?
++ 16h30
+- 16h
+- 17h
+- 17h15
+> GdB 04.07.A04 art. 10.1.1 : l'heure limite de signature de la feuille de présence est fixée 45 minutes avant l'heure prévue (15h15) ; les premiers matchs ne peuvent pas démarrer plus de 1 h 15 après cette heure limite, soit 16h30.
+
+Q ic2-106 | D: 2 | R: 04.07.A04 10.1.1
+En cas de retard d'une équipe se déplaçant, qui doit prévenir qui ?
++ Le capitaine de l'équipe en retard contacte le JA dès que possible ; le JA prévient la Commission fédérale chargée de l'interclubs dès que possible
+- Le capitaine prévient directement la commission ; le JA n'est informé qu'à l'arrivée de l'équipe
+- Le club recevant prévient la ligue
+- Personne : le JA constate simplement le retard à l'heure prévue
+> GdB 04.07.A04 art. 10.1.1 : le capitaine de l'équipe en retard est tenu de contacter le JA de la rencontre dès que possible ; le JA prévient la Commission fédérale chargée de l'interclubs également dès que possible.
+
+Q ic2-107 | D: 1 | R: 04.07.A02 1
+Quel montant l'annexe 02 prévoit-elle pour le retard d'une équipe sur une journée d'ICN ?
+- 50 €
++ 100 €
+- 200 €
+- 760 €
+> GdB 04.07.A02 §1 : retard d'une équipe sur une journée, 100 €. La commission décide de l'amende au vu du rapport du JA et de la lettre explicative de l'équipe (A04 art. 10.1.2).
+
+Q ic2-108 | D: 2 | R: 04.07.A02 1 | L: JAFA JAFC
+Selon l'annexe 02 du règlement ICN, quels montants d'amende sont exacts ? (plusieurs réponses)
++ Forfait d'une équipe sur une journée : 760 €
+- Retard d'une équipe sur une journée : 500 €
++ Forfait général ou désistement tardif d'une équipe : 5 000 €
+- Absence d'arbitre sur une rencontre : 100 €
+> GdB 04.07.A02 §1 : forfait général ou désistement tardif, 5 000 € ; forfait d'une équipe sur une journée, 760 € ; retard d'une équipe sur une journée, 100 € ; absence d'arbitre sur une rencontre, 500 €.
+
+Q ic2-109 | D: 1 | R: 04.07.A02 1
+Une équipe de N2 se présente sans l'arbitre qu'elle doit fournir. Quelle amende l'annexe 02 prévoit-elle ?
+- 100 €
+- 200 €
++ 500 €
+- 30 €
+> GdB 04.07.A02 §1 : absence d'arbitre sur une rencontre, 500 € (à distinguer de l'arbitre insuffisamment gradé : 100 €, puis 300 € à partir de la 2e infraction). Le JA consigne le fait dans son rapport.
+
+Q ic2-110 | D: 3 | R: 04.07.A02 1
+Pour la deuxième fois de la saison, l'arbitre fourni par une équipe de N3 n'a pas le grade minimum requis. Quelle amende l'annexe 02 prévoit-elle pour cette nouvelle infraction ?
+- 100 €
++ 300 €
+- 500 €
+- 1 500 €
+> GdB 04.07.A02 §1 : arbitre insuffisamment gradé sur une rencontre, 100 € ; à partir de la 2e infraction, 300 €.
+
+Q ic2-111 | D: 1 | R: 04.07.A02 1
+Le JA constate que l'équipe hôte utilise des volants non agréés pour la saison. Quelle amende l'annexe 02 prévoit-elle ?
+- 60 €
+- 100 €
++ 200 €
+- 500 €
+> GdB 04.07.A04 §3 : les volants doivent respecter le cadre des volants classés pour la saison (Élite pour le championnat Élite, Standard minimum pour le National) ; GdB 04.07.A02 §1 : utilisation d'un volant non agréé, 200 € (même montant en Top 12 pour l'absence de seconde vitesse).
+
+Q ic2-112 | D: 2 | R: 04.07.A02 1
+Parmi ces manquements à l'organisation constatés par le JA, lesquels sont chacun passibles de 60 € d'amende selon l'annexe 02 ? (plusieurs réponses)
++ Absence ou défaillance de la sonorisation
++ Absence d'affichage du score dans la salle
+- Absence ou défaillance de la table de marque
++ Absence de buvette pour l'équipe adverse et les officiels techniques
+> GdB 04.07.A02 §1 (défaut d'organisation) : table de marque 100 € ; sonorisation, imprimante (sauf rencontre digitalisée), affichage du score et buvette 60 € chacun ; 200 € en cas de 3 infractions ou plus.
+
+Q ic2-113 | D: 3 | R: 04.07.A02 1 | L: JAFA JAFC
+Lors d'une rencontre de saison régulière de Top 12, l'équipe hôte ne met à disposition du JA que 6 juges de ligne formés. Quelle amende l'annexe 02 prévoit-elle ?
+- Aucune, 6 juges de ligne suffisent
++ 60 €, soit 30 € par juge de ligne manquant
+- 200 € forfaitaires
+- 500 €, comme pour l'absence d'arbitre
+> GdB 04.07 §13 : en Top 12, l'équipe hôte fournit au moins 8 juges de ligne formés ; GdB 04.07.A02 : en Top 12, défaut de juge de ligne, 30 € par JdL manquant ou non formé, soit 2 × 30 € = 60 €.
+
+Q ic2-114 | D: 1 | R: 04.07.A02 1 | L: JAFA JAFC
+Quelle amende l'annexe 02 prévoit-elle pour la modification tardive (moins de 2 semaines avant) du lieu ou de l'horaire d'une rencontre ?
++ 160 €
+- 50 €
+- 500 €
+- 760 €
+> GdB 04.07.A02 §1 : modification tardive (moins de 2 semaines) d'un lieu ou d'un horaire de rencontre, 160 € (même montant pour une salle non conforme sans dérogation ou l'absence de demande de dérogation pour le gymnase).
+
+Q ic2-115 | D: 1 | R: 04.07.A02 1 | L: JAFA JAFC
+Le juge-arbitre proposé par un club lors de l'inscription de son équipe n'honore pas l'un des engagements pris dans sa lettre d'engagement. Quelle amende le club encourt-il ?
+- 50 €
+- 160 €
++ 500 € par omission
+- 1 500 €
+> GdB 04.07.A02 §1 : non-respect de l'engagement juge-arbitre « équipe », 500 € par omission. Le JA d'équipe s'engage à officier au minimum sur deux journées (04.07 §13).
+
+Q ic2-116 | D: 2 | R: 04.07.A02 2
+Une équipe a aligné un joueur qui n'était pas en règle au titre du chapitre 7 (mutation non obtenue à la date requise). Quelles pénalités sportives l'annexe 02 prévoit-elle ? (plusieurs réponses)
++ Un point de pénalité au classement général
+- La perte de la rencontre entière par forfait
++ Les matchs où le joueur a été aligné sont perdus par forfait
+- La suspension automatique du joueur pour le reste de la saison
+> GdB 04.07.A02 §2 : joueur non en règle (chapitre 7) : un point de pénalité, matchs où il a été aligné perdus par forfait, et le joueur est susceptible d'être suspendu pour une ou plusieurs rencontres. La suspension pour le reste de la saison vise le joueur ayant représenté deux clubs (art. 6.1.5).
+
+Q ic2-117 | D: 3 | R: 04.07.A02 2 | L: JAFA JAFC
+La feuille de composition d'équipe d'une équipe de N1 ne respecte pas le quota minimal de JIFF. Quelle pénalité sportive est prévue ?
+- Seul le match du joueur non JIFF en surnombre est perdu par forfait
+- Un point de pénalité au classement général, sans autre conséquence
++ La rencontre où l'infraction a été constatée est perdue par forfait
+- Une amende de 200 € uniquement
+> GdB 04.07.A02 §2 : non-respect des clauses du chapitre 6 concernant les JIFF : rencontres où l'infraction a été constatée perdues par forfait (sur le score cohérent avec le système de comptage de points appliqué).
+
+Q ic2-118 | D: 1 | R: 04.07.A02 2 | L: JAFA JAFC
+Quelle pénalité sportive l'annexe 02 associe-t-elle au désistement tardif d'une équipe ?
+- Une rétrogradation de deux divisions
++ Une interdiction de remontée d'une saison
+- Un retrait de 3 points la saison suivante
+- Aucune, seule une amende est prévue
+> GdB 04.07.A02 §2 : désistement tardif, interdiction de remontée d'une saison (en plus de l'amende de 5 000 €) ; forfait général, interdiction de remontée une ou plusieurs saisons.
+
+Q ic2-119 | D: 2 | R: 04.07.A01 1 | L: JAFA JAFC
+Selon l'annexe 01, quelle conséquence pour une équipe qui indique, après la date limite de désistement (8 juin 2026), qu'elle ne souhaite pas maintenir son inscription pour la saison 2026-2027 ?
+- Aucune, tant que le championnat n'a pas débuté
++ Elle est redevable d'une amende équivalente au montant des frais d'inscription de l'équipe
+- Elle verse une consignation de 80 €
+- Ses droits d'engagement lui sont remboursés pour moitié
+> GdB 04.07.A01 §1 : la date limite de désistement est fixée au 8 juin 2026 ; passé cette date, toute équipe indiquant qu'elle ne souhaite pas maintenir son inscription est redevable d'une amende équivalente au montant des frais d'inscription (reprise à l'annexe 02).
+
+Q ic2-120 | D: 2 | R: 04.07.A05 1.1.1 | L: JAFA JAFC
+Comment est organisée la phase finale du Top 12 de la saison 2026-2027 ?
+- Les quatre premiers de chaque poule disputent des quarts de finale
+- Les deux premiers de chaque poule disputent une poule unique de quatre
+- Seuls les premiers de chaque poule disputent une finale
++ Les deux premiers de chaque poule disputent deux demi-finales croisées, une rencontre pour la troisième place et une finale
+> GdB 04.07.A05 art. 1.1.1 : après les 10 journées, les équipes classées aux 2 premières places de chaque poule disputent 2 demi-finales croisées, une rencontre pour la troisième place et une finale décernant le titre.
+
+Q ic2-121 | D: 3 | R: 04.07.A05 1.1.5 | L: JAFA JAFC
+Une demi-finale du Top 12 se termine sur le score de 3-3. Quelles affirmations sur le match supplémentaire sont exactes ? (plusieurs réponses)
++ La discipline est tirée au sort parmi les cinq disciplines
+- Il s'agit obligatoirement d'un double mixte
++ Chaque capitaine désigne les joueurs de son choix, y compris des joueurs ayant déjà disputé 2 matchs dans la rencontre
+- Seuls des joueurs n'ayant pas encore joué peuvent y participer
+> GdB 04.07.A05 art. 1.1.5 : en cas d'égalité 3-3, un match supplémentaire « en or » est tiré au sort parmi les cinq disciplines ; chaque capitaine désigne les joueurs nécessaires, qualifiés au regard des chapitres 7, 10 et 11, pouvant avoir déjà joué 2 matchs ; l'équipe qui le remporte est déclarée vainqueur.
+
+Q ic2-122 | D: 1 | R: 04.07.A05 1.1.3 | L: JAFA JAFC
+Lors de la phase finale du Top 12, comment doivent être joués les matchs qui se révèlent décisifs ?
+- Simultanément sur deux terrains
++ Sur un seul terrain
+- Sur le terrain choisi par l'équipe qui mène
+- Après une pause de 20 minutes obligatoire
+> GdB 04.07.A05 art. 1.1.3 : dès lors que les matchs lancés se révèlent décisifs, ils doivent l'être sur un seul terrain.
+
+Q ic2-123 | D: 2 | R: 04.07.A05 1.1.2 | L: JAFA JAFC
+L'une des deux premières équipes d'une poule de Top 12 déclare forfait pour la phase finale. Quelle équipe peut prendre sa place ?
++ L'équipe classée troisième de la même poule
+- La meilleure équipe de N1
+- L'équipe classée troisième de l'autre poule
+- Aucune : son adversaire est qualifié d'office
+> GdB 04.07.A05 art. 1.1.2 : si une des 2 premières équipes d'une poule déclare forfait, l'équipe classée troisième de la même poule peut prétendre prendre sa place en phase finale.
+
+Q ic2-124 | D: 2 | R: 04.07.A05 2.1.1 | L: JAFA JAFC
+Vous êtes juge-arbitre d'une rencontre du barrage Top 12 / N1 opposant une équipe de N1 à une équipe de Top 12. Combien de matchs comporte la rencontre ?
+- 8 matchs, comme en saison régulière de N1
+- 7 matchs, dont un match en or
+- 5 matchs, un par discipline
++ 6 matchs sur 2 terrains, comme en saison régulière de Top 12
+> GdB 04.07.A05 art. 2.1.1 : les rencontres du barrage Top 12 / N1 se déroulent en 6 matchs sur 2 terrains, comme pour la saison régulière de Top 12 ; le formulaire de composition indique d'ailleurs que les SH2 et SD2 ne s'appliquent pas en Top 12 ni en barrage Top 12 / N1. Tous les matchs doivent y être disputés (art. 2.1.4).
+
+Q ic2-125 | D: 3 | R: 04.07.A05 4.1.5 | L: JAFA JAFC
+Dans une poule de 4 de la phase de classement de N2, qui se rencontre lors du 2e tour (samedi 17h) ?
+- Le 1er contre le 4e et le 2e contre le 3e de la poule
++ Les vainqueurs du 1er tour entre eux, et les perdants du 1er tour entre eux
+- Les vainqueurs du 1er tour contre les perdants du 1er tour
+- Le 1er contre le 2e et le 3e contre le 4e de la poule
+> GdB 04.07.A05 art. 4.1.5 : samedi 13h30, 1er/3e et 2e/4e de poule ; samedi 17h00, les vainqueurs se rencontrent et les perdants se rencontrent ; dimanche 10h00, vainqueurs du 1er tour contre perdants du 1er tour.
+
+Q ic2-126 | D: 1 | R: 04.07.A05 5.1.1 | L: JAFA JAFC
+Quelles équipes de N3 disputent la phase de classement de N3 en fin de saison 2026-2027 ?
++ Les équipes classées 2e de chaque poule
+- Les équipes classées 1re de chaque poule
+- Les équipes classées 3e et 4e de chaque poule
+- Les équipes classées 5e et 6e de chaque poule
+> GdB 04.07.A05 art. 5.1.1 : les équipes classées 2e de chaque poule de N3 disputent une phase finale de 3 poules de 4 équipes ; les deux premières de chaque poule sont qualifiées en N2. Les 5e et 6e disputent le barrage N3 / interclubs régionaux.
+
+Q ic2-127 | D: 2 | R: 04.07.A05 6.1.1 | L: JAFA JAFC
+Quelles affirmations sur le barrage N3 / interclubs régionaux 2026-2027 sont exactes ? (plusieurs réponses)
++ Il réunit les équipes classées 5e et 6e de chaque poule de N3 et les 12 champions régionaux
+- En cas de forfait d'une équipe régionale, n'importe quelle équipe de sa région peut la remplacer
++ Les équipes classées 1re et 2e de chacune des 9 poules de 4 sont qualifiées en N3
+- Il se joue en élimination directe sur une seule journée
+> GdB 04.07.A05 art. 6.1.1 à 6.1.5 : 9 poules de 4 (5e et 6e de N3 + 12 champions régionaux) ; les 18 équipes classées aux deux premières places sont qualifiées en N3 ; un remplacement n'est proposé qu'aux équipes de la même région ayant terminé 2e ou 3e de leur championnat régional.
+
+Q ic2-128 | D: 2 | R: 04.07.A05 6.1.3 | L: JAFA JAFC
+Comment les équipes sont-elles placées dans les poules du barrage N3 / interclubs régionaux ?
+- Par tirage au sort intégral
+- Selon leur classement CPPH moyen
+- Par regroupement géographique, les équipes d'une même ligue jouant ensemble
++ De manière à garantir, dans la mesure du possible, la présence de 4 équipes de ligues différentes dans chaque poule
+> GdB 04.07.A05 art. 6.1.3 : les équipes sont placées de manière à garantir, dans la mesure du possible, 4 équipes de ligues différentes par poule (alors que les phases de classement de N2 et N3 sont tirées au sort intégralement).
+
+Q ic2-129 | D: 3 | R: 04.07.A05 4.1.2 | L: JAFA JAFC
+Une équipe classée 3e de sa poule de N2 déclare forfait pour la phase de classement de N2. Quelle équipe peut prendre sa place ?
++ L'équipe classée à la suite dans la même poule de N2 et éligible à la montée
+- La meilleure équipe classée 5e, toutes poules confondues
+- Aucune : la poule se joue à trois équipes
+- Une équipe de N3 désignée par tirage au sort
+> GdB 04.07.A05 art. 4.1.2 : si une équipe d'une poule de N2 déclare forfait ou n'est pas éligible à la montée, l'équipe classée à la suite de la même poule et éligible à la montée peut prétendre prendre sa place.
+
+Q ic2-130 | D: 1 | R: 04.07.A07 1.1 | L: JAFA JAFC
+Quelle évolution des divisions du Championnat de France Interclubs est prévue pour la saison 2027-2028 ?
+- Aucune, les quatre divisions sont maintenues
++ Le Top 12, la N1, la N2 et la N3 laissent place à cinq divisions : Élite 1, Élite 2, N1, N2 et N3
+- La N3 est supprimée et remplacée par les interclubs régionaux
+- Le Top 12 passe à 16 équipes
+> GdB 04.07.A07 §1.1 : la saison 2027-2028 comprendra les divisions Élite 1, Élite 2, N1, N2 et N3 ; les phases finales et barrages 2026-2027 (annexe 05) déterminent la répartition des équipes.
+
+Q ic2-131 | D: 2 | R: 04.07.A07 1.2.1 | L: JAFA JAFC
+De quelles équipes la division Élite 1 de la saison 2027-2028 sera-t-elle constituée ?
++ Des 4 équipes de la phase finale de Top 12 et des 2 équipes ayant terminé 1res de chaque poule du barrage Top 12 / N1
+- Des 12 équipes du Top 12 2026-2027
+- Des 6 premiers de chaque poule de Top 12
+- Des 4 demi-finalistes de Top 12 et des 4 premiers de N1
+> GdB 04.07.A07 art. 1.2.1 : l'Élite 1 comprend 6 équipes : les 4 équipes de la phase finale de Top 12 et les 2 équipes ayant terminé premières de chaque poule du barrage Top 12 / N1.
+
+Q ic2-132 | D: 2 | R: 04.07.A07 2.5.1 | L: JAFA JAFC
+Comment seront constituées les poules de N2 et de N3 pour la saison 2027-2028 ?
+- Par tirage au sort intégral
+- Par chapeaux, selon le classement de la saison précédente
+- Par les ligues, chacune constituant une poule
++ Par la commission chargée de l'interclubs national, selon des critères géographiques, sans que cette répartition puisse être contestée
+> GdB 04.07.A07 art. 2.5.1 : les poules de N2 et N3 sont constituées par la commission selon des critères géographiques, sans que cette répartition puisse être contestée (la N1 est répartie par chapeaux, art. 2.4).
+
+Q ic2-133 | D: 2 | R: 04.07.A09 1.3
+Lors du contrôle d'identité, un joueur présente une photo de sa carte nationale d'identité enregistrée sur son téléphone. Que fait le JA ?
+- Il l'accepte si la photo est nette
++ Il la refuse : aucune photocopie ni support numérique n'est accepté, sauf l'application France Identité pour la carte nationale d'identité et le permis de conduire
+- Il l'accepte si le capitaine adverse ne s'y oppose pas
+- Il l'accepte et le signale dans son rapport
+> GdB 04.07.A09 art. 1.3 : aucune photocopie de document ou support numérique n'est acceptée, à l'exception de l'application France Identité (CNI et permis de conduire) ; un joueur ne pouvant ouvrir son application et n'ayant pas d'autre justificatif ne peut pas jouer.
+
+Q ic2-134 | D: 2 | R: 04.07.A09 2.1
+Parmi les justificatifs suivants présentés par des joueurs français, lesquels le JA peut-il accepter ? (plusieurs réponses)
++ Un passeport périmé
+- Une photocopie de la carte nationale d'identité
++ Une carte Vitale avec photo
+- Une carte d'étudiant avec photo
++ Un permis de conduire en cours de validité
+> GdB 04.07.A09 art. 2.1 : la liste est exhaustive ; elle comprend notamment la CNI, le passeport, le permis de conduire et la carte Vitale avec photo. Les titres doivent être en cours de validité, sauf la CNI et le passeport, acceptés même périmés. Les photocopies sont refusées (art. 1.3).
+
+Q ic2-135 | D: 3 | R: 04.07.A09 3.1
+Un joueur étranger présente comme seul justificatif son passeport, périmé depuis trois mois. Que décide le JA ?
++ Il le refuse : pour les étrangers, les titres doivent être en cours de validité ; le joueur ne peut pas participer à la rencontre
+- Il l'accepte, le passeport étant accepté même périmé
+- Il l'accepte avec l'accord du capitaine adverse
+- Il l'autorise à jouer et le signale dans son rapport
+> GdB 04.07.A09 art. 3.1 : les titres permettant aux étrangers de justifier leur identité (passeport, carte d'identité, permis de conduire, carte de séjour délivrée par une préfecture) doivent être en cours de validité. La tolérance pour les titres périmés ne concerne que la CNI et le passeport des Français (art. 2.1).
+
+Q ic2-136 | D: 2 | R: 04.07.A09 2.2
+Une joueuse s'est fait voler ses papiers trois jours avant la rencontre. Quel document le JA peut-il accepter ?
+- Une attestation sur l'honneur signée par son capitaine
+- Une photo de sa carte d'identité prise avant le vol
+- Sa licence FFBaD avec photo
++ Le justificatif délivré par la gendarmerie, valable 2 mois à compter de la déclaration
+> GdB 04.07.A09 art. 2.2 : en cas de perte ou de vol dans les jours précédant la rencontre ou le jour même, seul un justificatif de la gendarmerie peut être accepté par le JA ; il n'est valable que 2 mois à compter de la déclaration.
+
+Q ic2-137 | D: 3 | R: 04.07.A09 2.1
+Un joueur français présente comme seul justificatif une attestation de dépôt de demande de carte nationale d'identité, délivrée par sa commune il y a cinq mois. Que décide le JA ?
+- Il l'accepte, l'attestation valant carte d'identité jusqu'à la délivrance de la carte
++ Il la refuse : cette attestation n'est valable que si elle a été délivrée depuis moins de trois mois
+- Il l'accepte si elle comporte une photo
+- Il l'accepte avec l'accord du capitaine adverse
+> GdB 04.07.A09 art. 2.1 : figure dans la liste l'attestation de dépôt d'une demande de carte nationale d'identité ou de passeport délivrée depuis moins de trois mois par une commune.
+
+Q ic2-138 | D: 2 | R: 04.07.A09 1.2
+Un joueur ne présente que sa licence FFBaD avec photo et sa carte d'étudiant. Le JA le connaît bien. Peut-il l'autoriser à jouer ?
+- Oui, puisque le JA le connaît personnellement
+- Oui, la licence FFBaD avec photo étant un justificatif fédéral
++ Non : la liste des pièces d'identité de l'annexe 09 est exhaustive et ces documents n'y figurent pas
+- Oui, si le capitaine adverse donne son accord
+> GdB 04.07.A09 art. 1.2 : la liste des pièces permettant de justifier de son identité est exhaustive ; le contrôle est obligatoire même si le joueur est connu du JA (A04 art. 7.1.2).
+
+Q ic2-139 | D: 1 | R: 04.07.F04
+En cas de défaillance informatique, au plus tard quand la déclaration de composition d'équipe sur formulaire papier doit-elle être remise au juge-arbitre ?
+- 1 heure avant l'heure prévue de la rencontre
+- 45 minutes avant l'heure prévue de la rencontre
++ 30 minutes avant l'heure prévue de début de la rencontre
+- Juste avant le premier match
+> Formulaire 04.07.F04 : en cas de défaillance informatique, la déclaration de composition d'équipe est à remettre au JA 30 minutes avant l'heure prévue de début de la rencontre (soit 15 minutes après le briefing tenu au plus tard 45 minutes avant).
+
+Q ic2-140 | D: 2 | R: 04.07.F03
+Quelles informations figurent pour chaque joueur sur la déclaration de présence papier (formulaire 03) ? (plusieurs réponses)
++ Son statut JIFF (oui/non)
++ Son statut de muté (oui/non)
+- Son classement CPPH dans chaque discipline
++ Sa signature
+- Sa catégorie d'âge
+> Formulaire 04.07.F03 : pour chaque joueur ou joueuse, nom, prénom, numéro de licence, JIFF O/N, muté O/N, signature du joueur et observations du JA ; pour l'arbitre, son grade ; le capitaine signe et le JA vise la déclaration.
+
+Q ic2-141 | D: 2 | R: 04.07 4 | L: JAFA JAFC
+Le dossier de réinscription d'une équipe parvient à la fédération dans les délais, mais sans la lettre d'engagement du juge-arbitre (formulaire 02). Quelle est la conséquence ?
++ Le dossier est incomplet : aucun délai supplémentaire n'est accordé et l'équipe est considérée comme non réengagée
+- Un délai supplémentaire de 15 jours est accordé pour la compléter
+- L'équipe est engagée, mais avec une amende de 500 €
+- La commission désigne d'office un JA pour l'équipe
+> GdB 04.07 §4 : le dossier d'inscription doit être accompagné des droits d'engagement, des amendes éventuelles et de la lettre d'engagement du JA (formulaire 02) ; en cas de dossier incomplet, aucun délai supplémentaire n'est accordé et l'équipe est considérée comme non réengagée.
+
+Q ic2-142 | D: 2 | R: 04.00.A01 2 | T: tournois | L: JAFA JAFC
+Selon quel mode se disputent les compétitions fédérales individuelles (Championnats de France) ?
++ Par élimination directe, tableau de qualification compris, sauf les Championnats de France Para-badminton où des poules préliminaires peuvent être organisées
+- En poules puis élimination directe dans tous les cas
+- En poules uniquement pour les tableaux de qualification
+- Au choix du juge-arbitre principal
+> GdB 04.00.A01 §2 : toutes les compétitions fédérales individuelles se disputent par élimination directe (tableau de qualification compris), à l'exception des Championnats de France Para-badminton pour lesquels, selon le nombre de participants, des poules préliminaires peuvent être organisées.
+
+Q ic2-143 | D: 1 | R: 04.00.A01 3 | T: tournois | L: JAFA JAFC
+Aux Championnats de France (compétitions fédérales individuelles), combien de têtes de série désigne-t-on pour un tableau de 16 inscrits ?
+- 2
++ 4
+- 8
+- 12
+> GdB 04.00.A01 §3 : par analogie avec la BWF, 2 têtes de série de 5 à 9 inscrits, 4 de 10 à 20, 8 de 21 à 39 et 12 au-delà (barème propre aux compétitions fédérales, distinct de celui du RGC).
+
+Q ic2-144 | D: 3 | R: 04.00.A01 3 | T: tournois | L: JAFA JAFC
+Combien de têtes de série compte le tableau principal (8 joueurs ou paires) d'une discipline des Championnats de France Seniors ?
+- 2, comme pour tout tableau de 5 à 9 inscrits
+- 8
+- Aucune, le tableau étant à dimension fixe
++ 4, par exception
+> GdB 04.00.A01 §3 : de 5 à 9 inscrits, 2 têtes de série, à l'exception du tableau principal des Championnats de France Seniors, qui en compte 4.
+
+Q ic2-145 | D: 2 | R: 04.00.A01 3 | T: tournois | L: JAFA JAFC
+Aux Championnats de France Vétérans, un tableau compte 45 inscrits. Combien de têtes de série sont désignées ?
+- 8
+- 16
++ 12
+- 4
+> GdB 04.00.A01 §3 : au-delà de 39 inscrits, 12 têtes de série (8 de 21 à 39 inscrits, 4 de 10 à 20).
+
+Q ic2-146 | D: 2 | R: 04.07 5.1 | L: JAFA JAFC
+En matière d'école de badminton, quelle obligation particulière s'impose à un club ayant une équipe en Top 12 ?
+- Une école de badminton labellisée 1 étoile, comme pour les autres clubs
++ Le label Club Avenir, ou une École Française de Badminton labellisée au minimum 3 étoiles
+- Un centre de formation agréé par la direction technique nationale
+- Aucune obligation particulière
+> GdB 04.07 §5.1 : tout club participant doit compter une école de badminton labellisée au 1er février ; chaque club ayant une équipe en Top 12 doit en outre avoir le label Club Avenir ou une École Française de Badminton labellisée au minimum 3 étoiles.
+
+Q ic2-147 | D: 3 | R: 04.07 4 | L: JAFA JAFC
+La composition des poules a été officialisée, mais le championnat n'a pas encore débuté, lorsqu'une équipe de N2 déclare forfait. Quelles sont les conséquences ? (plusieurs réponses)
++ Toutes ses rencontres de la phase de poule sont considérées comme perdues par forfait
+- Elle est remplacée par une équipe repêchée
++ Elle est passible d'une amende et d'une pénalité sportive pour désistement tardif
+- Ses droits d'engagement lui sont remboursés
+> GdB 04.07 §4 : si les poules sont officialisées et que le championnat n'a pas débuté, toutes les rencontres de l'équipe en phase de poule sont perdues par forfait ; elle est passible d'une amende et d'une pénalité sportive pour désistement tardif ; les droits ne sont pas remboursés et l'équipe n'est pas remplacée (avant officialisation des poules, elle aurait été remplacée).
+
+Q ic2-148 | D: 2 | R: 04.07.A04 4.1.1
+Selon l'annexe 04, le gymnase d'une rencontre d'ICN doit être apte à accueillir une compétition conforme aux règles techniques fédérales, notamment concernant quels éléments ? (plusieurs réponses)
++ La présence d'un local anti-dopage
+- Au moins 4 terrains tracés
++ La présence d'une sonorisation
+- Un sol en parquet obligatoire, quelle que soit la division
+> GdB 04.07.A04 art. 4.1.1 : hauteur de jeu libre de tout obstacle, éclairage, accueil du public (tribune), local anti-dopage et sonorisation. Le minimum est de 2 terrains (art. 4.1.2) et le parquet ou les tapis ne sont exigés qu'en Top 12 et N1 (art. 4.1.3).
+
+Q ic2-149 | D: 2 | R: 04.07.A04 9.1.2.3 | L: JAFA JAFC
+Deux clubs souhaitent inverser le lieu de leur rencontre de saison régulière. Comment la dérogation doit-elle être demandée ?
+- Par le JA, la veille de la rencontre
++ Par le club recevant, au moins 2 semaines avant la rencontre, avec les accords écrits du ou des clubs adverses
+- Par la ligue des deux clubs, sans délai particulier
+- Elle ne peut pas l'être : les inversions sont interdites en cours de saison
+> GdB 04.07.A04 art. 9.1.1 et 9.1.2.3 : toute demande d'inversion de rencontre fait l'objet d'une demande écrite (formulaire 08) à la commission ; elle est transmise au moins 2 semaines avant la rencontre par le club recevant avec les accords écrits du ou des clubs adverses.
+
+Q ic2-150 | D: 2 | R: 04.07.A05 3.1.1 | L: JAFA JAFC
+Quelles équipes disputent la phase de classement de N1 en fin de saison 2026-2027, et pour quel enjeu ?
+- Les équipes classées 1res de chaque poule de N1, pour une place en Top 12
++ Les équipes classées 3e et 4e de chaque poule de N1, réunies en une poule de 4, pour deux places en Élite 2
+- Les équipes classées 5e et 6e de chaque poule de N1, pour le maintien en N1
+- Les équipes classées 2e de chaque poule de N1, pour le titre de champion de N1
+> GdB 04.07.A05 art. 3.1.1 à 3.1.4 : les 3e et 4e de chaque poule de N1 disputent une poule de 4 ; les deux premières sont qualifiées en Élite 2, les autres sont affectées en N1. Les 1res de N1 disputent le barrage Top 12 / N1 (art. 2.1.1).
+
+Q ic2-151 | D: 3 | R: 04.07.A02 1
+Lors d'une rencontre de N2 sur 2 terrains, les arbitres n'utilisent pas de tablettes reliées à des écrans et l'équipe hôte n'a prévu ni scoreurs ni écrans. Quelle amende l'annexe 02 prévoit-elle pour ce manquement ?
+- Aucune, les scoreurs étant facultatifs
+- 30 € au total
++ 60 €, soit 30 € par terrain
+- 200 € forfaitaires
+> GdB 04.07.A04 §5 : des scoreurs ou des écrans doivent permettre de suivre le score de chaque terrain (inutiles seulement si les tablettes sont reliées à des écrans) ; GdB 04.07.A02 §1 : absence de scoreurs, 30 € par terrain, soit 60 € pour 2 terrains.

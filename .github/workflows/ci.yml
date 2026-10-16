@@ -34,6 +34,9 @@ jobs:
       - name: Syntaxe JavaScript
         run: for f in docs/js/*.js docs/sw.js; do node --check "$f"; done
 
+      - name: Tests du moteur de questions et de la ludification
+        run: node --test tests/engine.test.mjs
+
       - name: Tests de bout en bout (Chromium)
         run: |
           npm install --no-save playwright@1.56.1

@@ -1,4 +1,6 @@
 // État local de l'utilisateur (progression, examens, réglages), stocké dans localStorage.
+import { mergeGame, blankGame } from './game.js';
+
 const KEY = 'prepa-ja-v1';
 export const LEVELS = ['JALA', 'JALC', 'JAFA', 'JAFC'];
 export const LEVEL_NAMES = {
@@ -11,7 +13,8 @@ export const LEVEL_NAMES = {
 const blank = () => ({
   version: 1,
   createdAt: new Date().toISOString(),
-  settings: { level: 'JALA', theme: 'auto', examOverrides: {}, onboarded: false },
+  settings: { level: 'JALA', theme: 'auto', examOverrides: {}, onboarded: false, dailyGoal: 20,
+    sound: false, haptics: true, seed: newSeed() },
   q: {},          // id -> { b: boîte Leitner 0..5, n: tentatives, c: réussites, t: horodatage, f: favori }
   exams: [],      // historique des examens blancs
   cases: {},      // id -> { best, last, n, t }
@@ -19,7 +22,12 @@ const blank = () => ({
   selfEval: {},   // critère -> 0..3
   drills: { poule: { n: 0, ok: 0 } },
   pdfShas: {},    // chemin PDF -> empreinte téléchargée (mode hors-ligne)
+  game: blankGame(), // XP, série de jours, badges, records
 });
+
+function newSeed() {
+  return Math.random().toString(36).slice(2, 10);
+}
 
 function load() {
   try {
@@ -28,7 +36,7 @@ function load() {
     const data = JSON.parse(raw);
     const base = blank();
     return { ...base, ...data, settings: { ...base.settings, ...(data.settings || {}) },
-      drills: { ...base.drills, ...(data.drills || {}) } };
+      drills: { ...base.drills, ...(data.drills || {}) }, game: mergeGame(data.game) };
   } catch (err) {
     console.warn('Progression illisible, réinitialisation', err);
     return blank();
@@ -112,7 +120,8 @@ export function importData(text) {
   const data = parsed.data || parsed;
   if (!data || typeof data !== 'object' || !data.settings) throw new Error('Fichier de progression invalide');
   for (const k of Object.keys(state)) delete state[k];
-  Object.assign(state, blank(), data);
+  const base = blank();
+  Object.assign(state, base, data, { settings: { ...base.settings, ...data.settings }, game: mergeGame(data.game) });
   save(true);
 }
 
