@@ -4,7 +4,7 @@ import { state, save, recordAnswer, recordExam, LEVELS, LEVEL_NAMES } from './st
 import { getQuestions, getExams } from './data.js';
 import { navigate } from './router.js';
 import { examPick } from './engine.js';
-import { makeItem, isCorrect, refLink, choiceList, themeName } from './qcommon.js';
+import { questionHtml, makeItem, isCorrect, refLink, choiceList, themeName } from './qcommon.js';
 import { startPlay } from './play.js';
 import { rewardActivity, flush } from './reward.js';
 import { confetti } from './fx.js';
@@ -141,7 +141,7 @@ export async function renderExamSession(main) {
     <div class="qhead"><span>Examen ${esc(session.level)} · question ${session.idx + 1}/${n}</span>
       <span class="timer" id="timer">--:--</span></div>
     <div class="progress"><i style="width:${(answered / n) * 100}%"></i></div>
-    <p class="question">${esc(q.q)}</p>
+    ${questionHtml(q)}
     ${q.type === 'multiple' ? '<p class="small muted">Plusieurs réponses possibles.</p>' : ''}
     ${choiceList(q, item, { locked: false, showResult: false })}
     <div class="row between" style="margin-top:12px">
@@ -268,7 +268,7 @@ export async function renderExamResult(main, id) {
     if (!q) continue;
     reviews.push(`<details class="card flat" style="margin-bottom:8px" ${a.ok ? '' : ''}>
       <summary><span class="badge ${a.ok ? 'ok' : 'ko'}">${a.ok ? 'Juste' : a.sel.length ? 'Faux' : 'Vide'}</span> Q${i + 1}. ${esc(q.q.slice(0, 120))}${q.q.length > 120 ? '…' : ''}</summary>
-      <p class="question" style="font-size:1rem">${esc(q.q)}</p>
+      ${questionHtml(q, 'font-size:1rem')}
       ${choiceList(q, { order: q.choices.map((_, k) => k), selected: a.sel }, { locked: true, showResult: true })}
       <div class="card flat explain ${a.ok ? 'ok' : 'ko'}"><p>${esc(q.explain)}</p>${await refLink(q.ref)}</div>
     </details>`);

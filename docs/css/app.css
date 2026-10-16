@@ -489,3 +489,9 @@ body.in-play .toast { bottom: calc(env(safe-area-inset-bottom) + 84px); }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 @media print { .topbar, .tabbar, .banner, .btn, .toolbar { display: none !important; } body { padding: 0; } }
+
+/* illustrations des questions (écrans de logiciel, feuilles de match) */
+.qimg { margin: 0 0 14px; }
+.qimg img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background: #fff; }
+.qimg figcaption { margin-top: 4px; }
+.ala-tile { border-style: dashed; }

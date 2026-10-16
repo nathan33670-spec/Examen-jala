@@ -6,7 +6,7 @@ import { getQuestions } from './data.js';
 import { navigate } from './router.js';
 import { planSession, dailyPick, summarize, setState } from './engine.js';
 import { dayKey, levelInfo, setRecord, stars } from './game.js';
-import { makeItem, isCorrect, refLink, choiceList, themeName, diffDots } from './qcommon.js';
+import { questionHtml, makeItem, isCorrect, refLink, choiceList, themeName, diffDots } from './qcommon.js';
 import { rewardAnswer, rewardActivity, flush } from './reward.js';
 import { confetti } from './fx.js';
 import { generateScoreQuiz } from './gen.js';
@@ -50,12 +50,16 @@ export const activePlay = () => (session && !session.finished ? session : null);
 const isError = (s) => s.n > 0 && (s.last === 0 || s.b <= 1);
 const pick = (list, seed) => list[seed % list.length];
 
-/** Thèmes hors programme JA : exclus des séries et des jeux sauf s'ils sont choisis explicitement. */
+/** Thèmes du module ALA (arbitre, juge de service, juge de ligne) : hors programme JA. */
 export const OPTIONAL_THEMES = ['arbitrage', 'jdl'];
+/** « Niveau » des parties du module ALA, totalement séparé des grades JA. */
+export const MODULE = 'ALA';
 
 function levelPool(qdata, level, themes = []) {
-  return qdata.questions.filter((q) => q.levels.includes(level)
-    && (themes.length ? themes.includes(q.theme) : !OPTIONAL_THEMES.includes(q.theme)));
+  const ala = level === MODULE;
+  return qdata.questions.filter((q) => (ala ? OPTIONAL_THEMES.includes(q.theme)
+    : q.levels.includes(level) && !OPTIONAL_THEMES.includes(q.theme))
+    && (!themes.length || themes.includes(q.theme)));
 }
 
 // ------------------------------------------------------------------ lancement
@@ -112,7 +116,7 @@ export async function renderPlayHub(main) {
   const qdata = await getQuestions();
   const level = state.settings.level;
   const prefs = { themes: [], count: 10, ...(state.settings.train || {}) };
-  prefs.themes = (prefs.themes || []).filter((t) => qdata.themes[t]);
+  prefs.themes = (prefs.themes || []).filter((t) => qdata.themes[t] && !OPTIONAL_THEMES.includes(t));
   const all = levelPool(qdata, level);
   const pool = levelPool(qdata, level, prefs.themes);
   const now = Date.now();
@@ -140,7 +144,7 @@ export async function renderPlayHub(main) {
       </div>
       <button class="btn block big" data-start="smart">C’est parti !</button>
       <details class="themes-pick"><summary class="small">Thèmes : <strong>${esc(themeLabel)}</strong> (modifier)</summary>
-        <div class="chips" style="margin-top:8px">${Object.entries(qdata.themes).map(([t, name]) => {
+        <div class="chips" style="margin-top:8px">${Object.entries(qdata.themes).filter(([t]) => !OPTIONAL_THEMES.includes(t)).map(([t, name]) => {
           const n = qdata.questions.filter((q) => q.theme === t && q.levels.includes(level)).length;
           return n ? `<button class="chip sm" aria-pressed="${prefs.themes.includes(t)}" data-theme="${t}">${esc(name)} <span class="muted">${n}</span></button>` : '';
         }).join('')}</div>
@@ -170,7 +174,10 @@ export async function renderPlayHub(main) {
       ${tile('oral', 'Flashcards : réponse libre puis auto-évaluation')}
       ${tile('fav', favs ? `${favs} question(s) marquée(s)` : 'Touchez ☆ pendant une question', !favs)}
       <a class="card tile" href="#/fiches"><span class="ico emoji" aria-hidden="true">📝</span><span><strong>Fiches de synthèse</strong><span class="small muted">L’essentiel à relire avant l’examen</span></span></a>
-    </div>`;
+    </div>
+
+    <h2>Hors programme JA</h2>
+    ${alaTile()}`;
 
   main.onclick = (e) => {
     const b = e.target.closest('button');
@@ -197,6 +204,64 @@ export async function renderPlayHub(main) {
     if (b.dataset.start) {
       const mode = b.dataset.start;
       startPlay({ mode, level, count: mode === 'smart' || mode === 'oral' ? prefs.count : 20, themes: prefs.themes, replay: mode === 'daily' && !!daily });
+    }
+  };
+}
+
+/** Accès au module ALA, présenté à part du parcours JA. */
+export function alaTile() {
+  return `<a class="card tile ala-tile" href="#/ala"><span class="ico emoji" aria-hidden="true">🪑</span><span><strong>Module ALA : arbitre et juges de ligne</strong><span class="small muted">Annonces, gestes et rôle des officiels sur le terrain. Hors examens JA et hors jauge.</span></span></a>`;
+}
+
+// ------------------------------------------------------------------ module ALA (séparé des grades JA)
+
+export async function renderAlaHub(main) {
+  const qdata = await getQuestions();
+  const prefs = { themes: [], count: state.settings.train?.count || 10, ...(state.settings.ala || {}) };
+  prefs.themes = (prefs.themes || []).filter((t) => OPTIONAL_THEMES.includes(t));
+  const now = Date.now();
+  const pool = levelPool(qdata, MODULE, prefs.themes);
+  const sum = summarize(pool, qStat, now);
+  const errors = levelPool(qdata, MODULE).filter((q) => isError(qStat(q.id))).length;
+  const live = activePlay();
+  const rec = state.game.records[`survival|${MODULE}`] || 0;
+  const count = (t) => qdata.questions.filter((q) => q.theme === t).length;
+  main.innerHTML = `
+    <h1>Module ALA</h1>
+    <p class="muted" style="margin-top:-6px">Arbitre, juge de service et juge de ligne</p>
+    <div class="notice info" style="margin-bottom:12px">Ce module n’est <strong>pas au programme des examens JA</strong> : ses questions n’apparaissent ni dans les séries JA, ni dans les examens blancs, ni dans la jauge de préparation.</div>
+    ${live ? `<div class="notice warn row between" style="margin-bottom:12px"><span>${MODES[live.mode].icon} Partie « ${esc(MODES[live.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
+    <section class="hero-card">
+      <div class="hero-top"><span class="hero-emoji" aria-hidden="true">🪑</span>
+        <div><h2>Série ALA</h2><p class="small">Sans répétition, vos erreurs reviennent au bon moment.</p></div></div>
+      <div class="chips" role="group" aria-label="Partie du module" style="margin:8px 0">
+        <button class="chip sm" aria-pressed="${!prefs.themes.length}" data-ala="">Tout le module <span class="muted">${count('arbitrage') + count('jdl')}</span></button>
+        ${OPTIONAL_THEMES.map((t) => `<button class="chip sm" aria-pressed="${prefs.themes.length === 1 && prefs.themes[0] === t}" data-ala="${t}">${t === 'jdl' ? 'Juge de ligne' : 'Arbitre et juge de service'} <span class="muted">${count(t)}</span></button>`).join('')}
+      </div>
+      <div class="deck-stats">
+        <span><b>${sum.new}</b>nouvelles</span><span><b>${sum.review + sum.cooldown}</b>à revoir</span><span><b>${sum.mastered}</b>acquises</span><span><b>${sum.total}</b>au total</span>
+      </div>
+      <div class="deck-bar" title="${sum.seen} vues sur ${sum.total}"><i class="seen" style="width:${sum.total ? (sum.seen / sum.total) * 100 : 0}%"></i><i class="mastered" style="width:${sum.total ? (sum.mastered / sum.total) * 100 : 0}%"></i></div>
+      <button class="btn block big" data-start="smart">C’est parti !</button>
+    </section>
+    <div class="grid two">
+      ${tile('survival', rec ? `Record ALA : ${rec}` : `${LIVES} vies : jusqu’où irez-vous ?`)}
+      ${tile('oral', 'Annonces et gestes à dire à voix haute')}
+      ${tile('retry', errors ? `${errors} question(s) à retravailler` : 'Aucune erreur en attente', !errors)}
+      <a class="card tile" href="#/doc/REGLES"><span class="ico emoji" aria-hidden="true">📖</span><span><strong>Règles officielles</strong><span class="small muted">Règle 17 et instructions aux officiels techniques</span></span></a>
+    </div>`;
+  main.onclick = (e) => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    if (b.dataset.ala !== undefined) {
+      prefs.themes = b.dataset.ala ? [b.dataset.ala] : [];
+      state.settings.ala = prefs; save();
+      renderAlaHub(main);
+      return;
+    }
+    if (b.dataset.start) {
+      const mode = b.dataset.start;
+      startPlay({ mode, level: MODULE, count: mode === 'survival' ? 20 : prefs.count, themes: mode === 'retry' ? [] : prefs.themes });
     }
   };
 }
@@ -279,7 +344,7 @@ export async function renderPlaySession(main) {
     <article class="qcard ${item.revealed && !oral ? (ok ? 'is-ok' : 'is-ko') : ''} ${fresh && item.revealed && !ok && !oral ? 'shake' : ''}">
       <div class="qmeta"><span class="badge info">${esc(themeName(qdata, q.theme))}</span>${diffDots(q.difficulty)}
         ${q.generated ? '<span class="badge">générée</span>' : `<button class="fav-btn" data-act="fav" aria-pressed="${!!fav}" aria-label="${fav ? 'Retirer des favoris' : 'Ajouter aux favoris'}">${fav ? '★' : '☆'}</button>`}</div>
-      <p class="question">${esc(q.q)}</p>
+      ${questionHtml(q)}
       ${q.type === 'multiple' && !oral ? '<p class="small multi-hint">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
       ${body}
     </article>
@@ -547,7 +612,7 @@ async function renderEnd(main) {
     const q = index.get(a.id);
     if (!q) continue;
     reviews.push(`<details class="card flat review"><summary>${esc(q.q.slice(0, 140))}${q.q.length > 140 ? '…' : ''}</summary>
-      <p class="question">${esc(q.q)}</p>
+      ${questionHtml(q)}
       ${choiceList(q, { order: q.choices.map((_, k) => k), selected: a.sel }, { locked: true, showResult: true })}
       <div class="feedback ko"><p>${esc(q.explain)}</p>${await refLink(q.ref)}</div></details>`);
   }

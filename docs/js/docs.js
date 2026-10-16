@@ -4,6 +4,7 @@ import { getCatalog, getDocText, getFiches, getGlossary, getUpdates, getQuestion
 import { examBanner } from './quiz.js';
 import { state, save } from './store.js';
 import { refreshBadges } from './reward.js';
+import { questionHtml } from './qcommon.js';
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
@@ -282,7 +283,7 @@ export async function renderQuestion(main, id) {
   const qdata = await getQuestions();
   const q = qdata.questions.find((x) => x.id === id);
   if (!q) { main.innerHTML = '<p class="empty">Question introuvable.</p>'; return; }
-  main.innerHTML = `<h1>Question ${esc(q.id)}</h1><div class="card"><p class="question">${esc(q.q)}</p>
+  main.innerHTML = `<h1>Question ${esc(q.id)}</h1><div class="card">${questionHtml(q)}
     <ul>${q.choices.map((c, i) => `<li>${q.answer.includes(i) ? '<strong>✔ ' : ''}${esc(c)}${q.answer.includes(i) ? '</strong>' : ''}</li>`).join('')}</ul>
     <div class="explain card flat ok">${richText(q.explain)}</div>
     ${q.ref ? `<p class="small muted">Référence : <a href="#/doc/${encodeURIComponent(q.ref.doc)}?a=${encodeURIComponent(q.ref.art)}">${esc(q.ref.doc)} ${esc(q.ref.art)}</a> · niveaux ${q.levels.join(', ')}</p>` : ''}</div>`;

@@ -22,7 +22,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = ("JALA", "JALC", "JAFA", "JAFC")
 CORE_EXT = {".html", ".css", ".js", ".json", ".webmanifest", ".png", ".svg", ".ico", ".woff2"}
-EXCLUDE_CORE = {"sw.js", "data/precache.json"}
+EXCLUDE_CORE = {"sw.js", "data/precache.json", "404.html"}
+# redirection de l'ancienne adresse …/docs/ : jamais mise en cache
+EXCLUDE_PREFIX = ("docs/",)
 
 THEMES = {
     "regles": "Règles du jeu",
@@ -125,6 +127,12 @@ def parse_questions(path: Path) -> list[dict]:
             raise ContentError(f"{path.name}:{n} texte hors question : {line!r}")
         if re.fullmatch(r"L:\s*((JALA|JALC|JAFA|JAFC)\s*)+", line.strip()):
             cur["levels"] = line.strip()[2:].split()  # niveaux indiqués sur une ligne à part
+            continue
+        m_img = re.fullmatch(r"IMG:\s*(\S+)(?:\s+(.+))?", line.strip())
+        if m_img:  # illustration (écran de logiciel, feuille de match…) dans docs/img/
+            if not (ROOT / "docs" / "img" / m_img.group(1)).exists():
+                raise ContentError(f"{path.name}:{n} image introuvable : docs/img/{m_img.group(1)}")
+            cur["img"] = {"src": f"img/{m_img.group(1)}", "alt": (m_img.group(2) or "").strip()}
             continue
         if re.match(r"^[DRT]:\s", line.strip()):
             raise ContentError(f"{path.name}:{n} attribut « {line.strip()[:2]} » à placer dans l'en-tête Q")
@@ -339,7 +347,7 @@ def write_precache(site: Path) -> tuple[dict, str]:
         if not p.is_file():
             continue
         rel = p.relative_to(site).as_posix()
-        if rel in EXCLUDE_CORE or rel.startswith(".") or "/." in rel:
+        if rel in EXCLUDE_CORE or rel.startswith(EXCLUDE_PREFIX) or rel.startswith(".") or "/." in rel:
             continue
         if rel.startswith("reglements/pdf/"):
             pdfs.append(rel)

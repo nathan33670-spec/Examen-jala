@@ -5,7 +5,7 @@ import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog }
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
 import { readiness, ring, bar, WEIGHTS } from './gauge.js';
 import { renderExamSetup, renderExamSession, renderExamResult, activeExam } from './quiz.js';
-import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, OPTIONAL_THEMES } from './play.js';
+import { renderPlayHub, renderPlaySession, renderAlaHub, alaTile, startPlay, activePlay, MODES, OPTIONAL_THEMES } from './play.js';
 import { renderDocsHome, renderDoc, renderFiches, renderFiche, renderGlossary, renderUpdates, renderSearch, renderQuestion } from './docs.js';
 import { renderPracticeHome, renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
 import { initOffline, renderOffline, isStandalone } from './offline.js';
@@ -141,7 +141,9 @@ async function renderHome() {
       ${sum.errors ? `<button class="card tile" data-act="retry" style="text-align:left;cursor:pointer"><span class="ico emoji" aria-hidden="true">🔁</span><span><strong>Revoir mes erreurs</strong><span class="small muted">${sum.errors} question(s) à retravailler</span></span></button>` : ''}
       ${isStandalone() ? '' : `<a class="card tile" href="#/hors-ligne"><span class="ico">${ic('wifi')}</span><span><strong>Installer l’application</strong><span class="small muted">Sur votre téléphone, utilisable hors ligne</span></span></a>`}
       ${lastUpdate ? `<a class="card tile" href="#/mises-a-jour"><span class="ico">${ic('news')}</span><span><strong>Règlements mis à jour le ${fmtDate(lastUpdate.date)}</strong><span class="small muted">${lastUpdate.changes.length} document(s) — saison ${esc(lastUpdate.season)}</span></span></a>` : ''}
-    </div>`;
+    </div>
+    <h2>Hors programme JA</h2>
+    ${alaTile()}`;
 
   main.onclick = (e) => {
     const btn = e.target.closest('button');
@@ -401,6 +403,7 @@ const wrap = (fn) => async (args) => {
 route('/', wrap(renderHome), { tab: TABS.home });
 route('/progression', wrap(renderProgress), { tab: TABS.home, back: true });
 route('/entrainement', wrap(() => renderPlayHub(main)), { tab: TABS.train });
+route('/ala', wrap(() => renderAlaHub(main)), { tab: TABS.train, back: true });
 route('/entrainement/session', wrap(() => renderPlaySession(main)), { tab: TABS.train });
 route('/examen', wrap(() => renderExamSetup(main)), { tab: TABS.exam });
 route('/examen/session', wrap(() => renderExamSession(main)), { tab: TABS.exam });

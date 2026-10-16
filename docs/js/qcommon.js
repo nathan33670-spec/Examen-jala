@@ -2,6 +2,12 @@
 import { esc, shuffle } from './ui.js';
 import { getCatalog } from './data.js';
 
+/** Énoncé + illustration éventuelle (écran de logiciel, feuille de match…). */
+export function questionHtml(q, style = '') {
+  const img = q.img ? `<figure class="qimg"><img src="${esc(q.img.src)}" alt="${esc(q.img.alt || '')}" loading="lazy" decoding="async">${q.img.alt ? `<figcaption class="small muted">${esc(q.img.alt)}</figcaption>` : ''}</figure>` : '';
+  return `<p class="question"${style ? ` style="${style}"` : ''}>${esc(q.q)}</p>${img}`;
+}
+
 export function makeItem(q) {
   return { id: q.id, order: shuffle(q.choices.map((_, i) => i)), selected: [], revealed: false, flagged: false };
 }

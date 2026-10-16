@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Prépa JA a déménagé</title>
+<script>
+  // Ancienne adresse (…/docs/) : on désinstalle l'ancienne version hors ligne puis on redirige.
+  (async () => {
+    try {
+      const regs = await navigator.serviceWorker?.getRegistrations() || [];
+      await Promise.all(regs.filter((r) => new URL(r.scope).pathname.endsWith('/docs/')).map((r) => r.unregister()));
+    } catch (e) { /* sans service worker */ }
+    location.replace(new URL('../', location.href).pathname + location.hash);
+  })();
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+<p>L'application a changé d'adresse. <a href="../">Ouvrir Prépa JA</a></p>
+</body>
+</html>
