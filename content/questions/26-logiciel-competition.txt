@@ -1,0 +1,226 @@
+# Logiciel de compétition (type BadNet) : situations lues sur un écran.
+# Les écrans sont des reconstitutions simplifiées à données fictives, générées par
+# scripts/make_screens.py : chaque réponse découle du règlement cité.
+@theme logiciel
+@doc 03.01
+@levels JALA JALC JAFA JAFC
+
+Q log-001 | D: 3 | R: 03.01 3.4.1
+Les six matchs de la poule A sont saisis. Qui termine premier de la poule ?
+IMG: ecrans/poule-triple.svg Résultats de la poule A : MARTIN, LEROY et COSTA ont chacun 2 victoires.
+- MARTIN, qui a gagné tous ses matchs en deux sets sauf un
++ COSTA
+- LEROY
+- Il faut un tirage au sort entre les trois joueurs à égalité
+> RGC 3.4.1 : à égalité de victoires entre 3 joueurs, on départage par la différence de sets. COSTA a gagné 5 sets et en a perdu 2 (+3), MARTIN 4 et 2 (+2), LEROY 4 et 4 (0). Le résultat est le même si l'on ne compte que les matchs entre les trois joueurs : COSTA +1, MARTIN 0, LEROY −1. COSTA termine premier.
+
+Q log-002 | D: 2 | R: 03.01 3.4.1
+Les six matchs de la poule B sont saisis. Qui termine première de la poule ?
+IMG: ecrans/poule-double.svg Résultats de la poule B : ROUX et BLANC ont chacune 2 victoires.
+- ROUX, qui a la meilleure différence de sets
++ BLANC
+- PETIT
+- On départage ROUX et BLANC aux points marqués
+> RGC 3.4.1 : en cas d'égalité entre 2 joueurs, leur classement est déterminé par le résultat du match direct. BLANC a battu ROUX (9-15, 15-12, 15-13 vu de BLANC) : elle termine première, même si ROUX a une meilleure différence de sets.
+
+Q log-003 | D: 2 | R: 03.01 3.4.4
+VIDAL a abandonné sur blessure et est forfait pour ses autres matchs de poule. Comment ses résultats sont-ils pris en compte ?
+IMG: ecrans/poule-abandon.svg Poule C de 4 joueurs, dans un tableau de 3 poules.
+- Ses matchs comptent comme des défaites 0-15, 0-15 dans le classement de la poule
+- Seul le match abandonné compte pour la poule, les forfaits sont annulés
++ Ils ne comptent pas pour le classement de la poule, mais restent valables pour le classement des joueurs
+- Ils ne comptent ni pour la poule ni pour le classement des joueurs
+> RGC 3.4.4 (et 2.18.5) : les résultats d'un joueur forfait ou ayant abandonné définitivement le tableau ne sont pas pris en compte pour le classement de la poule, sauf s'il s'agit d'une poule unique ; ils gardent leur validité pour le classement des joueurs. Ici il y a 3 poules.
+
+Q log-004 | D: 2 | R: 03.01 2.16
+Lina MOREL a terminé son simple à 10:12 ; son double est « à appeler » à 10:20. Sauf demande expresse de sa part, à quelle heure ce double peut-il commencer au plus tôt ?
+IMG: ecrans/echeancier-repos.svg Échéancier du samedi, temps de repos de 20 minutes.
+- 10:20, l'heure prévue à l'échéancier
++ 10:32
+- 10:40
+- 10:50
+> RGC 2.16 : le temps de repos (20 minutes ici, fixé par le règlement particulier entre 20 et 30 minutes) débute dès la fin du match précédent et se termine au début du match suivant : 10:12 + 20 min = 10:32. Il ne peut être réduit qu'à la demande expresse du joueur ou si le nombre de points par set est réduit.
+
+Q log-005 | D: 2 | R: 03.01 3.3.1.2
+Le terrain 3 est libre et les quatre joueurs du mixte prévu à 14:00 sont prêts. Il est 12:50. Que peut faire le juge-arbitre ?
+IMG: ecrans/echeancier-avance.svg Échéancier du dimanche, mixte prévu à 14:00.
+- L'appeler tout de suite, puisque tous les joueurs sont prêts
++ Attendre 13:00 : un match peut être appelé au maximum 60 minutes avant l'heure annoncée
+- Attendre 13:30 : on ne peut avancer un match que de 30 minutes
+- Attendre 14:00 : l'horaire de l'échéancier doit être respecté
+> RGC 3.3.1.2 : l'horaire est indicatif et les matchs peuvent être appelés avec un maximum de 60 minutes d'avance sur l'heure annoncée. Pour un match prévu à 14:00, l'appel est possible à partir de 13:00.
+
+Q log-006 | D: 1 | R: 03.01 3.3.1.2
+Le match a été appelé à 15:02. À 15:08, Anna MERCIER n'est toujours pas sur le terrain. Que permet le règlement ?
+IMG: ecrans/appel-forfait.svg Match appelé à 15:02, une seule joueuse présente.
++ Le juge-arbitre peut la déclarer forfait, les 5 minutes suivant l'appel étant écoulées
+- Il doit attendre 15 minutes après l'appel avant de la déclarer forfait
+- Il doit la rappeler deux fois au micro avant toute décision
+- Il ne peut rien faire avant l'heure prévue à l'échéancier
+> RGC 3.3.1.2 : les joueurs qui ne se présentent pas sur le terrain dans les 5 minutes suivant l'appel de leur match pourront être déclarés forfaits par le juge-arbitre. 15:02 + 5 min = 15:07.
+
+Q log-007 | D: 2 | R: 03.01 3.2.3.2
+Le logiciel propose 8 têtes de série dans ce tableau de 16 joueurs en élimination directe. Combien le juge-arbitre peut-il en retenir au maximum ?
+IMG: ecrans/tds-nombre.svg Simple Hommes R4/R5, 16 inscrits, proposition de 8 têtes de série.
+- 2
++ 4
+- 8
+- 16
+> RGC 3.2.3.2 : dans un tableau d'élimination directe, le nombre de têtes de série ne doit pas dépasser 2 dans un tableau de 15 ou moins, 4 de 16 à 31, 8 de 32 à 63 et 16 à partir de 64. Avec 16 joueurs : 4 au maximum.
+
+Q log-008 | D: 2 | R: 03.01 3.2.3.2
+Avant de valider ce tableau de 16 places, quel placement de tête de série le juge-arbitre doit-il corriger ?
+IMG: ecrans/tds-placement.svg Tableau de 16 lignes : TS 1 en ligne 1, TS 3 en ligne 5, TS 2 en ligne 9, TS 4 en ligne 12.
+- La tête de série n° 1, qui devrait être en ligne 16
++ La tête de série n° 2, qui devrait être en ligne 16
+- La tête de série n° 3, qui devrait être en ligne 4
+- La tête de série n° 4, qui devrait être en ligne 13
+> RGC 3.2.3.2 : la TS 1 se place au début du demi-tableau supérieur (ligne 1), la TS 2 à la fin du demi-tableau inférieur (ligne 16), les TS 3 et 4 au début du 2e quart (ligne 5) et à la fin du 3e quart (ligne 12), par tirage au sort. Seule la TS 2, placée en ligne 9, est mal positionnée.
+
+Q log-009 | D: 2 | R: 03.01 3.2.1.5
+Que constate le juge-arbitre en contrôlant ce tableau ?
+IMG: ecrans/plus-1000.svg Simple Dames : cotes CPPH de 1 480 (VALLET) à 430 (BRUNET).
+- Rien d'anormal : toutes les inscriptions sont validées
+- Le tableau est trop petit pour une élimination directe
++ La règle du +1000 n'est pas respectée : 1 480 dépasse de plus de 1 000 points la cote la plus basse (430)
+- Une joueuse P10 ne peut pas jouer dans le même tableau qu'une R5
+> RGC 3.2.1.5 : dans un même tableau, le CPPH du mieux classé ne peut pas dépasser de plus de 1 000 points celui du moins bien classé (ici au plus 1 430). La règle ne s'applique pas si le moins bien classé a plus de 1 800 points, ni aux championnats et compétitions par catégorie d'âge, ce qui n'est pas le cas ici. Le tableau compte 8 joueuses, le minimum pour une élimination directe (3.2.1.2).
+
+Q log-010 | D: 1 | R: 03.01 3.1.1
+Quelle inscription dans ce tableau de simple D7/D8 n'est pas réglementaire ?
+IMG: ecrans/serie-inferieure.svg Inscriptions en Simple Hommes D7/D8 avec les classements de chaque joueur.
+- AUBRY (D7 en simple)
+- BERGER (D8 en simple)
++ COLIN (R6 en simple)
+- DUMAS (D9 en simple)
+> RGC 3.1.1 : un joueur peut s'inscrire dans la série de son propre classement ou dans une série supérieure, mais en aucun cas dans une série inférieure. COLIN, R6 en simple, ne peut pas jouer un simple D7/D8 ; DUMAS (D9) peut jouer dans la série supérieure.
+
+Q log-011 | D: 3 | R: 03.01 3.4.3
+LEROY a perdu le 1er set 10-15 et abandonne sur blessure dans le 2e set, alors qu'il mène 12-9. Quel score faut-il saisir ?
+IMG: ecrans/saisie-abandon.svg MARTIN – LEROY : set 1 15-10, set 2 9-12 au moment de l'abandon de LEROY.
+- 15-10, 9-12 (score au moment de l'arrêt)
++ 15-10, 15-12
+- 15-10, 15-0
+- 15-0, 15-0
+> RGC 3.4.3 : le joueur qui abandonne est crédité du nombre de sets et de points effectivement gagnés (LEROY : 10 et 12), et son adversaire du nombre de sets et de points nécessaires à la victoire. MARTIN gagne donc le 2e set à 15 : 15-10, 15-12.
+
+Q log-012 | D: 1 | R: 03.01 3.4.2
+LEBLANC est déclarée forfait. Quel score le logiciel doit-il enregistrer ?
+IMG: ecrans/saisie-forfait.svg Match de poule PICARD – LEBLANC, forfait de LEBLANC.
+- 21-0, 21-0 en faveur de PICARD
++ 15-0, 15-0 en faveur de PICARD
+- 15-0 en un seul set en faveur de PICARD
+- Aucun score : le match est simplement supprimé
+> RGC 3.4.2 (et 2.18.1) : tout forfait est compté comme une défaite 0-15, 0-15 pour le joueur défaillant et comme une victoire 15-0, 15-0 pour son adversaire.
+
+Q log-013 | D: 1 | R: 03.01 2.19
+Sur le terrain 1, un P10 rencontre un D9. Avec quels volants se joue le match ?
+IMG: ecrans/volants.svg Terrain 1 : P10 contre D9 ; terrain 2 : P11 contre P12.
++ En volants plumes
+- En volants plastique, puisque l'un des joueurs est classé P
+- Au choix des joueurs ; en cas de désaccord, en plastique
+- Au choix du juge-arbitre
+> RGC 2.19 : lorsqu'un match oppose un joueur de classement inférieur au niveau Départemental à un joueur de niveau Départemental ou au-dessus, le match se joue en volants plumes.
+
+Q log-014 | D: 1 | R: 03.01 2.19
+Sur le terrain 2 (P11 contre P12), les deux joueuses ne sont pas d'accord sur le type de volant. Avec quoi jouent-elles ?
+IMG: ecrans/volants.svg Terrain 1 : P10 contre D9 ; terrain 2 : P11 contre P12.
+- En volants plumes, toujours prioritaires
++ En volants plastique
+- Avec le volant choisi par la joueuse la mieux classée
+- Avec le volant tiré au sort par le juge-arbitre
+> RGC 2.19 : lorsque seuls des joueurs de classement inférieur au niveau Départemental sont sur le terrain, ils choisissent entre plumes et plastique ; en cas de désaccord, le volant en plastique est prioritaire.
+
+Q log-015 | D: 2 | R: 03.01 3.2.2.5
+Que faut-il corriger dans cette proposition de poules ?
+IMG: ecrans/poules-inegales.svg Poule A (TS 1) de 4 joueurs, poules B (TS 2) et C (TS 3) de 3 joueurs.
+- Rien : l'écart entre les poules ne dépasse pas un joueur
++ La poule de 4 doit être celle de la TS 3, pas celle de la TS 1
+- Il faut 3 poules de 3 et mettre le 10e joueur en liste d'attente
+- Les têtes de série ne doivent pas occuper la première place de leur poule
+> RGC 3.2.2.5 : si les poules sont de tailles inégales (écart d'un joueur au plus), les poules les moins nombreuses doivent être celles des têtes de série les plus élevées. Les poules de 3 reviennent aux TS 1 et 2, la poule de 4 à la TS 3. Chaque tête de série occupe bien la première place de sa poule (3.2.3.2).
+
+Q log-016 | D: 3 | R: 03.01 3.2.2.6 | L: JALC JAFA JAFC
+Dans ce tableau de sortie de poules, quelles poules ont leurs deux qualifiés dans le même demi-tableau, ce qui est interdit ? (plusieurs réponses)
+IMG: ecrans/sortie-poules.svg Tableau final de 8 lignes : lignes 1 à 4 en haut, lignes 5 à 8 en bas.
++ Poule A
+- Poule B
+- Poule C
++ Poule D
+> RGC 3.2.2.6 : avec deux qualifiés par poule, les deuxièmes de poule sont placés dans le demi-tableau opposé au premier de leur poule. Le 1er et le 2e de la poule A sont tous deux en haut (lignes 1 et 4), ceux de la poule D tous deux en bas (lignes 6 et 8). B et C sont séparées.
+
+Q log-017 | D: 1 | R: 03.01 3.2.4
+Le premier match est à 09:00. À quelle heure, au plus tard, les tableaux doivent-ils être publiés ?
+IMG: ecrans/publication.svg Publication des tableaux et de l'échéancier programmée à 08:30, premier match à 09:00.
+- 08:30, comme prévu
++ 08:00
+- 08:45
+- La veille au soir
+> RGC 3.2.4 : les tableaux doivent être rendus publics au moins une heure avant l'heure prévue du premier match du tableau concerné ; 3.3.1.1 : l'échéancier est publié en même temps, une heure avant le début de la compétition. Pour 09:00, au plus tard 08:00.
+
+Q log-018 | D: 2 | R: 03.01 2.16
+Que doit faire le juge-arbitre de cette fin d'échéancier ?
+IMG: ecrans/fin-tardive.svg Dimanche : dernière finale prévue de 18:45 à 19:25, tournoi ouvert à toutes les ligues, lundi non férié.
+- Rien : aucun match ne commence après 23 h 00
+- Rien : la limite est 21 h 00
++ Revoir la programmation : la compétition ne doit pas se terminer après 19 h 00
+- Supprimer la dernière finale et la déclarer non jouée
+> RGC 2.16 : une compétition qui n'est pas suivie d'un jour férié ne doit pas se terminer après 21 h 00 si elle est limitée aux joueurs d'une seule ligue, ou après 19 h 00 si elle est ouverte à d'autres joueurs ou destinée aux moins de 18 ans. Une dérogation ne peut venir que de la commission compétitions compétente.
+
+Q log-019 | D: 2 | R: 03.04 4
+Ce tournoi autorisé par la ligue est terminé. Qui intègre les résultats dans Poona, et dans quel délai (sauf règlement particulier) ?
+IMG: ecrans/export-poona.svg Clôture : export des résultats au format compatible Poona.
+- Le juge-arbitre, le soir même
++ Le GEO désigné, dans les 3 jours suivant la fin de la compétition
+- Le GEO désigné, dans les 21 jours
+- La ligue, dans les 5 jours
+> Règlement d'intégration des résultats (03.04), article 4 : pour les tournois, l'intégration est faite par le GEO désigné dans un délai de 3 jours maximum à compter de la fin de la compétition. Le soir même concerne le JA principal des compétitions fédérales nationales individuelles ; 21 jours, les responsables interclubs.
+
+Q log-020 | D: 2 | R: 03.04 3
+Après l'export des résultats, que doit faire le juge-arbitre de ce tournoi ? (plusieurs réponses)
+IMG: ecrans/export-poona.svg Clôture : export des résultats au format compatible Poona.
++ Saisir son rapport dans Poona dans les cinq jours suivant la compétition
++ Conserver une copie de son rapport et du fichier des résultats pendant douze mois
+- Envoyer son rapport papier à la FFBaD, qui le valide
+- Intégrer lui-même les résultats dans les 24 heures
+> 03.04, articles 3 et 4 : le JA saisit son rapport dans Poona dans les cinq jours (sauf règlement particulier) ; pour un tournoi autorisé par une ligue, c'est la ligue qui valide le rapport. Il conserve une copie du rapport et du fichier des résultats pendant douze mois.
+
+Q log-021 | D: 1 | R: 03.04 2
+Quelle condition le logiciel utilisé pour gérer une compétition officielle doit-il remplir ?
+- Être un tableur fourni par le club organisateur
++ Être agréé par la FFBaD et produire un fichier de résultats compatible avec Poona
+- Être celui de la BWF
+- Être hébergé par la ligue
+> 03.04, article 2 : l'organisateur emploie un logiciel agréé par la FFBaD capable de générer, en fin de compétition, un fichier des résultats totalement compatible avec la base fédérale Poona. La liste figure en annexe 13 du RGC.
+
+Q log-022 | D: 1 | R: 03.01.A13 2
+Quels logiciels sont agréés pour gérer une compétition par équipes ? (plusieurs réponses)
++ BadNet
+- BadPlus
++ ICBad
+- Poona
+> Annexe 13 du RGC : pour les compétitions individuelles, BadNet et BadPlus ; pour les compétitions par équipes, BadNet et ICBad. Poona est la base fédérale, pas un logiciel de gestion de compétition.
+
+Q log-023 | D: 1 | R: 03.01.A13 1
+Lequel de ces logiciels est agréé pour les compétitions individuelles, en plus de BadNet ?
+- ICBad
++ BadPlus
+- Poona
+- Aucun : BadNet est le seul agréé
+> Annexe 13 du RGC : logiciels agréés pour les compétitions individuelles : BadNet et BadPlus. ICBad est agréé pour les compétitions par équipes.
+
+Q log-024 | D: 1 | R: 04.07.A01 6 | T: interclubs
+Sur quel site se fait la saisie des résultats des Interclubs nationaux pour la saison 2026-2027 ?
+- poona.ffbad.org
++ badnet.fr
+- icbad.ffbad.org
+- www.ffbad.org
+> Dispositions ICN 2026-2027 (04.07.A01), article 6 : saisie des résultats sur https://badnet.fr/ ; envoi des résultats à interclubs@ffbad.org.
+
+Q log-025 | D: 2 | R: 03.01 2.16 | L: JALA JALC JAFA JAFC
+En préparant l'échéancier dans le logiciel, le juge-arbitre voit qu'un joueur inscrit dans trois tableaux aurait 9 matchs le samedi. Que dit le règlement ?
+- C'est permis si le temps de repos est respecté
++ Les matchs doivent être programmés de sorte qu'aucun joueur ne joue plus de 8 matchs par jour
+- La limite est de 6 matchs par jour
+- La limite ne concerne que les jeunes
+> RGC 2.16 : les matchs doivent être programmés de telle sorte qu'aucun joueur ne joue plus de 8 matchs par jour. Si les matchs sont plus courts que le système normal (un seul set, par exemple), le juge-arbitre peut accorder une dérogation.

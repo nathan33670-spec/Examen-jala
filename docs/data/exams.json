@@ -53,7 +53,8 @@
         "interclubs": 0.5,
         "sante": 1,
         "arbitrage": 0,
-        "jdl": 0
+        "jdl": 0,
+        "logiciel": 2
       }
     }
   },
@@ -105,7 +106,8 @@
         "interclubs": 3,
         "sante": 1.5,
         "arbitrage": 0,
-        "jdl": 0
+        "jdl": 0,
+        "logiciel": 1.5
       }
     }
   },
@@ -152,7 +154,8 @@
         "interclubs": 3,
         "sante": 2,
         "arbitrage": 0,
-        "jdl": 0
+        "jdl": 0,
+        "logiciel": 1
       }
     }
   },
@@ -199,7 +202,8 @@
         "interclubs": 2.5,
         "sante": 2,
         "arbitrage": 0,
-        "jdl": 0
+        "jdl": 0,
+        "logiciel": 1
       }
     }
   }

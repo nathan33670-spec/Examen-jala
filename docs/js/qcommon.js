@@ -4,7 +4,7 @@ import { getCatalog } from './data.js';
 
 /** Énoncé + illustration éventuelle (écran de logiciel, feuille de match…). */
 export function questionHtml(q, style = '') {
-  const img = q.img ? `<figure class="qimg"><img src="${esc(q.img.src)}" alt="${esc(q.img.alt || '')}" loading="lazy" decoding="async">${q.img.alt ? `<figcaption class="small muted">${esc(q.img.alt)}</figcaption>` : ''}</figure>` : '';
+  const img = q.img ? `<figure class="qimg"><a href="${esc(q.img.src)}" target="_blank" rel="noopener" title="Agrandir l’écran"><img src="${esc(q.img.src)}" alt="${esc(q.img.alt || '')}" loading="lazy" decoding="async"></a><figcaption class="small muted">Touchez l’écran pour l’agrandir.</figcaption></figure>` : '';
   return `<p class="question"${style ? ` style="${style}"` : ''}>${esc(q.q)}</p>${img}`;
 }
 
