@@ -14,7 +14,7 @@ export function knowledge(level, qdata, examCfg) {
   let seen = 0;
   let total = 0;
   for (const q of qdata.questions) {
-    if (!q.levels.includes(level)) continue;
+    if (!q.levels.includes(level) || weights[q.theme] === 0) continue;
     total += 1;
     if (qStat(q.id).n > 0) seen += 1;
     (byTheme[q.theme] ||= { sum: 0, n: 0, correct: 0, tries: 0 });

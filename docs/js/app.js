@@ -5,7 +5,7 @@ import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog }
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
 import { readiness, ring, bar, WEIGHTS } from './gauge.js';
 import { renderExamSetup, renderExamSession, renderExamResult, activeExam } from './quiz.js';
-import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES } from './play.js';
+import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, OPTIONAL_THEMES } from './play.js';
 import { renderDocsHome, renderDoc, renderFiches, renderFiche, renderGlossary, renderUpdates, renderSearch, renderQuestion } from './docs.js';
 import { renderPracticeHome, renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
 import { initOffline, renderOffline, isStandalone } from './offline.js';
@@ -51,7 +51,7 @@ async function renderHome() {
   const lastUpdate = updates.find((u) => u.changes?.length);
   const exam = activeExam();
   const play = activePlay();
-  const pool = b.qdata.questions.filter((q) => q.levels.includes(level));
+  const pool = b.qdata.questions.filter((q) => q.levels.includes(level) && !OPTIONAL_THEMES.includes(q.theme));
   const sum = summarize(pool, qStat, Date.now());
   const themes = Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value);
   const weakest = themes.slice(0, 2).map(([t]) => b.qdata.themes[t]).filter(Boolean);

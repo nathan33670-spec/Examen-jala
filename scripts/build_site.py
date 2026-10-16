@@ -37,6 +37,7 @@ THEMES = {
     "joueurs": "Catégories d'âge, licences et classement",
     "interclubs": "Interclubs (ICN / ICR)",
     "sante": "Santé, sécurité et antidopage",
+    "arbitrage": "Arbitrage : rôle et annonces de l'arbitre (hors programme JA)",
 }
 
 
