@@ -1,5 +1,5 @@
 {
- "build": "575f91440ce3",
+ "build": "20f1fa302135",
  "core": [
   "./",
   "css/app.css",
@@ -20,10 +20,16 @@
   "js/app.js",
   "js/data.js",
   "js/docs.js",
+  "js/engine.js",
+  "js/fx.js",
+  "js/game.js",
   "js/gauge.js",
   "js/offline.js",
+  "js/play.js",
   "js/practice.js",
+  "js/qcommon.js",
   "js/quiz.js",
+  "js/reward.js",
   "js/router.js",
   "js/store.js",
   "js/ui.js",
@@ -97,7 +103,7 @@
   "reglements/text/08.03.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 1492396,
+ "coreSize": 1565406,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
