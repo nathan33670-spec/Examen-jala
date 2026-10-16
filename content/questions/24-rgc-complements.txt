@@ -1,0 +1,864 @@
+# Compléments sur le règlement général des compétitions (GdB 03.01, édition 2026/1) et ses annexes,
+# le règlement d'intégration des résultats (03.04), l'autorisation des tournois (03.02) et le classement (03.06).
+# Priorité aux articles peu couverts : annexes 01 à 06, 09, 11, 13 et sections 1 à 4 du RGC.
+@theme rgc
+@doc 03.01
+@levels JALA JALC JAFA JAFC
+
+# ---------------------------------------------------------------- 03.01 : sections 1 et 2
+
+Q rgc2-001 | D: 2 | R: 03.01 1.1
+Passé le délai de modification d'un règlement sportif, par quel moyen la Fédération peut-elle encore agir sur ce règlement ?
+- Par une modification votée par la commission compétitions
++ Par des instructions qui le précisent ou l'interprètent, sans pouvoir le contredire
+- Par une décision du juge-arbitre de chaque compétition
+- Par un avenant au règlement particulier de chaque tournoi
+> RGC 1.1 : au-delà du délai, un règlement sportif ne peut faire l'objet que d'instructions qui soit le précisent, soit fournissent une interprétation du texte s'il n'est pas clair ; ces instructions ne peuvent pas contredire le règlement.
+
+Q rgc2-002 | D: 1 | R: 03.01 2.2
+Qui est tenu de respecter les codes de conduite édictés par la Fédération ? (plusieurs réponses)
++ Les joueurs
++ Les officiels techniques
++ Les entraîneurs et conseillers d'équipe
+- Les seuls joueurs classés au niveau National
+> RGC 2.2 : les joueurs, officiels techniques, entraîneurs ou conseillers d'équipe sont tenus de respecter les codes de conduite édictés par la Fédération à leur sujet.
+
+Q rgc2-003 | D: 2 | R: 03.01 2.3
+Dans un tableau de « simple intergenres », qui peut-on opposer ?
+- Uniquement un homme et une femme
++ Deux joueurs, quel que soit leur sexe
+- Uniquement deux joueurs de même sexe
+- Deux joueurs de la même catégorie d'âge seulement
+> RGC 2.3 : en « Simple Intergenres », deux joueurs s'opposent, quel que soit leur sexe.
+
+Q rgc2-004 | D: 2 | R: 03.01 3.2.1.1
+Un organisateur prévoit un tableau de double intergenres. Comment le niveau de ce tableau doit-il être défini ?
+- Par les séries de classement (N, R, D, P)
++ Par la cote FFBaD
+- Par les catégories d'âge
+- Librement, au choix de l'organisateur
+> RGC 3.2.1.1 : dans le cadre d'une compétition intergenres, le niveau est nécessairement défini par la cote FFBaD.
+
+Q rgc2-005 | D: 1 | R: 03.01 2.4
+Quand les règlements complémentaires d'une compétition doivent-ils être portés à la connaissance des participants, organisateurs, officiels et instances ?
+- Uniquement lors de l'inscription
+- Uniquement le jour de la compétition, par affichage
++ Avant et pendant la compétition, par des moyens adéquats
+- Seulement à la demande d'un joueur
+> RGC 2.4 : tous les règlements complémentaires s'appliquant à une compétition doivent être portés à la connaissance de tous les participants, organisateurs, officiels et instances fédérales, par des moyens adéquats, avant et pendant la compétition.
+
+Q rgc2-006 | D: 2 | R: 03.01 2.5
+À quels niveaux les instances fédérales instituent-elles une « commission compétitions » ? (plusieurs réponses)
++ National
++ Régional
++ Départemental
+- Au niveau de chaque club organisateur
+> RGC 2.5 : à chacun des niveaux national, régional et départemental, les instances fédérales instituent la ou les commissions chargées des compétitions (compétitions fédérales, autorisation et homologation des autres compétitions de leur ressort…).
+
+Q rgc2-007 | D: 2 | R: 03.01 2.7 | L: JALC JAFA JAFC
+Pour une compétition fédérale dont l'organisation est déléguée à un club, comment se répartissent les responsabilités du bon déroulement ?
+- Le club assume seul toutes les responsabilités
+- Seule la commission fédérale est responsable, le club n'étant que prestataire
++ Le comité d'organisation les partage avec les commissions fédérales compétentes, selon des modalités pouvant figurer dans un cahier des charges
+- Le juge-arbitre en assume seul la responsabilité
+> RGC 2.7 : dans le cas d'une compétition fédérale déléguée, le comité d'organisation partage ses responsabilités avec les commissions fédérales compétentes, selon des modalités définies par le comité exécutif et qui peuvent être précisées dans un cahier des charges.
+
+Q rgc2-008 | D: 2 | R: 03.01 2.8.1
+Un juge-arbitre étranger, non licencié à la FFBaD, est pressenti pour diriger une compétition en France. Que prévoit le RGC ?
+- C'est impossible : le juge-arbitre doit être licencié à la FFBaD
++ C'est possible s'il est autorisé par la Fédération
+- C'est possible avec le seul accord du comité d'organisation
+- C'est possible uniquement pour les rencontres PromoBad
+> RGC 2.8.1 : le juge-arbitre est licencié à la Fédération ou autorisé par la Fédération s'il s'agit d'un étranger.
+
+Q rgc2-009 | D: 2 | R: 03.01 2.8.2
+Où doit être indiqué le mode d'arbitrage retenu pour une compétition (auto-arbitrage, arbitres pour les finales…) ?
+- Uniquement dans le rapport du juge-arbitre
++ Dans les règlements complémentaires de la compétition
+- Sur la feuille de match de chaque rencontre
+- Nulle part : le juge-arbitre le décide le jour même
+> RGC 2.8.2 : le mode d'arbitrage retenu, éventuellement différencié selon les phases de la compétition, doit être clairement indiqué dans les règlements complémentaires (l'annexe 02 le cite parmi les éléments du règlement particulier).
+
+Q rgc2-010 | D: 2 | R: 03.01 2.8.2
+Dans la mesure du possible, surtout pour les phases finales, par qui les arbitres sont-ils secondés ? (plusieurs réponses)
++ Par des juges de ligne
++ Par une personne chargée de l'affichage de la marque
+- Par le GEO de la compétition
+- Par un juge-arbitre adjoint placé sur la chaise
+> RGC 2.8.2 : dans la mesure du possible, surtout pour les phases finales, les arbitres sont secondés par des juges de ligne et par une personne chargée de l'affichage de la marque.
+
+Q rgc2-011 | D: 2 | R: 03.01 2.11
+Quel texte fixe les dimensions de la surface de jeu (terrains et espace libre qui les entoure) ?
+- Le règlement particulier de chaque compétition
++ Le règlement technique fédéral relatif aux terrains
+- Le juge-arbitre, salle par salle
+- Le cahier des charges du gestionnaire de la salle
+> RGC 2.11 : la surface de jeu comprend les terrains et un espace libre entourant chaque terrain ; ses dimensions sont fixées par le règlement technique fédéral relatif aux terrains. Certaines dispositions (conduite, publicité…) ne s'appliquent qu'à l'intérieur de cette surface.
+
+Q rgc2-012 | D: 2 | R: 03.01 2.12.1
+Le JA constate qu'un joueur inscrit fait l'objet d'une suspension disciplinaire couvrant la date du tournoi. Que prévoit le RGC ?
+- Il peut jouer s'il a payé ses droits d'inscription
+- Il peut jouer s'il s'agit de son premier tournoi de la saison
++ Il ne peut pas participer : la suspension s'oppose à sa participation
+- Il peut jouer uniquement en double
+> RGC 2.12.1 : les participants ne doivent pas faire l'objet, pendant la période de compétition, d'une sanction disciplinaire (suspension) s'opposant à leur participation ; ces éléments sont contrôlés par le comité d'organisation, sous l'autorité du juge-arbitre.
+
+Q rgc2-013 | D: 2 | R: 03.01 2.12.1
+Sauf date plus précoce fixée par les règlements complémentaires, jusqu'à quand un joueur doit-il disposer du certificat médical permettant l'accès à la compétition ?
+- Au plus tard au moment de son premier match
++ Au plus tard la veille du premier jour de compétition
+- Au plus tard à la date limite d'inscription
+- Au plus tard 30 jours avant la compétition
+> RGC 2.12.1 : les participants doivent être licenciés au plus tard la veille du premier jour de compétition (ou à une date plus précoce) et être, aux mêmes dates, en possession d'un certificat médical permettant l'accès à la compétition.
+
+Q rgc2-014 | D: 3 | R: 03.01 2.12.3.3 | L: JALC JAFA JAFC
+Un joueur dispute le samedi le double hommes d'un tournoi A et le dimanche le double hommes d'un tournoi B, chaque tableau étant programmé sur un seul jour. Quelles conditions supplémentaires le RGC impose-t-il ? (plusieurs réponses)
++ Les instances organisatrices des deux compétitions doivent être différentes
++ Les lieux de déroulement doivent être différents
++ Les juges-arbitres doivent être différents
+- Les deux tournois doivent être autorisés par la même ligue
+> RGC 2.12.3.3 : cette participation est permise si les tableaux ne sont programmés que sur un seul jour (ou convocation officielle ne portant que sur ce jour) ; toutefois l'instance organisatrice, le lieu de déroulement et le juge-arbitre doivent être différents.
+
+Q rgc2-015 | D: 3 | R: 03.01 2.12.3.3 | L: JALC JAFA JAFC
+Un joueur dont l'inscription n'a pas été acceptée dans un tournoi souhaite s'inscrire dans un autre tournoi aux mêmes dates. Est-ce possible ?
+- Non, jamais : il reste considéré comme inscrit au premier tournoi
++ Oui, s'il annule son inscription au premier et si la date limite d'inscription du second est postérieure à celle du premier
+- Oui, sans condition, puisqu'il n'a pas été retenu
+- Oui, seulement avec l'accord écrit du juge-arbitre du premier tournoi
+> RGC 2.12.3.3 : un joueur dont l'inscription n'a pas été acceptée dans une compétition peut l'annuler et s'inscrire dans une autre, si la date limite d'inscription de cette dernière est postérieure à celle de la précédente.
+
+Q rgc2-016 | D: 3 | R: 03.01 2.12.3.3 | L: JALC JAFA JAFC
+Pour l'application de la règle des compétitions se chevauchant, à quel moment un joueur est-il considéré comme s'étant inscrit ?
+- Dès l'envoi de sa demande d'inscription
++ Si l'inscription a été effectuée et non annulée à minuit le jour de la clôture des inscriptions
+- Au moment du tirage au sort
+- Au moment du paiement des droits d'inscription
+> RGC 2.12.3.3 : un joueur est considéré comme s'étant inscrit si l'inscription a été effectuée et non annulée à minuit le jour de la clôture des inscriptions.
+
+Q rgc2-017 | D: 3 | R: 03.01 2.12.3.4 | L: JALC JAFA JAFC
+Pour une compétition par équipes, quelle date vaut date d'inscription d'un joueur au regard de la règle des compétitions se chevauchant (feuille de présence prévue) ?
+- La date de la clôture des inscriptions de l'équipe
+- La date de prise de licence du joueur
++ Le jour où le joueur signe la feuille de présence
+- Le jour de la publication du calendrier des rencontres
+> RGC 2.12.3.4 : pour les compétitions par équipes, la date d'inscription correspond au jour où le joueur signe la feuille de présence ; si celle-ci n'est pas prévue, au jour où la déclaration d'équipe le comprenant est déposée auprès du juge-arbitre.
+
+Q rgc2-018 | D: 2 | R: 03.01 2.12.3.5
+Un joueur est inscrit à une compétition individuelle programmée sur plusieurs jours non consécutifs. Quelle obligation le RGC lui impose-t-il ?
+- Il ne peut s'inscrire à aucune autre compétition pendant toute la période
++ Il doit s'assurer de ne pas participer à deux compétitions différentes le même jour
+- Il doit obtenir l'accord de sa ligue pour toute autre compétition
+- Aucune, les jours non consécutifs n'étant pas concernés
+> RGC 2.12.3.5 : si un joueur est inscrit à une compétition individuelle programmée sur plusieurs jours non consécutifs, il doit s'assurer de ne pas participer à deux compétitions différentes le même jour.
+
+Q rgc2-019 | D: 1 | R: 03.01 2.13
+Un joueur envoie son inscription par courriel. Celle-ci est-elle valable ?
+- Non, seule l'inscription papier signée est admise
+- Oui, dans tous les cas
++ Oui, à condition que les règlements complémentaires le prévoient expressément
+- Oui, uniquement pour les rencontres PromoBad
+> RGC 2.13 : l'inscription doit être effectuée par écrit, courriels et inscriptions en ligne inclus, à condition que les règlements complémentaires le prévoient expressément.
+
+Q rgc2-020 | D: 1 | R: 03.01 2.13
+Pour quel type de compétition le RGC admet-il une inscription sur place avec constitution immédiate des tableaux ?
+- Les tournois de niveau Promotion
++ Les rencontres PromoBad
+- Les championnats départementaux
+- Les tournois jeunes
+> RGC 2.13 : des rencontres PromoBad peuvent être organisées avec inscription sur place et constitution immédiate des tableaux.
+
+Q rgc2-021 | D: 2 | R: 03.01 2.14
+Un joueur inscrit souhaite céder son inscription (et ses droits déjà payés) à un ami. Que prévoit le RGC sur les droits d'inscription ?
+- Ils sont librement transférables entre joueurs
++ Ils sont exigibles dès l'inscription et en principe personnels et non transférables
+- Ils ne sont exigibles que le jour de la compétition
+- Ils sont fixés par la Fédération pour toutes les compétitions
+> RGC 2.14 : les droits d'inscription sont fixés par l'organisateur ; ils sont exigibles dès l'inscription et sont en principe personnels et non transférables.
+
+Q rgc2-022 | D: 2 | R: 03.01 2.16
+Un tournoi se joue en matchs d'un seul set. Un joueur devrait disputer 9 matchs dans la journée. Qui peut accorder une dérogation à la limite de 8 matchs par jour ?
+- La commission compétitions de la ligue
++ Le juge-arbitre en charge de la compétition
+- Le GEO principal
+- Personne : la limite est absolue
+> RGC 2.16 : aucun joueur ne doit jouer plus de 8 matchs par jour ; si le système de marque comprend des matchs plus courts que le système normal (un seul set, par exemple), une dérogation peut être accordée par le juge-arbitre en charge de la compétition.
+
+Q rgc2-023 | D: 2 | R: 03.01 2.16
+Un comité veut programmer des interclubs en soirée au-delà des horaires limites du RGC. Qui peut accorder une dérogation ?
+- Le juge-arbitre de la rencontre
++ La commission compétitions compétente
+- Le capitaine de l'équipe recevante
+- Le comité exécutif fédéral uniquement
+> RGC 2.16 : des dérogations aux horaires peuvent être accordées par la commission compétitions compétente, notamment pour les interclubs se déroulant en soirée, les compétitions individuelles sur plusieurs jours non consécutifs ou les rencontres PromoBad.
+
+Q rgc2-024 | D: 2 | R: 03.01 2.16
+Un tournoi fixe un temps de repos de 20 minutes en simple. Peut-il prévoir 30 minutes en double ?
+- Oui, chaque discipline peut avoir son propre temps de repos
++ Non, le temps de repos est le même pour toutes les disciplines
+- Oui, si le juge-arbitre l'annonce le jour même
+- Non, le temps de repos est fixé à 20 minutes dans tous les cas
+> RGC 2.16 : le temps de repos, compris entre 20 et 30 minutes, est le même pour toutes les disciplines et doit être précisé dans les règlements complémentaires ; le juge-arbitre peut accorder un repos plus long s'il le juge souhaitable.
+
+Q rgc2-025 | D: 2 | R: 03.01 2.18.2
+Qui décide qu'un forfait est volontaire, lorsqu'il dispose des informations nécessaires ?
+- Le GEO de la compétition
++ Le juge-arbitre
+- L'adversaire du joueur absent
+- Le président du club organisateur
+> RGC 2.18.2 : le juge-arbitre décide des forfaits volontaires pour lesquels il dispose des informations nécessaires ; il consigne dans son rapport tous les éléments permettant d'en apprécier le caractère (2.18.1).
+
+Q rgc2-026 | D: 2 | R: 03.01 2.20
+Un tournoi réservé aux joueurs mineurs prévoit des prix en espèces pour les vainqueurs. Est-ce permis ?
+- Oui, si le montant est versé aux parents
+- Oui, dans la limite fixée par la ligue
++ Non, les prix en espèces sont interdits dans les compétitions organisées à l'intention des mineurs
+- Oui, s'ils sont remis sous forme de bons d'achat
+> RGC 2.20 : les prix en espèces sont interdits dans les compétitions organisées à l'intention des mineurs (un mineur primé dans un tableau adultes est payé par chèque ou virement à son représentant légal).
+
+Q rgc2-027 | D: 2 | R: 03.01 2.20
+Où la valeur des récompenses de chaque tableau d'un tournoi doit-elle être mentionnée, au moins approximativement ? (plusieurs réponses)
++ Dans la demande d'autorisation
++ Dans l'invitation
+- Uniquement dans le rapport du juge-arbitre
+- Sur la feuille de match de la finale
+> RGC 2.20 : la valeur des récompenses de chaque composant (tableau…) doit être mentionnée, au moins approximativement, dans la demande d'autorisation et l'invitation ; les récompenses distribuées doivent au moins atteindre l'ordre de grandeur annoncé.
+
+Q rgc2-028 | D: 2 | R: 03.01 2.23
+Pour un tournoi, quelle est l'instance compétente pour prononcer son homologation ?
+- Toujours la commission fédérale des compétitions
++ L'instance ayant délivré l'autorisation
+- Le juge-arbitre du tournoi
+- Le comité départemental du club organisateur, dans tous les cas
+> RGC 2.23 : l'instance compétente est, pour les compétitions fédérales, la commission chargée de ces compétitions ; pour les autres compétitions, l'instance ayant délivré l'autorisation.
+
+Q rgc2-029 | D: 2 | R: 03.01 2.24
+Un organisateur laisse sciemment jouer des joueurs sans licence. À quoi s'expose-t-il ?
+- À rien : seul le joueur est responsable
++ Aux mêmes sanctions disciplinaires que les joueurs, sans préjudice d'autres pénalités comme le refus d'autorisations ultérieures
+- Uniquement à un rappel à l'ordre de la ligue
+- Uniquement à la non-homologation, sans autre conséquence possible
+> RGC 2.24 : un organisateur qui sciemment ou par négligence favorise de telles infractions (participation sans licence, sans certificat médical…) s'expose aux mêmes sanctions disciplinaires, sans préjudice d'autres pénalités, telles que le refus de demandes ultérieures d'autorisation.
+
+Q rgc2-030 | D: 1 | R: 03.01 2.25
+Un joueur s'étonne de voir son nom dans les résultats publiés par la Fédération. Que prévoit le RGC ?
++ Toute participation à une compétition officielle autorise la Fédération à publier ses données nominatives (classements, tops, résultats)
+- La publication nécessite l'accord écrit préalable du joueur
+- Seuls les résultats des joueurs classés N sont publiés
+- Seuls les noms des vainqueurs peuvent être publiés
+> RGC 2.25 : toute participation à une compétition officielle, quel que soit son format, autorise la Fédération à faire apparaître les données nominatives des joueurs sur ses supports, notamment dans les classements, les tops et l'affichage des résultats.
+
+# ---------------------------------------------------------------- 03.01 : section 3 (compétitions individuelles)
+
+Q rgc2-031 | D: 1 | R: 03.01 3.1.3
+Dans un tournoi, un joueur cadet veut s'inscrire en simple hommes à la fois dans le tableau cadets et dans le tableau juniors. Est-ce possible ?
+- Oui, puisqu'il peut jouer dans une catégorie d'âge supérieure
++ Non, il ne peut s'inscrire dans la même discipline que dans une seule catégorie d'âge
+- Oui, si les deux tableaux ne se jouent pas le même jour
+- Oui, avec l'accord du juge-arbitre
+> RGC 3.1.3 : un joueur peut s'inscrire dans sa catégorie d'âge ou une catégorie supérieure, mais dans une compétition fédérale ou un tournoi, il ne peut s'inscrire, dans la même discipline, dans deux catégories d'âge différentes.
+
+Q rgc2-032 | D: 2 | R: 03.01 3.1.2
+Dans un tournoi organisé « par lots », sur quelle base l'organisateur répartit-il les joueurs de simple dans les lots ?
+- Selon leur série de classement (N1, N2…)
++ Selon leur cote au CPPH, par groupes de cotes décroissantes
+- Par tirage au sort
+- Selon leur catégorie d'âge
+> RGC 3.1.2 : l'organisateur répartit les badistes dans les lots en fonction de leur cote au CPPH, par ordre de cotes décroissantes ; les séries de classement ne sont pas prises en compte.
+
+Q rgc2-033 | D: 2 | R: 03.01 3.1.4
+Un tournoi reçoit plus d'inscriptions que de places. Où doivent être précisés les critères de sélection et les modalités de liste d'attente ?
+- Dans le rapport du juge-arbitre
++ Dans les règlements complémentaires de la compétition
+- Ils sont fixés par le juge-arbitre au moment du tirage au sort
+- Le RGC impose l'ordre d'arrivée des inscriptions
+> RGC 3.1.4 : en cas de dépassement du nombre de participants, les critères de sélection (niveau, ordre d'arrivée des inscriptions complètes…) et les modalités de liste d'attente doivent être précisés dans les règlements complémentaires.
+
+Q rgc2-034 | D: 1 | R: 03.01 3.1.5
+Un joueur s'inscrit en double sans partenaire. Le tournoi peut-il refuser cette inscription ?
+- Non, le RGC impose d'accepter les inscriptions de joueurs seuls
++ Oui, si les règlements complémentaires interdisent l'inscription de paires incomplètes
+- Oui, sur simple décision du GEO le jour du tirage
+- Non, le juge-arbitre doit lui attribuer un partenaire
+> RGC 3.1.5 : les règlements complémentaires peuvent interdire l'inscription de paires incomplètes.
+
+Q rgc2-035 | D: 1 | R: 03.01 3.1.6
+Un joueur se désiste par écrit avant la date limite d'inscription. Ses droits d'inscription sont-ils remboursables ?
++ Oui, sans condition de justificatif
+- Non, sauf force majeure justifiée
+- Seulement à hauteur de 50 %
+- Seulement si un remplaçant est trouvé
+> RGC 3.1.6 : les droits d'inscription sont remboursables en cas de désistement notifié avant la date limite d'inscription ; après, seulement en cas de force majeure dûment justifiée (sauf dispositions plus favorables des règlements complémentaires).
+
+Q rgc2-036 | D: 1 | R: 03.01 3.2.2.1
+Un tableau d'élimination directe compte 13 inscrits. Que prévoit le RGC ?
+- On ajoute des joueurs de la liste d'attente pour atteindre 16
++ Certains joueurs bénéficient d'une exemption au premier tour, les places vacantes étant placées selon les schémas de l'annexe 04
+- On organise un tour préliminaire pour ramener le tableau à 8
+- Les places vacantes sont tirées au sort
+> RGC 3.2.2.1 : si le nombre de participants n'est pas une puissance de 2, certains bénéficient d'une exemption au premier tour ; les places vacantes sont placées dans l'ordre et aux endroits indiqués par les schémas de l'annexe 04.
+
+Q rgc2-037 | D: 2 | R: 03.01 3.2.2.4
+Un tableau en poules est suivi d'un tableau final. Que prévoit le RGC pour ce tableau final et les qualifiés ? (plusieurs réponses)
++ Dans la mesure du possible, le tableau final est un tableau d'élimination directe complet (2, 4, 8, 16…)
++ Le nombre de qualifiés par poule est porté à l'avance à la connaissance des intéressés
+- Le nombre de qualifiés par poule est fixé après la fin des poules
+- Le tableau final comporte obligatoirement 8 joueurs
+> RGC 3.2.2.4 : dans la mesure du possible, le tableau final est un tableau d'élimination directe « complet », le nombre de poules et de qualifiés étant déterminés en fonction de ce critère ; le nombre de qualifiés par poule est porté à l'avance à la connaissance des intéressés.
+
+Q rgc2-038 | D: 3 | R: 03.01 3.2.2.5 | L: JALC JAFA JAFC
+Un tableau comporte deux poules de 4 et une poule de 3, suivies d'un tableau final de 4 : une seule poule doit fournir deux qualifiés. Laquelle ?
++ Une des poules de 4
+- La poule de 3
+- La poule de la tête de série n°1, quelle que soit sa taille
+- Une poule désignée par tirage au sort entre les trois
+> RGC 3.2.2.5 : si les dimensions du tableau final nécessitent un nombre inégal de qualifiés par poule, ce sont les poules les plus nombreuses qui doivent fournir plus de qualifiés que les autres (les poules les moins nombreuses étant d'ailleurs celles des têtes de série les plus élevées).
+
+Q rgc2-039 | D: 2 | R: 03.01 3.2.2.6
+Au tirage au sort de sortie de poules (deux qualifiés par poule), quelle règle s'applique au premier tour du tableau final ?
+- Les premiers de poule se rencontrent entre eux
++ Un premier de poule rencontre prioritairement un deuxième de poule
+- Les deux qualifiés d'une même poule se rencontrent au premier tour
+- Le tirage est entièrement libre
+> RGC 3.2.2.6 : le tirage au sort de sortie de poule est réalisé de telle manière qu'un premier de poule rencontre prioritairement un deuxième de poule ; les deuxièmes sont placés dans les demi-tableaux opposés aux autres qualifiés de leur poule.
+
+Q rgc2-040 | D: 2 | R: 03.01 3.2.2.9
+Un organisateur veut utiliser un format de compétition original. Quelles conditions le RGC impose-t-il ? (plusieurs réponses)
++ Le format doit permettre de gérer informatiquement l'intégration des résultats dans Poona
++ Le format doit être répertorié dans l'annexe 12 du RGC
+- Le format doit être validé par le juge-arbitre le jour de la compétition
+- Le format doit avoir été utilisé lors d'une compétition internationale
+> RGC 3.2.2.9 : la mise en place d'un format de compétition dépend impérativement de la possibilité de gérer informatiquement l'intégration des résultats dans Poona et de son inscription à l'annexe 12.
+
+Q rgc2-041 | D: 2 | R: 03.01 3.2.3.1
+Sous la responsabilité de qui le tirage au sort des tableaux s'effectue-t-il ?
+- Du GEO principal
++ Du juge-arbitre
+- Du président du comité d'organisation
+- De la commission compétitions de la ligue
+> RGC 3.2.3.1 : le tirage au sort s'effectue sous la responsabilité du juge-arbitre.
+
+Q rgc2-042 | D: 3 | R: 03.01 3.2.3.1 | L: JALC JAFA JAFC
+Dans une compétition par poules, les joueurs peuvent-ils être placés dans les poules autrement que par tirage au sort ?
+- Non, le tirage au sort intégral est obligatoire
++ Oui, si les règlements complémentaires prévoient un ordre prédéfini ou des tirages successifs par groupes de niveau, en fonction d'un classement ou d'une qualification antérieure
+- Oui, au libre choix du juge-arbitre le jour du tirage
+- Oui, mais uniquement pour les têtes de série
+> RGC 3.2.3.1 : dans les compétitions par poules, par dérogation, les règlements complémentaires peuvent prévoir le placement des joueurs ou des équipes selon un ordre prédéfini ou au moyen de tirages au sort successifs par groupes de niveau, en fonction d'un classement ou d'une qualification antérieure.
+
+Q rgc2-043 | D: 2 | R: 03.01 3.2.3.2
+Dans un tableau d'élimination directe de 20 joueurs, comment sont placées les têtes de série n°3 et 4 ?
+- La n°3 en haut du tableau, la n°4 en bas, sans tirage
++ Par tirage au sort, l'une au début du 2e quart et l'autre à la fin du 3e quart du tableau
+- Par tirage au sort sur n'importe quelle place libre
+- Toutes deux dans le demi-tableau de la tête de série n°1
+> RGC 3.2.3.2 : les têtes de série n°3 et 4 sont placées au début du 2e quart et à la fin du 3e quart de tableau, par tirage au sort (sous réserve de la séparation par provenance).
+
+Q rgc2-044 | D: 1 | R: 03.01 3.2.3.2
+Dans une phase de poules, quelle place la tête de série occupe-t-elle dans sa poule ?
++ La première place de la poule
+- La dernière place de la poule
+- Une place tirée au sort
+- La place choisie par le juge-arbitre
+> RGC 3.2.3.2 : dans les poules, chaque tête de série occupe la première place de sa poule.
+
+Q rgc2-045 | D: 2 | R: 03.01 3.2.3.3
+Dans un tableau de 24 joueurs, un club a quatre inscrits. Selon la méthode BWF, où sont placés ses 3e et 4e joueurs ?
+- Dans le même demi-tableau que le plus fort du club
+- Dans deux huitièmes de tableau tirés au sort
++ Par tirage au sort dans les deux quarts de tableau non occupés par les deux premiers
+- Librement, la séparation ne concernant que les deux premiers
+> RGC 3.2.3.3 : les 2 joueurs les plus forts sont placés dans les demi-tableaux opposés ; les 2 suivants dans les deux quarts non occupés par les deux premiers ; ce n'est que si le tableau est de 32 ou plus que les 4 suivants vont dans les huitièmes non occupés.
+
+Q rgc2-046 | D: 3 | R: 03.01 3.2.3.3 | L: JALC JAFA JAFC
+Un club a plus d'inscrits dans un tableau que la méthode BWF ne permet d'en séparer. Pour ces joueurs supplémentaires, dans quel but le tirage peut-il encore être dirigé ?
+- Pour les placer tous dans le même quart de tableau
++ Uniquement pour éviter que deux joueurs de cette provenance se rencontrent au premier tour
+- Pour les placer face aux têtes de série
+- Il ne peut plus être dirigé en aucune façon
+> RGC 3.2.3.3 : en dehors de l'application de la méthode (par exemple si le nombre de joueurs d'une provenance dépasse les chiffres indiqués), le tirage au sort ne peut être dirigé que pour éviter que deux joueurs d'une même provenance se rencontrent au premier tour.
+
+Q rgc2-047 | D: 2 | R: 03.01 3.2.4
+Dans une rencontre PromoBad, le délai minimal de publication des tableaux (une heure avant le premier match) doit-il être respecté ?
+- Oui, sans exception
++ Non, il est admis que ce délai puisse être réduit
+- Non, les tableaux n'ont pas à être publiés
+- Oui, et il est porté à deux heures
+> RGC 3.2.4 : les tableaux doivent être publics au moins une heure avant le premier match du tableau ; toutefois, dans une rencontre PromoBad, ce délai de publication peut être réduit.
+
+Q rgc2-048 | D: 2 | R: 03.01 3.2.5.1
+Avant la publication des tableaux, un joueur défaillant peut-il être remplacé ?
+- Non, aucun remplacement n'est possible avant publication
++ Oui, à condition de ne pas fausser le tableau ni d'entraîner d'autres modifications importantes génératrices de difficultés pratiques
+- Oui, uniquement pour un cas de force majeure justifié
+- Oui, mais seulement par un joueur de son club
+> RGC 3.2.5.1 : avant la publication des tableaux, un joueur défaillant peut être remplacé par un autre à condition de ne pas fausser le tableau ni entraîner d'autres modifications importantes génératrices de difficultés pratiques.
+
+Q rgc2-049 | D: 2 | R: 03.01 3.2.5.4
+Après publication des tableaux, trois joueurs de la liste d'attente sont intégrés à la place de trois joueurs défaillants. Comment leur place est-elle déterminée ?
+- Chacun prend exactement la place du joueur qu'il remplace selon l'ordre de la liste d'attente
++ Par tirage au sort, sauf s'il y a lieu d'appliquer la séparation par provenance
+- Au choix du juge-arbitre
+- Les nouveaux joueurs sont placés en bas du tableau
+> RGC 3.2.5.4 : en cas d'intégration de plusieurs nouveaux joueurs ou paires à la place de défaillants, la place de chacun est déterminée par tirage au sort, sauf s'il y a lieu d'appliquer le principe de séparation par provenance.
+
+Q rgc2-050 | D: 2 | R: 03.01 3.3.1.3
+Selon le RGC, que doit prévoir l'échéancier d'un tournoi ? (plusieurs réponses)
++ Une durée moyenne de match basée sur le tableau indicatif de l'annexe 07
++ L'alternance des tableaux et des séries pour éviter les interruptions dues au temps de repos
++ Une marge plus large pour les phases finales
+- Une durée identique de 20 minutes pour tous les matchs
+> RGC 3.3.1.3 : l'horaire tient compte d'une durée moyenne de match (annexe 07), alterne tableaux et séries, prévoit une marge pour les temps morts (notamment après les doubles mixtes) et une marge plus large pour les phases finales ; il est mis à jour au fil de la compétition.
+
+Q rgc2-051 | D: 2 | R: 03.01 3.3.1.6
+Comment l'ordre des matchs des phases finales d'un tournoi est-il fixé ?
+- Il suit obligatoirement l'ordre SH, SD, DH, DD, DX
++ Il n'est pas réglementé et est déterminé avec l'accord du juge-arbitre
+- Il est tiré au sort
+- Il est fixé par le règlement particulier et ne peut être modifié
+> RGC 3.3.1.6 : l'ordre des matchs lors des phases finales n'est pas réglementé ; il est déterminé avec l'accord du juge-arbitre.
+
+Q rgc2-052 | D: 3 | R: 03.01 3.4.1
+Dans une poule de 4, A, B et C ont chacun deux victoires. A a une différence de sets de +2, B et C de +1 chacun. Comment B et C sont-ils départagés ?
+- Par la différence de points gagnés et perdus
++ Par le résultat du match direct entre B et C
+- Par tirage au sort
+- Par leur cote CPPH
+> RGC 3.4.1 : en cas d'égalité entre 3 joueurs ou plus, on les départage à la différence de sets ; s'il en résulte une égalité entre 2 joueurs, leur classement est déterminé par le résultat du match direct entre eux.
+
+Q rgc2-053 | D: 2 | R: 03.01 3.4.1
+Une compétition réservée aux joueurs classés P10 et en dessous se déroule sans juge-arbitre. Qui procède au tirage au sort départageant des joueurs à égalité parfaite dans une poule ?
+- Le joueur le plus âgé de la poule
++ Le GEO
+- Le président du club organisateur
+- Personne : les joueurs rejouent un match d'appui
+> RGC 3.4.1 : en dernier ressort, les joueurs sont départagés par tirage au sort effectué en leur présence par le juge-arbitre ou un adjoint, ou par le GEO dans le cas d'un PromoBad ou d'une compétition réservée aux joueurs classés P10 au plus sans juge-arbitre.
+
+# ---------------------------------------------------------------- 03.01 : section 4 (compétitions par équipes)
+
+Q rgc2-054 | D: 1 | R: 03.01 4.2
+Dans une compétition opposant des équipes de club, quelle condition doivent remplir les joueurs (sauf entente autorisée) ?
+- Être classés dans la même série
++ Être licenciés dans le club en question
+- Habiter le département du club
+- Avoir disputé au moins un tournoi dans la saison
+> RGC 4.2 : lorsque des équipes de club s'opposent, tous les joueurs participant aux rencontres de l'équipe doivent être licenciés dans le club ; les règlements complémentaires peuvent autoriser des ententes entre clubs.
+
+Q rgc2-055 | D: 2 | R: 03.01 4.3.2
+Une compétition par équipes est réservée aux vétérans. Que prévoit le RGC pour l'âge des joueurs ?
+- Ils ne peuvent pas être plus âgés que la catégorie concernée
++ Ils ne peuvent pas être plus jeunes que la catégorie concernée
+- Toutes les catégories d'âge sont admises
+- Seuls les V1 sont admis
+> RGC 4.3.2 : dans le cas des jeunes, les joueurs ne peuvent être plus âgés que la catégorie concernée ; dans le cas des vétérans, ils ne peuvent être plus jeunes.
+
+Q rgc2-056 | D: 2 | R: 03.01 4.3.1
+Une compétition par équipes est dédiée à la série D. Un club veut y aligner un joueur classé R6. Est-ce possible ?
+- Oui, si l'équipe ne compte qu'un seul joueur R
++ Non, les joueurs ne peuvent avoir un classement supérieur à celui de la compétition
+- Oui, avec l'accord du juge-arbitre
+- Oui, s'il ne joue que des doubles
+> RGC 4.3.1 : lorsqu'une compétition par équipes est dédiée à une ou plusieurs séries, les joueurs d'une équipe ne peuvent avoir un classement supérieur à celui de la compétition.
+
+Q rgc2-057 | D: 2 | R: 03.01 4.5.3
+Une feuille de présence est prévue avant chaque rencontre. Un joueur qui n'y figure pas arrive en cours de rencontre. Peut-il jouer ?
+- Oui, s'il est licencié au club
+- Oui, avec l'accord du capitaine adverse
++ Non, seuls les joueurs figurant sur la feuille de présence sont autorisés à jouer la rencontre
+- Oui, uniquement en remplacement d'un joueur blessé
+> RGC 4.5.3 : lorsque les règlements complémentaires prévoient une feuille de présence, seuls les joueurs y figurant sont autorisés à jouer la rencontre.
+
+Q rgc2-058 | D: 1 | R: 03.01 4.5.2
+Quelle condition de licence s'applique au capitaine d'une équipe ?
+- Il doit être licencié depuis au moins un an
++ Il doit être titulaire d'une licence valide le jour de la rencontre
+- Il n'a pas besoin d'être licencié s'il ne joue pas
+- Il doit être titulaire d'un diplôme d'entraîneur
+> RGC 4.5.2 : le capitaine doit être titulaire d'une licence valide le jour de la rencontre ; les règlements complémentaires peuvent imposer qu'elle soit prise dans le club concerné.
+
+Q rgc2-059 | D: 2 | R: 03.01 4.6
+Une équipe aligne un joueur en infraction avec les règles de composition d'équipe. Quelle conséquence les règlements complémentaires peuvent-ils prévoir pour le match concerné ?
+- L'annulation de toute la rencontre
++ Le considérer comme un forfait, le match étant gagné par l'équipe adverse 15-0, 15-0
+- Le faire rejouer en fin de journée
+- Aucune, seule une amende est possible
+> RGC 4.6 : les règlements complémentaires peuvent prévoir qu'une infraction aux règles de composition d'équipe soit considérée comme un forfait ; un match forfait est gagné par l'équipe adverse sur la marque de 15-0, 15-0.
+
+Q rgc2-060 | D: 2 | R: 03.01 4.7.1
+Sauf précision des règlements complémentaires, combien de points un match gagné, perdu ou forfait rapporte-t-il dans le résultat d'une rencontre par équipes ?
++ Gagné +1, perdu 0, forfait 0
+- Gagné +2, perdu +1, forfait 0
+- Gagné +1, perdu 0, forfait −1
+- Gagné +3, perdu +1, forfait 0
+> RGC 4.7.1 : à défaut de précisions, le résultat de chaque rencontre est déterminé selon le nombre de matchs gagnés et perdus : match gagné +1 point, match perdu 0 point, match forfait 0 point.
+
+Q rgc2-061 | D: 2 | R: 03.01 4.7.2 | L: JALC JAFA JAFC
+Deux équipes font match nul (égalité de matchs, de sets et de points) et il faut désigner un vainqueur. Que s'applique-t-il si les règlements complémentaires ne prévoient rien ?
+- Un match d'appui en simple hommes
+- L'équipe ayant gagné le double mixte l'emporte
++ Un tirage au sort
+- L'équipe recevante l'emporte
+> RGC 4.7.2 : en cas de match nul, les règlements complémentaires précisent les modalités (match d'appui par exemple) ; par défaut, les deux équipes sont départagées par un tirage au sort.
+
+Q rgc2-062 | D: 2 | R: 03.01 4.4
+Pour désigner les têtes de série d'une compétition par équipes, sur quoi est-il recommandé de fonder l'estimation de la valeur des équipes ?
+- Sur le palmarès du club la saison précédente
+- Sur le nombre de licenciés du club
++ Sur le classement ou le rang national des joueurs (titulaires) de chaque équipe
+- Sur l'ordre d'arrivée des inscriptions
+> RGC 4.4 : il est recommandé que l'estimation de la valeur des équipes (désignation des têtes de série, p.ex.) soit fondée sur le classement ou le rang national des joueurs (« titulaires » p.ex.) de chaque équipe.
+
+# ---------------------------------------------------------------- Annexes 01 à 03 : invitation, règlement particulier, convocation
+
+Q rgc2-063 | D: 1 | R: 03.01.A01 1 | T: annexes
+Quelles informations l'invitation à un tournoi doit-elle obligatoirement comporter ? (plusieurs réponses)
++ Le numéro de dossier du tournoi
++ Le nom du juge-arbitre et du GEO en charge de la compétition
++ Les dates et heures d'ouverture et de fermeture des inscriptions
+- La liste des joueurs déjà inscrits
+> Annexe 01 du RGC, § 1 : l'invitation inclut notamment le nom, le lieu et la date, le numéro de dossier, le nom du juge-arbitre (et si possible de ses adjoints), le nom du GEO, les horaires approximatifs, les modalités et les dates et heures d'ouverture et fermeture des inscriptions, la nature et la valeur des récompenses.
+
+Q rgc2-064 | D: 2 | R: 03.01.A01 2 | T: annexes
+Pour être autorisé en publication, comment l'affichage internet d'une compétition doit-il obtenir ses informations ?
+- Par saisie manuelle de l'organisateur
++ Par import numérique obligatoire des informations de la base fédérale Poona
+- Par copie du règlement particulier transmis par courriel
+- Par validation du juge-arbitre
+> Annexe 01, § 2 : l'affichage d'une compétition doit obligatoirement récupérer par import numérique les informations disponibles depuis la base fédérale (Poona) pour être autorisé en publication ; l'import est disponible lorsque la ligue ou la Fédération valide la demande.
+
+Q rgc2-065 | D: 2 | R: 03.01.A02 1 | T: annexes
+Le règlement particulier d'un tournoi doit-il préciser la règle limitant le choix d'un nouveau partenaire en cas de défaillance du partenaire inscrit ?
+- Non, cette règle est fixée par le juge-arbitre le jour même
++ Oui, le cas échéant
+- Non, le RGC interdit toute limitation de ce choix
+- Non, elle figure seulement dans la convocation
+> Annexe 02 : le règlement particulier comprend notamment, le cas échéant, la règle limitant le choix d'un nouveau partenaire en cas de défaillance du partenaire inscrit (cf. RGC 3.2.5.2).
+
+Q rgc2-066 | D: 2 | R: 03.01.A02 1 | T: annexes
+Parmi ces éléments, lesquels doivent figurer dans le règlement particulier d'une compétition ? (plusieurs réponses)
++ Le temps de repos minimum entre deux matchs
++ Le temps dit « d'échauffement » autorisé sur le terrain
++ Le mode de fourniture des volants et la marque et le type du volant officiel
+- L'heure de convocation de chaque joueur
+> Annexe 02 : le règlement particulier précise notamment le temps de repos minimum, le temps d'échauffement, le mode de fourniture des volants ainsi que la marque et le type du volant officiel. L'heure de convocation relève de la convocation (annexe 03).
+
+Q rgc2-067 | D: 1 | R: 03.01.A03 1 | T: annexes
+L'organisateur d'un tournoi ne souhaite pas envoyer de convocation individuelle. Que prévoit l'annexe 03 ?
+- Les convocations sont facultatives
++ Il doit adresser les convocations aux joueurs retenus ou leur indiquer où elles sont ou seront consultables
+- Seule la publication de l'échéancier est obligatoire
+- Il suffit d'afficher les tableaux dans la salle le jour même
+> Annexe 03 : il est obligatoire d'adresser des convocations aux joueurs dont les inscriptions sont retenues ou de leur indiquer où celles-ci sont ou seront consultables.
+
+# ---------------------------------------------------------------- Annexe 04 : placement des têtes de série et des places vacantes
+
+Q rgc2-068 | D: 2 | R: 03.01.A04 1.1.1 | L: JALC JAFA JAFC | T: annexes
+Un tableau d'élimination directe compte 20 inscrits. Quel schéma utiliser et combien y a-t-il de places vacantes ?
+- Un tableau de 16, avec 4 joueurs en surnombre
++ Un tableau de 32, avec 12 places vacantes
+- Un tableau de 24, avec 4 places vacantes
+- Un tableau de 32, avec 20 places vacantes
+> Annexe 04, 1.1.1 : le « tableau de 32 » sert de 17 à 32 joueurs ; le nombre de places vacantes est égal à la dimension du tableau moins le nombre d'inscrits (annexe 06, 2.1.2), soit 32 − 20 = 12.
+
+Q rgc2-069 | D: 2 | R: 03.01.A04 1.1.3 | L: JALC JAFA JAFC | T: annexes
+Un tableau de 16 compte 14 joueurs. Selon le schéma de l'annexe 04, où sont placées les deux places vacantes ?
++ Aux places 2 et 15, face aux têtes de série n°1 et n°2
+- Aux places 8 et 9, au milieu du tableau
+- Aux places 15 et 16, en bas du tableau
+- Aux places 2 et 6
+> Annexe 04 : dans le tableau de 16, « Vacant 1 » est en place 2 (face à la TdS 1 en place 1) et « Vacant 2 » en place 15 (face à la TdS 2 en place 16) ; avec 2 places vacantes, on utilise les emplacements « Vacant 1 » et « Vacant 2 ».
+
+Q rgc2-070 | D: 3 | R: 03.01.A04 1.1.2 | L: JALC JAFA JAFC | T: annexes
+Dans un tableau de 32 (schéma de l'annexe 04), quelles places sont réservées aux têtes de série 3/4 ?
+- Places 8 et 25
++ Places 9 et 24
+- Places 16 et 17
+- Places 5 et 28
+> Annexe 04 (et modèle de l'annexe 11) : dans le tableau de 32, T.d.S. 1 en place 1, T.d.S. 2 en place 32, T.d.S. 3/4 en places 9 et 24, T.d.S. 5/8 en places 5, 13, 20 et 28.
+
+Q rgc2-071 | D: 2 | R: 03.01.A04 1.1.2 | L: JALC JAFA JAFC | T: annexes
+À partir de quelle dimension de tableau les schémas de l'annexe 04 prévoient-ils des places « T.d.S. 5/8 » ?
+- Tableau de 16
++ Tableau de 32
+- Tableau de 64
+- Dès le tableau de 8
+> Annexe 04, 1.1.2 : « T.d.S. 5/8 » désigne les places des têtes de série n°5 à 8, dans les tableaux d'au moins 32 joueurs (« T.d.S. 9/16 » : tableaux d'au moins 64). Rappel RGC 3.2.3.2 : 8 têtes de série au plus ne sont possibles qu'à partir de 32 inscrits.
+
+# ---------------------------------------------------------------- Annexe 05 : distribution des têtes de série et séparation
+
+Q rgc2-072 | D: 3 | R: 03.01.A05 12.7.3 | L: JALC JAFA JAFC | T: annexes
+Selon l'annexe 05, comment une tête de série tirée dans la moitié supérieure du tableau est-elle placée dans sa section (quart, huitième…) ?
++ En haut de sa section
+- En bas de sa section
+- Au milieu de sa section
+- À une place tirée au sort dans sa section
+> Annexe 05, 12.7.3 : les têtes de série du haut du tableau sont placées en haut de leur section (quart, huitième…), celles du bas en bas de leur section.
+
+Q rgc2-073 | D: 2 | R: 03.01.A05 12.10 | T: annexes
+Pour quels tournois la méthode de séparation par provenance de l'annexe 05 est-elle recommandée, lorsqu'une séparation est jugée souhaitable ?
+- Uniquement pour les tournois internationaux
+- Uniquement pour les championnats de France
++ Pour les tournois de tous les niveaux
+- Uniquement pour les tableaux de 32 joueurs et plus
+> Annexe 05, 12.10 : cette méthode de séparation, lorsqu'une telle séparation est jugée souhaitable, est recommandée pour les tournois de tous les niveaux.
+
+# ---------------------------------------------------------------- Annexe 06 : méthode de tirage au sort
+
+Q rgc2-074 | D: 2 | R: 03.01.A06 1 | L: JALC JAFA JAFC | T: annexes
+Pour le tirage au sort d'un tableau de 37 inscrits, quel tableau vierge faut-il préparer ?
+- Un tableau de 37 lignes
+- Un tableau de 32 avec un tour préliminaire
++ Un tableau de 64, numéroté de haut en bas de 1 à 64
+- Un tableau de 48
+> Annexe 06, § 1 : il faut un tableau vierge correspondant à la puissance de 2 immédiatement supérieure au nombre d'inscrits (8, 16, 32, 64…), numéroté de haut en bas.
+
+Q rgc2-075 | D: 3 | R: 03.01.A06 3.1.2 | L: JALC JAFA JAFC | T: annexes
+Au tirage au sort, l'une des têtes de série 3/4 est du même club que la tête de série n°1. Où la place-t-on ?
+- Dans le même demi-tableau que la n°1
++ Dans le demi-tableau opposé à celui de la n°1
+- Par tirage au sort libre entre les deux demi-tableaux
+- Elle perd son statut de tête de série
+> Annexe 06, 3.1.2 : si l'une des têtes de série 3/4 est de la même provenance que la tête de série n°1 ou n°2, on la place dans le demi-tableau opposé ; sinon, on tire au sort les demi-tableaux.
+
+Q rgc2-076 | D: 3 | R: 03.01.A06 2.1.4 | L: JALC JAFA JAFC | T: annexes
+Dans un tableau de 64, un club compte 10 inscrits. Comment sont traités ses 9e et 10e joueurs (par ordre de force) ?
+- Ils sont refusés dans le tableau
+- Ils sont placés dans les huitièmes déjà occupés par les deux plus forts du club
++ Ils sont « en surnombre » et placés en fin de tirage
+- Ils sont placés face aux têtes de série
+> Annexe 06, 2.1.4 : si un pays (club, ligue…) a plus de 8 inscrits dans un tableau de plus de 32, les 8 premiers sont affectés chacun à un huitième ; les suivants, à partir du 9e, sont « en surnombre » et placés en fin de tirage.
+
+Q rgc2-077 | D: 3 | R: 03.01.A06 4.1.1 | L: JALC JAFA JAFC | T: annexes
+Après le placement des têtes de série, par quelle provenance commence-t-on le placement des joueurs ayant plusieurs inscrits ?
++ Par le pays (club, ligue…) ayant le plus d'inscrits
+- Par le pays ayant le moins d'inscrits
+- Par ordre alphabétique des clubs
+- Par le club organisateur
+> Annexe 06, 4.1.1 : on commence par le pays ayant le plus d'inscrits (le mot pays désignant la provenance : pays, ligue ou club).
+
+Q rgc2-078 | D: 3 | R: 03.01.A06 5.1.1 | L: JALC JAFA JAFC | T: annexes
+En fin de tirage, un joueur en surnombre tire une place qui lui ferait rencontrer au premier match un joueur de son club. Que fait-on ?
+- On accepte : la séparation ne concerne pas les joueurs en surnombre
++ On tire un autre pion, ou on l'affecte à la prochaine place libre du tableau
+- On déplace le joueur de son club déjà placé
+- On recommence tout le tirage au sort
+> Annexe 06, 5.1.1 : en plaçant les inscrits restants, on vérifie qu'un joueur en surnombre ne rencontre pas au premier match un joueur de même provenance ; dans ce cas, on tire un autre pion ou on affecte le joueur à la prochaine place libre.
+
+Q rgc2-079 | D: 3 | R: 03.01.A06 4.1.7 | L: JALC JAFA JAFC | T: annexes
+Au tirage, il ne reste plus que des provenances ayant 2 inscrits ou 1 seul. Comment regroupe-t-on les pions restants pour placer les joueurs des provenances ayant 2 inscrits ?
+- Par huitièmes de tableau
+- Par quarts de tableau
++ Par demi-tableau, dans deux chapeaux
+- Tous dans le chapeau général
+> Annexe 06, 4.1.7 et 4.1.8 : lorsqu'il ne reste que des pays ayant 2 ou 1 inscrit, on regroupe les pions restants par demi-tableau (chapeaux 1 et 2), puis on détermine le demi-tableau et la place de chacun.
+
+# ---------------------------------------------------------------- Annexe 09 : définitions des compétitions
+
+Q rgc2-080 | D: 2 | R: 03.01.A09 1.6.2 | T: annexes
+Une compétition non officielle (exhibition, tournoi amical) est-elle soumise aux règles du jeu ?
+- Non, elle n'est soumise à aucun règlement
++ Oui, sauf dérogation accordée par la commission responsable des autorisations
+- Oui, et aussi à l'ensemble du RGC
+- Non, sauf si un juge-arbitre est présent
+> Annexe 09, 1.6.2 : les compétitions non officielles ne sont pas soumises aux règlements généraux des compétitions (il est recommandé d'y faire appel), mais elles sont soumises aux règles du jeu sauf dérogation accordée par la commission responsable des autorisations.
+
+Q rgc2-081 | D: 2 | R: 03.01.A09 1.4.4 | T: annexes
+Quelles restrictions d'accès sont admises pour un tournoi individuel ? (plusieurs réponses)
++ La limitation à une zone géographique précise des associations d'appartenance
++ La limitation à certaines séries de classement, catégories d'âge ou disciplines
++ La limitation du nombre de joueurs inscrits
+- La limitation aux seuls joueurs du club organisateur et de ses partenaires
+> Annexe 09, 1.4.4 : les tournois individuels sont a priori ouverts à tous les licenciés ; les seules restrictions admises sont la zone géographique des associations d'appartenance, les séries de classement, catégories d'âge ou disciplines, et le nombre de joueurs inscrits.
+
+Q rgc2-082 | D: 2 | R: 03.01.A09 1.3.1 | L: JALC JAFA JAFC | T: annexes
+Une ligue organise une compétition destinée à sélectionner ses joueurs pour une compétition nationale. Cette épreuve sélective délivre-t-elle un titre ?
+- Oui, le titre de champion régional
+- Oui, un titre fédéral régional
++ Non, ces épreuves ne donnent lieu à l'attribution d'aucun titre
+- Oui, si elle est homologuée
+> Annexe 09, 1.3.1 : les compétitions de sélection organisées par les ligues et comités ne donnent lieu à l'attribution d'aucun titre (elles peuvent toutefois être confondues avec un championnat régional respectant ces conditions, art. 1.3.4).
+
+Q rgc2-083 | D: 2 | R: 03.01.A09 2.2 | T: annexes
+Au sens de l'annexe 09, que sont les journées ou étapes d'un circuit ou d'un trophée ?
+- Des compétitions non officielles
++ Des tournois individuels
+- Des championnats
+- Des rencontres PromoBad
+> Annexe 09, 2.2 : au sens du règlement intérieur, les journées ou étapes d'un circuit ou d'un trophée sont des tournois individuels.
+
+Q rgc2-084 | D: 2 | R: 03.01.A09 4 | T: annexes
+Un comité organise un plateau MiniBad pour les poussins (hors format PromoBad). Les matchs rapportent-ils des points au classement ?
+- Oui, comme tout tournoi
+- Oui, avec un coefficient réduit
++ Non, il s'agit d'une compétition non officielle n'attribuant pas de points
+- Oui, uniquement pour les vainqueurs
+> Annexe 09, § 4 : parmi les compétitions n'attribuant pas de points figurent les rencontres départementales jeunes et les plateaux poussins/MiniBad (sauf s'ils sont organisés sous forme de PromoBad) et les rencontres amicales.
+
+Q rgc2-085 | D: 3 | R: 03.01.A09 1.2.4 | L: JALC JAFA JAFC | T: annexes
+Les titres de « Champion de France par catégorie » concernent les joueurs et équipes de quelles catégories ? (plusieurs réponses)
++ Catégories d'âge
++ Sport en entreprise
++ Para-badminton
+- Séries de classement (par exemple R ou D)
+> Annexe 09, 1.2.4 : ces championnats sont limités aux catégories d'âge, au sport en entreprise et au para-badminton. Les titres limités à des catégories de classement sont des « titres fédéraux nationaux » (1.2.6), qui ne permettent pas de se prévaloir du titre de Champion de France (1.2.7).
+
+Q rgc2-086 | D: 3 | R: 03.01.A09 1.1.13 | L: JAFA JAFC | T: annexes
+La FFBaD délègue l'organisation d'une compétition fédérale à un club. Quel accord supplémentaire est nécessaire ?
+- Celui du comité exécutif de chaque ligue participante
++ Celui de la ligue concernée
+- Celui du juge-arbitre désigné
+- Aucun, la délégation fédérale suffit
+> Annexe 09, 1.1.13 : la FFBaD peut déléguer l'organisation d'une compétition à une ligue, un comité ou une association ; lorsqu'il s'agit d'un comité ou d'une association, l'accord de la ligue concernée est nécessaire.
+
+# ---------------------------------------------------------------- Annexe 11 : modèles de tableaux et ordre des matchs dans les poules
+
+Q rgc2-087 | D: 2 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Dans une poule de 4 (A tête de poule), quels matchs se jouent au premier tour selon l'annexe 11 ?
+- A-B et C-D
++ A-C et B-D
+- A-D et B-C
+- A-B et A-C
+> Annexe 11 (ordre des matchs dans les poules) : poule de 4, tour 1 : A-C et B-D ; tour 2 : gagnant AC – perdant BD et gagnant BD – perdant AC ; tour 3 : gagnant AC – gagnant BD et perdant AC – perdant BD.
+
+Q rgc2-088 | D: 3 | R: 03.01.A11 Ordre des matchs dans les poules | L: JALC JAFA JAFC | T: annexes
+Dans une poule de 4 conduite selon l'annexe 11, quels matchs sont programmés au dernier tour ?
++ Gagnant AC – gagnant BD et perdant AC – perdant BD
+- A-B et C-D
+- Gagnant AC – perdant BD et gagnant BD – perdant AC
+- A-D et B-C
+> Annexe 11 : en poule de 4, le 3e tour oppose le gagnant de A-C au gagnant de B-D et le perdant de A-C au perdant de B-D, ce qui place en dernier les matchs réputés décisifs (RGC 3.3.1.5).
+
+Q rgc2-089 | D: 1 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Combien de matchs comporte une poule de 6 joueurs ?
+- 12
++ 15
+- 18
+- 21
+> Annexe 11 : total des matchs par poule : 3 (poule de 3), 6 (de 4), 10 (de 5), 15 (de 6), 21 (de 7).
+
+Q rgc2-090 | D: 3 | R: 03.01.A11 | L: JALC JAFA JAFC | T: annexes
+Tableau de 4 poules de 3 (A à D) suivi d'une élimination directe avec 2 qualifiés par poule, selon le modèle de l'annexe 11 : quelles places sont prédéterminées dans la phase finale ?
++ Celles de A1 et D1
+- Celles de A1 et B1
+- Celles de tous les premiers de poule
+- Aucune, tout est tiré au sort
+> Annexe 11 (modèle 4 poules de 3) : les places de A1 et D1 sont prédéterminées ; B1 et C1 sont tirés au sort, puis les deuxièmes sont placés en fonction de ce tirage.
+
+# ---------------------------------------------------------------- Annexe 13 : logiciels agréés
+
+Q rgc2-091 | D: 2 | R: 03.01.A13 1 | T: annexes
+Quels logiciels sont agréés pour gérer une compétition individuelle (tournoi) ? (plusieurs réponses)
++ BadNet
++ BadPlus
+- ICBad
+- Un tableur, sous réserve de transmettre les résultats par courriel
+> Annexe 13 : logiciels agréés pour les compétitions individuelles : BadNet et BadPlus ; pour les compétitions par équipes : BadNet et ICBad.
+
+# ---------------------------------------------------------------- 03.04 : intégration des résultats
+
+Q rgc2-092 | D: 2 | R: 03.04 1
+À quelles compétitions s'applique le règlement d'intégration des résultats dans Poona ?
+- Uniquement aux tournois
++ À toutes les compétitions officielles, fédérales et tournois, individuelles ou par équipes
+- Aussi aux compétitions organisées en France sous l'égide d'un organisme international
+- Uniquement aux compétitions individuelles
+> Règlement 03.04, § 1 : il s'applique à toute compétition officielle (annexe 09, art. 1.1.2), individuelle ou par équipes, donc à toutes les compétitions fédérales et tous les tournois ; pas aux compétitions organisées en France sous l'égide d'un organisme international.
+
+Q rgc2-093 | D: 2 | R: 03.04 3
+Qui valide le rapport du juge-arbitre d'un tournoi autorisé par une ligue ?
+- La FFBaD
++ La ligue dont dépend l'organisation de la compétition
+- Le comité départemental
+- Le club organisateur
+> Règlement 03.04, § 3 : pour les compétitions fédérales régionales ou départementales et les tournois autorisés par une ligue ou la Fédération, le rapport est validé par la ligue dont dépend l'organisation ; pour les compétitions fédérales nationales, par la FFBaD.
+
+Q rgc2-094 | D: 2 | R: 03.04 4
+Dans quel délai maximum les responsables interclubs doivent-ils intégrer les résultats dans Poona ?
+- 3 jours
+- 8 jours
++ 21 jours
+- 30 jours
+> Règlement 03.04, § 4 : l'intégration est faite par les responsables interclubs des différentes instances dans un délai maximum de 21 jours ; par le GEO désigné dans un délai de 3 jours pour les autres compétitions (hors fédérales nationales individuelles et internationales).
+
+Q rgc2-095 | D: 3 | R: 03.04 5 | L: JALC JAFA JAFC
+Un GEO n'a pas intégré les résultats de son tournoi dans les délais. Que peuvent faire les commissions chargées de l'application du règlement 03.04 ?
+- Rien, aucune sanction n'est prévue
++ Prononcer des sanctions administratives et, dans les cas les plus graves, demander l'ouverture d'une procédure disciplinaire
+- Annuler la licence du GEO
+- Retirer définitivement l'autorisation d'organiser au club
+> Règlement 03.04, § 5 : en cas de manquement, ces commissions peuvent prononcer des sanctions administratives ; dans les cas les plus graves, elles peuvent demander l'ouverture d'une procédure disciplinaire.
+
+# ---------------------------------------------------------------- 03.02 : autorisation et homologation des tournois
+
+Q rgc2-096 | D: 2 | R: 03.02 2.3.1 | T: tournois
+À quelle date le GEO principal et le juge-arbitre d'un tournoi doivent-ils obligatoirement être licenciés ?
+- À la date de dépôt de la demande d'autorisation
++ À la date du tirage au sort
+- La veille du premier jour de compétition
+- À la date d'ouverture des inscriptions
+> Règlement 03.02, 2.3.1 : le GEO principal (et ses adjoints) comme le juge-arbitre et ses adjoints doivent obligatoirement être licenciés à la date du tirage au sort.
+
+Q rgc2-097 | D: 2 | R: 03.02 2.4.4 | T: tournois | L: JALC JAFA JAFC
+Un tournoi comporte des tableaux de niveau National et de niveau Régional. Dans quel délai la Fédération doit-elle valider la demande d'autorisation (dossier complet) ?
+- Dans les 15 jours suivant le dépôt de la demande
++ Dans les 15 jours suivant la validation par la ligue
+- Dans les 30 jours suivant le dépôt
+- Dans les 90 jours précédant la compétition
+> Règlement 03.02, 2.4.4 : pour le niveau National, la Fédération valide dans les 15 jours si la compétition ne comporte pas d'autres niveaux, et dans les 15 jours suivant la validation ligue si elle comporte d'autres niveaux.
+
+Q rgc2-098 | D: 2 | R: 03.02 2.4.5 | T: tournois
+La demande d'autorisation d'un tournoi est incomplète. Qu'advient-il du délai de validation de l'instance ?
+- Il court normalement ; la demande est validée tacitement
+- La demande est automatiquement rejetée
++ Il est prolongé jusqu'à ce que la demande soit complète
+- Il est réduit de moitié
+> Règlement 03.02, 2.4.5 : si la demande n'est pas complète, les délais de validation sont prolongés jusqu'à ce qu'elle le soit.
+
+Q rgc2-099 | D: 2 | R: 03.02 2.5.1 | T: tournois
+L'autorisation d'un tournoi peut-elle être assortie de conditions ?
+- Non, l'autorisation est accordée ou refusée sans condition
++ Oui, et l'homologation peut dépendre de leur respect
+- Oui, mais uniquement financières
+- Oui, mais elles n'ont aucune incidence sur l'homologation
+> Règlement 03.02, 2.5.1 : la délivrance de l'autorisation peut être assortie de conditions à respecter par l'organisateur, dont peut dépendre l'homologation du tournoi.
+
+Q rgc2-100 | D: 2 | R: 03.02 3.1.2 | T: tournois
+Parmi ces conditions, lesquelles un tournoi autorisé doit-il remplir pour être homologué ? (plusieurs réponses)
++ Respecter les éléments indiqués dans la demande d'autorisation (nombre et type des tableaux, nom du juge-arbitre, volant officiel…)
++ Avoir versé la « participation fédérale » à la Fédération
++ Respecter les règlements, notamment pour la confection des tableaux et les horaires
+- Avoir réuni au moins 100 participants
+> Règlement 03.02, 3.1.2 : l'homologation suppose le respect des modalités du chapitre 3.2, des règlements et de l'équité sportive (JA et adjoints, confection des tableaux, horaires), des éléments de la demande d'autorisation et des conditions posées, et le versement de la participation fédérale.
+
+Q rgc2-101 | D: 1 | R: 03.02 3.1.1 | T: tournois
+Une compétition s'est déroulée sans autorisation mais dans d'excellentes conditions. Peut-elle être homologuée ?
+- Oui, si le rapport du juge-arbitre est favorable
++ Non, seules les compétitions dûment autorisées peuvent être homologuées
+- Oui, si les résultats sont importés dans les 3 jours
+- Oui, après paiement d'une amende
+> Règlement 03.02, 3.1.1 : seules les compétitions dûment autorisées peuvent par la suite être homologuées (un tournoi non autorisé est de fait interdit, 2.1.1).
+
+# ---------------------------------------------------------------- 03.06 : classement
+
+Q rgc2-102 | D: 2 | R: 03.06 2.2 | T: joueurs
+Un homme et une femme s'inscrivent ensemble dans un tableau de double intergenres. Comment est calculée leur cote de paire ?
+- Moyenne de leurs cotes de mixte
++ Moyenne de leurs cotes de double
+- Somme de leurs cotes de double
+- Cote de double du mieux classé des deux
+> Règlement 03.06, 2.2 (exemple 3) : lorsqu'un homme et une femme s'inscrivent en paire en double intergenres, leur cote de paire est la moyenne de leurs cotes de double, et tous leurs matchs dans ce tableau affectent leurs cotes de double.
+
+Q rgc2-103 | D: 3 | R: 03.06 4.2 | L: JALC JAFA JAFC | T: joueurs
+Deux joueurs ayant 2000 points sont 100e ex aequo au classement. Quel rang obtient le joueur suivant, qui a 1999 points ?
+- 101e
++ 102e
+- 100e
+- 103e
+> Règlement 03.06, 4.2 : lorsque N joueurs ont la même cote et le même rang R, le joueur ayant la cote inférieure la plus haute obtient le rang R+N ; exemple : deux joueurs à 2000 points 100e ex aequo, le joueur à 1999 points est 102e.
+
+Q rgc2-104 | D: 2 | R: 03.06 3.3 | T: joueurs
+Un joueur reprend une licence après plusieurs saisons d'interruption. Quelle cote reçoit-il ?
+- La cote minimale dans les trois disciplines
++ Sa dernière cote connue dans chaque tableau, à laquelle on applique les ajustements historiques
+- La cote moyenne des joueurs de son club
+- Une cote fixée par sa ligue
+> Règlement 03.06, 3.3 : tout joueur qui reprend une licence après interruption reprend sa dernière cote connue dans chaque tableau, à laquelle on applique tous les ajustements historiques ; la cote minimale concerne les nouveaux licenciés (3.2).
