@@ -18,7 +18,7 @@ tous les règlements officiels consultables hors ligne.
 ## Fonctionnalités
 
 - **Banque de questions** (QCM à une ou plusieurs réponses ; les questions sur le rôle et les annonces de
-  l'arbitre sont rangées à part, dans le thème « Arbitrage », hors examens blancs et hors jauge) couvrant tous les chapitres utiles du
+  l'arbitre sont rangées à part, dans les modules « ALA » (arbitre, juge de service) et « Juge de ligne », hors examens blancs et hors jauge) couvrant tous les chapitres utiles du
   Guide du Badminton, chacune avec son explication et un lien vers l'article du règlement concerné.
 - **Séries sans répétition** : chaque utilisateur parcourt toute la banque dans un ordre qui lui est
   propre ; une question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16

@@ -429,7 +429,7 @@ Qui a la responsabilité globale du tournoi ?
 - Le président du club organisateur
 > Règle 17.1 : le juge-arbitre a la responsabilité globale du tournoi ou de la compétition dont un match fait partie ; l'arbitre est responsable du match, du terrain et de la zone immédiatement autour (17.2).
 
-Q reg-054 | D: 2 | R: REGLES 17.5.1
+Q reg-054 | D: 2 | R: REGLES 17.5.1 | T: arbitrage
 L'arbitre peut-il corriger l'annonce d'un juge de ligne ?
 - Non, jamais
 + Oui, si au-delà d'un doute raisonnable l'annonce est nettement incorrecte
@@ -445,7 +445,7 @@ Jusqu'à quand un joueur peut-il porter une réclamation sur l'application d'une
 - Jusqu'à la remise des récompenses
 > Règle 17.6.8 : les réclamations insatisfaites sur les règles sont portées au juge-arbitre ; elles doivent être faites avant le service suivant ou, en fin de match, avant que le côté qui réclame quitte le terrain.
 
-Q reg-056 | D: 2 | R: REGLES 17.3
+Q reg-056 | D: 2 | R: REGLES 17.3 | T: arbitrage
 Quel officiel annonce les fautes de service du serveur ?
 - Le juge de ligne le plus proche
 + Le juge de service

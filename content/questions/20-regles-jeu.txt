@@ -664,7 +664,7 @@ Selon la règle 16.1, le jeu doit être continu depuis le premier service jusqu'
 - Une pause de récupération à la demande d'un joueur, une fois par match
 > Règle 16.1 : le jeu doit être continu du premier service à la fin du match, sauf dans les situations autorisées par les règles 16.2 (intervalles) et 16.3 (suspension de jeu) et, pour le Para-badminton catégorie « fauteuil roulant », 16.5.3.
 
-Q rj-083 | D: 1 | R: REGLES 16.4.2
+Q rj-083 | D: 1 | R: REGLES 16.4.2 | T: arbitrage
 Pendant un match avec arbitre, qui est le seul juge d'un retard de jeu ?
 - Le juge-arbitre
 + L'arbitre
@@ -705,7 +705,7 @@ En Para-badminton, quelles dispositions particulières les règles prévoient-el
 - Un joueur en fauteuil roulant peut quitter le terrain à tout moment sans la permission de l'arbitre
 > Règles 16.5.3 et 16.3.2 : en catégorie « fauteuil roulant », pause supplémentaire et autorisation de quitter le terrain pour se cathétériser, accompagné d'un officiel technique mandaté ; la réparation d'un équipement spécifique (règle 5.2) peut être considérée comme une circonstance particulière permettant au juge-arbitre de faire suspendre le jeu.
 
-Q rj-088 | D: 1 | R: REGLES 17.2
+Q rj-088 | D: 1 | R: REGLES 17.2 | T: arbitrage
 Selon la règle 17.2, de quoi l'arbitre désigné est-il responsable ?
 - De l'ensemble du tournoi
 + Du match, du terrain et de la zone immédiatement autour ; il en réfère au juge-arbitre
@@ -713,15 +713,7 @@ Selon la règle 17.2, de quoi l'arbitre désigné est-il responsable ?
 - Du match et de l'échauffement des joueurs en chambre d'appel
 > Règle 17.2 : l'arbitre désigné est responsable du match, du terrain et de la zone immédiatement autour ; il doit en référer au juge-arbitre, qui a la responsabilité globale du tournoi (règle 17.1).
 
-Q rj-089 | D: 1 | R: REGLES 17.4
-Quel est le rôle d'un juge de ligne ?
-- Annoncer les fautes de service du serveur
-- Annoncer toutes les fautes commises près de sa ligne, y compris les touches de filet
-+ Indiquer si le volant est « in » ou « out » par rapport à la ou aux lignes qui lui sont attribuées
-- Compter les points et annoncer le score
-> Règle 17.4 : le juge de ligne doit indiquer si le volant est « in » ou « out » par rapport à la (aux) ligne(s) attribuée(s). Les fautes de service du serveur relèvent du juge de service (règle 17.3).
-
-Q rj-090 | D: 3 | R: REGLES 17.3
+Q rj-090 | D: 3 | R: REGLES 17.3 | T: arbitrage
 Parmi ces fautes, lesquelles le juge de service est-il chargé d'annoncer ? (plusieurs réponses)
 + Le serveur touche la ligne centrale avec son pied
 - Le receveur se déplace avant que le volant ne soit frappé
@@ -729,7 +721,7 @@ Parmi ces fautes, lesquelles le juge de service est-il chargé d'annoncer ? (plu
 - Le service tombe en dehors de la zone de réception
 > Règle 17.3 : le juge de service annonce les fautes de service du serveur (règles 9.1.2 à 9.1.8). Les fautes du receveur sont annoncées par l'arbitre, et un service tombé hors de la zone de réception relève du juge de ligne concerné ou de l'arbitre (règles 17.4 et 17.6).
 
-Q rj-091 | D: 2 | R: REGLES 17.6.4
+Q rj-091 | D: 2 | R: REGLES 17.6.4 | T: arbitrage
 Pendant un match, un juge de ligne doit être remplacé. Qui procède à ce remplacement ?
 - Le juge-arbitre seul, sans consulter l'arbitre
 + L'arbitre, en concertation avec le juge-arbitre
@@ -737,7 +729,7 @@ Pendant un match, un juge de ligne doit être remplacé. Qui procède à ce remp
 - Les joueurs, d'un commun accord
 > Règle 17.6.4 : l'arbitre doit désigner ou remplacer les juges de ligne ou le juge de service en concertation avec le juge-arbitre.
 
-Q rj-092 | D: 2 | R: REGLES 17.6.6
+Q rj-092 | D: 2 | R: REGLES 17.6.6 | T: arbitrage
 Un juge de ligne signale à l'arbitre qu'il a été masqué et n'a pas vu le volant tomber près de sa ligne. Que fait l'arbitre (en l'absence de système de révision instantanée) ?
 - Il demande aux joueurs de se mettre d'accord
 - Il donne le point au côté qui a frappé en dernier
@@ -753,7 +745,7 @@ Venu sur le terrain, le juge-arbitre est interpellé par un joueur qui conteste 
 - Demander l'avis du juge de ligne placé du côté opposé
 > Règles 17.5 et 17.6.8 : la décision d'un officiel est définitive sur les points de fait dont il est responsable, sauf correction par l'arbitre (annonce nettement incorrecte au-delà d'un doute raisonnable) ou décision d'un système de révision instantanée. L'arbitre ne porte à la connaissance du juge-arbitre que les réclamations portant sur les règles.
 
-Q rj-094 | D: 2 | R: REGLES 17.6
+Q rj-094 | D: 2 | R: REGLES 17.6 | T: arbitrage
 Parmi ces missions, lesquelles incombent à l'arbitre selon la règle 17.6 ? (plusieurs réponses)
 + S'assurer que les joueurs et les spectateurs sont bien informés du déroulement du match
 - Disqualifier du match un joueur fauté pour mauvaise conduite
@@ -923,7 +915,7 @@ Après un challenge, le système de révision instantanée affiche « PAS DE DÉ
 - Seulement si l'arbitre le décide
 > Annexe 6, point 3.5 : lorsque l'arbitre demande une vérification, ou lorsque le système indique « PAS DE DÉCISION » ou dysfonctionne, aucun challenge n'est perdu par les joueurs.
 
-Q rj-115 | D: 2 | R: REGLES Annexe 6 1.3 | L: JAFA JAFC
+Q rj-115 | D: 2 | R: REGLES Annexe 6 1.3 | L: JAFA JAFC | T: arbitrage
 Le système de révision instantanée rend une décision incohérente : le texte affiché et la représentation graphique ne correspondent pas. Que doit faire l'arbitre ?
 - Retenir la décision affichée en texte
 - Faire rejouer l'échange sans consulter personne
@@ -939,7 +931,7 @@ Q rj-116 | D: 1 | R: REGLES Annexe 6 2.1 | L: JAFA JAFC
 - Pendant l'intervalle suivant
 > Annexe 6, point 2.1 : le challenge doit être notifié immédiatement après la chute du volant et la décision du juge de ligne et/ou de l'arbitre.
 
-Q rj-117 | D: 2 | R: REGLES Annexe 6 1.2 | L: JAFA JAFC
+Q rj-117 | D: 2 | R: REGLES Annexe 6 1.2 | L: JAFA JAFC | T: arbitrage
 Sur un terrain équipé d'un système de révision instantanée, ni le juge de ligne ni l'arbitre n'ont pu voir la chute du volant. Que peut faire l'arbitre ?
 - Annoncer « let » sans autre vérification
 + Demander lui-même une vérification au système, sans qu'aucun challenge ne soit décompté aux joueurs

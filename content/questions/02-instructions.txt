@@ -19,7 +19,7 @@ Un joueur conteste auprès du juge-arbitre principal une décision prise par le 
 - La décision est suspendue jusqu'à la fin de la compétition
 > Instruction 4.1.3.2 : une décision d'un juge-arbitre adjoint sera considérée comme une décision du juge-arbitre ; il n'y a aucun appel d'une telle décision au juge-arbitre.
 
-Q ins-003 | D: 1 | R: REGLES Instr. 2.7
+Q ins-003 | D: 1 | R: REGLES Instr. 2.7 | T: arbitrage
 À quel moment commence la responsabilité de l'arbitre d'un match ?
 - À l'annonce « Jouez »
 + Dès son entrée sur l'aire de jeu avant le match, jusqu'à ce qu'il quitte l'aire de jeu à la fin du match
@@ -35,7 +35,7 @@ Comment l'aire de jeu est-elle définie dans les instructions ?
 - Le terrain et un espace de 2 mètres autour
 > Instruction 2.7 : l'aire de jeu est la surface totale sur laquelle les terrains sont posés et où les spectateurs ne sont pas autorisés.
 
-Q ins-005 | D: 1 | R: REGLES Instr. 2.5
+Q ins-005 | D: 1 | R: REGLES Instr. 2.5 | T: arbitrage
 Un juge de ligne a été masqué et ne peut pas juger. L'arbitre n'a pas pu voir non plus et il n'y a pas de système de révision. L'arbitre annonce :
 - faute contre le dernier frappeur
 + let

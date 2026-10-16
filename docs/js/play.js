@@ -51,7 +51,7 @@ const isError = (s) => s.n > 0 && (s.last === 0 || s.b <= 1);
 const pick = (list, seed) => list[seed % list.length];
 
 /** Thèmes hors programme JA : exclus des séries et des jeux sauf s'ils sont choisis explicitement. */
-export const OPTIONAL_THEMES = ['arbitrage'];
+export const OPTIONAL_THEMES = ['arbitrage', 'jdl'];
 
 function levelPool(qdata, level, themes = []) {
   return qdata.questions.filter((q) => q.levels.includes(level)
