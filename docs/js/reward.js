@@ -2,7 +2,6 @@
 import { state, save } from './store.js';
 import { getQuestions, getCases } from './data.js';
 import { noteAnswer, noteActivity, checkBadges, levelInfo, BADGES } from './game.js';
-import { toast } from './ui.js';
 import { celebrate, confetti, floatText, sound, vibrate } from './fx.js';
 
 const pending = [];
@@ -30,7 +29,6 @@ export async function rewardAnswer(q, correct, { oral = false, anchor = null } =
   const earned = await badges();
   save();
   queue(r.levelUp, earned);
-  for (const b of earned) toast(`${b.icon} Badge débloqué : ${b.name}`);
   return { ...r, badges: earned };
 }
 

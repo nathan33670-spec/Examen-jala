@@ -1,5 +1,5 @@
 {
- "build": "20f1fa302135",
+ "build": "1d84a66e622f",
  "core": [
   "./",
   "css/app.css",
@@ -24,6 +24,7 @@
   "js/fx.js",
   "js/game.js",
   "js/gauge.js",
+  "js/gen.js",
   "js/offline.js",
   "js/play.js",
   "js/practice.js",
@@ -103,7 +104,7 @@
   "reglements/text/08.03.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 1565406,
+ "coreSize": 1574696,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",

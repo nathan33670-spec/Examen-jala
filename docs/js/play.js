@@ -9,6 +9,7 @@ import { dayKey, levelInfo, setRecord, stars } from './game.js';
 import { makeItem, isCorrect, refLink, choiceList, themeName, diffDots } from './qcommon.js';
 import { rewardAnswer, rewardActivity, flush } from './reward.js';
 import { confetti } from './fx.js';
+import { generateScoreQuiz } from './gen.js';
 
 const KEY = 'prepa-ja-play';
 const CHRONO_SEC = 90;
@@ -22,6 +23,7 @@ export const MODES = {
   match: { icon: '🏸', name: 'Match en 3×15', tag: 'Bonne réponse = point pour vous. Gagnez le set !' },
   chrono: { icon: '⏱️', name: 'Contre-la-montre', tag: `${CHRONO_SEC} secondes, une erreur coûte ${CHRONO_PENALTY} s` },
   survival: { icon: '❤️', name: 'Mort subite', tag: `${LIVES} vies : jusqu’où irez-vous ?` },
+  score: { icon: '🧮', name: 'Score & service', tag: 'Questions générées à l’infini sur le 3×15' },
   oral: { icon: '🎤', name: 'Mode oral', tag: 'Répondez à voix haute, puis vérifiez (oral JALC)' },
   retry: { icon: '🔁', name: 'Mes erreurs', tag: 'Retravailler les questions ratées' },
   fav: { icon: '⭐', name: 'Favoris', tag: 'Les questions que vous avez marquées' },
@@ -69,6 +71,8 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
     list = ids.map((id) => index.get(id)).filter(Boolean);
   } else if (mode === 'daily') {
     list = dailyPick(pool, dayKey(), level, 10);
+  } else if (mode === 'score') {
+    list = generateScoreQuiz(15, `${seed}|${now}`);
   } else if (mode === 'retry') {
     list = pool.filter((q) => isError(qStat(q.id))).sort((a, b) => qStat(b.id).t - qStat(a.id).t).slice(0, count);
   } else if (mode === 'fav') {
@@ -85,6 +89,7 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
   session = {
     mode, level, themes, replay,
     ids: list.map((q) => q.id), idx: 0, cur: makeItem(list[0]),
+    extra: mode === 'score' ? Object.fromEntries(list.map((q) => [q.id, q])) : null,
     answers: [], good: 0, combo: 0, bestCombo: 0, xp: 0,
     startedAt: now, xpStart: state.game.xp,
     lives: LIVES, me: 0, opp: 0, server: 0, intervalDone: false, notice: '',
@@ -151,6 +156,7 @@ export async function renderPlayHub(main) {
       ${modeCard('match', `Sets gagnés : ${state.game.records.matchWins || 0}`)}
       ${modeCard('chrono', rec('chrono') ? `Record : ${rec('chrono')}` : 'Pas encore de record')}
       ${modeCard('survival', rec('survival') ? `Record : ${rec('survival')}` : 'Pas encore de record')}
+      ${modeCard('score', 'Variantes illimitées')}
       <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(level)}</strong><span class="small">Conditions réelles, chronométré</span><span class="mode-rec">${state.exams.filter((e) => e.level === level && e.passed).length} réussi(s)</span></a>
     </div>
 
@@ -209,6 +215,7 @@ export async function renderPlaySession(main) {
   if (session.finished) { await renderEnd(main); return; }
   const qdata = await getQuestions();
   const index = new Map(qdata.questions.map((q) => [q.id, q]));
+  for (const g of Object.values(session.extra || {})) index.set(g.id, g);
   let q = index.get(session.cur.id);
   while (!q && session.idx < session.ids.length - 1) { // banque mise à jour entre-temps
     session.idx += 1;
@@ -243,6 +250,7 @@ export async function renderPlaySession(main) {
     feedback = `<div class="feedback ${ok ? 'ok' : 'ko'} ${fresh ? 'anim' : ''}">
       <div class="fb-head"><span class="fb-icon" aria-hidden="true">${ok ? '✓' : '✗'}</span><strong>${esc(title)}</strong>${session.lastXp ? `<span class="fb-xp">+${session.lastXp} XP</span>` : ''}</div>
       ${mode === 'chrono' ? '' : `<p>${esc(q.explain)}</p>${await refLink(q.ref)}`}
+      ${fresh && session.newBadges?.length ? `<p class="fb-badge">Badge débloqué : ${esc(session.newBadges.join(' · '))}</p>` : ''}
     </div>`;
   }
 
@@ -266,7 +274,7 @@ export async function renderPlaySession(main) {
     ${session.notice ? `<div class="notice small play-notice">${esc(session.notice)}</div>` : ''}
     <article class="qcard ${item.revealed && !oral ? (ok ? 'is-ok' : 'is-ko') : ''} ${fresh && item.revealed && !ok && !oral ? 'shake' : ''}">
       <div class="qmeta"><span class="badge info">${esc(themeName(qdata, q.theme))}</span>${diffDots(q.difficulty)}
-        <button class="fav-btn" data-act="fav" aria-pressed="${!!fav}" aria-label="${fav ? 'Retirer des favoris' : 'Ajouter aux favoris'}">${fav ? '★' : '☆'}</button></div>
+        ${q.generated ? '<span class="badge">générée</span>' : `<button class="fav-btn" data-act="fav" aria-pressed="${!!fav}" aria-label="${fav ? 'Retirer des favoris' : 'Ajouter aux favoris'}">${fav ? '★' : '☆'}</button>`}</div>
       <p class="question">${esc(q.q)}</p>
       ${q.type === 'multiple' && !oral ? '<p class="small multi-hint">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
       ${body}
@@ -309,7 +317,7 @@ export async function renderPlaySession(main) {
   if (item.revealed && mode === 'chrono') autoNext = setTimeout(() => { if (onSession()) next(main); }, ok ? 650 : 1400);
 }
 
-const finiteMode = () => ['smart', 'daily', 'oral', 'retry', 'fav'].includes(session.mode);
+const finiteMode = () => ['smart', 'daily', 'oral', 'retry', 'fav', 'score'].includes(session.mode);
 const onSession = () => location.hash.startsWith('#/entrainement/session') && session && !session.finished;
 
 function endReached() {
@@ -359,7 +367,7 @@ async function answer(main, q, anchor) {
   item.revealed = true;
   item.fresh = true;
   session.answers.push({ id: q.id, sel: item.selected, ok });
-  recordAnswer(q.id, ok);
+  if (!q.generated) recordAnswer(q.id, ok);
   if (ok) { session.good += 1; session.combo += 1; } else session.combo = 0;
   session.bestCombo = Math.max(session.bestCombo, session.combo);
   if (session.mode === 'match') {
@@ -376,6 +384,7 @@ async function answer(main, q, anchor) {
   const r = await rewardAnswer(q, ok, { oral: session.mode === 'oral', anchor });
   session.xp += r.xp;
   session.lastXp = r.xp;
+  session.newBadges = r.badges.map((b) => `${b.icon} ${b.name}`);
   persist();
   if (session.mode !== 'oral' && onSession()) await renderPlaySession(main);
 }
@@ -395,7 +404,7 @@ async function next(main) {
     session.ids.push(...more.map((q) => q.id));
   }
   const qdata = await getQuestions();
-  const q = qdata.questions.find((x) => x.id === session.ids[session.idx]);
+  const q = qdata.questions.find((x) => x.id === session.ids[session.idx]) || session.extra?.[session.ids[session.idx]];
   session.cur = makeItem(q || { id: session.ids[session.idx], choices: [] });
   if (session.mode === 'match') session.qDeadline = Date.now() + MATCH_Q_SEC * 1000;
   persist();
@@ -525,6 +534,7 @@ async function renderEnd(main) {
   const r = s.result;
   const qdata = await getQuestions();
   const index = new Map(qdata.questions.map((q) => [q.id, q]));
+  for (const g of Object.values(s.extra || {})) index.set(g.id, g);
   const wrong = s.answers.filter((a) => !a.ok);
   const info = levelInfo(state.game.xp);
   const mode = MODES[s.mode];
@@ -554,7 +564,7 @@ async function renderEnd(main) {
     </section>
     <div class="btn-row end-actions">
       <button class="btn big" data-act="again">${s.mode === 'daily' ? 'Série intelligente' : 'Rejouer'}</button>
-      ${wrong.length ? `<button class="btn accent" data-act="retry">🔁 Revoir mes ${wrong.length} erreur${wrong.length > 1 ? 's' : ''}</button>` : ''}
+      ${wrong.length && s.mode !== 'score' ? `<button class="btn accent" data-act="retry">🔁 Revoir mes ${wrong.length} erreur${wrong.length > 1 ? 's' : ''}</button>` : ''}
       <a class="btn secondary" href="#/">Accueil</a>
     </div>
     ${reviews.length ? `<h2>À retenir</h2>${reviews.join('')}` : ''}`;
@@ -565,7 +575,7 @@ async function renderEnd(main) {
     const ids = wrong.map((a) => a.id);
     if (b.dataset.act === 'again') {
       session = null; persist();
-      startPlay({ mode: mode === 'daily' || mode === 'retry' || mode === 'fav' ? 'smart' : mode, level, themes, count: state.settings.train?.count || 10 });
+      startPlay({ mode: ['daily', 'retry', 'fav'].includes(mode) ? 'smart' : mode, level, themes, count: state.settings.train?.count || 10 });
     } else if (b.dataset.act === 'retry') {
       session = null; persist();
       startPlay({ mode: 'retry', level, ids });

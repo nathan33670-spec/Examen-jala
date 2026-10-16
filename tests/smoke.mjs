@@ -33,7 +33,7 @@ async function answer(good = true) {
   await page.locator('.qcard .choice').first().waitFor();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
-  const q = qdata.questions.find((x) => x.id === s.cur.id);
+  const q = qdata.questions.find((x) => x.id === s.cur.id) || s.extra?.[s.cur.id];
   const targets = good ? q.answer : [q.choices.findIndex((_, i) => !q.answer.includes(i))];
   for (const ci of targets) await page.locator(`.qcard .choice[data-choice="${ci}"]`).click();
   if (q.type === 'multiple') await page.locator('[data-act="validate"]').click();
@@ -167,6 +167,18 @@ await step('mort subite : trois vies', async () => {
   await page.locator('[data-act="next"]').click();
   await page.locator('.end-card').waitFor();
   await page.getByText('1 bonne réponse').waitFor();
+});
+
+await step('score & service : questions générées', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="score"]').click();
+  for (let i = 0; i < 15; i += 1) {
+    await answer(true);
+    await page.locator('[data-act="next"]').click();
+  }
+  await page.getByText('15/15').waitFor();
+  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  if (Object.keys((await store()).q).some((id) => id.startsWith('gen-'))) throw new Error('question générée enregistrée dans la banque');
 });
 
 await step('examen blanc : démarrer, répondre, terminer', async () => {

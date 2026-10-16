@@ -171,3 +171,55 @@ test('série de jours, combo et badges', () => {
   assert.equal(addDays('2026-10-31', 1), '2026-11-01');
   assert.equal(dayKey(new Date(2026, 0, 5, 12)), '2026-01-05');
 });
+
+// ------------------------------------------------------------------ questions générées (score 3×15)
+import { generateScoreQuiz, scoreStatus } from '../docs/js/gen.js';
+
+test('statut d’un score : vérification exhaustive par simulation des échanges', () => {
+  // états atteignables depuis 0-0 en ajoutant un point à l'un ou l'autre côté, sans dépasser la fin du set
+  const reach = new Set(['0-0']);
+  const over = (a, b) => { const hi = Math.max(a, b); const lo = Math.min(a, b); return (hi >= 15 && hi - lo >= 2) || hi === 21; };
+  const queue = [[0, 0]];
+  while (queue.length) {
+    const [a, b] = queue.shift();
+    if (over(a, b)) continue;
+    for (const [x, y] of [[a + 1, b], [a, b + 1]]) {
+      if (!reach.has(`${x}-${y}`)) { reach.add(`${x}-${y}`); queue.push([x, y]); }
+    }
+  }
+  for (let a = 0; a <= 24; a += 1) {
+    for (let b = 0; b <= 24; b += 1) {
+      const expected = !reach.has(`${a}-${b}`) ? 'impossible' : over(a, b) ? 'over' : 'continue';
+      assert.equal(scoreStatus(a, b), expected, `${a}-${b}`);
+    }
+  }
+});
+
+test('questions générées : bien formées, sans doublon, réponses cohérentes', () => {
+  for (const seed of ['a', 'b', 'c', 'd', 'e']) {
+    const list = generateScoreQuiz(40, seed);
+    assert.equal(list.length, 40);
+    assert.equal(new Set(list.map((q) => q.id)).size, 40);
+    for (const q of list) {
+      assert.ok(q.answer.length >= 1 && q.answer.every((i) => i >= 0 && i < q.choices.length), q.id);
+      assert.equal(new Set(q.choices).size, q.choices.length, q.id);
+      assert.ok(q.explain.length > 30, q.id);
+      if (q.id.startsWith('gen-set-')) {
+        const [, , a, b] = q.id.split('-').map(Number);
+        const label = { over: 'Le set est terminé', continue: 'Le set continue', impossible: 'Ce score ne peut pas exister' }[scoreStatus(a, b)];
+        assert.equal(q.choices[q.answer[0]], label, q.id);
+      }
+      if (q.id.startsWith('gen-sgl-') || q.id.startsWith('gen-dbl-')) {
+        const pts = Number(q.id.split('-')[2]);
+        assert.match(q.choices[q.answer[0]], pts % 2 === 0 ? /droite/ : /gauche/, q.id);
+      }
+      if (q.id.startsWith('gen-int-')) {
+        const [, , set, before] = q.id.split('-').map(Number);
+        const got = q.answer.map((i) => q.choices[i]).sort();
+        const expected = before + 1 !== 8 ? ['Rien de particulier : le jeu continue']
+          : set === 2 ? ['Un changement de demi-terrain', 'Un intervalle de 60 secondes au maximum'] : ['Un intervalle de 60 secondes au maximum'];
+        assert.deepEqual(got, expected.sort(), q.id);
+      }
+    }
+  }
+});

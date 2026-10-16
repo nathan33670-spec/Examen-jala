@@ -322,6 +322,7 @@ mark { background: #ffe58a; color: #222; border-radius: 3px; }
 .m-chrono { background: linear-gradient(140deg, #6a3fb5, #4b2a8a); }
 .m-survival { background: linear-gradient(140deg, #d23c4b, #9c1f2c); }
 .m-exam { background: linear-gradient(140deg, #0f4c5c, #1b6f84); }
+.m-score { background: linear-gradient(140deg, #c26a00, #8f4a00); }
 .mode-card::after { content: ""; position: absolute; right: -24px; bottom: -24px; width: 90px; height: 90px; border-radius: 50%; background: rgba(255, 255, 255, .1); }
 
 /* ---------- hub d'entraînement */
@@ -394,6 +395,7 @@ body.in-play .toast { bottom: calc(env(safe-area-inset-bottom) + 84px); }
 .fb-head { display: flex; align-items: center; gap: 10px; font-size: 1.08rem; }
 .fb-icon { flex: 0 0 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; color: #fff; font-weight: 900; background: var(--ko); }
 .feedback.ok .fb-icon { background: var(--ok); }
+.fb-badge { margin-top: 8px !important; font-weight: 700; color: var(--accent); animation: pop .4s ease; }
 .fb-xp { margin-left: auto; font-weight: 800; color: var(--accent); font-size: .92rem; }
 
 /* ---------- fin de partie */
