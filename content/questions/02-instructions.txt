@@ -19,7 +19,7 @@ Un joueur conteste auprès du juge-arbitre principal une décision prise par le 
 - La décision est suspendue jusqu'à la fin de la compétition
 > Instruction 4.1.3.2 : une décision d'un juge-arbitre adjoint sera considérée comme une décision du juge-arbitre ; il n'y a aucun appel d'une telle décision au juge-arbitre.
 
-Q ins-003 | D: 1 | R: REGLES Instr. 2.7
+Q ins-003 | D: 1 | R: REGLES Instr. 2.7 | T: arbitrage
 À quel moment commence la responsabilité de l'arbitre d'un match ?
 - À l'annonce « Jouez »
 + Dès son entrée sur l'aire de jeu avant le match, jusqu'à ce qu'il quitte l'aire de jeu à la fin du match
@@ -35,7 +35,7 @@ Comment l'aire de jeu est-elle définie dans les instructions ?
 - Le terrain et un espace de 2 mètres autour
 > Instruction 2.7 : l'aire de jeu est la surface totale sur laquelle les terrains sont posés et où les spectateurs ne sont pas autorisés.
 
-Q ins-005 | D: 1 | R: REGLES Instr. 2.5
+Q ins-005 | D: 1 | R: REGLES Instr. 2.5 | T: arbitrage
 Un juge de ligne a été masqué et ne peut pas juger. L'arbitre n'a pas pu voir non plus et il n'y a pas de système de révision. L'arbitre annonce :
 - faute contre le dernier frappeur
 + let
@@ -203,7 +203,7 @@ Les volants doivent-ils être testés de nouveau en cours de journée ?
 - Oui, toutes les deux heures
 > Instructions 3.5.4.7 et 3.5.4.8 : re-tester si les conditions changent considérablement ; si elles ne changent pas et que les volants sont réguliers, il n'est pas nécessaire de tester chaque jour.
 
-Q ins-026 | D: 1 | R: REGLES Instr. 5.13.4
+Q ins-026 | D: 1 | R: REGLES Instr. 5.13.4 | T: arbitrage
 Qui est le seul à décider de la vitesse des volants à utiliser ?
 - L'arbitre du match
 - Les joueurs d'un commun accord
@@ -299,7 +299,7 @@ Un joueur inscrit en simple et en double mixte est disqualifié par le juge-arbi
 - Son partenaire de double mixte est aussi disqualifié de tous ses tableaux
 > Instruction 3.6.2.2 : un joueur disqualifié l'est pour tous les tableaux du tournoi (et, par équipes, pour tous les matchs futurs) ; le partenaire de double peut continuer dans d'autres tableaux. Un processus disciplinaire peut être recommandé dans le rapport.
 
-Q ins-038 | D: 1 | R: REGLES Instr. 5.17.5
+Q ins-038 | D: 1 | R: REGLES Instr. 5.17.5 | T: arbitrage
 Le juge-arbitre décide de disqualifier un joueur lors d'un match arbitré. Comment la décision est-elle matérialisée ?
 - Le juge-arbitre lève lui-même un carton rouge
 + Un carton noir est donné à l'arbitre, qui annonce la disqualification en levant le carton noir
@@ -355,7 +355,7 @@ Un conseiller récidive en invectivant les arbitres depuis sa chaise. Quelle mes
 - Rien, le code de conduite ne concerne que les joueurs
 > Instruction 3.5.18 : le JA peut exclure un conseiller de l'aire de jeu pour une durée appropriée selon la gravité ; les violations graves sont signalées via le rapport (code de conduite des conseillers, entraîneurs et éducateurs).
 
-Q ins-045 | D: 2 | R: REGLES Instr. 5.12.7
+Q ins-045 | D: 2 | R: REGLES Instr. 5.12.7 | T: arbitrage
 Un conseiller perturbe le jeu en criant pendant un échange, ce qui distrait l'adversaire. L'arbitre :
 + annonce un let, et appelle immédiatement le juge-arbitre si l'incident se répète
 - faute le joueur conseillé
@@ -467,7 +467,7 @@ Dans un tournoi par équipes, le juge-arbitre peut disqualifier une équipe qui 
 - a perdu ses deux premières rencontres
 > Instruction 3.8.7 : le JA peut disqualifier à n'importe quelle étape toute équipe qui ne signale pas son arrivée à temps, n'effectue pas son programme, ou ne remplit pas ses obligations.
 
-Q ins-059 | D: 1 | R: REGLES Instr. 5.2.2.1
+Q ins-059 | D: 1 | R: REGLES Instr. 5.2.2.1 | T: arbitrage
 Combien de temps dure en principe la prise en compte du terrain (préparation) avant un match arbitré, et quand commence-t-elle ?
 + 2 minutes, à partir du moment où l'arbitre s'assoit sur sa chaise, jusqu'à l'annonce « Jouez »
 - 5 minutes à partir de l'appel du match
@@ -475,7 +475,7 @@ Combien de temps dure en principe la prise en compte du terrain (préparation) a
 - 1 minute après le test des volants
 > Instruction 5.2.2.1 : sauf instruction contraire du JA, les deux minutes de préparation commencent lorsque l'arbitre s'assoit et se terminent par l'annonce « Jouez » ; « Prêt(e)s à jouer » est annoncé à 90 secondes. Le RGC (art. 2.17) impose au moins deux minutes de temps de préparation.
 
-Q ins-060 | D: 2 | R: REGLES Instr. 5.4.13
+Q ins-060 | D: 2 | R: REGLES Instr. 5.4.13 | T: arbitrage
 Pendant l'intervalle en cours de set, quand les conseillers doivent-ils quitter le terrain ?
 + Lorsque l'arbitre annonce « 20 secondes »
 - À la fin de l'intervalle
@@ -483,7 +483,7 @@ Pendant l'intervalle en cours de set, quand les conseillers doivent-ils quitter 
 - Ils peuvent rester jusqu'à la reprise
 > Instructions 5.4.12 et 5.4.13 : à 40 secondes, l'arbitre annonce « 20 secondes » (deux fois) ; les conseillers (deux au plus par côté) doivent alors quitter le terrain. Entre les sets, l'annonce a lieu à 100 secondes (5.6.6).
 
-Q ins-061 | D: 2 | R: REGLES Instr. 5.15.1
+Q ins-061 | D: 2 | R: REGLES Instr. 5.15.1 | T: arbitrage
 Le téléphone d'un joueur sonne dans son sac au bord du terrain pendant un match. Comment est-ce traité ?
 + Comme une infraction à la règle 16.6.4, sanctionnée selon la règle 16.7
 - C'est un let
@@ -491,7 +491,7 @@ Le téléphone d'un joueur sonne dans son sac au bord du terrain pendant un matc
 - Le joueur perd le set
 > Instruction 5.15.1 : un appareil électronique d'un joueur qui sonne sur le terrain ou dans son environnement immédiat, ou utilisé pour communiquer pendant un match, est une infraction à la règle 16.6.4, sanctionnée selon la règle 16.7.
 
-Q ins-062 | D: 2 | R: REGLES Instr. 5.17.10
+Q ins-062 | D: 2 | R: REGLES Instr. 5.17.10 | T: arbitrage
 Avant l'annonce « Jouez », un joueur insulte son adversaire sur le terrain. Que se passe-t-il ?
 + La mauvaise conduite est traitée (avertissement, faute ou disqualification) ; un carton n'a pas d'incidence sur le score mais compte pour les infractions suivantes
 - Rien, le match n'a pas commencé
@@ -499,7 +499,7 @@ Avant l'annonce « Jouez », un joueur insulte son adversaire sur le terrain. Qu
 - L'incident est uniquement noté pour le rapport
 > Instruction 5.17.10 : une mauvaise conduite sur l'aire de jeu avant « Jouez » est traitée selon 5.17.3 à 5.17.5 ; le carton n'a aucune incidence sur le score mais est pris en compte si d'autres infractions se produisent.
 
-Q ins-063 | D: 2 | R: REGLES Instr. 5.17.11
+Q ins-063 | D: 2 | R: REGLES Instr. 5.17.11 | T: arbitrage
 Juste après la poignée de main finale, encore sur l'aire de jeu, un joueur jette violemment sa raquette contre la chaise d'arbitre. Peut-il être sanctionné d'un carton ?
 + Oui : une mauvaise conduite après le match sur l'aire de jeu est traitée par carton et signalée immédiatement au juge-arbitre
 - Non, le match est terminé
@@ -507,7 +507,7 @@ Juste après la poignée de main finale, encore sur l'aire de jeu, un joueur jet
 - Non, seul le joueur adverse peut porter plainte
 > Instruction 5.17.11 : une mauvaise conduite après le match qui se produit sur l'aire de jeu est traitée par carton (5.17.3 à 5.17.5) et signalée immédiatement au juge-arbitre. Hors de l'aire de jeu, on passe par un rapport à la commission disciplinaire.
 
-Q ins-064 | D: 3 | R: REGLES Instr. 5.10.8 | L: JAFA JAFC
+Q ins-064 | D: 3 | R: REGLES Instr. 5.10.8 | L: JAFA JAFC | T: arbitrage
 Lorsque le compte à rebours (shot clock) est utilisé, de combien de temps disposent les joueurs entre deux échanges ?
 - 15 secondes
 - 20 secondes
@@ -531,7 +531,7 @@ Dans une compétition sans qualification, jusqu'à quand un joueur de la liste d
 - Jusqu'à la fin du premier tour
 > Instruction 3.5.5.2 : pour les compétitions sans qualifications, un joueur de la liste de réserve peut être promu dans le tableau principal jusqu'à la publication de l'échéancier du (des) premier(s) jour(s).
 
-Q ins-067 | D: 2 | R: REGLES Instr. 5.14.3
+Q ins-067 | D: 2 | R: REGLES Instr. 5.14.3 | T: arbitrage
 Un joueur s'approche de l'arbitre et dit qu'il ne peut plus continuer à cause d'une douleur. Que fait l'arbitre ?
 + Il lui demande « Abandonnez-vous ? » et, s'il confirme, fait l'annonce appropriée ; s'il doute de la légitimité, il appelle le juge-arbitre
 - Il déclare le joueur forfait

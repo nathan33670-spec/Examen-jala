@@ -27,7 +27,7 @@ Un joueur présente un certificat d'inaptitude temporaire à la pratique en comp
 - Il lui permet de jouer avec des règles adaptées
 > GdB 02.01 art. 4.3 : tout médecin peut établir un certificat d'inaptitude temporaire ; il peut être utilisé comme justificatif de forfait involontaire, traité selon la réglementation fédérale des forfaits (07.05).
 
-Q med-004 | D: 1 | R: REGLES Instr. 5.14.2
+Q med-004 | D: 1 | R: REGLES Instr. 5.14.2 | T: arbitrage
 Un joueur saigne pendant un match. Que prévoient les instructions ?
 + Le jeu est retardé jusqu'à ce que le saignement s'arrête ou que la plaie soit pansée, et tout sang sur le terrain est nettoyé
 - Le joueur doit abandonner

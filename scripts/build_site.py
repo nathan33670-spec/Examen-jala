@@ -37,6 +37,8 @@ THEMES = {
     "joueurs": "Catégories d'âge, licences et classement",
     "interclubs": "Interclubs (ICN / ICR)",
     "sante": "Santé, sécurité et antidopage",
+    "arbitrage": "Module ALA : arbitre et juge de service (hors programme JA)",
+    "jdl": "Module juge de ligne (hors programme JA)",
 }
 
 

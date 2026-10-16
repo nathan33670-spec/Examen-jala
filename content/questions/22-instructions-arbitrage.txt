@@ -1,5 +1,5 @@
 # Instructions aux arbitres, juges de service et juges de ligne (Règles officielles, partie II, sections 5 à 8) et terminologie officielle (annexe 4).
-@theme instructions
+@theme arbitrage
 @doc REGLES
 @levels JALA JALC JAFA JAFC
 

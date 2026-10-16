@@ -1,0 +1,117 @@
+# Juges de ligne et juges de service (Règles officielles, instructions 7 et 8).
+# Modules hors programme JA : juge de ligne (thème jdl) et arbitrage (juge de service).
+@theme jdl
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+
+Q jdl-001 | D: 1 | R: REGLES Instr. 8.1
+Où le juge de ligne doit-il s'asseoir, sauf instruction contraire du juge-arbitre ?
+- Juste derrière la chaise de l'arbitre
++ Dans le prolongement de sa ligne, de préférence du côté opposé à l'arbitre
+- Au pied du poteau, en face de l'arbitre
+- Où il le souhaite, tant qu'il voit sa ligne
+> Instruction 8.1 : les juges de ligne s'assoient sur les chaises placées dans le prolongement de leur ligne, aux extrémités et sur les côtés du terrain, de préférence du côté opposé à l'arbitre.
+
+Q jdl-002 | D: 1 | R: REGLES Instr. 8.3
+Le volant tombe nettement dehors, à un mètre de la ligne du juge de ligne. Que fait celui-ci ?
+- Rien, l'arbitre voit que le volant est dehors
++ Il annonce clairement « Out » et déploie les deux bras à l'horizontale en regardant l'arbitre
+- Il lève le bras droit vers le plafond
+- Il pointe la ligne avec la main droite
+> Instruction 8.3 : quelle que soit la distance, le juge de ligne annonce clairement et immédiatement « Out », assez fort pour être entendu des joueurs et des spectateurs, en déployant les deux bras à l'horizontale et en regardant l'arbitre.
+
+Q jdl-003 | D: 1 | R: REGLES Instr. 8.4
+Le volant tombe sur la ligne attribuée à un juge de ligne. Que fait celui-ci ?
+- Il annonce « In » à voix haute
++ Il ne dit rien et pointe la ligne avec la main droite en regardant l'arbitre
+- Il ne fait aucun geste
+- Il croise les bras sur la poitrine
+> Instruction 8.4 : si le volant atterrit dans les limites du terrain (la ligne en fait partie), le juge de ligne ne dit rien et pointe la ligne avec la main droite en regardant l'arbitre.
+
+Q jdl-004 | D: 1 | R: REGLES Instr. 8.5
+Un joueur a masqué le juge de ligne au moment de l'impact. Comment celui-ci l'indique-t-il à l'arbitre ?
+- En annonçant « Let »
+- En se levant de sa chaise
++ En mettant les deux mains devant les yeux
+- En levant la main gauche
+> Instruction 8.5 : si le volant est non vu, le juge de ligne informe immédiatement l'arbitre en mettant les deux mains devant les yeux.
+
+Q jdl-005 | D: 2 | R: REGLES Instr. 8.7
+Le volant touche la raquette d'un joueur puis tombe dehors, près de la ligne du juge de ligne. Que fait ce dernier ?
+- Il annonce « Faute » puisque le joueur a touché le volant
++ Il juge seulement l'impact par rapport à sa ligne ; il n'anticipe jamais la décision de l'arbitre sur la faute
+- Il ne fait rien, l'échange étant déjà terminé
+- Il annonce « Out » puis indique au joueur qu'il a touché le volant
+> Instruction 8.7 : les annonces et gestes du juge de ligne ne doivent jamais anticiper la décision de l'arbitre sur les fautes (volant touchant le joueur, ses vêtements ou sa raquette), quelle qu'en soit l'évidence.
+
+Q jdl-006 | D: 2 | R: REGLES Instr. 8.6
+À quel moment le juge de ligne peut-il faire son annonce ou son geste ?
+- Dès qu'il voit que le volant va sortir
++ Seulement quand le volant a touché le sol ou quelque chose en dehors des limites du terrain (sauf un joueur)
+- À la fin de l'échange, après l'annonce de l'arbitre
+- Uniquement si l'arbitre le regarde
+> Instruction 8.6 : ne pas annoncer ni faire de geste avant que le volant ne touche le sol ou quoi que ce soit en dehors des limites du terrain, excepté un joueur.
+
+Q jdl-007 | D: 2 | R: REGLES Instr. 8.2
+Qui est responsable de la décision sur la ligne attribuée à un juge de ligne ?
++ Le juge de ligne, entièrement, sauf correction de l'arbitre en cas d'erreur manifeste ou résultat d'un challenge au SRI
+- L'arbitre, le juge de ligne n'étant qu'un conseiller
+- Le juge-arbitre, sur demande d'un joueur
+- Le juge de service
+> Instruction 8.2 : le juge de ligne est entièrement responsable de ses lignes ; l'arbitre corrige seulement une annonce clairement incorrecte au-delà d'un doute raisonnable (règle 17.5.1), et le résultat d'un challenge au SRI remplace l'annonce initiale.
+
+Q jdl-008 | D: 2 | R: REGLES Instr. 8.9
+À quelle distance des limites du terrain est-il recommandé de placer les juges de ligne, lorsque c'est possible ?
+- 1 à 1,5 m
++ 2,5 à 3,5 m
+- 4 à 5 m
+- Au contact de la ligne
+> Instruction 8.9 : il est recommandé de placer les juges de ligne à 2,5 à 3,5 m des limites du terrain et de protéger leurs positions de toute influence extérieure (photographes par exemple).
+
+Q jdl-009 | D: 1 | R: REGLES 17.4
+Quel est le rôle d'un juge de ligne ?
+- Annoncer les fautes de service du serveur
+- Annoncer toutes les fautes commises près de sa ligne, y compris les touches de filet
++ Indiquer si le volant est « in » ou « out » par rapport à la ou aux lignes qui lui sont attribuées
+- Compter les points et annoncer le score
+> Règle 17.4 : le juge de ligne indique si le volant est « in » ou « out » par rapport à la (aux) ligne(s) attribuée(s).
+
+Q jds-001 | D: 1 | R: REGLES Instr. 7.1 | T: arbitrage
+Où s'assoit le juge de service ?
+- Derrière la ligne de fond, côté serveur
++ Sur une chaise basse près du poteau, en face de l'arbitre
+- À côté de l'arbitre, sur la chaise haute
+- À la table de marque
+> Instruction 7.1 : le juge de service s'assoit sur une chaise basse près du poteau, en face de l'arbitre.
+
+Q jds-002 | D: 1 | R: REGLES Instr. 7.2 | T: arbitrage
+De quoi le juge de service est-il responsable ?
++ De juger si le serveur exécute correctement le service (règles 9.1.2 à 9.1.8)
+- De juger les lignes de service court et long
+- Des fautes du receveur et des touches de filet
+- Du chronométrage des intervalles
+> Instruction 7.2 : le juge de service juge si le serveur exécute correctement le service (règles 9.1.2 à 9.1.8) ; sinon, il annonce « Faute » assez fort avec le geste agréé indiquant la nature de la faute.
+
+Q jds-003 | D: 2 | R: REGLES Instr. 7.5 | T: arbitrage
+Sauf autre disposition (distributeur de volants…), qui gère les changements de volant pendant un match où un juge de service est désigné ?
+- Les joueurs eux-mêmes
++ Le juge de service, sous l'autorité de l'arbitre, en veillant à disposer de volants neufs en quantité suffisante
+- Le juge-arbitre
+- La table de marque
+> Instruction 7.5 : le juge de service gère tout changement de volant sous l'autorité de l'arbitre et s'assure qu'une quantité suffisante de volants neufs est disponible.
+
+Q jds-004 | D: 2 | R: REGLES Instr. 7.6 | T: arbitrage
+Quelles fonctions supplémentaires l'arbitre peut-il confier au juge de service ? (plusieurs réponses)
++ Vérifier que les poteaux sont sur les lignes latérales de double
++ Juger la ligne la plus proche s'il n'y a pas de juge de ligne, en informant les joueurs au préalable
+- Donner un avertissement pour mauvaise conduite
++ Vérifier la hauteur du filet si nécessaire
+> Instruction 7.6 : l'arbitre peut confier au juge de service la vérification des poteaux et des appareils de mesure, de la hauteur du filet, ou le jugement de la ligne la plus proche faute de juge de ligne, après en avoir informé les joueurs. Les sanctions restent du ressort de l'arbitre.
+
+Q jds-005 | D: 2 | R: REGLES Instr. 7.8 | T: arbitrage
+Le juge de service constate que l'arbitre vient d'annoncer un score erroné. Que fait-il ?
+- Rien : il ne s'occupe que du service
+- Il le note pour le rapport de fin de match
++ Il alerte immédiatement l'arbitre, en se levant et en traversant le terrain si nécessaire
+- Il appelle le juge-arbitre
+> Instruction 7.8 : le juge de service soutient l'arbitre et doit l'alerter immédiatement lorsqu'il constate une erreur potentielle, si nécessaire en se levant et en traversant le terrain.

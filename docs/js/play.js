@@ -50,8 +50,12 @@ export const activePlay = () => (session && !session.finished ? session : null);
 const isError = (s) => s.n > 0 && (s.last === 0 || s.b <= 1);
 const pick = (list, seed) => list[seed % list.length];
 
+/** Thèmes hors programme JA : exclus des séries et des jeux sauf s'ils sont choisis explicitement. */
+export const OPTIONAL_THEMES = ['arbitrage', 'jdl'];
+
 function levelPool(qdata, level, themes = []) {
-  return qdata.questions.filter((q) => q.levels.includes(level) && (!themes.length || themes.includes(q.theme)));
+  return qdata.questions.filter((q) => q.levels.includes(level)
+    && (themes.length ? themes.includes(q.theme) : !OPTIONAL_THEMES.includes(q.theme)));
 }
 
 // ------------------------------------------------------------------ lancement
@@ -137,7 +141,7 @@ export async function renderPlayHub(main) {
       <button class="btn block big" data-start="smart">C’est parti !</button>
       <details class="themes-pick"><summary class="small">Thèmes : <strong>${esc(themeLabel)}</strong> (modifier)</summary>
         <div class="chips" style="margin-top:8px">${Object.entries(qdata.themes).map(([t, name]) => {
-          const n = all.filter((q) => q.theme === t).length;
+          const n = qdata.questions.filter((q) => q.theme === t && q.levels.includes(level)).length;
           return n ? `<button class="chip sm" aria-pressed="${prefs.themes.includes(t)}" data-theme="${t}">${esc(name)} <span class="muted">${n}</span></button>` : '';
         }).join('')}</div>
         <p class="small muted">Les thèmes choisis s’appliquent aussi au mode oral et aux jeux.</p>

@@ -75,7 +75,7 @@ Sur un terrain où un SRI est en service, le juge de ligne a été masqué et l'
 - Le juge-arbitre décide après avoir interrogé les joueurs
 > Instruction 2.5 : lorsqu'un officiel n'a pas pu prendre de décision, l'arbitre décide ; si aucune décision ne peut être prise, un let est annoncé, sauf si le SRI est en service, auquel cas il est utilisé pour annoncer la décision de la ligne (Annexe 6, article 1.2).
 
-Q ija-010 | D: 1 | R: REGLES Instr. 2.6
+Q ija-010 | D: 1 | R: REGLES Instr. 2.6 | T: arbitrage
 De quoi l'arbitre d'un match est-il responsable, selon les instructions ?
 - De l'ensemble du tournoi
 + Du terrain et de ses environs immédiats
