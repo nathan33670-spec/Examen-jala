@@ -10,13 +10,24 @@ export const LEVEL_NAMES = {
 };
 export const LEVEL_SHORT = { JALA: 'Juge-arbitre', ALA: 'Arbitre' };
 
+/** Ligues régionales de la FFBaD : les questions marquées « G: <code> » ne concernent que cette ligue (interclubs régionaux…). */
+export const LIGUES = {
+  AURA: 'Auvergne-Rhône-Alpes', BFC: 'Bourgogne-Franche-Comté', BRET: 'Bretagne', CVL: 'Centre-Val de Loire',
+  CORS: 'Corse', GEST: 'Grand Est', HDF: 'Hauts-de-France', IDF: 'Île-de-France', NORM: 'Normandie',
+  NAQ: 'Nouvelle-Aquitaine', OCCI: 'Occitanie', PDL: 'Pays de la Loire', PACA: 'Provence-Alpes-Côte d’Azur',
+  GUAD: 'Guadeloupe', MART: 'Martinique', GUY: 'Guyane', REUN: 'La Réunion', MAY: 'Mayotte',
+  NC: 'Nouvelle-Calédonie', PF: 'Polynésie française', WF: 'Wallis-et-Futuna',
+};
+/** Question visible pour la ligue de l'utilisateur (questions nationales + celles de sa ligue). */
+export const forMyLigue = (q) => !q.ligue || q.ligue === state.settings.ligue;
+
 /** Question retenue pour l'examen blanc et la jauge du parcours (le JALA exclut les points réservés aux grades supérieurs). */
-export const inExamScope = (q, level) => q.levels.includes(level) && (level !== 'JALA' || !q.grades || q.grades.includes('JALA'));
+export const inExamScope = (q, level) => q.levels.includes(level) && forMyLigue(q) && (level !== 'JALA' || !q.grades || q.grades.includes('JALA'));
 
 const blank = () => ({
   version: 1,
   createdAt: new Date().toISOString(),
-  settings: { level: 'JALA', theme: 'auto', examOverrides: {}, onboarded: false, dailyGoal: 20,
+  settings: { level: 'JALA', ligue: '', theme: 'auto', examOverrides: {}, onboarded: false, dailyGoal: 20,
     sound: false, haptics: true, seed: newSeed() },
   q: {},          // id -> { b: boîte Leitner 0..5, n: tentatives, c: réussites, t: horodatage, f: favori }
   exams: [],      // historique des examens blancs

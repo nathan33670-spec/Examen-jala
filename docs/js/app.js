@@ -1,6 +1,6 @@
 // Point d'entrée : routes, accueil (progression ludique et jauge de préparation), progression et réglages.
 import { esc, fmtDate, pct, toast, icons } from './ui.js';
-import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, LEVEL_SHORT, exportData, importData, resetAll } from './store.js';
+import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, LEVEL_SHORT, LIGUES, exportData, importData, resetAll } from './store.js';
 import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog } from './data.js';
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
 import { readiness, ring, bar } from './gauge.js';
@@ -39,6 +39,11 @@ async function bundle() {
 }
 
 const GOALS = [[10, 'Tranquille', '≈ 5 min'], [20, 'Régulier', '≈ 10 min'], [40, 'Intensif', '≈ 20 min']];
+
+function ligueSelect(current) {
+  return `<select id="ligue" class="select"><option value="">— Non renseignée —</option>${Object.entries(LIGUES)
+    .map(([k, name]) => `<option value="${k}" ${k === current ? 'selected' : ''}>${esc(name)}</option>`).join('')}</select>`;
+}
 
 // ------------------------------------------------------------------ parcours (juge-arbitre / arbitre)
 
@@ -186,7 +191,7 @@ function goalRing(done, goal) {
 }
 
 function renderOnboarding() {
-  const st = { level: state.settings.level || 'JALA', goal: state.settings.dailyGoal || 20 };
+  const st = { level: state.settings.level || 'JALA', goal: state.settings.dailyGoal || 20, ligue: state.settings.ligue || '' };
   const draw = () => {
     main.innerHTML = `
       <section class="onboard">
@@ -197,11 +202,14 @@ function renderOnboarding() {
         <div class="grid two">${LEVELS.map((l) => `<button class="pick ${st.level === l ? 'on' : ''}" data-onboard="${l}" aria-pressed="${st.level === l}"><strong>${esc(LEVEL_SHORT[l])}</strong><span class="small muted">${esc(LEVEL_NAMES[l])}</span></button>`).join('')}</div>
         <h2>2. Votre objectif quotidien</h2>
         <div class="grid three">${GOALS.map(([n, name, time]) => `<button class="pick ${st.goal === n ? 'on' : ''}" data-goal="${n}" aria-pressed="${st.goal === n}"><strong>${name}</strong><span class="small muted">${n} questions/jour · ${time}</span></button>`).join('')}</div>
+        <h2>3. Votre ligue <span class="small muted">(facultatif)</span></h2>
+        ${ligueSelect(st.ligue)}
         <button class="btn block big" id="go" style="margin-top:18px">C’est parti !</button>
         <p class="small muted center">Sans compte : votre progression reste sur cet appareil. Tout se modifie ensuite dans les réglages.</p>
       </section>`;
   };
   draw();
+  main.onchange = (e) => { if (e.target.id === 'ligue') st.ligue = e.target.value; };
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;
@@ -210,6 +218,7 @@ function renderOnboarding() {
     if (b.id === 'go') {
       state.settings.level = st.level;
       state.settings.dailyGoal = st.goal;
+      state.settings.ligue = st.ligue;
       state.settings.onboarded = true;
       save(true);
       updateLevelPill();
@@ -332,6 +341,8 @@ async function renderSettings() {
     <h1>Réglages</h1>
     <div class="card stack">
       <div><label class="field">Parcours</label><div class="chips">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === st.level}" data-level="${l}">${esc(LEVEL_SHORT[l])}</button>`).join('')}</div></div>
+      <div><label class="field" for="ligue">Ma ligue</label>${ligueSelect(st.ligue)}
+        <p class="small muted" style="margin:4px 0 0">Ajoute les questions propres à votre ligue (interclubs régionaux, règlements régionaux) et écarte celles des autres ligues.</p></div>
       <div><label class="field">Objectif quotidien</label><div class="chips">${GOALS.map(([n, name]) => `<button class="chip" aria-pressed="${(st.dailyGoal || 20) === n}" data-goal="${n}">${name} · ${n} questions</button>`).join('')}</div></div>
       <div><label class="field">Apparence</label><div class="chips">${[['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(([k, t]) => `<button class="chip" aria-pressed="${st.theme === k}" data-theme="${k}">${t}</button>`).join('')}</div></div>
       <div><label class="field">Sons</label><div class="chips">${onOff('sound', true, '🔊 Activés')}${onOff('sound', false, '🔇 Coupés')}</div></div>
@@ -356,6 +367,11 @@ async function renderSettings() {
       <p>Application indépendante de préparation aux examens de juge-arbitre, non éditée par la Fédération Française de Badminton. Les règlements proviennent du Guide du Badminton publié par la FFBaD (<a href="https://gdb.ffbad.org" target="_blank" rel="noopener">gdb.ffbad.org</a>) et sont mis à jour automatiquement ; seul le texte officiel fait foi.</p>
       <p>Les questions et cas pratiques sont rédigés à partir de ces textes. Une erreur ? Signalez-la sur le dépôt GitHub du projet.</p>
     </div>`;
+  main.onchange = (e) => {
+    if (e.target.id !== 'ligue') return;
+    state.settings.ligue = e.target.value; save();
+    toast(e.target.value ? `Ligue enregistrée : ${LIGUES[e.target.value]}` : 'Ligue retirée');
+  };
   main.onclick = (e) => {
     const btn = e.target.closest('button');
     if (!btn) return;

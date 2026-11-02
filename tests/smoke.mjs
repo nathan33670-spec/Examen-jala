@@ -48,11 +48,13 @@ await step('premier lancement : parcours et objectif quotidien', async () => {
   await page.locator('[data-onboard="ALA"]').click();
   await page.locator('[data-onboard="JALA"]').click();
   await page.locator('[data-goal="10"]').click();
+  await page.locator('#ligue').selectOption('NAQ');
   await page.locator('#go').click();
   await page.locator('.player-card').waitFor();
   await page.locator('.readiness').waitFor();
   if ((await page.textContent('#levelPill')).trim() !== 'Juge-arbitre') throw new Error('parcours non mémorisé');
   if ((await store()).settings.dailyGoal !== 10) throw new Error('objectif non mémorisé');
+  if ((await store()).settings.ligue !== 'NAQ') throw new Error('ligue non mémorisée');
 });
 
 await step('série intelligente : réponse, XP, badge, bilan', async () => {

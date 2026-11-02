@@ -60,6 +60,8 @@ def parse_header(line: str, defaults: dict) -> dict:
          "difficulty": int(defaults.get("difficulty", 1))}
     if defaults.get("phase"):
         q["phase"] = defaults["phase"]
+    if defaults.get("ligue"):
+        q["ligue"] = defaults["ligue"]
     ref = defaults.get("doc")
     for p in parts[1:]:
         if ":" not in p:
@@ -76,6 +78,8 @@ def parse_header(line: str, defaults: dict) -> dict:
             q["theme"] = val
         elif key == "P":
             q["phase"] = val
+        elif key == "G":
+            q["ligue"] = val
         else:
             raise ContentError(f"clé inconnue {key} dans {line!r}")
     if ref:
@@ -118,7 +122,7 @@ def parse_questions(path: Path) -> list[dict]:
             val = val.strip()
             if key == "levels":
                 defaults["levels"] = val.split()
-            elif key in ("theme", "doc", "difficulty", "phase"):
+            elif key in ("theme", "doc", "difficulty", "phase", "ligue"):
                 defaults[key] = val
             else:
                 raise ContentError(f"{path.name}:{n} directive inconnue @{key}")
@@ -309,6 +313,9 @@ def parse_glossary(path: Path) -> list[dict]:
 CATEGORIES = {"JALA": "Juge-arbitre", "ALA": "Arbitre"}
 ARBITRE_THEMES = {"regles", "instructions", "arbitrage", "jdl"}  # programme de l'arbitre
 ARBITRE_ONLY = {"arbitrage", "jdl"}                              # hors programme du juge-arbitre
+# codes des ligues (même liste que LIGUES dans docs/js/store.js) : « G: NAQ » = question propre à la ligue
+LIGUES = {"AURA", "BFC", "BRET", "CVL", "CORS", "GEST", "HDF", "IDF", "NORM", "NAQ", "OCCI", "PDL", "PACA",
+          "GUAD", "MART", "GUY", "REUN", "MAY", "NC", "PF", "WF"}
 PHASES = {"avant": "Avant la compétition", "pendant": "Pendant la compétition", "apres": "Après la compétition"}
 
 PHASE_BY_DOC = {
@@ -408,6 +415,8 @@ def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: b
     for q in questions:
         if q.get("theme") not in THEMES:
             errors.append(f"{q['id']} : thème inconnu {q.get('theme')!r}")
+        if q.get("ligue") and q["ligue"] not in LIGUES:
+            errors.append(f"{q['id']} : ligue inconnue {q['ligue']!r} ({', '.join(sorted(LIGUES))})")
         if q.get("phase") and q["phase"] not in PHASES:
             errors.append(f"{q['id']} : phase inconnue {q['phase']!r} (avant, pendant, apres)")
         if not 1 <= q.get("difficulty", 1) <= 3:

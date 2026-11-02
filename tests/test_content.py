@@ -44,6 +44,7 @@ class QuestionBankTests(unittest.TestCase):
                 self.assertTrue(set(q["levels"]) <= set(build_site.CATEGORIES))
                 self.assertTrue(set(q["grades"]) <= LEVELS)
                 self.assertIn(q.get("phase", "avant"), build_site.PHASES)
+                self.assertIn(q.get("ligue", "NAQ"), build_site.LIGUES)
                 self.assertIn(q["theme"], build_site.THEMES)
                 self.assertIn(q["ref"]["doc"], self.catalog)
 
