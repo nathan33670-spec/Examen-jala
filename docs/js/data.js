@@ -24,7 +24,7 @@ export const getUpdates = () => loadJSON('data/updates.json').catch(() => []);
 export const getFiches = () => loadJSON('data/fiches.json');
 export const getGlossary = () => loadJSON('data/glossaire.json');
 export const getPractice = () => loadJSON('data/pratique.json');
-export const getDocText = (doc) => loadJSON(doc.text);
+export const getDocText = (doc) => (doc?.text ? loadJSON(doc.text) : Promise.reject(new Error(`${doc?.id} : pas de texte hors ligne`)));
 
 export async function questionIndex() {
   const data = await getQuestions();
