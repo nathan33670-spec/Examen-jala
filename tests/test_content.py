@@ -27,9 +27,10 @@ class QuestionBankTests(unittest.TestCase):
 
     def test_volume(self):
         self.assertGreaterEqual(len(self.questions), 400, "la banque doit contenir plusieurs centaines de questions")
-        for level in LEVELS:
+        exams = load("exams.json")
+        self.assertEqual(set(exams), set(build_site.CATEGORIES), "un examen blanc par parcours (JA, arbitre)")
+        for level in build_site.CATEGORIES:
             n = sum(level in q["levels"] for q in self.questions)
-            exams = load("exams.json")
             self.assertGreaterEqual(n, exams[level]["sim"]["questions"] * 3,
                                     f"{level} : pas assez de questions pour varier les examens blancs")
 
@@ -39,9 +40,24 @@ class QuestionBankTests(unittest.TestCase):
                 self.assertTrue(q["answer"])
                 self.assertTrue(all(0 <= i < len(q["choices"]) for i in q["answer"]))
                 self.assertLess(len(q["answer"]), len(q["choices"]))
-                self.assertTrue(set(q["levels"]) <= LEVELS)
+                self.assertTrue(q["levels"])
+                self.assertTrue(set(q["levels"]) <= set(build_site.CATEGORIES))
+                self.assertTrue(set(q["grades"]) <= LEVELS)
+                self.assertIn(q.get("phase", "avant"), build_site.PHASES)
                 self.assertIn(q["theme"], build_site.THEMES)
                 self.assertIn(q["ref"]["doc"], self.catalog)
+
+    def test_categories(self):
+        by_id = {q["id"]: q for q in self.questions}
+        self.assertEqual(by_id["jdl-001"]["levels"], ["ALA"])          # juge de ligne : arbitre seulement
+        reg = next(q for q in self.questions if q["theme"] == "regles")
+        self.assertEqual(reg["levels"], ["JALA", "ALA"])                # règles du jeu : les deux parcours
+        rgc = next(q for q in self.questions if q["theme"] == "rgc")
+        self.assertEqual(rgc["levels"], ["JALA"])
+        self.assertTrue(rgc["rgc"])
+        self.assertEqual(build_site.rgc_phase("2.16"), "avant")
+        self.assertEqual(build_site.rgc_phase("3.3.1.2"), "pendant")
+        self.assertEqual(build_site.rgc_phase("2.23"), "apres")
 
     def test_no_choice_relies_on_position(self):
         # les propositions sont mélangées à l'affichage : pas de « toutes les réponses ci-dessus »
@@ -83,7 +99,7 @@ class CasesAndFichesTests(unittest.TestCase):
 
     def test_exams_config(self):
         exams = load("exams.json")
-        self.assertEqual(set(exams), LEVELS)
+        self.assertEqual(set(exams), set(build_site.CATEGORIES))
         self.assertEqual(exams["JALA"]["sim"]["passPct"], 80)
         for level, cfg in exams.items():
             self.assertTrue(set(cfg["sim"]["themes"]) <= set(build_site.THEMES), level)

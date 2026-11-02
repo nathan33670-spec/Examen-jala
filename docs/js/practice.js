@@ -1,6 +1,6 @@
 // Partie pratique : cas concrets, exercices et outils du juge-arbitre.
 import { esc, shuffle, richText, icons, pct } from './ui.js';
-import { state, save, recordCase, LEVELS } from './store.js';
+import { state, save, recordCase } from './store.js';
 import { getCases, getPractice } from './data.js';
 import { isCorrect } from './qcommon.js';
 import { rewardActivity } from './reward.js';
@@ -11,18 +11,18 @@ const svg = (name) => icons[name].replace('<svg', '<svg width="24" height="24" f
 
 export async function renderPracticeHome(main) {
   const [casesData, practice] = await Promise.all([getCases(), getPractice()]);
-  const level = state.settings.level;
+  const level = 'JALA'; // la pratique concerne le juge-arbitre
   const p = practiceScore(level, casesData, practice);
   main.innerHTML = `
     <h1>Pratique du juge-arbitre</h1>
     <p class="muted">L'examen pratique se déroule sur une vraie compétition : préparation en amont, gestion le jour J, rapport après la compétition. Entraînez-vous sur des situations concrètes et vérifiez vos réflexes.</p>
     <div class="grid two">
-      <a class="card tile" href="#/cas"><span class="ico">${svg('case')}</span><span><strong>Cas pratiques</strong><span class="small muted">${p.done}/${p.total} cas ${esc(level)} réalisés · situations réelles de compétition</span></span></a>
+      <a class="card tile" href="#/cas"><span class="ico">${svg('case')}</span><span><strong>Cas pratiques</strong><span class="small muted">${p.done}/${p.total} cas réalisés · situations réelles de compétition</span></span></a>
       <a class="card tile" href="#/exercice/poule"><span class="ico">${svg('table')}</span><span><strong>Classement de poule</strong><span class="small muted">Départager les égalités (RGC 3.4.1) — exercices générés à l'infini</span></span></a>
       <a class="card tile" href="#/outil/echeancier"><span class="ico">${svg('calc')}</span><span><strong>Dimensionner une compétition</strong><span class="small muted">Formats de tableaux, nombre de matchs, horaires de fin</span></span></a>
       <a class="card tile" href="#/checklists"><span class="ico">${svg('check')}</span><span><strong>Check-lists du JA</strong><span class="small muted">Avant, pendant et après la compétition</span></span></a>
-      <a class="card tile" href="#/auto-evaluation"><span class="ico">${svg('grid')}</span><span><strong>Auto-évaluation</strong><span class="small muted">Grille des critères par grade (annexe 02 de la filière) · ${p.rated}/${p.criteria} critères évalués</span></span></a>
-      <a class="card tile" href="#/entrainement"><span class="ico">${svg('mic')}</span><span><strong>Préparer l'oral</strong><span class="small muted">Activez le « mode oral » dans l'entraînement (JALC, JAFA)</span></span></a>
+      <a class="card tile" href="#/auto-evaluation"><span class="ico">${svg('grid')}</span><span><strong>Auto-évaluation</strong><span class="small muted">Grille des critères JALA (annexe 02 de la filière) · ${p.rated}/${p.criteria} critères évalués</span></span></a>
+      <a class="card tile" href="#/entrainement"><span class="ico">${svg('mic')}</span><span><strong>Préparer l'oral</strong><span class="small muted">Activez le « mode oral » dans l'entraînement</span></span></a>
     </div>`;
 }
 
@@ -30,24 +30,16 @@ export async function renderPracticeHome(main) {
 
 export async function renderCases(main) {
   const data = await getCases();
-  const level = state.settings.level;
-  const filter = state.settings.caseFilter || level;
-  const list = data.cases.filter((c) => filter === 'tous' || c.levels.includes(filter));
+  const list = data.cases;
   main.innerHTML = `
     <h1>Cas pratiques</h1>
     <p class="muted">Chaque cas décrit une situation de compétition. Prenez les décisions étape par étape : la correction cite le règlement applicable.</p>
-    <div class="chips" style="margin-bottom:12px">${[...LEVELS, 'tous'].map((l) => `<button class="chip" aria-pressed="${filter === l}" data-f="${l}">${l === 'tous' ? 'Tous' : l}</button>`).join('')}</div>
     <div class="doclist">${list.map((c) => {
       const r = state.cases[c.id];
       return `<a class="docitem" href="#/cas/${c.id}"><span class="code">${r ? Math.round(r.best * 100) + '%' : '—'}</span>
-        <span class="t">${esc(c.title)}<small>${esc(c.theme)} · ${c.steps.length} étape(s) · ${c.levels.join(', ')}</small></span></a>`;
+        <span class="t">${esc(c.title)}<small>${esc(c.theme)} · ${c.steps.length} étape(s)</small></span></a>`;
     }).join('') || '<p class="empty">Aucun cas pour ce filtre.</p>'}</div>`;
-  main.onclick = (e) => {
-    const b = e.target.closest('[data-f]');
-    if (!b) return;
-    state.settings.caseFilter = b.dataset.f; save();
-    renderCases(main);
-  };
+
 }
 
 export async function renderCase(main, id) {
@@ -437,7 +429,7 @@ export async function renderChecklists(main) {
 const RATINGS = ['0', '+', '++', '+++'];
 export async function renderSelfEval(main) {
   const practice = await getPractice();
-  const level = state.settings.level;
+  const level = 'JALA';
   const crits = practice.criteria.flatMap((g) => g.items);
   const need = (c) => RATINGS.indexOf(c.need?.[level] ?? '+');
   const meets = crits.filter((c) => (state.selfEval[c.id] ?? -1) >= need(c)).length;
@@ -448,7 +440,7 @@ export async function renderSelfEval(main) {
       const mine = state.selfEval[c.id];
       const ok = (mine ?? -1) >= need(c);
       return `<div class="criterion"><div class="row between"><span>${esc(c.text)}</span>${mine != null ? `<span class="badge ${ok ? 'ok' : 'warn'}">${ok ? 'atteint' : 'à travailler'}</span>` : ''}</div>
-        <div class="need">Requis ${esc(level)} : ${esc(c.need?.[level] ?? '+')} · ${LEVELS.map((l) => `${l} ${esc(c.need?.[l] ?? '')}`).join(' · ')}</div>
+        <div class="need">Requis ${esc(level)} : ${esc(c.need?.[level] ?? '+')}</div>
         <div class="seg" role="group" aria-label="Votre niveau">${RATINGS.map((r, i) => `<button data-c="${c.id}" data-r="${i}" aria-pressed="${mine === i}">${r}</button>`).join('')}</div></div>`;
     }).join('')}</div>`).join('')}`;
   main.onclick = (e) => {

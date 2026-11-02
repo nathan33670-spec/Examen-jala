@@ -1,5 +1,5 @@
 // Jauge locale de préparation (calculée uniquement à partir des données de l'appareil).
-import { state, qStat } from './store.js';
+import { state, qStat, inExamScope } from './store.js';
 import { esc } from './ui.js';
 
 export const WEIGHTS = { knowledge: 0.55, exams: 0.25, practice: 0.2 };
@@ -14,7 +14,7 @@ export function knowledge(level, qdata, examCfg) {
   let seen = 0;
   let total = 0;
   for (const q of qdata.questions) {
-    if (!q.levels.includes(level) || weights[q.theme] === 0) continue;
+    if (!inExamScope(q, level) || !weights[q.theme]) continue;
     total += 1;
     if (qStat(q.id).n > 0) seen += 1;
     (byTheme[q.theme] ||= { sum: 0, n: 0, correct: 0, tries: 0 });
@@ -73,8 +73,10 @@ export function readiness(level, { qdata, casesData, exams, practice }) {
   const k = knowledge(level, qdata, cfg);
   const e = examScore(level, cfg);
   const p = practiceScore(level, casesData, practice);
-  const value = WEIGHTS.knowledge * k.value + WEIGHTS.exams * e.value + WEIGHTS.practice * p.value;
-  return { level, value, knowledge: k, exams: e, practice: p, label: label(value, k, e) };
+  // pas de cas pratiques pour l'arbitre : la jauge repose alors sur les connaissances et les examens
+  const w = p.total ? WEIGHTS : { knowledge: 0.7, exams: 0.3, practice: 0 };
+  const value = w.knowledge * k.value + w.exams * e.value + w.practice * p.value;
+  return { level, value, weights: w, knowledge: k, exams: e, practice: p, label: label(value, k, e) };
 }
 
 export function label(value, k, e) {

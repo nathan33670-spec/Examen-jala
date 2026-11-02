@@ -2,13 +2,16 @@
 import { mergeGame, blankGame } from './game.js';
 
 const KEY = 'prepa-ja-v1';
-export const LEVELS = ['JALA', 'JALC', 'JAFA', 'JAFC'];
+/** Deux parcours : juge-arbitre (examen JALA) et arbitre (ALA). */
+export const LEVELS = ['JALA', 'ALA'];
 export const LEVEL_NAMES = {
-  JALA: 'Juge-arbitre de ligue accrédité',
-  JALC: 'Juge-arbitre de ligue certifié',
-  JAFA: 'Juge-arbitre fédéral accrédité',
-  JAFC: 'Juge-arbitre fédéral certifié',
+  JALA: 'Juge-arbitre de ligue accrédité (JALA)',
+  ALA: 'Arbitre de ligue accrédité (ALA)',
 };
+export const LEVEL_SHORT = { JALA: 'Juge-arbitre', ALA: 'Arbitre' };
+
+/** Question retenue pour l'examen blanc et la jauge du parcours (le JALA exclut les points réservés aux grades supérieurs). */
+export const inExamScope = (q, level) => q.levels.includes(level) && (level !== 'JALA' || !q.grades || q.grades.includes('JALA'));
 
 const blank = () => ({
   version: 1,
@@ -44,6 +47,8 @@ function load() {
 }
 
 export const state = load();
+// anciens grades (JALC, JAFA, JAFC) : parcours juge-arbitre
+if (!LEVELS.includes(state.settings.level)) state.settings.level = 'JALA';
 
 let saveTimer;
 export function save(now = false) {

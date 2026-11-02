@@ -12,7 +12,7 @@ function q(id, data) {
     id: `gen-${id}`,
     generated: true,
     theme: 'regles',
-    levels: ['JALA', 'JALC', 'JAFA', 'JAFC'],
+    levels: ['JALA', 'ALA'],
     difficulty: data.difficulty || 2,
     q: data.q,
     choices: order.map((i) => data.choices[i]),

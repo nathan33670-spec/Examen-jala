@@ -1,6 +1,6 @@
 // Examens blancs : conditions d'examen, chronomètre, correction détaillée.
 import { esc, toast, fmtDuration, icons } from './ui.js';
-import { state, save, recordAnswer, recordExam, LEVELS, LEVEL_NAMES } from './store.js';
+import { state, save, recordAnswer, recordExam, LEVELS, LEVEL_NAMES, LEVEL_SHORT, inExamScope } from './store.js';
 import { getQuestions, getExams } from './data.js';
 import { navigate } from './router.js';
 import { examPick } from './engine.js';
@@ -40,7 +40,7 @@ function examCounts(level) {
 }
 
 function examSelection(questions, level, sim) {
-  const pool = questions.filter((q) => q.levels.includes(level));
+  const pool = questions.filter((q) => inExamScope(q, level));
   return examPick(pool, { want: sim.questions, weights: sim.themes || {}, examCounts: examCounts(level) });
 }
 
@@ -63,14 +63,14 @@ export async function renderExamSetup(main) {
   }
   const cfg = examConfig(exams, level);
   const sim = cfg.sim;
-  const available = qdata.questions.filter((q) => q.levels.includes(level)).length;
+  const available = qdata.questions.filter((q) => inExamScope(q, level)).length;
   const maxErr = Math.floor(sim.questions * (1 - sim.passPct / 100) + 1e-9);
   const history = state.exams.filter((e) => e.level === level).slice(0, 5);
   main.innerHTML = `
     <h1>Examen blanc</h1>
-    <div class="chips" style="margin-bottom:12px">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === level}" data-level="${l}">${l}</button>`).join('')}</div>
+    <div class="chips" style="margin-bottom:12px">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === level}" data-level="${l}">${esc(LEVEL_SHORT[l])}</button>`).join('')}</div>
     <div class="card">
-      <h2>${esc(level)} — ${esc(LEVEL_NAMES[level])}</h2>
+      <h2>${esc(LEVEL_NAMES[level])}</h2>
       <p>${esc(cfg.official.summary)}</p>
       <ul>${cfg.official.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
       <p class="small muted">Sources : ${cfg.official.sources.map((s) => `<a href="#/doc/${encodeURIComponent(s.doc)}${s.art ? `?a=${encodeURIComponent(s.art)}` : ''}">${esc(s.label)}</a>`).join(' · ')}</p>

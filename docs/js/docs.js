@@ -4,7 +4,7 @@ import { getCatalog, getDocText, getFiches, getGlossary, getUpdates, getQuestion
 import { examBanner } from './quiz.js';
 import { state, save } from './store.js';
 import { refreshBadges } from './reward.js';
-import { questionHtml } from './qcommon.js';
+import { questionHtml, findArticle } from './qcommon.js';
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
@@ -77,27 +77,6 @@ function blocksHtml(blocks) {
   });
   if (inList) out.push('</ul>');
   return out.join('');
-}
-
-/** Trouve le bloc correspondant à un article (« 2.16 », « Instr. 3.5.4 », « règle 9.1.6 »). */
-function findArticle(blocks, art) {
-  const num = (art.match(/\d+(?:\.\d+)*/) || [])[0];
-  if (!num) return -1;
-  const instr = /instr/i.test(art);
-  const startsWith = (s) => new RegExp(`^${num.replace(/\./g, '\\.')}\\.?(\\s|$)`).test(s);
-  const candidates = blocks.map((b, i) => [i, b]).filter(([, b]) => startsWith(b[1]));
-  if (!candidates.length) {
-    const i = blocks.findIndex((b) => b[1].includes(num));
-    return i;
-  }
-  if (instr && candidates.length > 1) {
-    // les instructions aux officiels techniques suivent les règles du jeu dans le document
-    const split = blocks.findIndex((b) => /INSTRUCTIONS AUX OFFICIELS/i.test(b[1]));
-    const after = candidates.find(([i]) => i > split);
-    if (after) return after[0];
-  }
-  if (!instr && candidates.length > 1 && /r[eè]gle/i.test(art)) return candidates[0][0];
-  return candidates[0][0];
 }
 
 export async function renderDoc(main, id, query = {}) {
