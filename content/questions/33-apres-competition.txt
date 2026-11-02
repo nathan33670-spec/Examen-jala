@@ -1,0 +1,916 @@
+# Après la compétition : le rapport du juge-arbitre et ses suites.
+# Instructions aux officiels techniques (3.7, 3.5, 5.7, 5.17, annexe 4), intégration des résultats (03.04),
+# homologation des tournois (03.02), RGC 2.8.1, 2.18, 2.23, 2.24, 4.7.1, forfaits (07.05), cartons (07.04, 07.04.F01),
+# pénalités sportives (07.06), règlement disciplinaire (07.02), réclamations et litiges (07.01),
+# filière juge-arbitrage (06.02) et interclubs nationaux (04.07, annexes 02 et 04).
+@theme rgc
+@doc 03.01
+@levels JALA JALC JAFA JAFC
+@phase apres
+
+# ---------------------------------------------------------------- Instructions aux officiels techniques
+
+Q ap-001 | D: 2 | R: REGLES Instr. 3.7.3 | T: instructions
+Le dernier match d'un tournoi vient de se terminer. Quels éléments le juge-arbitre envoie-t-il à l'institution sportive immédiatement, sans attendre le rapport complet ? (plusieurs réponses)
++ Les retraits
++ Les cartons jaunes
++ Les cartons rouges
+- Les remarques sur le respect du cahier des charges
+- Les quantités de volants utilisés pendant le tournoi
+> Instruction 3.7.3 : le juge-arbitre enverra immédiatement après le tournoi, à l'institution sportive, le rapport sur les retraits, les cartons jaunes et rouges, qui pourront déclencher d'autres sanctions. Les remarques sur le cahier des charges figurent dans le rapport complet (instruction 3.7.4.1).
+
+Q ap-002 | D: 2 | R: REGLES Instr. 3.7.3 | T: instructions
+Pourquoi le juge-arbitre doit-il transmettre sans délai, après le tournoi, le rapport sur les retraits et les cartons jaunes et rouges ?
+- Parce que ces éléments conditionnent l'homologation à J+30
++ Parce que ces éléments pourront déclencher d'autres sanctions
+- Parce que les résultats ne peuvent pas être importés dans Poona sans eux
+- Parce que l'organisateur doit les afficher avant la fermeture de la salle
+> Instruction 3.7.3 : le juge-arbitre enverra immédiatement après le tournoi, à l'institution sportive, le rapport sur les retraits, les cartons jaunes et rouges, « qui pourront déclencher d'autres sanctions ».
+
+Q ap-003 | D: 2 | R: REGLES Instr. 3.7.4 | T: instructions
+Une rencontre d'interclubs s'est terminée samedi soir. Selon les instructions aux officiels techniques, de combien de jours au plus le juge-arbitre dispose-t-il pour envoyer son rapport ?
+- Un jour
++ Trois jours
+- Cinq jours
+- Huit jours
+> Instruction 3.7.4 : le juge-arbitre doit, au plus tard cinq jours (trois jours pour les interclubs) après la fin du tournoi, envoyer le rapport du juge-arbitre à l'institution sportive, en utilisant le modèle standard stipulé.
+
+Q ap-004 | D: 1 | R: REGLES Instr. 3.7.4 | T: instructions
+Sous quelle forme le juge-arbitre envoie-t-il son rapport à l'institution sportive après le tournoi ?
+- Sous la forme libre de son choix, pourvu que les incidents y figurent
+- Par un simple courriel récapitulatif adressé à l'organisateur
++ En utilisant le modèle standard stipulé
+- Sous forme d'un échange oral avec le responsable de la ligue
+> Instruction 3.7.4 : le rapport du juge-arbitre est envoyé à l'institution sportive en utilisant le modèle standard stipulé (voir aussi l'instruction 3.1.5 : « un rapport complet utilisant le modèle standard »).
+
+Q ap-005 | D: 3 | R: REGLES Instr. 3.7.4.1 | T: instructions
+En rédigeant son rapport, le juge-arbitre hésite à décrire un problème d'éclairage récurrent de la salle, sans incidence sur les résultats. Que préconisent les instructions ?
+- Ne pas le mentionner, le rapport ne portant que sur les matchs et les sanctions
++ Le mentionner, car le rapport met en évidence les informations pouvant être utiles à d'autres tournois dans le même lieu ou par le même organisateur
+- Le signaler uniquement à l'organisateur, oralement, avant de quitter la salle
+- Le mentionner seulement si un joueur a déposé une réclamation écrite
+> Instruction 3.7.4.1 : le rapport contient tous les détails pertinents, se concentre sur ce qui était significatif pour le tournoi et met en évidence les informations qui peuvent être pertinentes pour d'autres tournois dans le même lieu ou par le même organisateur.
+
+Q ap-006 | D: 2 | R: REGLES Instr. 3.5.28 | T: instructions
+Le premier jour d'un tournoi de deux jours, le dernier match s'achève à 22 h 40. Que doit faire le juge-arbitre de cette information ?
+- Rien, seule l'heure de fin du tournoi importe
++ L'enregistrer dans le rapport du juge-arbitre comme heure de fin de la journée de compétition
+- La transmettre uniquement aux joueurs convoqués le lendemain
+- La noter sur la feuille de score du dernier match, à la place de l'arbitre
+> Instruction 3.5.28 : enregistrer dans le rapport du juge-arbitre l'heure de la fin de la journée de compétition.
+
+Q ap-007 | D: 2 | R: REGLES Instr. 5.17.2 | T: arbitrage
+Un arbitre a donné un avertissement (carton jaune) à un joueur pour avoir retardé le jeu. Quelle obligation a-t-il à l'égard du juge-arbitre ?
+- Aucune : un carton jaune n'a pas à être signalé
+- Le signaler seulement si le joueur reçoit ensuite un carton rouge
++ Enregistrer l'incident et en informer le juge-arbitre, ainsi que des mesures prises
+- Le signaler uniquement si le joueur conteste le carton
+> Instruction 5.17.2 : l'arbitre doit enregistrer et informer le juge-arbitre de tout incident lié à une mauvaise conduite ainsi que des mesures prises. Le juge-arbitre consigne ensuite tous les cartons dans son rapport (07.04 §2).
+
+Q ap-008 | D: 2 | R: REGLES 17.6.7 | T: arbitrage
+Selon la règle 17.6, quelles situations l'arbitre doit-il enregistrer et rapporter au juge-arbitre ?
+- Uniquement les blessures ayant entraîné un abandon
++ Toutes les situations se rapportant à la règle 16 (jeu continu, mauvaise conduite et sanctions)
+- Uniquement les cartons noirs
+- Uniquement les erreurs de service relevées par le juge de service
+> Règle 17.6.7 : l'arbitre doit enregistrer et rapporter au juge-arbitre toutes les situations se rapportant à la règle 16 ; 17.6.8 : il porte aussi à sa connaissance toute réclamation insatisfaite concernant des questions portant sur les règles.
+
+Q ap-009 | D: 2 | R: REGLES Annexe 4 | T: arbitrage
+Sur une feuille de score, l'arbitre a noté « Dis » à côté du nom d'un joueur. Que signifie cette mention, qui intéressera le rapport du juge-arbitre ?
+- Le joueur a été disponible pour arbitrer le match suivant
+- Le joueur a discuté une décision du juge de ligne
++ Le joueur a été disqualifié par le juge-arbitre
+- Le joueur a disputé le match avec une dispense de tenue
+> Annexe 4, section 7 (commentaires des incidents sur la feuille de score) : B – Blessure ; A – Avertissement pour mauvaise conduite ; F – Faute pour mauvaise conduite ; JA – Appel du juge-arbitre sur le terrain ; S – Suspension de jeu ; Dis – Disqualifié(e) par le juge-arbitre ; Ab – Abandon.
+
+Q ap-010 | D: 2 | R: REGLES Annexe 4 | T: arbitrage
+Parmi ces abréviations utilisées pour commenter les incidents sur la feuille de score, lesquelles sont correctement associées à leur signification ? (plusieurs réponses)
++ B : blessure
++ S : suspension de jeu
++ Ab : abandon
+- F : forfait
+- A : appel du juge-arbitre
+> Annexe 4, section 7 : B – Blessure ; A – Avertissement pour mauvaise conduite ; F – Faute pour mauvaise conduite ; JA – Appel du juge-arbitre sur le terrain ; S – Suspension de jeu ; Dis – Disqualifié(e) ; Ab – Abandon.
+
+Q ap-011 | D: 2 | R: REGLES Instr. 3.5.5.4 | T: instructions
+Avant de clore le fichier du tournoi, le juge-arbitre vérifie le logiciel. Quels événements doivent y être correctement documentés ? (plusieurs réponses)
++ Les promotions et les substitutions
++ Les forfaits et les walkovers
++ Les retraits
+- Les échanges privés entre le juge-arbitre et ses adjoints
+> Instruction 3.5.5.4 : s'assurer que toutes les promotions, forfaits, substitutions, retraits et walkovers sont documentés correctement dans le fichier du logiciel de la compétition.
+
+Q ap-012 | D: 3 | R: REGLES Instr. 3.6.1.4 | T: instructions | L: JALC JAFA JAFC
+Lors d'une blessure, le juge-arbitre soupçonne un joueur d'exploiter la situation pour reprendre sa respiration, et le joueur hésite à plusieurs reprises entre continuer et abandonner. Que prévoient les instructions ?
+- Le juge-arbitre doit immédiatement déclarer le joueur forfait volontaire
++ Le juge-arbitre peut avoir besoin de signaler une disqualification potentielle
+- Le juge-arbitre doit laisser au joueur tout le temps nécessaire, sans limite
+- Le juge-arbitre doit demander au médecin de prendre la décision à la place du joueur
+> Instruction 3.6.1.4 : le juge-arbitre résout la situation de blessure en quelques minutes ; il peut avoir besoin de signaler une disqualification potentielle si l'on soupçonne que le joueur exploite la situation pour reprendre sa respiration, ou s'il hésite à plusieurs reprises à décider de continuer ou d'abandonner.
+
+Q ap-013 | D: 2 | R: REGLES Instr. 3.5.11.3 | T: instructions | L: JALC JAFA JAFC
+Pendant un match, une forte tension est apparue entre l'arbitre et un joueur. Que doit faire le juge-arbitre ?
++ En prendre note et, si nécessaire, éviter d'assigner cet arbitre à des matchs du même joueur dans les tours suivants
+- Retirer définitivement cet arbitre de la compétition
+- Annuler le résultat du match et le faire rejouer
+- Demander au joueur de choisir son arbitre pour le tour suivant
+> Instruction 3.5.11.3 : prendre note de tous les matchs avec une tension significative entre l'arbitre ou le juge de service et les joueurs et, si nécessaire, éviter d'assigner cet arbitre ou ce juge de service à des matchs comportant le même joueur dans les tours suivants.
+
+Q ap-014 | D: 2 | R: REGLES Instr. 3.5.15.1 | T: instructions
+Pendant le tournoi, le juge-arbitre n'est pas certain qu'un maillot soit conforme et l'a autorisé. Que lui reste-t-il à faire après le tournoi ?
+- Rien, l'autorisation donnée sur place clôt la question
++ Soumettre une photo de la tenue à l'institution sportive de rattachement pour examen
+- Infliger a posteriori un carton jaune au joueur dans son rapport
+- Demander à l'organisateur de rembourser l'inscription du joueur
+> Instruction 3.5.15.1 : en cas d'incertitude, le juge-arbitre doit autoriser les vêtements en question et en soumettre une photo à l'institution sportive de rattachement après le tournoi pour examen.
+
+Q ap-015 | D: 3 | R: REGLES Instr. 3.1.5 | T: instructions | L: JALC JAFA JAFC
+Un incident majeur (altercation entre deux joueurs) survient le samedi d'un tournoi de deux jours. Quand et comment le juge-arbitre doit-il le signaler ?
+- Uniquement dans le rapport complet, dans les cinq jours suivant le tournoi
++ Le plus tôt possible, avec les preuves disponibles et les déclarations des officiels impliqués
+- Seulement si l'un des joueurs dépose une réclamation
+- Le dimanche soir, avec le fichier des résultats
+> Instruction 3.1.5 : tout incident majeur durant le tournoi doit être signalé le plus tôt possible, accompagné des preuves disponibles et des déclarations des officiels impliqués. Après la fin du tournoi, un rapport complet utilisant le modèle standard est remis dans le délai imparti.
+
+Q ap-016 | D: 2 | R: REGLES Instr. 3.7.2 | T: instructions
+Avant de quitter l'aire de jeu à la fin du tournoi, de quoi le juge-arbitre doit-il prévoir le temps ? (plusieurs réponses)
++ Finaliser et informer dûment l'institution sportive des résultats
++ Remercier les officiels techniques restants, le comité d'organisation et les autres intervenants
+- Rédiger et envoyer le rapport complet avant de partir
+- Notifier lui-même aux joueurs les suspensions liées aux cartons jaunes
+> Instruction 3.7.2 : le juge-arbitre doit prévoir suffisamment de temps avant de quitter l'aire de jeu pour finaliser et informer dûment l'institution sportive des résultats, et remercier les officiels techniques restants, le comité d'organisation et les autres intervenants. Le rapport complet suit dans les cinq jours (3.7.4).
+
+# ---------------------------------------------------------------- 03.04 intégration des résultats
+
+Q ap-017 | D: 2 | R: 03.04 3 | T: tournois
+Un juge-arbitre a officié sur un championnat de France (compétition fédérale nationale). Qui valide son rapport saisi dans Poona ?
+- La ligue où s'est déroulée la compétition
+- Le comité départemental de l'organisateur
++ La FFBaD
+- Le GEO principal de la compétition
+> Règlement 03.04, § 3 : pour les compétitions fédérales nationales, le rapport est validé par la FFBaD ; pour les compétitions fédérales régionales ou départementales et les tournois autorisés par une ligue ou la Fédération, par la ligue dont dépend l'organisation de la compétition.
+
+Q ap-018 | D: 3 | R: 03.04 3 | T: tournois
+Un tournoi ouvert aux joueurs classés N a été autorisé par la Fédération. Qui valide le rapport du juge-arbitre de ce tournoi ?
+- La FFBaD, puisqu'elle a autorisé le tournoi
++ La ligue dont dépend l'organisation de la compétition
+- La commission nationale des officiels techniques
+- Le club organisateur
+> Règlement 03.04, § 3 : pour les compétitions fédérales régionales ou départementales et les tournois autorisés par une ligue ou la Fédération, le rapport est validé par la ligue dont dépend l'organisation de la compétition. Seules les compétitions fédérales nationales voient leur rapport validé par la FFBaD.
+
+Q ap-019 | D: 1 | R: 03.04 3 | T: tournois
+Où le juge-arbitre d'une compétition officielle saisit-il son rapport à l'issue de la compétition ?
+- Sur le site de la ligue, par un formulaire libre
++ Dans la base fédérale Poona
+- Sur MyFFBaD, dans l'espace du joueur
+- Sur papier, remis en main propre à l'organisateur
+> Règlement 03.04, § 3 : le juge-arbitre de la compétition doit saisir son rapport à l'issue de la compétition dans la base fédérale Poona.
+
+Q ap-020 | D: 2 | R: 03.04 3 | T: tournois
+Un tournoi se termine le dimanche 15 novembre 2026. Son règlement particulier ne prévoit rien de spécial. Jusqu'à quand le juge-arbitre peut-il saisir son rapport ?
+- Le dimanche 15 novembre au soir
+- Le mercredi 18 novembre
++ Le vendredi 20 novembre
+- Le dimanche 15 décembre
+> Règlement 03.04, § 3 (et 03.02 art. 3.2.2) : sauf règlement particulier, le rapport du juge-arbitre doit être saisi dans les cinq jours suivant la compétition, soit jusqu'au 20 novembre. Le 18 novembre correspond au délai de 3 jours du GEO pour les résultats.
+
+Q ap-021 | D: 2 | R: 03.04 4 | T: tournois
+Qui intègre dans Poona les résultats d'une compétition internationale référencée ?
+- Le juge-arbitre principal, le dimanche soir
+- Le GEO désigné, dans les 3 jours
++ Le secrétariat de la Vie Sportive
+- Le responsable interclubs national, sous 21 jours
+> Règlement 03.04, § 4 : l'intégration est faite par les responsables interclubs (21 jours maximum), par le secrétariat de la Vie Sportive pour les compétitions internationales référencées, par le JA principal des compétitions fédérales nationales individuelles le dimanche soir, et par le GEO désigné (3 jours) pour les autres.
+
+Q ap-022 | D: 2 | R: 03.04 2 | T: tournois
+Un organisateur gère son tournoi sur papier et prévoit de saisir les résultats après la compétition dans un logiciel agréé, pour les diffuser puis les exporter vers Poona. Est-ce conforme au règlement d'intégration des résultats ?
++ Oui, le logiciel agréé peut être dédié à une saisie intermédiaire des résultats après la compétition
+- Non, le logiciel doit obligatoirement être celui qui a servi à gérer la compétition
+- Non, les résultats doivent être saisis directement dans Poona par le juge-arbitre
+- Oui, mais seulement pour les compétitions par équipes
+> Règlement 03.04, § 2 : le logiciel agréé peut être le même que celui employé pour gérer la compétition, ou être dédié à une saisie intermédiaire des résultats après la compétition, pour diffusion au public et export ultérieur vers Poona.
+
+Q ap-023 | D: 2 | R: 03.04 4 | T: tournois
+Une fois les résultats d'un tournoi intégrés dans Poona, sont-ils automatiquement pris en compte pour les classements fédéraux ?
+- Oui, sans aucune exception possible
++ Oui, sauf si l'instance compétente décide de ne pas valider les résultats
+- Non, ils doivent attendre la fin de la saison
+- Non, seulement après accord écrit du juge-arbitre
+> Règlement 03.04, § 4 (et 03.02 art. 3.2.5) : les résultats sont alors pris en compte pour les classements fédéraux, sauf si l'instance compétente décide de ne pas valider les résultats.
+
+Q ap-024 | D: 2 | R: 03.04 1 | T: tournois
+Selon son objet, que régit le règlement 03.04 d'intégration des résultats ? (plusieurs réponses)
++ Les conditions de transmission des résultats aux instances fédérales et de leur intégration dans Poona
++ Les conditions de transmission du rapport du juge-arbitre
+- Le calcul des points de classement de chaque joueur
+- Le montant des droits d'inscription des tournois
+> Règlement 03.04, § 1 : il définit les conditions dans lesquelles les résultats d'une compétition, ainsi que le rapport du juge-arbitre, doivent être transmis aux instances fédérales et intégrés à la base de données fédérale Poona.
+
+Q ap-025 | D: 3 | R: 03.04 4 | T: tournois
+Six mois après un tournoi, un joueur conteste un résultat et la ligue demande au juge-arbitre le fichier des résultats. Le juge-arbitre a supprimé ses fichiers trois semaines après la compétition. A-t-il respecté ses obligations ?
+- Oui, le fichier est dans Poona, le JA n'a rien à conserver
+- Oui, la conservation n'est due que jusqu'à l'homologation à J+30
++ Non, il doit conserver une copie du fichier des résultats pendant douze mois
+- Non, il doit le conserver pendant cinq ans
+> Règlement 03.04, § 4 : le juge-arbitre doit conserver une copie du fichier des résultats de la compétition pendant douze mois (§ 3 : il conserve aussi une copie de son rapport durant douze mois).
+
+# ---------------------------------------------------------------- 03.02 homologation des tournois
+
+Q ap-026 | D: 1 | R: 03.02 3.2.1 | T: tournois
+Au vu de quel document l'homologation d'un tournoi autorisé est-elle donnée ?
+- Du règlement particulier du tournoi
++ Du rapport du juge-arbitre
+- De la liste des inscrits
+- Du bilan financier de l'organisateur
+> Règlement 03.02, art. 3.2.1 : l'homologation d'un tournoi autorisé est donnée au vu du rapport du juge-arbitre (les conditions sont jugées au vu des tableaux, du rapport du JA ou de toute autre pièce, art. 3.1.2).
+
+Q ap-027 | D: 2 | R: 03.02 3.1.3 | T: tournois
+Un tournoi s'est terminé il y a 30 jours. La ligue qui l'a autorisé n'a transmis aucune information. Quelle est la situation du tournoi ?
+- Il reste en attente tant que la ligue n'a pas statué expressément
++ Il est homologué
+- Il est refusé faute de décision
+- Il doit faire l'objet d'une nouvelle demande d'autorisation
+> Règlement 03.02, art. 3.1.3 : sans information contraire des instances ayant autorisé la compétition, le tournoi est homologué à J+30.
+
+Q ap-028 | D: 2 | R: 03.02 2.5.1 | T: tournois
+Lors de l'autorisation, la ligue a imposé à l'organisateur de prévoir des arbitres pour les finales. Le juge-arbitre constate que ce n'a pas été le cas. Quelle peut en être la conséquence ?
+- Aucune : seules les conditions du RGC comptent pour l'homologation
++ L'homologation du tournoi peut en dépendre, car l'autorisation peut être assortie de conditions
+- L'annulation automatique de tous les résultats du tournoi
+- La suspension du juge-arbitre pour ne pas l'avoir imposé
+> Règlement 03.02, art. 2.5.1 : la délivrance de l'autorisation peut être assortie de conditions à respecter par l'organisateur, dont peut dépendre l'homologation du tournoi ; l'art. 3.1.2 exige le respect des conditions spécifiques posées lors de l'octroi de l'autorisation.
+
+Q ap-029 | D: 2 | R: 03.02 4.1.3 | T: tournois
+La ligue prononce la non-homologation d'un tournoi pour non-respect des horaires. Que deviennent les résultats des joueurs ?
+- Ils sont obligatoirement annulés
++ L'instance peut néanmoins valider les résultats, qui sont alors pris en compte dans les classements fédéraux
+- Ils ne comptent que pour le classement par équipes
+- Ils sont conservés uniquement pour les joueurs non classés
+> Règlement 03.02, art. 4.1.2 et 4.1.3 : l'instance peut prononcer la non-homologation, éventuellement assortie d'autres pénalités sportives, mais elle peut néanmoins valider les résultats, qui sont alors pris en compte dans les classements fédéraux.
+
+Q ap-030 | D: 2 | R: 03.02 3.1.2 | T: tournois
+La demande d'autorisation d'un tournoi indiquait un juge-arbitre ; un autre juge-arbitre, qualifié, a finalement officié sans que la ligue en soit informée. Sur quel critère d'homologation cela peut-il poser problème ?
+- La confection des tableaux
++ Le respect des éléments indiqués dans la demande d'autorisation
+- Le versement de la participation fédérale
+- Les horaires de la compétition
+> Règlement 03.02, art. 3.1.2 : pour être homologué, le tournoi doit notamment respecter les éléments indiqués dans la demande d'autorisation (nombre et type des tableaux, nom du juge-arbitre, volant officiel, etc.).
+
+Q ap-031 | D: 2 | R: 03.02 1.4 | T: tournois
+Quelle instance gère l'homologation d'un tournoi limité aux joueurs classés R, D et P ?
+- La Fédération
++ La commission désignée par la ligue régionale
+- Le comité départemental du club organisateur
+- Le juge-arbitre du tournoi
+> Règlement 03.02, art. 1.4.2 : chaque ligue charge une commission de gérer les autorisations et homologations des tournois n'autorisant pas les joueurs classés N ; la Fédération gère ceux qui autorisent les joueurs N (1.4.1).
+
+Q ap-032 | D: 3 | R: 03.02 3.1.2 | T: tournois | L: JALC JAFA JAFC
+Sur quelles pièces l'instance compétente se fonde-t-elle pour juger si les conditions d'homologation d'un tournoi sont remplies ? (plusieurs réponses)
++ Les tableaux
++ Le rapport du juge-arbitre
++ Toute autre pièce susceptible de fonder son jugement
+- Uniquement l'attestation sur l'honneur de l'organisateur
+> Règlement 03.02, art. 3.1.2 : ces conditions sont jugées au vu des tableaux, du rapport du juge-arbitre ou de toute autre pièce susceptible de fonder le jugement de l'organisme compétent.
+
+Q ap-033 | D: 2 | R: 03.02 3.2.3 | T: tournois
+Un tournoi s'achève le dimanche. Le GEO principal n'a pas encore importé le fichier des résultats sur Poona le jeudi suivant. Le délai est-il respecté ?
+- Oui, il a cinq jours comme le juge-arbitre
+- Oui, il a jusqu'à l'homologation à J+30
++ Non, l'import doit être fait dans le délai de 3 jours suivant la compétition
+- Non, l'import devait être fait le dimanche soir
+> Règlement 03.02, art. 3.2.3 : le GEO principal doit importer sur Poona le fichier des résultats dans le délai de 3 jours suivant la compétition. Le délai de 5 jours concerne le rapport du juge-arbitre (art. 3.2.2).
+
+# ---------------------------------------------------------------- RGC 2.8.1, 2.18, 2.23, 2.24, 4.7.1
+
+Q ap-034 | D: 2 | R: 03.01 2.23
+Selon le RGC, qui est tenu de faire parvenir, à l'issue de toute compétition officielle, un rapport sur son déroulement à la commission fédérale compétente ?
+- Le juge-arbitre seul
+- L'organisateur seul
++ Les organisateurs et le juge-arbitre
+- Le GEO et les arbitres
+> RGC 2.23 : à l'issue de toute compétition officielle, les organisateurs et le juge-arbitre sont tenus de faire parvenir à la commission fédérale compétente un rapport sur le déroulement de la compétition incluant l'ensemble des résultats.
+
+Q ap-035 | D: 2 | R: 03.01 2.23
+Au vu de quoi la commission compétente délivre-t-elle ou refuse-t-elle l'homologation d'une compétition selon le RGC ?
++ Des éléments permettant de juger du respect des conditions d'autorisation, des règlements et de l'équité sportive
+- Du seul nombre de joueurs inscrits
+- De l'avis des joueurs recueilli après la compétition
+- Du bilan financier présenté par le club
+> RGC 2.23 : au vu des éléments (rapport et résultats) permettant de juger du respect des conditions d'autorisation, des règlements et de l'équité sportive, la commission délivre ou refuse l'homologation de la compétition.
+
+Q ap-036 | D: 2 | R: 03.01 2.24
+Un joueur s'estime lésé par le déroulement d'un tournoi mais ne dépose aucune réclamation. La commission compétitions peut-elle se saisir de l'affaire ?
+- Non, une réclamation écrite est indispensable
++ Oui, elle peut agir d'office au vu des résultats de la compétition et du rapport du juge-arbitre
+- Oui, mais seulement à la demande de l'organisateur
+- Non, seul le juge-arbitre peut la saisir
+> RGC 2.24 : toute réclamation est à introduire par écrit dans les huit jours auprès de la commission compétitions compétente, qui peut toutefois également agir d'office au vu des résultats de la compétition et du rapport du juge-arbitre.
+
+Q ap-037 | D: 3 | R: 03.01 2.24 | L: JALC JAFA JAFC
+Une commission compétitions a pris une décision qu'un club conteste. Selon quelles modalités cette contestation est-elle traitée ?
+- Elle est tranchée sans appel par le juge-arbitre de la compétition
++ Selon les modalités fixées par le règlement relatif aux réclamations et aux litiges
+- Directement par la commission disciplinaire fédérale
+- Par un vote du comité d'organisation
+> RGC 2.24 : les réclamations contre les décisions des commissions compétitions, ainsi que les recours contre les pénalités sportives, sont traités selon les modalités fixées par le règlement relatif aux réclamations et aux litiges (07.01).
+
+Q ap-038 | D: 2 | R: 03.01 2.18.1
+Un joueur absent a téléphoné le matin à la table de marque en expliquant qu'il avait raté son train. Que fait le juge-arbitre de cette information ?
+- Rien : seul un certificat médical peut être pris en compte
++ Il la consigne dans son rapport, car elle permet d'apprécier le caractère volontaire ou non du forfait
+- Il la transmet au joueur adverse, qui décide du caractère du forfait
+- Il la communique uniquement au club du joueur
+> RGC 2.18.1 : le juge-arbitre consigne dans son rapport tous les cas d'absence, ainsi que tous les éléments portés à sa connaissance permettant d'apprécier le caractère volontaire ou non du forfait.
+
+Q ap-039 | D: 2 | R: 03.01 2.18.2
+Le juge-arbitre a établi qu'un joueur a renoncé sans raison valable à jouer son quart de finale. Outre son retrait de la compétition, à quoi le joueur s'expose-t-il ?
+- À rien d'autre, le retrait suffit
++ À des pénalités sportives et sanctions disciplinaires prévues par un règlement spécifique aux forfaits
+- À la perte définitive de sa licence
+- À une amende fixée par le juge-arbitre sur place
+> RGC 2.18.2 : un forfait volontaire avéré entraîne le retrait du fautif de la compétition dans toutes les disciplines ; en outre, le fautif est passible de pénalités sportives et de sanctions disciplinaires dans les conditions exposées dans un règlement spécifique aux forfaits (07.05).
+
+Q ap-040 | D: 1 | R: 03.01 2.8.1
+À quelle instance le juge-arbitre adresse-t-il son rapport selon le RGC 2.8.1 ?
+- Au club organisateur, qui le diffuse aux joueurs
++ À l'instance ayant autorisé la compétition
+- Au comité départemental du juge-arbitre
+- À la commission disciplinaire fédérale
+> RGC 2.8.1 : le juge-arbitre rédige un rapport qu'il adresse à l'instance ayant autorisé la compétition. Cette instance le met à la disposition de l'organisateur à sa demande.
+
+Q ap-041 | D: 2 | R: 03.01 4.7.1
+À l'issue d'une rencontre par équipes, un capitaine souhaite contester un point de règlement. Selon le RGC (sauf disposition contraire), où consigne-t-il son observation ?
++ Sur la feuille de rencontre récapitulant les résultats, qu'il signe avec l'autre capitaine
+- Uniquement par courriel au juge-arbitre, après la rencontre
+- Sur la feuille de score du dernier match
+- Dans le rapport du juge-arbitre, qu'il rédige avec lui
+> RGC 4.7.1 : à l'issue de la rencontre, les deux capitaines signent une feuille de rencontre récapitulant les résultats et y consignent le cas échéant leurs éventuelles observations ou réclamations ; le juge-arbitre signe la feuille et la joint à son rapport.
+
+Q ap-042 | D: 2 | R: 03.01 2.18.3
+Un joueur se blesse pendant son quart de finale de simple, qu'il termine et gagne ; il renonce ensuite à jouer la demi-finale à cause de cette blessure. Comment ce cas doit-il être qualifié dans le rapport du juge-arbitre ?
+- Forfait volontaire, car il a renoncé à jouer
++ Forfait involontaire, car il renonce à continuer un tableau à cause d'une blessure
+- Disqualification
+- Simple absence, sans conséquence
+> RGC 2.18.3 : le forfait involontaire consiste notamment à renoncer à continuer un tableau à cause d'une blessure ; le joueur ne peut plus jouer à nouveau dans le tableau concerné. Le JA consigne les éléments dans son rapport (2.18.1).
+
+# ---------------------------------------------------------------- 07.05 forfaits
+
+Q ap-043 | D: 2 | R: 07.05 1 | T: sanctions
+Un tournoi se termine le dimanche 15 novembre 2026. Un joueur absent dépose son certificat médical sur MyFFBaD le jeudi 19 novembre, soit 4 jours ouvrables après. Ce justificatif est-il dans les délais ?
++ Oui, le délai est de 5 jours ouvrables au maximum après le dernier jour de la compétition
+- Non, il devait être remis au juge-arbitre le jour de la compétition
+- Non, le délai est de 3 jours après la compétition
+- Oui, car un justificatif peut être déposé jusqu'à la sanction
+> GdB 07.05 §1 : le forfait involontaire pour absence suppose une raison valable dûment justifiée au maximum 5 jours ouvrables après le dernier jour de la compétition sur MyFFBaD.
+
+Q ap-044 | D: 2 | R: 07.05 1 | T: sanctions
+Un joueur forfait envoie son justificatif par courrier postal au club organisateur. Selon la procédure de gestion des forfaits, où doit-il être déposé ?
+- Auprès du juge-arbitre, par courrier recommandé
+- Auprès du président de son club
++ Sur MyFFBaD
+- Sur Poona, dans le rapport du juge-arbitre
+> GdB 07.05 §1 et §2.2 : la raison valable est justifiée au maximum 5 jours ouvrables après le dernier jour de la compétition sur MyFFBaD ; le juge-arbitre, l'organisateur et la ligue concernée sont alors automatiquement notifiés.
+
+Q ap-045 | D: 2 | R: 07.05 2.2 | T: sanctions
+Un joueur dépose son justificatif de forfait sur MyFFBaD. Qui est automatiquement notifié de ce dépôt ? (plusieurs réponses)
++ Le juge-arbitre
++ L'organisateur
++ La ligue concernée (où s'est déroulée la compétition)
+- Le président du club du joueur
+- La commission disciplinaire fédérale
+> GdB 07.05 §2.2 : le juge-arbitre, l'organisateur et la ligue concernée sont automatiquement notifiés d'un document visant à justifier le forfait du joueur.
+
+Q ap-046 | D: 2 | R: 07.05 2.2 | T: sanctions
+Qui accepte ou refuse le justificatif de forfait déposé par un joueur après la compétition ?
+- Le juge-arbitre de la compétition
++ La ligue sur laquelle la compétition s'est déroulée
+- La ligue du club du joueur
+- L'organisateur du tournoi
+> GdB 07.05 §2.2 : la ligue sur laquelle la compétition s'est déroulée prend connaissance du document et accepte ou refuse le document transmis ; le suivi des forfaits s'effectue à son niveau, même si la compétition est nationale.
+
+Q ap-047 | D: 2 | R: 07.05 2.2 | T: sanctions
+La ligue refuse le justificatif déposé par un joueur dont le forfait avait été indiqué « à justifier ». Que se passe-t-il ?
+- Le juge-arbitre doit réexaminer le dossier et trancher définitivement
++ La sanction est appliquée dans les délais prévus par le règlement en cas de forfait à justifier
+- Le forfait devient automatiquement involontaire
+- Le joueur dispose de 5 nouveaux jours pour fournir un autre document
+> GdB 07.05 §2.2 : si le document est refusé par la ligue, la sanction sera appliquée dans les délais prévus par le règlement en cas de forfait à justifier.
+
+Q ap-048 | D: 3 | R: 07.05 1 | T: sanctions
+Un tournoi s'est terminé le dimanche 15 novembre 2026. Un joueur est sanctionné pour forfait volontaire. À partir de quelle date la suspension s'applique-t-elle de plein droit ?
+- Le lundi 16 novembre 2026
+- Le lundi 23 novembre 2026
++ Le lundi 30 novembre 2026
+- Le mardi 15 décembre 2026
+> GdB 07.05 §1 : la sanction devient applicable de plein droit à compter du troisième lundi suivant le dernier jour de la compétition : 16, 23 puis 30 novembre.
+
+Q ap-049 | D: 2 | R: 07.05 1 | T: sanctions
+Par quel moyen les instances du badminton et le licencié sanctionné pour forfait communiquent-elles ?
+- Par courrier recommandé avec accusé de réception uniquement
++ Par courriel
+- Par l'intermédiaire du juge-arbitre
+- Par affichage sur le site du tournoi
+> GdB 07.05 §1 : les communications entre les instances du badminton et le licencié fautif s'effectuent par courriel.
+
+Q ap-050 | D: 2 | R: 07.05 2.1 | T: sanctions
+Un joueur déjà sanctionné une première fois pour forfait volontaire commet un nouveau forfait volontaire. Quelle sanction prévoit le barème ?
+- Une suspension de 2 mois
+- Une suspension de 4 mois
++ Une suspension de 6 mois
+- Une radiation
+> GdB 07.05 §2.1 : forfait volontaire, 2 mois de suspension ; forfait volontaire avec récidive, 6 mois ; participation en étant suspendu, 6 mois.
+
+Q ap-051 | D: 2 | R: 07.05 2.1 | T: sanctions
+Lors du pointage, un juge-arbitre souhaite savoir si un joueur est sous le coup d'une sanction. Où la liste des joueurs sanctionnés est-elle disponible ?
+- Sur le site public de la Fédération, sans authentification
++ Via un accès authentifié sur Poona
+- Uniquement auprès du secrétariat de la ligue, par téléphone
+- Dans le règlement particulier du tournoi
+> GdB 07.05 §2.1 : la liste comportant les joueurs sanctionnés est disponible via un accès authentifié sur Poona.
+
+# ---------------------------------------------------------------- 07.04 et 07.04.F01 cartons
+
+Q ap-052 | D: 2 | R: 07.04 2.3 | T: sanctions
+Un juge-arbitre a donné un carton noir pendant son tournoi. Que doit-il faire après la compétition ? (plusieurs réponses)
++ Joindre à son rapport pour la ligue la copie du formulaire de notification en sa possession
++ Envoyer une copie du formulaire et un rapport circonstancié de l'incident au secrétariat arbitrage de la FFBaD
+- Fixer lui-même la durée de suspension du joueur
+- Envoyer le formulaire original au club du joueur
+> GdB 07.04 §2.3 : en cas de carton noir, le traitement est effectué par la Fédération ; le JA joint à son rapport pour la ligue la copie du formulaire et envoie une copie de celui-ci ainsi qu'un rapport circonstancié de l'incident au secrétariat arbitrage de la FFBaD.
+
+Q ap-053 | D: 2 | R: 07.04 2 | T: sanctions
+Quelles informations le juge-arbitre renseigne-t-il sur le formulaire de notification immédiate remis au joueur ayant reçu un carton noir ? (plusieurs réponses)
++ L'identité du joueur et son numéro de licence
++ La dénomination de la compétition et la date
+- La sanction disciplinaire que le joueur va recevoir
+- La description détaillée de l'incident et les témoignages
+> GdB 07.04 §2 : ce formulaire de notification immédiate n'est renseigné qu'avec l'identité du joueur, son numéro de licence, la dénomination de la compétition et la date. Le récit de l'incident fait l'objet du rapport circonstancié adressé à la FFBaD (§2.3).
+
+Q ap-054 | D: 2 | R: 07.04.F01 | T: sanctions
+Un joueur disqualifié refuse de signer le formulaire de notification en affirmant que signer reviendrait à reconnaître sa faute. Que peut lui répondre le juge-arbitre ?
+- Qu'en signant, il accepte la sanction disciplinaire qui sera prononcée
++ Que sa signature indique seulement qu'il a reçu notification de ses droits et devoirs, sans acceptation ni reconnaissance d'une sanction
+- Qu'en refusant de signer, il renonce à tout moyen de défense
+- Qu'il sera automatiquement radié s'il ne signe pas
+> Formulaire 07.04.F01, remarque préliminaire : le fait de signer ne signifie en aucun cas acceptation ou reconnaissance d'une sanction disciplinaire ; il indique que le joueur a reçu notification de ses droits et devoirs suite au carton délivré. En cas de refus, le JA fait signer un licencié témoin (07.04 §2).
+
+Q ap-055 | D: 2 | R: 07.04.F01 | T: sanctions
+En combien d'exemplaires le formulaire de notification de disqualification est-il rempli, et à qui sont-ils destinés ?
+- Un seul, conservé par le juge-arbitre
++ Deux : un pour le joueur fautif, l'autre pour le juge-arbitre
+- Trois : joueur, juge-arbitre et organisateur
+- Deux : un pour le club du joueur, l'autre pour la ligue
+> Formulaire 07.04.F01 : document à remplir en deux exemplaires, un destiné au joueur fautif, l'autre au juge-arbitre (07.04 §2 : le licencié signe en deux exemplaires, dont l'un revient au juge-arbitre).
+
+Q ap-056 | D: 3 | R: 07.04.F01 | T: sanctions | L: JALC JAFA JAFC
+Après un carton noir, quels droits le formulaire de notification annonce-t-il au joueur pour la suite de la procédure ? (plusieurs réponses)
++ Consulter le rapport et l'intégralité du dossier avant l'audience
++ Demander l'audition de la personne de son choix
+- Faire appel de la disqualification devant le juge-arbitre de la compétition suivante
+- Rejouer le match perdu par disqualification
+> Formulaire 07.04.F01, § 3 : la convocation mentionnera les griefs, les informations utiles (date, heure, lieu, présentiel ou visioconférence) et ses droits, par exemple la consultation du rapport et de l'intégralité du dossier avant l'audience ou la demande d'audition de la personne de son choix.
+
+Q ap-057 | D: 2 | R: 07.04.F01 | T: sanctions
+À quelles destinations le juge-arbitre transmet-il le formulaire de notification de disqualification ? (plusieurs réponses)
++ Joint à son rapport
++ Au secrétariat arbitrage de la FFBaD (arbitrage@ffbad.org), accompagné d'un rapport circonstancié
+- Au président du club organisateur, pour affichage
+- À l'adversaire du joueur disqualifié
+> Formulaire 07.04.F01 : document à transmettre par le juge-arbitre joint à son rapport et au secrétariat arbitrage de la FFBaD (arbitrage@ffbad.org), accompagné d'un rapport circonstancié.
+
+Q ap-058 | D: 2 | R: 07.04 3.1 | T: sanctions
+Un joueur disqualifié souhaite exposer sa version des faits avant d'être convoqué par la commission disciplinaire fédérale. Que prévoit la procédure des cartons ?
+- Il doit l'exposer oralement au juge-arbitre avant de quitter la salle
++ Il peut adresser un rapport écrit au siège de la Fédération, par tout moyen prouvant la date de réception
+- Il ne peut s'exprimer qu'à l'audience
+- Il doit passer par une réclamation devant la commission compétitions
+> GdB 07.04 §3.1 : le licencié poursuivi peut apporter, avant d'être convoqué, tout élément susceptible d'éclairer la commission, sous forme d'un rapport écrit adressé au siège de la Fédération après délivrance du carton, par tout moyen prouvant la date de réception.
+
+Q ap-059 | D: 2 | R: 07.04 3.1 | T: sanctions
+Sous le contrôle de qui s'exerce la suspension à titre conservatoire d'un joueur disqualifié par le juge-arbitre ?
+- Du juge-arbitre qui a donné le carton noir
+- Du président de la ligue du joueur
++ Du Secrétaire général de la Fédération
+- Du président du club du joueur
+> GdB 07.04 §3.1 : un licencié disqualifié est suspendu à titre conservatoire de toute compétition, sous le contrôle du Secrétaire général de la Fédération, jusqu'à publication de la décision de la commission disciplinaire de première instance (deux mois maximum).
+
+Q ap-060 | D: 2 | R: 07.04 3.3 | T: sanctions
+Après un tournoi, un joueur se voit enregistrer un deuxième carton jaune en dix mois. Que se passe-t-il ?
+- Il est suspendu deux mois
++ Il reçoit un courrier d'information de la prise en compte d'un deuxième carton jaune ; la suspension n'intervient qu'au troisième sur douze mois glissants
+- Il est convoqué devant la commission disciplinaire
+- Rien, les cartons jaunes ne sont pas notifiés
+> GdB 07.04 §3.3 et §5 : trois cartons jaunes sur douze mois glissants entraînent deux mois d'interdiction ; chaque carton est notifié par courriel (courriers d'information de la prise en compte d'un premier, d'un deuxième carton jaune, puis notification de suspension pour 3 cartons jaunes).
+
+Q ap-061 | D: 2 | R: 07.04 3.2 | T: sanctions
+Lorsqu'un carton rouge est enregistré à l'encontre d'un joueur, qui reçoit copie de la notification adressée au joueur ?
+- Le juge-arbitre de la compétition
++ Le président du club du joueur
+- L'organisateur de la compétition
+- Le président de la commission disciplinaire
+> GdB 07.04 §3.2 et 3.3 : chaque carton est notifié par courrier électronique au joueur ; le président du club du joueur reçoit copie de la notification.
+
+Q ap-062 | D: 2 | R: 07.04 5 | T: sanctions
+À partir de quel outil les courriers de notification liés aux cartons (prise en compte d'un carton, suspensions) sont-ils générés ?
+- BadNet
+- MyFFBaD
++ Poona
+- Le logiciel de gestion de la compétition
+> GdB 07.04 §5 : ces documents sont générés à partir de http://poona.ffbad.org (prise en compte des premier et deuxième cartons jaunes, suspension pour 3 cartons jaunes, prise en compte d'un carton rouge, suspension pour 2 cartons rouges, suspension pour carton noir).
+
+Q ap-063 | D: 2 | R: 07.04 4 | T: sanctions
+Où sont publiées les sanctions prononcées à la suite de cartons ? (plusieurs réponses)
++ Dans le bulletin fédéral
++ Sur les sites fédéraux accessibles aux licenciés, officiels et organisateurs
+- Dans la presse locale du lieu de la compétition
+- Sur le tableau d'affichage du tournoi suivant du joueur
+> GdB 07.04 §4 : les sanctions prononcées suite à des cartons sont publiées dans le bulletin fédéral et sur les sites fédéraux accessibles aux licenciés, officiels et organisateurs de compétitions ; la liste des joueurs ayant reçu des cartons y est également publiée.
+
+Q ap-064 | D: 2 | R: 07.04 2.1 | T: sanctions
+Après un tournoi, quelle instance traite l'annexe « Incidents » du rapport du juge-arbitre faisant état d'un carton rouge ?
+- La Fédération (secrétariat arbitrage)
++ La ligue où s'est déroulée la compétition
+- La ligue du club du joueur
+- Le comité départemental de l'organisateur
+> GdB 07.04 §2.1 et 2.2 : en cas de carton jaune ou rouge, l'annexe « Incidents » est traitée par la ligue où s'est déroulée la compétition, dans un délai maximum de deux semaines ; seul le carton noir est traité par la Fédération (§2.3).
+
+# ---------------------------------------------------------------- 07.06 pénalités sportives
+
+Q ap-065 | D: 2 | R: 07.06 2.1 | T: sanctions
+Une commission veut prononcer une pénalité sportive contre un club pour une infraction à un règlement de compétition. À quelle condition le peut-elle ?
+- Toujours, dès que le juge-arbitre le demande
++ Seulement si cette pénalité est prévue dans le règlement de la ou des compétitions concernées
+- Seulement après une procédure disciplinaire complète
+- Seulement si le club a déjà été averti dans la saison
+> GdB 07.06 §2.1 : les pénalités sportives sont des mesures d'ordre intérieur visant à faire respecter les règlements sportifs ; elles ne peuvent être prononcées que si elles sont prévues dans le règlement de la ou des compétitions concernées.
+
+Q ap-066 | D: 2 | R: 07.06 2.3 | T: sanctions
+Un organisateur se voit interdire d'organiser un tournoi pendant une saison (pénalité sportive). Quel recours a-t-il ?
+- Aucun, une pénalité sportive est définitive
++ Une réclamation, traitée selon le règlement relatif aux réclamations et aux litiges
+- Un appel devant la commission disciplinaire fédérale
+- Un recours auprès du juge-arbitre du tournoi
+> GdB 07.06 §2.3 : les pénalités sportives peuvent faire l'objet d'un recours, sous forme de réclamation, traitée dans le respect des modalités du règlement fédéral relatif aux réclamations et aux litiges.
+
+Q ap-067 | D: 3 | R: 07.06 1.1 | T: sanctions | L: JALC JAFA JAFC
+Un carton rouge a été donné par une personne qui n'était pas habilitée à le faire. Le joueur peut-il s'en prévaloir après la compétition ?
+- Non, toute décision prise sur le terrain est une décision de fait définitive, sans exception
++ La faute reste une décision de fait, mais les suites disciplinaires peuvent prendre en compte certaines erreurs de forme, comme la prononciation par un officiel non habilité
+- Oui, le résultat du match est alors automatiquement annulé
+- Oui, il peut faire rejouer le match devant la commission compétitions
+> GdB 07.06 §1.1 : la prononciation d'une faute ou d'une disqualification est une décision de fait qui ne peut être remise en cause ; toutefois, les suites disciplinaires peuvent prendre en compte certaines erreurs de forme (prononciation de la faute par un officiel non habilité, erreur sur la personne…).
+
+# ---------------------------------------------------------------- 07.02 règlement disciplinaire
+
+Q ap-068 | D: 2 | R: 07.02 3.1 | T: sanctions
+Après une disqualification (carton noir) lors d'un tournoi, sur quelle base les poursuites disciplinaires sont-elles engagées ?
+- Sur plainte écrite de l'adversaire
+- Sur demande du club organisateur
++ D'office, sur la foi du rapport du juge-arbitre
+- Uniquement si le joueur ne signe pas le formulaire de notification
+> Règlement disciplinaire 07.02, art. 3.1 : dans le cas particulier de la disqualification d'un joueur pendant une compétition officielle, les poursuites disciplinaires sont engagées d'office, sur la foi du rapport du juge-arbitre.
+
+Q ap-069 | D: 3 | R: 07.02 3.1 | T: sanctions | L: JALC JAFA JAFC
+Lorsque des faits surviennent au cours d'une compétition officielle et relèvent de la commission fédérale disciplinaire, qui peut la saisir au titre de sa fonction ? (plusieurs réponses)
++ Le président de la fédération
++ Le secrétaire général de la fédération
++ Le responsable de la commission fédérale des officiels techniques
+- Le juge-arbitre de la compétition
+- Le président du club organisateur
+> Règlement disciplinaire 07.02, art. 3.1 : peuvent saisir la commission fédérale disciplinaire le président de la fédération, le secrétaire général, le vice-président fédéral chargé de la vie sportive et le responsable de la commission fédérale des officiels techniques. Le JA, lui, transmet son rapport et peut recommander un processus disciplinaire (instruction 3.6.2.2).
+
+Q ap-070 | D: 3 | R: 07.02 3.1 | T: sanctions | L: JAFA JAFC
+Dans le cas d'une disqualification, qui est réputé avoir saisi la commission disciplinaire, pour l'exercice du droit d'appel ?
+- Le juge-arbitre de la compétition
++ Le responsable de la commission fédérale chargée des officiels techniques
+- Le président de la ligue où s'est déroulée la compétition
+- L'adversaire du joueur disqualifié
+> Règlement disciplinaire 07.02, art. 3.1 : en cas de disqualification, les poursuites sont engagées d'office sur la foi du rapport du JA ; le responsable de la commission fédérale chargée des officiels techniques est réputé, pour l'exercice du droit d'appel (art. 4.1), avoir saisi la commission.
+
+Q ap-071 | D: 2 | R: 07.02 3.4 | T: sanctions
+Un joueur poursuivi après un carton noir est convoqué devant la commission disciplinaire. Au minimum combien de jours avant la séance la convocation doit-elle lui être envoyée (hors urgence) ?
+- Quarante-huit heures
+- Cinq jours
++ Sept jours
+- Quinze jours
+> Règlement disciplinaire 07.02, art. 3.4 : la personne poursuivie est convoquée par l'envoi d'un document énonçant les griefs, au minimum sept jours avant la date de la séance ; ce délai peut être réduit en cas d'urgence ou de circonstances exceptionnelles.
+
+Q ap-072 | D: 2 | R: 07.02 3.4 | T: sanctions
+Le joueur poursuivi souhaite faire entendre l'arbitre de son match par la commission disciplinaire. Dans quel délai doit-il communiquer ce nom ?
+- La veille de la séance au plus tard
++ Quarante-huit heures au moins avant la réunion
+- Sept jours au moins avant la réunion
+- Le jour même, à l'ouverture de la séance
+> Règlement disciplinaire 07.02, art. 3.4 : la personne poursuivie peut demander que soient entendues les personnes de son choix, dont elle communique les noms quarante-huit heures au moins avant la réunion ; le rapport et le dossier peuvent être demandés au plus tard quarante-huit heures avant la séance.
+
+Q ap-073 | D: 2 | R: 07.02 3.8 | T: sanctions
+Dans quel délai la commission disciplinaire de première instance doit-elle se prononcer à compter de l'engagement des poursuites ?
+- Deux mois
++ Dix semaines
+- Quatre mois
+- Six semaines
+> Règlement disciplinaire 07.02, art. 3.8 : la commission de première instance doit se prononcer dans un délai de dix semaines à compter de l'engagement des poursuites ; ce délai peut être prorogé d'un mois en cas de circonstances exceptionnelles.
+
+Q ap-074 | D: 3 | R: 07.02 3.8 | T: sanctions | L: JALC JAFA JAFC
+La commission disciplinaire de première instance n'a pas statué dans le délai imparti. Que devient le dossier ?
+- Les poursuites sont abandonnées et le joueur est relaxé
+- La commission dispose d'un délai supplémentaire illimité
++ La commission est dessaisie et le dossier est transmis à la commission fédérale d'appel, qui statue en dernier ressort
+- Le juge-arbitre de la compétition statue à sa place
+> Règlement disciplinaire 07.02, art. 3.8 : faute d'avoir statué dans ces délais, la commission disciplinaire de première instance est dessaisie et l'ensemble du dossier est transmis à la commission fédérale d'appel qui statue en dernier ressort.
+
+Q ap-075 | D: 2 | R: 07.02 4.1 | T: sanctions
+Un joueur sanctionné en première instance après un carton noir veut faire appel. De combien de jours dispose-t-il ?
+- Trois jours
++ Sept jours
+- Quinze jours
+- Un mois
+> Règlement disciplinaire 07.02, art. 4.1 : la personne poursuivie (et les autres personnes listées) peut interjeter appel dans un délai de sept jours. Le formulaire 07.04.F01 rappelle que la décision sera notifiée avec les voies et délais de recours (dans les 7 jours).
+
+Q ap-076 | D: 3 | R: 07.02 4.1 | T: sanctions | L: JALC JAFA JAFC
+Un joueur suspendu en première instance fait appel. Peut-il jouer en attendant la décision d'appel ?
++ Non, l'appel n'est pas suspensif, sauf décision motivée de la commission de première instance
+- Oui, l'appel est toujours suspensif
+- Oui, s'il a versé une consignation à la fédération
+- Oui, si le juge-arbitre du tournoi l'accepte
+> Règlement disciplinaire 07.02, art. 4.1 : l'appel n'est pas suspensif sauf décision motivée de la commission disciplinaire de première instance prise en même temps qu'il est statué au fond. L'exercice du droit d'appel ne peut être subordonné au versement d'une somme d'argent.
+
+Q ap-077 | D: 3 | R: 07.02 4.3 | T: sanctions | L: JALC JAFA JAFC
+Seul le joueur sanctionné a fait appel de la décision de première instance. La commission fédérale d'appel peut-elle aggraver sa sanction ?
+- Oui, librement
++ Non, la sanction ne peut pas être aggravée lorsque l'appel émane seulement de l'intéressé (ou de son club)
+- Oui, si le juge-arbitre fournit un nouveau rapport
+- Non, elle ne peut que confirmer la décision
+> Règlement disciplinaire 07.02, art. 4.3 : lorsque la commission fédérale d'appel n'a été saisie que par l'intéressé ou par l'organisme, l'association ou la société sportive avec lequel il a un lien juridique, la sanction prononcée en première instance ne peut être aggravée.
+
+Q ap-078 | D: 2 | R: 07.02 4.3 | T: sanctions
+Dans quel délai la commission fédérale d'appel doit-elle se prononcer en matière disciplinaire ?
+- Sept jours à compter de l'acte d'appel
+- Dix semaines à compter de l'acte d'appel
++ Deux mois à compter de l'acte d'appel
+- Six mois à compter de l'acte d'appel
+> Règlement disciplinaire 07.02, art. 4.3 : la commission fédérale d'appel doit se prononcer dans un délai de deux mois à compter de l'acte d'appel, prorogeable d'un mois en cas de circonstances exceptionnelles ; à défaut, l'appelant peut saisir le CNOSF aux fins de conciliation.
+
+Q ap-079 | D: 3 | R: 07.02 3.3 | T: sanctions | L: JALC JAFA JAFC
+Une mesure conservatoire d'interdiction provisoire de participer aux compétitions a été prononcée contre un licencié poursuivi. Peut-il en faire appel ?
+- Oui, devant la commission fédérale d'appel dans les sept jours
+- Oui, devant la commission d'examen des réclamations et litiges
++ Non, les décisions relatives aux mesures conservatoires sont insusceptibles d'appel
+- Oui, auprès du juge-arbitre qui a rédigé le rapport
+> Règlement disciplinaire 07.02, art. 3.3 : les décisions relatives aux mesures conservatoires sont notifiées aux personnes poursuivies et sont insusceptibles d'appel ; la mesure prend fin si la commission n'est pas en mesure de statuer dans le délai imparti (art. 3.8).
+
+Q ap-080 | D: 2 | R: 07.02 5.1 | T: sanctions
+Parmi ces mesures, lesquelles figurent dans la liste des sanctions disciplinaires applicables ? (plusieurs réponses)
++ Un avertissement ou un blâme
++ Une interdiction temporaire de participer à des compétitions
++ Une non-homologation d'un résultat sportif
+- Une indemnité versée directement par le fautif à son adversaire
+> Règlement disciplinaire 07.02, art. 5.1 : les sanctions applicables sont notamment l'avertissement, le blâme, l'amende, la perte de rencontres, la pénalité en points, le déclassement, la non-homologation d'un résultat, l'interdiction temporaire ou définitive de participer aux compétitions, etc. Des activités d'intérêt général peuvent remplacer une sanction, avec l'accord de l'intéressé.
+
+Q ap-081 | D: 3 | R: 07.02 5.4 | T: sanctions | L: JALC JAFA JAFC
+Un joueur a été sanctionné d'une suspension avec sursis. Au bout de combien de temps sans nouvelle sanction cette sanction est-elle réputée non avenue ?
+- Un an
+- Deux ans
++ Trois ans
+- Cinq ans
+> Règlement disciplinaire 07.02, art. 5.4 : la sanction assortie d'un sursis est réputée non avenue si, dans un délai de trois ans après son prononcé, l'intéressé n'a fait l'objet d'aucune nouvelle sanction ; toute nouvelle infraction sanctionnée pendant ce délai emporte révocation de tout ou partie du sursis.
+
+Q ap-082 | D: 3 | R: 07.02 5.3 | T: sanctions | L: JALC JAFA JAFC
+Une commission disciplinaire ordonne la publication de sa décision au bulletin officiel. Sous quelle forme est-elle publiée, en principe ?
+- Nominativement, dans tous les cas
++ De manière anonyme, sauf décision motivée ordonnant une publication nominative
+- Uniquement sur le site du club du joueur
+- Avant même la notification au joueur, pour informer les organisateurs
+> Règlement disciplinaire 07.02, art. 5.3 : la publication ne peut intervenir qu'après notification et épuisement des voies de recours internes ; elle s'effectue de manière anonyme, sauf décision motivée ordonnant la publication nominative ou demande de la personne relaxée.
+
+# ---------------------------------------------------------------- 07.01 réclamations et litiges
+
+Q ap-083 | D: 2 | R: 07.01 3.1.1 | T: sanctions
+Un club veut contester une décision qui lui fait grief devant la commission d'examen des réclamations et litiges. Quelles conditions sa réclamation doit-elle remplir pour être examinée ? (plusieurs réponses)
++ Être adressée dans les sept jours suivant le fait générateur ou la réception de la décision
++ Être accompagnée des droits de consignation prévus
+- Être visée par le juge-arbitre de la compétition
+- Être déposée sur MyFFBaD
+> Règlement 07.01, art. 3.1.1 : une réclamation n'est examinée que si elle est adressée selon les modalités de l'article 2.5 dans les sept jours qui suivent le fait générateur ou la réception de la décision faisant grief, accompagnée des droits de consignation prévus à l'annexe 1.
+
+Q ap-084 | D: 2 | R: 07.01 3.1.2 | T: sanctions
+Un spectateur licencié, sans lien avec les joueurs concernés, souhaite contester l'homologation d'un tournoi auquel il n'a pas participé. Sa réclamation peut-elle être déclarée recevable ?
+- Oui, tout licencié peut contester toute décision
++ Non, une réclamation n'est recevable que si la décision fait grief à celui qui la dépose
+- Oui, à condition de verser une consignation double
+- Non, seul le juge-arbitre peut contester une homologation
+> Règlement 07.01, art. 3.1.2 : aucune réclamation d'une décision ne peut être déclarée recevable si elle ne fait pas grief à celui qui la dépose.
+
+Q ap-085 | D: 2 | R: 07.01 2.5 | T: sanctions
+Par quel moyen doit être effectué l'envoi d'une réclamation nécessitant le versement de droits de consignation ?
+- Par simple courriel
+- Par message sur MyFFBaD
++ Par courrier recommandé avec accusé de réception ou remis en main propre contre décharge
+- Par téléphone au secrétariat fédéral
+> Règlement 07.01, art. 2.5 : les actes nécessitant le versement ou le renvoi de droits de consignation doivent obligatoirement être effectués par courrier recommandé avec accusé de réception ou par courrier remis en main propre contre décharge.
+
+Q ap-086 | D: 2 | R: 07.01 3.2.4 | T: sanctions
+Dans quel délai maximum la commission d'examen des réclamations et litiges de première instance doit-elle statuer après réception de la réclamation ?
+- Quinze jours
++ Deux mois, prorogeables d'une durée égale par décision motivée
+- Dix semaines
+- Six mois
+> Règlement 07.01, art. 3.2.4 : la commission de première instance doit statuer dans un délai maximum de deux mois après réception de la réclamation ; elle peut proroger ce délai d'une durée égale par décision motivée.
+
+Q ap-087 | D: 3 | R: 07.01 4.1.2 | T: sanctions | L: JALC JAFA JAFC
+Un club d'une ligue ultramarine veut faire appel d'une décision de la commission régionale d'examen des réclamations et litiges. De quel délai dispose-t-il ?
+- Sept jours, comme en métropole
++ Douze jours : sept jours augmentés de cinq jours pour les ligues hors métropole
+- Quinze jours
+- Un mois
+> Règlement 07.01, art. 4.1.2 : l'appel est formulé par écrit dans les sept jours qui suivent la réception de la notification de la décision de première instance, avec les droits de consignation ; ce délai est augmenté de cinq jours pour les décisions des ligues situées hors métropole.
+
+Q ap-088 | D: 2 | R: 07.01 7.3.1 | T: sanctions
+Le délai pour déposer une réclamation expire un dimanche. Que se passe-t-il ?
+- Le délai expire le samedi précédent
+- Le délai expire le dimanche à minuit, sans report
++ Le délai est prorogé jusqu'au premier jour ouvrable suivant
+- Le délai est prolongé d'une semaine
+> Règlement 07.01, art. 7.3.1 : tout délai expirant un dimanche ou un jour férié est prorogé jusqu'au 1er jour ouvrable suivant.
+
+Q ap-089 | D: 3 | R: 07.01 4.3.6 | T: sanctions | L: JALC JAFA JAFC
+La commission fédérale d'appel n'a pas statué sur une réclamation dans le délai maximum de quatre mois. Que peut faire l'appelant ?
+- Considérer que sa demande est acceptée
++ Saisir le Comité National Olympique et Sportif Français
+- Saisir la commission disciplinaire fédérale
+- Redéposer sa réclamation en première instance
+> Règlement 07.01, art. 4.3.6 : la commission fédérale d'appel doit statuer dans un délai maximum de quatre mois ; à défaut, l'appelant peut saisir le CNOSF selon les modalités de l'article 5.
+
+Q ap-090 | D: 2 | R: 07.01 3.1.4 | T: sanctions
+Une réclamation est déposée hors délai. Dans quel délai son auteur doit-il être informé de son irrecevabilité ?
+- Sept jours après sa réception
++ Quinze jours maximum après sa réception, par décision motivée
+- Deux mois après sa réception
+- Il n'est pas informé, la réclamation est simplement classée
+> Règlement 07.01, art. 3.1.3 et 3.1.4 : une réclamation déposée hors des formes ou délais est déclarée irrecevable ; l'auteur en est informé par une décision motivée dans un délai maximum de quinze jours après réception. Le non-respect de ce délai entraîne de plein droit la restitution des droits de consignation (3.1.5).
+
+# ---------------------------------------------------------------- 06.02 filière juge-arbitrage
+
+Q ap-091 | D: 1 | R: 06.02 3.3.3 | T: filiere
+Lors du stage pratique de la formation JALA, le candidat est juge-arbitre assistant. Quelles tâches doit-il réaliser ? (plusieurs réponses)
++ La préparation en amont de la compétition
++ La gestion de la compétition le jour J
++ L'après compétition avec le rapport de juge-arbitre
+- La certification d'un autre candidat
+> GdB 06.02 art. 3.3.3 : en formation pratique, le candidat, juge-arbitre assistant, doit réaliser la préparation en amont de la compétition, la gestion de la compétition le jour J et l'après compétition avec le rapport de juge-arbitre.
+
+Q ap-092 | D: 2 | R: 06.02 3.5.1 | T: filiere | L: JALC JAFA JAFC
+Un JALC envisage de candidater à la formation de juge-arbitre fédéral accrédité. Parmi ses productions après les compétitions, laquelle figure expressément dans les critères de sélection ?
+- Le nombre de cartons qu'il a distribués
++ La qualité de ses rapports de JA
+- Le nombre de tournois homologués à J+30
+- Le délai moyen d'import des résultats par ses GEO
+> GdB 06.02 art. 3.5.1 : les critères de sélection sont l'avis de la CLOT, le respect de la déontologie, le niveau et la diversité géographique de l'activité sur les trois dernières saisons et la qualité des rapports de JA.
+
+Q ap-093 | D: 3 | R: 06.02 4.5.3 | T: filiere | L: JAFA JAFC
+Quels documents relatifs à l'activité passée conditionnent l'accès à l'examen de juge-arbitre fédéral certifié ? (plusieurs réponses)
++ La feuille d'activité des trois dernières saisons
++ Les rapports du juge-arbitre des trois dernières saisons
++ Les rapports positifs de deux ÉJAF
+- Les rapports des arbitres ayant officié sous sa direction
+> GdB 06.02 art. 4.5.3 : l'accès est conditionné notamment par la feuille d'activité et les rapports du juge-arbitre lors des trois dernières saisons, ses motivations, les rapports positifs de deux ÉJAF et l'avis collégial positif des ÉJAF.
+
+Q ap-094 | D: 2 | R: 06.02 5.2 | T: filiere
+Après avoir officié sur un tournoi, que le juge-arbitre inscrit-il sur sa feuille d'activité ? (plusieurs réponses)
++ Les compétitions pour lesquelles il a officié
++ Les formations de juges-arbitres pour lesquelles il a été formateur responsable
++ Les certifications de juges-arbitres qu'il a menées
+- Les cartons qu'il a distribués sur chaque compétition
+> GdB 06.02 art. 5.2 : tous les juges-arbitres possèdent une feuille d'activité sur laquelle ils inscrivent l'ensemble des compétitions pour lesquelles ils ont officié, les formations de JA dont ils ont été formateur responsable et les certifications de JA qu'ils ont menées.
+
+Q ap-095 | D: 2 | R: 06.02 5.4.6 | T: filiere | L: JALC JAFA JAFC
+Un candidat est proposé par sa CLOT pour la formation de juge-arbitre fédéral accrédité. Quels éléments de son dossier d'inscription sont pris en compte ? (plusieurs réponses)
++ Ses motivations
++ Ses rapports de juge-arbitre
++ Ses feuilles d'activité
+- Ses résultats sportifs en tant que joueur
+> GdB 06.02 art. 5.4.6 : la candidature est acceptée en fonction du dossier d'inscription (motivations du candidat, rapports de juge-arbitre, feuilles d'activité) ; le candidat doit avoir une activité conforme à l'article 5.4.1 sur les deux dernières années civiles.
+
+# ---------------------------------------------------------------- Interclubs nationaux (ICN)
+
+Q ap-096 | D: 2 | R: 04.07.A04 7 | T: interclubs | L: JALC JAFA JAFC
+Lors d'une rencontre d'ICN, un capitaine valide la composition de son équipe après l'heure limite fixée par le JA. Que fait le juge-arbitre ?
+- Il déclare l'équipe forfait pour la rencontre
++ Il inscrit ce retard dans son rapport ; une amende est possible à l'initiative de la Commission fédérale chargée de l'interclubs
+- Il inflige lui-même une amende au club sur place
+- Rien, le retard de validation n'a pas de conséquence
+> 04.07.A04, art. 7.1.4 : un retard dans la validation de la composition par les capitaines doit être inscrit au rapport du juge-arbitre et est passible d'une amende à l'initiative de la Commission fédérale chargée de l'interclubs.
+
+Q ap-097 | D: 2 | R: 04.07.A04 6 | T: interclubs | L: JALC JAFA JAFC
+À la table de marque d'une rencontre d'ICN, le juge-arbitre constate qu'aucune imprimante n'a été prévue par l'équipe hôte. Quelle suite peut avoir ce constat ?
+- Aucune, l'imprimante est facultative
+- La rencontre est perdue par forfait par l'équipe hôte
++ L'équipe hôte peut se voir infliger une amende prévue à l'annexe 02
+- Le juge-arbitre doit annuler la rencontre
+> 04.07.A04, art. 6 : l'équipe hôte doit prévoir des moyens informatiques (PC et imprimante à minima) ; en cas de négligence constatée par le juge-arbitre, elle peut se voir infliger une amende (annexe 02, qui prévoit une amende pour absence ou défaillance d'imprimante).
+
+Q ap-098 | D: 2 | R: 04.07.A04 10 | T: interclubs | L: JALC JAFA JAFC
+Une équipe est arrivée en retard à une rencontre d'ICN. Après la rencontre, qui décide de l'éventuelle sanction ou amende ?
+- Le juge-arbitre, sur place
+- Le capitaine de l'équipe hôte
++ La Commission fédérale chargée de l'interclubs, en fonction des explications de l'équipe en retard
+- La ligue de l'équipe en retard
+> 04.07.A04, art. 10.1.2 : le juge-arbitre consigne les faits dans son rapport ; l'équipe en retard envoie dans les 5 jours une lettre explicative à la Commission fédérale chargée de l'interclubs, qui décide en fonction des explications de la sanction et/ou de l'amende éventuelle.
+
+Q ap-099 | D: 2 | R: 04.07.A04 10 | T: interclubs | L: JALC JAFA JAFC
+L'équipe visiteuse est arrivée avec 50 minutes de retard. La rencontre a pu se dérouler. Que doit faire le JA dans son rapport ?
+- Rien, puisque la rencontre a eu lieu
++ Consigner les faits relatifs au retard
+- Proposer directement le montant de l'amende à appliquer
+- Déclarer forfait les matchs joués par les retardataires
+> 04.07.A04, art. 10.1.2 : le juge-arbitre consignera dans son rapport les faits ; l'équipe en retard devra dans les 5 jours suivants envoyer une lettre explicative à la Commission fédérale chargée de l'interclubs.
+
+Q ap-100 | D: 3 | R: 04.07 20 | T: interclubs | L: JALC JAFA JAFC
+Après une rencontre d'ICN, contre qui le juge-arbitre peut-il proposer à l'instance compétente l'ouverture de poursuites disciplinaires ? (plusieurs réponses)
++ Un joueur
++ Un entraîneur ou un conseiller
++ Un club ou une équipe
++ Un officiel de terrain
+- Un spectateur non licencié présent dans les tribunes
+> Règlement ICN 04.07, chapitre 20 : le JA peut proposer à l'instance compétente l'ouverture de poursuites disciplinaires contre un joueur, un entraîneur ou un conseiller, une équipe, un club, un officiel de terrain ou un autre licencié ayant commis des infractions susceptibles d'entraîner de telles poursuites.
+
+Q ap-101 | D: 3 | R: 07.01 5.1.2 | T: sanctions | L: JALC JAFA JAFC
+Un club a épuisé les recours fédéraux : la commission fédérale d'appel a rejeté sa contestation. Que peut-il encore faire, et dans quel délai ?
+- Saisir de nouveau la commission de première instance, dans les sept jours
++ Saisir le CNOSF aux fins de conciliation, dans les quinze jours suivant la notification de la décision
+- Saisir directement la commission disciplinaire fédérale, dans le mois
+- Plus rien : la décision d'appel ne peut faire l'objet d'aucune démarche
+> Règlement 07.01, art. 5.1.1 et 5.1.2 : la décision de la commission fédérale d'appel peut faire l'objet d'une saisine du CNOSF aux fins de conciliation (article L.141-4 du Code du sport), avant tout recours devant le tribunal administratif, dans un délai de quinze jours à compter de sa notification.
+
+Q ap-102 | D: 2 | R: 04.07 20 | T: interclubs | L: JALC JAFA JAFC
+Un joueur a été disqualifié lors d'une rencontre d'ICN. Quelle procédure s'applique à lui après la rencontre ?
+- Aucune, la disqualification ne vaut que pour la rencontre
++ La procédure disciplinaire prévue par le règlement relatif aux cartons, notamment la suspension à titre conservatoire jusqu'à décision de l'instance disciplinaire
+- Une suspension automatique pour le reste de la saison d'interclubs
+- Une amende fixée par le juge-arbitre
+> Règlement ICN 04.07, chapitre 20 : le joueur disqualifié ne peut plus jouer dans la rencontre et n'est pas remplacé ; la procédure disciplinaire prévue par le règlement relatif aux cartons lui est appliquée, notamment la suspension à titre conservatoire jusqu'à décision de l'instance disciplinaire.
+
+Q ap-103 | D: 2 | R: 04.07 21 | T: interclubs | L: JALC JAFA JAFC
+Une rencontre d'ICN a été gérée manuellement et le club recevant n'a envoyé le dossier des résultats que cinq jours ouvrés après la journée. À quoi s'expose-t-il ?
+- À la perte de la rencontre par forfait
++ À une amende définie à l'annexe 02
+- À un retrait automatique de trois points
+- À rien, le délai est indicatif
+> Règlement ICN 04.07, chapitre 21 : le club recevant envoie le dossier des résultats au plus tard dans les deux jours ouvrés suivant la journée ; en cas de non-respect, l'organisateur est passible d'une amende définie à l'annexe 02 (retard dans l'envoi des résultats papiers et/ou dossier).
+
+Q ap-104 | D: 2 | R: 04.07.A04 | T: interclubs | L: JALC JAFA JAFC
+Lors d'une rencontre d'ICN, quelle équipe est responsable de l'envoi des résultats ?
++ L'équipe hôte
+- L'équipe visiteuse
+- Celle qui a remporté la rencontre
+- Le juge-arbitre seul, sans intervention des équipes
+> Annexe 04.07.A04 (préambule) : l'équipe hôte est responsable de l'organisation sportive (gymnase, volants, mise en rapport avec le JA désigné par la CFOT, table de marque, envoi des résultats) et en supporte les frais.
+
+Q ap-105 | D: 3 | R: 04.07 23 | T: interclubs | L: JALC JAFA JAFC
+Une semaine après une rencontre d'ICN, un club découvre qu'un joueur adverse n'était pas en règle. Aucune réserve n'avait été déposée pendant la rencontre. Que peut-il faire ?
+- Rien : sans réserve pendant la rencontre, aucune contestation n'est possible
++ Adresser une réclamation par courrier à la Commission fédérale chargée de l'interclubs, par tout moyen prouvant la date de réception, avec une consignation
+- Demander au juge-arbitre de modifier son rapport
+- Déposer une réserve sur le formulaire 07 auprès du juge-arbitre de la rencontre suivante
+> Règlement ICN 04.07, chapitre 23 : les réclamations résultant d'un fait révélé ultérieurement sont adressées par courrier à la Commission fédérale chargée de l'interclubs par tout moyen prouvant la date de réception, accompagnées d'une consignation fixée par l'annexe 01.
+
+Q ap-106 | D: 2 | R: 04.07 24 | T: interclubs | L: JALC JAFA JAFC
+Comment les décisions de la Commission fédérale chargée de l'interclubs prononçant des pénalités sportives sont-elles portées à la connaissance des intéressés ? (plusieurs réponses)
++ Elles sont diffusées sur le site Internet fédéral
++ Elles sont notifiées à chaque club sanctionné par courrier adressé par tout moyen prouvant la date de réception
+- Elles sont lues par le juge-arbitre lors de la rencontre suivante
+- Elles sont affichées uniquement dans le gymnase du club sanctionné
+> Règlement ICN 04.07, chapitre 24 : les décisions prononçant les pénalités sportives sont diffusées sur le site Internet fédéral et notifiées à chaque club sanctionné par courrier adressé par tout moyen prouvant la date de réception ; les litiges et amendes en cours sont consultables sur le site de la fédération.
+
+Q ap-107 | D: 3 | R: 07.06 2.2 | T: interclubs | L: JALC JAFA JAFC
+Une équipe d'ICN est sanctionnée d'un retrait de points. Outre l'équipe sanctionnée, qui doit, le cas échéant, être informé de cette pénalité sportive ?
+- Personne d'autre, la décision est confidentielle
++ Les équipes de la même division, indirectement intéressées par ses effets
+- Uniquement le juge-arbitre de la rencontre concernée
+- Uniquement la ligue de l'équipe sanctionnée
+> GdB 07.06 §2.2 : le cas échéant, la pénalité sportive doit faire l'objet d'une information vers les autres organes, associations ou licenciés indirectement intéressés par ses effets (équipes de la même division qu'une équipe sanctionnée sportivement en interclubs, par exemple).
+
+Q ap-108 | D: 2 | R: 04.07.A02 2 | T: interclubs | L: JALC JAFA JAFC
+Le JA d'une rencontre d'ICN signale dans son rapport qu'un joueur aligné n'était pas en règle au regard du chapitre 7 (qualification). Quelles pénalités sportives prévoit l'annexe 02 ? (plusieurs réponses)
++ Un point de pénalité au classement général
++ Les matchs où le joueur a été aligné sont perdus par forfait
+- La rencontre est rejouée à une date ultérieure
+- Le juge-arbitre est suspendu pour ne pas l'avoir détecté
+> Annexe 04.07.A02, § 2 : joueur non en règle (chapitre 7) : un point de pénalité au classement général, matchs où le joueur a été aligné perdus par forfait ; le joueur sera également susceptible d'être suspendu pour une ou plusieurs rencontres.
+
+Q ap-109 | D: 2 | R: 04.07 1 | T: interclubs | L: JALC JAFA JAFC
+Après une journée d'ICN, quelle instance procède à l'homologation des résultats et statue en première instance sur les réserves et réclamations ?
+- Le juge-arbitre de chaque rencontre
+- La ligue du club recevant
++ La commission désignée par le comité exécutif fédéral pour gérer le Championnat de France Interclubs
+- La commission nationale d'examen des réclamations et litiges
+> Règlement ICN 04.07, chapitre 1 : le comité exécutif fédéral désigne une commission chargée de la gestion du Championnat de France Interclubs, qui procède notamment à l'homologation des résultats et statue en première instance sur les réserves et réclamations.
+
+Q ap-110 | D: 3 | R: 04.07 24 | T: interclubs | L: JALC JAFA JAFC
+Un club a reçu le 10 du mois la lettre lui notifiant une pénalité sportive de la Commission fédérale chargée de l'interclubs. Jusqu'à quand et auprès de qui son président peut-il faire appel ?
+- Jusqu'au 15, auprès du juge-arbitre de la rencontre
++ Jusqu'au 17, auprès de la commission nationale d'examen des réclamations et litiges, avec une consignation
+- Jusqu'au 25, auprès de la commission disciplinaire fédérale
+- Jusqu'au 10 du mois suivant, auprès de la ligue
+> Règlement ICN 04.07, chapitre 24 : le club peut, par l'intermédiaire de son président et dans un délai de sept jours à compter de la réception de la lettre notifiant la décision, faire appel auprès de la FFBaD (commission nationale d'examen des réclamations et litiges), avec paiement d'une consignation.

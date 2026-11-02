@@ -56,6 +56,16 @@ export const diffDots = (d = 1) => `<span class="diff" title="Difficulté ${d}/3
 
 /** Trouve le bloc correspondant à un article (« 2.16 », « Instr. 3.5.4 », « règle 9.1.6 »). */
 export function findArticle(blocks, art) {
+  // « Annexe 4 7.2 » : chercher l'article à l'intérieur de l'annexe (après son titre)
+  const annex = art.match(/^\s*annexe\s+(\d+)\s*(.*)$/i);
+  if (annex) {
+    const start = blocks.findIndex((b) => new RegExp(`^ANNEXE\\s+${annex[1]}\\b`, 'i').test(b[1]));
+    if (start >= 0) {
+      if (!annex[2].trim()) return start;
+      const i = findArticle(blocks.slice(start + 1), annex[2]);
+      return i >= 0 ? start + 1 + i : start;
+    }
+  }
   const num = (art.match(/\d+(?:\.\d+)*/) || [])[0];
   if (!num) return -1;
   const instr = /instr/i.test(art);
