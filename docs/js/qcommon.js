@@ -26,6 +26,10 @@ export async function refLink(ref) {
   if (!ref) return '';
   const cat = await getCatalog().catch(() => ({ docs: [] }));
   const doc = cat.docs.find((d) => d.id === ref.doc);
+  if (doc?.external) {
+    const page = doc.pages?.[ref.art];
+    return `<p class="ref muted">Référence : <a href="${esc(page?.url || doc.source)}" target="_blank" rel="noopener">Documentation BadNet${page ? ` — ${esc(page.title)}` : ''}</a></p>`;
+  }
   const name = !doc ? ref.doc : doc.id === 'REGLES' ? 'Règles officielles du badminton' : `GdB ${doc.id} — ${doc.title}`;
   const art = ref.art ? ` · ${ref.art}` : '';
   const link = `#/doc/${encodeURIComponent(ref.doc)}${ref.art ? `?a=${encodeURIComponent(ref.art)}` : ''}`;

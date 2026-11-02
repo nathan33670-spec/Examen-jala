@@ -317,7 +317,7 @@ PHASE_BY_DOC = {
     "07.01": "pendant", "07.01.A01": "pendant", "07.04": "pendant", "07.04.F01": "pendant",
     "07.07": "pendant", "07.08": "pendant", "07.09": "pendant", "03.01.A10": "pendant",
     "07.02": "apres", "07.05": "apres", "07.06": "apres", "04.07.A09": "pendant",
-    "02.04": "avant", "02.04.A01": "avant", "08.03": "avant", "08.03.A01": "avant",
+    "BADNET": "avant", "02.04": "avant", "02.04.A01": "avant", "08.03": "avant", "08.03.A01": "avant",
 }
 for _a in ("A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A11", "A12", "A13", "A14"):
     PHASE_BY_DOC[f"03.01.{_a}"] = "avant"
@@ -382,10 +382,21 @@ def categorize(q: dict) -> None:
 
 # --------------------------------------------------------------------------- validation
 
+def load_catalog(site: Path) -> dict:
+    """Catalogue des règlements (bot) + sources externes citées par les questions (data/external.json)."""
+    path = site / "data" / "catalog.json"
+    catalog = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    ext = site / "data" / "external.json"
+    if catalog and ext.exists():
+        catalog = {**catalog, "docs": catalog.get("docs", []) + json.loads(ext.read_text(encoding="utf-8"))["docs"]}
+    return catalog
+
+
 def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: bool = False) -> list[str]:
     errors: list[str] = []
     warnings: list[str] = []
     doc_codes = {d.get("code", d["id"]) for d in catalog.get("docs", [])}
+    external_pages = {d["id"]: d.get("pages", {}) for d in catalog.get("docs", []) if d.get("external")}
     seen: set[str] = set()
     for q in questions + cases:
         if q["id"] in seen:
@@ -408,6 +419,8 @@ def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: b
             errors.append(f"{q['id']} : référence (R:) manquante")
         elif doc_codes and ref["doc"] not in doc_codes:
             (warnings if lenient else errors).append(f"{q['id']} : document {ref['doc']} absent du catalogue")
+        elif ref["doc"] in external_pages and ref["art"] not in external_pages[ref["doc"]]:
+            errors.append(f"{q['id']} : page « {ref['art']} » inconnue de la source externe {ref['doc']}")
     for c in cases:
         for r in c["refs"]:
             if doc_codes and r["doc"] not in doc_codes:
@@ -481,8 +494,7 @@ def main(argv: list[str] | None = None) -> int:
     except ContentError as err:
         print(f"ERREUR de contenu : {err}", file=sys.stderr)
         return 2
-    catalog_path = site / "data" / "catalog.json"
-    catalog = json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else {}
+    catalog = load_catalog(site)
     errors = validate(questions, cases, catalog, lenient=args.lenient)
     if errors:
         for e in errors:

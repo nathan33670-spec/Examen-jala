@@ -1,11 +1,12 @@
 {
- "build": "b36204635422",
+ "build": "c2200774348b",
  "core": [
   "./",
   "css/app.css",
   "data/cases.json",
   "data/catalog.json",
   "data/exams.json",
+  "data/external.json",
   "data/fiches.json",
   "data/glossaire.json",
   "data/pratique.json",
@@ -122,7 +123,7 @@
   "reglements/text/08.03.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 2348419,
+ "coreSize": 2461747,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",

@@ -79,6 +79,19 @@ function blocksHtml(blocks) {
   return out.join('');
 }
 
+/** Source externe (documentation BadNet…) : liens vers les pages citées par les questions. */
+function renderExternal(main, doc, query = {}) {
+  const pages = Object.entries(doc.pages || {});
+  const target = query.a && doc.pages?.[query.a];
+  main.innerHTML = `
+    <p class="small muted"><a href="#/docs">Règlements</a> › ${esc(doc.folder || '')}</p>
+    <h1>${esc(doc.title)}</h1>
+    <p class="muted">Documentation en ligne de l’éditeur, consultable avec une connexion Internet. Les questions « logiciel » y renvoient page par page.</p>
+    ${target ? `<div class="notice"><strong>Page citée :</strong> <a href="${esc(target.url)}" target="_blank" rel="noopener">${esc(target.title)}</a></div>` : ''}
+    <div class="btn-row" style="margin:10px 0"><a class="btn small" href="${esc(doc.source)}" target="_blank" rel="noopener">Ouvrir la documentation</a></div>
+    <div class="doclist">${pages.map(([, pg]) => `<a class="docitem" href="${esc(pg.url)}" target="_blank" rel="noopener"><span class="t">${esc(pg.title)}</span></a>`).join('')}</div>`;
+}
+
 export async function renderDoc(main, id, query = {}) {
   const cat = await getCatalog();
   const doc = cat.docs.find((d) => d.id === id) || cat.docs.find((d) => d.code === id && !d.upcoming);
@@ -86,6 +99,7 @@ export async function renderDoc(main, id, query = {}) {
     main.innerHTML = `<h1>Document introuvable</h1><p>Le document « ${esc(id)} » n'est pas (ou plus) dans le catalogue.</p><a class="btn" href="#/docs">Retour aux règlements</a>`;
     return;
   }
+  if (doc.external) { renderExternal(main, doc, query); return; }
   main.innerHTML = `<div class="loading"><div class="spinner"></div></div>`;
   const g = state.game;
   g.docsSeen ||= {};

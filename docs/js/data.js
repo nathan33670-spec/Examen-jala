@@ -17,7 +17,9 @@ export function loadJSON(path) {
 export const getQuestions = () => loadJSON('data/questions.json');
 export const getCases = () => loadJSON('data/cases.json');
 export const getExams = () => loadJSON('data/exams.json');
-export const getCatalog = () => loadJSON('data/catalog.json');
+/** Règlements synchronisés par le bot + sources externes (documentation BadNet…). */
+export const getCatalog = () => Promise.all([loadJSON('data/catalog.json'), loadJSON('data/external.json').catch(() => ({ docs: [] }))])
+  .then(([cat, ext]) => (cat.docs.some((d) => d.external) ? cat : Object.assign(cat, { docs: [...cat.docs, ...ext.docs] })));
 export const getUpdates = () => loadJSON('data/updates.json').catch(() => []);
 export const getFiches = () => loadJSON('data/fiches.json');
 export const getGlossary = () => loadJSON('data/glossaire.json');

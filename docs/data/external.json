@@ -1,0 +1,1603 @@
+{
+ "_comment": "Sources hors Guide du Badminton (non synchronisées par le bot) : citées par les questions, consultables en ligne.",
+ "docs": [
+  {
+   "id": "BADNET",
+   "code": "BADNET",
+   "title": "Documentation du logiciel BadNet (éditeur i-click)",
+   "folder": "Logiciels de compétition",
+   "source": "https://blog.i-click.fr/documentation/badnet",
+   "external": true,
+   "pages": {
+    "ajouter-correctement-un-paiement-sur-ma-competition": {
+     "title": "Ajouter correctement un paiement sur ma compétition",
+     "url": "https://blog.i-click.fr/assistance/ajouter-correctement-un-paiement-sur-ma-competition"
+    },
+    "bien-comprendre-la-regle-des-x16": {
+     "title": "Bien comprendre la règle des x16",
+     "url": "https://blog.i-click.fr/assistance/bien-comprendre-la-regle-des-x16"
+    },
+    "comment-minscrire-sur-une-competition-individuelle": {
+     "title": "Comment m'inscrire sur une compétition individuelle ?",
+     "url": "https://blog.i-click.fr/assistance/comment-minscrire-sur-une-competition-individuelle"
+    },
+    "comment-preparer-ses-tableaux-en-10-minutes-avec-badnet": {
+     "title": "Comment préparer ses tableaux en 10 minutes avec BadNet",
+     "url": "https://blog.i-click.fr/assistance/comment-preparer-ses-tableaux-en-10-minutes-avec-badnet"
+    },
+    "document_formation-geo-badnet": {
+     "title": "Formation GEO - BadNet",
+     "url": "https://blog.i-click.fr/assistance/document/formation-geo-badnet"
+    },
+    "document_gestion-des-circuits": {
+     "title": "Gestion des circuits",
+     "url": "https://blog.i-click.fr/assistance/document/gestion-des-circuits"
+    },
+    "document_gestion-des-interclubs": {
+     "title": "Gestion des interclubs",
+     "url": "https://blog.i-click.fr/assistance/document/gestion-des-interclubs"
+    },
+    "espace-interclubs-dedie-capitaine": {
+     "title": "Espace interclubs dédié capitaine",
+     "url": "https://blog.i-click.fr/assistance/espace-interclubs-dedie-capitaine"
+    },
+    "exporter-les-resultats-dinterclub-sur-poona": {
+     "title": "Exporter les résultats d'interclub sur Poona",
+     "url": "https://blog.i-click.fr/assistance/exporter-les-resultats-dinterclub-sur-poona"
+    },
+    "exporter-sa-competition-sur-poona": {
+     "title": "Exporter sa compétition sur Poona",
+     "url": "https://blog.i-click.fr/assistance/exporter-sa-competition-sur-poona"
+    },
+    "faq_combien-coute-badnet": {
+     "title": "Combien coûte BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/combien-coute-badnet"
+    },
+    "faq_combien-de-chiffres-apres-le-virgule-le-controle-de-hierarchie-des-equipes-est-il": {
+     "title": "À combien de chiffres après le virgule le contrôle de hiérarchie des équipes est-il effectué pour les moyennes d'équipes ?",
+     "url": "https://blog.i-click.fr/assistance/faq/combien-de-chiffres-apres-le-virgule-le-controle-de-hierarchie-des-equipes-est-il"
+    },
+    "faq_combien-de-temps-faut-il-attendre-avant-quun-virement-soit-disponible-sur-mon": {
+     "title": "Combien de temps faut-il attendre avant qu'un virement soit disponible sur mon portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/combien-de-temps-faut-il-attendre-avant-quun-virement-soit-disponible-sur-mon"
+    },
+    "faq_combien-de-temps-faut-il-pour-que-ma-licence-soit-mise-jour-sur-ebad-ou-badnet": {
+     "title": "Combien de temps faut-il pour que ma licence soit mise à jour sur ebad ou BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/combien-de-temps-faut-il-pour-que-ma-licence-soit-mise-jour-sur-ebad-ou-badnet"
+    },
+    "faq_combien-scorbad-et-badnet-consomment-de-donnees-internet-pour-une-competition": {
+     "title": "Combien ScorBad et BadNet consomment de données internet pour une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/combien-scorbad-et-badnet-consomment-de-donnees-internet-pour-une-competition"
+    },
+    "faq_comment-acceder-au-palmares-dune-competition": {
+     "title": "Comment accéder au palmarès d'une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-acceder-au-palmares-dune-competition"
+    },
+    "faq_comment-acceder-aux-competitions-passees-depuis-mon-compte": {
+     "title": "Comment accéder aux compétitions passées depuis mon compte ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-acceder-aux-competitions-passees-depuis-mon-compte"
+    },
+    "faq_comment-acceder-mon-portefeuille-badnet": {
+     "title": "Comment accéder à mon portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-acceder-mon-portefeuille-badnet"
+    },
+    "faq_comment-acheter-des-ticknets": {
+     "title": "Comment acheter des ticknets ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-acheter-des-ticknets"
+    },
+    "faq_comment-affecter-un-juge-arbitre-ou-un-arbitre-sur-ma-rencontre-depuis-le": {
+     "title": "Comment affecter un juge-arbitre ou un arbitre sur ma rencontre depuis le déroulement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-affecter-un-juge-arbitre-ou-un-arbitre-sur-ma-rencontre-depuis-le"
+    },
+    "faq_comment-affecter-un-juge-de-ligne-sur-un-match": {
+     "title": "Comment affecter un juge de ligne sur un match ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-affecter-un-juge-de-ligne-sur-un-match"
+    },
+    "faq_comment-ajouter-des-terrains-dans-une-salle-de-mon-echeancier": {
+     "title": "Comment ajouter des terrains dans une salle de mon échéancier ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-des-terrains-dans-une-salle-de-mon-echeancier"
+    },
+    "faq_comment-ajouter-manuellement-un-club-sur-ma-competition": {
+     "title": "Comment ajouter manuellement un club sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-manuellement-un-club-sur-ma-competition"
+    },
+    "faq_comment-ajouter-un-capitaine-manuellement-sur-une-equipe": {
+     "title": "Comment ajouter un capitaine manuellement sur une équipe ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-capitaine-manuellement-sur-une-equipe"
+    },
+    "faq_comment-ajouter-un-gymnase-sur-ma-competition": {
+     "title": "Comment ajouter un gymnase sur ma compétition?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-gymnase-sur-ma-competition"
+    },
+    "faq_comment-ajouter-un-joueur-dans-une-equipe-dinterclub-en-tant-que-capitaine": {
+     "title": "Comment ajouter un joueur dans une équipe d'interclub en tant que capitaine",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-joueur-dans-une-equipe-dinterclub-en-tant-que-capitaine"
+    },
+    "faq_comment-ajouter-un-joueur-non-licencie-dans-un-tournoi-par-equipes": {
+     "title": "Comment ajouter un joueur non licencié dans un tournoi par équipes ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-joueur-non-licencie-dans-un-tournoi-par-equipes"
+    },
+    "faq_comment-ajouter-un-match-pour-la-troisieme-place-dun-tableau-petite-finale": {
+     "title": "Comment ajouter un match pour la troisième place d'un tableau (petite finale) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-match-pour-la-troisieme-place-dun-tableau-petite-finale"
+    },
+    "faq_comment-ajouter-un-officiel-etranger-sur-ma-competition": {
+     "title": "Comment ajouter un officiel étranger sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ajouter-un-officiel-etranger-sur-ma-competition"
+    },
+    "faq_comment-alimenter-le-portefeuille-dun-joueur-mineur": {
+     "title": "Comment alimenter le portefeuille d'un joueur mineur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-alimenter-le-portefeuille-dun-joueur-mineur"
+    },
+    "faq_comment-annuler-un-remboursement-en-ligne": {
+     "title": "Comment annuler un remboursement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-annuler-un-remboursement-en-ligne"
+    },
+    "faq_comment-annuler-une-competition": {
+     "title": "Comment annuler une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-annuler-une-competition"
+    },
+    "faq_comment-annuler-une-inscription-une-competition": {
+     "title": "Comment annuler une inscription à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-annuler-une-inscription-une-competition"
+    },
+    "faq_comment-avoir-le-detail-des-reversements-des-paiements-en-ligne": {
+     "title": "Comment avoir le détail des reversements des paiements en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-avoir-le-detail-des-reversements-des-paiements-en-ligne"
+    },
+    "faq_comment-avoir-une-facture-des-paiements-du-club": {
+     "title": "Comment avoir une facture des paiements du club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-avoir-une-facture-des-paiements-du-club"
+    },
+    "faq_comment-badnet-gere-la-participation-federale-de-2-euros-par-joueur": {
+     "title": "Comment BadNet gère la participation fédérale de 2 euros par joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-badnet-gere-la-participation-federale-de-2-euros-par-joueur"
+    },
+    "faq_comment-cacher-et-rendre-invisible-une-competition": {
+     "title": "Comment cacher et rendre invisible une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-cacher-et-rendre-invisible-une-competition"
+    },
+    "faq_comment-cacher-les-tableaux-de-ma-competition": {
+     "title": "Comment cacher les tableaux de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-cacher-les-tableaux-de-ma-competition"
+    },
+    "faq_comment-cacher-mes-informations-dans-badnet-ou-ebad": {
+     "title": "Comment cacher mes informations dans BadNet ou ebad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-cacher-mes-informations-dans-badnet-ou-ebad"
+    },
+    "faq_comment-cacher-une-partie-de-lecheancier": {
+     "title": "Comment cacher une partie de l'échéancier ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-cacher-une-partie-de-lecheancier"
+    },
+    "faq_comment-cela-se-passe-t-il-si-le-paiement-en-ligne-est-obligatoire-sur-la": {
+     "title": "Comment cela se passe-t-il si le paiement en ligne est obligatoire sur la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-cela-se-passe-t-il-si-le-paiement-en-ligne-est-obligatoire-sur-la"
+    },
+    "faq_comment-changer-ladresse-mail-de-mon-compte": {
+     "title": "Comment changer l'adresse mail de mon compte ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-changer-ladresse-mail-de-mon-compte"
+    },
+    "faq_comment-changer-le-legal-name-de-mon-club-pour-la-validation-des-documents-legaux": {
+     "title": "Comment changer le legal name de mon club pour la validation des documents légaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-changer-le-legal-name-de-mon-club-pour-la-validation-des-documents-legaux"
+    },
+    "faq_comment-changer-le-rib-de-mon-club-pour-le-reversement-des-paiements-en-ligne": {
+     "title": "Comment changer le RIB de mon club pour le reversement des paiements en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-changer-le-rib-de-mon-club-pour-le-reversement-des-paiements-en-ligne"
+    },
+    "faq_comment-changer-le-systeme-de-comptage-de-points-dun-tableau": {
+     "title": "Comment changer le système de comptage de points d'un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-changer-le-systeme-de-comptage-de-points-dun-tableau"
+    },
+    "faq_comment-changer-les-informations-de-mon-club": {
+     "title": "Comment changer les informations de mon club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-changer-les-informations-de-mon-club"
+    },
+    "faq_comment-choisir-le-theme-des-ecrans-deportes": {
+     "title": "Comment choisir le thème des écrans déportés",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-choisir-le-theme-des-ecrans-deportes"
+    },
+    "faq_comment-configurer-ladresse-mail-de-ma-competition": {
+     "title": "Comment configurer l'adresse mail de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-configurer-ladresse-mail-de-ma-competition"
+    },
+    "faq_comment-connaitre-le-nom-des-joueurs-et-instances-ayant-paye-en-ligne": {
+     "title": "Comment connaitre le nom des joueurs et instances ayant payé en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-connaitre-le-nom-des-joueurs-et-instances-ayant-paye-en-ligne"
+    },
+    "faq_comment-consulter-le-rib-renseigne-sur-le-compte-de-linstance": {
+     "title": "Comment consulter le RIB renseigné sur le compte de l'instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-consulter-le-rib-renseigne-sur-le-compte-de-linstance"
+    },
+    "faq_comment-consulter-un-tournoi-dune-saison-passee": {
+     "title": "Comment consulter un tournoi d'une saison passée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-consulter-un-tournoi-dune-saison-passee"
+    },
+    "faq_comment-contacter-un-joueur-inscrit-sur-ma-competition": {
+     "title": "Comment contacter un joueur inscrit sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-contacter-un-joueur-inscrit-sur-ma-competition"
+    },
+    "faq_comment-creer-des-salles-pour-affecter-des-rencontres-dinterclub-dans-ces-salles": {
+     "title": "Comment créer des salles pour affecter des rencontres d'interclub dans ces salles ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-des-salles-pour-affecter-des-rencontres-dinterclub-dans-ces-salles"
+    },
+    "faq_comment-creer-les-play-dinterclub": {
+     "title": "Comment créer les play-off d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-les-play-dinterclub"
+    },
+    "faq_comment-creer-un-compte-joueur": {
+     "title": "Comment créer un compte joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-un-compte-joueur"
+    },
+    "faq_comment-creer-un-interclub-sur-le-badnet-de-test": {
+     "title": "Comment créer un interclub sur le BadNet de test ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-un-interclub-sur-le-badnet-de-test"
+    },
+    "faq_comment-creer-une-competition": {
+     "title": "Comment créer une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-une-competition"
+    },
+    "faq_comment-creer-une-salle-dans-un-compte-instance": {
+     "title": "Comment créer une salle dans un compte instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-creer-une-salle-dans-un-compte-instance"
+    },
+    "faq_comment-desactiver-la-regle-des-x16-sur-ma-competition": {
+     "title": "Comment désactiver la règle des x16 sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-desactiver-la-regle-des-x16-sur-ma-competition"
+    },
+    "faq_comment-desactiver-le-paiement-en-ligne-sur-ma-competition": {
+     "title": "Comment désactiver le paiement en ligne sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-desactiver-le-paiement-en-ligne-sur-ma-competition"
+    },
+    "faq_comment-desinscrire-ou-supprimer-un-joueur-de-la-competition": {
+     "title": "Comment désinscrire ou supprimer un joueur de la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-desinscrire-ou-supprimer-un-joueur-de-la-competition"
+    },
+    "faq_comment-devenir-capitaine-dune-equipe": {
+     "title": "Comment devenir capitaine d'une équipe ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-devenir-capitaine-dune-equipe"
+    },
+    "faq_comment-devenir-juge-arbitre-sur-une-competition": {
+     "title": "Comment devenir juge-arbitre sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-devenir-juge-arbitre-sur-une-competition"
+    },
+    "faq_comment-devenir-responsable-de-division-dinterclub": {
+     "title": "Comment devenir responsable de division d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-devenir-responsable-de-division-dinterclub"
+    },
+    "faq_comment-donner-des-droits-au-compte-club-un-entraineur": {
+     "title": "Comment donner des droits au compte club à un entraineur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-donner-des-droits-au-compte-club-un-entraineur"
+    },
+    "faq_comment-donner-un-droit-dacces-sur-une-competition-un-compte-badnet": {
+     "title": "Comment donner un droit d'accès sur une compétition à un compte BadNet",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-donner-un-droit-dacces-sur-une-competition-un-compte-badnet"
+    },
+    "faq_comment-dupliquer-une-competition": {
+     "title": "Comment dupliquer une compétition",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-dupliquer-une-competition"
+    },
+    "faq_comment-enlever-ou-rajouter-une-journee-dans-mon-echeancier": {
+     "title": "Comment enlever ou rajouter une journée dans mon échéancier ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-enlever-ou-rajouter-une-journee-dans-mon-echeancier"
+    },
+    "faq_comment-enregistrer-mes-rencontres-dinterclub-ou-mes-tournois-dans-mon-google-agenda": {
+     "title": "Comment enregistrer mes rencontres d'interclub ou mes tournois dans mon Google Agenda ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-enregistrer-mes-rencontres-dinterclub-ou-mes-tournois-dans-mon-google-agenda"
+    },
+    "faq_comment-est-gere-la-liste-dattente-sur-badnet": {
+     "title": "Comment est géré la liste d'attente sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-est-gere-la-liste-dattente-sur-badnet"
+    },
+    "faq_comment-est-geree-la-participation-federale-sur-badnet": {
+     "title": "Comment est gérée la participation Fédérale sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-est-geree-la-participation-federale-sur-badnet"
+    },
+    "faq_comment-etre-rembourse-dun-paiement-en-ligne-dun-tournoi-auquel-je-nai-pas-participe": {
+     "title": "Comment être remboursé d'un paiement en ligne d'un tournoi auquel je n'ai pas participé ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-etre-rembourse-dun-paiement-en-ligne-dun-tournoi-auquel-je-nai-pas-participe"
+    },
+    "faq_comment-etre-rembourse-dun-paiement-en-ligne-si-jai-change-de-carte-bancaire": {
+     "title": "Comment être remboursé d'un paiement en ligne si j'ai changé de carte bancaire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-etre-rembourse-dun-paiement-en-ligne-si-jai-change-de-carte-bancaire"
+    },
+    "faq_comment-etre-sur-que-le-remboursement-dun-paiement-en-ligne-bien-ete-realise": {
+     "title": "Comment être sûr que le remboursement d'un paiement en ligne a bien été réalisé ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-etre-sur-que-le-remboursement-dun-paiement-en-ligne-bien-ete-realise"
+    },
+    "faq_comment-etre-sur-quun-mail-bien-ete-recu-par-un-joueur-ou-un-club": {
+     "title": "Comment être sur qu'un mail a bien été reçu par un joueur ou un club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-etre-sur-quun-mail-bien-ete-recu-par-un-joueur-ou-un-club"
+    },
+    "faq_comment-exporter-correctement-mes-interclubs-jeunes-de-badnet-vers-poona": {
+     "title": "Comment exporter correctement mes interclubs jeunes de BadNet vers Poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-exporter-correctement-mes-interclubs-jeunes-de-badnet-vers-poona"
+    },
+    "faq_comment-exporter-les-resultats-de-ma-competition-individuelle-sur-poona": {
+     "title": "Comment exporter les résultats de ma compétition individuelle sur Poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-exporter-les-resultats-de-ma-competition-individuelle-sur-poona"
+    },
+    "faq_comment-exporter-mes-resultats-dinterclubs-sur-icbad-ou-poona": {
+     "title": "Comment exporter mes résultats d'interclubs sur Icbad ou Poona",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-exporter-mes-resultats-dinterclubs-sur-icbad-ou-poona"
+    },
+    "faq_comment-exporter-une-ronde-suisse-avec-des-tours-non-joues": {
+     "title": "Comment exporter une ronde suisse avec des tours non joués ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-exporter-une-ronde-suisse-avec-des-tours-non-joues"
+    },
+    "faq_comment-faire-des-affichages-deportes-pendant-ma-competition": {
+     "title": "Comment faire des affichages déportés pendant ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-des-affichages-deportes-pendant-ma-competition"
+    },
+    "faq_comment-faire-disparaitre-la-mention-inscription-en-attente-de-lorganisateur-alors": {
+     "title": "Comment faire disparaître la mention inscription en attente de l'organisateur alors que l'inscription à été réglée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-disparaitre-la-mention-inscription-en-attente-de-lorganisateur-alors"
+    },
+    "faq_comment-faire-en-sorte-que-le-geo-de-mon-club-puisse-creer-des-stages-formations-ou": {
+     "title": "Comment faire en sorte que le GEO de mon club puisse créer des stages, formations ou compétitions?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-en-sorte-que-le-geo-de-mon-club-puisse-creer-des-stages-formations-ou"
+    },
+    "faq_comment-faire-si-jai-oublie-de-rentrer-les-resultats-de-ma-rencontre-sur-badnet": {
+     "title": "Comment faire si j'ai oublié de rentrer les résultats de ma rencontre sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-jai-oublie-de-rentrer-les-resultats-de-ma-rencontre-sur-badnet"
+    },
+    "faq_comment-faire-si-je-nai-pas-internet-le-jour-de-la-competition": {
+     "title": "Comment faire si je n'ai pas internet le jour de la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-je-nai-pas-internet-le-jour-de-la-competition"
+    },
+    "faq_comment-faire-si-je-nai-pas-recu-le-lien-de-validation-de-mon-compte-par-mail": {
+     "title": "Comment faire si je n'ai pas reçu le lien de validation de mon compte par mail ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-je-nai-pas-recu-le-lien-de-validation-de-mon-compte-par-mail"
+    },
+    "faq_comment-faire-si-larbitre-dun-match-nest-pas-disponible-dans-le-menu-deroulant-des": {
+     "title": "Comment faire si l'arbitre d'un match n'est pas disponible dans le menu déroulant des arbitres ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-larbitre-dun-match-nest-pas-disponible-dans-le-menu-deroulant-des"
+    },
+    "faq_comment-faire-si-le-remboursement-dun-paiement-en-ligne-ete-realise-sur-un-compte": {
+     "title": "Comment faire si le remboursement d'un paiement en ligne a été réalisé sur un compte bancaire cloturé ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-le-remboursement-dun-paiement-en-ligne-ete-realise-sur-un-compte"
+    },
+    "faq_comment-faire-si-les-inscriptions-individuelles-ne-sont-pas-activees": {
+     "title": "Comment faire si les inscriptions individuelles ne sont pas activées ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-les-inscriptions-individuelles-ne-sont-pas-activees"
+    },
+    "faq_comment-faire-si-mon-compte-existe-deja-alors-que-je-ne-lai-jamais-cree": {
+     "title": "Comment faire si mon compte existe déjà alors que je ne l'ai jamais créé ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-mon-compte-existe-deja-alors-que-je-ne-lai-jamais-cree"
+    },
+    "faq_comment-faire-si-un-joueur-apparait-mute-alors-quil-nest-pas-mute": {
+     "title": "Comment faire si un joueur apparait muté alors qu'il n'est pas muté ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-un-joueur-apparait-mute-alors-quil-nest-pas-mute"
+    },
+    "faq_comment-faire-si-un-joueur-se-trompe-lors-de-la-saisie-du-score-sur-scorbad": {
+     "title": "Comment faire si un joueur se trompe lors de la saisie du score sur ScorBad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-un-joueur-se-trompe-lors-de-la-saisie-du-score-sur-scorbad"
+    },
+    "faq_comment-faire-si-un-organisateur-me-voit-non-licencie-alors-que-je-suis-licencie": {
+     "title": "Comment faire si un organisateur me voit non licencié alors que je suis licencié ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-un-organisateur-me-voit-non-licencie-alors-que-je-suis-licencie"
+    },
+    "faq_comment-faire-si-un-score-saisi-sur-scorbad-na-pas-ete-enregistre-dans-badnet": {
+     "title": "Comment faire si un score saisi sur ScorBad n'a pas été enregistré dans BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-si-un-score-saisi-sur-scorbad-na-pas-ete-enregistre-dans-badnet"
+    },
+    "faq_comment-faire-un-tableau-classement-integral": {
+     "title": "Comment faire un tableau à classement intégral ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-faire-un-tableau-classement-integral"
+    },
+    "faq_comment-fermer-les-inscriptions-de-ma-competition": {
+     "title": "Comment fermer les inscriptions de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-fermer-les-inscriptions-de-ma-competition"
+    },
+    "faq_comment-fermer-les-inscriptions-dun-tableau": {
+     "title": "Comment fermer les inscriptions d'un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-fermer-les-inscriptions-dun-tableau"
+    },
+    "faq_comment-fonctionne-badnetsource": {
+     "title": "Comment fonctionne BadNetSource ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-fonctionne-badnetsource"
+    },
+    "faq_comment-generer-des-qr-codes-pour-les-documents-de-ma-competition": {
+     "title": "Comment générer des QR codes pour les documents de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-generer-des-qr-codes-pour-les-documents-de-ma-competition"
+    },
+    "faq_comment-generer-un-reglement-particulier-dune-competition-sur-badnet": {
+     "title": "Comment générer un règlement particulier d'une compétition sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-generer-un-reglement-particulier-dune-competition-sur-badnet"
+    },
+    "faq_comment-gerer-le-pointage-des-joueurs-avec-un-lecteur-de-code-barre": {
+     "title": "Comment gérer le pointage des joueurs avec un lecteur de code barre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-gerer-le-pointage-des-joueurs-avec-un-lecteur-de-code-barre"
+    },
+    "faq_comment-gerer-un-match-en-or": {
+     "title": "Comment gérer un match en or ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-gerer-un-match-en-or"
+    },
+    "faq_comment-gerer-un-tournoi-de-nuit": {
+     "title": "Comment gérer un tournoi de nuit ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-gerer-un-tournoi-de-nuit"
+    },
+    "faq_comment-imprimer-les-documents-dune-rencontre": {
+     "title": "Comment imprimer les documents d'une rencontre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-imprimer-les-documents-dune-rencontre"
+    },
+    "faq_comment-imprimer-mes-feuilles-de-rencontres-composition-presence-pour-ma-rencontre": {
+     "title": "Comment imprimer mes feuilles de rencontres, composition, présence pour ma rencontre d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-imprimer-mes-feuilles-de-rencontres-composition-presence-pour-ma-rencontre"
+    },
+    "faq_comment-indiquer-les-categories-dage-jeunes-ou-veterans-sont-acceptes-sur-ma": {
+     "title": "Comment indiquer les catégories d'âge jeunes ou vétérans sont acceptés sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-indiquer-les-categories-dage-jeunes-ou-veterans-sont-acceptes-sur-ma"
+    },
+    "faq_comment-indiquer-quun-les-joueurs-peuvent-payer-en-ligne-sur-ma-competition": {
+     "title": "Comment indiquer qu'un les joueurs peuvent payer en ligne sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-indiquer-quun-les-joueurs-peuvent-payer-en-ligne-sur-ma-competition"
+    },
+    "faq_comment-inscrire-un-joueur-avec-mon-club-comite-ou-ligue": {
+     "title": "Comment inscrire un joueur avec mon club, comité ou ligue ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inscrire-un-joueur-avec-mon-club-comite-ou-ligue"
+    },
+    "faq_comment-inscrire-un-joueur-dans-une-equipe-dinterclub": {
+     "title": "Comment inscrire un joueur dans une équipe d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inscrire-un-joueur-dans-une-equipe-dinterclub"
+    },
+    "faq_comment-inscrire-une-equipe-dinterclub": {
+     "title": "Comment inscrire une équipe d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inscrire-une-equipe-dinterclub"
+    },
+    "faq_comment-inscrite-un-joueur-etranger-sur-ma-competition": {
+     "title": "Comment inscrite un joueur étranger sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inscrite-un-joueur-etranger-sur-ma-competition"
+    },
+    "faq_comment-interdire-ou-autoriser-une-combinaison-de-tableaux-dans-les-inscriptions-en": {
+     "title": "Comment interdire ou autoriser une combinaison de tableaux dans les inscriptions en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-interdire-ou-autoriser-une-combinaison-de-tableaux-dans-les-inscriptions-en"
+    },
+    "faq_comment-inverser-deux-paires-de-position-dans-un-tableau": {
+     "title": "Comment inverser deux paires de position dans un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inverser-deux-paires-de-position-dans-un-tableau"
+    },
+    "faq_comment-inverser-le-role-dun-ja-en-ja-adjoint": {
+     "title": "Comment inverser le rôle d'un ja en ja adjoint ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-inverser-le-role-dun-ja-en-ja-adjoint"
+    },
+    "faq_comment-le-formateur-geo-peut-suivre-la-progression-des-stagiaires-sur-les-exercices": {
+     "title": "Comment le formateur GEO peut suivre la progression des stagiaires sur les exercices ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-le-formateur-geo-peut-suivre-la-progression-des-stagiaires-sur-les-exercices"
+    },
+    "faq_comment-massurer-que-le-tirage-au-sort-na-pas-ete-modifie": {
+     "title": "Comment m'assurer que le tirage au sort n'a pas été modifié ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-massurer-que-le-tirage-au-sort-na-pas-ete-modifie"
+    },
+    "faq_comment-me-connecter-au-compte-de-mon-club-comite-ou-ligue": {
+     "title": "Comment me connecter au compte de mon club, comité ou ligue ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-me-connecter-au-compte-de-mon-club-comite-ou-ligue"
+    },
+    "faq_comment-mettre-en-place-un-echeancier-en-follow": {
+     "title": "Comment mettre en place un échéancier en follow by ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-en-place-un-echeancier-en-follow"
+    },
+    "faq_comment-mettre-jour-le-classement-des-joueurs": {
+     "title": "Comment mettre à jour le classement des joueurs ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-le-classement-des-joueurs"
+    },
+    "faq_comment-mettre-jour-le-club-dun-des-joueurs-inscrit": {
+     "title": "Comment mettre à jour le club d'un des joueurs inscrit ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-le-club-dun-des-joueurs-inscrit"
+    },
+    "faq_comment-mettre-jour-le-nom-dun-club": {
+     "title": "Comment mettre à jour le nom d'un club",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-le-nom-dun-club"
+    },
+    "faq_comment-mettre-jour-le-rib-de-mon-instance": {
+     "title": "Comment mettre à jour le RIB de mon instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-le-rib-de-mon-instance"
+    },
+    "faq_comment-mettre-jour-les-contraintes-des-tableaux-rang-classement-cpph": {
+     "title": "Comment mettre à jour les contraintes des tableaux (rang, classement, CPPH) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-les-contraintes-des-tableaux-rang-classement-cpph"
+    },
+    "faq_comment-mettre-jour-les-informations-de-mon-club": {
+     "title": "Comment mettre à jour les informations de mon club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-les-informations-de-mon-club"
+    },
+    "faq_comment-mettre-jour-les-informations-generales-de-ma-competition": {
+     "title": "Comment mettre à jour les informations générales de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-les-informations-generales-de-ma-competition"
+    },
+    "faq_comment-mettre-jour-les-joueurs-wo-ou-sur-liste-dattente-pour-quils-naient-rien": {
+     "title": "Comment mettre à jour les joueurs wo ou sur liste d'attente pour qu'ils n'aient rien à payer ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-les-joueurs-wo-ou-sur-liste-dattente-pour-quils-naient-rien"
+    },
+    "faq_comment-mettre-jour-mon-adresse-mail": {
+     "title": "Comment mettre à jour mon adresse mail ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-mon-adresse-mail"
+    },
+    "faq_comment-mettre-jour-mon-instance": {
+     "title": "Comment mettre à jour mon instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-mon-instance"
+    },
+    "faq_comment-mettre-jour-mon-mot-de-passe": {
+     "title": "Comment mettre à jour mon mot de passe ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-mon-mot-de-passe"
+    },
+    "faq_comment-mettre-jour-mon-nom-de-famille": {
+     "title": "Comment mettre à jour mon nom de famille ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-mon-nom-de-famille"
+    },
+    "faq_comment-mettre-jour-mon-numero-de-telephone": {
+     "title": "Comment mettre à jour mon numéro de téléphone ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-jour-mon-numero-de-telephone"
+    },
+    "faq_comment-mettre-ma-competition-sur-la-page-daccueil-de-badnet": {
+     "title": "Comment mettre ma compétition sur la page d'accueil de BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-ma-competition-sur-la-page-daccueil-de-badnet"
+    },
+    "faq_comment-mettre-une-equipe-forfait-sur-une-rencontre-ou-toute-la-competition": {
+     "title": "Comment mettre une équipe forfait sur une rencontre ou toute la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-mettre-une-equipe-forfait-sur-une-rencontre-ou-toute-la-competition"
+    },
+    "faq_comment-modifier-la-date-de-limite-dinscription-la-competition": {
+     "title": "Comment modifier la date de limite d'inscription à la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-la-date-de-limite-dinscription-la-competition"
+    },
+    "faq_comment-modifier-la-division-dun-groupe": {
+     "title": "Comment modifier la division d'un groupe ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-la-division-dun-groupe"
+    },
+    "faq_comment-modifier-le-ja-principal-et-le-juge-arbitre-adjoint-sur-ma-competition": {
+     "title": "Comment modifier le JA principal et le juge arbitre adjoint sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-le-ja-principal-et-le-juge-arbitre-adjoint-sur-ma-competition"
+    },
+    "faq_comment-modifier-le-nombre-de-joueurs-attendus-sur-ma-competition": {
+     "title": "Comment modifier le nombre de joueurs attendus sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-le-nombre-de-joueurs-attendus-sur-ma-competition"
+    },
+    "faq_comment-modifier-le-nombre-de-terrain-dun-jour-lautre-pour-une-meme-salle": {
+     "title": "Comment modifier le nombre de terrain d'un jour à l'autre pour une même salle ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-le-nombre-de-terrain-dun-jour-lautre-pour-une-meme-salle"
+    },
+    "faq_comment-modifier-le-prix-dinscription-en-fonction-des-tableaux": {
+     "title": "Comment modifier le prix d'inscription en fonction des tableaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-le-prix-dinscription-en-fonction-des-tableaux"
+    },
+    "faq_comment-modifier-le-site-web-de-ma-competition": {
+     "title": "Comment modifier le site web de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-le-site-web-de-ma-competition"
+    },
+    "faq_comment-modifier-les-categories-dage-dun-tableau": {
+     "title": "Comment modifier les catégories d'âge d'un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-les-categories-dage-dun-tableau"
+    },
+    "faq_comment-modifier-les-classements-autorises-sur-ma-competition": {
+     "title": "Comment modifier les classements autorisés sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-les-classements-autorises-sur-ma-competition"
+    },
+    "faq_comment-modifier-les-frais-dinscriptions-sur-ma-competition": {
+     "title": "Comment modifier les frais d'inscriptions sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-les-frais-dinscriptions-sur-ma-competition"
+    },
+    "faq_comment-modifier-mon-inscription-alors-que-les-inscriptions-sont-fermees": {
+     "title": "Comment modifier mon inscription alors que les inscriptions sont fermées ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-mon-inscription-alors-que-les-inscriptions-sont-fermees"
+    },
+    "faq_comment-modifier-son-inscription-une-competition": {
+     "title": "Comment modifier son inscription à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-modifier-son-inscription-une-competition"
+    },
+    "faq_comment-ne-pas-faire-payer-les-joueurs-de-mon-club-sur-ma-competition": {
+     "title": "Comment ne pas faire payer les joueurs de mon club sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ne-pas-faire-payer-les-joueurs-de-mon-club-sur-ma-competition"
+    },
+    "faq_comment-obtenir-des-recus-de-paiements-en-ligne-dinscriptions-de-joueurs-de-mon": {
+     "title": "Comment obtenir des reçus de paiements en ligne d'inscriptions de joueurs de mon instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-des-recus-de-paiements-en-ligne-dinscriptions-de-joueurs-de-mon"
+    },
+    "faq_comment-obtenir-le-lien-de-partage-de-ma-competition": {
+     "title": "Comment obtenir le lien de partage de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-le-lien-de-partage-de-ma-competition"
+    },
+    "faq_comment-obtenir-les-statistiques-des-joueurs-de-mon-club": {
+     "title": "Comment obtenir les statistiques des joueurs de mon club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-les-statistiques-des-joueurs-de-mon-club"
+    },
+    "faq_comment-obtenir-un-justificatif-de-paiement-dune-inscription-une-competition": {
+     "title": "Comment obtenir un justificatif de paiement d'une inscription à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-un-justificatif-de-paiement-dune-inscription-une-competition"
+    },
+    "faq_comment-obtenir-un-recu-de-paiement-en-tant-que-joueur": {
+     "title": "Comment obtenir un reçu de paiement en tant que joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-un-recu-de-paiement-en-tant-que-joueur"
+    },
+    "faq_comment-obtenir-un-recu-de-reversement-des-paiements-en-ligne-sur-son-compte": {
+     "title": "Comment obtenir un reçu de reversement des paiements en ligne sur son compte bancaire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-obtenir-un-recu-de-reversement-des-paiements-en-ligne-sur-son-compte"
+    },
+    "faq_comment-ouvrir-les-inscriptions-ma-competition": {
+     "title": "Comment ouvrir les inscriptions à ma compétition",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-ouvrir-les-inscriptions-ma-competition"
+    },
+    "faq_comment-payer-en-ligne-une-ou-des-inscriptions-une-competition": {
+     "title": "Comment payer en ligne une ou des inscriptions à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-payer-en-ligne-une-ou-des-inscriptions-une-competition"
+    },
+    "faq_comment-preciser-si-il-y-une-buvette-ou-un-stand-de-cordage-sur-une-competition": {
+     "title": "Comment préciser si il y a une buvette ou un stand de cordage sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-preciser-si-il-y-une-buvette-ou-un-stand-de-cordage-sur-une-competition"
+    },
+    "faq_comment-preciser-un-tarif-specifique-pour-une-serie-ou-un-tableau": {
+     "title": "Comment préciser un tarif spécifique pour une série ou un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-preciser-un-tarif-specifique-pour-une-serie-ou-un-tableau"
+    },
+    "faq_comment-prolonger-les-inscriptions-de-ma-competition": {
+     "title": "Comment prolonger les inscriptions de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-prolonger-les-inscriptions-de-ma-competition"
+    },
+    "faq_comment-realiser-des-tests-sur-une-competition": {
+     "title": "Comment réaliser des tests sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-realiser-des-tests-sur-une-competition"
+    },
+    "faq_comment-realiser-un-virement-sur-mon-portefeuille-badnet": {
+     "title": "Comment réaliser un virement sur mon portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-realiser-un-virement-sur-mon-portefeuille-badnet"
+    },
+    "faq_comment-recalculer-les-frais-dinscription-des-joueurs-inscrits": {
+     "title": "Comment recalculer les frais d'inscription des joueurs inscrits ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-recalculer-les-frais-dinscription-des-joueurs-inscrits"
+    },
+    "faq_comment-recuperer-largent-disponible-sur-mon-portefeuille": {
+     "title": "Comment récupérer l'argent disponible sur mon portefeuille ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-recuperer-largent-disponible-sur-mon-portefeuille"
+    },
+    "faq_comment-recuperer-une-copie-de-ma-licence-ou-savoir-si-je-suis-licencie": {
+     "title": "Comment récupérer une copie de ma licence ou savoir si je suis licencié ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-recuperer-une-copie-de-ma-licence-ou-savoir-si-je-suis-licencie"
+    },
+    "faq_comment-relancer-les-joueurs-qui-nont-pas-paye-leur-inscription": {
+     "title": "Comment relancer les joueurs qui n'ont pas payé leur inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-relancer-les-joueurs-qui-nont-pas-paye-leur-inscription"
+    },
+    "faq_comment-rembourser-tous-les-joueurs-rembourser-sur-ma-competition": {
+     "title": "Comment rembourser tous les joueurs à rembourser sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-rembourser-tous-les-joueurs-rembourser-sur-ma-competition"
+    },
+    "faq_comment-rembourser-un-paiement-en-ligne": {
+     "title": "Comment rembourser un paiement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-rembourser-un-paiement-en-ligne"
+    },
+    "faq_comment-rendre-visible-un-groupe-poule-dune-division": {
+     "title": "Comment rendre visible un groupe (poule) d'une division ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-rendre-visible-un-groupe-poule-dune-division"
+    },
+    "faq_comment-renommer-une-competition-sur-badnet-ou-badnettest": {
+     "title": "Comment renommer une compétition sur BadNet ou BadNetTest ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renommer-une-competition-sur-badnet-ou-badnettest"
+    },
+    "faq_comment-renseigner-le-numero-poona-sur-sa-competition": {
+     "title": "Comment renseigner le numéro poona sur sa compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renseigner-le-numero-poona-sur-sa-competition"
+    },
+    "faq_comment-renseigner-le-paiement-dun-club-et-le-repartir-correctement-sur-les-joueurs": {
+     "title": "Comment renseigner le paiement d'un club et le répartir correctement sur les joueurs du club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renseigner-le-paiement-dun-club-et-le-repartir-correctement-sur-les-joueurs"
+    },
+    "faq_comment-renseigner-mes-documents-legaux": {
+     "title": "Comment renseigner mes documents légaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renseigner-mes-documents-legaux"
+    },
+    "faq_comment-renseigner-un-forfait-sur-deux-equipes-lors-dune-rencontre": {
+     "title": "Comment renseigner un forfait sur deux équipes lors d'une rencontre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renseigner-un-forfait-sur-deux-equipes-lors-dune-rencontre"
+    },
+    "faq_comment-renseigner-un-remboursement-sur-un-joueur": {
+     "title": "Comment renseigner un remboursement sur un joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renseigner-un-remboursement-sur-un-joueur"
+    },
+    "faq_comment-renumeroter-un-echeancier": {
+     "title": "Comment renuméroter un échéancier ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-renumeroter-un-echeancier"
+    },
+    "faq_comment-retrouver-le-numero-federal-de-mon-club": {
+     "title": "Comment retrouver le numéro fédéral de mon club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-retrouver-le-numero-federal-de-mon-club"
+    },
+    "faq_comment-retrouver-mes-competitions-sur-le-badnet-de-test": {
+     "title": "Comment retrouver mes compétitions sur le BadNet de test ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-retrouver-mes-competitions-sur-le-badnet-de-test"
+    },
+    "faq_comment-retrouver-une-competition-passee": {
+     "title": "Comment retrouver une compétition passée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-retrouver-une-competition-passee"
+    },
+    "faq_comment-reverser-les-paiements-en-ligne-de-ma-competition": {
+     "title": "Comment reverser les paiements en ligne de ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-reverser-les-paiements-en-ligne-de-ma-competition"
+    },
+    "faq_comment-saisir-les-resultats-dune-rencontre-dinterclub": {
+     "title": "Comment saisir les résultats d'une rencontre d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-saisir-les-resultats-dune-rencontre-dinterclub"
+    },
+    "faq_comment-sassurer-quaucun-joueur-sanctionne-participe-la-competition": {
+     "title": "Comment s'assurer qu'aucun joueur sanctionné participe à la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-sassurer-quaucun-joueur-sanctionne-participe-la-competition"
+    },
+    "faq_comment-sassurer-que-tous-les-joueurs-de-ma-competition-sont-licencies": {
+     "title": "Comment s'assurer que tous les joueurs de ma compétition sont licenciés ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-sassurer-que-tous-les-joueurs-de-ma-competition-sont-licencies"
+    },
+    "faq_comment-savoir-le-nombre-de-matchs-maximum-possible-par-jour-pour-un-joueur": {
+     "title": "Comment savoir le nombre de matchs maximum possible par jour pour un joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-savoir-le-nombre-de-matchs-maximum-possible-par-jour-pour-un-joueur"
+    },
+    "faq_comment-savoir-si-mon-inscription-bien-ete-enregistree": {
+     "title": "Comment savoir si mon inscription a bien été enregistrée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-savoir-si-mon-inscription-bien-ete-enregistree"
+    },
+    "faq_comment-savoir-si-un-joueur-est-suspendu-sur-ma-competition": {
+     "title": "Comment savoir si un joueur est suspendu sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-savoir-si-un-joueur-est-suspendu-sur-ma-competition"
+    },
+    "faq_comment-savoir-si-un-paiement-en-ligne-vient-dun-joueur-ou-dun-club": {
+     "title": "Comment savoir si un paiement en ligne vient d'un joueur ou d'un club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-savoir-si-un-paiement-en-ligne-vient-dun-joueur-ou-dun-club"
+    },
+    "faq_comment-se-desinscrire-dune-competition": {
+     "title": "Comment se désinscrire d'une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-se-desinscrire-dune-competition"
+    },
+    "faq_comment-supprimer-mes-cartes-enregistrees": {
+     "title": "Comment supprimer mes cartes enregistrées ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-supprimer-mes-cartes-enregistrees"
+    },
+    "faq_comment-supprimer-une-carte-bancaire-enregistree-sur-mon-compte": {
+     "title": "Comment supprimer une carte bancaire enregistrée sur mon compte ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-supprimer-une-carte-bancaire-enregistree-sur-mon-compte"
+    },
+    "faq_comment-supprimer-une-competition": {
+     "title": "Comment supprimer une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-supprimer-une-competition"
+    },
+    "faq_comment-transferer-un-tournoi-de-badnet-vers-le-badnet-de-test": {
+     "title": "Comment transférer un tournoi de BadNet vers le BadNet de test ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-transferer-un-tournoi-de-badnet-vers-le-badnet-de-test"
+    },
+    "faq_comment-trouver-levolution-de-mon-classement-depuis-ma-premiere-licence": {
+     "title": "Comment trouver l'évolution de mon classement depuis ma première licence ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-trouver-levolution-de-mon-classement-depuis-ma-premiere-licence"
+    },
+    "faq_comment-trouver-mon-numero-federal": {
+     "title": "Comment trouver mon numéro Fédéral ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-trouver-mon-numero-federal"
+    },
+    "faq_comment-trouver-une-competition-passee": {
+     "title": "Comment trouver une compétition passée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-trouver-une-competition-passee"
+    },
+    "faq_comment-trouver-une-preuve-de-reversement-sur-le-compte-bancaire-suite-une": {
+     "title": "Comment trouver une preuve de reversement sur le compte bancaire suite à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-trouver-une-preuve-de-reversement-sur-le-compte-bancaire-suite-une"
+    },
+    "faq_comment-utiliser-badnet-pour-rediger-un-rapport-de-juge-arbitre": {
+     "title": "Comment utiliser BadNet pour rédiger un rapport de juge-arbitre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-utiliser-badnet-pour-rediger-un-rapport-de-juge-arbitre"
+    },
+    "faq_comment-utiliser-les-ticknets-de-mon-compte": {
+     "title": "Comment utiliser les ticknets de mon compte ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-utiliser-les-ticknets-de-mon-compte"
+    },
+    "faq_comment-utiliser-plusieurs-ordinateurs-pour-gerer-ma-competition": {
+     "title": "Comment utiliser plusieurs ordinateurs pour gérer ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-utiliser-plusieurs-ordinateurs-pour-gerer-ma-competition"
+    },
+    "faq_comment-verifier-lhistorique-des-inscriptions-en-ligne-dun-joueur": {
+     "title": "Comment vérifier l'historique des inscriptions en ligne d'un joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-verifier-lhistorique-des-inscriptions-en-ligne-dun-joueur"
+    },
+    "faq_comment-verifier-que-ma-competition-respecte-le-rgc": {
+     "title": "Comment vérifier que ma compétition respecte le RGC ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-verifier-que-ma-competition-respecte-le-rgc"
+    },
+    "faq_comment-verrouiller-lecheancier-une-fois-quil-est-pret": {
+     "title": "Comment vérrouiller l'échéancier une fois qu'il est prêt ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-verrouiller-lecheancier-une-fois-quil-est-pret"
+    },
+    "faq_comment-visualiser-les-equipes-et-joueurs-dinterclubs": {
+     "title": "Comment visualiser les équipes et joueurs d'interclubs ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-visualiser-les-equipes-et-joueurs-dinterclubs"
+    },
+    "faq_comment-visualiser-les-resultats-dinterclubs": {
+     "title": "Comment visualiser les résultats d'interclubs ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-visualiser-les-resultats-dinterclubs"
+    },
+    "faq_comment-voir-les-tournois-et-les-resultats-obtenus-par-des-joueurs-du-club": {
+     "title": "Comment voir les tournois et les résultats obtenus par des joueurs du club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/comment-voir-les-tournois-et-les-resultats-obtenus-par-des-joueurs-du-club"
+    },
+    "faq_en-tant-que-formateur-comment-je-peux-donner-acces-ces-exercices-aux-stagiaires-geo": {
+     "title": "En tant que formateur, comment je peux donner accès à ces exercices aux stagiaires GEO ?",
+     "url": "https://blog.i-click.fr/assistance/faq/en-tant-que-formateur-comment-je-peux-donner-acces-ces-exercices-aux-stagiaires-geo"
+    },
+    "faq_en-tant-que-formateur-comment-je-peux-faire-une-demonstration-de-la-solution": {
+     "title": "En tant que formateur, comment je peux faire une démonstration de la « solution » à l’exercice ?",
+     "url": "https://blog.i-click.fr/assistance/faq/en-tant-que-formateur-comment-je-peux-faire-une-demonstration-de-la-solution"
+    },
+    "faq_en-tant-que-formateur-geo-comment-aurais-je-acces-aux-scenarios-de-formation": {
+     "title": "En tant que formateur GEO, comment aurais-je accès aux scénarios de formation ?",
+     "url": "https://blog.i-click.fr/assistance/faq/en-tant-que-formateur-geo-comment-aurais-je-acces-aux-scenarios-de-formation"
+    },
+    "faq_est-ce-bloquant-de-sinscrire-deux-tournois-le-meme-week-end-sur-badnet": {
+     "title": "Est-ce bloquant de s'inscrire à deux tournois le même week-end sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-bloquant-de-sinscrire-deux-tournois-le-meme-week-end-sur-badnet"
+    },
+    "faq_est-ce-que-le-code-fourni-pour-les-capitaines-ja-etc-est-unique-interface-capitaine": {
+     "title": "Est-ce que le code fourni pour les capitaines, JA., etc. est unique (interface capitaine et interclub) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-que-le-code-fourni-pour-les-capitaines-ja-etc-est-unique-interface-capitaine"
+    },
+    "faq_est-ce-que-les-actions-en-temps-que-capitaine-peuvent-se-faire-sur-badnet-et-sur": {
+     "title": "Est-ce que les actions en temps que Capitaine peuvent se faire sur BadNet et sur Ebad (interface déroulement) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-que-les-actions-en-temps-que-capitaine-peuvent-se-faire-sur-badnet-et-sur"
+    },
+    "faq_est-ce-que-les-stagiaires-pourront-se-reentrainer-chez-eux-sur-ces-exercices": {
+     "title": "Est ce que les stagiaires pourront se réentrainer chez eux sur ces exercices ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-que-les-stagiaires-pourront-se-reentrainer-chez-eux-sur-ces-exercices"
+    },
+    "faq_est-ce-quil-faut-fournir-les-documents-legaux-kyc-pour-utiliser-le-portefeuille": {
+     "title": "Est-ce qu'il faut fournir les documents légaux (KYC) pour utiliser le portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-quil-faut-fournir-les-documents-legaux-kyc-pour-utiliser-le-portefeuille"
+    },
+    "faq_est-ce-quun-joueur-non-licencie-dans-un-tableau-est-bloquant-pour-lelaboration-des": {
+     "title": "Est-ce qu'un joueur non licencié dans un tableau est bloquant pour l'élaboration des tableaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-ce-quun-joueur-non-licencie-dans-un-tableau-est-bloquant-pour-lelaboration-des"
+    },
+    "faq_est-il-possible-dautoriser-les-capitaines-inscrire-des-joueurs-dans-leurs-equipes": {
+     "title": "Est-il possible d'autoriser les capitaines à inscrire des joueurs dans leurs équipes mais d'interdire la saisie des scores des rencontres ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dautoriser-les-capitaines-inscrire-des-joueurs-dans-leurs-equipes"
+    },
+    "faq_est-il-possible-de-cacher-un-tableau-pour-les-inscriptions": {
+     "title": "Est-il possible de cacher un tableau pour les inscriptions ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-cacher-un-tableau-pour-les-inscriptions"
+    },
+    "faq_est-il-possible-de-changer-ladresse-mail-dun-tournoi-un-autre": {
+     "title": "Est-il possible de changer l'adresse mail d'un tournoi à un autre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-changer-ladresse-mail-dun-tournoi-un-autre"
+    },
+    "faq_est-il-possible-de-contacter-les-joueurs-dun-tournoi-passe": {
+     "title": "Est-il possible de contacter les joueurs d'un tournoi passé ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-contacter-les-joueurs-dun-tournoi-passe"
+    },
+    "faq_est-il-possible-de-contacter-les-joueurs-dun-tournoi": {
+     "title": "Est-il possible de contacter les joueurs d'un tournoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-contacter-les-joueurs-dun-tournoi"
+    },
+    "faq_est-il-possible-de-creer-plus-de-26-poules": {
+     "title": "Est-il possible de créer plus de 26 poules ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-creer-plus-de-26-poules"
+    },
+    "faq_est-il-possible-de-creer-une-competition-sans-numero-dautorisation-poona": {
+     "title": "Est-il possible de créer une compétition sans numéro d'autorisation poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-creer-une-competition-sans-numero-dautorisation-poona"
+    },
+    "faq_est-il-possible-de-donner-lacces-une-competition-en-consultation-uniquement": {
+     "title": "Est-il possible de donner l'accès à une compétition en consultation uniquement ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-donner-lacces-une-competition-en-consultation-uniquement"
+    },
+    "faq_est-il-possible-de-gerer-un-tableau-intergenre-garcon-est-fille-melange-avec-badnet": {
+     "title": "Est-il possible de gérer un tableau intergenre (garçon est fille mélangé) avec BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-gerer-un-tableau-intergenre-garcon-est-fille-melange-avec-badnet"
+    },
+    "faq_est-il-possible-de-gerer-un-tournoi-du-debut-la-fin-avec-badnet": {
+     "title": "Est-il possible de gérer un tournoi du début à la fin avec BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-gerer-un-tournoi-du-debut-la-fin-avec-badnet"
+    },
+    "faq_est-il-possible-de-gerer-un-tournoi-interne-avec-badnet": {
+     "title": "Est-il possible de gérer un tournoi interne avec BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-gerer-un-tournoi-interne-avec-badnet"
+    },
+    "faq_est-il-possible-de-gerer-un-tournoi-prive-interne-ou-autre-avec-mon-compte-badnet": {
+     "title": "Est-il possible de gérer un tournoi privé (interne ou autre) avec mon compte BadNet affilié à la FFBad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-gerer-un-tournoi-prive-interne-ou-autre-avec-mon-compte-badnet"
+    },
+    "faq_est-il-possible-de-gerer-une-ronde-suisse": {
+     "title": "Est-il possible de gérer une ronde suisse ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-gerer-une-ronde-suisse"
+    },
+    "faq_est-il-possible-de-modifier-la-position-dun-joueur-dans-les-tableaux-suite-au-tirage": {
+     "title": "Est-il possible de modifier la position d'un joueur dans les tableaux suite au tirage au sort ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-modifier-la-position-dun-joueur-dans-les-tableaux-suite-au-tirage"
+    },
+    "faq_est-il-possible-de-payer-en-ligne-son-inscription-apres-la-competition": {
+     "title": "Est-il possible de payer en ligne son inscription après la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-payer-en-ligne-son-inscription-apres-la-competition"
+    },
+    "faq_est-il-possible-de-payer-linscription-de-deux-joueurs-avec-mon-compte-licencie": {
+     "title": "Est-il possible de payer l'inscription de deux joueurs avec mon compte licencié ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-payer-linscription-de-deux-joueurs-avec-mon-compte-licencie"
+    },
+    "faq_est-il-possible-de-payer-une-inscription-en-ligne-apres-la-competition": {
+     "title": "Est-il possible de payer une inscription en ligne après la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-payer-une-inscription-en-ligne-apres-la-competition"
+    },
+    "faq_est-il-possible-de-renseigner-un-tarif-pour-les-joueurs-du-club-organisateur-dune": {
+     "title": "Est-il possible de renseigner un tarif pour les joueurs du club organisateur d'une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-renseigner-un-tarif-pour-les-joueurs-du-club-organisateur-dune"
+    },
+    "faq_est-il-possible-de-repondre-un-avis": {
+     "title": "Est-il possible de répondre à un avis ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-repondre-un-avis"
+    },
+    "faq_est-il-possible-de-saisir-le-score-dun-match-sur-ebad": {
+     "title": "Est-il possible de saisir le score d'un match sur ebad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-saisir-le-score-dun-match-sur-ebad"
+    },
+    "faq_est-il-possible-de-supprimer-les-avis-sur-la-fiche-publique-dune-competition-0": {
+     "title": "Est-il possible de supprimer les avis sur la fiche publique d'une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-supprimer-les-avis-sur-la-fiche-publique-dune-competition-0"
+    },
+    "faq_est-il-possible-de-supprimer-une-equipe-dinterclub": {
+     "title": "Est-il possible de supprimer une équipe d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-de-supprimer-une-equipe-dinterclub"
+    },
+    "faq_est-il-possible-dimporter-un-fichier-excel-csv-contenant-une-liste-de-joueurs": {
+     "title": "Est-il possible d'importer un fichier excel / csv contenant une liste de joueurs à inscrire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dimporter-un-fichier-excel-csv-contenant-une-liste-de-joueurs"
+    },
+    "faq_est-il-possible-dimprimer-la-liste-de-tous-les-joueurs-qui-jouent-dans-une-salle": {
+     "title": "Est-il possible d'imprimer la liste de tous les joueurs qui jouent dans une salle ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dimprimer-la-liste-de-tous-les-joueurs-qui-jouent-dans-une-salle"
+    },
+    "faq_est-il-possible-dinscrire-des-joueurs-de-son-club-sur-une-competition": {
+     "title": "Est-il possible d'inscrire des joueurs de son club sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dinscrire-des-joueurs-de-son-club-sur-une-competition"
+    },
+    "faq_est-il-possible-dinterdire-un-joueur-de-sinscrire-la-competition": {
+     "title": "Est-il possible d'interdire un joueur de s'inscrire à la compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dinterdire-un-joueur-de-sinscrire-la-competition"
+    },
+    "faq_est-il-possible-dutiliser-badnet-pour-la-gestion-dune-competition-non-homologuee": {
+     "title": "Est-il possible d'utiliser BadNet pour la gestion d'une compétition non homologuée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dutiliser-badnet-pour-la-gestion-dune-competition-non-homologuee"
+    },
+    "faq_est-il-possible-dutiliser-plusieurs-ordinateurs-pour-gerer-ma-competition-en-meme": {
+     "title": "Est-il possible d'utiliser plusieurs ordinateurs pour gérer ma compétition en même temps ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-dutiliser-plusieurs-ordinateurs-pour-gerer-ma-competition-en-meme"
+    },
+    "faq_est-il-possible-pour-un-joueur-de-mon-club-dutiliser-largent-du-portefeuille-du-club": {
+     "title": "Est-il possible pour un joueur de mon club d'utiliser l'argent du portefeuille du club lors de son inscription personnel ?",
+     "url": "https://blog.i-click.fr/assistance/faq/est-il-possible-pour-un-joueur-de-mon-club-dutiliser-largent-du-portefeuille-du-club"
+    },
+    "faq_faut-il-utiliser-badnetsource-pour-gerer-ma-competition": {
+     "title": "Faut-il utiliser BadNetSource pour gérer ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/faut-il-utiliser-badnetsource-pour-gerer-ma-competition"
+    },
+    "faq_jai-exporte-mon-tournoi-sur-poona-mais-rien-nest-visible-sur-poona-ou-myffbad": {
+     "title": "J'ai exporté mon tournoi sur poona mais rien n'est visible sur poona ou myffbad, pourquoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/jai-exporte-mon-tournoi-sur-poona-mais-rien-nest-visible-sur-poona-ou-myffbad"
+    },
+    "faq_jai-fait-un-virement-sur-le-rib-obsolete-de-lancien-prestataire-bancaire-que-faire": {
+     "title": "J'ai fait un virement sur le RIB obsolète de l'ancien prestataire bancaire, que faire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/jai-fait-un-virement-sur-le-rib-obsolete-de-lancien-prestataire-bancaire-que-faire"
+    },
+    "faq_jai-paye-mon-inscription-mais-elle-na-pas-ete-prise-en-compte": {
+     "title": "J'ai payé mon inscription mais elle n'a pas été prise en compte",
+     "url": "https://blog.i-click.fr/assistance/faq/jai-paye-mon-inscription-mais-elle-na-pas-ete-prise-en-compte"
+    },
+    "faq_je-ne-comprends-pas-comment-sont-calcules-les-points-suite-mes-victoires-comment": {
+     "title": "Je ne comprends pas comment sont calculés les points suite à mes victoires, comment faire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/je-ne-comprends-pas-comment-sont-calcules-les-points-suite-mes-victoires-comment"
+    },
+    "faq_je-suis-capitaine-de-lequipe-mais-je-ne-la-vois-pas-sur-mon-compte-pourquoi": {
+     "title": "Je suis capitaine de l'équipe mais je ne la vois pas sur mon compte, pourquoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/je-suis-capitaine-de-lequipe-mais-je-ne-la-vois-pas-sur-mon-compte-pourquoi"
+    },
+    "faq_je-suis-un-joueur-comment-est-ce-que-je-minscris-une-competition": {
+     "title": "Je suis un joueur, comment est-ce que je m'inscris à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/je-suis-un-joueur-comment-est-ce-que-je-minscris-une-competition"
+    },
+    "faq_jetais-capitaine-lannee-derniere-le-suis-je-toujours-cette-annee": {
+     "title": "J'étais capitaine l'année dernière, le suis-je toujours cette année ?",
+     "url": "https://blog.i-click.fr/assistance/faq/jetais-capitaine-lannee-derniere-le-suis-je-toujours-cette-annee"
+    },
+    "faq_la-regle-des-x16-sur-un-tableau-est-elle-tout-le-temps-juste-et-bloquante": {
+     "title": "La règle des x16 sur un tableau est-elle tout le temps juste et bloquante ?",
+     "url": "https://blog.i-click.fr/assistance/faq/la-regle-des-x16-sur-un-tableau-est-elle-tout-le-temps-juste-et-bloquante"
+    },
+    "faq_la-ronde-italienne-est-elle-un-format-de-competition-gere-par-badnet": {
+     "title": "La ronde italienne est-elle un format de compétition géré par BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/la-ronde-italienne-est-elle-un-format-de-competition-gere-par-badnet"
+    },
+    "faq_largent-du-portefeuille-est-il-perdu-dune-saison-une-autre": {
+     "title": "L'argent du portefeuille est-il perdu d'une saison à une autre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/largent-du-portefeuille-est-il-perdu-dune-saison-une-autre"
+    },
+    "faq_linterface-interclubs-et-capitaines-est-elle-disponible-sur-badnet-test": {
+     "title": "L'interface interclubs et capitaines est-elle disponible sur BadNet test ?",
+     "url": "https://blog.i-click.fr/assistance/faq/linterface-interclubs-et-capitaines-est-elle-disponible-sur-badnet-test"
+    },
+    "faq_lordre-commun-inscrit-sur-badnet-est-il-definitif": {
+     "title": "L'ordre commun inscrit sur BadNet est-il définitif ?",
+     "url": "https://blog.i-click.fr/assistance/faq/lordre-commun-inscrit-sur-badnet-est-il-definitif"
+    },
+    "faq_lorsquun-club-recoit-des-privileges-que-une-competition-est-ce-que-les-geo-du-club": {
+     "title": "Lorsqu'un club reçoit des privilèges que une compétition, est-ce que les GEO du club les reçoivent aussi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/lorsquun-club-recoit-des-privileges-que-une-competition-est-ce-que-les-geo-du-club"
+    },
+    "faq_ou-est-recupere-le-ndeg-de-telephone-qui-apparait-sur-la-page-daccueil-lien-public": {
+     "title": "Où est récupéré le N° de téléphone qui apparait sur la page d'accueil (lien public) du tournoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/ou-est-recupere-le-ndeg-de-telephone-qui-apparait-sur-la-page-daccueil-lien-public"
+    },
+    "faq_partir-de-quel-moment-lequipe-adverse-est-visible-par-le-capitaine-interface": {
+     "title": "A partir de quel moment l'équipe adverse est visible par le capitaine (interface déroulement) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/partir-de-quel-moment-lequipe-adverse-est-visible-par-le-capitaine-interface"
+    },
+    "faq_peut-lancer-un-match-alors-que-le-score-na-pas-encore-ete-saisi-sur-la-tablette": {
+     "title": "Peut-on lancer un match alors que le score n'a pas encore été saisi sur la tablette ?",
+     "url": "https://blog.i-click.fr/assistance/faq/peut-lancer-un-match-alors-que-le-score-na-pas-encore-ete-saisi-sur-la-tablette"
+    },
+    "faq_peut-modifier-la-date-de-fermeture-des-inscriptions-une-fois-la-date-deja-indiquee": {
+     "title": "Peut-on modifier la date de fermeture des inscriptions, une fois la date déjà indiquée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/peut-modifier-la-date-de-fermeture-des-inscriptions-une-fois-la-date-deja-indiquee"
+    },
+    "faq_pourquoi-aucune-salle-nest-visible-sur-mon-tournoi-dans-ebad": {
+     "title": "Pourquoi aucune salle n'est visible sur mon tournoi dans ebad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-aucune-salle-nest-visible-sur-mon-tournoi-dans-ebad"
+    },
+    "faq_pourquoi-certains-joueurs-sont-affiches-non-licencies-alors-quils-sont-licencies": {
+     "title": "Pourquoi certains joueurs sont affichés non licenciés alors qu'ils sont licenciés ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-certains-joueurs-sont-affiches-non-licencies-alors-quils-sont-licencies"
+    },
+    "faq_pourquoi-certains-matchs-de-tableaux-ne-sont-pas-visibles": {
+     "title": "Pourquoi certains matchs de tableaux ne sont pas visibles ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-certains-matchs-de-tableaux-ne-sont-pas-visibles"
+    },
+    "faq_pourquoi-certains-tournois-ont-le-logo-ffbad-et-pas-dautres": {
+     "title": "Pourquoi certains tournois ont le logo FFBaD et pas d'autres ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-certains-tournois-ont-le-logo-ffbad-et-pas-dautres"
+    },
+    "faq_pourquoi-certains-tournois-sont-notes-promu": {
+     "title": "Pourquoi certains tournois sont notés promu ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-certains-tournois-sont-notes-promu"
+    },
+    "faq_pourquoi-des-joueurs-narrivent-pas-sinscrire-dans-des-tableaux": {
+     "title": "Pourquoi des joueurs n'arrivent pas à s'inscrire dans des tableaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-des-joueurs-narrivent-pas-sinscrire-dans-des-tableaux"
+    },
+    "faq_pourquoi-dois-je-avoir-des-tickets-pour-exporter-ma-competition-sur-poona": {
+     "title": "Pourquoi dois-je avoir des tickets pour exporter ma compétition sur poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-dois-je-avoir-des-tickets-pour-exporter-ma-competition-sur-poona"
+    },
+    "faq_pourquoi-est-ce-que-certains-joueurs-sont-notes-anonymes": {
+     "title": "Pourquoi est-ce que certains joueurs sont notés anonymes ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-certains-joueurs-sont-notes-anonymes"
+    },
+    "faq_pourquoi-est-ce-que-je-dois-acheter-des-ticknets-pour-rembourser-des-paiements-en": {
+     "title": "Pourquoi est-ce que je dois acheter des ticknets pour rembourser des paiements en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-dois-acheter-des-ticknets-pour-rembourser-des-paiements-en"
+    },
+    "faq_pourquoi-est-ce-que-je-narrive-pas-creer-ma-competition-partir-de-son-numero": {
+     "title": "Pourquoi est-ce que je n'arrive pas à créer ma compétition à partir de son numéro d'autorisation ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-narrive-pas-creer-ma-competition-partir-de-son-numero"
+    },
+    "faq_pourquoi-est-ce-que-je-narrive-pas-payer-avec-ma-carte-bleue": {
+     "title": "Pourquoi est-ce que je n'arrive pas à payer avec ma carte bleue ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-narrive-pas-payer-avec-ma-carte-bleue"
+    },
+    "faq_pourquoi-est-ce-que-je-narrive-pas-trouver-un-juge-arbitre-pour-lui-donner-les": {
+     "title": "Pourquoi est-ce que je n'arrive pas à trouver un juge arbitre pour lui donner les droits d'accès sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-narrive-pas-trouver-un-juge-arbitre-pour-lui-donner-les"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-peux-pas-lancer-un-match-sur-un-terrain": {
+     "title": "Pourquoi est-ce que je ne peux pas lancer un match sur un terrain ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-peux-pas-lancer-un-match-sur-un-terrain"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-peux-pas-mettre-ma-competition-en-promotion-sur-la-page": {
+     "title": "Pourquoi est-ce que je ne peux pas mettre ma compétition en promotion sur la page d'accueil ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-peux-pas-mettre-ma-competition-en-promotion-sur-la-page"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-peux-pas-reverser-les-paiements-en-ligne": {
+     "title": "Pourquoi est ce que je ne peux pas reverser les paiements en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-peux-pas-reverser-les-paiements-en-ligne"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-recois-pas-les-convocations-par-mail": {
+     "title": "Pourquoi est-ce que je ne reçois pas les convocations par mail ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-recois-pas-les-convocations-par-mail"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-recois-pas-les-inscriptions-des-joueurs-par-mail": {
+     "title": "Pourquoi est-ce que je ne reçois pas les inscriptions des joueurs par mail ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-recois-pas-les-inscriptions-des-joueurs-par-mail"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-suis-toujours-pas-inscrit-la-competition-alors-que-jai": {
+     "title": "Pourquoi est-ce que je ne suis toujours pas inscrit à la compétition alors que j'ai envoyé mon inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-suis-toujours-pas-inscrit-la-competition-alors-que-jai"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-trouve-pas-le-geo-de-ma-competition-ou-de-ma-rencontre": {
+     "title": "Pourquoi est-ce que je ne trouve pas le GEO de ma compétition ou de ma rencontre d'interclub ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-trouve-pas-le-geo-de-ma-competition-ou-de-ma-rencontre"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-trouve-pas-un-licencie-pour-lui-donner-un-privilege": {
+     "title": "Pourquoi est-ce que je ne trouve pas un licencié pour lui donner un privilège ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-trouve-pas-un-licencie-pour-lui-donner-un-privilege"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-trouve-plus-un-tournoi-sur-ebad-alors-quil-est-sur-badnet": {
+     "title": "Pourquoi est-ce que je ne trouve plus un tournoi sur ebad alors qu'il est sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-trouve-plus-un-tournoi-sur-ebad-alors-quil-est-sur-badnet"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-vois-pas-la-composition-des-capitaines-dans-le-deroulement": {
+     "title": "Pourquoi est ce que je ne vois pas la composition des capitaines dans le déroulement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-vois-pas-la-composition-des-capitaines-dans-le-deroulement"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-vois-pas-les-joueurs-inscrits-ou-les-tableaux": {
+     "title": "Pourquoi est ce que je ne vois pas les joueurs inscrits ou les tableaux ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-vois-pas-les-joueurs-inscrits-ou-les-tableaux"
+    },
+    "faq_pourquoi-est-ce-que-je-ne-vois-plus-mes-licencies-en-debut-de-saison-lors-des": {
+     "title": "Pourquoi est-ce que je ne vois plus mes licenciés en début de saison lors des inscriptions ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-ne-vois-plus-mes-licencies-en-debut-de-saison-lors-des"
+    },
+    "faq_pourquoi-est-ce-que-je-suis-inscrit-un-tournoi-mais-je-ne-vois-pas-mon-inscription": {
+     "title": "Pourquoi est-ce que je suis inscrit à un tournoi mais je ne vois pas mon inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-je-suis-inscrit-un-tournoi-mais-je-ne-vois-pas-mon-inscription"
+    },
+    "faq_pourquoi-est-ce-que-la-licence-ne-fonctionne-pas-pour-se-connecter-ou-sinscrire-une": {
+     "title": "Pourquoi est ce que la licence ne fonctionne pas pour se connecter ou s'inscrire à une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-la-licence-ne-fonctionne-pas-pour-se-connecter-ou-sinscrire-une"
+    },
+    "faq_pourquoi-est-ce-que-lecheancier-est-incomplet-lorsque-je-limprime": {
+     "title": "Pourquoi est ce que l'échéancier est incomplet lorsque je l'imprime ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-lecheancier-est-incomplet-lorsque-je-limprime"
+    },
+    "faq_pourquoi-est-ce-que-mes-documents-legaux-kyc-sont-refuses": {
+     "title": "Pourquoi est-ce que mes documents légaux (KYC) sont refusés ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-que-mes-documents-legaux-kyc-sont-refuses"
+    },
+    "faq_pourquoi-est-ce-quun-arbitre-nest-pas-trouve-dans-lajout-dun-officiel-sur-une": {
+     "title": "Pourquoi est-ce qu'un arbitre n'est pas trouvé dans l'ajout d'un officiel sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-est-ce-quun-arbitre-nest-pas-trouve-dans-lajout-dun-officiel-sur-une"
+    },
+    "faq_pourquoi-il-ny-aucun-match-dune-rencontre-dinterclub-qui-est-pourtant-terminee": {
+     "title": "Pourquoi il n'y a aucun match d'une rencontre d'interclub qui est pourtant terminée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-il-ny-aucun-match-dune-rencontre-dinterclub-qui-est-pourtant-terminee"
+    },
+    "faq_pourquoi-je-nai-pas-de-joueur-lors-de-la-saisie-de-la-composition": {
+     "title": "Pourquoi je n'ai pas de joueur lors de la saisie de la composition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-nai-pas-de-joueur-lors-de-la-saisie-de-la-composition"
+    },
+    "faq_pourquoi-je-narrive-pas-acceder-une-competition-depuis-mon-compte-alors-que-je-suis": {
+     "title": "Pourquoi je n'arrive pas à accéder à une compétition depuis mon compte alors que je suis juge-arbitre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-narrive-pas-acceder-une-competition-depuis-mon-compte-alors-que-je-suis"
+    },
+    "faq_pourquoi-je-narrive-pas-me-connecter-sur-la-plateforme-de-test-avec-mes-identifiants": {
+     "title": "Pourquoi je n'arrive pas à me connecter sur la plateforme de test avec mes identifiants BadNet (ou inversement) ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-narrive-pas-me-connecter-sur-la-plateforme-de-test-avec-mes-identifiants"
+    },
+    "faq_pourquoi-je-narrive-pas-minscrire-une-competition-alors-que-je-suis-licencie": {
+     "title": "Pourquoi je n'arrive pas à m'inscrire à une compétition alors que je suis licencié ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-narrive-pas-minscrire-une-competition-alors-que-je-suis-licencie"
+    },
+    "faq_pourquoi-je-narrive-pas-payer-avec-largent-de-mon-portefeuille-badnet": {
+     "title": "Pourquoi je n'arrive pas à payer avec l'argent de mon portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-narrive-pas-payer-avec-largent-de-mon-portefeuille-badnet"
+    },
+    "faq_pourquoi-je-ne-peux-pas-minscrire-une-competition-reservee-aux-licencies": {
+     "title": "Pourquoi je ne peux pas m'inscrire à une compétition réservée aux licenciés ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-ne-peux-pas-minscrire-une-competition-reservee-aux-licencies"
+    },
+    "faq_pourquoi-je-ne-trouve-pas-un-geo-ja-ou-autre-utilisateur-lors-de-lajout-dun": {
+     "title": "Pourquoi je ne trouve pas un GEO, JA, ou autre utilisateur lors de l'ajout d'un privilège sur une compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-je-ne-trouve-pas-un-geo-ja-ou-autre-utilisateur-lors-de-lajout-dun"
+    },
+    "faq_pourquoi-la-composition-dequipe-des-capitaines-est-disponible-dans-le-deroulement-en": {
+     "title": "Pourquoi la composition d'équipe des capitaines est disponible dans le déroulement en ligne avant la rencontre ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-la-composition-dequipe-des-capitaines-est-disponible-dans-le-deroulement-en"
+    },
+    "faq_pourquoi-la-double-authentification": {
+     "title": "Pourquoi la double authentification ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-la-double-authentification"
+    },
+    "faq_pourquoi-la-pop-de-sortie-de-poule-ne-souvre-pas-automatiquement": {
+     "title": "Pourquoi la pop up de sortie de poule ne s'ouvre pas automatiquement ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-la-pop-de-sortie-de-poule-ne-souvre-pas-automatiquement"
+    },
+    "faq_pourquoi-le-montant-que-jai-vire-sur-mon-portefeuille-nest-pas-le-meme-que-celui-que": {
+     "title": "Pourquoi le montant que j'ai viré sur mon portefeuille n'est pas le même que celui que j'ai reçu ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-le-montant-que-jai-vire-sur-mon-portefeuille-nest-pas-le-meme-que-celui-que"
+    },
+    "faq_pourquoi-les-jeunes-paient-0eu-lors-de-leur-inscription": {
+     "title": "Pourquoi les jeunes paient 0€ lors de leur inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-les-jeunes-paient-0eu-lors-de-leur-inscription"
+    },
+    "faq_pourquoi-les-joueurs-ne-peuvent-pas-choisir-de-tableau-lors-de-leur-inscription": {
+     "title": "Pourquoi les joueurs ne peuvent pas choisir de tableau lors de leur inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-les-joueurs-ne-peuvent-pas-choisir-de-tableau-lors-de-leur-inscription"
+    },
+    "faq_pourquoi-les-joueurs-ne-sont-ils-pas-convoques-dans-le-gymnase-dans-lequel-ils": {
+     "title": "Pourquoi les joueurs ne sont-ils pas convoqués dans le gymnase dans lequel ils jouent ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-les-joueurs-ne-sont-ils-pas-convoques-dans-le-gymnase-dans-lequel-ils"
+    },
+    "faq_pourquoi-les-rencontres-dinterclubs-sont-visibles-sur-badnet-mais-pas-sur-icbad": {
+     "title": "Pourquoi les rencontres d'interclubs sont visibles sur BadNet mais pas sur IcBad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-les-rencontres-dinterclubs-sont-visibles-sur-badnet-mais-pas-sur-icbad"
+    },
+    "faq_pourquoi-les-tableaux-pdf-affichent-la-nationalite-des-joueurs-et-pas-leur-club": {
+     "title": "Pourquoi les tableaux PDF affichent la nationalité des joueurs et pas leur club ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-les-tableaux-pdf-affichent-la-nationalite-des-joueurs-et-pas-leur-club"
+    },
+    "faq_pourquoi-liban-de-mon-portefeuille-badnet-nest-pas-reconnu-par-la-banque": {
+     "title": "Pourquoi l'IBAN de mon portefeuille BadNet n'est pas reconnu par la banque ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-liban-de-mon-portefeuille-badnet-nest-pas-reconnu-par-la-banque"
+    },
+    "faq_pourquoi-mes-resultats-dune-competition-ne-sont-pas-sur-poona": {
+     "title": "Pourquoi mes résultats d'une compétition ne sont pas sur Poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-mes-resultats-dune-competition-ne-sont-pas-sur-poona"
+    },
+    "faq_pourquoi-mon-classement-sur-une-competition-nest-pas-le-meme-que-sur-ma-fiche-joueur": {
+     "title": "Pourquoi mon classement sur une compétition n'est pas le même que sur ma fiche joueur ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-mon-classement-sur-une-competition-nest-pas-le-meme-que-sur-ma-fiche-joueur"
+    },
+    "faq_pourquoi-mon-tournoi-est-visible-alors-quil-est-marque-comme-cacheinvisible": {
+     "title": "Pourquoi mon tournoi est visible alors qu'il est marqué comme caché/invisible ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-mon-tournoi-est-visible-alors-quil-est-marque-comme-cacheinvisible"
+    },
+    "faq_pourquoi-mon-tournoi-napparait-pas-la-bonne-position-sur-la-carte-des-tournois": {
+     "title": "Pourquoi mon tournoi n'apparait pas à la bonne position sur la carte des tournois ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-mon-tournoi-napparait-pas-la-bonne-position-sur-la-carte-des-tournois"
+    },
+    "faq_pourquoi-mon-tournoi-par-equipes-napparait-pas-sur-ebad": {
+     "title": "Pourquoi mon tournoi par équipes n'apparaît pas sur ebad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-mon-tournoi-par-equipes-napparait-pas-sur-ebad"
+    },
+    "faq_pourquoi-personne-ne-peut-sinscrire-sur-ma-competition": {
+     "title": "Pourquoi personne ne peut s'inscrire sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-personne-ne-peut-sinscrire-sur-ma-competition"
+    },
+    "faq_pourquoi-toutes-les-disciplines-de-ma-competition-sont-decochees": {
+     "title": "Pourquoi toutes les disciplines de ma compétition sont décochées ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-toutes-les-disciplines-de-ma-competition-sont-decochees"
+    },
+    "faq_pourquoi-un-joueur-narrive-pas-sinscrire-dans-un-tableau": {
+     "title": "Pourquoi un joueur n'arrive pas à s'inscrire dans un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-joueur-narrive-pas-sinscrire-dans-un-tableau"
+    },
+    "faq_pourquoi-un-joueur-nest-pas-cliquable-dans-les-inscriptions-en-attente": {
+     "title": "Pourquoi un joueur n'est pas cliquable dans les inscriptions en attente ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-joueur-nest-pas-cliquable-dans-les-inscriptions-en-attente"
+    },
+    "faq_pourquoi-un-joueur-reussi-sinscrire-sans-payer-alors-que-le-paiement-en-ligne-est": {
+     "title": "Pourquoi un joueur a réussi à s'inscrire sans payer alors que le paiement en ligne est obligatoire ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-joueur-reussi-sinscrire-sans-payer-alors-que-le-paiement-en-ligne-est"
+    },
+    "faq_pourquoi-un-match-dune-rencontre-est-jour-sur-badnet-mais-pas-sur-poona": {
+     "title": "Pourquoi un match d'une rencontre est à jour sur BadNet mais pas sur Poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-match-dune-rencontre-est-jour-sur-badnet-mais-pas-sur-poona"
+    },
+    "faq_pourquoi-un-tableau-de-ma-competition-ne-sexporte-pas-sur-poona": {
+     "title": "Pourquoi un tableau de ma compétition ne s'exporte pas sur Poona ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-tableau-de-ma-competition-ne-sexporte-pas-sur-poona"
+    },
+    "faq_pourquoi-un-tournoi-passe-reste-sur-mon-tableau-de-bord": {
+     "title": "Pourquoi un tournoi passé reste sur mon tableau de bord ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-un-tournoi-passe-reste-sur-mon-tableau-de-bord"
+    },
+    "faq_pourquoi-une-inscription-est-en-attente-alors-quelle-na-pas-ete-modifiee": {
+     "title": "Pourquoi une inscription est en attente alors qu'elle n'a pas été modifiée ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-une-inscription-est-en-attente-alors-quelle-na-pas-ete-modifiee"
+    },
+    "faq_pourquoi-une-inscription-est-en-attente-et-comment-gerer-ces-inscriptions": {
+     "title": "Pourquoi une inscription est en attente et comment gérer ces inscriptions ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-une-inscription-est-en-attente-et-comment-gerer-ces-inscriptions"
+    },
+    "faq_pourquoi-y-til-des-frais-de-service-lors-dun-paiement": {
+     "title": "Pourquoi y a t'il des frais de service lors d'un paiement ?",
+     "url": "https://blog.i-click.fr/assistance/faq/pourquoi-y-til-des-frais-de-service-lors-dun-paiement"
+    },
+    "faq_quand-est-ce-quun-tirage-au-sort-est-disponible-sur-les-affichages-publics": {
+     "title": "Quand est-ce qu'un tirage au sort est disponible sur les affichages publics ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quand-est-ce-quun-tirage-au-sort-est-disponible-sur-les-affichages-publics"
+    },
+    "faq_quand-je-me-reconnecterai-sur-ces-exercices-pour-une-autre-formation-2-mois-apres": {
+     "title": "Quand je me reconnecterai sur ces exercices pour une autre formation (2 mois après par ex), est ce que j’aurai accès à mes anciens fichiers ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quand-je-me-reconnecterai-sur-ces-exercices-pour-une-autre-formation-2-mois-apres"
+    },
+    "faq_que-faire-si-je-narrive-pas-me-connecter-mon-compte": {
+     "title": "Que faire si je n'arrive pas à me connecter à mon compte ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-faire-si-je-narrive-pas-me-connecter-mon-compte"
+    },
+    "faq_que-peut-faire-un-capitaine-dequipe-depuis-son-compte-badnet": {
+     "title": "Que peut faire un capitaine d'équipe depuis son compte BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-peut-faire-un-capitaine-dequipe-depuis-son-compte-badnet"
+    },
+    "faq_que-se-passe-t-il-si-un-joueur-sinscrit-au-dela-du-nombre-de-joueurs-autorises-dans": {
+     "title": "Que se passe-t-il si un joueur s'inscrit au delà du nombre de joueurs autorisés dans ma compétition ou mon tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-se-passe-t-il-si-un-joueur-sinscrit-au-dela-du-nombre-de-joueurs-autorises-dans"
+    },
+    "faq_que-signifie-cote-min-et-cote-max-au-niveau-dun-tableau": {
+     "title": "Que signifie côte min et côte max au niveau d'un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-signifie-cote-min-et-cote-max-au-niveau-dun-tableau"
+    },
+    "faq_que-signifie-le-terme-jiff": {
+     "title": "Que signifie le terme JIFF ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-signifie-le-terme-jiff"
+    },
+    "faq_que-signifie-le-warning-partenaire-inscrit-dans-un-autre-tableau": {
+     "title": "Que signifie le warning Partenaire inscrit dans un autre tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/que-signifie-le-warning-partenaire-inscrit-dans-un-autre-tableau"
+    },
+    "faq_quel-est-la-difference-entre-badnet-et-badnetsource": {
+     "title": "Quel est la différence entre BadNet et BadNetSource ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quel-est-la-difference-entre-badnet-et-badnetsource"
+    },
+    "faq_quel-est-la-difference-entre-badnet-et-ebad": {
+     "title": "Quel est la différence entre BadNet et ebad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quel-est-la-difference-entre-badnet-et-ebad"
+    },
+    "faq_quel-est-la-difference-entre-un-interclub-et-un-tournoi-par-equipes": {
+     "title": "Quel est la différence entre un interclub et un tournoi par équipes ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quel-est-la-difference-entre-un-interclub-et-un-tournoi-par-equipes"
+    },
+    "faq_quel-est-le-delais-de-prise-en-compte-des-resultats-dans-le-classement": {
+     "title": "Quel est le délais de prise en compte des résultats dans le classement ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quel-est-le-delais-de-prise-en-compte-des-resultats-dans-le-classement"
+    },
+    "faq_quel-est-lidentifiant-login-de-mon-compte-instance": {
+     "title": "Quel est l'identifiant (login) de mon compte instance ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quel-est-lidentifiant-login-de-mon-compte-instance"
+    },
+    "faq_quels-sont-les-statistiques-de-disponibles-et-comment-les-avoir": {
+     "title": "Quels sont les statistiques de disponibles et comment les avoir ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quels-sont-les-statistiques-de-disponibles-et-comment-les-avoir"
+    },
+    "faq_quels-sont-les-systemes-de-comptage-de-point-compatibles-avec-scorbad": {
+     "title": "Quels sont les systèmes de comptage de point compatibles avec ScorBad ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quels-sont-les-systemes-de-comptage-de-point-compatibles-avec-scorbad"
+    },
+    "faq_quels-sont-les-systemes-de-comptage-de-points-disponibles-sur-badnet": {
+     "title": "Quels sont les systèmes de comptage de points disponibles sur BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quels-sont-les-systemes-de-comptage-de-points-disponibles-sur-badnet"
+    },
+    "faq_quest-ce-quun-paiement-en-attente-de-validation": {
+     "title": "Qu'est-ce qu'un paiement en attente de validation ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quest-ce-quun-paiement-en-attente-de-validation"
+    },
+    "faq_quest-ce-quun-ticknet": {
+     "title": "Qu'est-ce qu'un ticknet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quest-ce-quun-ticknet"
+    },
+    "faq_qui-peut-creer-des-interclubs": {
+     "title": "Qui peut créer des interclubs ?",
+     "url": "https://blog.i-click.fr/assistance/faq/qui-peut-creer-des-interclubs"
+    },
+    "faq_quoi-correspond-le-solde-du-club-dans-le-portefeuille-badnet": {
+     "title": "A quoi correspond le solde du club dans le portefeuille BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspond-le-solde-du-club-dans-le-portefeuille-badnet"
+    },
+    "faq_quoi-correspond-tous-les-avis-sur-ma-competition": {
+     "title": "A quoi correspond tous les avis sur ma compétition ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspond-tous-les-avis-sur-ma-competition"
+    },
+    "faq_quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne": {
+     "title": "A quoi correspondent les couleurs dans le déroulement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne"
+    },
+    "faq_quoi-correspondent-les-couleurs-dans-les-finances": {
+     "title": "A quoi correspondent les couleurs dans les finances ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspondent-les-couleurs-dans-les-finances"
+    },
+    "faq_quoi-correspondent-les-couleurs-sur-linterface-de-deroulement-en-ligne": {
+     "title": "A quoi correspondent les couleurs sur l'interface de déroulement en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspondent-les-couleurs-sur-linterface-de-deroulement-en-ligne"
+    },
+    "faq_quoi-correspondent-les-droits-dentree-dans-les-reglages-des-frais-dinscription": {
+     "title": "A quoi correspondent les droits d'entrée dans les réglages des frais d'inscription ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-correspondent-les-droits-dentree-dans-les-reglages-des-frais-dinscription"
+    },
+    "faq_quoi-sert-le-check-inscrire-le-partenaire-dans-les-inscriptions-en-conflit": {
+     "title": "A quoi sert le check Inscrire le partenaire dans les inscriptions en conflit ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-sert-le-check-inscrire-le-partenaire-dans-les-inscriptions-en-conflit"
+    },
+    "faq_quoi-sert-le-code-barre-present-sur-mon-tableau-de-bord": {
+     "title": "Accès refusé",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-sert-le-code-barre-present-sur-mon-tableau-de-bord"
+    },
+    "faq_quoi-sert-loption-inclusif-ou-handibad-dans-la-definition-dun-tableau": {
+     "title": "A quoi sert l'option inclusif ou handibad dans la définition d'un tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/quoi-sert-loption-inclusif-ou-handibad-dans-la-definition-dun-tableau"
+    },
+    "faq_supprimer-une-competition-sur-le-badnet-de-test-supprime-t-il-aussi-la-competition": {
+     "title": "Supprimer une compétition sur le BadNet de test supprime-t-il aussi la compétition sur le vrai BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/supprimer-une-competition-sur-le-badnet-de-test-supprime-t-il-aussi-la-competition"
+    },
+    "faq_sur-le-badnet-de-test-je-narrive-pas-trouver-certains-comptes-qui-semblent-pourtant": {
+     "title": "Sur le BadNet de test, je n'arrive pas à trouver certains comptes qui semblent pourtant exister sur BadNet, pourquoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/sur-le-badnet-de-test-je-narrive-pas-trouver-certains-comptes-qui-semblent-pourtant"
+    },
+    "faq_un-jeune-sest-inscrit-un-tableau-jeune-mais-il-doit-payer-le-prix-dun-tableau-adulte": {
+     "title": "Un jeune s'est inscrit à un tableau jeune, mais il doit payer le prix d'un tableau adulte, pourquoi ?",
+     "url": "https://blog.i-click.fr/assistance/faq/un-jeune-sest-inscrit-un-tableau-jeune-mais-il-doit-payer-le-prix-dun-tableau-adulte"
+    },
+    "faq_un-joueur-peut-il-payer-son-inscription-en-ligne-meme-si-les-inscriptions-sont": {
+     "title": "Un joueur peut-il payer son inscription en ligne même si les inscriptions sont fermées ?",
+     "url": "https://blog.i-click.fr/assistance/faq/un-joueur-peut-il-payer-son-inscription-en-ligne-meme-si-les-inscriptions-sont"
+    },
+    "faq_un-joueur-peut-il-pointer-en-autonomie-si-son-solde-est-negatif": {
+     "title": "Un joueur peut-il pointer en autonomie si son solde est négatif ?",
+     "url": "https://blog.i-click.fr/assistance/faq/un-joueur-peut-il-pointer-en-autonomie-si-son-solde-est-negatif"
+    },
+    "faq_un-joueur-peut-il-sinscrire-dans-aucun-tableau": {
+     "title": "Un joueur peut-il s'inscrire dans aucun tableau ?",
+     "url": "https://blog.i-click.fr/assistance/faq/un-joueur-peut-il-sinscrire-dans-aucun-tableau"
+    },
+    "faq_un-partage-de-connexion-suffit-il-pour-gerer-sa-competition-en-ligne": {
+     "title": "Un partage de connexion suffit il pour gérer sa compétition en ligne ?",
+     "url": "https://blog.i-click.fr/assistance/faq/un-partage-de-connexion-suffit-il-pour-gerer-sa-competition-en-ligne"
+    },
+    "faq_une-api-est-elle-disponible-pour-la-recuperation-des-donnees-de-badnet": {
+     "title": "Une API est-elle disponible pour la récupération des données de BadNet ?",
+     "url": "https://blog.i-click.fr/assistance/faq/une-api-est-elle-disponible-pour-la-recuperation-des-donnees-de-badnet"
+    },
+    "fiche-dun-joueur-sur-une-competition-individuelle": {
+     "title": "Accès refusé",
+     "url": "https://blog.i-click.fr/assistance/fiche-dun-joueur-sur-une-competition-individuelle"
+    },
+    "generer-automatiquement-son-echeancier": {
+     "title": "Générer automatiquement son échéancier",
+     "url": "https://blog.i-click.fr/assistance/generer-automatiquement-son-echeancier"
+    },
+    "gestion-de-lenvoi-des-convocations": {
+     "title": "Gestion de l'envoi des convocations",
+     "url": "https://blog.i-click.fr/assistance/gestion-de-lenvoi-des-convocations"
+    },
+    "gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre": {
+     "title": "Gestion déroulement interclubs table de marque et juge-arbitre",
+     "url": "https://blog.i-click.fr/assistance/gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre"
+    },
+    "gestion-des-accreditations": {
+     "title": "Accès refusé",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-accreditations"
+    },
+    "gestion-des-finances-dune-competition-individuelle": {
+     "title": "Gestion des finances d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-finances-dune-competition-individuelle"
+    },
+    "gestion-des-forfaits-pour-un-tournoi-individuel": {
+     "title": "Gestion des forfaits pour un tournoi individuel",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-forfaits-pour-un-tournoi-individuel"
+    },
+    "gestion-des-inscriptions-en-attente": {
+     "title": "Gestion des inscriptions en attente",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-inscriptions-en-attente"
+    },
+    "gestion-des-inscriptions-une-competition-en-debut-de-saison": {
+     "title": "Gestion des inscriptions à une compétition en début de saison",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-inscriptions-une-competition-en-debut-de-saison"
+    },
+    "gestion-des-inscriptions": {
+     "title": "Gestion des inscriptions",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-inscriptions"
+    },
+    "gestion-des-matchs-en-or-sur-une-rencontre-dinterclub": {
+     "title": "Gestion des matchs en or sur une rencontre d'interclub",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-matchs-en-or-sur-une-rencontre-dinterclub"
+    },
+    "gestion-des-privileges-et-droits": {
+     "title": "Gestion des privilèges et droits",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-privileges-et-droits"
+    },
+    "gestion-des-tableaux": {
+     "title": "Gestion des tableaux",
+     "url": "https://blog.i-click.fr/assistance/gestion-des-tableaux"
+    },
+    "gestion-du-deroulement-en-ligne": {
+     "title": "Gestion du déroulement en ligne",
+     "url": "https://blog.i-click.fr/assistance/gestion-du-deroulement-en-ligne"
+    },
+    "importer-ses-rencontres-dinterclub-laide-dun-fichier-csv": {
+     "title": "Importer ses rencontres d'interclub à l'aide d'un fichier CSV",
+     "url": "https://blog.i-click.fr/assistance/importer-ses-rencontres-dinterclub-laide-dun-fichier-csv"
+    },
+    "les-frais-de-service": {
+     "title": "Les frais de service",
+     "url": "https://blog.i-click.fr/assistance/les-frais-de-service"
+    },
+    "les-statuts-de-mails": {
+     "title": "Les statuts de mails",
+     "url": "https://blog.i-click.fr/assistance/les-statuts-de-mails"
+    },
+    "mettre-en-place-les-frais-dinscriptions-dune-competition-elite": {
+     "title": "Mettre en place les frais d'inscriptions d'une compétition élite",
+     "url": "https://blog.i-click.fr/assistance/mettre-en-place-les-frais-dinscriptions-dune-competition-elite"
+    },
+    "mise-en-place-dun-echeancier": {
+     "title": "Mise en place d'un échéancier",
+     "url": "https://blog.i-click.fr/assistance/mise-en-place-dun-echeancier"
+    },
+    "payer-avec-moins-de-frais-de-service-grace-au-portefeuille-badnet": {
+     "title": "Payer avec moins de frais de service grâce au portefeuille BadNet",
+     "url": "https://blog.i-click.fr/assistance/payer-avec-moins-de-frais-de-service-grace-au-portefeuille-badnet"
+    },
+    "pointage-autonome-des-joueurs-dans-la-salle": {
+     "title": "Pointage autonome des joueurs dans la salle",
+     "url": "https://blog.i-click.fr/assistance/pointage-autonome-des-joueurs-dans-la-salle"
+    },
+    "tout-savoir-sur-la-validation-des-documents-kyc": {
+     "title": "Tout savoir sur la validation des documents KYC",
+     "url": "https://blog.i-click.fr/assistance/tout-savoir-sur-la-validation-des-documents-kyc"
+    },
+    "utilisation-de-scorbad-sur-une-competition": {
+     "title": "Utilisation de ScorBad sur une compétition",
+     "url": "https://blog.i-click.fr/assistance/utilisation-de-scorbad-sur-une-competition"
+    },
+    "utilisation-du-module-pointage": {
+     "title": "Utilisation du module Pointage",
+     "url": "https://blog.i-click.fr/assistance/utilisation-du-module-pointage"
+    },
+    "utiliser-badnetsource-sur-ma-competition": {
+     "title": "Utiliser BadNetSource sur ma compétition",
+     "url": "https://blog.i-click.fr/assistance/utiliser-badnetsource-sur-ma-competition"
+    },
+    "video_tournois-individuels-tutoriel-1-connexion-et-creation-de-ma-competition": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 1 Connexion et création de ma compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-1-connexion-et-creation-de-ma-competition"
+    },
+    "video_tournois-individuels-tutoriel-12-sinscrire-une-competition-individuelle": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 12 S'inscrire à une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-12-sinscrire-une-competition-individuelle"
+    },
+    "video_tournois-individuels-tutoriel-2-reglages-generaux-dune-competition-individuelle": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 2 Réglages généraux d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-2-reglages-generaux-dune-competition-individuelle"
+    },
+    "video_tournois-individuels-tutoriel-3-gestion-des-inscriptions-dune-competition": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 3 Gestion des inscriptions d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-3-gestion-des-inscriptions-dune-competition"
+    },
+    "video_tournois-individuels-tutoriel-4-configuration-des-tableaux-dune-competition": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 4 Configuration des tableaux d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-4-configuration-des-tableaux-dune-competition"
+    },
+    "video_tournois-individuels-tutoriel-6-envoyer-les-convocations-dune-competition": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 6 Envoyer les convocations d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-6-envoyer-les-convocations-dune-competition"
+    },
+    "video_tournois-individuels-tutoriel-7-deroulement-en-ligne-dune-competition-individuelle": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 7 Déroulement en ligne d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-7-deroulement-en-ligne-dune-competition-individuelle"
+    },
+    "video_tournois-individuels-tutoriel-8-pointage-des-joueurs-dune-competition-individuelle": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 8 Pointage des joueurs d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-8-pointage-des-joueurs-dune-competition-individuelle"
+    },
+    "video_tournois-individuels-tutoriel-9-export-poona-dune-competition-individuelle": {
+     "title": "TOURNOIS INDIVIDUELS - TUTORIEL 9 Export Poona d'une compétition individuelle",
+     "url": "https://blog.i-click.fr/assistance/video/tournois-individuels-tutoriel-9-export-poona-dune-competition-individuelle"
+    },
+    "video_tutoriel-badnet-formation-geo-aide-lutilisation-de-badnet-test-pour-formateurs-et": {
+     "title": "TUTORIEL BADNET - FORMATION GEO Aide à l'utilisation de BadNet Test pour formateurs et stagiaires",
+     "url": "https://blog.i-click.fr/assistance/video/tutoriel-badnet-formation-geo-aide-lutilisation-de-badnet-test-pour-formateurs-et"
+    },
+    "video_tutoriel-badnet-tutoriel-1-decouverte-de-badnet-test": {
+     "title": "TUTORIEL BADNET - TUTORIEL 1 Découverte de BadNet test",
+     "url": "https://blog.i-click.fr/assistance/video/tutoriel-badnet-tutoriel-1-decouverte-de-badnet-test"
+    },
+    "video_tutoriel-echeancier-et-integration-de-scorbad-dans-ebad": {
+     "title": "TUTORIEL - Échéancier et intégration de ScorBad dans Ebad",
+     "url": "https://blog.i-click.fr/assistance/video/tutoriel-echeancier-et-integration-de-scorbad-dans-ebad"
+    },
+    "video_tutoriel-interface-interclubs-et-capitaines": {
+     "title": "TUTORIEL - Interface interclubs et capitaines",
+     "url": "https://blog.i-click.fr/assistance/video/tutoriel-interface-interclubs-et-capitaines"
+    },
+    "formation-geo": {
+     "title": "Formation GEO - BadNet (support PDF, version du 1er septembre 2023)",
+     "url": "https://blog.i-click.fr/sites/default/files/blog/documents/media/document/Formation%20GEO%20-%20BadNet_1.pdf"
+    },
+    "guide-interclubs": {
+     "title": "Gestion des interclubs (support PDF)",
+     "url": "https://blog.i-click.fr/sites/default/files/blog/documents/media/document/Interclubs.pdf"
+    },
+    "guide-circuits": {
+     "title": "Gestion des circuits (support PDF)",
+     "url": "https://blog.i-click.fr/sites/default/files/blog/documents/media/document/Circuits.pdf"
+    }
+   }
+  }
+ ]
+}
