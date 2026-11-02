@@ -1,5 +1,5 @@
 {
- "build": "187ae3ebd38c",
+ "build": "d873473f94f3",
  "core": [
   "./",
   "css/app.css",
@@ -123,7 +123,7 @@
   "reglements/text/08.03.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 2462003,
+ "coreSize": 2652077,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
