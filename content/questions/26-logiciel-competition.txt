@@ -224,3 +224,39 @@ En préparant l'échéancier dans le logiciel, le juge-arbitre voit qu'un joueur
 - La limite est de 6 matchs par jour
 - La limite ne concerne que les jeunes
 > RGC 2.16 : les matchs doivent être programmés de telle sorte qu'aucun joueur ne joue plus de 8 matchs par jour. Si les matchs sont plus courts que le système normal (un seul set, par exemple), le juge-arbitre peut accorder une dérogation.
+
+Q log-026 | D: 1 | R: BADNET faq_quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne | P: pendant
+Dans le déroulement en ligne de BadNet, que signifie le fond jaune de la ligne de FERRY Inès (B) ?
+IMG: ecrans/deroulement-couleurs.svg Déroulement en ligne : cinq joueurs repérés de A à E et trois terrains.
+- Elle est en train de jouer sur le terrain indiqué
++ Elle est en temps de repos jusqu'à l'heure indiquée entre crochets
+- Elle est forfait (WO) sur sa fiche d'inscription
+- Elle n'a pas encore été pointée présente
+> Documentation BadNet (FAQ « couleurs dans le déroulement en ligne ») : bleu, le joueur joue sur le terrain indiqué entre [] ; jaune, il est en temps de repos jusqu'à l'heure indiquée entre [] ; rouge, le joueur ou la paire est WO sur sa fiche d'inscription.
+
+Q log-027 | D: 2 | R: BADNET faq_quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne | P: pendant
+HUET Sarah (D) s'affiche avec son nom écrit en rouge. Que faut-il faire pour qu'elle apparaisse normalement ?
+IMG: ecrans/deroulement-couleurs.svg Déroulement en ligne : cinq joueurs repérés de A à E et trois terrains.
+- Saisir son match en WO
+- Attendre la fin de son temps de repos
++ La pointer présente : le texte rouge signifie que la joueuse est absente
+- Lui attribuer un terrain
+> Documentation BadNet : un joueur affiché avec le texte en rouge est absent ; il suffit de le pointer présent pour qu'il s'affiche normalement, en noir.
+
+Q log-028 | D: 2 | R: BADNET faq_quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne | P: pendant
+La paire GOMEZ / PONS (C) apparaît sur fond rouge. Qu'est-ce que cela indique ?
+IMG: ecrans/deroulement-couleurs.svg Déroulement en ligne : cinq joueurs repérés de A à E et trois terrains.
++ La paire est WO sur sa fiche d'inscription : son match peut être saisi en WO
+- La paire est en retard à l'appel de son match
+- La paire a reçu un carton
+- La paire joue actuellement sur un terrain
+> Documentation BadNet : le fond rouge signifie que le joueur ou la paire est WO sur sa fiche d'inscription ; le match peut donc être saisi en WO. À ne pas confondre avec le texte rouge (joueur absent, à pointer).
+
+Q log-029 | D: 2 | R: BADNET faq_quoi-correspondent-les-couleurs-dans-le-deroulement-en-ligne | P: pendant
+Le terrain 1 est affiché en orange alors que les terrains 2 et 3 sont en vert. Que se passe-t-il sur le terrain 1 ?
+IMG: ecrans/deroulement-couleurs.svg Déroulement en ligne : cinq joueurs repérés de A à E et trois terrains.
+- Le match est terminé et le score doit être saisi
++ Le match est en échauffement ; le terrain clignote et émet un bruit 30 secondes avant la fin de l'échauffement
+- Le terrain est fermé
+- Un incident a été signalé par l'arbitre
+> Documentation BadNet : terrain orange, le match est en échauffement (il clignote et émet un bruit 30 secondes avant la fin de l'échauffement) ; rouge ou vert, le match est en cours et l'échauffement est terminé.

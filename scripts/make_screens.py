@@ -287,9 +287,25 @@ def export_poona():
     screen("export-poona", "Clôture de la compétition", "Résultats complets", "Résultats", body, 150)
 
 
+def deroulement_couleurs():
+    """Couleurs du déroulement en ligne (documentation BadNet, FAQ « couleurs dans le déroulement en ligne »)."""
+    body = t(16, 22, "Joueurs", 13, MUTED, "600") + t(420, 22, "Terrains", 13, MUTED, "600")
+    players = [("BERNARD Lucas [T3]", "#d6e9fb", INK), ("FERRY Inès [10:42]", "#fff2b3", INK),
+               ("GOMEZ / PONS", "#f8d0cc", INK), ("HUET Sarah", "#ffffff", BAD), ("JOLY Paul", "#ffffff", INK)]
+    for i, (name, bg, color) in enumerate(players):
+        y = 34 + i * 40
+        body += rect(16, y, 380, 32, bg, LINE, 6) + t(30, y + 21, f"{chr(65 + i)}. {name}", 13.5, color, "600")
+    courts = [("Terrain 1", "#f5a623", "SD P10 · ROUX – BLANC"), ("Terrain 2", "#3fae5a", "DH D8 · 15-12, 4-6"), ("Terrain 3", "#3fae5a", "SH P11 · BERNARD")]
+    for i, (name, color, label) in enumerate(courts):
+        y = 34 + i * 64
+        body += rect(420, y, 324, 54, color, "none", 8) + t(436, y + 22, name, 14, "#ffffff", "700") + t(436, y + 42, label, 12.5, "#ffffff")
+    body += t(16, 250, "Il est 10:22. Les lettres A à E repèrent les joueurs.", 12.5, MUTED)
+    screen("deroulement-couleurs", "Déroulement en ligne", "Samedi, tableau de bord du JA", "Matchs", body, 262)
+
+
 ALL = [poule_triple, poule_double, poule_abandon, echeancier_repos, echeancier_avance, appel_forfait, tds_nombre, tds_placement,
        plus_1000, serie_inferieure, saisie_abandon, saisie_forfait, volants, poules_inegales, sortie_poules, publication, fin_tardive,
-       export_poona]
+       export_poona, deroulement_couleurs]
 
 
 def main() -> int:

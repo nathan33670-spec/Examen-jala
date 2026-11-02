@@ -1,14 +1,15 @@
-# Prépa JA Badminton — JALA · JALC · JAFA · JAFC
+# Prépa JA Badminton — juge-arbitre et arbitre
 
-Application web **installable et utilisable hors ligne** pour préparer les examens théoriques
-et pratiques de **juge-arbitre de badminton** de la FFBaD :
+Application web **installable et utilisable hors ligne** (et application Android) pour préparer les
+examens des officiels techniques de badminton de la FFBaD, en **deux parcours** :
 
-| Grade | Intitulé |
-|---|---|
-| JALA | Juge-arbitre de ligue accrédité |
-| JALC | Juge-arbitre de ligue certifié |
-| JAFA | Juge-arbitre fédéral accrédité |
-| JAFC | Juge-arbitre fédéral certifié |
+| Parcours | Examen blanc | Contenu |
+|---|---|---|
+| Juge-arbitre | JALA (juge-arbitre de ligue accrédité) | RGC et annexes, BadNet, déroulement de la compétition, rapport, sanctions, interclubs… |
+| Arbitre | ALA (arbitre de ligue accrédité) | Règles du jeu, instructions aux officiels techniques, annonces et terminologie, juge de service et juges de ligne |
+
+Les questions propres aux grades supérieurs (JALC, JAFA, JAFC) restent disponibles en entraînement
+juge-arbitre, mais n'entrent ni dans l'examen blanc JALA ni dans la jauge.
 
 L'application est un site statique (HTML, CSS, JavaScript sans dépendance) hébergé sur
 **GitHub Pages**. Elle fonctionne comme une application de préparation aux certifications :
@@ -17,9 +18,16 @@ tous les règlements officiels consultables hors ligne.
 
 ## Fonctionnalités
 
-- **Banque de questions** (QCM à une ou plusieurs réponses ; les questions sur le rôle et les annonces de
-  l'arbitre sont rangées à part, dans les modules « ALA » (arbitre, juge de service) et « Juge de ligne », hors examens blancs et hors jauge) couvrant tous les chapitres utiles du
-  Guide du Badminton, chacune avec son explication et un lien vers l'article du règlement concerné.
+- **Banque de plus de 2 000 questions** (QCM à une ou plusieurs réponses), chacune avec son explication
+  et un lien vers l'article du règlement (ou la page de la documentation BadNet) concerné.
+- **Catégories d'entraînement du juge-arbitre**, dans l'ordre d'une compétition : *Avant* (BadNet,
+  règlement particulier, échéancier, tableaux), *Pendant* (de l'arrivée au gymnase au départ), *Après*
+  (rapport, résultats, suites) et *RGC*. La catégorie est déduite de l'article cité, ou fixée par
+  `P: avant|pendant|apres` dans le fichier de questions.
+- **Mode apprentissage** : la bonne réponse, l'explication et l'extrait du texte officiel de l'article
+  s'affichent tout de suite, sans noter la réponse.
+- **Questions sur écran** : écrans simplifiés de logiciel de compétition (données fictives, générés par
+  `scripts/make_screens.py`) à interpréter avec le règlement ou la documentation BadNet.
 - **Séries sans répétition** : chaque utilisateur parcourt toute la banque dans un ordre qui lui est
   propre ; une question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16
   et 35 jours après des bonnes réponses successives). Les examens blancs font passer en dernier les
@@ -34,11 +42,11 @@ tous les règlements officiels consultables hors ligne.
   - *Score & service* : questions générées à l'infini (score de set valide ou non, zone de service
     en simple et en double, intervalles et changement de côté, service au set suivant), calculées
     à partir des règles 7, 8, 10, 11 et 16.2 ;
-  - *Mode oral* (flashcards) pour l'oral JALC, *Mes erreurs*, *Favoris*.
+  - *Mode oral* (flashcards), *Mes erreurs*, *Favoris*.
 - **Progression ludique** : points d'expérience et niveaux (de « Ramasseur de volants » à « Légende
   du volant »), série de jours d'entraînement, objectif quotidien, 29 badges, confettis, sons et
   vibrations désactivables. L'XP motive mais n'entre pas dans la jauge de préparation.
-- **Examens blancs** par grade : chronomètre, navigation entre questions, questions marquées,
+- **Examens blancs** JALA et ALA : chronomètre, navigation entre questions, questions marquées,
   correction détaillée, résultats par thème. Barème et seuil conformes aux conditions connues
   (voir plus bas), personnalisables si votre ligue communique d'autres modalités.
 - **Partie pratique** :
@@ -49,8 +57,8 @@ tous les règlements officiels consultables hors ligne.
     rotations, heure de fin, limite de 8 matchs par jour) ;
   - **check-lists** du JA (avant, jour J, après, rencontre d'interclubs) ;
   - **auto-évaluation** sur la grille officielle des critères (annexe 02 de la filière JA).
-- **Jauge de préparation** calculée localement pour chaque grade (connaissances 55 %,
-  examens blancs 25 %, pratique 20 %), avec conseils sur la prochaine étape.
+- **Jauge de préparation** calculée localement pour chaque parcours (juge-arbitre : connaissances 55 %,
+  examens blancs 25 %, pratique 20 % ; arbitre : connaissances 70 %, examens blancs 30 %), avec conseils sur la prochaine étape.
 - **Documentation intégrée** : 68 documents du Guide du Badminton 2026-2027 + les Règles
   officielles du badminton (texte lisible et cherchable hors ligne, PDF officiels téléchargeables),
   14 fiches de synthèse, un glossaire et une recherche globale.
