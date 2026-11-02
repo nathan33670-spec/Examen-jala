@@ -87,6 +87,28 @@ dossier `/docs`.
 4. Quand une nouvelle version (questions ou règlements) est publiée, un bandeau propose
    « Mettre à jour » à la prochaine ouverture avec du réseau.
 
+## Application Android (APK et Play Store)
+
+Le dossier `android/` est un projet [Capacitor](https://capacitorjs.com) qui embarque l'application web (`docs/`) : l'appli Android fonctionne entièrement hors ligne, sans dépendre du site.
+
+**Publier une version** : pousser un tag `vX.Y.Z` (par exemple `git tag v1.1.0 && git push origin v1.1.0`) ou lancer le workflow **Application Android** depuis l'onglet *Actions*. Le workflow vérifie le contenu, construit l'APK et l'AAB, puis crée la release GitHub avec les deux fichiers :
+
+- `prepa-ja-X.Y.Z.apk` : à installer directement sur un téléphone ;
+- `prepa-ja-X.Y.Z.aab` : à déposer dans la Play Console (le Play Store n'accepte que le format AAB).
+
+Le code de version Android est calculé à partir du tag (`1.2.3` → `10203`) : chaque nouvelle version envoyée au Play Store doit avoir un numéro supérieur.
+
+**Clé de signature Play Store (une seule fois)** : créer une clé d'envoi et la garder précieusement (elle ne doit jamais être perdue ni publiée).
+
+```
+keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000
+base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks
+```
+
+Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
+
+**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
+
 ## Le bot de mise à jour des règlements
 
 Le Guide du Badminton est publié sur [gdb.ffbad.org](https://gdb.ffbad.org), qui expose une API

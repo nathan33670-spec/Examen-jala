@@ -1,0 +1,11 @@
+{
+  "appId": "io.github.nathan33670spec.prepaja",
+  "appName": "Prépa JA Badminton",
+  "webDir": "docs",
+  "android": {
+    "backgroundColor": "#0f4c5c"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

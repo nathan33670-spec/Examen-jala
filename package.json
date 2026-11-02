@@ -9,5 +9,10 @@
     "serve": "python3 -m http.server -d docs 8765",
     "test:e2e": "node tests/smoke.mjs http://localhost:8765/",
     "test": "node --test tests/engine.test.mjs"
+  },
+  "devDependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/cli": "8.5.3",
+    "@capacitor/core": "8.5.3"
   }
 }

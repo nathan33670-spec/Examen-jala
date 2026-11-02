@@ -5,7 +5,9 @@ import { getCatalog } from './data.js';
 
 let deferredPrompt = null;
 let waitingWorker = null;
-export const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+/** Application Android (Capacitor) : tout est embarqué, pas de service worker ni d'installation. */
+export const isNative = () => !!window.Capacitor?.isNativePlatform?.();
+export const isStandalone = () => isNative() || window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
 export function initOffline() {
@@ -21,7 +23,7 @@ export function initOffline() {
   window.addEventListener('offline', updateNet);
   updateNet();
 
-  if (!('serviceWorker' in navigator)) return;
+  if (!('serviceWorker' in navigator) || isNative()) return;
   // Première visite : le service worker s'installe en silence. Une mise à jour n'est proposée
   // que si une version précédente contrôlait déjà la page.
   const hadController = !!navigator.serviceWorker.controller;

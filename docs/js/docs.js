@@ -127,7 +127,7 @@ export async function renderDoc(main, id, query = {}) {
     <h1>${esc(doc.id === 'REGLES' ? '' : `${doc.code} — `)}${esc(doc.title)}</h1>
     <p class="small muted">${meta.map(esc).join(' · ')}${doc.updatedAt ? ` · récupéré le ${fmtDate(doc.updatedAt)}` : ''}</p>
     <div class="btn-row" style="margin-bottom:6px">
-      <a class="btn small" href="${esc(doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
+      <a class="btn small" href="${esc(window.Capacitor?.isNativePlatform?.() ? doc.source : doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
       <a class="btn small secondary" href="${esc(doc.source)}" target="_blank" rel="noopener">Source FFBaD</a>
     </div>
     ${doc.id === 'REGLES' ? '<div class="notice small">Le PDF officiel signale les modifications (ancien texte barré en rouge, nouveau texte en bleu). Dans la version texte ci-dessous, les deux valeurs peuvent apparaître côte à côte : « 21 15 points » se lit <strong>15 points</strong> (système 3×15 appliqué par la FFBaD depuis le 1er septembre 2026).</div>' : ''}
