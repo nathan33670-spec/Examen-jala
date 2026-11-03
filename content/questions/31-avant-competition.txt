@@ -1,0 +1,1111 @@
+# Avant la compétition : ce que le juge-arbitre doit faire et savoir pendant la préparation
+# (règlement particulier, invitation, convocation, inscriptions, licences et catégories d'âge,
+# échéancier, tableaux, tirage au sort, préparation matérielle, autorisation du tournoi).
+# Sources : GdB 03.01 (RGC) et annexes 01, 02, 03, 04, 06, 07, 11, 12, 14 ; 03.02 ; 03.03 ; 02.04 et annexe ;
+# 08.03 et annexe ; 03.06 ; 06.02 ; Règles officielles (instructions aux officiels techniques).
+@theme rgc
+@doc 03.01
+@levels JALA JALC JAFA JAFC
+@phase avant
+
+# ---------------------------------------------------------------- Règlement particulier : ce que le JA vérifie
+
+Q av-001 | D: 2 | R: 03.01 2.16
+Le JA relit le projet de règlement particulier d'un tournoi : « temps de repos minimum entre deux matchs : 15 minutes ». Que doit-il demander ?
+- Rien : le temps de repos est librement fixé par l'organisateur
++ De le porter entre 20 et 30 minutes, valeur identique pour toutes les disciplines
+- De le porter à 30 minutes exactement
+- De supprimer la mention, le temps de repos n'ayant pas à figurer dans le règlement particulier
+> RGC 2.16 : tout joueur a droit à un temps minimum de repos entre deux matchs, compris entre 20 et 30 minutes, le même pour toutes les disciplines, et précisé dans les règlements complémentaires. 15 minutes n'est pas conforme.
+
+Q av-002 | D: 3 | R: 03.01 2.16
+Un organisateur souhaite inscrire dans son règlement particulier un temps de repos de 40 minutes « pour le confort des joueurs ». Que répond le JA ?
+- C'est possible, le RGC ne fixe qu'un minimum
++ Ce n'est pas conforme : le temps fixé doit être compris entre 20 et 30 minutes, le JA pouvant toutefois accorder ponctuellement un repos plus long
+- C'est possible à condition que la commission compétitions accorde une dérogation
+- C'est possible pour les doubles seulement
+> RGC 2.16 : le temps de repos, compris entre 20 et 30 minutes, est le même pour toutes les disciplines et précisé dans les règlements complémentaires ; le juge-arbitre pourra accorder un repos plus long lorsque cela lui paraît souhaitable.
+
+Q av-003 | D: 2 | R: 03.01.A02 1 | T: annexes
+Le projet de règlement particulier indique « date limite d'inscription : 15 mars ». Quelle précision l'annexe 02 demande-t-elle d'ajouter ?
++ S'il s'agit de la date de réception ou du cachet de la poste
+- L'heure de publication de l'échéancier
+- Le nom du club de chaque inscrit
+- La date du tirage au sort
+> Annexe 02 du RGC : le règlement particulier mentionne la date limite d'inscription en précisant « date de réception ou cachet de la poste ».
+
+Q av-004 | D: 1 | R: 03.01.A02 1 | T: annexes
+Concernant les volants, que doit préciser le règlement particulier d'une compétition ? (plusieurs réponses)
++ Le mode de fourniture des volants
++ La marque et le type du volant officiel
+- Le prix de vente du volant officiel dans la salle
+- Le nombre de volants mis à disposition par match
+> Annexe 02 du RGC : le règlement particulier mentionne le mode de fourniture des volants, ainsi que la marque et le type du volant officiel.
+
+Q av-005 | D: 2 | R: 03.01.A02 1 | T: annexes
+L'organisateur annonce : « inscriptions limitées à 180 joueurs ». Que doit encore contenir le règlement particulier sur ce point ?
+- Rien de plus : le nombre maximum suffit
++ Le critère qui sera appliqué en cas de surnombre
+- La liste des clubs prioritaires
+- L'accord écrit de la ligue sur ce nombre
+> Annexe 02 du RGC : le règlement particulier indique le nombre maximum de participants et le critère qui sera appliqué en cas de surnombre (voir aussi RGC 3.1.4 : critères de sélection et liste d'attente précisés dans les règlements complémentaires).
+
+Q av-006 | D: 2 | R: 03.01.A02 1 | T: annexes
+Le club organisateur veut que les joueurs éliminés arbitrent ou tiennent les lignes d'un match suivant. Comment le JA lui conseille-t-il de procéder ?
+- Ce n'est pas permis : on ne peut imposer une fonction d'officiel à un joueur
++ L'inscrire dans le règlement particulier comme condition de participation
+- L'annoncer seulement le jour de la compétition, au micro
+- Le prévoir dans la convocation uniquement
+> Annexe 02 du RGC : le règlement particulier mentionne toute autre condition de participation, par exemple l'obligation d'assumer les fonctions d'arbitre ou de juge de ligne.
+
+Q av-007 | D: 1 | R: 03.01.A02 1 | T: annexes
+Quelles informations d'identification le règlement particulier d'un tournoi doit-il contenir ? (plusieurs réponses)
++ Le numéro de dossier défini sur la demande d'autorisation
++ Le nom du juge-arbitre principal et du GEO
+- Le numéro de licence de chaque juge de ligne
+- Le nom du président de la ligue
+> Annexe 02 du RGC : le règlement particulier comprend notamment le numéro de dossier défini sur la demande d'autorisation et le nom du juge-arbitre principal et du GEO de la compétition.
+
+Q av-008 | D: 2 | R: 03.01.A02 1 | T: annexes
+Comment le règlement particulier doit-il définir les licenciés concernés par la compétition ?
+- Par la seule catégorie d'âge
++ En précisant notamment la zone géographique, les catégories d'âge, les séries de classement ou le CPPH
+- Par la liste nominative des clubs invités
+- Il n'a pas à le faire, le RGC suffit
+> Annexe 02 du RGC : le règlement particulier précise les licenciés concernés (zone géographique, catégories d'âge, séries de classement, CPPH, …).
+
+Q av-009 | D: 2 | R: 03.01.A02 1 | T: annexes
+Le règlement particulier prévoit qu'un joueur ne peut s'inscrire que dans deux tableaux au maximum. Le JA peut-il valider cette clause ?
++ Oui : la limitation éventuelle du nombre de disciplines et du panachage des séries fait partie du contenu du règlement particulier
+- Non : un joueur a toujours le droit de jouer les trois disciplines
+- Oui, mais seulement pour les tournois jeunes
+- Non, seule la Fédération peut fixer une telle limite
+> Annexe 02 du RGC : le règlement particulier mentionne la limitation éventuelle du nombre de disciplines et du panachage des séries. RGC 3.1.1 : les règlements complémentaires peuvent limiter le nombre de séries différentes dans lesquelles un joueur peut s'inscrire.
+
+Q av-010 | D: 2 | R: 03.01.A02 1 | T: annexes
+Quels éléments relatifs au déroulement sur le terrain doivent figurer dans le règlement particulier ? (plusieurs réponses)
++ Le temps dit « d'échauffement » autorisé sur le terrain
++ Le mode de comptage des points
+- La liste des arbitres affectés à chaque terrain
+- L'ordre des matchs de chaque poule
+> Annexe 02 du RGC : le règlement particulier mentionne notamment le mode de comptage de points et le temps dit « d'échauffement » autorisé sur le terrain. L'ordre des matchs des poules est déterminé par le juge-arbitre (RGC 3.3.1.5).
+
+Q av-011 | D: 2 | R: 03.01 2.17
+Le projet de règlement particulier prévoit « 1 minute de préparation sur le terrain entre l'appel du match et le début du match ». Que fait le JA ?
+- Il valide : la durée est libre
++ Il demande au moins deux minutes, durée minimale prévue par le RGC
+- Il demande au moins cinq minutes
+- Il valide si les matchs sont auto-arbitrés
+> RGC 2.17 : un temps de préparation sur le terrain est accordé aux joueurs entre l'appel de leur match et le début de celui-ci ; il ne doit pas être inférieur à deux minutes.
+
+Q av-012 | D: 2 | R: 03.01 2.1
+L'organisateur souhaite que les matchs de poule se jouent en un seul set. Que doit faire le JA lors de la validation du règlement particulier ?
+- Refuser : seul le format au meilleur des trois sets est autorisé
++ Accepter l'aménagement s'il est explicitement indiqué dans le règlement particulier
+- Accepter sans qu'il soit nécessaire de l'écrire
+- Demander l'accord de chaque joueur inscrit
+> RGC 2.1 : certains aménagements (match en temps limité, nombre de points par set, set unique…) sont autorisés ; le format utilisé doit être explicitement indiqué dans les règlements complémentaires, faute de quoi le format standard au meilleur des trois sets est retenu.
+
+Q av-013 | D: 3 | R: 03.01 2.12.1
+Le règlement particulier d'un tournoi exige que les joueurs soient licenciés à la date limite d'inscription. Cette clause est-elle valable ?
++ Oui : le règlement complémentaire peut fixer une date plus précoce que la veille du premier jour de compétition
+- Non : le RGC impose la veille du premier jour, sans exception
+- Non : seule la licence le jour même compte
+- Oui, mais seulement pour les championnats
+> RGC 2.12.1 : les participants doivent être licenciés au plus tard la veille du premier jour de compétition, ou à une date plus précoce fixée par les règlements complémentaires.
+
+Q av-014 | D: 2 | R: 03.01 2.12.1
+Un organisateur rédige : « les joueurs pourront prendre leur licence le matin même du tournoi ». Que répond le JA ?
+- C'est possible si la licence est validée avant le premier match du joueur
++ Ce n'est pas conforme : les joueurs doivent être licenciés au plus tard la veille du premier jour de compétition
+- C'est possible pour les joueurs non classés
+- C'est possible si le GEO l'accepte
+> RGC 2.12.1 : les participants doivent être licenciés au plus tard la veille du premier jour de compétition (ou à une date plus précoce fixée par les règlements complémentaires).
+
+Q av-015 | D: 2 | R: 03.01 3.1.6
+Le règlement particulier prévoit que les droits d'inscription seront remboursés pour tout désistement signalé jusqu'à 48 heures avant le tournoi, même sans justificatif. Est-ce permis ?
++ Oui : les règlements complémentaires peuvent prévoir le remboursement dans d'autres cas que ceux du RGC
+- Non : après la date limite d'inscription, seul un cas de force majeure justifié permet le remboursement
+- Non : les droits d'inscription ne sont jamais remboursables
+- Oui, mais uniquement sur décision du juge-arbitre le jour du tournoi
+> RGC 3.1.6 : les droits sont remboursables en cas de désistement avant la date limite d'inscription ; passé ce délai, seulement en cas de force majeure dûment justifiée ; toutefois, les règlements complémentaires peuvent prévoir en outre le remboursement dans d'autres cas.
+
+Q av-016 | D: 2 | R: 03.01 3.2.1.4
+L'organisateur craint que le tableau DD « D7-D9 » soit peu rempli et souhaite pouvoir le fusionner avec le DD « R4-R6 ». Que lui indique le JA ?
+- Il pourra décider la fusion le jour du tirage au sort si nécessaire
++ La possibilité de fusion doit être consignée dans le règlement particulier et connue des joueurs avant l'inscription
+- La fusion est interdite dans tous les cas
+- La fusion est possible avec l'accord écrit de la majorité des paires concernées
+> RGC 3.2.1.4 : deux tableaux ne peuvent être fusionnés que si cette possibilité, consignée dans les règlements complémentaires, a été portée à la connaissance des joueurs avant l'inscription. L'annexe 02 prévoit de mentionner « le cas échéant, la possibilité de fusion de tableaux ».
+
+Q av-017 | D: 2 | R: REGLES Instr. 3.2.4.1 | T: instructions
+Le juge-arbitre reçoit le projet de règlement particulier d'un tournoi qu'il dirigera. Quelle vérification les instructions aux officiels techniques lui demandent-elles en premier lieu ?
++ Vérifier que le règlement particulier contient toutes les informations requises
+- Vérifier que le règlement particulier reprend mot pour mot celui de l'édition précédente
+- Vérifier uniquement le montant des droits d'engagement
+- Vérifier que le règlement particulier a déjà été publié sur internet
+> Instruction 3.2.4 : le juge-arbitre approuve le règlement particulier avant sa publication ; 3.2.4.1 : il doit vérifier que celui-ci contient toutes les informations requises.
+
+Q av-018 | D: 2 | R: 03.01.A14 2.2 | T: annexes
+Le JA valide le règlement particulier d'un tournoi nocturne. Quelle mention propre à ce type de compétition doit y figurer ?
+- La liste des joueurs autorisés à jouer après minuit
++ Les horaires cadre de la rencontre
+- L'accord écrit de la mairie
+- Le nombre de matchs par joueur et par heure
+> Annexe 14, art. 2.2 : l'ensemble des règlements fédéraux est applicable aux rencontres nocturnes ; le règlement particulier devra mentionner les horaires cadre de la rencontre.
+
+Q av-019 | D: 2 | R: 03.01 2.19
+Le règlement particulier désigne un volant officiel (les volants ne sont pas fournis par l'organisateur), mais aucun point de vente n'est prévu dans la salle. Que doit demander le JA ?
+- Rien : les joueurs doivent apporter leurs propres volants
++ Que les joueurs puissent se procurer le volant officiel sur les lieux de compétition
+- Que l'organisateur fournisse gratuitement tous les volants
+- Que le volant officiel soit supprimé du règlement particulier
+> RGC 2.19 : lorsque les volants ne sont pas fournis par l'organisateur, un volant officiel est désigné dans les règlements complémentaires ; les joueurs doivent pouvoir se le procurer sur les lieux de compétition et il est utilisé en cas de désaccord entre eux.
+
+Q av-020 | D: 2 | R: 03.01 2.19
+Pour savoir si un tournoi doit se jouer avec des volants d'une catégorie de classement particulière (élite, standard…), quel document le JA consulte-t-il ?
++ Le « cadre d'utilisation des volants » publié chaque année par la Fédération
+- La notice du fabricant du volant officiel
+- Le rapport du JA de l'édition précédente
+- Le règlement intérieur du club organisateur
+> RGC 2.19 : la Fédération publie annuellement la liste des volants classés et celle des compétitions requérant des volants d'une certaine catégorie (« cadre d'utilisation des volants »).
+
+Q av-021 | D: 2 | R: 03.01 2.20
+Le règlement particulier et l'invitation annoncent 1 500 € de prix. Quinze jours avant le tournoi, l'organisateur veut ramener la dotation à 400 € en lots. Que rappelle le JA ?
+- Rien : la valeur des récompenses est libre jusqu'au jour J
++ Les récompenses effectivement distribuées doivent au moins atteindre l'ordre de grandeur annoncé
+- Il suffit de prévenir la ligue la veille
+- Les prix en espèces sont interdits dans tous les tournois
+> RGC 2.20 : la valeur des récompenses de chaque tableau doit être mentionnée, au moins approximativement, dans la demande d'autorisation et l'invitation ; les récompenses effectivement distribuées doivent au moins atteindre l'ordre de grandeur annoncé.
+
+Q av-022 | D: 1 | R: 03.01 2.8.1
+L'organisateur a publié l'échéancier et l'ordre des matchs sans les soumettre au juge-arbitre. Que prévoit le RGC ?
+- L'échéancier relève du seul GEO
++ C'est le juge-arbitre qui valide le programme de la compétition, l'échéancier et l'ordre des matchs
+- L'échéancier est validé par la ligue
+- L'échéancier n'a pas besoin d'être validé puisqu'il est indicatif
+> RGC 2.8.1 : le juge-arbitre valide le programme de la compétition (nombre et forme des tableaux…) ainsi que l'échéancier et l'ordre des matchs.
+
+Q av-023 | D: 2 | R: 03.01 2.8.1
+Avant la compétition, quelles décisions relèvent du juge-arbitre selon le RGC ? (plusieurs réponses)
++ Valider la liste des arbitres, des juges de service et des juges de ligne
++ Décider de la vitesse des volants à utiliser
+- Fixer le montant des droits d'inscription
+- Choisir la salle de la compétition
+> RGC 2.8.1 : le juge-arbitre valide la liste des arbitres, des juges de service et des juges de ligne et décide de la vitesse des volants. Les droits d'inscription sont fixés par l'organisateur (RGC 2.14).
+
+# ---------------------------------------------------------------- Autorisation du tournoi et désignation du JA
+
+Q av-024 | D: 2 | R: 03.02 2.4.1 | T: tournois
+Un club prévoit son tournoi le dimanche 14 mars 2027. Au plus tard à quelle date doit-il déposer sa demande d'autorisation sur Poona ?
+- Le 14 février 2027
+- Le 14 janvier 2027
++ Le 14 décembre 2026
+- Le 14 novembre 2026
+> 03.02 art. 2.4.1 : la demande est établie sur Poona 90 jours avant la date de la compétition, accompagnée du règlement particulier. Du 14 mars au 14 février : 28 jours (février 2027 n'est pas bissextile) ; au 14 janvier : 59 ; au 14 décembre 2026 : 90 jours.
+
+Q av-025 | D: 2 | R: 03.02 2.4.2 | T: tournois
+Dans Poona, une demande d'autorisation de tournoi a été déposée par le club. Quelle étape précède le passage au statut « validation ligue » ?
++ La validation par le ou les juges-arbitres désignés
+- La validation par le GEO principal
+- La publication de l'invitation
+- Le paiement de la participation fédérale
+> 03.02 art. 2.4.2 : après validation du ou des juges-arbitres, la demande passe au statut « validation ligue » puis « validation fédérale », selon le niveau du tournoi.
+
+Q av-026 | D: 2 | R: 03.02 2.4.3 | T: tournois
+Quelle instance est compétente pour autoriser un tournoi réservé aux catégories jeunes, et dans quel délai doit-elle valider une demande complète ?
+- La Fédération, sous 30 jours
++ La ligue, sous 15 jours
+- Le comité départemental, sous 15 jours
+- La ligue, sous 90 jours
+> 03.02 art. 2.4.3 : pour les niveaux Promotion, Départemental ou Régional et les catégories jeunes et vétérans, la ligue est compétente et doit valider la demande dans les 15 jours.
+
+Q av-027 | D: 2 | R: 03.02 2.4.4 | T: tournois
+Un tournoi n'est ouvert qu'aux joueurs de niveau National (aucun autre niveau). Dans quel délai la Fédération doit-elle valider la demande d'autorisation complète ?
++ Dans les 15 jours
+- Dans les 15 jours suivant la validation de la ligue
+- Dans les 30 jours
+- Dans les 90 jours
+> 03.02 art. 2.4.4 : pour le niveau National, la Fédération valide dans les 15 jours si la compétition ne comporte pas d'autres niveaux, et dans les 15 jours suivant la validation ligue si elle en comporte d'autres.
+
+Q av-028 | D: 3 | R: 03.02 2.3.4 | T: tournois
+Un club veut désigner comme JA principal de son tournoi départemental (joueurs D et P) un JALA licencié dans le club. Est-ce possible ?
+- Oui : le niveau départemental n'impose aucune condition d'appartenance
++ Non : le JA principal ne doit pas appartenir au club organisateur ; l'exception de l'article 2.3.4 ne vise qu'un JALC
+- Oui, si un GEO 2 est présent
+- Oui, si le JALA a plus de deux ans d'ancienneté
+> 03.02 art. 2.3.1 : le juge-arbitre ne doit pas appartenir au club organisateur. Art. 2.3.4 : seul un JALC peut officier en tant que JA principal sur des compétitions organisées par son propre club (niveau géographique d'invitation national maximum, joueurs R4 maximum, présence d'un GEO 2 ou GEO 1 promo).
+
+Q av-029 | D: 3 | R: 03.02 2.3.1 | T: tournois
+Le tirage au sort d'un tournoi a eu lieu le 2 décembre. Le JA désigné n'a renouvelé sa licence que le 5 décembre, deux jours avant le tournoi. Que prévoit le règlement des tournois ?
+- Rien : un officiel doit seulement être licencié le premier jour de la compétition
++ La condition n'est pas remplie : le juge-arbitre doit obligatoirement être licencié à la date du tirage au sort
+- C'est admis s'il était licencié la saison précédente
+- C'est admis si le GEO est licencié
+> 03.02 art. 2.3.1 : le juge-arbitre (comme ses adjoints et le GEO) doit obligatoirement être licencié à la date du tirage au sort. Le RGC 2.8.2 fixe une limite générale (premier jour de la compétition), mais permet une date antérieure fixée par un règlement.
+
+Q av-030 | D: 2 | R: 03.02 2.3.2 | T: tournois
+Un tournoi se déroule dans trois salles : une de 7 terrains, une de 5 terrains et une de 4 terrains. Quelle organisation minimale du juge-arbitrage faut-il prévoir ?
+- Un JA principal et un JA adjoint
++ Un JA principal et deux JA adjoints
+- Un JA principal et trois JA adjoints
+- Un JA principal seul, puisque aucune salle ne dépasse 7 terrains
+> 03.02 art. 2.3.2 : lorsque le tournoi se déroule sur plusieurs salles, il y a autant de juges-arbitres adjoints que de salles supplémentaires ; ici deux salles supplémentaires, donc deux adjoints.
+
+Q av-031 | D: 2 | R: 03.02 2.3.1 | T: tournois
+Parmi ces éléments, lesquels font partie des critères d'autorisation d'un tournoi ? (plusieurs réponses)
++ La procédure de confection des tableaux, les horaires et l'arbitrage prévu
++ La désignation d'un volant officiel
++ La conformité du règlement particulier du tournoi
+- Le nombre de spectateurs attendus
+> 03.02 art. 2.3.1 : l'autorisation repose notamment sur la date de dépôt de la demande, la désignation du GEO et du JA, la procédure de confection des tableaux, les horaires, l'arbitrage prévu, la conformité du règlement particulier et la désignation d'un volant officiel.
+
+Q av-032 | D: 2 | R: 03.02 3.1.2 | T: tournois
+Après l'autorisation, l'organisateur veut ajouter un tableau de double mixte et changer de volant officiel sans rien déclarer. Que lui rappelle le JA ?
+- Rien : ces éléments sont libres une fois le tournoi autorisé
++ L'homologation suppose le respect des éléments indiqués dans la demande d'autorisation (nombre et type des tableaux, volant officiel…)
+- Seul le changement de volant doit être déclaré
+- Ces modifications relèvent uniquement du juge-arbitre le jour du tournoi
+> 03.02 art. 3.1.2 : pour être homologué, un tournoi doit notamment respecter les éléments indiqués dans la demande d'autorisation (nombre et type des tableaux, nom du juge-arbitre, volant officiel, etc.).
+
+Q av-033 | D: 1 | R: 03.02 2.5.2 | T: tournois
+Le tournoi a été autorisé par la ligue. Le président du club estime que la ligue est désormais responsable de l'organisation. Qu'en est-il ?
+- La ligue devient responsable de l'organisation
++ L'autorisation ne dégage en aucune façon l'organisateur de sa responsabilité en tant que tel
+- La responsabilité est transférée au juge-arbitre
+- La responsabilité est partagée à parts égales avec la Fédération
+> 03.02 art. 2.5.2 : l'autorisation d'un tournoi ne dégage en aucune façon l'organisateur de la responsabilité qui est la sienne en tant que tel, dans le respect des principes du droit commun.
+
+Q av-034 | D: 2 | R: 03.03 3.1.3 | T: tournois
+Un club demande l'autorisation d'une exhibition (compétition non officielle). L'instance compétente ne répond pas. Quand l'autorisation est-elle réputée acquise ?
+- Immédiatement, ce type de manifestation n'étant pas soumis à autorisation
++ Par accord tacite, 30 jours après réception de la demande (preuve de la date à la charge du demandeur)
+- 15 jours après l'envoi de la demande
+- Jamais : une réponse écrite est obligatoire
+> 03.03 art. 3.1.3 : l'autorisation est considérée comme acquise par accord tacite en cas de non-réponse de l'instance compétente dans les 30 jours suivant réception de la demande ; la preuve de la date de réception incombe au demandeur.
+
+Q av-035 | D: 2 | R: 03.03 4.1.1 | T: tournois
+Une exhibition doit réunir des joueurs d'une autre ligue et un joueur classé parmi les 10 premiers du classement national. À qui la demande d'autorisation est-elle adressée ?
+- À la seule ligue régionale de l'organisateur
++ À la FFBaD, par l'intermédiaire de la ligue compétente
+- Au comité départemental
+- Au club de chaque joueur invité
+> 03.03 art. 4.1.1 : la demande est adressée à la FFBaD, par l'intermédiaire de la ligue compétente, lorsqu'on prévoit la participation de joueurs d'une fédération étrangère, d'une autre ligue, ou figurant sur une liste nationale de haut niveau ou parmi les 10 premiers du classement national ; sinon à la ligue de l'organisateur.
+
+Q av-036 | D: 2 | R: 03.03 4.1.3 | T: tournois
+Quelle mention doit figurer sur les affiches, programmes et invitations d'une compétition non officielle autorisée ?
++ « Compétition autorisée par la Fédération Française de Badminton »
+- « Compétition homologuée pour le classement »
+- Le numéro de dossier Poona du tournoi
+- Le nom du juge-arbitre désigné
+> 03.03 art. 4.1.3 : la mention « Compétition autorisée par la Fédération Française de Badminton » doit figurer sur tous les documents publics édités à l'occasion de la manifestation.
+
+Q av-037 | D: 2 | R: 03.03 4.1.2 | T: tournois
+Que doit mentionner la demande d'autorisation d'une compétition non officielle ?
+- Uniquement la date et le lieu
++ Les noms des joueurs à inviter (ou le nom du club s'il s'agit d'inviter une équipe), toute modification ultérieure faisant l'objet d'une demande complémentaire
+- La liste des arbitres et des juges de ligne
+- Le montant des recettes prévues
+> 03.03 art. 4.1.2 : la demande mentionne les noms des joueurs à inviter (ou du club ou autre organisme pour une équipe) ; toute modification ultérieure des invitations doit faire l'objet d'une demande complémentaire. Elle est faite par écrit, sur papier libre (art. 4.1.1).
+
+Q av-038 | D: 2 | R: 06.02.A01 | T: filiere
+Un JALA est sollicité comme juge-arbitre principal d'un tournoi sans arbitre, joueurs R et D, dans une seule salle de 9 terrains. Peut-il accepter ?
+- Oui, le grade JALA n'est pas limité en nombre de terrains
++ Non : le JALA est limité à une salle de 7 terrains au maximum
+- Oui, à condition d'être assisté d'un GEO
+- Oui, si aucun joueur n'est classé N
+> 06.02.A01 : le JALA officie sur des compétitions avec des joueurs de niveau N2 maximum, dans 1 salle de 7 terrains au maximum ; en multisalles, il ne peut intervenir que comme juge-arbitre adjoint.
+
+Q av-039 | D: 2 | R: 06.02.A01 | T: filiere
+Un tournoi se déroule dans deux salles (5 et 4 terrains). Quel rôle un JALA peut-il y tenir ?
+- Juge-arbitre principal dans la salle de 5 terrains
++ Uniquement juge-arbitre adjoint
+- Aucun : le JALA ne peut pas officier en multisalles
+- Juge-arbitre principal, s'il n'y a pas d'arbitres
+> 06.02.A01 : en multisalles, une intervention du JALA est possible uniquement comme juge-arbitre adjoint.
+
+Q av-040 | D: 2 | R: 06.02 4.4.4 | T: filiere | L: JALC JAFA JAFC
+Lors de l'examen de juge-arbitre fédéral accrédité, sur quoi porte l'évaluation du certificateur ?
++ Sur la préparation en amont et tout au long de la compétition, complétée par un contrôle oral des connaissances
+- Uniquement sur le rapport rédigé après la compétition
+- Uniquement sur la gestion de la journée des finales
+- Uniquement sur un questionnaire écrit passé la veille
+> 06.02 art. 4.4.4 : le certificateur évalue la préparation en amont et tout au long de la compétition ; l'examen est complété par un contrôle oral des connaissances, qui peut se faire tout au long de la certification.
+
+# ---------------------------------------------------------------- Invitation et convocation
+
+Q av-041 | D: 2 | R: 03.01.A01 1 | T: annexes
+À la publication de l'invitation, le JA principal est connu mais ses adjoints ne sont pas encore désignés. L'invitation est-elle conforme ?
++ Oui : l'invitation doit comporter le nom du juge-arbitre et, si possible, de ses adjoints
+- Non : tous les juges-arbitres doivent être nommés dans l'invitation
+- Non : aucun nom d'officiel ne doit figurer dans l'invitation
+- Oui, mais seulement si le GEO n'est pas nommé non plus
+> Annexe 01 du RGC : l'invitation doit inclure le nom du juge-arbitre et, si possible, de ses adjoints, ainsi que le nom du GEO en charge de la compétition.
+
+Q av-042 | D: 2 | R: 03.01.A01 1 | T: annexes
+L'organisateur n'a pas encore finalisé les plans d'accès et les informations d'hébergement au moment de publier l'invitation. Que permet l'annexe 01 ?
+- De ne jamais les communiquer
++ De les diffuser également avec la convocation
+- De les afficher seulement dans la salle le jour J
+- De les remplacer par le numéro de téléphone du GEO
+> Annexe 01 du RGC : les plans d'accès et informations utiles concernant l'accueil (hébergement, restauration, transport) peuvent également être diffusés avec la convocation (cf. annexe 03).
+
+Q av-043 | D: 1 | R: 03.01.A01 1 | T: annexes
+Concernant les inscriptions, que doit préciser l'invitation à un tournoi ? (plusieurs réponses)
++ Les modalités d'inscription
++ Les dates et heures d'ouverture et de fermeture des inscriptions
+- La liste des joueurs déjà inscrits
+- Le classement des têtes de série
+> Annexe 01 du RGC : l'invitation inclut notamment les modalités d'inscriptions ainsi que les dates et heures d'ouverture et fermeture des inscriptions.
+
+Q av-044 | D: 2 | R: 03.01.A01 2 | T: annexes
+Quand l'import numérique des informations de la base fédérale, nécessaire à l'affichage d'une compétition, devient-il disponible ?
++ Dès que la ligue ou la Fédération, selon le niveau des joueurs, valide la demande
+- Dès le dépôt de la demande par le club
+- Le jour du tirage au sort
+- Après l'homologation du tournoi
+> Annexe 01, art. 2 : l'affichage d'une compétition doit récupérer par import numérique les informations de Poona ; cet import est immédiatement disponible lorsque la ligue ou la fédération, en fonction du niveau des joueurs, valide la demande.
+
+Q av-045 | D: 2 | R: 03.01.A03 1 | T: annexes
+Un joueur a demandé à l'organisateur de lui réserver une chambre. Que doit contenir sa convocation, outre la confirmation de ses tableaux, ses horaires et les plans ?
+- Rien de plus : l'hébergement ne relève pas de la convocation
++ Le cas échéant, l'hébergement retenu à sa demande
+- Le règlement intérieur de l'hôtel
+- La facture des droits d'inscription
+> Annexe 03 du RGC : la convocation comporte la confirmation de l'inscription (séries, disciplines), l'heure de convocation et l'heure prévue du premier match, les adresses et plans utiles et, le cas échéant, l'hébergement retenu à leur demande.
+
+Q av-046 | D: 2 | R: 03.01.A03 1 | T: annexes
+Quelles heures la convocation doit-elle indiquer à chaque joueur retenu ?
+- Seulement l'heure d'ouverture de la salle
++ L'heure de convocation dans la salle et l'heure prévue de son premier match
+- L'heure de chacun de ses matchs jusqu'à la finale
+- L'heure de la remise des récompenses
+> Annexe 03 du RGC : la convocation indique l'heure de convocation dans la salle et l'heure prévue du premier match.
+
+Q av-047 | D: 3 | R: 03.01 2.12.3.3
+Un joueur inscrit à un tournoi A (samedi et dimanche) souhaite jouer le samedi un tableau d'un tournoi B programmé ce seul jour. Ses tableaux du tournoi A sont prévus sur les deux jours. Quel document peut lui permettre de le faire ?
++ Une convocation officielle du tournoi A ne le convoquant qu'à partir du dimanche
+- Une attestation sur l'honneur du joueur
+- Un accord oral du GEO du tournoi B
+- Un certificat médical
+> RGC 2.12.3.3 : le joueur inscrit à une compétition sur plusieurs jours consécutifs peut participer à un tableau d'une autre compétition programmé sur un seul jour si ses tableaux ne sont programmés que sur un seul jour, ou s'il reçoit une convocation officielle ne le convoquant qu'à partir du jour concerné (instance, lieu et JA devant être différents).
+
+Q av-048 | D: 3 | R: 03.01 2.12.3.3
+Pour qu'un joueur puisse disputer le samedi un tableau d'un tournoi A et le dimanche un tableau d'un tournoi B (chaque tableau ne se jouant que ce jour-là), quelles conditions doivent être réunies entre les deux tournois ? (plusieurs réponses)
++ L'instance organisatrice doit être différente
++ Le lieu de déroulement doit être différent
++ Le juge-arbitre doit être différent
+- Les deux tournois doivent être de même niveau
+> RGC 2.12.3.3 : l'instance organisatrice (ou délégataire de l'organisation), le lieu de déroulement et le juge-arbitre doivent être différents.
+
+Q av-049 | D: 3 | R: 03.01 2.12.3.2
+Le tournoi A se joue samedi et dimanche, ses qualifications le vendredi soir. Le tournoi B se joue uniquement le vendredi. Ces deux compétitions se chevauchent-elles ?
+- Non : seules les dates du tableau principal comptent
++ Oui : les échéanciers publiés ont un jour commun, qualifications incluses
+- Non, si le joueur ne dispute pas les qualifications
+- Oui, mais seulement si le même juge-arbitre officie sur les deux
+> RGC 2.12.3.2 : on entend par chevauchement le fait que les deux compétitions aient au moins un jour commun dans leurs échéanciers publiés respectifs, qualifications incluses.
+
+Q av-050 | D: 2 | R: 03.01 2.12.3.3
+Les inscriptions d'un tournoi A sont closes le 10 mars à minuit. Un joueur annule son inscription le 11 mars pour s'inscrire à un tournoi B aux mêmes dates. Est-ce possible ?
+- Oui, puisqu'il a annulé avant le tirage au sort
++ Non : inscrit et non annulé à minuit le jour de la clôture, il est considéré comme inscrit au tournoi A
+- Oui, s'il paie ses droits au tournoi A
+- Oui, si le JA du tournoi A l'accepte
+> RGC 2.12.3.3 : pour l'application de la règle des compétitions se chevauchant, un joueur est considéré comme inscrit si l'inscription a été effectuée et non annulée à minuit le jour de la clôture des inscriptions.
+
+# ---------------------------------------------------------------- Inscriptions
+
+Q av-051 | D: 1 | R: 03.01 2.13
+Un joueur appelle le GEO pour s'inscrire oralement par téléphone. Cette inscription est-elle valable ?
+- Oui, si le GEO la note dans le logiciel
++ Non : l'inscription doit être effectuée par écrit (courriels et inscriptions en ligne inclus si les règlements complémentaires le prévoient)
+- Oui, si le joueur paie le jour même
+- Oui, pour les joueurs non classés seulement
+> RGC 2.13 : l'inscription d'un joueur doit être effectuée par écrit (courriels et inscriptions en ligne inclus, à condition que les règlements complémentaires le prévoient expressément).
+
+Q av-052 | D: 2 | R: 03.01 3.1.4
+Une inscription parvient deux jours après la date limite fixée par le règlement particulier. Le tournoi n'est pas complet. Que prévoit le RGC ?
++ L'inscription peut être refusée pour non-respect des modalités exposées dans les règlements complémentaires
+- Elle doit obligatoirement être acceptée tant qu'il reste des places
+- Elle doit être acceptée si le joueur paie double tarif
+- Seule la ligue peut décider de la refuser
+> RGC 3.1.4 : l'inscription peut être refusée pour non-respect des modalités exposées dans les règlements complémentaires ; RGC 2.13 : l'inscription doit être effectuée dans les délais.
+
+Q av-053 | D: 1 | R: 03.01 2.14
+À quel moment les droits d'inscription d'un tournoi sont-ils exigibles ?
++ Dès l'inscription
+- Le jour de la compétition, à la table de marque
+- Après la publication des tableaux
+- Après le premier match du joueur
+> RGC 2.14 : les droits d'inscription sont fixés par l'organisateur ; ils sont exigibles dès l'inscription et sont en principe personnels et non transférables.
+
+Q av-054 | D: 2 | R: 03.01 3.1.6
+Un joueur se désiste après la date limite d'inscription pour une obligation professionnelle impérieuse, attestation de son employeur à l'appui. Ses droits sont-ils remboursables ?
++ Oui : c'est un cas de force majeure dûment justifié par une attestation appropriée
+- Non : après la date limite, seule une blessure ouvre droit au remboursement
+- Non : les droits ne sont jamais remboursés après la date limite
+- Oui, mais seulement si un remplaçant est trouvé
+> RGC 3.1.6 : passé la date limite, les droits ne sont remboursables qu'en cas de force majeure (blessure, maladie, raison professionnelle ou personnelle impérieuse…) dûment justifiée par une attestation appropriée (certificat médical, attestation de l'employeur…).
+
+Q av-055 | D: 2 | R: 03.01 3.1.1
+Un joueur classé R5 en simple et en double veut s'inscrire en simple dans le tableau R et en double dans le tableau N d'un même tournoi. Le règlement particulier ne prévoit aucune limitation. Est-ce possible ?
++ Oui : l'interdiction de deux séries différentes ne vaut que dans la même discipline, et il peut jouer dans une série supérieure
+- Non : un joueur doit jouer toutes ses disciplines dans la même série
+- Non : un joueur ne peut jamais s'inscrire dans une série supérieure
+- Oui, avec l'accord de la ligue
+> RGC 3.1.1 : un joueur peut s'inscrire dans la série de son propre classement ou dans une série supérieure ; dans une compétition fédérale ou un tournoi, il ne peut s'inscrire, dans la même discipline, dans deux séries différentes. Les règlements complémentaires peuvent limiter le nombre de séries.
+
+Q av-056 | D: 2 | R: 03.01 3.1.3
+Une joueuse cadette veut jouer le simple dames du tableau cadettes et le double dames du tableau juniors d'un tournoi jeunes. Est-ce permis ?
++ Oui : elle joue dans sa catégorie ou une catégorie supérieure, et dans deux disciplines différentes
+- Non : elle doit jouer toutes ses disciplines dans la même catégorie
+- Non : une cadette ne peut pas jouer en juniors
+- Oui, seulement si le tableau cadettes en double n'existe pas
+> RGC 3.1.3 : un joueur a le droit de s'inscrire dans sa catégorie d'âge ou dans une catégorie d'âge supérieure ; l'interdiction de deux catégories d'âge différentes ne vaut que dans la même discipline.
+
+Q av-057 | D: 2 | R: 03.01 3.1.3
+Le projet de règlement particulier d'un tournoi seniors ouvre ses tableaux « à partir de la catégorie benjamins ». Que doit corriger le JA ?
+- Rien : tout jeune peut jouer dans une catégorie supérieure
++ Les tableaux seniors des tournois ne peuvent être ouverts qu'à partir de la catégorie minime
+- Les tableaux seniors ne peuvent être ouverts qu'à partir de la catégorie cadet
+- Les tableaux seniors ne peuvent être ouverts qu'aux juniors et seniors
+> RGC 3.1.3 : un joueur peut s'inscrire dans une catégorie d'âge supérieure ; toutefois, les tableaux seniors des tournois ne peuvent être ouverts qu'à partir de la catégorie d'âge minime.
+
+Q av-058 | D: 2 | R: 03.01 2.15
+Un club inscrit quatre cadets. Leur entraîneur ne sera présent que le samedi ; le dimanche, un parent d'un des joueurs les accompagnera. Que faut-il prévoir ?
+- Rien : les cadets peuvent rester seuls dans la salle le dimanche
++ Chaque mineur doit être placé en permanence sous la responsabilité d'un adulte connu du JA et disposant d'une autorisation délivrée par l'autorité parentale, y compris le dimanche
+- Il suffit que l'entraîneur signe une décharge le samedi
+- Le juge-arbitre devient responsable des mineurs le dimanche
+> RGC 2.15 : chaque participant mineur doit être placé, explicitement et en permanence, sous la responsabilité d'un adulte responsable, connu du juge-arbitre et disposant d'une autorisation délivrée par l'autorité parentale.
+
+Q av-059 | D: 2 | R: 03.01 2.12.2
+Un joueur licencié dans une fédération étrangère s'inscrit lui-même à un tournoi. Quel justificatif doit accompagner son engagement ?
++ Un document attestant qu'il est en règle avec sa fédération
+- Une licence FFBaD temporaire
+- Une lettre de recommandation de son club
+- Aucun, s'il possède un passeport européen
+> RGC 2.12.2 : l'engagement d'un joueur dépendant d'une fédération étrangère est soumis à la production d'un document attestant qu'il est en règle avec ladite fédération ; cette attestation n'est pas nécessaire si les inscriptions sont effectuées directement par la fédération concernée.
+
+Q av-060 | D: 3 | R: 03.06 5.3 | T: joueurs
+Un joueur étranger s'inscrit dans un tableau de simple dont le meilleur joueur français a une cote de 1 450 points. Le JA lui attribue une série et des points de reclassement. Quelle contrainte respecte-t-il ?
+- Il lui attribue d'office la cote minimale
++ Les points attribués ne peuvent pas être supérieurs à ceux du meilleur français du tableau, soit 1 450
+- Il doit lui attribuer au moins 1 450 points pour en faire la tête de série n° 1
+- Il reprend le classement de la fédération étrangère sans contrainte
+> 03.06 art. 5.3 : les joueurs affiliés à une autre fédération sont enregistrés dans des clubs fictifs ; ils se voient attribuer une série avec ses points de reclassement par le JA ou le GEO ; les points attribués ne peuvent pas être supérieurs au meilleur français du tableau.
+
+Q av-061 | D: 2 | R: 03.01 2.12.4
+Un club veut organiser une compétition réservée à des joueurs qu'il invite lui-même. Est-ce possible ?
++ Oui : certaines compétitions peuvent être limitées à des joueurs invités par le comité d'organisation, sous le contrôle des commissions compétitions compétentes
+- Non : toute compétition doit être ouverte à tous les licenciés
+- Oui, sans aucun contrôle fédéral
+- Oui, mais seulement pour des compétitions par équipes
+> RGC 2.12.4 : certaines compétitions peuvent être limitées à des joueurs ou des équipes invitées par le comité d'organisation, sous le contrôle des commissions compétitions compétentes.
+
+Q av-062 | D: 3 | R: 03.01 3.2.5.1
+Après le tirage mais avant la publication des tableaux, un joueur du simple se désiste. Le premier de la liste d'attente a un niveau qui en ferait une tête de série et obligerait à refaire le placement de plusieurs joueurs. Que prévoit le RGC ?
+- Le remplacement est toujours de droit avant la publication
++ Le remplacement n'est possible que s'il ne fausse pas le tableau ni n'entraîne d'autres modifications importantes génératrices de difficultés pratiques
+- Le remplacement est interdit avant la publication des tableaux
+- Le joueur de la liste d'attente prend la place sans autre vérification
+> RGC 3.2.5.1 : avant la publication des tableaux, un joueur défaillant peut être remplacé par un autre à condition de ni fausser le tableau, ni entraîner d'autres modifications importantes génératrices de difficultés pratiques.
+
+# ---------------------------------------------------------------- Licences
+
+Q av-063 | D: 2 | R: 08.03 2.2 | T: joueurs
+Un joueur titulaire d'une licence estivale (prise en mai) s'inscrit à un tournoi du 19 septembre, sans avoir repris de licence pour la nouvelle saison. Peut-il jouer ?
+- Oui : la licence estivale vaut pour la saison suivante
++ Non : la licence estivale n'est valable que du 1er mai au 31 août
+- Oui, jusqu'au 30 septembre
+- Oui, s'il présente un certificat médical
+> 08.03 art. 2.2.1 : la licence estivale est temporaire, délivrée pour une durée de 4 mois courant du 1er mai au 31 août. Au-delà, le joueur doit être licencié pour la saison en cours (art. 8).
+
+Q av-064 | D: 2 | R: 08.03.A01 | T: joueurs
+Un joueur participe à une compétition avec un titre de participation évènementiel racketlon. Ses résultats figureront-ils au classement fédéral ?
+- Oui, comme pour une licence classique
++ Non : ce titre ouvre droit à la compétition mais pas au classement
+- Oui, mais avec un coefficient réduit
+- Oui, si le juge-arbitre l'autorise
+> 08.03 annexe 01 (tableau récapitulatif) : titre de participation évènementiel racketlon : compétition OUI, classement NON. 08.03 art. 3.3 : il est délivré uniquement pour la durée d'une compétition.
+
+Q av-065 | D: 3 | R: 08.03 5 | T: joueurs
+Un tournoi se joue samedi et dimanche. Le club d'un joueur a enregistré sa licence le vendredi, mais le paiement n'est validé que le samedi matin. Ce joueur peut-il jouer (sans date plus précoce dans le règlement particulier) ?
+- Oui : la licence a été enregistrée avant le premier jour
++ Non : il n'est licencié qu'à la validation du paiement, soit après la veille du premier jour de compétition
+- Oui, dès que le paiement est validé
+- Oui, mais seulement le dimanche
+> 08.03 art. 5 : l'adhérent est licencié à la date de validation du paiement effectif de la licence. RGC 2.12.1 : les participants doivent être licenciés au plus tard la veille du premier jour de compétition (ici le vendredi).
+
+Q av-066 | D: 1 | R: 08.03 8 | T: joueurs
+Un inscrit possède uniquement un titre de participation qui ne permet pas la compétition pour la saison en cours. Que prévoit le règlement des licences ?
++ Il ne peut participer à aucune épreuve organisée par une association affiliée, un comité, une ligue ou la Fédération
+- Il peut participer s'il est accompagné d'un licencié
+- Il peut participer s'il ne joue qu'un tableau
+- Il peut participer mais ne sera pas classé
+> 08.03 art. 8 : nul, s'il ne possède une licence permettant la compétition pour la saison sportive en cours, ne peut participer à une épreuve organisée par une association affiliée, un comité, une ligue ou la Fédération elle-même.
+
+# ---------------------------------------------------------------- Catégories d'âge (saison 2026-2027)
+
+Q av-067 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : une joueuse née en 2013 souhaite s'inscrire au simple dames seniors d'un tournoi. Que vérifie le JA ?
++ Elle est minime (née en 2013 ou 2014) : l'inscription en seniors est possible
+- Elle est benjamine : l'inscription en seniors est impossible
+- Elle est cadette : l'inscription est possible
+- Elle est minime : l'inscription en seniors est impossible
+> 02.04.A01 : en 2026-2027, les minimes sont nés en 2013 et 2014. RGC 3.1.3 : les tableaux seniors des tournois peuvent être ouverts à partir de la catégorie minime.
+
+Q av-068 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : un joueur né en 2016 demande à jouer dans le tableau seniors d'un tournoi. Que répond le JA ?
+- C'est possible : il est minime
++ C'est impossible : il est benjamin, et les tableaux seniors ne sont ouverts qu'à partir de minime
+- C'est possible avec une autorisation parentale
+- C'est impossible : il est poussin
+> 02.04.A01 : en 2026-2027, les benjamins sont nés en 2015 et 2016. RGC 3.1.3 : les tableaux seniors des tournois ne peuvent être ouverts qu'à partir de la catégorie minime.
+
+Q av-069 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : dans quelle catégorie d'âge joue un joueur né en 2008 ?
+- Junior
++ Senior
+- Cadet
+- Vétéran
+> 02.04.A01 : en 2026-2027, les seniors sont nés entre 1992 et 2008 inclus ; les juniors sont nés en 2009 et 2010.
+
+Q av-070 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : un joueur né en 1991 s'inscrit au tableau seniors d'un tournoi par catégories d'âge. Dans quelle catégorie est-il ?
+- Senior
++ Vétéran 1
+- Vétéran 2
+- Senior jusqu'au 1er janvier, puis vétéran
+> 02.04.A01 : en 2026-2027, les vétérans sont nés en 1991 et avant ; les Vétérans 1 sont nés de 1987 à 1991.
+
+Q av-071 | D: 2 | R: 03.01 3.1.3
+Saison 2026-2027 : un joueur né en 1975 (Vétéran 4) consulte les tableaux d'un tournoi vétérans. Dans quels tableaux de simple peut-il s'inscrire ? (plusieurs réponses)
++ Le tableau V4
++ Le tableau V3
+- Le tableau V5
+- Le tableau V6
+> 02.04.A01 : en 2026-2027, les V4 sont nés de 1972 à 1976. RGC 3.1.3 : en compétitions vétérans, un joueur ne peut pas participer à un tableau d'une catégorie plus âgée ; un V5 peut disputer un tableau V4 ou plus jeune.
+
+Q av-072 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : à quelle catégorie de compétition vétérans appartient une joueuse née en 1962 ?
+- Vétéran 5
++ Vétéran 6
+- Vétéran 7
+- Vétéran 4
+> 02.04.A01 : en 2026-2027, les Vétérans 6 sont nés de 1962 à 1966 (V5 : 1967-1971 ; V7 : 1957-1961).
+
+Q av-073 | D: 2 | R: 02.04.A01 | T: joueurs
+Saison 2026-2027 : un tournoi propose un tableau poussins. Quelles années de naissance correspondent à cette catégorie ?
+- 2015 et 2016
++ 2017 et 2018
+- 2019 et après
+- 2016 et 2017
+> 02.04.A01 : en 2026-2027, les poussins sont nés en 2017 et 2018 (benjamins : 2015 et 2016 ; Minibad : 2019 et après). Les tableaux poussins se jouent sur un terrain aménagé (RGC 2.10, annexe 08).
+
+Q av-074 | D: 2 | R: 02.04 1.1.4 | T: joueurs
+Pour les catégories adultes (seniors, vétérans), à quelle date l'âge est-il apprécié ?
+- Au jour de la compétition
+- Au 1er septembre du début de la saison
++ Au 1er janvier inclus dans la saison en cours, à zéro heure
+- Au 1er janvier qui suit immédiatement la saison en cours
+> 02.04 art. 1.1.4 : pour les autres catégories que les jeunes, l'âge s'apprécie au 1er janvier inclus dans la saison en cours, à zéro heure (art. 1.1.3 : pour les jeunes, au 1er janvier qui suit immédiatement la saison en cours).
+
+Q av-075 | D: 2 | R: 03.01 4.3.2
+Une compétition par équipes est réservée à la catégorie minimes. Un club veut y aligner une joueuse benjamine et un joueur cadet. Que prévoit le RGC ?
++ La benjamine peut jouer, le cadet non : les joueurs ne peuvent être plus âgés que la catégorie concernée
+- Les deux peuvent jouer
+- Aucun des deux ne peut jouer
+- Le cadet peut jouer, la benjamine non
+> RGC 4.3.2 : dans le cas des jeunes, les joueurs d'une équipe ne peuvent être plus âgés que la catégorie concernée ; dans le cas des vétérans, ils ne peuvent être plus jeunes.
+
+# ---------------------------------------------------------------- Échéancier : durées moyennes, horaires limites, repos
+
+Q av-076 | D: 2 | R: 03.01.A07 | T: annexes
+Pour bâtir l'échéancier d'un tournoi départemental de 120 matchs sur 6 terrains, le JA retient la durée indicative de l'annexe 07 et enchaîne les matchs sans temps mort. Quelle durée de jeu théorique obtient-il, hors marges ?
+- 7 h 20
++ 8 h 40
+- 10 h 00
+- 4 h 20
+> Annexe 07 : niveau Départemental, 26 min en simple comme en double. 120 matchs / 6 terrains = 20 rotations ; 20 × 26 min = 520 min = 8 h 40. Le RGC 3.3.1.3 impose d'y ajouter des marges.
+
+Q av-077 | D: 3 | R: 03.01 2.16
+Un tournoi de niveau Promotion, ouvert à plusieurs ligues, se joue un samedi non suivi d'un jour férié : 150 matchs sur 5 terrains, premier match à 8 h 00. En retenant la durée indicative de l'annexe 07 (22 min), que doit conclure le JA ?
+- L'échéancier est confortable : la limite de fin est 21 h 00
++ L'échéancier n'est pas réaliste : sans aucune marge, il atteint déjà 19 h 00, heure limite de fin de la compétition
+- L'échéancier est conforme car seule l'heure du dernier match lancé compte
+- Il suffit d'appeler tous les matchs avec 60 minutes d'avance
+> 150 / 5 = 30 rotations × 22 min = 660 min = 11 h, soit une fin théorique à 19 h 00 sans marge. RGC 2.16 : une compétition ouverte à d'autres joueurs que ceux d'une seule ligue ne doit pas se terminer après 19 h 00 ; RGC 3.3.1.3 : l'horaire doit prévoir des marges.
+
+Q av-078 | D: 3 | R: 03.01.A07 | T: annexes
+Un tournoi départemental compte 176 matchs sur 8 terrains, premier match à 8 h 30. Avec la durée indicative de l'annexe 07 et sans temps mort, à quelle heure se termine théoriquement le dernier match ?
+- 17 h 06
++ 18 h 02
+- 19 h 30
+- 16 h 30
+> Annexe 07 : 26 min au niveau Départemental. 176 / 8 = 22 rotations ; 22 × 26 = 572 min = 9 h 32 ; 8 h 30 + 9 h 32 = 18 h 02. Il reste à prévoir les marges (RGC 3.3.1.3).
+
+Q av-079 | D: 3 | R: 03.01.A07 | T: annexes
+Une salle de 7 terrains est disponible de 8 h 00 à 19 h 00 pour un tournoi départemental. Le JA veut garder une heure de marge. Avec la durée indicative de l'annexe 07, combien de matchs au maximum peut-il programmer ?
+- 154
++ 161
+- 168
+- 175
+> 11 h - 1 h de marge = 600 min. Annexe 07 : 26 min par match au niveau Départemental ; 600 / 26 = 23 rotations complètes (23 × 26 = 598 min) ; 23 × 7 terrains = 161 matchs. Une 24e rotation (624 min) dépasserait.
+
+Q av-080 | D: 2 | R: 03.01.A07 | T: annexes
+Pour un tournoi de niveau Régional, quelles durées moyennes indicatives l'annexe 07 donne-t-elle ?
++ 26 à 30 minutes en simple et 26 à 33 minutes en double
+- 22 minutes dans toutes les disciplines
+- 30 à 33 minutes en simple et 30 à 37 minutes en double
+- 26 minutes dans toutes les disciplines
+> Annexe 07 (matchs en deux sets gagnants de 15 points) : Régional 26-30 min en simple, 26-33 min en double ; National 30-33 et 30-37 ; Départemental 26 ; Promotion 22.
+
+Q av-081 | D: 2 | R: 03.01 2.16
+Un joueur est inscrit en simple (poule de 5 puis tableau final de 8) et en double (poule unique de 3), tous programmés le samedi. Combien de matchs pourrait-il disputer au maximum ce jour-là, et qu'en conclut le JA ?
+- 7 matchs : la programmation est conforme
++ 9 matchs : la programmation doit être revue, aucun joueur ne devant jouer plus de 8 matchs par jour
+- 8 matchs : la programmation est conforme
+- 9 matchs : c'est admis si le temps de repos est respecté
+> Poule de 5 : 4 matchs ; tableau final de 8 : 3 matchs au maximum (quart, demi, finale) ; poule unique de 3 : 2 matchs ; total 9. RGC 2.16 : les matchs doivent être programmés de telle sorte qu'aucun joueur ne joue plus de 8 matchs par jour.
+
+Q av-082 | D: 2 | R: 03.01 2.16
+Le règlement particulier fixe le temps de repos à 30 minutes. Une demi-finale de double départemental est programmée à 15 h 00. En retenant la durée indicative de 26 minutes, à quelle heure au plus tôt le JA peut-il programmer la finale de ce tableau ?
+- 15 h 26
+- 15 h 46
++ 15 h 56
+- 16 h 30
+> Annexe 07 : 26 min au niveau Départemental, fin prévue à 15 h 26. RGC 2.16 : le temps de repos débute dès la fin du match précédent et se termine au début du match suivant ; 15 h 26 + 30 min = 15 h 56.
+
+Q av-083 | D: 1 | R: 03.01 3.3.1.1
+Un tournoi débute le samedi à 13 h 00. Au plus tard à quelle heure l'échéancier doit-il être porté à la connaissance des joueurs ?
+- 11 h 00
++ 12 h 00
+- 12 h 30
+- 13 h 00
+> RGC 3.3.1.1 : l'échéancier est porté à la connaissance des joueurs en même temps que la publication obligatoire des tableaux, une heure avant le début de la compétition (RGC 2.17 : au plus tard une heure avant).
+
+Q av-084 | D: 2 | R: 03.01 3.3.1.2
+Le JA prépare l'affichage de l'échéancier. De quelles réserves l'horaire doit-il être assorti ? (plusieurs réponses)
++ Il est indicatif
++ Les matchs pourront être appelés avec un maximum de 60 minutes d'avance
++ Les joueurs absents dans les 5 minutes suivant l'appel pourront être déclarés forfaits
+- Les matchs ne seront jamais lancés avant l'heure annoncée
+> RGC 3.3.1.2 : l'horaire est assorti des réserves suivantes : il est indicatif ; les matchs pourront être appelés avec un maximum de 60 minutes d'avance ; les joueurs qui ne se présentent pas dans les 5 minutes suivant l'appel pourront être déclarés forfaits.
+
+Q av-085 | D: 2 | R: 03.01 3.3.1.4
+Dans le projet d'échéancier du simple hommes (tableau de 32), quatre huitièmes de finale sont programmés à 10 h 00 et les quatre autres à 16 h 00. Que demande le JA ?
+- Rien : l'ordre des matchs est libre
++ De regrouper les matchs d'un même tour dans la même tranche horaire, sauf contrainte majeure
+- De programmer les huitièmes de finale des têtes de série en dernier
+- De laisser les joueurs choisir leur créneau
+> RGC 3.3.1.4 : afin de ne pas avantager certains joueurs, tous les matchs du même tour doivent, sauf contrainte majeure, être joués dans la même tranche horaire.
+
+Q av-086 | D: 3 | R: 03.01 2.16
+Un tournoi ouvert à plusieurs ligues se joue le dimanche 31 octobre 2027, veille de la Toussaint (jour férié). Quelle limite horaire du RGC continue de s'appliquer ?
+- La fin de la compétition à 19 h 00
+- La fin de la compétition à 21 h 00
++ Aucun match ne doit débuter après 23 h 00, sauf décision exceptionnelle du juge-arbitre
+- Aucune limite : le lendemain est férié
+> RGC 2.16 : aucun match ne doit débuter avant 8 h 00 ni après 23 h 00, sauf décision exceptionnelle du JA ; les heures de fin (21 h 00 ou 19 h 00) ne visent que les compétitions qui ne sont pas suivies d'un jour férié.
+
+Q av-087 | D: 2 | R: 03.01.A14 2.4 | T: annexes
+Un club prévoit une rencontre nocturne un mardi soir (lendemain non férié). Quels horaires la FFBaD préconise-t-elle ?
++ De 17 h 00 à minuit
+- De 17 h 00 à 02 h 00
+- De 19 h 00 à 23 h 00
+- De 18 h 00 à 01 h 00
+> Annexe 14, art. 2.4.1 : du dimanche au jeudi soir, horaires préconisés de 17 h 00 à minuit, sauf si le lendemain est un jour férié ; art. 2.4.2 : le vendredi et le samedi, de 17 h 00 à 02 h 00.
+
+Q av-088 | D: 2 | R: 03.01.A14 1.1 | T: annexes
+Selon la préconisation de la FFBaD, quelles compétitions relèvent des rencontres nocturnes ?
++ Celles qui commencent à partir de 17 h 00 et/ou se terminent après 23 h 00 (dernier match lancé)
+- Celles qui commencent après 20 h 00 uniquement
+- Celles qui se jouent le vendredi soir uniquement
+- Celles qui comportent au moins un match après minuit
+> Annexe 14, art. 1.1 : la FFBaD préconise qu'une rencontre nocturne concerne les compétitions commençant à partir de 17 h 00 et/ou se terminant après 23 h 00 (dernier match lancé).
+
+Q av-089 | D: 2 | R: 03.01.A14 2.5 | T: annexes
+Le projet de règlement d'un tournoi nocturne ouvre un tableau aux benjamins. Que recommande l'annexe 14 ?
+- Rien de particulier : toutes les catégories sont admises
++ Que les tableaux soient ouverts uniquement à partir de la catégorie minime
+- Que les tableaux soient ouverts à partir de la catégorie cadet
+- Que les benjamins finissent avant 22 h 00
+> Annexe 14, art. 2.5 : il est recommandé que les tableaux soient ouverts, uniquement, à partir de la catégorie minime.
+
+Q av-090 | D: 2 | R: 03.01.A14 2.3 | T: annexes
+Quelles formules de compétition sont autorisées pour une rencontre nocturne ?
+- Uniquement les poules uniques
++ Toutes les formules, individuelles ou par équipes, permettant l'intégration des résultats dans Poona et le calcul du classement
+- Toutes les formules, y compris la montante-descendante
+- Uniquement les formules par équipes
+> Annexe 14, art. 2.3 : toutes les formules de compétition, individuelles ou par équipes, permettant l'intégration des résultats dans la base Poona et le calcul du classement sont autorisées ; les rencontres PromoBad sont adaptées à ce type de compétition.
+
+# ---------------------------------------------------------------- Formats et forme des tableaux
+
+Q av-091 | D: 2 | R: 03.01.A12 1 | T: annexes
+Un tableau compte 6 inscrits. Quels formats l'annexe 12 prévoit-elle ? (plusieurs réponses)
++ Deux poules de 3
++ Une poule unique de 6
+- Une élimination directe (tableau de 8 avec deux exemptions)
+- Une poule de 4 et une poule de 2
+> Annexe 12 : pour 6 joueurs/paires, deux poules de 3 ou une poule unique de 6. L'élimination directe n'est possible qu'à partir de 8 (RGC 3.2.1.2 : 8 inscrits minimum pour un tableau d'élimination directe).
+
+Q av-092 | D: 2 | R: 03.01.A12 1 | T: annexes
+Un tableau compte 8 paires. Quels formats l'annexe 12 autorise-t-elle ? (plusieurs réponses)
++ Deux poules de 4
++ Une élimination directe
+- Une poule unique de 8
+- Quatre poules de 2
+> Annexe 12 : pour 8 inscrits, deux poules de 4 ; l'élimination directe est possible à partir de 8. Il n'existe pas de poule de 8 (les poules vont de 3 à 7).
+
+Q av-093 | D: 2 | R: 03.01.A12 1 | T: annexes
+Un tableau compte 10 joueurs. Quelles configurations de poules l'annexe 12 prévoit-elle ? (plusieurs réponses)
++ Deux poules de 5
++ Deux poules de 3 et une poule de 4
+- Une poule de 3 et une poule de 7
+- Cinq poules de 2
+> Annexe 12 : pour 10 inscrits, deux poules de 5, ou deux poules de 3 et une poule de 4 ; l'élimination directe est également possible.
+
+Q av-094 | D: 3 | R: 03.01.A12 1 | T: annexes
+Avec 11 inscrits dans un simple dames, le GEO hésite entre plusieurs découpages. Lesquels sont conformes à l'annexe 12 ? (plusieurs réponses)
++ Une poule de 3 et deux poules de 4
++ Une poule de 5 et une poule de 6
+- Une poule de 4 et une poule de 7
+- Trois poules de 3 et une poule de 2
+> Annexe 12 : pour 11 inscrits, une poule de 3 + deux poules de 4, ou une poule de 5 + une poule de 6 (l'élimination directe étant aussi possible).
+
+Q av-095 | D: 2 | R: 03.01 3.2.2.5
+Pour un tableau de 26 joueurs, le GEO propose 1 poule de 5 et 7 poules de 3. Que doit corriger le JA ?
+- Rien : le nombre de poules ne dépasse pas 10
++ L'écart entre les poules dépasse l'unité ; il faut par exemple 2 poules de 4 et 6 poules de 3
+- Il faut passer en élimination directe, obligatoire à partir de 25 inscrits
+- Il faut 13 poules de 2
+> RGC 3.2.2.5 : si les poules sont de tailles inégales, l'écart numérique entre elles ne doit pas dépasser l'unité. 2 × 4 + 6 × 3 = 26 respecte cette règle et la limite de 10 poules de l'annexe 12 (élimination directe obligatoire à partir de 33).
+
+Q av-096 | D: 2 | R: 03.01 3.2.2.5
+Un tableau de 14 joueurs est organisé en 2 poules de 4 et 2 poules de 3. À quelles têtes de série reviennent les poules de 3 ?
++ Aux têtes de série n° 1 et 2
+- Aux têtes de série n° 3 et 4
+- Par tirage au sort entre les quatre têtes de série
+- Aux deux têtes de série les moins bien classées
+> RGC 3.2.2.5 : les poules où les joueurs sont les moins nombreux doivent être celles des têtes de série les plus élevées.
+
+Q av-097 | D: 2 | R: 03.01.A12 1 | T: annexes
+Pour un tableau de 33 joueurs, le GEO propose 11 poules de 3. Que décide le JA ?
+- Il valide : l'écart entre les poules est nul
++ Il refuse : à partir de 33 inscrits, l'élimination directe est obligatoire
+- Il valide s'il y a 1 qualifié par poule
+- Il réduit le tableau à 32 joueurs en tirant au sort un éliminé
+> Annexe 12 : de 13 à 32 inscrits, les poules sont possibles mais limitées à 10 poules ; à partir de 33, l'élimination directe est obligatoire.
+
+Q av-098 | D: 2 | R: 03.01.A12 | T: annexes
+Un organisateur veut faire jouer des poules, puis une seconde phase de poules, puis un tableau final à élimination directe. Que lui répond le JA ?
+- C'est possible si les poules comptent au moins 4 joueurs
++ Ce n'est pas possible : une compétition ne peut pas comporter plus de deux phases (phase qualificative + phase finale)
+- C'est possible avec l'accord de la ligue
+- C'est possible pour les tableaux de plus de 32 joueurs
+> Annexe 12 : il ne peut pas y avoir plus de deux phases au cours d'une compétition (phase qualificative + phase finale).
+
+Q av-099 | D: 3 | R: 03.01.A12 2.1 | T: annexes
+Un organisateur propose une phase de poules suivie d'une seconde phase de poules regroupant les joueurs ayant obtenu le même classement (classement intégral). Ce format est-il admis ?
++ Oui : c'est le format « PO PO » (poules vers poules) de l'annexe 12
+- Non : le classement d'une poule ne peut jamais servir à constituer de nouvelles poules
+- Oui, mais seulement en PromoBad
+- Non : il comporte trois phases
+> Annexe 12 : le format PO PO (poules vers poules) fait suivre la phase de poules d'une autre phase de poules regroupant les joueurs/paires ayant obtenu le même classement. RGC 3.4.1 : le classement d'une poule ne peut servir à une nouvelle phase en poules, à l'exception d'un format prévu en annexe 12.
+
+Q av-100 | D: 2 | R: 03.01.A12 2.1 | T: annexes
+Dans le format « Ronde suisse » (RS) de l'annexe 12, qui rencontre qui à chaque tour ?
++ Le 1er rencontre le 2e, le 3e rencontre le 4e, et ainsi de suite
+- Le 1er rencontre le dernier, le 2e l'avant-dernier, et ainsi de suite
+- Les adversaires sont tirés au sort à chaque tour
+- Chaque joueur rencontre tous les autres
+> Annexe 12 : ronde suisse (RS) : à chaque tour, le 1er rencontre le 2e, le 3e rencontre le 4e et ainsi de suite.
+
+Q av-101 | D: 2 | R: 03.01.A12 2.1 | T: annexes
+Que désigne le format « PO 2ED » de l'annexe 12 ?
+- Deux phases de poules successives
++ Une phase de poules suivie d'un tableau à élimination directe et d'une consolante (classement intégral)
+- Deux tableaux à élimination directe sans poules
+- Une poule unique suivie d'une finale
+> Annexe 12 : PO 2ED (poules vers 2 tableaux à élimination directe) : la phase de poules est suivie par un tableau en élimination directe et une consolante (classement intégral).
+
+Q av-102 | D: 2 | R: 03.01.A12 3 | T: annexes
+Un organisateur souhaite un tableau à double repêchage (les perdants alimentent un second arbre). Peut-il l'inscrire dans un tournoi officiel ?
+- Oui, c'est un format homologable
++ Non : ce format n'est pas compatible Poona et ne peut pas être utilisé dans une compétition officielle
+- Oui, si le JA l'accepte
+- Oui, uniquement pour les tableaux jeunes
+> Annexe 12, art. 3 : les formats non compatibles Poona, dont le tableau à double repêchage, ne permettent pas pour l'instant l'intégration des résultats et ne peuvent pas être utilisés dans le cadre de compétitions officielles.
+
+Q av-103 | D: 3 | R: 03.01 3.2.3.1
+Dans un tableau, les joueurs N entrent directement en quarts de finale tandis que les joueurs R disputent deux tours supplémentaires. Le JA peut-il valider ce tableau ?
++ Oui : c'est un tableau à entrée progressive, dérogation admise au principe d'un match de plus au maximum
+- Non : aucun joueur ne doit disputer plus d'un match de plus que les autres
+- Oui, seulement si les joueurs R l'acceptent par écrit
+- Non : il faut faire deux tableaux séparés
+> RGC 3.2.3.1 : un tableau ne doit pas obliger un joueur à disputer plus d'un match de plus que les autres pour accéder au même stade ; une dérogation est possible pour un tableau à entrée progressive, où les joueurs entrent en lice à des stades différents suivant leur niveau ou série.
+
+Q av-104 | D: 2 | R: 03.01 3.2.2.3
+Un tableau de 20 joueurs est organisé en 4 poules de 5. L'organisateur veut 3 qualifiés par poule pour un tableau final de 12. Que répond le JA ?
+- C'est possible avec 4 exemptions dans le tableau final
++ C'est impossible : le nombre de qualifiés par poule est de 1 ou 2
+- C'est possible si les poules ont au moins 5 joueurs
+- C'est possible avec l'accord des joueurs
+> RGC 3.2.2.3 : dans les tableaux comportant des poules, le nombre de qualifiés par poule est de 1 ou 2.
+
+Q av-105 | D: 2 | R: 03.01 3.2.2.8
+Le JA répartit les joueurs d'un simple dans 6 poules. Trois joueurs du même club sont inscrits. Que prévoit le RGC ?
++ La séparation par provenance s'applique, en l'adaptant au nombre de poules, lors de la distribution des joueurs dans les poules
+- La séparation par provenance ne s'applique qu'au tableau final
+- Les joueurs d'un même club doivent être dans la même poule
+- La séparation n'est possible que s'il y a 8 poules
+> RGC 3.2.2.8 : la séparation par provenance est appliquée (en l'adaptant selon le nombre de poules) au moment de la distribution des joueurs dans les poules ; elle n'est pas applicable lors d'un éventuel tirage au sort à la sortie des poules.
+
+# ---------------------------------------------------------------- Nombre de matchs et ordre des matchs (annexe 11)
+
+Q av-106 | D: 2 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Un tableau comprend 4 poules de 4 suivies d'un tableau final de 8 (2 qualifiés par poule). Combien de matchs le JA doit-il programmer pour ce tableau ?
+- 24
++ 31
+- 32
+- 28
+> Annexe 11 : une poule de 4 comporte 6 matchs, soit 4 × 6 = 24 matchs de poule ; un tableau final de 8 à élimination directe compte 7 matchs (4 + 2 + 1) ; total 31.
+
+Q av-107 | D: 2 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Un tableau se joue en poule unique de 7 joueurs. Combien de matchs comporte-t-il et combien chaque joueur en dispute-t-il ?
+- 14 matchs, 4 par joueur
++ 21 matchs, 6 par joueur
+- 21 matchs, 7 par joueur
+- 28 matchs, 6 par joueur
+> Annexe 11 : une poule de 7 compte 21 matchs répartis en 7 tours ; chaque joueur rencontre les 6 autres. À rapprocher de la limite de 8 matchs par jour (RGC 2.16) si le joueur est inscrit dans d'autres tableaux.
+
+Q av-108 | D: 2 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Le JA programme une poule de 5 dont A est la tête de poule. Quel joueur est au repos lors du premier tour ?
++ A, la tête de poule
+- E, le dernier de la poule
+- C
+- Aucun : les cinq joueurs jouent au premier tour
+> Annexe 11 (ordre des matchs dans les poules) : poule de 5, tour 1 : B-D et C-E ; la tête de poule A n'entre en lice qu'au tour 2 (A-C). RGC 3.3.1.5 : l'ordre retarde le cas échéant l'entrée en lice de la tête de série.
+
+Q av-109 | D: 2 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Dans une poule de 5 (A tête de poule), quels matchs l'annexe 11 programme-t-elle au dernier tour ?
+- B-D et C-E
++ A-B et C-D
+- A-E et B-C
+- A-D et B-E
+> Annexe 11 : poule de 5, tour 5 : A-B et C-D. Conformément au RGC 3.3.1.5, les matchs réputés décisifs sont programmés en dernier.
+
+Q av-110 | D: 3 | R: 03.01.A11 Ordre des matchs dans les poules | T: annexes
+Dans une poule de 4 (A tête de poule) jouée selon l'annexe 11, quelles rencontres sont programmées au deuxième tour ?
++ Le gagnant de A-C contre le perdant de B-D, et le gagnant de B-D contre le perdant de A-C
+- Les deux gagnants du premier tour entre eux, et les deux perdants entre eux
+- A-B et C-D
+- A-D et B-C
+> Annexe 11 : poule de 4, tour 1 : A-C et B-D ; tour 2 : gagnant AC – perdant BD et gagnant BD – perdant AC ; tour 3 : gagnant AC – gagnant BD et perdant AC – perdant BD.
+
+Q av-111 | D: 2 | R: 03.01.A11 | T: annexes
+À quoi servent les tableaux établis selon les modèles de l'annexe 11 ?
++ À l'enregistrement des résultats par la table de marque, puis à l'envoi des résultats
+- Uniquement à l'affichage pour les spectateurs
+- Uniquement au tirage au sort des têtes de série
+- À la facturation des droits d'inscription
+> Annexe 11 : les tableaux utilisés par la table de marque pour l'enregistrement des résultats, qui servent également par la suite pour l'envoi des résultats, doivent comporter toutes les informations prévues sur les modèles.
+
+Q av-112 | D: 2 | R: 03.01.A11 | T: annexes
+Selon le modèle de feuille de poule de l'annexe 11, quelles informations figurent pour chaque joueur ? (plusieurs réponses)
++ Le numéro de tête de série, le nom, le prénom et le classement
++ Le club et la ligue
++ Les victoires, les sets, les points et le rang
+- Le numéro de téléphone du joueur
+> Annexe 11, modèle de tableau avec poules : T.d.S. n°, NOM Prénom, Classt., Club, Ligue, résultats contre chaque adversaire, Vict., Sets, Points, Rang.
+
+Q av-113 | D: 3 | R: 03.01.A11 | T: annexes
+Tableau de 4 poules de 3 (A à D) avec 2 qualifiés par poule, modèle de l'annexe 11. Au tirage de la phase finale, B1 est tiré dans le haut du tableau. Entre quels joueurs sont tirés au sort les adversaires de D1 et C1 dans le bas du tableau ?
++ A2 et B2
+- C2 et D2
+- A2 et C2
+- B2 et D2
+> Annexe 11 : les places de A1 et D1 sont prédéterminées ; B1 et C1 sont tirés au sort. Si B1 est tiré dans le haut, les adversaires de D1 et C1 dans le bas sont tirés au sort entre A2 et B2, ceux de A1 et B1 dans le haut entre C2 et D2.
+
+Q av-114 | D: 3 | R: 03.01 3.2.2.1
+Un tableau d'élimination directe compte 24 joueurs (tableau de 32). Combien de matchs se jouent réellement au premier tour, et combien de matchs comporte le tableau au total ?
+- 12 matchs au premier tour, 24 au total
++ 8 matchs au premier tour, 23 au total
+- 16 matchs au premier tour, 31 au total
+- 8 matchs au premier tour, 24 au total
+> RGC 3.2.2.1 et annexe 04 : 32 - 24 = 8 places vacantes, donc 8 joueurs exemptés ; sur les 16 rencontres du premier tour, 8 seulement se jouent. Chaque match élimine un joueur : pour désigner un vainqueur parmi 24, il faut 23 matchs.
+
+# ---------------------------------------------------------------- Têtes de série, places vacantes, tirage au sort
+
+Q av-115 | D: 2 | R: 03.01 3.2.3.2
+Un tableau d'élimination directe compte 40 joueurs. Combien de têtes de série le JA peut-il désigner au maximum ?
+- 4
++ 8
+- 10
+- 16
+> RGC 3.2.3.2 : le nombre de têtes de série ne doit pas dépasser 2 dans un tableau de 15 ou moins, 4 de 16 à 31, 8 de 32 à 63 et 16 pour 64 ou plus.
+
+Q av-116 | D: 3 | R: 03.01 3.2.3.2
+Un simple de 18 joueurs est organisé en 6 poules de 3. Combien de têtes de série le JA peut-il désigner au maximum ?
+- 2
+- 4
++ 6
+- 8
+> RGC 3.2.3.2 : dans un tableau à poules, les proportions de l'élimination directe s'appliquent (4 pour 16 à 31 joueurs), mais elles peuvent être dépassées pour atteindre le chiffre d'une tête de série par poule, soit 6.
+
+Q av-117 | D: 2 | R: 03.01 3.2.3.2
+Qui désigne les têtes de série d'un tournoi, et à quel moment leur valeur est-elle appréciée ?
++ Le comité d'organisation, sous le contrôle du juge-arbitre, au moment du tirage au sort des tableaux
+- La ligue, au moment de l'autorisation du tournoi
+- Le juge-arbitre seul, la veille de la compétition
+- Le logiciel, à la date de clôture des inscriptions
+> RGC 3.2.3.2 : sont désignés têtes de série les joueurs qui, selon les informations à la disposition du comité d'organisation et sous le contrôle du juge-arbitre, sont les plus forts dans les différents tableaux au moment du tirage au sort.
+
+Q av-118 | D: 2 | R: 03.06 2.3 | T: joueurs
+Le tirage au sort d'un tournoi a lieu le vendredi. Quelle est la dernière mise à jour des cotes (CPPH) disponible ?
++ Celle de la nuit de mercredi à jeudi précédant le tirage
+- Celle du lundi précédant le tirage
+- Celle du 1er du mois
+- Celle de la clôture des inscriptions, quelle que soit sa date
+> 03.06 art. 2.3 : les cotes sont mises à jour de manière hebdomadaire, dans la nuit de mercredi à jeudi. RGC 3.2.3.2 : les têtes de série sont appréciées au moment du tirage au sort.
+
+Q av-119 | D: 2 | R: 03.06 2.2 | T: joueurs
+Pour désigner les têtes de série d'un tableau de double mixte, quelle cote des joueurs le JA prend-il en compte ?
+- La cote de double
++ La cote de mixte
+- La meilleure des trois cotes
+- La cote de simple
+> 03.06 art. 2.2 : la cote de simple sert aux tableaux de simple (y compris intergenres), la cote de double aux tableaux de double (y compris intergenres) et la cote de mixte au double mixte.
+
+Q av-120 | D: 3 | R: 03.06 3.5 | T: joueurs
+Double hommes : la paire X compte des cotes de 1 500 et 500, la paire Y de 950 et 1 000. Laquelle a la meilleure cote de paire ?
++ La paire X (1 000 contre 975)
+- La paire Y (975 contre 1 000)
+- Elles sont à égalité
+- La paire X, car elle compte le joueur le mieux classé
+> 03.06 art. 3.5 : la cote de double d'une paire est la moyenne des cotes des deux joueurs dans la discipline : X = (1 500 + 500) / 2 = 1 000 ; Y = (950 + 1 000) / 2 = 975.
+
+Q av-121 | D: 2 | R: 03.01 3.2.1.5
+En contrôlant un tableau de simple, le JA relève : cote la plus faible 400, autres cotes 820, 1 150, 1 380 et 1 420. Que doit-il constater ?
+- Le tableau est conforme
++ Le joueur à 1 420 points ne peut pas figurer dans ce tableau (maximum 1 400)
+- Les joueurs à 1 380 et 1 420 points doivent être retirés
+- Le joueur à 400 points doit être retiré
+> RGC 3.2.1.5 (règle du +1000) : dans un même tableau, le CPPH du mieux classé ne peut pas dépasser de plus de 1 000 points celui du moins bien classé : avec 400 points au plus bas, la cote maximale est 1 400.
+
+Q av-122 | D: 3 | R: 03.01.A04 1.1.3 | T: annexes
+Un tableau de 16 compte 12 joueurs (4 places vacantes). Selon le schéma de l'annexe 04, quelles places sont laissées vacantes ?
++ Les places 2, 15, 6 et 11
+- Les places 2, 4, 6 et 8
+- Les places 13, 14, 15 et 16
+- Les places 8, 9, 15 et 16
+> Annexe 04 (tableau de 16) : Vacant 1 en place 2, Vacant 2 en 15, Vacant 3 en 6, Vacant 4 en 11 ; avec 4 places vacantes, on utilise les emplacements « Vacant 1 » à « Vacant 4 ». Les joueurs placés en 1, 16, 5 et 12 sont exemptés du premier tour.
+
+Q av-123 | D: 3 | R: 03.01.A04 1.1.3 | T: annexes
+Un tableau de 32 compte 28 joueurs. Selon l'annexe 04, en face de quelles places se trouvent les 4 places vacantes ?
++ En face des places de la T.d.S. 1, de la T.d.S. 2 et des deux T.d.S. 3/4
+- En face des quatre T.d.S. 5/8
+- En face des quatre derniers joueurs tirés au sort
+- En face des joueurs les moins bien classés
+> Annexe 04 (tableau de 32) : Vacant 1 en place 2 (T.d.S. 1 en 1), Vacant 2 en 31 (T.d.S. 2 en 32), Vacant 3 en 10 (T.d.S. 3/4 en 9), Vacant 4 en 23 (T.d.S. 3/4 en 24).
+
+Q av-124 | D: 2 | R: 03.01.A04 1.1.1 | T: annexes
+Un simple compte 17 inscrits en élimination directe. Quel schéma de l'annexe 04 utiliser et combien de places vacantes faut-il placer ?
+- Un tableau de 16, avec 1 joueur en liste d'attente
++ Un tableau de 32, avec 15 places vacantes
+- Un tableau de 32, avec 17 places vacantes
+- Un tableau de 64, avec 47 places vacantes
+> Annexe 04, art. 1.1.1 : le tableau de 32 sert de 17 à 32 joueurs. Annexe 06, art. 2.1.2 : le nombre de places vacantes est égal à la dimension du tableau moins le nombre d'inscrits, soit 32 - 17 = 15.
+
+Q av-125 | D: 2 | R: 03.01.A06 2.1.2 | T: annexes
+Lors des opérations préliminaires du tirage au sort, que fait-on des places vacantes ?
++ On vérifie leurs emplacements, on inscrit « vacant » dans le tableau et on retire les pions correspondants
+- On les tire au sort parmi tous les pions
+- On les attribue aux derniers inscrits
+- On les place en fin de tableau
+> Annexe 06, art. 2.1.2 : calculer le nombre de places vacantes, vérifier leurs emplacements, inscrire « vacant » aux emplacements correspondants du tableau et retirer les pions correspondant aux numéros des places vacantes.
+
+Q av-126 | D: 3 | R: 03.01.A06 2.1.4 | T: annexes
+Dans un tableau de 24 joueurs (tableau de 32), un club compte 6 inscrits. Comment sont traités ses 5e et 6e joueurs (par ordre de force) ?
+- Ils sont placés dans les deux demi-tableaux opposés
++ Ils sont « en surnombre » et placés en fin de tirage, sans rencontrer au premier match un joueur de leur club si possible
+- Ils sont placés dans les huitièmes non occupés
+- Ils sont retirés du tableau
+> Annexe 06, art. 2.1.4 : dans un tableau de moins de 32, si un pays (provenance) a plus de 4 inscrits, les 4 premiers sont affectés chacun à un quart ; les suivants sont « en surnombre » et placés en fin de tirage. Art. 5.1.1 : on vérifie qu'un joueur en surnombre ne rencontre pas au premier match un joueur de même provenance.
+
+Q av-127 | D: 2 | R: 03.01.A06 1 | T: annexes
+Le JA prépare le matériel du tirage au sort manuel d'un tableau de 32. Combien de « pions » numérotés lui faut-il ?
+- Autant que d'inscrits
++ 32, numérotés de 1 à 32
+- 16, un par match du premier tour
+- 8, un par huitième de tableau
+> Annexe 06, art. 1 : il faut un nombre de pions correspondant à la dimension du tableau (8, 16, 32, 64…), numérotés ; chaque pion permet de tirer au sort une place numérotée du tableau.
+
+Q av-128 | D: 2 | R: 03.01 3.2.4
+Le tirage au sort d'un tournoi est terminé le mercredi soir ; le premier match a lieu le samedi à 8 h 00. Quand les tableaux peuvent-ils être publiés ?
++ Dès le tirage terminé, et au plus tard à 7 h 00 le samedi
+- Seulement le samedi à 7 h 00
+- Seulement après validation de la ligue
+- Seulement la veille au soir
+> RGC 3.2.4 : les tableaux doivent être rendus publics au moins une heure avant l'heure prévue du début du premier match du tableau concerné ; ils peuvent être publiés dès le tirage au sort terminé.
+
+# ---------------------------------------------------------------- Instructions : préparation et inspection
+
+Q av-129 | D: 2 | R: REGLES Instr. 3.2.6.2 | T: instructions
+Entre deux versions de la liste des joueurs inscrits, plusieurs forfaits sont parvenus à l'organisation. Que doit vérifier le juge-arbitre avant d'approuver la nouvelle liste ?
++ Que toutes les mises à jour reflètent fidèlement les forfaits reçus depuis la dernière version
+- Que les joueurs forfaits ont payé une amende
+- Que la liste est publiée sans tenir compte des forfaits
+- Que les forfaits sont remplacés par des joueurs de son choix
+> Instruction 3.2.6.2 : le juge-arbitre doit vérifier que toutes les mises à jour apportées à la liste initiale des joueurs reflètent fidèlement les forfaits qui ont été reçus depuis la dernière version.
+
+Q av-130 | D: 2 | R: REGLES Instr. 3.3.6.2 | T: instructions
+Lors de l'inspection initiale de l'aire de jeu, que doit vérifier le juge-arbitre autour des terrains ? (plusieurs réponses)
++ Qu'il y a suffisamment d'espace autour de chaque terrain
++ Que le fond est exempt de lumière gênante et que les arrière-plans de couleur claire sont minimisés
+- Que les tribunes sont pleines
+- Que les panneaux publicitaires sont placés au plus près des lignes
+> Instruction 3.3.6.2 : vérifier qu'il y a suffisamment d'espace autour de chaque terrain, que le fond est exempt de lumière gênante et que les arrière-plans de couleur claire sont minimisés autant que possible.
+
+Q av-131 | D: 1 | R: REGLES Instr. 3.3.6.4 | T: instructions
+Lors de l'inspection initiale, que vérifie le juge-arbitre au sujet de l'éclairage ?
++ Qu'il est adéquat sur chaque terrain, uniformément réparti et positionné de façon optimale
+- Qu'il est éteint sur les terrains non utilisés pour économiser l'énergie
+- Qu'il est identique à celui de l'édition précédente
+- Qu'il est orienté vers les spectateurs
+> Instruction 3.3.6.4 : vérifier que l'éclairage sur chaque terrain est adéquat, uniformément réparti et positionné de façon optimale ; le cas échéant, qu'il répond aux exigences minimales de la télévision.
+
+Q av-132 | D: 2 | R: REGLES Instr. 3.3.6.6 | T: instructions
+Pourquoi le juge-arbitre vérifie-t-il les chaises des officiels techniques lors de l'inspection de l'aire de jeu ?
++ Pour s'assurer que leur ergonomie est adaptée à une assise prolongée durant des matchs consécutifs tout au long du tournoi
+- Pour vérifier qu'elles sont aux couleurs du sponsor
+- Pour en compter le nombre pour la facture
+- Pour qu'elles soient rangées hors de l'aire de jeu
+> Instruction 3.3.6.6 : vérifier si les chaises des officiels techniques ont une ergonomie adaptée à une assise prolongée durant des matchs consécutifs tout le long du tournoi.
+
+Q av-133 | D: 2 | R: REGLES Instr. 3.3.6.7 | T: instructions | L: JALC JAFA JAFC
+Des photographes couvriront le tournoi. Que doit confirmer le juge-arbitre lors de l'inspection de l'aire de jeu ?
++ Dans quelles zones de l'aire de jeu les photographes seront autorisés à travailler et comment ils y accéderont
+- Que les photographes peuvent se placer librement au bord des terrains
+- Que les photos ne seront prises qu'en finale
+- Rien : les photographes relèvent du seul organisateur
+> Instruction 3.3.6.7 : confirmer dans quelles zones de l'aire de jeu les photographes seront autorisés à travailler et comment ils y accèderont.
+
+Q av-134 | D: 2 | R: REGLES Instr. 3.3.10.6 | T: instructions | L: JAFA JAFC
+En vérifiant le calendrier d'entraînement, que doit s'assurer le juge-arbitre au sujet des volants ?
++ Que les volants pour les entraînements sont mis à la disposition des joueurs, selon les besoins du niveau du tournoi et le règlement particulier
+- Que les joueurs apportent leurs propres volants d'entraînement
+- Que les volants d'entraînement sont ceux de la vitesse la plus lente
+- Que les volants d'entraînement sont facturés aux joueurs
+> Instruction 3.3.10.6 : s'assurer que les volants pour les entraînements sont mis à la disposition des joueurs, selon les besoins du niveau du tournoi et comme spécifié dans le règlement particulier (le cas échéant).
+
+Q av-135 | D: 3 | R: REGLES Instr. 3.4.4.4 | T: instructions | L: JAFA JAFC
+À la fin de la réunion des responsables d'équipes, plusieurs joueurs doivent être promus de la liste de réserve au tableau principal. Comment le juge-arbitre traite-t-il ces promotions ?
++ En intégrant les joueurs et les positions dans le tableau
+- En refaisant intégralement le tirage au sort du tableau
+- En plaçant tous les joueurs promus en bas du tableau
+- En laissant les responsables d'équipes choisir les places
+> Instruction 3.4.4.4 : lorsque plusieurs joueurs/paires doivent être promus au tableau principal ou au tableau de qualification, traiter les promotions en intégrant les joueurs et les positions dans le tableau.

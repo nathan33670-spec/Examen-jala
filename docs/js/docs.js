@@ -4,6 +4,7 @@ import { getCatalog, getDocText, getFiches, getGlossary, getUpdates, getQuestion
 import { examBanner } from './quiz.js';
 import { state, save } from './store.js';
 import { refreshBadges } from './reward.js';
+import { questionHtml, findArticle } from './qcommon.js';
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
@@ -20,7 +21,8 @@ function docItem(d) {
 
 export async function renderDocsHome(main) {
   const [cat, updates] = await Promise.all([getCatalog(), getUpdates()]);
-  const current = cat.docs.filter((d) => !d.upcoming);
+  const mine = (d) => !d.ligue || d.ligue === state.settings.ligue; // règlements des autres ligues masqués
+  const current = cat.docs.filter((d) => !d.upcoming && mine(d));
   const upcoming = cat.docs.filter((d) => d.upcoming);
   const folders = {};
   for (const d of current) (folders[d.folder || 'Autres'] ||= []).push(d);
@@ -78,25 +80,17 @@ function blocksHtml(blocks) {
   return out.join('');
 }
 
-/** Trouve le bloc correspondant à un article (« 2.16 », « Instr. 3.5.4 », « règle 9.1.6 »). */
-function findArticle(blocks, art) {
-  const num = (art.match(/\d+(?:\.\d+)*/) || [])[0];
-  if (!num) return -1;
-  const instr = /instr/i.test(art);
-  const startsWith = (s) => new RegExp(`^${num.replace(/\./g, '\\.')}\\.?(\\s|$)`).test(s);
-  const candidates = blocks.map((b, i) => [i, b]).filter(([, b]) => startsWith(b[1]));
-  if (!candidates.length) {
-    const i = blocks.findIndex((b) => b[1].includes(num));
-    return i;
-  }
-  if (instr && candidates.length > 1) {
-    // les instructions aux officiels techniques suivent les règles du jeu dans le document
-    const split = blocks.findIndex((b) => /INSTRUCTIONS AUX OFFICIELS/i.test(b[1]));
-    const after = candidates.find(([i]) => i > split);
-    if (after) return after[0];
-  }
-  if (!instr && candidates.length > 1 && /r[eè]gle/i.test(art)) return candidates[0][0];
-  return candidates[0][0];
+/** Source externe (documentation BadNet…) : liens vers les pages citées par les questions. */
+function renderExternal(main, doc, query = {}) {
+  const pages = Object.entries(doc.pages || {});
+  const target = query.a && doc.pages?.[query.a];
+  main.innerHTML = `
+    <p class="small muted"><a href="#/docs">Règlements</a> › ${esc(doc.folder || '')}</p>
+    <h1>${esc(doc.title)}</h1>
+    <p class="muted">Documentation en ligne de l’éditeur, consultable avec une connexion Internet. Les questions « logiciel » y renvoient page par page.</p>
+    ${target ? `<div class="notice"><strong>Page citée :</strong> <a href="${esc(target.url)}" target="_blank" rel="noopener">${esc(target.title)}</a></div>` : ''}
+    <div class="btn-row" style="margin:10px 0"><a class="btn small" href="${esc(doc.source)}" target="_blank" rel="noopener">Ouvrir la documentation</a></div>
+    <div class="doclist">${pages.map(([, pg]) => `<a class="docitem" href="${esc(pg.url)}" target="_blank" rel="noopener"><span class="t">${esc(pg.title)}</span></a>`).join('')}</div>`;
 }
 
 export async function renderDoc(main, id, query = {}) {
@@ -106,6 +100,7 @@ export async function renderDoc(main, id, query = {}) {
     main.innerHTML = `<h1>Document introuvable</h1><p>Le document « ${esc(id)} » n'est pas (ou plus) dans le catalogue.</p><a class="btn" href="#/docs">Retour aux règlements</a>`;
     return;
   }
+  if (doc.external) { renderExternal(main, doc, query); return; }
   main.innerHTML = `<div class="loading"><div class="spinner"></div></div>`;
   const g = state.game;
   g.docsSeen ||= {};
@@ -133,7 +128,7 @@ export async function renderDoc(main, id, query = {}) {
     <h1>${esc(doc.id === 'REGLES' ? '' : `${doc.code} — `)}${esc(doc.title)}</h1>
     <p class="small muted">${meta.map(esc).join(' · ')}${doc.updatedAt ? ` · récupéré le ${fmtDate(doc.updatedAt)}` : ''}</p>
     <div class="btn-row" style="margin-bottom:6px">
-      <a class="btn small" href="${esc(doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
+      <a class="btn small" href="${esc(window.Capacitor?.isNativePlatform?.() ? doc.source : doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
       <a class="btn small secondary" href="${esc(doc.source)}" target="_blank" rel="noopener">Source FFBaD</a>
     </div>
     ${doc.id === 'REGLES' ? '<div class="notice small">Le PDF officiel signale les modifications (ancien texte barré en rouge, nouveau texte en bleu). Dans la version texte ci-dessous, les deux valeurs peuvent apparaître côte à côte : « 21 15 points » se lit <strong>15 points</strong> (système 3×15 appliqué par la FFBaD depuis le 1er septembre 2026).</div>' : ''}
@@ -219,7 +214,7 @@ let corpus = null;
 async function buildCorpus() {
   if (corpus) return corpus;
   const [cat, qdata, fiches, glossary] = await Promise.all([getCatalog(), getQuestions(), getFiches(), getGlossary()]);
-  const docs = await Promise.all(cat.docs.map(async (d) => {
+  const docs = await Promise.all(cat.docs.filter((d) => !d.ligue || d.ligue === state.settings.ligue).map(async (d) => {
     try {
       const t = await getDocText(d);
       return t.blocks.map((b, i) => ({ kind: 'doc', doc: d, i, text: b[1], n: norm(b[1]) }));
@@ -282,7 +277,7 @@ export async function renderQuestion(main, id) {
   const qdata = await getQuestions();
   const q = qdata.questions.find((x) => x.id === id);
   if (!q) { main.innerHTML = '<p class="empty">Question introuvable.</p>'; return; }
-  main.innerHTML = `<h1>Question ${esc(q.id)}</h1><div class="card"><p class="question">${esc(q.q)}</p>
+  main.innerHTML = `<h1>Question ${esc(q.id)}</h1><div class="card">${questionHtml(q)}
     <ul>${q.choices.map((c, i) => `<li>${q.answer.includes(i) ? '<strong>✔ ' : ''}${esc(c)}${q.answer.includes(i) ? '</strong>' : ''}</li>`).join('')}</ul>
     <div class="explain card flat ok">${richText(q.explain)}</div>
     ${q.ref ? `<p class="small muted">Référence : <a href="#/doc/${encodeURIComponent(q.ref.doc)}?a=${encodeURIComponent(q.ref.art)}">${esc(q.ref.doc)} ${esc(q.ref.art)}</a> · niveaux ${q.levels.join(', ')}</p>` : ''}</div>`;

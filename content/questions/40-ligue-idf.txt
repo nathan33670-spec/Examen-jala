@@ -1,0 +1,859 @@
+# Spécificités de la Ligue Île-de-France de Badminton (LIFB) pour les juges-arbitres.
+# Ces questions ne concernent que la LIFB : règlement et annexes du championnat régional interclubs (ICR),
+# autorisation des tournois, forfaits et règlements des championnats régionaux franciliens (saison 2026-2027).
+@theme interclubs
+@doc LIFB.ICRS
+@levels JALA JALC JAFA JAFC
+
+# ---------------------------------------------------------------- ICR : structure et inscription
+
+Q idf-001 | D: 1 | R: LIFB.ICRS 1.4.1 | P: avant | T: interclubs
+Comment est structuré le championnat régional interclubs (ICR) d'Île-de-France ?
+- Trois divisions : PN, R1 et R2, chacune en 4 poules de 8 équipes
++ Quatre divisions : PN (2 poules), R1 (2 poules), R2 (4 poules) et R3 (8 poules), chaque poule comptant 6 équipes
+- Quatre divisions : PN, R1, R2 et R3, chacune en une poule unique de 10 équipes
+- Cinq divisions de PN à R4, en poules de 6 équipes
+> LIFB.ICRS 1.4.1 : l'ICR comporte quatre divisions, la Pré-Nationale (2 poules de 6 équipes), la R1 (2 poules parallèles de 6), la R2 (4 poules de 6) et la R3 (8 poules de 6).
+
+Q idf-002 | D: 1 | R: LIFB.ICRS 1.6.3 | P: pendant | T: interclubs
+Lors d'une journée d'ICR en Île-de-France, combien de rencontres chaque équipe dispute-t-elle ?
+- Une seule
++ Deux
+- Trois
+- Cinq, contre chacune des autres équipes de la poule
+> LIFB.ICRS 1.6.3 : les équipes disputent deux rencontres lors de chaque journée, en saison régulière comme en phase finale.
+
+Q idf-003 | D: 2 | R: LIFB.ICRS 2.2.3 | P: avant | T: interclubs
+Un club a une équipe en R2. Quelles conditions lui permettent de satisfaire l'obligation de structuration relative au juge-arbitre ? (plusieurs réponses)
++ Avoir un JA licencié au club, au moins JALA, actif et validé
++ Justifier d'un licencié du club en formation JALA
++ Organiser, pour chaque équipe engagée, une action de sensibilisation à la filière d'officiel technique
+- Avoir un arbitre ALA licencié au club, qui compte aussi comme JA
+> LIFB.ICRS 2.2.3 : un club ayant au moins une équipe en PN, R1 et/ou R2 doit disposer d'un JA au moins JALA, actif et validé, licencié au club, ou justifier d'un licencié en formation JALA, ou organiser pour chaque équipe une action de sensibilisation à la filière OT. Selon l'article 2.2.5, les statuts d'officiels techniques ne se cumulent pas : un JA arbitre compte comme JA ou comme arbitre.
+
+# ---------------------------------------------------------------- ICR : officiels techniques
+
+Q idf-004 | D: 1 | R: LIFB.ICRS 3.1.1 | P: avant | T: interclubs
+Quel grade minimum doit avoir le juge-arbitre nommé sur une journée d'ICR de R1 en Île-de-France ?
+- Ligue Accrédité (JALA)
++ Ligue Certifié (JALC)
+- Fédéral Accrédité (JAFA)
+- Aucun grade minimum, un JA stagiaire suffit
+> LIFB.ICRS 3.1.1 : le JA nommé doit être licencié, actif et avoir au minimum le grade Ligue Certifié en Pré-Nationale, R1 et R2, et Ligue Accrédité en R3.
+
+Q idf-005 | D: 2 | R: LIFB.ICRS 3.1.1 | P: avant | T: interclubs
+Un JA de grade Ligue Accrédité (JALA), licencié et actif, peut être nommé juge-arbitre d'une journée d'ICR francilienne dans quelle division ?
+- En PN uniquement
+- En R1 et R2
++ En R3 uniquement
+- Dans toutes les divisions
+> LIFB.ICRS 3.1.1 (et annexe 1) : le grade minimum est Ligue Certifié en PN, R1 et R2 et Ligue Accrédité en R3. Un JALA ne peut donc officier qu'en R3.
+
+Q idf-006 | D: 1 | R: LIFB.ICRS 3.1.2 | P: pendant | T: interclubs
+Le JA désigné sur une journée d'ICR est licencié dans le club hôte, qui manque de bénévoles. Le club lui demande de tenir aussi la table de marque. Que dit le règlement ?
+- C'est possible s'il est titulaire du GEO
+- C'est possible si les capitaines sont d'accord
++ C'est impossible : le JA ne peut cumuler aucune autre fonction le jour où il officie
+- C'est possible seulement en R3
+> LIFB.ICRS 3.1.2 : le juge-arbitre ne peut cumuler aucune autre fonction le jour où il officie.
+
+Q idf-007 | D: 2 | R: LIFB.ICRS 3.1.3 | P: apres | T: interclubs
+Après une journée d'ICR, que peut faire le JA dans son rapport face à une équipe qui n'a pas respecté le règlement ? (plusieurs réponses)
++ Demander à la LIFB de prendre des sanctions sportives contre le joueur ou l'équipe
++ Proposer à l'instance compétente l'ouverture de poursuites disciplinaires
+- Infliger lui-même une amende au club fautif
+- Modifier lui-même le classement de la poule
+> LIFB.ICRS 3.1.3 : le JA peut dans son rapport demander à la LIFB de prendre des sanctions sportives contre un joueur ou une équipe ne respectant pas les règles de l'ICR et du RGC. Il peut aussi proposer à l'instance compétente l'ouverture de poursuites disciplinaires. Les sanctions sont prononcées par la LIFB (1.2), pas par le JA.
+
+Q idf-008 | D: 2 | R: LIFB.ICRS 3.1.4 | P: avant | T: interclubs
+Comment les juges-arbitres de l'ICR francilien sont-ils désignés ?
+- Chaque club hôte choisit et rémunère son JA
++ La LIFB les désigne : un planning de la saison régulière est fourni en début de saison, la répartition des phases finales est communiquée à l'issue de la J5
+- Les capitaines des équipes de la poule désignent le JA d'un commun accord
+- Le comité départemental du club hôte les désigne journée par journée
+> LIFB.ICRS 3.1.4 : la LIFB désigne, dans la mesure du possible, les JA sur les journées de toutes les divisions ; le planning de la saison régulière est fourni en début de saison et la répartition des phases finales est communiquée à l'issue de la J5.
+
+Q idf-009 | D: 2 | R: LIFB.ICRS 3.1.5 | P: apres | T: interclubs
+Un JA a officié sur une journée d'ICR le dimanche. À quelle condition est-il indemnisé du montant journalier ?
+- Sur simple présentation de sa note de frais au club hôte
++ Après réception de son rapport de la compétition sur Poona avant le mercredi soir suivant la journée
+- Après validation des résultats par les capitaines dans BadNet
+- Après envoi de son rapport à la LIFB dans les 30 jours
+> LIFB.ICRS 3.1.5 : les indemnités sont à la charge de la LIFB ; le JA est indemnisé selon le montant journalier après réception du rapport de la compétition sur Poona avant le mercredi soir suivant la journée d'ICR.
+
+Q idf-010 | D: 2 | R: LIFB.ICRS 3.1.6 | P: pendant | T: interclubs
+Aucun JA n'est présent sur une journée d'ICR et les deux capitaines sont en désaccord avec le GEO sur un point d'organisation. Que prévoit le règlement ?
+- La rencontre est reportée jusqu'à décision de la LIFB
+- Le GEO tranche seul et sa décision est définitive
++ Les rencontres doivent être disputées et le GEO rapporte les faits dans le rapport de la journée
+- Le capitaine de l'équipe hôte a voix prépondérante
+> LIFB.ICRS 3.1.6 : en l'absence de JA, les capitaines et le GEO prennent les décisions communes ; en cas de désaccord, les rencontres doivent être disputées, le GEO rapporte les faits dans le rapport de la journée et la LIFB statue.
+
+Q idf-011 | D: 1 | R: LIFB.ICRS 3.2.1 | P: avant | T: interclubs
+Dans quelles divisions de l'ICR francilien tous les matchs d'une rencontre doivent-ils être arbitrés par un arbitre de grade ALA minimum ?
++ PN, R1 et R2
+- PN uniquement
+- Toutes les divisions, R3 comprise
+- R2 et R3
+> LIFB.ICRS 3.2.1 : tous les matchs d'une rencontre en PN, R1 et R2 doivent être arbitrés par un arbitre de grade Ligue Accrédité (ALA) minimum, en présence d'un JA Ligue Certifié minimum. L'annexe 1 confirme que l'arbitre est requis en PN, R1 et R2.
+
+Q idf-012 | D: 2 | R: LIFB.ICRS 3.2.4 | P: pendant | T: interclubs
+Un arbitre engagé par une équipe de R1 arrive en retard à la salle. Quelles règles de ponctualité lui sont applicables ?
+- Aucune, l'arbitre n'étant pas joueur
+- Il est remplacé d'office par un arbitre de l'équipe adverse
++ Les mêmes que celles applicables aux joueurs ; il est convoqué en même temps que l'équipe pour laquelle il officie
+- Il est toléré jusqu'au début de son premier match à arbitrer
+> LIFB.ICRS 3.2.4 : l'arbitre est convoqué et doit être présent en même temps que l'équipe pour laquelle il officie ; en cas de retard, il est soumis aux mêmes règles de ponctualité que les joueurs.
+
+Q idf-013 | D: 1 | R: LIFB.ICRS 3.2.7 | P: avant | T: interclubs
+Qui prend en charge les indemnités et les frais de déplacement des arbitres en ICR francilien ?
+- La LIFB
+- Le club hôte de la journée
++ Le club qui engage l'arbitre
+- Le comité départemental de l'arbitre
+> LIFB.ICRS 3.2.7 : les indemnités et frais de déplacement des arbitres sont à la charge des clubs qui les engagent. À l'inverse, ceux des JA sont à la charge de la LIFB (3.1.5).
+
+# ---------------------------------------------------------------- ICR : joueurs
+
+Q idf-014 | D: 2 | R: LIFB.ICRS 4.1 | P: pendant | T: interclubs
+Lors d'une journée d'ICR, le JA a un doute sur l'identité d'un joueur, qui n'a pas de pièce d'identité. Que prévoit le règlement francilien ?
+- Le joueur ne peut pas jouer sans pièce d'identité
+- Le JA disqualifie le joueur
++ Le joueur peut jouer ; le JA (ou le capitaine) peut saisir la LIFB par une réserve, la LIFB pouvant ensuite exiger des documents d'identité
+- Le joueur joue, mais ses matchs sont automatiquement déclarés forfaits
+> LIFB.ICRS 4.1 : les joueurs ne sont pas tenus de présenter une pièce d'identité pour jouer ; en cas de doute, le capitaine ou le JA peut saisir la LIFB par une réserve (art. 10.1). La LIFB peut alors demander des documents d'identité ; à défaut de justification, le joueur est considéré comme non qualifié.
+
+Q idf-015 | D: 2 | R: LIFB.ICRS 4.3 | P: avant | T: interclubs
+Pour être qualifié sur une journée d'ICR francilien, quand la licence « joueur » doit-elle être validée sur Poona dans le club engagé ?
+- La veille de la journée
+- Au moins 30 jours avant la journée
++ Au moins 10 jours avant la journée d'ICR et avant le 30 novembre de la saison en cours
+- Avant le 31 décembre de la saison en cours, sans autre délai
+> LIFB.ICRS 4.3 : tout joueur doit être licencié « joueur » (licence validée sur Poona) au moins 10 jours avant la journée d'ICR et avant le 30 novembre de la saison en cours, dans le club engagé.
+
+Q idf-016 | D: 2 | R: LIFB.ICRS 4.4.1 | P: pendant | T: interclubs
+Un joueur classé D9 en double, P10 en simple et P10 en mixte est inscrit dans une équipe de PN. Dans quelle(s) discipline(s) peut-il être aligné ?
+- Dans les trois disciplines, un seul classement D9 suffisant
++ En double uniquement
+- Dans aucune discipline, il faut être au moins R6 en PN
+- En simple et en mixte uniquement
+> LIFB.ICRS 4.4.1 : en PN, le joueur doit être classé au moins D9 dans la ou les disciplines où il est aligné. En R1 et R2, le minimum est P10 dans la discipline alignée ; en R3, il suffit d'être P10 ou plus dans l'une des 3 disciplines.
+
+Q idf-017 | D: 3 | R: LIFB.ICRS 4.4.2 | P: pendant | T: interclubs
+Avant le début d'une journée d'ICR, le JA constate que les cotes affichées dans l'outil de gestion des interclubs ne correspondent pas aux données officielles. Que doit-il se passer ?
+- La rencontre se joue sur les données affichées, sans autre formalité
++ Toutes les équipes sont averties, le point est relevé dans le rapport du JA et ce sont les cotes du jeudi de la semaine précédant la rencontre qui sont utilisées
+- La journée est reportée jusqu'à correction des données
+- Le JA choisit librement les cotes les plus favorables à l'équipe visiteuse
+> LIFB.ICRS 4.4.2 : si une partie prenante s'en rend compte avant le début de la rencontre, toutes les équipes sont averties, le point est relevé dans le rapport du JA et les cotes du jeudi de la semaine précédant la rencontre sont utilisées. Si personne ne le signale, les rencontres se jouent selon les données affichées.
+
+Q idf-018 | D: 2 | R: LIFB.ICRS 4.6.1 | P: apres | T: interclubs
+Un joueur a disputé 4 rencontres avec l'équipe 2 de son club et 3 rencontres avec l'équipe 1. De quelle équipe est-il titulaire ?
+- De l'équipe 2, où il a le plus joué
++ De l'équipe 1, hiérarchiquement supérieure, puisqu'il y a joué au moins 3 rencontres
+- Des deux équipes
+- D'aucune, il faut 5 rencontres pour être titulaire
+> LIFB.ICRS 4.6.1 : un joueur devient titulaire d'une équipe après au moins 3 rencontres avec elle ; s'il remplit cette condition dans plusieurs équipes, sa titularisation est figée dans l'équipe hiérarchiquement supérieure. Ce n'est pas le plus grand nombre de participations qui compte.
+
+# ---------------------------------------------------------------- ICR : équipes
+
+Q idf-019 | D: 1 | R: LIFB.ICRS 5.2.1 | P: pendant | T: interclubs
+Selon le règlement de l'ICR francilien, de combien de joueurs au minimum une équipe doit-elle être composée pour être complète ?
+- 2 joueuses et 2 joueurs
++ 3 joueuses et 3 joueurs qualifiés
+- 4 joueuses et 4 joueurs
+- 3 joueuses et 4 joueurs
+> LIFB.ICRS 5.2.1 : pour être complète, une équipe doit être composée au minimum de 3 joueuses et de 3 joueurs qualifiés.
+
+Q idf-020 | D: 2 | R: LIFB.ICRS 5.2.2 | P: apres | T: interclubs
+Lors d'une rencontre d'ICR, trois joueurs mutés d'une même équipe ont disputé au moins un match. Quelle est la conséquence ?
+- Seuls les matchs du troisième muté sont déclarés forfaits
++ Tout match joué par un des joueurs mutés est considéré comme forfait volontaire
+- L'équipe est déclarée forfait général
+- Aucune, la limite ne concerne que l'ICN
+> LIFB.ICRS 5.2.2 : une équipe ne peut compter au maximum que 2 joueurs mutés ; si 3 joueurs mutés ou plus disputent au moins un match d'une rencontre, tout match joué par un des joueurs mutés est considéré comme forfait volontaire (art. 6.15.2).
+
+Q idf-021 | D: 2 | R: LIFB.ICRS 5.3.3 | P: pendant | T: interclubs
+Une joueuse se présente avec une tenue conforme au règlement fédéral, mais d'une couleur différente de celle de ses coéquipiers. Que prévoit le règlement de l'ICR ?
+- Elle ne peut pas jouer tant qu'elle n'a pas changé de maillot
++ Elle peut être alignée et jouer ; le fait doit être notifié dans le rapport du JA ou du GEO, ou remonté par une réclamation
+- Elle joue, mais ses matchs sont déclarés forfaits volontaires
+- Le JA lui adresse un carton jaune avant son premier match
+> LIFB.ICRS 5.3.3 : si une joueuse ou un joueur a une tenue conforme au règlement fédéral mais ne respecte pas l'uniformité d'équipe (5.3.2), elle ou il peut être alignée et jouer ; cela doit être notifié dans le rapport du JA, du GEO ou remonté par une réclamation, et les sanctions prévues s'appliquent.
+
+Q idf-022 | D: 3 | R: LIFB.ICRS 5.3.3 | P: pendant | T: interclubs
+Un club de R3 a obtenu de la Ligue une dérogation sur la taille de son flocage. Que doit-il faire le jour de la rencontre ?
+- Rien, la dérogation dispense de toute formalité
++ Signaler le point au JA avant le début des rencontres ; le JA doit le remonter dans son rapport
+- Présenter la dérogation à l'équipe adverse, qui peut la refuser
+- Faire jouer ses joueurs avec un maillot sans flocage
+> LIFB.ICRS 5.3.3 : pour les équipes de R2 et R3, la Ligue peut accorder des dérogations sur la conformité des flocages ; le club doit tout de même signaler le point au JA avant le début des rencontres et celui-ci doit le remonter dans son rapport.
+
+Q idf-023 | D: 2 | R: LIFB.ICRS 5.4.2 | P: pendant | T: interclubs
+Comment se calcule la valeur d'une équipe d'ICR francilien ?
+- Par la somme des points de tous les joueurs présents
++ Par la moyenne des 3 joueurs et des 3 joueuses les mieux classés, chacun pris dans sa meilleure discipline, un joueur manquant comptant zéro
+- Par la moyenne des cotes de simple des joueurs alignés
+- Par la moyenne des joueurs alignés dans la composition de la rencontre, discipline par discipline
+> LIFB.ICRS 5.4.2 : la valeur s'apprécie selon le barème fédéral en tenant compte de la moyenne des 3 joueurs et des 3 joueuses les mieux classés, avec le classement de la discipline où chacun est le mieux classé ; quand une équipe est incomplète, les joueurs manquants comptent pour zéro point.
+
+Q idf-024 | D: 2 | R: LIFB.ICRS 5.7.1 | P: pendant | T: interclubs
+Un joueur inscrit sur la feuille de rencontre se blesse à l'échauffement, avant le début des matchs. Les joueurs déclarés présents permettent encore d'avoir une équipe complète. Que se passe-t-il ?
+- Seule l'équipe du blessé refait sa composition
+- Les matchs du blessé sont déclarés forfaits involontaires
++ Les deux équipes refont leur composition pour permettre la tenue de tous les matchs ; le blessé est considéré comme ayant participé à la rencontre
+- La rencontre est reportée
+> LIFB.ICRS 5.7.1 : si les joueurs présents sur la feuille de présence permettent d'avoir une équipe complète, les deux équipes doivent refaire leur composition ; le joueur ou la joueuse est considéré comme ayant participé à la rencontre.
+
+Q idf-025 | D: 2 | R: LIFB.ICRS 5.7.3 | P: pendant | T: interclubs
+En ICR, un joueur se blesse et abandonne au cours de son premier match. Que doit saisir le GEO dans le logiciel pour ce match ?
+- Un score de 15-0 / 15-0 et la mention « WO »
++ Le score réel au moment de l'arrêt, en cochant la case « Ab » du joueur ou de la paire
+- Aucun score, le match étant annulé
+- Le score réel, sans autre mention
+> LIFB.ICRS 5.7.3 : si un joueur se blesse et abandonne le match en cours, on considère qu'il abandonne la rencontre ; le GEO reporte le score réel au moment de l'arrêt et coche la case « Ab ».
+
+Q idf-026 | D: 3 | R: LIFB.ICRS 5.7.4 | P: pendant | T: interclubs
+Le SH1 se blesse pendant le premier mixte, alors qu'aucun des deux simples hommes n'a encore été joué. L'équipe dispose d'un remplaçant déclaré présent, moins bien coté que le SH2. Que peut faire le JA ?
+- Rien : le remplaçant doit prendre la place du SH1
++ Autoriser l'inversion des joueurs pour respecter la hiérarchie : le SH2 joue le SH1 et le remplaçant le SH2
+- Déclarer forfait les deux simples hommes
+- Autoriser le remplaçant à jouer le SH1 à condition qu'il n'ait pas encore joué
+> LIFB.ICRS 5.7.4 : le remplaçant doit avoir été déclaré présent, respecter le nombre de matchs autorisés et la hiérarchie (5.6) ; si aucun des deux matchs d'une discipline n'a été joué, le JA autorise l'inversion des joueurs (en simple) ou des paires (en double) pour respecter la hiérarchie.
+
+Q idf-027 | D: 2 | R: LIFB.ICRS 5.7.4 | P: pendant | T: interclubs
+Un joueur blessé devait encore disputer un match et son équipe n'a personne pour le remplacer. Comment ce match est-il traité ?
+- Il est reporté à la journée de report
++ Le GEO coche « WO », le match est compté 15-0 / 15-0 dans le championnat et considéré comme forfait involontaire
+- Il est compté comme perdu sur le score réel du match abandonné
+- Il est considéré comme forfait volontaire
+> LIFB.ICRS 5.7.4 : s'il n'est pas possible de remplacer le joueur, le GEO coche la case « WO », le score du match non joué est déclaré « WO », comptabilisé 15-0 / 15-0 dans le championnat, et le match est considéré comme forfait involontaire (6.15.1).
+
+Q idf-028 | D: 2 | R: LIFB.ICRS 5.7.5 | P: apres | T: interclubs
+Après une blessure en ICR, dans quel délai le joueur doit-il envoyer un certificat médical à la LIFB ?
+- 48 heures
++ 5 jours après la rencontre
+- 10 jours ouvrables
+- Avant la journée suivante
+> LIFB.ICRS 5.7.5 : le joueur blessé doit impérativement envoyer un certificat médical à la LIFB dans les 5 jours après la rencontre, par tout moyen prouvant la date de réception. Pour les blessures les plus flagrantes, le JA peut noter le forfait comme « involontaire » et exempter le joueur de justificatif.
+
+Q idf-029 | D: 3 | R: LIFB.ICRS 5.7.6 | P: apres | T: interclubs
+Un joueur blessé en ICR n'envoie pas de certificat médical dans le délai prévu. Quelles en sont les conséquences ? (plusieurs réponses)
++ Le forfait involontaire est requalifié en forfait volontaire, avec les sanctions prévues
++ Le joueur est suspendu de toute compétition pendant deux mois à compter de la notification
+- Le joueur est suspendu un an
+- L'équipe est déclarée forfait général
+> LIFB.ICRS 5.7.6 : en l'absence de certificat dans le délai, ou si le certificat est jugé insuffisant, le forfait involontaire est requalifié en forfait volontaire et le joueur est suspendu deux mois, durée portée à six mois en cas de récidive au cours de la même saison ou de la suivante.
+
+Q idf-030 | D: 2 | R: LIFB.ICRS 5.8 | P: pendant | T: interclubs
+Le JA disqualifie un joueur au cours de la première rencontre d'une journée d'ICR. Ce joueur devait encore disputer un match de cette rencontre. Que se passe-t-il ?
+- Il peut être remplacé par un joueur déclaré présent
++ Il ne peut pas être remplacé et tout match non joué est considéré comme forfait volontaire
+- Le match restant est compté forfait involontaire
+- Il peut disputer son match restant, la disqualification ne valant que pour le match en cours
+> LIFB.ICRS 5.8 : un joueur disqualifié par le JA ne peut plus jouer de match dans la rencontre en cours ; son remplacement n'est pas autorisé et tout match non joué est considéré comme forfait volontaire. La procédure disciplinaire du règlement des cartons s'applique.
+
+# ---------------------------------------------------------------- ICR : journée et rencontre
+
+Q idf-031 | D: 2 | R: LIFB.ICRS 6.2.2 | P: avant | T: interclubs
+Un club hôte doit demander une modification de l'horaire de sa journée de réception. Quel est le délai réglementaire ?
+- 20 jours avant la journée, avec la convocation
++ Par écrit avec justificatifs au plus tard 40 jours avant la journée (ou dès que possible si le fait survient plus tard), via le formulaire 4
+- 7 jours avant la journée, par téléphone au JA
+- Aucun délai, le JA décide le jour même
+> LIFB.ICRS 6.2.2 : toute demande de report, modification ou dérogation (jour, lieu, horaire) fait l'objet d'une demande écrite avec justificatifs, au plus tard 40 jours avant la journée, ou le plus tôt possible si le fait générateur survient moins de 40 jours avant ; elle se fait via le formulaire 4 « Demande de dérogation ».
+
+Q idf-032 | D: 2 | R: LIFB.ICRS 6.4 | P: avant | T: interclubs
+Le JA désigné sur une journée d'ICR n'a toujours pas reçu de convocation 15 jours avant la journée. Quel délai l'équipe hôte devait-elle respecter ?
+- 7 jours avant la compétition
+- 10 jours avant la compétition
++ 20 jours avant la compétition, par email avec copie à la LIFB
+- 30 jours avant la compétition
+> LIFB.ICRS 6.4 : l'équipe hôte informe les équipes et le JA désigné par email, avec copie à la LIFB, au moins 20 jours avant la compétition. Tout retard ou manquement est passible de sanctions mineures ou majeures.
+
+Q idf-033 | D: 2 | R: LIFB.ICRS 6.4 | P: avant | T: interclubs
+Quels éléments doivent obligatoirement figurer sur la convocation d'une journée d'ICR ? (plusieurs réponses)
++ Le nom, prénom, numéro de licence et adresse mail du GEO
++ La marque de volant utilisée
++ La hauteur de la salle et la présence ou non d'une tribune
+- La composition prévue de chaque équipe
+> LIFB.ICRS 6.4 : la convocation mentionne notamment les équipes, l'horaire de convocation, les coordonnées du GEO, l'heure de début ou l'échéancier, la marque de volant, les informations sur le gymnase (adresse, nombre de terrains, tribune, hauteur, plan d'accès) et les coordonnées du JA. La composition d'équipe n'est validée que le jour même (6.11.4).
+
+Q idf-034 | D: 2 | R: LIFB.ICRS 6.6.1 | P: pendant | T: interclubs
+Que doit prévoir l'équipe hôte d'une journée d'ICR en matière de restauration ?
+- Une buvette payante ouverte au public
++ Une buvette gratuite permettant à chaque personne y ayant accès de prendre au moins l'équivalent d'un repas, réservée aux joueurs et officiels techniques
+- Un repas pour les seuls officiels techniques
+- Rien, la restauration est facultative
+> LIFB.ICRS 6.6.1 : l'équipe hôte prévoit une restauration appropriée (buvette gratuite) permettant de prendre au moins l'équivalent d'un repas ; l'accès est réservé aux joueurs et aux officiels techniques, les accompagnateurs devant y être autorisés par le club hôte. Tout manquement est un défaut majeur d'organisation.
+
+Q idf-035 | D: 1 | R: LIFB.ICRS 6.7.1 | P: pendant | T: interclubs
+Lors d'une journée d'ICR, qui fournit les volants des rencontres ?
+- Chaque équipe pour ses propres matchs
+- La LIFB
++ L'équipe hôte, avec des volants agréés selon le classement fédéral
+- Les joueurs, comme en tournoi
+> LIFB.ICRS 6.7.1 : les volants sont fournis par l'équipe hôte et doivent être agréés selon le classement fédéral ; tout manquement est sanctionné d'un défaut majeur d'organisation.
+
+Q idf-036 | D: 2 | R: LIFB.ICRS 6.8.1 | P: avant | T: interclubs
+Quels critères une salle doit-elle remplir pour accueillir une journée d'ICR francilien ? (plusieurs réponses)
++ Une hauteur de plafond d'au moins 7 mètres
++ Un espace tribune d'au moins 50 personnes
+- Une hauteur de plafond d'au moins 9 mètres
+- Au moins 8 terrains
+> LIFB.ICRS 6.8.1 et 6.8.2 : la salle doit avoir un plafond d'au moins 7 mètres, des conditions d'éclairage adaptées et un espace tribune de 50 personnes minimum ; 6 terrains sont impératifs le samedi et 4 au minimum le dimanche.
+
+Q idf-037 | D: 2 | R: LIFB.ICRS 6.8.2 | P: avant | T: interclubs
+Un club propose d'accueillir une journée d'ICR le samedi dans un gymnase de 5 terrains. Est-ce conforme ?
+- Oui, 4 terrains suffisent quel que soit le jour
++ Non, une journée le samedi impose de disposer de 6 terrains
+- Oui, si les rencontres commencent à 9 heures
+- Oui, avec l'accord du JA le jour même
+> LIFB.ICRS 6.8.2 : les rencontres se déroulent en parallèle sur deux terrains chacune ; pour une journée le samedi, il est impératif de disposer de 6 terrains, le dimanche 4 terrains minimum sont nécessaires (6 préconisés).
+
+Q idf-038 | D: 1 | R: LIFB.ICRS 6.10.1 | P: pendant | T: interclubs
+Quels moyens l'équipe hôte doit-elle prévoir à la table de marque d'une journée d'ICR ? (plusieurs réponses)
++ Un PC, une imprimante et une sono
++ Au moins une personne titulaire du GEO
++ Une trousse de secours complète
+- Un arbitre de réserve
+> LIFB.ICRS 6.10.1 et 6.10.2 : l'équipe hôte prévoit des moyens informatiques (PC, imprimante, sono) et humains (1 personne minimum, titulaire du GEO), ainsi qu'une trousse de secours complète à la table de marque. Chaque élément manquant est sanctionné d'un défaut mineur ou majeur (6.10.3).
+
+Q idf-039 | D: 2 | R: LIFB.ICRS 6.11.2 | P: avant | T: interclubs
+Les rencontres d'une journée d'ICR commencent à 10 h. À quelle heure au plus tard la salle doit-elle être ouverte, et à quelle heure les équipes sont-elles convoquées ?
+- Salle ouverte à 9 h, équipes convoquées à 9 h 30
++ Salle ouverte à 8 h 30, équipes convoquées à 8 h 45
+- Salle ouverte à 8 h, équipes convoquées à 9 h
+- Salle ouverte à 9 h 15, équipes convoquées à 9 h 15
+> LIFB.ICRS 6.11.2 et 6.11.3 : la salle est ouverte au moins 1 h 30 avant le début de la rencontre et les équipes sont convoquées 1 h 15 avant.
+
+Q idf-040 | D: 2 | R: LIFB.ICRS 6.11.4 | P: pendant | T: interclubs
+Dans le déroulé d'avant-rencontre de l'ICR francilien, quelle étape le règlement place-t-il « 45 minutes maximum avant l'heure prévue de la rencontre » ?
+- La déclaration des présences dans les outils informatiques
++ L'appel nominal des joueurs de chaque équipe par le JA
+- La validation des compositions d'équipe par les capitaines
+- L'indication de l'ordre des matchs par le GEO
+> LIFB.ICRS 6.11.4 : les présences sont déclarées 1 h avant ; 45 minutes maximum avant, le JA (ou à défaut les deux capitaines en présence du GEO) procède à l'appel nominal ; 30 minutes avant, les capitaines valident les compositions ; 15 minutes avant, le GEO indique l'ordre des matchs.
+
+Q idf-041 | D: 2 | R: LIFB.ICRS 6.11.4 | P: pendant | T: interclubs
+Aucun JA n'est présent sur une journée d'ICR de R3. Qui procède à l'appel nominal des joueurs ?
+- Le GEO seul
++ Les deux capitaines, en présence du GEO
+- Le capitaine de l'équipe hôte
+- L'arbitre le plus gradé présent
+> LIFB.ICRS 6.11.4 : le JA, ou à défaut les deux capitaines en présence du GEO, procède à l'appel nominal sur la base des déclarations de présence.
+
+Q idf-042 | D: 2 | R: LIFB.ICRS 6.11.4 | P: pendant | T: interclubs
+Un capitaine d'ICR veut modifier la composition de son équipe après l'avoir validée, pour aligner un autre joueur en simple. Que répond le JA ?
+- C'est possible jusqu'à 15 minutes avant la rencontre
+- C'est possible si le capitaine adverse est d'accord
++ C'est impossible, sauf remplacement d'un joueur blessé dans les cas prévus à l'article 5.7
+- C'est possible, si le joueur figure sur la déclaration de présence
+> LIFB.ICRS 6.11.4 : une fois remise, la composition ne peut être modifiée, excepté dans les cas prévus à l'article 5.7 relatif au remplacement d'un joueur. Seuls les joueurs de la déclaration de présence peuvent figurer sur la feuille de rencontre.
+
+Q idf-043 | D: 2 | R: LIFB.ICRS 6.12.1 | P: pendant | T: interclubs
+Un joueur inscrit dans la déclaration de présence arrive 20 minutes après l'heure de convocation. Que doit-il faire ?
+- Rien, il est toléré sans formalité jusqu'à 30 minutes
++ Informer le JA de son retard et fournir une justification, consignée dans le rapport du JA
+- Rien, il est considéré comme absent
+- Payer une amende à la table de marque
+> LIFB.ICRS 6.12.1 : jusqu'à 15 minutes, aucune formalité ; entre 15 et 30 minutes, le joueur doit impérativement informer le JA et fournir une justification consignée dans le rapport du JA (ou du GEO) ; au-delà de 30 minutes, il est considéré comme absent.
+
+Q idf-044 | D: 3 | R: LIFB.ICRS 6.12.1 | P: pendant | T: interclubs
+Un joueur arrive 40 minutes après l'heure de convocation, avant la fin de la rencontre. Que prévoit le règlement ? (plusieurs réponses)
++ Il est considéré comme absent et ne peut pas jouer la rencontre
++ Une réserve est automatiquement posée pour analyse par la Ligue
++ Il peut se présenter à la table de marque et au JA, qui peut le notifier dans son rapport
+- Ses matchs sont reprogrammés en fin de journée
+> LIFB.ICRS 6.12.1 : au-delà de 30 minutes, le joueur est absent, ne peut pas être intégré à la composition, aucune reprogrammation n'est autorisée ; le cas est inscrit au rapport et une réserve est automatiquement posée. S'il arrive avant la fin de la rencontre, il peut se présenter à la table de marque et au JA, et la Ligue pourra en tenir compte dans son analyse (hiérarchies, titularisation).
+
+Q idf-045 | D: 2 | R: LIFB.ICRS 6.12.2 | P: pendant | T: interclubs
+En ICR francilien, à quelle condition une équipe cesse-t-elle d'être considérée comme en retard ?
+- Dès que son capitaine est arrivé
++ Dès qu'elle est composée d'au moins 2 joueuses et 2 joueurs
+- Dès qu'elle est composée d'au moins 3 joueuses et 3 joueurs
+- Dès qu'elle a validé sa composition
+> LIFB.ICRS 6.12.2 : une équipe est considérée comme en retard tant qu'elle n'est pas composée de 2 joueuses et 2 joueurs au minimum ; au-delà de 30 minutes de retard, elle est déclarée forfait sur la rencontre (art. 6.21).
+
+Q idf-046 | D: 2 | R: LIFB.ICRS 6.13 | P: pendant | T: interclubs
+Qui détermine l'ordre des matchs d'une rencontre d'ICR francilien ?
+- Le JA seul, librement
+- Les capitaines, d'un commun accord
++ Le logiciel, via l'action du GEO ; le JA peut l'inverser dans certains cas, et en son absence seul l'ordre du logiciel vaut
+- Le capitaine de l'équipe hôte
+> LIFB.ICRS 6.13 : l'ordre des matchs est déterminé par les outils informatiques via l'action du GEO ; le JA peut l'inverser (équité sportive, temps de repos, enchaînement…). En l'absence de JA, seul l'ordre du logiciel vaut ; en cas de défaillance informatique, le JA, ou à défaut le GEO, le détermine.
+
+Q idf-047 | D: 2 | R: LIFB.ICRS 6.15.6 | P: apres | T: interclubs
+Lors d'une rencontre d'ICR de saison régulière, un joueur a été aligné en simple, en double et en mixte. Comment ses matchs sont-ils traités ?
+- Seul le troisième match est déclaré forfait volontaire
++ L'ensemble des matchs qu'il a joués est déclaré forfait volontaire
+- Ils sont validés si le JA l'a autorisé
+- Seul le match de simple est déclaré forfait
+> LIFB.ICRS 6.15.6 (et 6.14.2) : un joueur ne peut disputer plus de 2 matchs ni 2 matchs de la même discipline ; s'il est aligné dans les trois disciplines, excepté pour le mixte en or des phases finales, l'ensemble des matchs joués est déclaré forfait volontaire.
+
+Q idf-048 | D: 2 | R: LIFB.ICRS 6.15.4 | P: pendant | T: interclubs
+Une équipe d'ICR n'a qu'un seul joueur disponible pour les simples hommes. Quel simple est déclaré forfait ?
+- Le SH1
++ Le SH2, le forfait portant sur le match hiérarchiquement inférieur
+- Au choix du capitaine
+- Au choix du JA
+> LIFB.ICRS 6.15.4 : en cas de forfait de joueurs, les matchs non joués sont ceux hiérarchiquement inférieurs ; un forfait en simple hommes se fait sur le second simple.
+
+Q idf-049 | D: 2 | R: LIFB.ICRS 6.17.1 | P: apres | T: interclubs
+Selon le barème de l'ICR francilien, combien de points de classement une équipe obtient-elle pour une victoire et pour un nul ?
+- Victoire 3 points, nul 1 point
++ Victoire 4 points, nul 2 points
+- Victoire 2 points, nul 1 point
+- Victoire 5 points, nul 3 points
+> LIFB.ICRS 6.17.1 : victoire + 4 points, nul + 2 points, défaite 0 point. En phases finales, l'équipe qui remporte le mixte en or décisif reçoit 2 points supplémentaires, soit 4 points au total.
+
+Q idf-050 | D: 3 | R: LIFB.ICRS 6.17.4 | P: apres | T: interclubs
+Quand une équipe perdante d'une rencontre d'ICR obtient-elle un point de « bonus défensif » ?
+- Si elle a gagné au moins un match
++ Si elle a atteint 3 points
+- Si elle a gagné au moins un set dans chaque match
+- Jamais, seul existe un bonus offensif
+> LIFB.ICRS 6.17.4 : il est rajouté 1 point de « bonus offensif » si l'équipe victorieuse a atteint 8 points et 1 point de « bonus défensif » si l'équipe perdante a atteint 3 points.
+
+Q idf-051 | D: 2 | R: LIFB.ICRS 6.17.3 | P: apres | T: interclubs
+Quel score officiel est retenu pour une rencontre d'ICR perdue par forfait ?
+- 0-7 (matchs), 0-14 (sets), 0-210 (points)
++ 0-8 (matchs), 0-16 (sets), 0-240 (points)
+- 0-8 (matchs), 0-16 (sets), 0-336 (points)
+- 0-5 (matchs), 0-10 (sets), 0-150 (points)
+> LIFB.ICRS 6.17.3 : le résultat d'une rencontre perdue par forfait est de 0-8 (matchs), 0-16 (sets) et 0-240 (points), cohérent avec un score de match forfait de 15-0 / 15-0 (6.15.7).
+
+Q idf-052 | D: 2 | R: LIFB.ICRS 6.18.2 | P: apres | T: interclubs
+Lors d'une journée d'ICR, les outils informatiques ont été utilisés en réseau local, sans connexion Internet. Avant quand l'équipe organisatrice doit-elle exporter les résultats ?
+- Le soir même avant minuit
++ Au plus tard le lundi suivant à 12 h
+- Avant le mercredi soir suivant
+- Dans les 7 jours
+> LIFB.ICRS 6.18.2 : en réseau local, l'équipe organisatrice exporte les résultats dans les outils informatiques au plus tard le lundi suivant la journée de réception à 12 h. Chaque journée de retard est sanctionnée d'un retard majeur (6.18.4).
+
+Q idf-053 | D: 2 | R: LIFB.ICRS 6.19.2 | P: pendant | T: interclubs
+Une rencontre d'ICR est interrompue par une coupure électrique alors que 6 matchs sont terminés. Que devient la rencontre ? (plusieurs réponses)
++ Les matchs non terminés et non joués sont reportés et terminés ultérieurement, sauf accord explicite des capitaines
++ L'interruption est signalée dans le rapport de la journée par le JA ou le GEO, via le formulaire N°5
+- Le score est entériné sur les 6 matchs terminés
+- Les 2 matchs restants sont comptés forfaits pour l'équipe hôte
+> LIFB.ICRS 6.19.1 et 6.19.2 : toute rencontre non terminée est signalée dans le rapport par le JA ou le GEO (formulaire N°5) ; pour un cas de force majeure (fermeture du gymnase, coupure électrique…), les matchs non terminés sont reportés, à une date fixée par la LIFB, sauf accord explicite des capitaines. Le score n'est entériné en l'état que pour une cause non majeure (6.19.3).
+
+Q idf-054 | D: 3 | R: LIFB.ICRS 6.20.2 | P: apres | T: interclubs
+Une équipe d'ICR se présente régulièrement incomplète. À partir de quand est-elle considérée comme forfait d'équipe sur la rencontre ?
+- Dès la première rencontre incomplète
+- À partir de la 2e rencontre incomplète
++ À partir de la 4e rencontre de présentation d'une équipe incomplète
+- Jamais, seuls les matchs non joués sont forfaits
+> LIFB.ICRS 6.20.2 : à partir de la 4e rencontre de présentation d'une équipe incomplète, l'équipe est considérée en forfait d'équipe sur la rencontre (art. 6.21).
+
+Q idf-055 | D: 2 | R: LIFB.ICRS 6.21.3 | P: pendant | T: interclubs
+Lors d'une journée d'ICR, une équipe ne se présente pas. Que doivent faire l'équipe présente et la table de marque ?
+- Rien : la rencontre est simplement annulée
++ L'équipe présente réalise les procédures habituelles (présence, composition) et la table de marque saisit sa composition en mettant « forfait » pour l'équipe absente
+- L'équipe présente repart, la LIFB saisira le résultat
+- La table de marque saisit 8 victoires 15-0 / 15-0 sans composition
+> LIFB.ICRS 6.21.1 et 6.21.3 : l'équipe présente doit réaliser dans le gymnase les procédures de l'article 6.11 ; la table de marque saisit la rencontre avec la composition de l'équipe présente et met « forfait » pour l'équipe absente, dont la composition retenue est celle de la rencontre précédente.
+
+# ---------------------------------------------------------------- ICR : phases finales et litiges
+
+Q idf-056 | D: 2 | R: LIFB.ICRS 8.1.8 | P: pendant | T: interclubs
+Lors des phases finales de l'ICR, une rencontre se termine sur le score de 4-4. Que se passe-t-il ?
+- Les équipes sont départagées à la différence de sets
++ Un double mixte en or est disputé ; chaque capitaine désigne un joueur et une joueuse inscrits sur la feuille de présence
+- Le JA procède à un tirage au sort
+- Le match nul est entériné, chaque équipe recevant 2 points
+> LIFB.ICRS 8.1.8 : en cas d'égalité à 4-4, un double mixte en or départage les deux équipes ; chaque capitaine désigne un joueur et une joueuse de son choix, inscrits sur la feuille de présence. Selon 6.14.2, ils peuvent jouer un match supplémentaire, y compris dans la même discipline.
+
+Q idf-057 | D: 3 | R: LIFB.ICRS 8.3 | P: avant | T: interclubs
+Un joueur est qualifié pour les phases finales de l'ICR seniors avec son club et pour celles de l'ICR vétérans avec une autre équipe. Que prévoit le règlement ?
+- Il peut jouer les deux, ce sont des championnats distincts
++ Il ne peut participer qu'avec une seule équipe aux phases finales des différents championnats interclubs ; sinon il est considéré comme non qualifié
+- Il doit choisir l'équipe la mieux classée
+- Il peut jouer les deux si les dates sont différentes
+> LIFB.ICRS 8.3 : les joueurs ne peuvent participer qu'avec une seule équipe aux phases finales (ou équivalent) des différents championnats interclubs nationaux et régionaux, notamment ICR Seniors et ICR Vétérans ; à défaut, ils sont considérés comme non qualifiés.
+
+Q idf-058 | D: 2 | R: LIFB.ICRS 10.1.2 | P: pendant | T: interclubs
+Pendant une rencontre d'ICR, un club souhaite déposer une saisine officielle sur un fait survenu dans la salle. Quel rôle joue le JA ?
+- Il doit valider la saisine, faute de quoi elle est irrecevable
++ Le club est invité à l'informer afin que le fait soit consigné dans le rapport de journée, sans que cela conditionne la recevabilité
+- Il statue lui-même sur la saisine en première instance
+- Aucun, le JA n'a pas à en être informé
+> LIFB.ICRS 10.1.2 : lorsque la saisine porte sur un fait survenu pendant une rencontre, le club est invité à en informer le JA (ou, en son absence, le GEO) pour que le fait soit consigné dans le rapport ; cette démarche n'est pas une condition de recevabilité. La saisine utilise le formulaire 3.
+
+Q idf-059 | D: 2 | R: LIFB.ICRS 10.1.3 | P: apres | T: interclubs
+Dans quel délai une saisine officielle doit-elle parvenir à la LIFB après la journée d'ICR concernée ?
+- 48 heures
+- 5 jours ouvrables
++ 7 jours calendaires
+- 15 jours
+> LIFB.ICRS 10.1.3 : toute saisine officielle doit parvenir à la LIFB au plus tard sept jours calendaires après la journée au cours de laquelle le fait s'est produit ou a été révélé ; passé ce délai, elle est irrecevable, sauf fait non décelable dans ce délai.
+
+# ---------------------------------------------------------------- ICR : annexes 2026-2027
+
+Q idf-060 | D: 1 | R: LIFB.ICRS.A Annexe 1 | P: avant | T: interclubs
+Selon l'annexe 1 du règlement ICR 2026-2027, à quelles dates se déroule la J1 de l'ICR francilien ?
++ Les 3 et 4 octobre 2026
+- Les 26 et 27 septembre 2026
+- Les 7 et 8 novembre 2026
+- Les 17 et 18 octobre 2026
+> Annexe 1 (calendrier ICR 2026-2027) : J1 les 03/04 octobre 2026, J2 les 07/08 novembre 2026, J5 les 27/28 février 2027 et phases finales les 17/18 avril 2027.
+
+Q idf-061 | D: 1 | R: LIFB.ICRS.A Annexe 1 | P: avant | T: interclubs
+Quel est le montant des droits d'engagement d'une équipe à l'ICR francilien pour la saison 2026-2027 ?
+- 86 €
+- 150 €
++ 175 €
+- 375 €
+> Annexe 1 : le montant des droits d'engagement est de 175 €. Les 86 € correspondent à la consignation pour saisir la CRRL.
+
+Q idf-062 | D: 2 | R: LIFB.ICRS.A Annexe 1 | P: apres | T: interclubs
+Un club veut contester une décision de la Ligue relative à l'ICR. Quelle commission saisit-il, et quelle consignation doit-il verser ?
+- La CLOT, sans consignation
++ La Commission Régionale des Réclamations et des Litiges (CRRL), avec une consignation de 86 €
+- La commission fédérale des litiges, avec une consignation de 175 €
+- Le juge-arbitre de la journée, avec une consignation de 50 €
+> Annexe 1 (droit de consignation) et LIFB.ICRS 10.3.1 : la contestation d'une décision de la Ligue se fait par saisine de la Commission Régionale des Réclamations et des Litiges (CRRL), avec un dépôt de 86 €.
+
+Q idf-063 | D: 2 | R: LIFB.ICRS.A Annexe 2 | P: apres | T: sanctions
+Lors d'une journée de R2, une équipe ne présente pas l'arbitre qu'elle devait engager. Quelle sanction financière prévoit l'annexe 2 ?
+- 100 € par journée
++ 150 € par rencontre
+- 300 € par journée
+- 500 € par rencontre
+> Annexe 2 : le défaut d'engagement d'arbitre (art. 3.2) est sanctionné de 150 € par rencontre.
+
+Q idf-064 | D: 2 | R: LIFB.ICRS.A Annexe 2 | P: apres | T: sanctions
+Quelle amende l'annexe 2 prévoit-elle pour la non-participation ou le forfait d'une équipe sur une rencontre d'ICR ?
+- 100 €
+- 300 €
++ 500 €
+- 1 500 €
+> Annexe 2 : la non-participation ou le forfait d'équipe sur une rencontre (art. 6.21) est sanctionné de 500 €. Le forfait général d'une équipe (art. 2.5) coûte 1 500 €.
+
+Q idf-065 | D: 2 | R: LIFB.ICRS.A Annexe 2 | P: apres | T: sanctions
+Le JA note dans son rapport qu'une équipe a remis sa composition en retard. Quelle sanction financière prévoit l'annexe 2 ?
++ 100 €
+- 150 €
+- 300 €
+- 500 €
+> Annexe 2 : le retard pour la remise de la déclaration de présence ou de la composition d'équipe (art. 6.11) est sanctionné de 100 €.
+
+Q idf-066 | D: 3 | R: LIFB.ICRS.A Annexe 2 | P: apres | T: sanctions
+Deux joueurs d'une équipe d'ICR jouent avec des maillots d'une couleur différente de leurs coéquipiers. Quelle sanction l'annexe 2 prévoit-elle pour une tenue d'équipe non respectée ?
+- 100 € par joueur, sans plafond
++ 25 € par joueur et par rencontre, avec un maximum de 100 € par rencontre
+- 200 € par équipe et par journée
+- Un avertissement, puis le forfait des matchs concernés
+> Annexe 2 : la tenue d'équipe non respectée (art. 5.3.2) est sanctionnée de 25 € par joueur et par rencontre, ou 100 € maximum par rencontre. Une tenue non conforme au règlement fédéral (art. 5.3.1) relève d'une autre ligne : 100 € par joueur ou 200 € par équipe.
+
+Q idf-067 | D: 3 | R: LIFB.ICRS.A Annexe 2 | P: apres | T: sanctions
+Quelles sanctions l'annexe 2 prévoit-elle pour un match forfait stratégique en ICR ? (plusieurs réponses)
++ Une amende de 300 €
++ Un retrait de 2 points au classement général
+- Le forfait général de l'équipe
+- Une amende de 1 000 €
+> Annexe 2 : le match forfait stratégique est sanctionné d'une amende de 300 € et, sur le plan sportif, de -2 points au classement général.
+
+Q idf-068 | D: 2 | R: LIFB.ICRS.A Annexe 4 | P: pendant | T: interclubs
+Selon la feuille de route des GEO d'ICR, comment doivent être répartis les arbitres sur les matchs de la journée ?
+- Chaque arbitre arbitre les matchs de son équipe
+- Au choix des capitaines
++ Sur des rencontres qui ne concernent pas leur équipe, ce qui est obligatoire ; l'arbitre de chaque match est indiqué dans le logiciel
+- Par tirage au sort effectué par le JA
+> Annexe 4 : le GEO doit répartir les arbitres sur des rencontres qui ne concernent pas leur équipe (obligatoire) et indiquer sur le logiciel l'arbitre qui a officié sur chaque match (indispensable).
+
+Q idf-069 | D: 2 | R: LIFB.ICRS.A Annexe 7 | P: avant | T: interclubs
+Un club hôte ne peut pas respecter les échéanciers types de l'ICR pour sa journée de réception. Que doit-il faire ?
+- Construire librement son échéancier avec le JA le jour même
++ Faire une demande de dérogation via le formulaire 4, 6 semaines avant sa journée de réception
+- Prévenir les capitaines 20 jours avant via la convocation
+- Rien, les échéanciers ne sont qu'indicatifs
+> Annexe 7 : si le club ne peut pas respecter les échéanciers prévus, il doit faire une demande de dérogation via le formulaire 4, 6 semaines avant sa journée de réception. Selon l'article 6.5.2, le GEO et le JA doivent se conformer aux modèles d'échéanciers.
+
+Q idf-070 | D: 3 | R: LIFB.ICRS.A Annexe 7 | P: pendant | T: interclubs
+Dans les échéanciers types de saison régulière de l'ICR (dimanche, 4 terrains), quel intervalle sépare deux rotations successives ?
+- 25 minutes
++ 35 minutes
+- 45 minutes
+- 1 heure
+> Annexe 7 : dans l'échéancier du dimanche sur 4 terrains, les rotations s'enchaînent à 9:00, 9:35, 10:10, 10:45, 11:20 et 11:55, soit toutes les 35 minutes, avec une convocation des équipes à 7:45.
+
+# ---------------------------------------------------------------- Autorisation des tournois
+
+Q idf-071 | D: 1 | R: LIFB.TOURNOIS 2 | P: avant | T: tournois
+En Île-de-France, à partir de quand un club peut-il communiquer sur l'organisation de son tournoi ?
+- Dès le dépôt de la proposition de date dans Poona
++ Après la validation de l'étape « Validation Ligue »
+- Après le tirage au sort
+- Dès que le JA a donné son accord
+> LIFB.TOURNOIS 2 (point 1) : il faut attendre la validation de l'étape « Validation Ligue » pour communiquer sur son organisation. L'annexe 1 précise : « Validation Ligue ou FFBaD si joueurs classés N ».
+
+Q idf-072 | D: 2 | R: LIFB.TOURNOIS 2 | P: avant | T: tournois
+Un club francilien compte 120 licenciés. Quelle limite le règlement des autorisations de tournois lui impose-t-il ?
+- Il ne peut pas organiser de tournoi
+- Il est limité à 7 terrains
++ Pas de limitation du nombre de terrains, mais le multi-gymnase est interdit
+- Aucune limite, ni de terrains ni de gymnases
+> LIFB.TOURNOIS 2 (point 2) : moins de 30 licenciés, pas d'autorisation ; de 30 à 150 licenciés, pas de limitation du nombre de terrains mais multi-gymnase interdit ; 150 licenciés et plus, pas de limitation de terrains ni de salles. Pour un tournoi partenarial, les licenciés des clubs organisateurs s'additionnent.
+
+Q idf-073 | D: 3 | R: LIFB.TOURNOIS 2 | P: apres | T: tournois
+Un club francilien ne respecte pas un point du règlement des autorisations de tournois pour la première fois. Quelle est la gradation des sanctions ?
+- Une amende de 300 € dès le premier manquement
++ Un courrier d'avertissement, puis une amende de 300 € en cas de première récidive sur 3 ans glissants, puis une non-autorisation de tournois en cas de nouvelle récidive
+- Une non-autorisation immédiate du prochain tournoi
+- Un avertissement, puis une suspension du président du club
+> LIFB.TOURNOIS 2 (point 3) : un courrier d'avertissement est envoyé la première fois, suivi d'une amende de 300 € en cas de première récidive sur une période de 3 ans glissante et d'une non-autorisation de tournois en cas de nouvelle récidive.
+
+Q idf-074 | D: 2 | R: LIFB.TOURNOIS 3 | P: avant | T: tournois
+Un JA est désigné par la Ligue sur une journée d'ICR. Un club lui propose d'officier le même week-end sur son tournoi privé. Que prévoit le règlement francilien ?
+- Il peut accepter s'il trouve un remplaçant pour l'ICR
++ Il ne peut pas se désister de l'interclub pour officier sur un tournoi privé ; la CLOT peut se prononcer sur des sanctions
+- Il peut accepter si le tournoi n'a pas de série N
+- Il choisit librement, la désignation ICR n'étant pas impérative
+> LIFB.TOURNOIS 3 (point 5) : un JA ne peut se désister d'un interclub pour officier sur un tournoi privé ; en cas de non-respect, la CLOT se prononce sur les pénalités ou sanctions.
+
+Q idf-075 | D: 2 | R: LIFB.TOURNOIS 3 | P: avant | T: tournois
+Quelles compétitions de clubs ne sont pas autorisées les week-ends de journées régulières ou de phases finales de l'ICR ? (plusieurs réponses)
++ Les tournois comportant des séries N à R4 inclus
++ Les compétitions multisalles ou demandant la présence de plusieurs juges-arbitres
+- Tous les tournois jeunes
+- Les tournois limités aux séries P
+> LIFB.TOURNOIS 3 (point 5) : lors des week-ends de journées régulières ou de phases finales d'ICR, aucun tournoi avec des séries N à R4 inclus et aucune compétition multisalles ou demandant plusieurs juges-arbitres ne sont autorisés.
+
+Q idf-076 | D: 2 | R: LIFB.TOURNOIS 3 | P: avant | T: tournois
+Quels tournois sont interdits le week-end du Championnat Régional Vétérans Jean-Pierre Jacot ?
+- Aucun tournoi, quel qu'il soit
++ Les tournois incluant la catégorie vétéran
+- Les seuls tournois vétérans du comité hôte
+- Les tournois comportant des séries N
+> LIFB.TOURNOIS 3 (point 1) : lors du Championnat Régional Vétérans Jean-Pierre Jacot, aucun tournoi incluant la catégorie vétéran n'est autorisé. Lors du Championnat Régional Seniors André Guillier, ce sont les tournois seniors avec des séries comportant des joueurs N qui sont interdits.
+
+Q idf-077 | D: 3 | R: LIFB.TOURNOIS 4 | P: avant | T: tournois
+Pour le décompte des officiels techniques exigés pour l'autorisation d'un tournoi francilien, quel cumul de statuts est admis ?
+- Un GEO peut aussi compter comme arbitre
+- Aucun cumul n'est admis, sans exception
++ Seul le juge-arbitre peut aussi compter comme arbitre
+- Un arbitre peut aussi compter comme GEO pour un tournoi de 7 terrains et moins
+> LIFB.TOURNOIS 4 (point 6) : chaque statut doit être représenté par un licencié ; le cumul n'est pas autorisé, sauf pour le juge-arbitre qui pourra aussi compter comme arbitre. Le rôle de GEO doit être tenu par un licencié différent des arbitres et juges-arbitres.
+
+Q idf-078 | D: 3 | R: LIFB.TOURNOIS 4 | P: avant | T: tournois
+Pour la saison 2026-2027, quels officiels techniques licenciés un club francilien doit-il avoir pour organiser un tournoi de 8 à 12 terrains ?
+- 2 GEO et 1 OT au choix
++ 3 GEO, 1 arbitre et 1 juge-arbitre, le statut de stagiaire ou l'inscription en formation étant acceptés
+- 4 GEO, 2 arbitres et 1 juge-arbitre, tous validés
+- 1 GEO et 1 juge-arbitre
+> LIFB.TOURNOIS 4 (point 6) : pour 8 à 12 terrains, il faut 3 GEO (GEO 1, GEO 1 Promo ou GEO 2), 1 arbitre et 1 juge-arbitre, stagiaires ou inscrits en formation acceptés. Pour 7 terrains et moins : 2 GEO et 1 OT au choix ; pour plus de 12 terrains : 4 GEO, 2 arbitres et 1 juge-arbitre.
+
+Q idf-079 | D: 2 | R: LIFB.TOURNOIS 4 | P: pendant | T: tournois
+Un JA officie sur un tournoi francilien comportant des séries avec des licenciés N1. Quelles obligations d'arbitrage doit-il contrôler et rapporter ?
+- Tous les matchs de toutes les séries doivent être arbitrés
++ Toutes les demi-finales et finales des séries avec des licenciés N1 doivent être arbitrées ; il le précise dans son rapport, ainsi que pour les séries N2 (conseillé)
+- Seules les finales N1 doivent être arbitrées
+- Aucune, l'arbitrage reste facultatif en tournoi
+> LIFB.TOURNOIS 4 (point 7) : toutes les demi-finales et finales des séries avec des licenciés N1 doivent être arbitrées, ce qui est conseillé pour les séries N2. Le JA détaille l'activité d'arbitrage dans son rapport en précisant si ces obligations ont été respectées.
+
+Q idf-080 | D: 2 | R: LIFB.TOURNOIS 4 | P: avant | T: tournois
+Quelle aide la LIFB apporte-t-elle aux clubs organisant un tournoi avec des licenciés N1 ?
+- Elle fournit gratuitement le JA principal
++ Elle prend en charge les indemnités de deux arbitres sur les 6 premiers tournois comportant des licenciés N1 de la saison, les frais de déplacement restant à la charge des clubs
+- Elle rembourse les volants des finales
+- Elle prend en charge tous les frais d'arbitrage de tous les tournois N
+> LIFB.TOURNOIS 4 (point 7) : la Ligue prend en charge les indemnités de deux arbitres pour officier sur les 6 premiers tournois comportant des licenciés N1 par saison organisés par des clubs ; les frais de déplacement restent à la charge des clubs.
+
+Q idf-081 | D: 2 | R: LIFB.TOURNOIS 5 | P: avant | T: tournois
+En format classique (week-end avec JA), combien de tournois un club francilien peut-il organiser au plus dans la saison, hors exceptions ?
+- Un seul tournoi, toutes catégories confondues
++ Un tournoi senior, un tournoi vétéran et un tournoi jeunes (individuel ou par équipe)
+- Deux tournois seniors et un tournoi jeunes
+- Autant qu'il le souhaite
+> LIFB.TOURNOIS 5 (point 8) : un club peut organiser au plus un tournoi senior, un tournoi vétéran et un tournoi jeunes, individuels ou par équipe. Des exceptions permettent un tournoi supplémentaire (organisation d'une compétition Ligue, fédérale ou comité, formation professionnelle, label EcoBad 2 étoiles).
+
+Q idf-082 | D: 2 | R: LIFB.TOURNOIS 5 | P: avant | T: tournois
+Dans le cadre des nouveaux formats de compétition franciliens, à quelle condition un tournoi peut-il se dérouler sans juge-arbitre ?
+- S'il se joue en semaine uniquement
++ S'il est limité au niveau P10 maximum, avec la présence d'un GEO 2 ou GEO Promo
+- S'il compte moins de 7 terrains
+- S'il est réservé aux licenciés du club, quel que soit le niveau
+> LIFB.TOURNOIS 5 (point 9) : parmi les nouveaux formats figurent les « tournois ne nécessitant pas de JA (max P10 avec présence d'un GEO 2 ou GEO Promo) ». L'annexe 1 prévoit alors que le règlement particulier est validé par le GEO.
+
+Q idf-083 | D: 2 | R: LIFB.TOURNOIS.A1 1 | P: avant | T: tournois
+Qui valide le règlement particulier d'un tournoi francilien ?
+- La commission autorisation tournois de la Ligue
++ Le juge-arbitre, ou le GEO si la compétition ne nécessite pas de JA (classement max P10 ou Promobad)
+- Le président du club organisateur
+- Le GEO dans tous les cas
+> LIFB.TOURNOIS.A1 1 : le règlement particulier doit être validé par le juge-arbitre (ou le GEO si la compétition ne nécessite pas de JA, classement max P10 ou Promobad) et contenir les éléments obligatoires de l'annexe du RGC 03.01.A02.
+
+Q idf-084 | D: 2 | R: LIFB.TOURNOIS.A1 2 | P: avant | T: tournois
+Quelle est la différence entre un tournoi « Standard » et un tournoi « Élite » en Île-de-France ?
++ En Standard, les inscriptions sont retenues dans l'ordre d'arrivée ; en Élite, les meilleurs CPPH à la date limite d'inscription constituent les tableaux
+- En Standard, les tableaux sont faits au CPPH ; en Élite, dans l'ordre d'arrivée
+- Le tournoi Élite est réservé aux joueurs classés N
+- Le tournoi Standard n'a pas de juge-arbitre
+> LIFB.TOURNOIS.A1 2 : le type Standard gère les inscriptions dans l'ordre d'arrivée, sans restriction de classement ; le type Élite sélectionne par CPPH, les inscriptions étant arrêtées à la date limite et les meilleurs CPPH constituant les tableaux. Les deux formats peuvent coexister dans un même tournoi.
+
+Q idf-085 | D: 3 | R: LIFB.TOURNOIS.A1 3 | P: avant | T: tournois
+Pour un tournoi « classique » de club en Île-de-France, dans quel intervalle doit se situer la date limite du tirage au sort ?
+- Entre J-30 et J-28
++ Entre J-15 et J-12
+- Entre J-10 et J-7
+- Au plus tard à J-4
+> LIFB.TOURNOIS.A1 3 : proposition de date au plus tard à J-90, autorisation au plus tard à J-45, date limite d'inscription entre J-30 et J-28 et date limite du tirage au sort entre J-15 et J-12.
+
+Q idf-086 | D: 2 | R: LIFB.TOURNOIS.A1 II | P: apres | T: tournois
+Après un tournoi francilien, quels délais s'appliquent au JA et au GEO ? (plusieurs réponses)
++ À J+3 maximum, le GEO ou le JA importe les résultats dans Poona
++ À J+5 maximum, le JA établit la feuille informatisée des modifications de tableau et des forfaits et rédige son rapport
+- À J+15 maximum, le JA transmet son rapport à la CLOT
+- À J+1, le JA envoie les feuilles de match papier à la Ligue
+> LIFB.TOURNOIS.A1 partie II, point 2 : à J+3 maximum, le GEO ou le JA importe les résultats dans Poona ; à J+5 maximum, le JA établit la feuille des modifications de tableau et des forfaits et rédige son rapport ; la CSR examine ensuite le tournoi sous un mois pour l'homologuer.
+
+Q idf-087 | D: 3 | R: LIFB.TOURNOIS.A1 III | P: avant | T: tournois
+Selon l'annexe 1 de la LIFB, un JA de grade Ligue Certifié peut-il officier sur le tournoi de son propre club ?
+- Non, jamais
+- Oui, mais seulement jusqu'au niveau R
++ Oui, jusqu'au niveau N1, à titre d'expérimentation
+- Oui, à condition qu'un JA adjoint d'un autre club soit présent
+> LIFB.TOURNOIS.A1 III : un JA Ligue Certifié peut officier dans le tournoi de son club jusqu'à N1 (expérimentation en cours). En revanche, un JA Ligue Accrédité ne peut pas être JA principal sur des compétitions de son club.
+
+# ---------------------------------------------------------------- Forfaits (règlement LIFB)
+
+Q idf-088 | D: 1 | R: LIFB.FORFAITS 1 | P: pendant | T: sanctions
+Selon le règlement des forfaits de la LIFB, qui juge du caractère volontaire ou involontaire d'un forfait constaté sur une compétition ?
+- La commission régionale des forfaits
+- L'organisateur
++ Le juge-arbitre de la compétition, seul juge
+- Le joueur, par sa déclaration
+> LIFB.FORFAITS 1 : le juge-arbitre est le seul juge du caractère du forfait qu'il constate sur la compétition dont il a la responsabilité. Un forfait volontaire entraîne le retrait de tous les tableaux de la compétition.
+
+Q idf-089 | D: 2 | R: LIFB.FORFAITS 2 | P: pendant | T: sanctions
+Un joueur absent pour raison valable n'a pas présenté de copie de justificatif le jour du tournoi. Comment le JA peut-il l'indiquer ?
+- Forfait volontaire
++ Forfait « reste à justifier »
+- Forfait annulé
+- Retrait sans motif
+> LIFB.FORFAITS 2 : dans certains cas, si la copie du justificatif n'est pas présentée le jour de la compétition, le juge-arbitre indiquera que le forfait « reste à justifier ».
+
+Q idf-090 | D: 2 | R: LIFB.FORFAITS PROCEDURE | P: apres | T: sanctions
+Comment le JA d'un tournoi francilien transmet-il les forfaits à la Ligue ?
+- Par mail à forfait@lifb.org avec les justificatifs
++ Dans son rapport (onglet « Forfaits »), transmis à la Ligue directement via Poona
+- Par courrier postal dans les 10 jours
+- Il ne les transmet pas, c'est le rôle du GEO
+> LIFB.FORFAITS (procédure de gestion des forfaits) : tous les forfaits sont consignés par le JA dans son rapport (onglet « Forfaits »), qu'il fait parvenir à la Ligue dont dépend la compétition directement via Poona. Le joueur fournit son justificatif via son espace MyFFBaD.
+
+Q idf-091 | D: 2 | R: LIFB.FORFAITS PROCEDURE | P: apres | T: sanctions
+Selon le règlement des forfaits de la LIFB, quelles durées de suspension s'appliquent ? (plusieurs réponses)
++ Forfait volontaire : 2 mois
++ Participation en étant suspendu : 6 mois
++ Inscription sur 2 tournois le même week-end : 2 mois
+- Forfait volontaire avec récidive : 3 mois
+> LIFB.FORFAITS : forfait volontaire, 2 mois de suspension ; forfait volontaire avec récidive, 6 mois ; participation en étant suspendu, 6 mois ; inscription sur 2 tournois le même week-end, 2 mois.
+
+Q idf-092 | D: 2 | R: LIFB.FORFAITS PROCEDURE | P: apres | T: sanctions
+À partir de quand une sanction pour forfait non justifié devient-elle applicable de plein droit selon le règlement de la LIFB ?
+- Le lendemain de la compétition
+- 10 jours après la compétition
++ À compter du 3e lundi suivant le dernier jour de la compétition
+- À la notification par la CLOT
+> LIFB.FORFAITS : la sanction devient applicable de plein droit à compter du 3e lundi suivant le dernier jour de la compétition ; tout forfait non justifié dans les 10 jours suivant la compétition est considéré comme volontaire.
+
+Q idf-093 | D: 2 | R: LIFB.FORFAITS PROCEDURE | P: apres | T: sanctions
+Quels documents le règlement des forfaits de la LIFB considère-t-il comme des justificatifs non équivoques ? (plusieurs réponses)
++ Un certificat de contre-indication à la pratique du sport
++ Une attestation de l'employeur ou scolaire
++ Un certificat de décès d'un proche
+- Une attestation sur l'honneur
+> LIFB.FORFAITS : les justificatifs non équivoques sont le certificat de contre-indication à la pratique du sport, l'attestation de l'employeur ou scolaire et le certificat de décès d'un proche ; une attestation sur l'honneur n'est pas considérée comme un justificatif non équivoque.
+
+# ---------------------------------------------------------------- Championnats régionaux et convention
+
+Q idf-094 | D: 2 | R: LIFB.VETERANS 3.5 | P: avant | T: tournois
+Au Championnat Régional Vétérans, un joueur V3 se surclasse en V2 en simple. Que lui impose le règlement pour ses autres tableaux ?
+- Rien, le surclassement se décide tableau par tableau
++ Il doit se surclasser dans la même catégorie dans ses autres tableaux
+- Il ne peut plus jouer qu'un seul tableau
+- Il doit jouer ses doubles dans sa catégorie d'origine
+> LIFB.VETERANS 3.5 : le surclassement est libre d'une catégorie ; dès lors qu'un joueur se surclasse en simple, il doit se surclasser dans la même catégorie dans ses autres tableaux.
+
+Q idf-095 | D: 2 | R: LIFB.VETERANS 6.11 | P: pendant | T: tournois
+Au Championnat Régional Vétérans, de combien de temps les joueurs disposent-ils entre l'appel et le début de leur match ?
+- 3 minutes, test des volants non compris
++ 4 minutes, test des volants compris
+- 5 minutes
+- 2 minutes
+> LIFB.VETERANS 6.11 : le temps de repos entre deux matchs est de 20 minutes minimum, et les joueurs disposent de 4 minutes entre l'appel et le début de leur match, test des volants compris. La même règle figure au Championnat Régional Jeunes (6.10).
+
+Q idf-096 | D: 2 | R: LIFB.VETERANS 3.8 | P: avant | T: tournois
+Au Championnat Régional Vétérans, quand le comité d'organisation peut-il regrouper deux catégories d'âge ?
+- Si une catégorie compte moins de 8 inscrits
++ Si le nombre d'inscrits de l'une des catégories est inférieur à 4
+- Uniquement en double
+- Jamais, chaque catégorie est jouée séparément
+> LIFB.VETERANS 3.8 : le comité d'organisation se réserve le droit de regrouper 2 catégories d'âge si le nombre d'inscrits de l'une des catégories est inférieur à 4.
+
+Q idf-097 | D: 2 | R: LIFB.JEUNES 6.14 | P: pendant | T: tournois
+Au Championnat Régional Jeunes, un joueur se présente sans être accompagné du responsable majeur désigné par son comité. Que prévoit le règlement ?
+- Le JA désigne un responsable parmi les bénévoles
++ Les joueurs doivent être accompagnés d'un responsable majeur nommé par leur comité, présent durant toute la compétition, sous peine d'exclusion des joueurs
+- Le joueur peut jouer avec une autorisation parentale écrite
+- Rien, l'accompagnement est facultatif
+> LIFB.JEUNES 6.14 : les joueurs doivent être accompagnés d'un responsable majeur nommé par le comité départemental, qui doit être présent impérativement durant toute la compétition sous peine d'exclusion des joueurs.
+
+Q idf-098 | D: 2 | R: LIFB.JEUNES 3.4.1 | P: avant | T: tournois
+Quels surclassements sont autorisés au Championnat Régional Jeunes Daniel Travers ? (plusieurs réponses)
++ Un Minibad peut s'inscrire en Poussins
++ Un Poussin peut s'inscrire en Benjamins
+- Un Benjamin peut s'inscrire en Minimes
+- Un Cadet peut s'inscrire en Juniors
+> LIFB.JEUNES 3.4.1 : le surclassement n'est pas autorisé, sauf pour les Minibads (uniquement en Poussins) et les Poussins (uniquement en Benjamins), sur l'ensemble de leurs tableaux (3.4.2).
+
+Q idf-099 | D: 2 | R: LIFB.INTERCOMITES 5.7 | P: pendant | T: interclubs
+Lors d'une rencontre des intercomités jeunes, un joueur se blesse avant le début de son match. À quelle condition le JA peut-il autoriser son remplacement ?
+- Jamais, la composition est définitive
++ Si le joueur remplacé n'a pas commencé son match et que le remplaçant, inscrit dans l'équipe, remplit les critères et ne joue pas plus de deux matchs dans la rencontre
+- Si le capitaine adverse donne son accord
+- Si le remplaçant est moins bien classé, même s'il n'est pas inscrit dans l'équipe
+> LIFB.INTERCOMITES 5.7 : le JA peut autoriser le remplacement, à la suite d'une blessure ou d'une circonstance imprévisible, si le joueur remplacé n'a pas commencé son match ; le remplaçant doit être inscrit dans l'équipe, satisfaire les critères d'éligibilité et ne pas jouer plus de deux matchs dans la rencontre. Le motif est à la seule appréciation du JA.
+
+Q idf-100 | D: 2 | R: LIFB.INTERCOMITES 3.2 | P: pendant | T: interclubs
+Comment se compose une rencontre des intercomités jeunes (championnat régional jeunes par équipe) d'Île-de-France ?
+- 8 matchs, comme en ICR
+- 10 matchs sur 2 catégories d'âge
++ 15 matchs : un SH, un SD, un DH, un DD et un MX en Benjamins, Minimes et Cadets
+- 12 matchs : 4 par catégorie d'âge
+> LIFB.INTERCOMITES 3.2 : la rencontre se joue au meilleur de 15 matchs répartis sur 3 catégories d'âge (Benjamins, Minimes, Cadets), chacune avec 1 SH, 1 SD, 1 DH, 1 DD et 1 MX. Un joueur ne peut disputer plus de 2 matchs par rencontre (3.3).
+
+Q idf-101 | D: 2 | R: LIFB.INTERCOMITES 6.7 | P: pendant | T: interclubs
+Aux intercomités jeunes, quand a lieu la réunion du JA avec les capitaines et les arbitres, et qui fixe l'ordre des matchs ?
++ 20 minutes avant le début des rencontres ; l'ordre des matchs est déterminé par le JA
+- 45 minutes avant le début des rencontres ; l'ordre est fixé par le logiciel
+- 1 heure avant ; l'ordre est fixé par les capitaines
+- Après le premier tour ; l'ordre est tiré au sort
+> LIFB.INTERCOMITES 6.7 et 6.8 : la réunion du JA avec les capitaines et arbitres a lieu 20 minutes avant le début des rencontres et l'ordre des matchs est déterminé par le JA.
+
+Q idf-102 | D: 2 | R: LIFB.INTERCOMITES 5.8 | P: apres | T: interclubs
+Aux intercomités jeunes, quand une équipe est-elle considérée comme forfait sur une rencontre ?
+- Dès qu'elle ne peut pas jouer un match
++ Si elle ne peut pas présenter de joueurs sur au moins 8 matchs de la rencontre
+- Si elle a moins de 15 joueurs présents
+- Si elle arrive avec plus de 30 minutes de retard
+> LIFB.INTERCOMITES 5.8 : toute équipe se trouvant dans l'incapacité de présenter des joueurs sur au moins 8 matchs d'une rencontre est considérée comme forfait.
+
+Q idf-103 | D: 2 | R: LIFB.INTERCOMITES 4.5 | P: avant | T: interclubs
+Quelle obligation d'arbitrage pèse sur chaque équipe engagée aux intercomités jeunes ?
+- Aucune, la Ligue désigne et paie tous les arbitres
++ Mettre à disposition un arbitre de grade Ligue Accrédité ou plus, dont les frais sont à la charge de l'équipe
+- Fournir un juge de ligne par match
+- Fournir un JA adjoint
+> LIFB.INTERCOMITES 4.5 : chaque équipe doit mettre à disposition un arbitre Ligue Accrédité ou plus ; les indemnités, déplacements, hébergement et restauration de ces arbitres sont à la charge des équipes.
+
+Q idf-104 | D: 2 | R: LIFB.CONVENTION Responsabilités | P: avant | T: tournois
+Pour un championnat régional organisé par un club hôte sous convention avec la LIFB, qui désigne et prend en charge le ou les juges-arbitres ?
++ La LIFB
+- Le club hôte
+- Le comité départemental du club hôte
+- Le JA principal, qui choisit ses adjoints et les rémunère
+> LIFB.CONVENTION (tableau des responsabilités) : la LIFB désigne et prend en charge le ou les juges-arbitres et les arbitres ; le club hôte désigne et prend en charge le GEO.
+

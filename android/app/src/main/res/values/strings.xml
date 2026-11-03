@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Prépa JA Badminton</string>
+    <string name="title_activity_main">Prépa JA Badminton</string>
+    <string name="package_name">io.github.nathan33670spec.prepaja</string>
+    <string name="custom_url_scheme">io.github.nathan33670spec.prepaja</string>
+</resources>

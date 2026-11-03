@@ -59,7 +59,7 @@ def main(argv: list[str]) -> int:
         print(__doc__)
         return 2
     targets = [Path(a).resolve() for a in argv]
-    catalog = json.loads((ROOT / "docs" / "data" / "catalog.json").read_text(encoding="utf-8"))
+    catalog = build_site.load_catalog(ROOT / "docs")
     texts = article_index(catalog)
     errors: list[str] = []
     warnings: list[str] = []

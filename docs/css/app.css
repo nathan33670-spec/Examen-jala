@@ -489,3 +489,23 @@ body.in-play .toast { bottom: calc(env(safe-area-inset-bottom) + 84px); }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 @media print { .topbar, .tabbar, .banner, .btn, .toolbar { display: none !important; } body { padding: 0; } }
+
+/* illustrations des questions (écrans de logiciel, feuilles de match) */
+.qimg { margin: 0 0 14px; }
+.qimg img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); background: #fff; }
+.qimg figcaption { margin-top: 4px; }
+.ala-tile { border-style: dashed; }
+
+/* choix du parcours : juge-arbitre / arbitre */
+.track-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin-bottom: 12px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--border); }
+.track-switch button { border: 0; border-radius: 10px; padding: 10px 8px; font: inherit; font-weight: 700; background: transparent; color: var(--muted, inherit); cursor: pointer; }
+.track-switch button[aria-pressed="true"] { background: var(--primary); color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+/* mode apprentissage : extrait de l'article */
+.article-excerpt { margin-top: 10px; padding: 10px 12px; border-left: 3px solid var(--primary); background: var(--surface-2); border-radius: 8px; font-size: .95rem; }
+.article-excerpt p { margin: 4px 0; }
+.article-excerpt .art-title { font-weight: 700; }
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 12px; }
+.cat-card { display: flex; flex-direction: column; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
+.cat-card > span:first-child { font-size: 1.3rem; }
+.cat-card .small { color: var(--muted); }
+.cat-card[aria-pressed="true"] { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary) inset; }

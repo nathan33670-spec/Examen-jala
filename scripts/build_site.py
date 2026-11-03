@@ -22,7 +22,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LEVELS = ("JALA", "JALC", "JAFA", "JAFC")
 CORE_EXT = {".html", ".css", ".js", ".json", ".webmanifest", ".png", ".svg", ".ico", ".woff2"}
-EXCLUDE_CORE = {"sw.js", "data/precache.json"}
+EXCLUDE_CORE = {"sw.js", "data/precache.json", "404.html"}
+# redirection de l'ancienne adresse …/docs/ : jamais mise en cache
+EXCLUDE_PREFIX = ("docs/",)
 
 THEMES = {
     "regles": "Règles du jeu",
@@ -37,6 +39,7 @@ THEMES = {
     "joueurs": "Catégories d'âge, licences et classement",
     "interclubs": "Interclubs (ICN / ICR)",
     "sante": "Santé, sécurité et antidopage",
+    "logiciel": "Logiciel de compétition (BadNet) : cas sur écran",
     "arbitrage": "Module ALA : arbitre et juge de service (hors programme JA)",
     "jdl": "Module juge de ligne (hors programme JA)",
 }
@@ -55,6 +58,10 @@ def parse_header(line: str, defaults: dict) -> dict:
         raise ContentError(f"identifiant manquant : {line!r}")
     q = {"id": head[0], "theme": defaults.get("theme"), "levels": list(defaults.get("levels", LEVELS)),
          "difficulty": int(defaults.get("difficulty", 1))}
+    if defaults.get("phase"):
+        q["phase"] = defaults["phase"]
+    if defaults.get("ligue"):
+        q["ligue"] = defaults["ligue"]
     ref = defaults.get("doc")
     for p in parts[1:]:
         if ":" not in p:
@@ -69,6 +76,10 @@ def parse_header(line: str, defaults: dict) -> dict:
             ref = val
         elif key == "T":
             q["theme"] = val
+        elif key == "P":
+            q["phase"] = val
+        elif key == "G":
+            q["ligue"] = val
         else:
             raise ContentError(f"clé inconnue {key} dans {line!r}")
     if ref:
@@ -111,7 +122,7 @@ def parse_questions(path: Path) -> list[dict]:
             val = val.strip()
             if key == "levels":
                 defaults["levels"] = val.split()
-            elif key in ("theme", "doc", "difficulty"):
+            elif key in ("theme", "doc", "difficulty", "phase", "ligue"):
                 defaults[key] = val
             else:
                 raise ContentError(f"{path.name}:{n} directive inconnue @{key}")
@@ -125,6 +136,12 @@ def parse_questions(path: Path) -> list[dict]:
             raise ContentError(f"{path.name}:{n} texte hors question : {line!r}")
         if re.fullmatch(r"L:\s*((JALA|JALC|JAFA|JAFC)\s*)+", line.strip()):
             cur["levels"] = line.strip()[2:].split()  # niveaux indiqués sur une ligne à part
+            continue
+        m_img = re.fullmatch(r"IMG:\s*(\S+)(?:\s+(.+))?", line.strip())
+        if m_img:  # illustration (écran de logiciel, feuille de match…) dans docs/img/
+            if not (ROOT / "docs" / "img" / m_img.group(1)).exists():
+                raise ContentError(f"{path.name}:{n} image introuvable : docs/img/{m_img.group(1)}")
+            cur["img"] = {"src": f"img/{m_img.group(1)}", "alt": (m_img.group(2) or "").strip()}
             continue
         if re.match(r"^[DRT]:\s", line.strip()):
             raise ContentError(f"{path.name}:{n} attribut « {line.strip()[:2]} » à placer dans l'en-tête Q")
@@ -290,12 +307,103 @@ def parse_glossary(path: Path) -> list[dict]:
     return sorted(items, key=lambda x: x["term"].lower())
 
 
+# --------------------------------------------------------------------------- catégories et phases
+
+# Deux parcours dans l'application : juge-arbitre (examen JALA) et arbitre (ALA).
+CATEGORIES = {"JALA": "Juge-arbitre", "ALA": "Arbitre"}
+ARBITRE_THEMES = {"regles", "instructions", "arbitrage", "jdl"}  # programme de l'arbitre
+ARBITRE_ONLY = {"arbitrage", "jdl"}                              # hors programme du juge-arbitre
+# codes des ligues (même liste que LIGUES dans docs/js/store.js) : « G: NAQ » = question propre à la ligue
+LIGUES = {"AURA", "BFC", "BRET", "CVL", "CORS", "GEST", "HDF", "IDF", "NORM", "NAQ", "OCCI", "PDL", "PACA",
+          "GUAD", "MART", "GUY", "REUN", "MAY", "NC", "PF", "WF"}
+PHASES = {"avant": "Avant la compétition", "pendant": "Pendant la compétition", "apres": "Après la compétition"}
+
+PHASE_BY_DOC = {
+    "REGLES": "pendant", "03.00": "pendant", "03.04": "apres", "03.02": "avant",
+    "03.07": "pendant", "03.07.A01": "pendant", "03.08": "pendant", "02.01": "pendant", "07.03": "pendant",
+    "07.01": "pendant", "07.01.A01": "pendant", "07.04": "pendant", "07.04.F01": "pendant",
+    "07.07": "pendant", "07.08": "pendant", "07.09": "pendant", "03.01.A10": "pendant",
+    "07.02": "apres", "07.05": "apres", "07.06": "apres", "04.07.A09": "pendant",
+    "BADNET": "avant", "02.04": "avant", "02.04.A01": "avant", "08.03": "avant", "08.03.A01": "avant",
+}
+for _a in ("A01", "A02", "A03", "A04", "A05", "A06", "A07", "A08", "A11", "A12", "A13", "A14"):
+    PHASE_BY_DOC[f"03.01.{_a}"] = "avant"
+
+
+def rgc_phase(art: str) -> str | None:
+    """Phase d'un article du RGC (03.01) : préparation, déroulement ou suites de la compétition."""
+    nums = [int(x) for x in re.findall(r"\d+", art)[:3]] or [0]
+    major, minor = nums[0], nums[1] if len(nums) > 1 else 0
+    if major == 2:
+        if 1 <= minor <= 17:
+            return "avant"
+        if 18 <= minor <= 22 or minor == 24:
+            return "pendant"
+        if minor == 23:
+            return "apres"
+    if major == 3:
+        if minor in (1, 2):
+            return "avant"
+        if minor == 3:
+            return "pendant" if nums[2:3] == [1] and art.strip().startswith("3.3.1.2") else "avant"
+        if minor == 4:
+            return "pendant"
+    return None
+
+
+def default_phase(q: dict) -> str | None:
+    stem = q["q"].lower()
+    if re.search(r"\brapport\b|poona|homologu|int[ée]gration des r[ée]sultats|apr[èe]s la comp[ée]tition|à l.issue de la comp[ée]tition", stem):
+        return "apres"
+    ref = q.get("ref") or {}
+    doc, art = ref.get("doc", ""), ref.get("art", "")
+    if doc == "03.01":
+        return rgc_phase(art)
+    if doc.startswith("04.07.A04"):  # déroulement d'une rencontre d'interclubs
+        return "pendant"
+    if doc in ("04.07.F03", "04.07.F04", "04.07.F07"):
+        return "pendant"
+    if doc == "04.07.F05":
+        return "apres"
+    return PHASE_BY_DOC.get(doc)
+
+
+def categorize(q: dict) -> None:
+    """Grades d'origine (JALA…JAFC) -> parcours de l'appli, phase et appartenance au RGC."""
+    q["grades"] = q["levels"]
+    cats = []
+    if q["theme"] not in ARBITRE_ONLY:
+        cats.append("JALA")
+    if q["theme"] in ARBITRE_THEMES:
+        cats.append("ALA")
+    q["levels"] = cats
+    phase = q.get("phase") or ("" if q["theme"] in ARBITRE_ONLY else default_phase(q))
+    if phase:
+        q["phase"] = phase
+    else:
+        q.pop("phase", None)
+    ref = (q.get("ref") or {}).get("doc", "")
+    if q["theme"] in ("rgc", "annexes") or ref.startswith("03.01"):
+        q["rgc"] = True
+
+
 # --------------------------------------------------------------------------- validation
+
+def load_catalog(site: Path) -> dict:
+    """Catalogue des règlements (bot) + sources externes citées par les questions (data/external.json)."""
+    path = site / "data" / "catalog.json"
+    catalog = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    ext = site / "data" / "external.json"
+    if catalog and ext.exists():
+        catalog = {**catalog, "docs": catalog.get("docs", []) + json.loads(ext.read_text(encoding="utf-8"))["docs"]}
+    return catalog
+
 
 def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: bool = False) -> list[str]:
     errors: list[str] = []
     warnings: list[str] = []
     doc_codes = {d.get("code", d["id"]) for d in catalog.get("docs", [])}
+    external_pages = {d["id"]: d.get("pages", {}) for d in catalog.get("docs", []) if d.get("external")}
     seen: set[str] = set()
     for q in questions + cases:
         if q["id"] in seen:
@@ -307,6 +415,10 @@ def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: b
     for q in questions:
         if q.get("theme") not in THEMES:
             errors.append(f"{q['id']} : thème inconnu {q.get('theme')!r}")
+        if q.get("ligue") and q["ligue"] not in LIGUES:
+            errors.append(f"{q['id']} : ligue inconnue {q['ligue']!r} ({', '.join(sorted(LIGUES))})")
+        if q.get("phase") and q["phase"] not in PHASES:
+            errors.append(f"{q['id']} : phase inconnue {q['phase']!r} (avant, pendant, apres)")
         if not 1 <= q.get("difficulty", 1) <= 3:
             errors.append(f"{q['id']} : difficulté hors 1..3")
         if len(set(q["choices"])) != len(q["choices"]):
@@ -316,6 +428,8 @@ def validate(questions: list[dict], cases: list[dict], catalog: dict, lenient: b
             errors.append(f"{q['id']} : référence (R:) manquante")
         elif doc_codes and ref["doc"] not in doc_codes:
             (warnings if lenient else errors).append(f"{q['id']} : document {ref['doc']} absent du catalogue")
+        elif ref["doc"] in external_pages and ref["art"] not in external_pages[ref["doc"]]:
+            errors.append(f"{q['id']} : page « {ref['art']} » inconnue de la source externe {ref['doc']}")
     for c in cases:
         for r in c["refs"]:
             if doc_codes and r["doc"] not in doc_codes:
@@ -339,7 +453,7 @@ def write_precache(site: Path) -> tuple[dict, str]:
         if not p.is_file():
             continue
         rel = p.relative_to(site).as_posix()
-        if rel in EXCLUDE_CORE or rel.startswith(".") or "/." in rel:
+        if rel in EXCLUDE_CORE or rel.startswith(EXCLUDE_PREFIX) or rel.startswith(".") or "/." in rel:
             continue
         if rel.startswith("reglements/pdf/"):
             pdfs.append(rel)
@@ -389,19 +503,26 @@ def main(argv: list[str] | None = None) -> int:
     except ContentError as err:
         print(f"ERREUR de contenu : {err}", file=sys.stderr)
         return 2
-    catalog_path = site / "data" / "catalog.json"
-    catalog = json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else {}
+    catalog = load_catalog(site)
     errors = validate(questions, cases, catalog, lenient=args.lenient)
     if errors:
         for e in errors:
             print("ERREUR :", e, file=sys.stderr)
         return 2
 
-    stats = {lv: sum(1 for q in questions if lv in q["levels"]) for lv in LEVELS}
+    ligue_of_doc = {d["id"]: d["ligue"] for d in catalog.get("docs", []) if d.get("ligue")}
+    for q in questions:
+        doc = (q.get("ref") or {}).get("doc")
+        if doc in ligue_of_doc:  # question sur un règlement de ligue : réservée aux licenciés de la ligue
+            q.setdefault("ligue", ligue_of_doc[doc])
+        categorize(q)
+    stats = {lv: sum(1 for q in questions if lv in q["levels"]) for lv in CATEGORIES}
     by_theme = {t: sum(1 for q in questions if q["theme"] == t) for t in THEMES}
+    by_phase = {ph: sum(1 for q in questions if q.get("phase") == ph) for ph in PHASES}
     outputs = {
-        site / "data" / "questions.json": dump(None, {"themes": THEMES, "count": len(questions),
-                                                       "byLevel": stats, "byTheme": by_theme,
+        site / "data" / "questions.json": dump(None, {"themes": THEMES, "categories": CATEGORIES,
+                                                       "phases": PHASES, "count": len(questions),
+                                                       "byLevel": stats, "byTheme": by_theme, "byPhase": by_phase,
                                                        "questions": questions}),
         site / "data" / "cases.json": dump(None, {"count": len(cases), "cases": cases}),
         site / "data" / "fiches.json": dump(None, fiches),
@@ -432,6 +553,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"{len(questions)} questions ({', '.join(f'{k} {v}' for k, v in stats.items())}), "
           f"{len(cases)} cas pratiques, {len(fiches)} fiches, {len(glossary)} termes, build {build}")
     print("par thème : " + ", ".join(f"{k} {v}" for k, v in by_theme.items()))
+    print("par phase : " + ", ".join(f"{k} {v}" for k, v in by_phase.items()) + f", RGC {sum(1 for q in questions if q.get('rgc'))}")
     if args.check and stale:
         print("Fichiers générés obsolètes, lancez : python scripts/build_site.py", file=sys.stderr)
         for p in stale:

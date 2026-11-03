@@ -1,14 +1,15 @@
-# Prépa JA Badminton — JALA · JALC · JAFA · JAFC
+# Prépa JA Badminton — juge-arbitre et arbitre
 
-Application web **installable et utilisable hors ligne** pour préparer les examens théoriques
-et pratiques de **juge-arbitre de badminton** de la FFBaD :
+Application web **installable et utilisable hors ligne** (et application Android) pour préparer les
+examens des officiels techniques de badminton de la FFBaD, en **deux parcours** :
 
-| Grade | Intitulé |
-|---|---|
-| JALA | Juge-arbitre de ligue accrédité |
-| JALC | Juge-arbitre de ligue certifié |
-| JAFA | Juge-arbitre fédéral accrédité |
-| JAFC | Juge-arbitre fédéral certifié |
+| Parcours | Examen blanc | Contenu |
+|---|---|---|
+| Juge-arbitre | JALA (juge-arbitre de ligue accrédité) | RGC et annexes, BadNet, déroulement de la compétition, rapport, sanctions, interclubs… |
+| Arbitre | ALA (arbitre de ligue accrédité) | Règles du jeu, instructions aux officiels techniques, annonces et terminologie, juge de service et juges de ligne |
+
+Les questions propres aux grades supérieurs (JALC, JAFA, JAFC) restent disponibles en entraînement
+juge-arbitre, mais n'entrent ni dans l'examen blanc JALA ni dans la jauge.
 
 L'application est un site statique (HTML, CSS, JavaScript sans dépendance) hébergé sur
 **GitHub Pages**. Elle fonctionne comme une application de préparation aux certifications :
@@ -17,9 +18,16 @@ tous les règlements officiels consultables hors ligne.
 
 ## Fonctionnalités
 
-- **Banque de questions** (QCM à une ou plusieurs réponses ; les questions sur le rôle et les annonces de
-  l'arbitre sont rangées à part, dans les modules « ALA » (arbitre, juge de service) et « Juge de ligne », hors examens blancs et hors jauge) couvrant tous les chapitres utiles du
-  Guide du Badminton, chacune avec son explication et un lien vers l'article du règlement concerné.
+- **Banque de plus de 2 000 questions** (QCM à une ou plusieurs réponses), chacune avec son explication
+  et un lien vers l'article du règlement (ou la page de la documentation BadNet) concerné.
+- **Catégories d'entraînement du juge-arbitre**, dans l'ordre d'une compétition : *Avant* (BadNet,
+  règlement particulier, échéancier, tableaux), *Pendant* (de l'arrivée au gymnase au départ), *Après*
+  (rapport, résultats, suites) et *RGC*. La catégorie est déduite de l'article cité, ou fixée par
+  `P: avant|pendant|apres` dans le fichier de questions.
+- **Mode apprentissage** : la bonne réponse, l'explication et l'extrait du texte officiel de l'article
+  s'affichent tout de suite, sans noter la réponse.
+- **Questions sur écran** : écrans simplifiés de logiciel de compétition (données fictives, générés par
+  `scripts/make_screens.py`) à interpréter avec le règlement ou la documentation BadNet.
 - **Séries sans répétition** : chaque utilisateur parcourt toute la banque dans un ordre qui lui est
   propre ; une question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16
   et 35 jours après des bonnes réponses successives). Les examens blancs font passer en dernier les
@@ -34,11 +42,11 @@ tous les règlements officiels consultables hors ligne.
   - *Score & service* : questions générées à l'infini (score de set valide ou non, zone de service
     en simple et en double, intervalles et changement de côté, service au set suivant), calculées
     à partir des règles 7, 8, 10, 11 et 16.2 ;
-  - *Mode oral* (flashcards) pour l'oral JALC, *Mes erreurs*, *Favoris*.
+  - *Mode oral* (flashcards), *Mes erreurs*, *Favoris*.
 - **Progression ludique** : points d'expérience et niveaux (de « Ramasseur de volants » à « Légende
   du volant »), série de jours d'entraînement, objectif quotidien, 29 badges, confettis, sons et
   vibrations désactivables. L'XP motive mais n'entre pas dans la jauge de préparation.
-- **Examens blancs** par grade : chronomètre, navigation entre questions, questions marquées,
+- **Examens blancs** JALA et ALA : chronomètre, navigation entre questions, questions marquées,
   correction détaillée, résultats par thème. Barème et seuil conformes aux conditions connues
   (voir plus bas), personnalisables si votre ligue communique d'autres modalités.
 - **Partie pratique** :
@@ -49,8 +57,8 @@ tous les règlements officiels consultables hors ligne.
     rotations, heure de fin, limite de 8 matchs par jour) ;
   - **check-lists** du JA (avant, jour J, après, rencontre d'interclubs) ;
   - **auto-évaluation** sur la grille officielle des critères (annexe 02 de la filière JA).
-- **Jauge de préparation** calculée localement pour chaque grade (connaissances 55 %,
-  examens blancs 25 %, pratique 20 %), avec conseils sur la prochaine étape.
+- **Jauge de préparation** calculée localement pour chaque parcours (juge-arbitre : connaissances 55 %,
+  examens blancs 25 %, pratique 20 % ; arbitre : connaissances 70 %, examens blancs 30 %), avec conseils sur la prochaine étape.
 - **Documentation intégrée** : 68 documents du Guide du Badminton 2026-2027 + les Règles
   officielles du badminton (texte lisible et cherchable hors ligne, PDF officiels téléchargeables),
   14 fiches de synthèse, un glossaire et une recherche globale.
@@ -87,6 +95,28 @@ dossier `/docs`.
 4. Quand une nouvelle version (questions ou règlements) est publiée, un bandeau propose
    « Mettre à jour » à la prochaine ouverture avec du réseau.
 
+## Application Android (APK et Play Store)
+
+Le dossier `android/` est un projet [Capacitor](https://capacitorjs.com) qui embarque l'application web (`docs/`) : l'appli Android fonctionne entièrement hors ligne, sans dépendre du site.
+
+**Publier une version** : changer le numéro dans `android/VERSION` (par exemple `1.1.0`) et pousser, pousser un tag `vX.Y.Z`, ou lancer le workflow **Application Android** depuis l'onglet *Actions*. Le workflow vérifie le contenu, construit l'APK et l'AAB, puis crée la release GitHub avec les deux fichiers :
+
+- `prepa-ja-X.Y.Z.apk` : à installer directement sur un téléphone ;
+- `prepa-ja-X.Y.Z.aab` : à déposer dans la Play Console (le Play Store n'accepte que le format AAB).
+
+Le code de version Android est calculé à partir du tag (`1.2.3` → `10203`) : chaque nouvelle version envoyée au Play Store doit avoir un numéro supérieur.
+
+**Clé de signature Play Store (une seule fois)** : créer une clé d'envoi et la garder précieusement (elle ne doit jamais être perdue ni publiée).
+
+```
+keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000
+base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks
+```
+
+Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
+
+**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
+
 ## Le bot de mise à jour des règlements
 
 Le Guide du Badminton est publié sur [gdb.ffbad.org](https://gdb.ffbad.org), qui expose une API
@@ -122,6 +152,10 @@ Lancement manuel en local :
 pip install -r bot/requirements.txt        # pypdf ; installer aussi poppler-utils (pdftotext)
 python bot/update_regulations.py --report rapport.md
 ```
+
+### Règlements de ligue
+
+Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements de cette ligue dans la bibliothèque et ajoute ses questions à l'entraînement (catégorie « Ma ligue »). Les règlements de ligue sont déclarés dans `bot/sources.json` (entrées `extra` avec `"ligue": "<code>"` et une adresse `url` fixe, à mettre à jour à chaque saison) ; `python bot/update_regulations.py --only-ligues` les télécharge sans toucher au Guide du Badminton. Une question qui cite un document de ligue (`R: LIFB.ICRS 6.12`) n'est proposée qu'aux licenciés de cette ligue ; on peut aussi marquer une question à la main avec `G: <code>`. Ligue intégrée aujourd'hui : Île-de-France (LIFB).
 
 ## Conditions d'examen : ce qui est officiel et ce qui est simulé
 

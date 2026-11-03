@@ -1,0 +1,1007 @@
+# Arbitre (grade ALA) : instructions aux arbitres, juges de service et juges de ligne
+# (Règles officielles, partie II, sections 5 à 8) et terminologie officielle (annexe 4).
+# Complète 22-instructions-arbitrage.txt et 23-officiels-terrain.txt : situations sur le terrain,
+# annonces exactes, gestes, feuille de score, gestion des incidents.
+@theme arbitrage
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+@phase pendant
+
+# ---------------------------------------------------------------- Avant le match : tirage au sort, tenues
+
+Q ari-001 | D: 1 | R: REGLES Annexe 4 1.2.7 | P: avant
+Au tirage au sort, le gagnant choisit de recevoir en premier. Que dit l'arbitre à son adversaire ?
+- « Vous avez gagné le tirage au sort. »
++ « Votre adversaire choisit de recevoir en premier, donc vous servirez en premier. »
+- « Votre adversaire choisit de recevoir en premier, choisissez qui recevra. »
+- « Qui servira ? »
+> Annexe 4, 1.2.7 : « Votre adversaire choisit de recevoir en premier, donc vous servirez en premier. » Le côté qui a perdu le tirage au sort exerce alors le choix restant (règle 6).
+
+Q ari-002 | D: 2 | R: REGLES Annexe 4 1.2.9 | P: avant
+Le gagnant du tirage au sort choisit son demi-terrain. Quelle question l'arbitre pose-t-il à l'adversaire ?
+- « Qui recevra ? »
+- « Choisissez votre demi-terrain. »
++ « Votre adversaire choisit le demi-terrain. Souhaitez-vous servir ou recevoir ? »
+- « Que choisissez-vous ? »
+> Annexe 4, 1.2.9 : « Votre adversaire choisit le demi-terrain. Souhaitez-vous servir ou recevoir ? » Celui qui a choisi le demi-terrain laisse à l'adversaire le choix entre servir et recevoir.
+
+Q ari-003 | D: 1 | R: REGLES Annexe 4 1.2.1 | P: avant
+Quelle formule l'arbitre utilise-t-il pour inviter les joueurs à procéder au tirage au sort ?
++ « Venez ici pour le tirage au sort. »
+- « Alignez-vous pour le tirage au sort. »
+- « Prêt(e)s pour le tirage au sort ? »
+- « Tirage au sort, s'il vous plaît. »
+> Annexe 4, 1.2.1 : « Venez ici pour le tirage au sort. » ; puis 1.2.2 « Vous avez gagné le tirage au sort. » et 1.2.3 « Que choisissez-vous ? ».
+
+Q ari-004 | D: 1 | R: REGLES Annexe 4 1.3.1 | P: avant
+Avant de conduire les joueurs vers le terrain, l'arbitre constate que le téléphone d'un joueur est allumé. Que lui dit-il ?
+- « Vous avez utilisé votre appareil de communication. »
++ « Éteignez votre appareil de communication. »
+- « Remettez votre téléphone à la table de marque. »
+- Rien : seul un téléphone qui sonne pendant le match est sanctionné
+> Instruction 5.1.4 et annexe 4, 1.3.1 : avant le match, l'arbitre s'assure que les appareils électroniques et de communication des joueurs sont éteints ou en mode silencieux, avec la formule « Éteignez votre appareil de communication. » La formule « Vous avez utilisé votre appareil de communication » (annexe 4, 5.29) explique une sanction.
+
+Q ari-005 | D: 1 | R: REGLES Annexe 4 1.1.17 | P: avant
+Avant un double, l'arbitre remarque que les deux partenaires portent des tenues de couleurs différentes. Quelle formule de l'annexe 4 utilise-t-il ?
+- « La couleur de votre tenue n'est pas significativement différente de celle de votre adversaire. »
++ « Vous devez porter la même couleur de tenue que votre partenaire. »
+- « L'ordre des inscriptions n'est pas correct. »
+- « Si vous ne changez pas votre maillot, vous serez disqualifiés. »
+> Annexe 4, 1.1.17 : « Vous devez porter la même couleur de tenue que votre partenaire. » La couleur trop proche de celle de l'adversaire relève de la formule 1.1.16.
+
+Q ari-006 | D: 2 | R: REGLES Annexe 4 1.1.16 | P: avant
+Les deux joueurs d'un simple se présentent avec des maillots de couleur presque identique. Quelles formules l'arbitre peut-il employer ? (plusieurs réponses)
++ « La couleur de votre tenue n'est pas significativement différente de celle de votre adversaire. »
++ « Avez-vous une autre couleur de tenue ? »
+- « Vous devez porter la même couleur de tenue que votre adversaire. »
++ « Vous devez changer de couleur de tenue. »
+> Annexe 4, 1.1.16, 1.1.18 et 1.1.19 : « La couleur de votre tenue n'est pas significativement différente de celle de votre adversaire », « Avez-vous une autre couleur de tenue ? », « Vous devez changer de couleur de tenue. » L'obligation de même couleur ne vaut qu'entre partenaires (1.1.17).
+
+Q ari-007 | D: 2 | R: REGLES Annexe 4 1.1.27 | P: avant
+En vérifiant les tenues, l'arbitre voit qu'un joueur a masqué une inscription de son maillot avec du ruban adhésif. Quelle formule de l'annexe 4 correspond à cette situation ?
+- « Les caractères sur le maillot ne sont pas visibles. »
++ « Le ruban adhésif n'est pas autorisé. »
+- « Vous avez des publicités visibles sur les sous-vêtements. »
+- « La publicité est trop grande. »
+> Annexe 4, 1.1.27 : « Le ruban adhésif n'est pas autorisé. » Si l'incident doit être signalé, le commentaire type sur la feuille de score est « Il y a du ruban adhésif sur le maillot de/du [Nom du joueur/conseiller] » (8.20).
+
+Q ari-008 | D: 2 | R: REGLES Annexe 4 1.1.20 | P: avant
+Un joueur dont la tenue n'est pas conforme refuse de changer de maillot. Quelle mise en garde de l'annexe 4 l'arbitre lui adresse-t-il ?
+- « Si vous ne changez pas votre maillot, vous ne jouerez pas. »
++ « Si vous ne changez pas votre maillot, vous serez verbalisé. »
+- « Si vous ne changez pas votre maillot, vous serez disqualifié. »
+- « Si vous ne changez pas votre maillot, vous perdrez le premier set. »
+> Annexe 4, 1.1.20 : « Si vous ne changez pas votre maillot, vous serez verbalisé. » Le refus peut être noté sur la feuille de score : « [Nom du joueur] refuse de changer la couleur de sa tenue » (8.12).
+
+Q ari-009 | D: 1 | R: REGLES Annexe 4 1.3.2 | P: avant
+Quelle formule l'arbitre utilise-t-il, avant le match, pour préparer l'entrée des joueurs sur l'aire de jeu ?
+- « Joueurs, allez sur le terrain. »
++ « Alignez-vous pour marcher jusqu'au terrain. »
+- « Mesdames et Messieurs, à ma droite… »
+- « Prêt(e)s à jouer. »
+> Annexe 4, 1.3.2 : « Alignez-vous pour marcher jusqu'au terrain. » L'arbitre s'assure que les joueurs sont alignés selon l'ordre des noms imprimés sur la feuille de score ou selon les instructions du juge-arbitre (instruction 5.1.5).
+
+Q ari-010 | D: 2 | R: REGLES Instr. 5.2.2.4 | P: avant
+Assis sur sa chaise avant le match, l'arbitre remarque que la chaise d'un conseiller a été déplacée et gêne la vue d'un juge de ligne. Qu'en disent les instructions ? (plusieurs réponses)
++ L'arbitre doit vérifier, avant le match, que les chaises des juges de ligne et des conseillers sont correctement positionnées
++ Un conseiller ne peut pas déplacer sa chaise de la position assignée sans la permission du juge-arbitre
+- Le conseiller peut placer sa chaise où il veut tant que le match n'a pas commencé
+- C'est au juge de ligne de se déplacer pour retrouver de la visibilité
+> Instructions 5.2.2.4 et 5.12.3 : l'arbitre vérifie que les chaises des juges de ligne et des conseillers sont correctement positionnées ; les conseillers ne peuvent pas déplacer leur chaise sans la permission du juge-arbitre, et l'arbitre veille à ce qu'aucun juge de ligne ne soit perturbé par un tel déplacement.
+
+Q ari-011 | D: 2 | R: REGLES Instr. 5.2.2 | P: avant
+Que fait l'arbitre immédiatement après le tirage au sort ?
+- Il présente les joueurs au public
++ Il prend place dans sa chaise le plus rapidement possible et démarre le chronomètre
+- Il fait tester les volants par les joueurs
+- Il remet la feuille de score au juge de service
+> Instruction 5.2.2 : l'arbitre prend place dans la chaise d'arbitre le plus rapidement possible après le tirage au sort et démarre le chronomètre ; il surveille alors le temps de prise en compte du terrain (5.2.2.1).
+
+Q ari-012 | D: 2 | R: REGLES Instr. 5.3.1 | P: avant
+Rencontre par équipes arbitrée : l'équipe A (à droite de l'arbitre, au service) est représentée en double par W et X, l'équipe B par Y et Z ; X sert sur Y. Quelle fin d'annonce de présentation est correcte ?
+- « … X au service sur Y ; zéro égalité ; jouez. »
++ « … A au service ; X sur Y ; zéro égalité ; jouez. »
+- « … A au service sur B ; zéro égalité ; jouez. »
+- « … W et X au service ; zéro égalité ; jouez. »
+> Instruction 5.3.1 et annexe 4, 2.1.4 : en double d'une compétition par équipe, « Mesdames et Messieurs ; à ma droite, A, représenté par W et X ; et à ma gauche, B, représenté par Y et Z. A au service ; X sur Y ; zéro égalité ; jouez. »
+
+# ---------------------------------------------------------------- Pendant le match : score, annonces générales
+
+Q ari-013 | D: 2 | R: REGLES Instr. 5.4.2 | L: JAFA JAFC
+Lorsque le SRI est utilisé, que doit faire l'arbitre avant d'annoncer le score à l'issue d'un échange ?
+- Attendre le signal du juge de service
++ Observer si un challenge a été demandé
+- Vérifier le compte à rebours
+- Demander aux joueurs s'ils souhaitent challenger
+> Instruction 5.4.2 : l'arbitre note puis annonce le score, toujours celui du serveur en premier. Lorsque le SRI est utilisé, il observe si un challenge a été demandé avant d'annoncer le score.
+
+Q ari-014 | D: 2 | R: REGLES Instr. 5.4.4
+Pendant un match, le tableau d'affichage du score cesse de fonctionner. Que prévoient les instructions ?
+- L'arbitre suspend le match jusqu'à la réparation
++ L'arbitre, attentif à l'affichage du score, informe le juge-arbitre du dysfonctionnement
+- L'arbitre demande au juge de service de tenir le tableau manuellement
+- Rien : l'affichage ne relève pas de l'arbitre
+> Instruction 5.4.4 : l'arbitre est attentif à l'affichage du score et du compte à rebours (le cas échéant) et informe le juge-arbitre en cas de dysfonctionnement. L'annexe 4 (3.12.1) prévoit la formule « Le tableau d'affichage ne fonctionne pas. »
+
+Q ari-015 | D: 1 | R: REGLES Instr. 6.6
+Comment l'arbitre doit-il faire ses annonces et annonces de score ?
+- À voix modérée, pour les seuls joueurs
++ Distinctement et assez fort pour être clairement entendues par les joueurs et les spectateurs
+- Uniquement au micro, lorsqu'il y en a un
+- À voix basse, en confirmant par geste au juge de service
+> Instruction 6.6 : toutes les annonces et les annonces de score doivent être faites distinctement et assez fort pour être clairement entendues par les joueurs et les spectateurs.
+
+Q ari-016 | D: 1 | R: REGLES Instr. 6.2
+L'arbitre s'aperçoit qu'il vient d'annoncer un score erroné. Quelle attitude préconisent les conseils généraux aux arbitres ?
+- Maintenir l'annonce pour ne pas perdre son autorité
+- Appeler le juge-arbitre pour faire corriger le score
++ Admettre l'erreur, s'excuser et la corriger
+- Corriger le score sur la feuille sans le dire aux joueurs
+> Instruction 6.2 : faire les annonces rapidement et avec autorité, mais, si une erreur est commise, l'admettre, s'excuser et la corriger.
+
+Q ari-017 | D: 2 | R: REGLES Instr. 6.8
+L'arbitre hésite : le joueur a-t-il touché le filet ou non pendant l'échange ? Que doit-il faire ?
+- Annoncer « Let »
+- Annoncer « Faute », par prudence
++ Ne pas annoncer « Faute » et laisser le jeu se poursuivre
+- Interrompre l'échange pour consulter le juge de service
+> Instruction 6.8 : lorsqu'il y a un doute dans l'esprit de l'arbitre sur l'existence d'une infraction, il ne doit pas annoncer « Faute » et doit laisser le jeu se poursuivre.
+
+Q ari-018 | D: 1 | R: REGLES Instr. 6.9
+Des spectateurs crient que le volant a touché un joueur avant de sortir. L'arbitre n'a rien vu. Que dit l'instruction 6.9 ?
+- L'arbitre peut demander l'avis des spectateurs les plus proches
+- L'arbitre annonce « Let »
++ L'arbitre ne doit jamais demander aux spectateurs ni se laisser influencer par eux ou leurs remarques
+- L'arbitre appelle le juge-arbitre
+> Instruction 6.9 : ne jamais demander aux spectateurs ni se laisser influencer par eux ou leurs remarques.
+
+Q ari-019 | D: 2 | R: REGLES Instr. 6.4
+Dans quel cas les conseils généraux recommandent-ils à l'arbitre d'appeler le juge-arbitre sur le terrain ?
+- Dès qu'un joueur conteste une annonce
++ Lorsqu'un problème survient et qu'il n'est pas certain de pouvoir le gérer seul
+- À chaque intervalle, pour faire le point
+- Seulement en cas de disqualification
+> Instruction 6.4 : appeler le juge-arbitre sur le terrain lorsqu'un problème survient pour lequel l'arbitre n'est pas certain de pouvoir le gérer seul.
+
+Q ari-020 | D: 2 | R: REGLES Instr. 6.3
+Le juge de service signale rapidement et de manière convaincante à l'arbitre qu'il s'est trompé de score. Que doit faire l'arbitre ?
++ Changer sa décision
+- Maintenir sa décision : seul l'arbitre tient le score
+- Appeler le juge-arbitre pour trancher
+- Attendre la fin du set pour corriger
+> Instruction 6.3 : l'arbitre change sa décision si son juge de service l'a informé rapidement et de manière convaincante d'une erreur (par exemple une erreur de score, une mauvaise gestion d'un challenge ou une décision non jugée par un juge de ligne).
+
+Q ari-021 | D: 2 | R: REGLES Instr. 6.10
+Selon les conseils généraux, comment l'arbitre motive-t-il les autres officiels techniques du terrain ? (plusieurs réponses)
++ En maintenant un contact visuel avec le juge de service
++ En acquiesçant discrètement aux décisions des juges de ligne
+- En commentant à voix haute chaque décision des juges de ligne
+- En félicitant publiquement le juge de service à la fin de chaque set
+> Instruction 6.10 : motiver les autres officiels techniques, par exemple en maintenant un contact visuel avec le juge de service et en acquiesçant discrètement aux décisions des juges de ligne, et établir une relation d'équipe avec eux.
+
+Q ari-022 | D: 2 | R: REGLES Instr. 6.7
+Dans un double, Martin et Dupont gagnent le premier set. Comment l'arbitre relie-t-il les noms des partenaires dans l'annonce de fin de set ?
+- Il n'annonce que le nom du joueur qui a marqué le dernier point
++ Il annonce « et » entre les noms des partenaires
+- Il annonce le nom du club à la place des noms
+- Il sépare les deux noms par « avec »
+> Instruction 6.7 et annexe 4, 6.9 : dans les annonces impliquant les noms des partenaires de double (notamment 5.6.2, 5.6.3, 5.6.5), l'arbitre annonce « et » entre les noms des partenaires : « Premier set remporté par Martin et Dupont, … ».
+
+Q ari-023 | D: 2 | R: REGLES Instr. 5.6.2
+Dans une rencontre par équipes arbitrée, l'équipe A remporte le premier set 15-11. Quelle est l'annonce de l'arbitre après « Set » ?
+- « Premier set remporté par [nom du joueur de A], 15-11 ; un set égalité. »
++ « Premier set remporté par A, 15-11. »
+- « A mène un set à zéro, 15-11. »
+- « Premier set ; A ; 15-11 ; changez de demi-terrain. »
+> Instruction 5.6.2 : « Premier set remporté par … [nom du (des) joueur(s), ou du pays/de l'équipe dans un tournoi par équipe], … [score] ». « Un set égalité » ne s'ajoute qu'après le deuxième set (5.6.3).
+
+Q ari-024 | D: 2 | R: REGLES Annexe 4 2.2
+Pendant l'intervalle entre le premier et le deuxième set, aucun incident ne s'est produit. Comment l'arbitre lance-t-il le deuxième set ?
++ « Second set ; zéro égalité ; jouez. »
+- « Deuxième set ; zéro partout ; jouez. »
+- « Dernier set ; zéro égalité ; jouez. »
+- « Zéro égalité ; jouez. »
+> Instruction 5.6.8 et annexe 4, 2.2 : « Second set ; zéro égalité ; jouez. », à moins qu'une faute pour mauvaise conduite n'ait été commise durant l'intervalle (l'annonce intègre alors la faute, instruction 5.17.8.2).
+
+Q ari-025 | D: 1 | R: REGLES Annexe 4 3.1.14
+Par quelle formule l'arbitre demande-t-il au juge de service de lui montrer sa décision ?
+- « Juge de service, faute ? »
++ « Juge de service – indiquez votre décision, s'il vous plaît. »
+- « Juge de service – répétez le geste. »
+- « Juge de service, levez-vous. »
+> Annexe 4, 3.1.14 : « Juge de service – indiquez votre décision, s'il vous plaît. »
+
+Q ari-026 | D: 2 | R: REGLES Annexe 4 3.4.2
+L'arbitre a mal vu le geste d'un juge de ligne et souhaite qu'il le refasse. Quelle formule utilise-t-il ?
+- « Juge de ligne, non vu ? »
+- « Juge de ligne – indiquez votre décision, s'il vous plaît. »
++ « Juge de ligne – répétez votre décision, s'il vous plaît. »
+- « Correction, IN. »
+> Annexe 4, 3.4.2 : « Juge de ligne – répétez votre décision, s'il vous plaît. » La formule 3.4.1 (« indiquez votre décision ») sert à demander une décision qui n'a pas encore été montrée.
+
+# ---------------------------------------------------------------- Fautes de service et explications (annexe 4, section 4)
+
+Q ari-027 | D: 2 | R: REGLES Instr. 5.4.8.2
+Match arbitré sans juge de service : l'arbitre voit le serveur décoller un pied du sol pendant le service. Quelle annonce fait-il ?
+- « Faute au service annoncée, pied. »
++ « Faute serveur, pied. »
+- « Faute receveur, pied. »
+- « Let. »
+> Instruction 5.4.8.2 et annexe 4, 4.10 : quand l'arbitre annonce lui-même une faute durant le service, il annonce la faute de service avec la terminologie appropriée : « Faute serveur, pied. » La formule « Faute au service annoncée… » valide une faute annoncée par le juge de service (5.4.8.1).
+
+Q ari-028 | D: 2 | R: REGLES Annexe 4 4.9
+Pendant le service, le receveur avance avant que le volant soit frappé, un pied quittant le sol. Quelle annonce fait l'arbitre ?
++ « Faute receveur, pied. »
+- « Faute au service annoncée, pied. »
+- « Faute serveur, pied. »
+- « Jouez un let. »
+> Instruction 5.4.8.2 et annexe 4, 4.9 : la faute du receveur est annoncée par l'arbitre avec la terminologie « Faute receveur, pied. » Le juge de service ne juge que le serveur (instruction 7.2).
+
+Q ari-029 | D: 3 | R: REGLES Annexe 4 4.8
+Le juge de service annonce une faute du serveur et, au même moment, l'arbitre voit le receveur bouger les pieds avant le service. Quelle est l'annonce de l'arbitre ?
+- « Faute au service annoncée, pied. » : le point va au receveur
+- « Faute receveur, pied. » : le point va au serveur
++ « Faute au service annoncée, faute receveur annoncée, jouez un let. »
+- « Let » sans autre explication
+> Annexe 4, 4.8 : « Faute au service annoncée, faute receveur annoncée, jouez un let. » Lorsque, lors de l'exécution du service, le serveur et le receveur commettent tous les deux une faute, il y a let (règle 14.2.2).
+
+Q ari-030 | D: 2 | R: REGLES Annexe 4 4.5
+Le juge de service annonce « Faute » : la raquette du serveur a frappé les plumes du volant en premier. Quelle explication complète l'annonce de l'arbitre ?
+- « Faute au service annoncée, rotation. »
++ « Faute au service annoncée, base du volant. »
+- « Faute au service annoncée, tête de raquette. »
+- « Faute au service annoncée, trop haut. »
+> Instruction 7.4 (règle 9.1.5 : la raquette du serveur doit frapper en premier la base du volant) et annexe 4, 4.5 : « Faute au service annoncée, base du volant. »
+
+Q ari-031 | D: 2 | R: REGLES Annexe 4 4.4
+Le serveur arme sa raquette, s'interrompt vers l'avant puis repart pour frapper. Le juge de service annonce « Faute ». Quelle explication donne l'arbitre ?
+- « Faute au service annoncée, retard injustifié. »
++ « Faute au service annoncée, mouvement continu. »
+- « Faute au service annoncée, volant manqué. »
+- « Faute serveur, retard injustifié. »
+> Instruction 7.4 (règle 9.1.7 : le mouvement de la raquette du serveur doit être continu vers l'avant du commencement du service jusqu'à son exécution) et annexe 4, 4.4 : « Faute au service annoncée, mouvement continu. »
+
+Q ari-032 | D: 2 | R: REGLES Instr. 7.4
+Pour le juge de service, à partir de quand un temps d'arrêt du serveur est-il considéré comme un retard injustifié (règle 9.1.2) ?
+- Dès que le serveur a pris place dans sa zone de service
+- Dès que le receveur est en position
++ À la fin du mouvement vers l'arrière de la tête de raquette du serveur : tout retard au commencement du service est alors injustifié
+- Au-delà de 25 secondes après l'échange précédent
+> Instruction 7.4 (règle 9.1.2) : à la fin du mouvement vers l'arrière de la tête de la raquette du serveur, tout retard au commencement du service (règle 9.2) doit être considéré comme un retard injustifié. L'explication correspondante est « Faute au service annoncée, retard injustifié » (annexe 4, 4.6).
+
+Q ari-033 | D: 1 | R: REGLES Annexe 4 4.7
+En voulant servir, le serveur manque complètement le volant. Le juge de service annonce « Faute ». Quelle explication l'arbitre donne-t-il ?
++ « Faute au service annoncée, volant manqué. »
+- « Faute au service annoncée, base du volant. »
+- « Let, le volant n'a pas été frappé. »
+- « Faute au service annoncée, mouvement continu. »
+> Instruction 7.4 (règle 9.1.8 : en essayant de servir, le serveur ne doit pas manquer le volant) et annexe 4, 4.7 : « Faute au service annoncée, volant manqué. »
+
+Q ari-034 | D: 2 | R: REGLES Instr. 7.4.1
+Lors d'une compétition FFBaD appliquant la règle alternative de service de l'annexe 3, sur quels critères le juge de service juge-t-il la hauteur de frappe ? (plusieurs réponses)
++ Le volant en entier doit être en dessous de la taille du serveur, ligne imaginaire au niveau de la partie la plus basse de la dernière côte
+- Le volant en entier doit être en dessous de 1,15 m de la surface du terrain
++ La tige et la tête de la raquette doivent être inclinées vers le bas au moment de la frappe
+- Le volant doit être frappé sous le genou du serveur
+> Instruction 7.4.1 : pour les règles alternatives de service (annexe 3), la règle 9.1.6 est remplacée par deux critères : volant en entier sous la taille du serveur (ligne imaginaire au niveau de la partie la plus basse de la dernière côte) et tige et tête de raquette inclinées vers le bas. La FFBaD applique cette règle à toutes ses compétitions sauf la phase finale du Top 12 et le championnat de France Élite.
+
+Q ari-035 | D: 2 | R: REGLES Instr. 7.4
+Selon la règle 9.1.6 rappelée à l'instruction 7.4 (championnat de France Élite par exemple), à quelle hauteur maximale le volant en entier doit-il se trouver au moment de la frappe ?
+- 1,10 m
++ 1,15 m
+- 1,20 m
+- 1,524 m
+> Instruction 7.4 (règle 9.1.6) : le volant en entier doit être en dessous de 1,15 mètre de la surface du terrain au moment où il est frappé par la raquette du serveur. L'explication en cas de faute est « Faute au service annoncée, trop haut » (annexe 4, 4.1).
+
+Q ari-036 | D: 3 | R: REGLES Instr. 7.4
+Le juge de service remarque que le receveur touche la ligne de sa zone de service. Que fait-il ?
+- Il annonce « Faute » et fait le geste du pied
++ Rien : il juge le seul serveur ; la faute du receveur relève de l'arbitre
+- Il annonce « Let »
+- Il fait signe au receveur de reculer
+> Instructions 7.2 et 7.4 : même si les règles 9.1.3 et 9.1.4 rappelées à l'instruction 7.4 visent serveur et receveur, le juge de service est responsable de juger si le serveur exécute correctement le service. Pendant le service, l'arbitre regarde plus particulièrement le receveur (instruction 5.4.3) et annonce lui-même « Faute receveur, pied » (annexe 4, 4.9).
+
+Q ari-037 | D: 2 | R: REGLES Annexe 4 4.11
+Le serveur est prêt ; le receveur, déjà en place, se relève et s'éloigne sans raison, retardant excessivement le service. L'arbitre le faute. Quelle explication de l'annexe 4 utilise-t-il ?
+- « Faute serveur, retard injustifié. »
++ « Faute receveur, retard injustifié. »
+- « Faute au service annoncée, retard injustifié. »
+- « Le receveur n'était pas prêt. »
+> Annexe 4, 4.11 : « Faute receveur, retard injustifié. » (instruction 5.10.3 : une fois le serveur en position et prêt, le receveur ne doit pas retarder excessivement sa préparation).
+
+Q ari-038 | D: 2 | R: REGLES Annexe 4 3.2.5
+Le serveur sert alors que le receveur n'était manifestement pas prêt et n'a pas tenté de renvoyer le volant. Quelle annonce et quelle explication l'arbitre donne-t-il ?
++ « Let » ; « Le receveur n'était pas prêt. »
+- « Faute serveur, retard injustifié. »
+- « Faute receveur, pied. »
+- « Service perdu » ; « Ne servez pas avant que le receveur soit prêt. »
+> Règle 14.2.1 : il y a let si le serveur sert avant que le receveur ne soit prêt. Annexe 4, 3.2.5 : « Le receveur n'était pas prêt. » ; l'arbitre peut aussi dire au serveur « Ne servez pas avant que le receveur soit prêt » (3.2.4).
+
+Q ari-039 | D: 2 | R: REGLES Annexe 4 3.2.13
+En double, au service, le receveur et son partenaire frappent tous deux le volant. Quelle explication de l'annexe 4 accompagne l'annonce « Faute » ?
+- « Vous avez frappé le volant deux fois. »
++ « Vous et votre partenaire avez frappé le volant. »
+- « Vous avez essayé de renvoyer le service. »
+- « Ce n'était pas à votre tour de recevoir. »
+> Annexe 4, 3.2.13 : « Vous et votre partenaire avez frappé le volant. » (règle 13.2.3 : faute si, au service, le volant est frappé par le partenaire du receveur).
+
+Q ari-040 | D: 2 | R: REGLES Annexe 4 3.2.10
+En double, le mauvais joueur a servi et l'échange est terminé ; l'erreur est découverte avant le service suivant. Quelle explication de l'annexe 4 l'arbitre peut-il donner ?
+- « Vous avez servi dans la mauvaise zone. »
++ « Ce n'était pas à votre tour de servir. »
+- « Votre partenaire n'était pas prêt. »
+- « Vous avez essayé de renvoyer le service. »
+> Annexe 4, 3.2.10 : « Ce n'était pas à votre tour de servir. » ; 3.2.9 vise le service depuis la mauvaise zone et 3.2.11 la réception hors de son tour (erreurs de zone de service, règle 12).
+
+# ---------------------------------------------------------------- Explications des fautes pendant l'échange (annexe 4, 3.1)
+
+Q ari-041 | D: 2 | R: REGLES Instr. 5.9.1.2
+Pendant un échange, un volant venant du terrain voisin roule au fond du terrain sans que les joueurs y prêtent attention. Que fait l'arbitre ?
+- Il annonce « Let » immédiatement, comme pour tout volant étranger
++ Il n'annonce pas « Let » s'il estime que le volant n'a pas gêné ou distrait les joueurs
+- Il annonce « Faute » contre le dernier frappeur
+- Il arrête l'échange pour faire ramasser le volant
+> Instruction 5.9.1.2 : un volant arrivant d'un terrain adjacent ne doit pas automatiquement occasionner un « Let » ; il n'en est pas annoncé si, de l'avis de l'arbitre, le volant n'a pas gêné ou distrait les joueurs. L'annexe 4 prévoit l'explication « Le volant ne vous a pas distrait ou gêné » (3.1.20).
+
+Q ari-042 | D: 2 | R: REGLES Instr. 5.9.1.4
+Au moment où son adversaire frappe, un joueur crie « Faute ! ». Comment l'arbitre doit-il considérer ce cri ?
+- Comme un simple encouragement, sans conséquence
++ Comme une distraction délibérée (règle 13.4.5), donc une faute
+- Comme une réclamation, à traiter après l'échange
+- Comme un let, l'adversaire ayant été surpris
+> Instruction 5.9.1.4 : un joueur qui annonce « faute », etc. à l'adversaire lorsqu'il effectue un coup ou après que l'adversaire a joué doit être considéré comme causant une distraction délibérée (règle 13.4.5). Explication : « Vous avez délibérément distrait votre adversaire » (annexe 4, 3.1.22).
+
+Q ari-043 | D: 2 | R: REGLES Instr. 5.9.1.3
+En double, un joueur crie « À toi ! » à son partenaire qui s'apprête à frapper. L'adversaire réclame une faute pour distraction. Que dit l'instruction 5.9.1.3 ?
++ Ce cri ne doit pas nécessairement être considéré comme une distraction délibérée des adversaires
+- C'est toujours une faute pour distraction délibérée
+- C'est un let
+- C'est un avertissement pour mauvaise conduite
+> Instruction 5.9.1.3 : un joueur qui crie à un partenaire sur le point de frapper le volant ne doit pas nécessairement être considéré comme une distraction délibérée pour ses adversaires.
+
+Q ari-044 | D: 2 | R: REGLES Instr. 5.9.1.1
+Un joueur glisse sous le filet dans le demi-terrain adverse et, de l'avis de l'arbitre, distrait clairement son adversaire. Quelle décision ?
+- Let, l'incident étant accidentel
++ Faute du joueur qui a glissé sous le filet
+- Avertissement pour mauvaise conduite
+- Rien, l'invasion par-dessous le filet est toujours tolérée
+> Instruction 5.9.1.1 : un joueur qui échappe une raquette dans le demi-terrain adverse ou qui glisse sous le filet et qui, de l'avis de l'arbitre, fait obstruction ou distrait clairement son adversaire est fauté (règles 13.4.2 ou 13.4.3).
+
+Q ari-045 | D: 1 | R: REGLES Annexe 4 3.1.16
+L'arbitre annonce « Faute » car le volant a touché le corps d'un joueur. Quelle explication de l'annexe 4 utilise-t-il, si une clarification est utile ?
+- « Vous avez porté le volant. »
++ « Le volant vous a touché. »
+- « Vous avez fait obstruction à votre adversaire. »
+- « Vous avez frappé le volant deux fois. »
+> Annexe 4, 3.1.16 : « Le volant vous a touché. » (règle 13.3.4). Selon l'instruction 5.4.8.3, l'arbitre n'annonce « Faute » pour ce type de faute que si une clarification est nécessaire pour les joueurs ou les spectateurs.
+
+Q ari-046 | D: 2 | R: REGLES Annexe 4 3.1.24
+Un joueur garde le volant sur sa raquette puis le lance en exécutant son coup. Quelle explication de l'annexe 4 correspond à cette faute ?
+- « Vous avez frappé le volant deux fois. »
++ « Vous avez porté le volant. »
+- « Vous avez frappé le volant dans le camp adverse. »
+- « Vous avez envahi le demi-terrain de votre adversaire. »
+> Annexe 4, 3.1.24 : « Vous avez porté le volant. » (règle 13.3.6 : volant attrapé et tenu sur la raquette puis lancé lors de l'exécution d'un coup).
+
+Q ari-047 | D: 2 | R: REGLES Annexe 4 3.1.15
+Un joueur frappe le volant alors que celui-ci n'a pas encore franchi le filet, de l'autre côté. Quelle explication de l'annexe 4 l'arbitre donne-t-il avec « Faute » ?
++ « Vous avez frappé le volant dans le camp adverse. »
+- « Vous avez touché le filet. »
+- « Vous avez porté le volant. »
+- « Vous avez fait obstruction à votre adversaire. »
+> Annexe 4, 3.1.15 : « Vous avez frappé le volant dans le camp adverse. » Le joueur n'a le droit de suivre le volant par-dessus le filet que si le point de contact initial était de son côté (règle 13.4.2).
+
+# ---------------------------------------------------------------- Comportements à surveiller (instruction 5.9)
+
+Q ari-048 | D: 2 | R: REGLES Instr. 5.9.1.5
+Après chaque annonce « Out », un joueur fixe le juge de ligne en écartant les bras et en protestant. Que fait l'arbitre ?
+- Rien, tant que le joueur ne parle pas au juge de ligne
+- Il remplace le juge de ligne
++ Il rappelle au joueur qu'une telle conduite est inacceptable, en appliquant la règle 16.7 si nécessaire
+- Il disqualifie immédiatement le joueur
+> Instruction 5.9.1.5 : un joueur tentant d'influencer ou d'intimider le juge de service ou un juge de ligne, sous quelque forme que ce soit, audible ou visible, doit être rappelé qu'une telle conduite est inacceptable, la règle 16.7 étant appliquée si nécessaire. Formule : « Vous ne devez pas influencer le juge de ligne » (annexe 4, 3.5.3).
+
+Q ari-049 | D: 2 | R: REGLES Annexe 4 3.5.5
+Dès que le volant tombe près de la ligne, un joueur hurle « Out ! » en tendant les bras, avant même le geste du juge de ligne. Quelle formule de l'annexe 4 l'arbitre utilise-t-il ?
+- « Le juge de ligne a fait une annonce correcte. »
++ « Ne criez pas ou ne faites pas de gestes avant la décision du juge de ligne. »
+- « Vous avez délibérément distrait votre adversaire. »
+- « Correction, OUT. »
+> Annexe 4, 3.5.5 : « Ne criez pas ou ne faites pas de gestes avant la décision du juge de ligne. » Il s'agit d'une tentative d'influencer l'officiel (instruction 5.9.1.5).
+
+Q ari-050 | D: 2 | R: REGLES Instr. 5.9.1.6
+Entre deux échanges, un joueur secoue la main pour projeter sa sueur sur le terrain. Que prévoient les instructions ?
+- Rien, cela ne relève pas de l'arbitre
+- Une faute immédiate
++ Lui rappeler qu'une telle conduite est inacceptable, la règle 16.7 étant appliquée si nécessaire
+- Un let et l'essuyage du terrain
+> Instruction 5.9.1.6 : un joueur jetant de la sueur ou contaminant autrement le terrain et ses abords immédiats doit être rappelé qu'une telle conduite est inacceptable, la règle 16.7 étant appliquée si nécessaire. Formule : « Ne jetez pas votre sueur » (annexe 4, 3.8.4).
+
+Q ari-051 | D: 2 | R: REGLES Instr. 5.9.1.7
+Parmi ces comportements après un échange, lesquels l'instruction 5.9.1.7 cite-t-elle comme exemples de célébration excessive ou offensante ? (plusieurs réponses)
++ Lever le poing ou crier en direction de l'adversaire
++ Enlever son maillot
++ Crier excessivement
+- Taper dans la main de son partenaire
+> Instruction 5.9.1.7 : il doit être rappelé à un joueur célébrant de manière excessive ou offensante (par exemple lever le poing ou crier en direction de l'adversaire, crier excessivement, enlever le maillot) qu'une conduite antisportive et offensante est inacceptable (règles 16.6.3 et 16.6.4), la règle 16.7 étant appliquée si nécessaire.
+
+Q ari-052 | D: 2 | R: REGLES Instr. 5.9.1.8
+Un joueur interrompt son service parce qu'un spectateur prend des photos avec flash. Que prévoient les instructions ?
+- L'arbitre doit faire évacuer le photographe et accorder un let
++ Le jeu ne doit pas être retardé pour ce motif, sauf si l'arbitre ou le juge-arbitre l'estime nécessaire ; le joueur qui interrompt le jeu s'expose à une sanction pour retard de jeu
+- Le joueur a le droit de refaire son service autant de fois que nécessaire
+- L'arbitre doit suspendre le match et appeler le juge-arbitre
+> Instruction 5.9.1.8 : durant un match, le jeu ne doit pas être retardé du fait de problèmes extérieurs (par exemple flashes d'appareils photo) à moins que l'arbitre ou le juge-arbitre ne le juge nécessaire. Les joueurs interrompant le jeu pour cette raison s'exposent à des sanctions pour retard de jeu.
+
+Q ari-053 | D: 2 | R: REGLES Annexe 4 3.10.6
+Un joueur remporte le match et part célébrer devant le public avant de saluer qui que ce soit. Quelle formule de l'annexe 4 correspond à cette situation ?
+- « Ne levez pas le poing vers votre adversaire. »
++ « Vous devez serrer les mains avant de célébrer. »
+- « Vous devez faire le maximum d'effort. »
+- « Joueurs, retournez sur le terrain. »
+> Annexe 4, 3.10.6 : « Vous devez serrer les mains avant de célébrer. »
+
+# ---------------------------------------------------------------- Continuité du jeu (instruction 5.10)
+
+Q ari-054 | D: 1 | R: REGLES Instr. 5.10.1
+Pendant un échange, la corde de la raquette d'un joueur casse ; il court en prendre une autre dans son panier au bord du terrain et continue l'échange. Que fait l'arbitre ?
++ Rien : un changement de raquette à côté du terrain pendant un échange est permis
+- Il annonce « Faute » pour sortie du terrain sans autorisation
+- Il annonce « Let »
+- Il donne un avertissement pour retard de jeu
+> Instruction 5.10.1 : l'arbitre s'assure que les joueurs ne quittent pas le terrain sans sa permission (sauf pendant les intervalles), mais un changement de raquette à côté du terrain pendant un échange est permis.
+
+Q ari-055 | D: 2 | R: REGLES Instr. 5.10.2
+Entre deux échanges, sans rien demander, un joueur sort du terrain pour aller chercher une serviette au fond de la salle. Que fait l'arbitre ?
+- Il le disqualifie
++ Il lui rappelle que sa permission est requise pour quitter le terrain, la règle 16.7 étant appliquée si nécessaire
+- Il annonce « Service perdu »
+- Rien, hors échange le joueur est libre de ses déplacements
+> Instruction 5.10.2 : il doit être rappelé à tout joueur fautif que la permission de l'arbitre est requise pour quitter le terrain (règle 16.5.2), la règle 16.7 étant appliquée si nécessaire. Explication en cas de sanction : « Vous avez quitté le terrain sans autorisation » (annexe 4, 5.24).
+
+Q ari-056 | D: 2 | R: REGLES Instr. 5.10.4
+Match sans compte à rebours : qu'est-ce que l'arbitre peut autoriser, à sa discrétion, entre deux échanges, si le jeu n'est pas retardé excessivement ? (plusieurs réponses)
++ S'essuyer rapidement seulement
++ S'essuyer et boire
++ S'appliquer un spray
+- Couper son cordage sur le côté du terrain
+- S'asseoir sur sa chaise pour récupérer
+> Instruction 5.10.4 : sans compte à rebours, l'arbitre peut autoriser, à sa discrétion, de s'essuyer rapidement seulement, de s'essuyer et boire, ou de s'appliquer un spray. Couper son cordage est cité seulement pour les matchs avec compte à rebours (5.10.5.6) ; récupérer est interdit (règle 16.4.1).
+
+Q ari-057 | D: 2 | R: REGLES Instr. 5.10.5 | L: JAFA JAFC
+Match avec compte à rebours : entre deux échanges, un joueur se rend sur le côté du terrain pour s'appliquer de la glace et ajuster son strap. Que dit l'instruction 5.10.5 ?
++ C'est permis, à condition d'être prêt avant l'expiration du compte à rebours et de respecter la clause 5.10.3
+- C'est interdit : seuls s'essuyer et boire sont autorisés
+- C'est permis seulement avec l'accord du juge-arbitre
+- C'est permis seulement pendant les intervalles
+> Instruction 5.10.5 : avec le compte à rebours, entre les échanges, un joueur peut entreprendre sur le côté du terrain, avant que le compte à rebours ait expiré, toute action qu'il juge opportune, notamment s'essuyer, boire, s'appliquer un spray froid ou de la glace, ajuster un bandage ou un strap, couper son cordage.
+
+Q ari-058 | D: 2 | R: REGLES Annexe 4 3.9.12
+Match sans compte à rebours : un joueur va boire entre deux échanges sans regarder l'arbitre. Quelle formule de l'annexe 4 l'arbitre peut-il lui adresser ?
+- « Pas de retard de jeu. »
++ « Vous devez me demander l'autorisation pour boire. »
+- « Vous avez quitté le terrain sans autorisation. »
+- « Buvez pendant l'intervalle uniquement. »
+> Annexe 4, 3.9.12 : « Vous devez me demander l'autorisation pour boire. » Sans compte à rebours, boire entre les échanges est laissé à la discrétion de l'arbitre (instruction 5.10.4.2).
+
+Q ari-059 | D: 2 | R: REGLES Instr. 5.10.6
+Match sans compte à rebours : le terrain doit être essuyé entre deux échanges. Que doivent faire les joueurs ? (plusieurs réponses)
++ Indiquer aux préposés au terrain où balayer
++ Être sur le terrain dès que l'essuyage est terminé, avant que les préposés au terrain ne quittent le terrain
+- Attendre sur leur chaise que l'arbitre annonce « Jouez »
+- Profiter de l'essuyage pour aller boire au bord du terrain sans autorisation
+> Instruction 5.10.6 : si le terrain a besoin d'être essuyé, les joueurs indiquent aux préposés où balayer ; sans compte à rebours, ils doivent être sur le terrain dès que l'essuyage est terminé et avant que les préposés ne quittent le terrain. Formule : « Montrez au préposé au terrain où essuyer le terrain » (annexe 4, 3.8.2).
+
+Q ari-060 | D: 2 | R: REGLES Instr. 5.10.7
+Entre deux échanges, un joueur prend une raquette de remplacement dans son sac et fait quelques frappes à vide pour la tester. Que doit faire l'arbitre ?
+- Le laisser faire, le changement de raquette étant libre
++ L'en empêcher : le test sur le terrain de raquettes de remplacement doit être empêché
+- Annoncer « Let »
+- L'autoriser une fois par set
+> Instruction 5.10.7 : l'arbitre s'assure que les joueurs ne retardent pas le jeu délibérément ; tout déplacement non nécessaire autour du terrain entre les échanges et le test sur le terrain de raquettes de remplacement doivent être empêchés.
+
+Q ari-061 | D: 3 | R: REGLES Instr. 5.10.8.4 | L: JAFA JAFC
+Dans quels cas l'arbitre peut-il interrompre le compte à rebours ? (plusieurs réponses)
++ Si le terrain a besoin d'être essuyé durant une période prolongée
++ En cas de conflit ou de blessure
++ Dans toute autre situation qu'il considère appropriée
+- Dès qu'un joueur le lui demande pour boire
+> Instruction 5.10.8.4 : l'arbitre peut interrompre le compte à rebours si nécessaire, par exemple si le terrain a besoin d'être essuyé durant une période prolongée, un conflit ou une blessure s'est produit, ou toute autre situation considérée appropriée par l'arbitre.
+
+Q ari-062 | D: 2 | R: REGLES Instr. 5.10.11
+Au milieu d'un set, en dehors de tout intervalle, un joueur demande à changer son maillot trempé. Que répond l'arbitre ?
+- Il l'autorise, sur le terrain, entre deux échanges
+- Il l'autorise à sortir du terrain pour se changer
++ Il refuse : le changement de maillot sur le terrain ne peut être fait que durant un intervalle
+- Il appelle le juge-arbitre pour l'autoriser
+> Instruction 5.10.11 : l'arbitre doit s'assurer que le changement de maillot d'un joueur sur le terrain soit fait uniquement durant un intervalle (règle 16.2). Le nouveau maillot doit être de la même couleur et du même design que le maillot d'origine (annexe 4, 3.12.2).
+
+Q ari-063 | D: 2 | R: REGLES Annexe 4 3.12.2
+Pendant l'intervalle entre deux sets, un joueur enfile un maillot de rechange d'une autre couleur. Quelle formule de l'annexe 4 l'arbitre lui adresse-t-il ?
+- « Avez-vous une autre couleur de tenue ? »
++ « Votre nouveau maillot doit être de la même couleur et du même design que votre maillot d'origine. »
+- « Vous devez porter la même couleur de tenue que votre adversaire. »
+- « Le nom sur le maillot n'est pas le même que celui de la base de données. »
+> Annexe 4, 3.12.2 : « Votre nouveau maillot doit être de la même couleur et du même design que votre maillot d'origine. »
+
+Q ari-064 | D: 2 | R: REGLES Instr. 5.10.10
+Pendant l'intervalle entre deux sets, un joueur pris d'un besoin pressant demande à aller aux toilettes. Quelle attitude prévoient les instructions ?
+- Refus systématique : le joueur ne peut pas quitter l'aire de jeu
++ L'arbitre, de concert avec le juge-arbitre, fait preuve de flexibilité pour les sorties et retours sur le terrain durant un intervalle pour maux aigus ou besoins sanitaires
+- Le joueur peut sortir, mais reçoit un avertissement
+- Le joueur peut sortir seulement s'il abandonne le set
+> Instruction 5.10.10 : l'arbitre, de concert avec le juge-arbitre, doit faire preuve de flexibilité eu égard aux joueurs quittant et revenant sur le terrain durant un intervalle (règle 16.5.2) pour cause de maux aigus ou de besoins sanitaires.
+
+Q ari-065 | D: 2 | R: REGLES Instr. 5.10.9
+Un joueur prend régulièrement trop de temps avant de se replacer. Que fait d'abord l'arbitre selon l'instruction 5.10.9 ?
+- Il le faute immédiatement
++ Il lui rappelle que le jeu doit être continu et, si nécessaire, applique la règle 16.7
+- Il appelle le juge-arbitre
+- Il met en route le compte à rebours
+> Instruction 5.10.9 : l'arbitre rappelle au joueur contrevenant aux clauses 5.10.3 à 5.10.8 que le jeu doit être continu et, si nécessaire, applique la règle 16.7. Formule : « Le jeu doit être continu » (annexe 4, 3.9.6).
+
+# ---------------------------------------------------------------- Suspension du jeu (instruction 5.11)
+
+Q ari-066 | D: 2 | R: REGLES Instr. 5.11.1
+Pendant un match, une latte du plancher se soulève sur le terrain. Que fait l'arbitre ?
+- Il fait jouer un let et poursuit le match
++ Il appelle le juge-arbitre et le jeu est suspendu jusqu'à ce que le terrain soit à nouveau adapté au jeu
+- Il déclare le match arrêté et le fait reprendre à zéro
+- Il demande aux joueurs s'ils acceptent de continuer
+> Instruction 5.11.1 : si un terrain ou ses environs immédiats ont besoin d'être réparés, ou ne sont temporairement pas praticables, l'arbitre doit appeler le juge-arbitre (ou celui-ci peut intervenir) et le jeu est suspendu jusqu'à ce que le terrain soit à nouveau adapté au jeu.
+
+Q ari-067 | D: 2 | R: REGLES Instr. 5.11.2
+Lorsqu'il suspend le jeu, qu'annonce l'arbitre et que note-t-il sur la feuille de score ?
+- « Arrêt de jeu » ; il note « A »
++ « Le jeu est suspendu » ; il note « S »
+- « Match arrêté par le juge-arbitre » ; il note « JA »
+- « Let » ; il ne note rien
+> Instruction 5.11.2 : « Le jeu est suspendu », et l'arbitre note « S » sur la tablette ou la feuille de score, le cas échéant (annexe 4, 7.5 : S – Suspension de jeu).
+
+Q ari-068 | D: 2 | R: REGLES Instr. 5.11.3
+Le terrain est réparé et le jeu peut reprendre après une suspension. Que fait l'arbitre ? (plusieurs réponses)
++ Il note la durée de la suspension
++ Il s'assure que les joueurs sont du bon côté du terrain et dans les bonnes zones de service
++ Il annonce « Êtes-vous prêt ? » suivi du score et « Jouez »
+- Il annonce « Zéro égalité ; jouez »
+> Instruction 5.11.3 : à la reprise, l'arbitre note la durée de la suspension, s'assure que les joueurs sont du bon côté et dans les bonnes zones de service, puis annonce « Êtes-vous prêt ? » suivi du score et « Jouez ». Le score acquis est maintenu (règle 16.3.3).
+
+Q ari-069 | D: 3 | R: REGLES Instr. 5.2.2.2
+Sur une feuille de score papier, la lettre « S » peut avoir deux sens selon le moment où elle est notée. Lesquels ? (plusieurs réponses)
++ Avant le match, elle désigne le serveur
++ En cours de match, elle signale une suspension de jeu
+- Elle désigne le juge de service
+- Elle signale un set terminé
+> Instruction 5.2.2.2 : avant le match, l'arbitre note « 0 » pour chaque côté et « S » pour le serveur (et « R » pour le receveur en double). Instruction 5.11.2 et annexe 4, 7.5 : en cas de suspension, il note « S » (Suspension de jeu).
+
+# ---------------------------------------------------------------- Conseils de l'extérieur du terrain (instruction 5.12)
+
+Q ari-070 | D: 2 | R: REGLES Instr. 5.12.1
+À partir de quel moment les conseils de l'extérieur du terrain ne sont-ils plus autorisés, entre deux échanges ?
+- Dès que l'arbitre a annoncé le score
++ À partir du moment où les joueurs ont pris position pour servir et recevoir le service suivant
+- Seulement quand le serveur frappe le volant
+- Jamais entre les échanges, seulement pendant l'échange
+> Instruction 5.12.1 : les conseils ne sont pas autorisés à partir du moment où les joueurs ont pris position pour servir et recevoir le service suivant, et lorsque le volant est en jeu. Formule : « Ne conseillez pas après que les joueurs aient pris position pour le service suivant » (annexe 4, 3.6.5).
+
+Q ari-071 | D: 2 | R: REGLES Instr. 5.12.2
+Un conseiller souhaite rejoindre le terrain voisin où joue un autre de ses joueurs. Quand peut-il se déplacer ?
+- À tout moment, sans gêner le jeu
+- Seulement pendant les intervalles de son match
++ Lorsque le volant n'est pas en jeu
+- Uniquement avec l'autorisation de l'arbitre des deux terrains
+> Instruction 5.12.2 : les conseillers sont assis sur les sièges réservés et ne se tiennent pas debout à côté du terrain, sauf pendant les intervalles ; si un conseiller souhaite se déplacer sur un autre terrain, il doit le faire lorsque le volant n'est pas en jeu.
+
+Q ari-072 | D: 2 | R: REGLES Instr. 5.12.6
+Un conseiller assis au bord du terrain consulte des statistiques sur sa tablette pendant le match. Que prévoient les instructions ?
+- C'est permis s'il ne communique pas avec son joueur
+- C'est permis pendant les intervalles seulement
++ C'est interdit : les conseillers au bord du terrain ne doivent utiliser aucun moyen électronique à quelque fin que ce soit
+- C'est permis si le juge-arbitre a autorisé la vidéo
+> Instruction 5.12.6 : les conseillers présents au bord du terrain ne doivent utiliser aucun moyen électronique à quelque fin que ce soit.
+
+Q ari-073 | D: 1 | R: REGLES Annexe 4 3.6.8
+Un conseiller se lève de sa chaise en plein échange pour encourager son joueur. Quelle formule de l'annexe 4 l'arbitre utilise-t-il ?
+- « Conseiller(s), remettez votre chaise à sa position initiale. »
++ « Ne vous levez pas de votre chaise avant la fin de l'échange. »
+- « Ne cherchez pas à recevoir des conseils. »
+- « Votre conseiller a perturbé le jeu. »
+> Annexe 4, 3.6.8 : « Ne vous levez pas de votre chaise avant la fin de l'échange. » Les conseillers ne doivent pas se tenir debout à côté du terrain pendant le match, sauf pendant les intervalles (instruction 5.12.2).
+
+Q ari-074 | D: 2 | R: REGLES Annexe 4 3.6.4
+Au moment de se mettre en position pour recevoir, un joueur se tourne vers son conseiller pour écouter ses indications. Quelle formule de l'annexe 4 s'adresse au joueur ?
++ « Ne cherchez pas à recevoir des conseils. »
+- « Ne conseillez pas pendant l'échange. »
+- « Votre conseiller a distrait votre adversaire. »
+- « Conseiller(s), retournez à votre (vos) chaise(s). »
+> Annexe 4, 3.6.4 : « Ne cherchez pas à recevoir des conseils. » Les autres formules s'adressent aux conseillers (3.6.1, 3.6.6) ou expliquent un let (3.6.2).
+
+Q ari-075 | D: 2 | R: REGLES Annexe 4 3.6.1
+À l'annonce « 20 secondes » pendant un intervalle, un conseiller reste sur le terrain auprès de son joueur. Que dit l'arbitre ?
+- « Préparez-vous plus vite. »
++ « Conseiller(s), retournez à votre (vos) chaise(s). »
+- « Joueurs, retournez sur le terrain. »
+- « Ne passez pas par-dessus les panneaux publicitaires. »
+> Instructions 5.4.13 et 5.6.7 : les conseillers doivent quitter le terrain lorsque l'arbitre annonce « 20 secondes ». Annexe 4, 3.6.1 : « Conseiller(s), retournez à votre (vos) chaise(s). »
+
+# ---------------------------------------------------------------- Changement de volant (instruction 5.13 et annexe 4, 3.3)
+
+Q ari-076 | D: 1 | R: REGLES Instr. 5.13.1
+Un joueur estime que le volant est abîmé et demande à le changer. Qui décide ?
+- Les joueurs, d'un commun accord
++ L'arbitre
+- Le juge-arbitre
+- Le juge de service
+> Instruction 5.13.1 : le changement de volant pendant un match doit être équitable ; l'arbitre doit décider si le volant doit être changé. Il répond « Changement » ou « Pas de changement » (annexe 4, 3.3.4 et 3.3.5).
+
+Q ari-077 | D: 1 | R: REGLES Annexe 4 3.3.4
+L'arbitre examine le volant présenté par un joueur et accepte de le remplacer. Quelle annonce brève de l'annexe 4 utilise-t-il ?
+- « Testez le volant. »
++ « Changement. »
+- « Le volant est-il correct ? »
+- « Renvoyez le volant. »
+> Annexe 4, 3.3.4 : « Changement. » ; en cas de refus : « Pas de changement » (3.3.5).
+
+Q ari-078 | D: 2 | R: REGLES Annexe 4 3.3.8
+Un joueur jette le volant et en prend un neuf dans la boîte sans rien demander. Quelle formule de l'annexe 4 l'arbitre lui adresse-t-il ?
+- « Ne testez pas le volant. »
++ « Vous devez me demander l'autorisation pour changer de volant. »
+- « Vous ne devez pas modifier la vitesse du volant. »
+- « Renvoyez le volant convenablement. »
+> Annexe 4, 3.3.8 : « Vous devez me demander l'autorisation pour changer de volant. » C'est l'arbitre qui décide si le volant doit être changé (instruction 5.13.1).
+
+Q ari-079 | D: 1 | R: REGLES Annexe 4 3.3.7
+Après chaque échange perdu, un joueur renvoie le volant à son adversaire d'un smash violent par-dessus le filet. Quelle formule de l'annexe 4 l'arbitre peut-il utiliser ?
+- « Renvoyez le volant. »
++ « Renvoyez le volant convenablement. »
+- « Ne changez pas le volant. »
+- « Vous avez frappé le volant dans le camp adverse. »
+> Annexe 4, 3.3.7 : « Renvoyez le volant convenablement. » (3.3.6 « Renvoyez le volant » demande simplement de le rendre).
+
+Q ari-080 | D: 2 | R: REGLES Instr. 5.13.2
+L'arbitre constate qu'un joueur plie délibérément les plumes du volant pour le ralentir. Que prévoient les instructions ? (plusieurs réponses)
++ Le volant doit être changé
++ La règle 16.7 doit être appliquée, le cas échéant
+- Le volant est conservé pour la suite du set
+- Le joueur perd automatiquement le set
+> Instruction 5.13.2 : un volant dont la vitesse ou les plumes ont été délibérément modifiées doit être changé et la règle 16.7 doit être appliquée, le cas échéant. Explication : « Vous avez modifié la vitesse du volant » (annexe 4, 5.11).
+
+Q ari-081 | D: 2 | R: REGLES Annexe 4 7.9 | P: apres
+Un joueur a été averti pour avoir modifié la vitesse du volant. Quel commentaire type l'annexe 4 propose-t-elle pour la feuille de score ?
+- « Dégradation du volant – faute. »
++ « [Nom du joueur] a été averti pour avoir modifié la vitesse du volant. »
+- « Volant changé à la demande de l'adversaire. »
+- « [Nom du joueur] a été disqualifié pour retard de jeu. »
+> Annexe 4, 7.9 : « [Nom du joueur] a été averti pour avoir modifié la vitesse du volant. » (exemples de commentaires des incidents sur la feuille de score).
+
+Q ari-082 | D: 2 | R: REGLES Instr. 5.13.3 | L: JAFA JAFC
+Match avec compte à rebours : quand un changement de volant entre deux échanges devrait-il être effectué ?
++ Avant l'expiration du compte à rebours ; l'arbitre rappelle si nécessaire aux joueurs de le demander dès la fin de l'échange
+- Après l'expiration du compte à rebours, qui est alors relancé
+- Seulement aux intervalles
+- À tout moment, le compte à rebours étant alors suspendu automatiquement
+> Instruction 5.13.3 : avec le compte à rebours, un changement de volant entre deux échanges devrait être effectué avant son expiration (5.10.8.2) ; si nécessaire, l'arbitre rappelle aux joueurs de demander le changement dès la fin d'un échange.
+
+Q ari-083 | D: 2 | R: REGLES Instr. 5.13.4
+En cours de match, les deux joueurs trouvent les volants trop lents et demandent ensemble à passer à une vitesse supérieure. Que fait l'arbitre ?
+- Il accepte, puisque les deux côtés sont d'accord
+- Il fait tester un volant et décide lui-même
++ Il appelle immédiatement le juge-arbitre, seul à décider de la vitesse des volants
+- Il refuse et poursuit le match
+> Instruction 5.13.4 : le juge-arbitre est le seul juge à décider de la vitesse des volants à utiliser ; si les deux côtés souhaitent changer la vitesse, le juge-arbitre doit être appelé immédiatement.
+
+Q ari-084 | D: 1 | R: REGLES Instr. 7.5
+Sur un match avec juge de service et sans distributeur de volants, l'arbitre accepte un changement de volant. Qui remet le volant neuf ?
+- L'arbitre lui-même
++ Le juge de service, qui gère les changements de volant sous l'autorité de l'arbitre
+- Un juge de ligne
+- Le joueur, qui se sert dans la boîte
+> Instruction 7.5 : le juge de service, une fois désigné, gère tout changement de volant sous l'autorité de l'arbitre, à moins que d'autres dispositions ne soient en place (distributeurs de volants), et s'assure qu'une quantité suffisante de volants neufs est disponible.
+
+# ---------------------------------------------------------------- Blessure, abandon (instruction 5.14)
+
+Q ari-085 | D: 2 | R: REGLES Instr. 5.14.1
+Un joueur se tord la cheville et reste au sol. Que prévoit l'instruction 5.14.1 ? (plusieurs réponses)
++ L'arbitre essaie de déterminer la gravité du problème le plus rapidement possible et appelle le juge-arbitre si nécessaire
++ Le juge-arbitre décide si le médecin du tournoi ou une autre personne est requis sur le terrain
++ L'arbitre note le délai causé par la blessure
+- L'arbitre accorde d'office cinq minutes de soins sur le terrain
+> Instruction 5.14.1 : incident traité avec discernement et tact ; l'arbitre détermine la gravité au plus vite et appelle le juge-arbitre si nécessaire ; le juge-arbitre décide si le médecin du tournoi est requis ; aucun traitement entraînant un retard injustifié ne doit être administré sur le terrain ; l'arbitre note le délai causé.
+
+Q ari-086 | D: 2 | R: REGLES Instr. 5.14.1
+Qui décide si le médecin du tournoi doit venir sur le terrain pour un joueur blessé ?
+- L'arbitre
+- Le joueur blessé
++ Le juge-arbitre
+- Le juge de service
+> Instruction 5.14.1 : l'arbitre appelle le juge-arbitre sur le terrain si nécessaire ; le juge-arbitre décide si le médecin du tournoi ou qui que ce soit d'autre est requis sur le terrain (instruction 3.6).
+
+Q ari-087 | D: 1 | R: REGLES Annexe 4 3.7.1
+Un joueur reste au sol après une chute. Parmi ces questions, lesquelles figurent dans la terminologie de l'annexe 4 pour les blessures ? (plusieurs réponses)
++ « Allez-vous bien ? »
++ « Avez-vous besoin d'un médecin ? »
++ « Pouvez-vous continuer à jouer ? »
+- « Voulez-vous un intervalle supplémentaire ? »
+> Annexe 4, 3.7 : « Allez-vous bien ? » (3.7.1), « Pouvez-vous continuer à jouer ? » (3.7.2), « Avez-vous besoin d'un médecin ? » (3.7.3), « Abandonnez-vous ? » (3.7.4).
+
+Q ari-088 | D: 2 | R: REGLES Annexe 4 6.6
+Dans le deuxième set, Y confirme à l'arbitre qu'il abandonne sur blessure. Quelle est l'annonce de l'arbitre ?
+- « Y, forfait. Match remporté par X. »
++ « Y, abandon. Match remporté par X, … [scores]. »
+- « Match arrêté. Y blessé. »
+- « Y, disqualifié. Match remporté par X, … [scores]. »
+> Instruction 5.14.3 et annexe 4, 6.6 : après confirmation (« Abandonnez-vous ? »), l'arbitre annonce « … [Nom du joueur], abandon. Match remporté par … [Nom du (des) joueur(s)], … [Scores]. »
+
+Q ari-089 | D: 1 | R: REGLES Annexe 4 3.7.5
+Un joueur saigne du genou après une chute. Quelle formule de l'annexe 4 l'arbitre lui adresse-t-il ?
+- « Pouvez-vous continuer à jouer ? Alors jouez. »
++ « Le saignement doit être traité avant que vous ne puissiez continuer. »
+- « Abandonnez-vous ? »
+- « Le jeu est suspendu. »
+> Annexe 4, 3.7.5 : « Le saignement doit être traité avant que vous ne puissiez continuer. » En cas de saignement, le jeu est retardé jusqu'à ce que le saignement s'arrête ou que la plaie soit convenablement pansée (instruction 5.14.2).
+
+# ---------------------------------------------------------------- Feuille de score : codes et commentaires (annexe 4, section 7)
+
+Q ari-090 | D: 1 | R: REGLES Annexe 4 7.2 | P: apres
+Sur la feuille de score, quelle abréviation note un avertissement pour mauvaise conduite ?
++ A
+- Av
+- J
+- C
+> Annexe 4, 7.2 : « A – Avertissement pour mauvaise conduite ». Les autres codes sont B (blessure), F (faute pour mauvaise conduite), JA (appel du juge-arbitre), S (suspension), Dis (disqualifié), Ab (abandon).
+
+Q ari-091 | D: 2 | R: REGLES Annexe 4 7.3 | P: apres
+Sur la feuille de score, que signifie la lettre « F » dans les commentaires des incidents ?
+- Forfait
++ Faute pour mauvaise conduite
+- Fin du match
+- Faute de service
+> Annexe 4, 7.3 : « F – Faute pour mauvaise conduite ».
+
+Q ari-092 | D: 2 | R: REGLES Annexe 4 7.4 | P: apres
+L'arbitre a appelé le juge-arbitre sur le terrain. Quelle abréviation l'annexe 4 prévoit-elle pour le noter sur la feuille de score ?
+- A
++ JA
+- S
+- Dis
+> Annexe 4, 7.4 : « JA – Appel du juge-arbitre sur le terrain ».
+
+Q ari-093 | D: 2 | R: REGLES Annexe 4 7.7 | P: apres
+Quelles abréviations de l'annexe 4 distinguent, sur la feuille de score, l'abandon et la disqualification ?
++ « Ab » pour abandon et « Dis » pour disqualifié(e) par le juge-arbitre
+- « A » pour abandon et « D » pour disqualification
+- « B » pour abandon et « F » pour disqualification
+- « Ab » pour abandon et « N » pour disqualification
+> Annexe 4, 7.6 et 7.7 : « Dis – Disqualifié(e) par le juge-arbitre » et « Ab – Abandon » ; « A » désigne l'avertissement et « B » la blessure.
+
+Q ari-094 | D: 1 | R: REGLES Annexe 4 7.1 | P: apres
+Sur la feuille de score, que note la lettre « B » dans les commentaires des incidents ?
+- Balayage du terrain
++ Blessure
+- Bris de raquette
+- Bonus d'intervalle
+> Annexe 4, 7.1 : « B – Blessure ».
+
+Q ari-095 | D: 3 | R: REGLES Annexe 4 7.15 | P: apres
+Un joueur a été fauté pour avoir poussé un juge de ligne ; appelé sur le terrain, le juge-arbitre l'a disqualifié. Quel commentaire type l'annexe 4 propose-t-elle pour la feuille de score ?
+- « [Nom du joueur] a été averti pour avoir influencé le juge de ligne. »
++ « [Nom du joueur] a été fauté pour avoir poussé le juge de ligne. Le juge arbitre a été appelé sur le terrain et a décidé de disqualifier le joueur. »
+- « [Nom du joueur] a abandonné. »
+- « Jeu retardé de X minutes. »
+> Annexe 4, 7.15 : « [Nom du joueur] a été fauté pour avoir poussé le juge de ligne. Le juge arbitre a été appelé sur le terrain et a décidé de disqualifier le joueur. » ; 7.12 vise l'avertissement pour avoir influencé le juge de ligne.
+
+# ---------------------------------------------------------------- Mauvaise conduite (instruction 5.17 et annexe 4, section 5)
+
+Q ari-096 | D: 1 | R: REGLES Instr. 5.17.3
+L'arbitre donne un avertissement pour mauvaise conduite à un joueur. Quels sont l'annonce et le geste ?
+- « Faute pour mauvaise conduite », carton rouge levé de la main gauche
++ « Venez ici », puis « [Nom du joueur], avertissement pour mauvaise conduite » suivi de la justification, main droite au-dessus de la tête tenant un carton jaune
+- « Avertissement », carton jaune présenté devant le joueur
+- « Venez ici », puis carton jaune sans annonce
+> Instruction 5.17.3 : l'arbitre annonce « Venez ici » au joueur contrevenant, puis « … [Nom du joueur], avertissement pour mauvaise conduite », suivi de la justification (annexe 4, section 5), en levant en même temps la main droite au-dessus de sa tête en tenant un carton jaune.
+
+Q ari-097 | D: 2 | R: REGLES Instr. 5.17.4
+Juste après avoir fauté un joueur pour mauvaise conduite (carton rouge), que doit faire immédiatement l'arbitre ?
+- Inscrire la faute sur la feuille et poursuivre sans autre formalité
++ Appeler le juge-arbitre sur le terrain pour le lui signifier
+- Demander au joueur s'il souhaite continuer
+- Changer les volants
+> Instruction 5.17.4 : en fautant un côté pour mauvaise conduite, l'arbitre annonce « Venez ici », « … [Nom du joueur], faute pour mauvaise conduite » avec l'explication, lève le carton rouge de la main droite, et doit immédiatement appeler le juge-arbitre sur le terrain pour le lui signifier.
+
+Q ari-098 | D: 2 | R: REGLES Annexe 4 5.14
+Après une faute directe, un joueur donne un coup de pied dans le panneau publicitaire. L'arbitre le sanctionne. Quelle justification de l'annexe 4 utilise-t-il ?
+- « Conduite antisportive. »
+- « Violence physique. »
++ « Vous avez donné un coup de pied dans le panneau publicitaire. »
+- « Vous avez frappé la caisse. »
+> Annexe 4, 5.14 : « Vous avez donné un coup de pied dans le panneau publicitaire. » L'arbitre doit utiliser la terminologie standard pour expliquer spécifiquement la mauvaise conduite (instructions 5.17.3.1 et 5.17.4.1).
+
+Q ari-099 | D: 2 | R: REGLES Annexe 4 5.25
+Un joueur autorisé à sortir pendant l'intervalle revient bien après la reprise annoncée ; l'arbitre le sanctionne. Quelle justification de l'annexe 4 correspond ?
+- « Vous avez quitté le terrain sans autorisation. »
++ « Vous êtes revenu en retard sur le terrain. »
+- « Vous avez refusé de poursuivre le jeu. »
+- « Retard de jeu, temps dépassé. »
+> Annexe 4, 5.25 : « Vous êtes revenu en retard sur le terrain. » (5.24 vise la sortie sans autorisation, 5.21 le temps dépassé du compte à rebours).
+
+Q ari-100 | D: 2 | R: REGLES Instr. 5.17.6
+Pendant l'intervalle entre deux sets, un joueur insulte l'arbitre. Quand l'arbitre traite-t-il cette mauvaise conduite ?
+- À la fin de l'intervalle, au moment d'annoncer le set suivant
+- À la fin du match, dans son rapport
++ Immédiatement, dès qu'elle est constatée, comme une mauvaise conduite pendant le jeu
+- Seulement si le juge-arbitre est présent
+> Instruction 5.17.6 : une mauvaise conduite pendant les intervalles est traitée comme une mauvaise conduite pendant le jeu, conformément aux instructions 5.17.3, 5.17.4 ou 5.17.5, immédiatement lorsqu'elle est constatée.
+
+Q ari-101 | D: 3 | R: REGLES Instr. 5.17.7.2
+Pendant l'intervalle entre le premier et le deuxième set, l'arbitre a donné un avertissement (carton jaune) à un joueur. Comment lance-t-il le deuxième set ?
++ « Second set ; zéro égalité ; jouez. »
+- « Second set ; zéro égalité ; [nom du joueur], averti ; jouez. »
+- « Second set ; un – zéro ; jouez. »
+- « Second set ; zéro égalité ; [nom du joueur], fauté ; service perdu ; jouez. »
+> Instruction 5.17.7.2 : après un simple avertissement pendant l'intervalle entre les sets, l'arbitre annonce « … set ; zéro égalité ; jouez ». Seule une faute pour mauvaise conduite modifie l'annonce et le score (instruction 5.17.8.2).
+
+Q ari-102 | D: 3 | R: REGLES Instr. 5.17.8.2
+Pendant l'intervalle entre deux sets, un joueur a été fauté pour mauvaise conduite (carton rouge). Comment se construit l'annonce de reprise ?
+- « … set ; zéro égalité ; jouez », la faute ne s'appliquant qu'au premier échange
++ « … set ; zéro égalité ; [nom du joueur], fauté », suivi de « Service perdu » selon le cas, du nouveau score et de « Jouez »
+- « [Nom du joueur], faute pour mauvaise conduite ; … set ; zéro égalité ; jouez »
+- Le set reprend à zéro et la faute est reportée au set suivant
+> Instruction 5.17.8.2 : après les intervalles entre les sets, l'arbitre annonce « … set ; zéro égalité ; … [nom du joueur], fauté » suivi par « Service perdu », selon le cas, « … [nouveau score] » et « Jouez ».
+
+Q ari-103 | D: 3 | R: REGLES Instr. 5.17.7.1
+Pendant l'intervalle en cours de set, un joueur reçoit un avertissement pour mauvaise conduite. Comment l'arbitre reprend-il le jeu ?
++ Il annonce le score puis « Jouez », l'avertissement n'ayant pas d'effet sur le score
+- Il annonce « Service perdu » puis le nouveau score
+- Il annonce « Let » puis le score
+- Il ajoute un point à l'adversaire puis annonce « Jouez »
+> Instruction 5.17.7.1 : après un avertissement pendant l'intervalle en cours de set, l'arbitre annonce le score de l'intervalle puis « Jouez ». En cas de faute pour mauvaise conduite, il ajoute « … [nom du joueur], fauté », « Service perdu » selon le cas et le nouveau score (5.17.8.1).
+
+Q ari-104 | D: 2 | R: REGLES Instr. 5.17.9
+Pendant l'intervalle entre deux sets, le juge-arbitre disqualifie un joueur. Quand l'arbitre fait-il l'annonce ?
+- À la fin de l'intervalle, à la place de l'annonce du set suivant
++ Immédiatement, sans attendre la fin de l'intervalle
+- Après que les joueurs ont serré la main de l'arbitre
+- C'est le juge-arbitre qui l'annonce au micro de la salle
+> Instruction 5.17.9 : si le joueur ou la paire est disqualifié pendant un intervalle par le juge-arbitre, l'arbitre ne doit pas attendre la fin de l'intervalle, mais annoncer immédiatement « … [Nom], disqualifié(s) pour mauvaise conduite » avec l'explication, puis « Match remporté par … ».
+
+Q ari-105 | D: 2 | R: REGLES Instr. 5.17.5.2
+Après avoir annoncé, carton noir levé, la disqualification d'un joueur décidée par le juge-arbitre, quelle annonce l'arbitre doit-il encore faire ?
+- « Le jeu est suspendu. »
++ « Match remporté par … [nom du (des) joueur(s)], … [scores]. »
+- « Match arrêté par le juge-arbitre. »
+- Aucune : le juge-arbitre annonce le résultat
+> Instruction 5.17.5.2 et annexe 4, 6.7 : l'arbitre doit également annoncer « Match remporté par … [Nom du (des) joueur(s), ou pays/équipe], … [Scores] ».
+
+Q ari-106 | D: 2 | R: REGLES Instr. 5.17.2 | P: apres
+Après avoir donné un avertissement pour mauvaise conduite, quelles sont les obligations de l'arbitre envers le juge-arbitre ?
+- Aucune : seules les fautes et disqualifications sont rapportées
++ Enregistrer l'incident et en informer le juge-arbitre, ainsi que des mesures prises
+- Rédiger un rapport à la commission disciplinaire
+- Faire contresigner la feuille par le joueur averti
+> Instruction 5.17.2 : l'arbitre enregistre et informe le juge-arbitre de tout incident lié à une mauvaise conduite ainsi que des mesures prises (voir aussi règle 17.6.7).
+
+# ---------------------------------------------------------------- Match arrêté par le juge-arbitre (instruction 5.16)
+
+Q ari-107 | D: 3 | R: REGLES Instr. 5.16.1 | L: JALC JAFA JAFC
+Pendant un match de qualification, le juge-arbitre informe l'arbitre que les deux joueurs doivent être promus au tableau principal. Quelle annonce fait l'arbitre ?
+- « Le jeu est suspendu. »
++ « Match arrêté par le juge-arbitre – … [noms] promu(s) au tableau principal », puis « … [noms] accède(nt) au tableau principal »
+- « Match remporté par … [nom du joueur qui mène], … [scores] »
+- « Let », puis les joueurs quittent le terrain
+> Instruction 5.16.1 et annexe 4, 6.8 : « Match arrêté par le juge-arbitre – … [nom du (des) joueur(s)] promu(s) au tableau principal » ; et « … [nom du (des) joueur(s)] accède(nt) au tour suivant/tableau principal (selon le cas) ».
+
+# ---------------------------------------------------------------- Annonces de ligne et SRI
+
+Q ari-108 | D: 2 | R: REGLES Annexe 4 3.4.3
+L'arbitre corrige l'annonce « Out » d'un juge de ligne en annonçant « Correction, IN ». Le joueur pénalisé lui demande pourquoi. Quelle formule de l'annexe 4 l'arbitre utilise-t-il ?
++ « J'ai clairement vu le volant dans le terrain. »
+- « Le juge de ligne a fait une annonce correcte. »
+- « Le volant ne vous a pas distrait ou gêné. »
+- « Non jugé. »
+> Instruction 5.8.2 et annexe 4, 3.4.3 : « J'ai clairement vu le volant dans le terrain. » ; en cas de « Correction, OUT » : « J'ai clairement vu le volant en dehors du terrain » (3.4.4).
+
+Q ari-109 | D: 3 | R: REGLES Instr. 5.8.7 | L: JAFA JAFC
+Sur un terrain avec SRI, un joueur challenge l'annonce « Out » d'un juge de ligne et le SRI indique « IN ». Le set n'est pas terminé. Quelle est l'annonce de l'arbitre ?
+- « Challenge perdu ; un challenge restant ; … [score] ; jouez. »
++ « Correction, IN », puis le score ou « Service perdu » et le score, puis « Jouez »
+- « Let ; … [score] ; jouez. »
+- « IN ; challenge réussi ; jouez. »
+> Instruction 5.8.7 : si le challenge est réussi, l'arbitre annonce « Correction, IN » ou « Correction, OUT », le score ou « Service perdu », le cas échéant, suivi du score et « Jouez ».
+
+Q ari-110 | D: 3 | R: REGLES Instr. 5.8.8 | L: JAFA JAFC
+Un joueur qui disposait de deux challenges en perd un : le SRI confirme l'annonce du juge de ligne. Quelle est l'annonce de l'arbitre (set non terminé) ?
+- « Correction, OUT ; … [score] ; jouez. »
++ « Challenge perdu ; un challenge restant », le score ou « Service perdu » et le score, puis « Jouez »
+- « Challenge perdu ; aucun challenge restant ; jouez. »
+- « Let ; un challenge restant ; jouez. »
+> Instruction 5.8.8 : si le challenge est perdu, l'arbitre annonce « Challenge perdu », « [un ou aucun, selon le cas] challenge restant », le score ou « Service perdu » suivi du score, le cas échéant, puis « Jouez ».
+
+Q ari-111 | D: 3 | R: REGLES Instr. 5.8.8.1 | L: JAFA JAFC
+Sur un point de set, un joueur challenge l'annonce « IN » qui donne le set à son adversaire ; le challenge est perdu. Quelle est l'annonce de l'arbitre ?
++ « Challenge perdu », puis « Set » suivi de l'annonce de fin de set ou de match appropriée
+- « Challenge perdu ; aucun challenge restant ; jouez. »
+- « Set », sans mentionner le challenge
+- « Correction, IN ; set. »
+> Instruction 5.8.8.1 : si un challenge est perdu et met fin au set, l'arbitre annonce « Challenge perdu », « Set », suivi de l'annonce appropriée des instructions 5.6.2, 5.6.3 ou 5.6.5. (Si le challenge est réussi et met fin au set : « Correction IN/OUT », « Set », etc., instruction 5.8.7.1.)
+
+Q ari-112 | D: 3 | R: REGLES Instr. 5.8.3.3.3 | L: JAFA JAFC
+Sans juge de ligne, l'arbitre n'a pas pu voir l'impact du dernier volant d'un set ; il annonce « Non jugé ». Le SRI indique « OUT », ce qui met fin au set. Quelle est l'annonce ?
+- « Let ; … [score] ; jouez. »
++ « OUT », puis « Set » suivi de l'annonce de fin de set appropriée
+- « Correction, OUT ; challenge réussi. »
+- « Set » directement, sans annoncer la décision du SRI
+> Instruction 5.8.3.3.3 : s'il n'y a pas de juge de ligne ou que le juge de ligne n'a pas pu décider et que la décision du SRI met fin au set, l'arbitre annonce « IN » ou « OUT », selon le cas, puis « Set » suivi de l'annonce appropriée (5.6.2, 5.6.3 ou 5.6.5).
+
+Q ari-113 | D: 3 | R: REGLES Instr. 5.8.10 | L: JAFA JAFC
+Lors d'un challenge, l'image du SRI montre le volant dehors alors que le texte affiché indique « IN ». Que fait l'arbitre ?
+- Il retient le texte affiché
+- Il retient l'image
+- Il fait jouer un let
++ Il appelle le juge-arbitre avant le début de l'échange suivant ; le juge-arbitre lui indique comment procéder
+> Instruction 5.8.10 : si le SRI indique une décision incohérente (par exemple texte et représentation graphique qui ne correspondent pas) ou manifestement incorrecte, l'arbitre appelle le juge-arbitre avant le début de l'échange suivant ; le juge-arbitre indique comment procéder.
+
+Q ari-114 | D: 2 | R: REGLES Instr. 5.8.6 | L: JAFA JAFC
+Quels résultats le système de révision instantanée peut-il indiquer à l'arbitre à l'issue d'un challenge ? (plusieurs réponses)
++ « IN »
++ « OUT »
++ « PAS DE DÉCISION »
+- « LET »
+> Instruction 5.8.6 : le SRI examine la décision initiale et indique à l'arbitre le résultat du challenge par « IN », « OUT » ou « PAS DE DÉCISION ».
+
+Q ari-115 | D: 3 | R: REGLES Instr. 5.8.4 | L: JAFA JAFC
+Avec le SRI en service, un juge de ligne modifie son annonce initiale. Que doit faire l'arbitre ?
+- Rien : seule la nouvelle annonce compte et aucun challenge n'est possible
++ Informer les joueurs et autoriser un challenge immédiatement après, par exemple : « L'annonce est IN, souhaitez-vous challenger ? »
+- Annoncer « Let » systématiquement
+- Appeler le juge-arbitre avant toute décision
+> Instruction 5.8.4 : si un juge de ligne modifie son annonce initiale ou si l'arbitre change la décision du juge de ligne, l'arbitre doit en informer les joueurs et autoriser un challenge immédiatement après. Annexe 4, 3.4.9 et 3.4.10 : « L'annonce est IN (OUT), souhaitez-vous challenger ? ».
+
+Q ari-116 | D: 2 | R: REGLES Annexe 4 3.4.12 | L: JAFA JAFC
+Un joueur qui a déjà épuisé ses challenges lève la main pour en demander un. Que lui dit l'arbitre ?
+- « Challenge perdu. »
++ « Il ne vous reste plus de challenge dans ce set. »
+- « Vous n'avez pas challengé immédiatement. »
+- « Le SRI ne fonctionne pas, aucun challenge ne peut être demandé. »
+> Instruction 5.8.4 : l'arbitre doit s'assurer que le joueur dispose encore d'un challenge. Annexe 4, 3.4.12 : « Il ne vous reste plus de challenge dans ce set. »
+
+Q ari-117 | D: 3 | R: REGLES Annexe 4 3.4.23 | L: JAFA JAFC
+Le SRI dysfonctionne pendant l'examen d'un challenge. Que prévoit la terminologie de l'annexe 4 quant au challenge du joueur ? (plusieurs réponses)
++ « Aucun challenge n'est perdu »
++ Selon le cas, l'annonce originelle reste valable ou un let est joué
+- Le joueur perd son challenge
+- Le joueur obtient un challenge supplémentaire
+> Annexe 4, 3.4.23 et 3.4.24 : « Le SRI a dysfonctionné. L'annonce originelle reste valable. Aucun challenge n'est perdu. » ou « Le SRI a dysfonctionné. Jouez un let. Aucun challenge n'est perdu. »
+
+Q ari-118 | D: 3 | R: REGLES Instr. 7.7 | L: JAFA JAFC
+Avec le SRI en service, le juge de service constate que l'arbitre a mal administré un challenge (il a oublié de retirer un challenge perdu). Que doit-il faire ?
+- Le noter pour le rapport de fin de match
++ L'aider à corriger avant le début de l'échange suivant, en se levant et traversant le terrain si nécessaire
+- Appeler lui-même le juge-arbitre
+- Rien, le SRI relève du seul arbitre
+> Instruction 7.7 : lorsqu'un SRI est en service, le juge de service vérifie que tout challenge est administré correctement par l'arbitre et l'aide si tel n'est pas le cas, avant le début de l'échange suivant ; si nécessaire, il se lève et traverse le terrain jusqu'à l'arbitre.
+
+# ---------------------------------------------------------------- Juge de service en fin de match, juges de ligne
+
+Q ari-119 | D: 2 | R: REGLES Instr. 7.9 | P: apres
+À la fin du match, que fait le juge de service ? (plusieurs réponses)
++ Immédiatement après l'annonce « Set », il se lève pour serrer la main des joueurs
++ Une fois le résultat du match annoncé, il traverse le terrain jusqu'à la chaise de l'arbitre pour guider les joueurs et rejoindre l'arbitre en quittant le terrain
+- Il annonce lui-même le résultat du match
+- Il reste assis jusqu'au départ des joueurs
+> Instruction 7.9 : immédiatement après l'annonce « Set » de l'arbitre, le juge de service se lève pour serrer la main des joueurs ; une fois le résultat annoncé, il traverse le terrain jusqu'à la chaise de l'arbitre pour guider les joueurs et rejoindre l'arbitre en quittant le terrain.
+
+Q ari-120 | D: 1 | R: REGLES Instr. 5.4.11 | T: jdl
+Au début de l'intervalle en cours de set, en l'absence de préposés au terrain, à qui l'arbitre demande-t-il d'essuyer le terrain ?
+- Aux joueurs
++ Aux juges de ligne
+- Au juge de service
+- Aux conseillers
+> Instruction 5.4.11 : au début de chaque intervalle (règle 16.2.1), l'arbitre demande aux préposés au terrain ou aux juges de ligne d'essuyer le terrain ; il en va de même à la fin de chaque set (5.6.4). Formule : « Essuyez le terrain, s'il vous plaît » (annexe 4, 3.8.1).
+
+Q ari-121 | D: 1 | R: REGLES Instr. 8.3 | T: jdl
+Le volant tombe dehors près de sa ligne ; le juge de ligne fait le geste mais murmure « Out » à peine audible. Que prévoit l'instruction 8.3 ?
+- Le geste suffit, l'annonce vocale est facultative
++ L'annonce « Out » doit être claire, immédiate et assez forte pour être entendue par les joueurs et par les spectateurs
+- L'annonce doit être adressée à l'arbitre seul, à voix basse
+- Le juge de ligne attend que l'arbitre lui demande sa décision pour parler
+> Instruction 8.3 : si le volant atterrit en dehors des limites du terrain, le juge de ligne annonce clairement et immédiatement « Out », d'une voix assez forte pour être entendue par les joueurs et par les spectateurs, et signale en même temps en déployant les deux bras à l'horizontale tout en regardant l'arbitre.

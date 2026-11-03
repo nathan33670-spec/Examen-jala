@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page introuvable</title>
+<script>
+  // Les anciennes adresses en …/docs/… renvoient vers l'application, à la racine du site.
+  const i = location.pathname.indexOf('/docs/');
+  if (i >= 0) location.replace(location.pathname.slice(0, i + 1) + location.hash);
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+<h1>Page introuvable</h1>
+<p><a href="./">Retour à Prépa JA</a></p>
+</body>
+</html>

@@ -40,18 +40,21 @@ async function answer(good = true) {
   await page.locator('.feedback').waitFor();
 }
 
-await step('premier lancement : grade et objectif quotidien', async () => {
+await step('premier lancement : parcours et objectif quotidien', async () => {
   await page.goto(base);
   await page.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
   await page.reload();
-  await page.getByText('Quel grade préparez-vous ?').waitFor();
-  await page.locator('[data-onboard="JALC"]').click();
+  await page.getByText('Que préparez-vous ?').waitFor();
+  await page.locator('[data-onboard="ALA"]').click();
+  await page.locator('[data-onboard="JALA"]').click();
   await page.locator('[data-goal="10"]').click();
+  await page.locator('#ligue').selectOption('NAQ');
   await page.locator('#go').click();
   await page.locator('.player-card').waitFor();
   await page.locator('.readiness').waitFor();
-  if ((await page.textContent('#levelPill')).trim() !== 'JALC') throw new Error('grade non mémorisé');
+  if ((await page.textContent('#levelPill')).trim() !== 'Juge-arbitre') throw new Error('parcours non mémorisé');
   if ((await store()).settings.dailyGoal !== 10) throw new Error('objectif non mémorisé');
+  if ((await store()).settings.ligue !== 'NAQ') throw new Error('ligue non mémorisée');
 });
 
 await step('série intelligente : réponse, XP, badge, bilan', async () => {
@@ -93,6 +96,42 @@ await step('revoir mes erreurs', async () => {
   await answer(true);
   await page.locator('[data-act="quit"]').click();
   await page.locator('.end-card').waitFor();
+});
+
+await step('catégories avant / pendant / après / RGC', async () => {
+  await go('#/entrainement');
+  for (const c of ['avant', 'pendant', 'apres', 'rgc']) {
+    await page.locator(`[data-cat="${c}"]`).click();
+    await page.locator(`[data-cat="${c}"][aria-pressed="true"]`).waitFor();
+  }
+  await page.locator('[data-cat="apres"]').click();
+  await page.locator('.hero-card [data-start="smart"]').click();
+  const s = await play();
+  const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
+  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.phase !== 'apres');
+  if (bad.length) throw new Error(`questions hors catégorie « après » : ${bad.map((q) => q.id).join(', ')}`);
+  await page.locator('[data-act="quit"]').click();
+  await go('#/entrainement');
+  await page.locator('[data-cat=""]').click();
+});
+
+await step('mode apprentissage : réponse et article affichés', async () => {
+  await go('#/entrainement');
+  const before = Object.keys((await store()).q).length;
+  await page.locator('.hero-card [data-start="learn"]').click();
+  await page.locator('.feedback.info').waitFor();
+  if (!(await page.locator('.qcard .choice.correct').count())) throw new Error('bonne réponse non affichée');
+  await page.locator('.ref a').first().waitFor();
+  let excerpts = 0;
+  for (let i = 0; i < 9; i += 1) {
+    excerpts += await page.locator('.article-excerpt').count();
+    await page.locator('[data-act="next"]').click();
+    await page.waitForTimeout(150);
+  }
+  if (!excerpts) throw new Error('aucun extrait d’article affiché');
+  await page.locator('[data-act="next"]').click();
+  await page.waitForURL(/#\/entrainement$/);
+  if (Object.keys((await store()).q).length !== before) throw new Error('le mode apprentissage ne doit pas noter les réponses');
 });
 
 await step('mode oral', async () => {
@@ -228,6 +267,25 @@ await step('auto-évaluation et check-lists', async () => {
   await page.locator('.seg button').nth(2).click();
   await go('#/checklists');
   await page.locator('.checklist input').first().check();
+});
+
+await step('parcours arbitre : questions et examen dédiés', async () => {
+  await go('#/');
+  await page.locator('.track-switch [data-track="ALA"]').click();
+  await page.waitForTimeout(300);
+  if ((await page.textContent('#levelPill')).trim() !== 'Arbitre') throw new Error('parcours arbitre non activé');
+  await go('#/entrainement');
+  if (await page.locator('[data-cat]').count()) throw new Error('catégories JA affichées pour l’arbitre');
+  await page.locator('.hero-card [data-start="smart"]').click();
+  const s = await play();
+  const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
+  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => !q.levels.includes('ALA'));
+  if (bad.length) throw new Error(`questions hors parcours arbitre : ${bad.map((q) => q.id).join(', ')}`);
+  await page.locator('[data-act="quit"]').click();
+  await go('#/examen');
+  await page.getByText('Arbitre de ligue accrédité (ALA)').first().waitFor();
+  await go('#/');
+  await page.locator('.track-switch [data-track="JALA"]').click();
 });
 
 await step('règlements : liste, lecture et article ciblé', async () => {

@@ -1,12 +1,12 @@
 // Entraînement ludique : série intelligente, défi du jour, match en 3×15, contre-la-montre,
 // mort subite, mode oral, erreurs et favoris. Une seule mécanique de question pour tous les modes.
 import { esc, toast, fmtDuration, shuffle } from './ui.js';
-import { state, save, qStat, recordAnswer, toggleFavorite, LEVELS } from './store.js';
+import { state, save, qStat, recordAnswer, toggleFavorite, LEVELS, LEVEL_SHORT, LIGUES, forMyLigue } from './store.js';
 import { getQuestions } from './data.js';
 import { navigate } from './router.js';
 import { planSession, dailyPick, summarize, setState } from './engine.js';
 import { dayKey, levelInfo, setRecord, stars } from './game.js';
-import { makeItem, isCorrect, refLink, choiceList, themeName, diffDots } from './qcommon.js';
+import { articleExcerpt, questionHtml, makeItem, isCorrect, refLink, choiceList, themeName, diffDots } from './qcommon.js';
 import { rewardAnswer, rewardActivity, flush } from './reward.js';
 import { confetti } from './fx.js';
 import { generateScoreQuiz } from './gen.js';
@@ -24,7 +24,8 @@ export const MODES = {
   chrono: { icon: '⏱️', name: 'Contre-la-montre', tag: `${CHRONO_SEC} secondes, une erreur coûte ${CHRONO_PENALTY} s` },
   survival: { icon: '❤️', name: 'Mort subite', tag: `${LIVES} vies : jusqu’où irez-vous ?` },
   score: { icon: '🧮', name: 'Score & service', tag: 'Questions générées à l’infini sur le 3×15' },
-  oral: { icon: '🎤', name: 'Mode oral', tag: 'Répondez à voix haute, puis vérifiez (oral JALC)' },
+  learn: { icon: '📖', name: 'Apprentissage', tag: 'Réponse et article du règlement affichés tout de suite' },
+  oral: { icon: '🎤', name: 'Mode oral', tag: 'Répondez à voix haute, puis vérifiez' },
   retry: { icon: '🔁', name: 'Mes erreurs', tag: 'Retravailler les questions ratées' },
   fav: { icon: '⭐', name: 'Favoris', tag: 'Les questions que vous avez marquées' },
 };
@@ -50,12 +51,21 @@ export const activePlay = () => (session && !session.finished ? session : null);
 const isError = (s) => s.n > 0 && (s.last === 0 || s.b <= 1);
 const pick = (list, seed) => list[seed % list.length];
 
-/** Thèmes hors programme JA : exclus des séries et des jeux sauf s'ils sont choisis explicitement. */
-export const OPTIONAL_THEMES = ['arbitrage', 'jdl'];
+/** Catégories d'entraînement du juge-arbitre, dans l'ordre d'une compétition. */
+export const CATS = {
+  avant: { icon: '📋', name: 'Avant', tag: 'BadNet, règlement particulier, échéancier, tableaux' },
+  pendant: { icon: '🏟️', name: 'Pendant', tag: 'De l’arrivée au gymnase au départ' },
+  apres: { icon: '📝', name: 'Après', tag: 'Rapport, résultats, suites' },
+  rgc: { icon: '📘', name: 'RGC', tag: 'Règlement général des compétitions' },
+  ligue: { icon: '📍', name: 'Ma ligue', tag: 'Règlements de votre ligue (interclubs régionaux…)' },
+};
 
-function levelPool(qdata, level, themes = []) {
-  return qdata.questions.filter((q) => q.levels.includes(level)
-    && (themes.length ? themes.includes(q.theme) : !OPTIONAL_THEMES.includes(q.theme)));
+const inCat = (q, cat) => !cat || (cat === 'rgc' ? q.rgc : cat === 'ligue' ? !!q.ligue : q.phase === cat);
+
+/** Questions d'un parcours (JALA ou ALA), éventuellement limitées à des thèmes ou à une catégorie. */
+export function levelPool(qdata, level, themes = [], cat = '') {
+  return qdata.questions.filter((q) => q.levels.includes(level) && forMyLigue(q)
+    && (!themes.length || themes.includes(q.theme)) && inCat(q, cat));
 }
 
 // ------------------------------------------------------------------ lancement
@@ -64,11 +74,11 @@ function levelPool(qdata, level, themes = []) {
  * Démarre une partie. mode : smart | daily | match | chrono | survival | oral | retry | fav.
  * ids : liste imposée (ex. erreurs d'un examen blanc).
  */
-export async function startPlay({ mode = 'smart', level = state.settings.level, count = 10, themes = [], ids = null, replay = false } = {}) {
+export async function startPlay({ mode = 'smart', level = state.settings.level, count = 10, themes = [], cat = '', ids = null, replay = false } = {}) {
   const qdata = await getQuestions();
   const now = Date.now();
   const seed = state.settings.seed || 'prepa';
-  const pool = levelPool(qdata, level, mode === 'daily' ? [] : themes);
+  const pool = mode === 'daily' ? levelPool(qdata, level) : levelPool(qdata, level, themes, cat);
   let list;
   if (ids) {
     const index = new Map(qdata.questions.map((q) => [q.id, q]));
@@ -81,6 +91,8 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
     list = pool.filter((q) => isError(qStat(q.id))).sort((a, b) => qStat(b.id).t - qStat(a.id).t).slice(0, count);
   } else if (mode === 'fav') {
     list = shuffle(pool.filter((q) => qStat(q.id).f)).slice(0, count);
+  } else if (mode === 'learn') {
+    list = planSession(pool, qStat, { count, now, seed, salt: `learn${now}` });
   } else if (['match', 'chrono', 'survival'].includes(mode)) {
     list = planSession(pool, qStat, { count: 60, now, seed, salt: mode });
   } else {
@@ -91,7 +103,7 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
     return false;
   }
   session = {
-    mode, level, themes, replay,
+    mode, level, themes, cat, replay,
     ids: list.map((q) => q.id), idx: 0, cur: makeItem(list[0]),
     extra: mode === 'score' ? Object.fromEntries(list.map((q) => [q.id, q])) : null,
     answers: [], good: 0, combo: 0, bestCombo: 0, xp: 0,
@@ -111,25 +123,36 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
 export async function renderPlayHub(main) {
   const qdata = await getQuestions();
   const level = state.settings.level;
-  const prefs = { themes: [], count: 10, ...(state.settings.train || {}) };
-  prefs.themes = (prefs.themes || []).filter((t) => qdata.themes[t]);
+  const ja = level === 'JALA';
+  const key = ja ? 'train' : 'trainAla';
+  const prefs = { themes: [], count: 10, cat: '', ...(state.settings[key] || {}) };
   const all = levelPool(qdata, level);
-  const pool = levelPool(qdata, level, prefs.themes);
+  const themeList = Object.keys(qdata.themes).filter((t) => all.some((q) => q.theme === t));
+  prefs.themes = (prefs.themes || []).filter((t) => themeList.includes(t));
+  if (!ja || !CATS[prefs.cat] || (prefs.cat === 'ligue' && !state.settings.ligue)) prefs.cat = '';
+  const pool = levelPool(qdata, level, prefs.themes, prefs.cat);
   const now = Date.now();
   const sum = summarize(pool, qStat, now);
-  const allSum = prefs.themes.length ? summarize(all, qStat, now) : sum;
+  const allSum = prefs.themes.length || prefs.cat ? summarize(all, qStat, now) : sum;
   const favs = all.filter((q) => qStat(q.id).f).length;
   const daily = state.game.daily[`${dayKey()}|${level}`];
   const rec = (k) => state.game.records[`${k}|${level}`] || 0;
   const live = activePlay();
   const themeLabel = prefs.themes.length ? prefs.themes.map((t) => qdata.themes[t]).join(', ') : 'tous les thèmes';
+  const catCount = (c) => levelPool(qdata, level, prefs.themes, c).length;
+  const save2 = () => { state.settings[key] = prefs; save(); };
   main.innerHTML = `
-    <div class="row between" style="margin-bottom:12px"><h1 style="margin:0">S’entraîner</h1>
-      <div class="chips" aria-label="Grade">${LEVELS.map((l) => `<button class="chip sm" aria-pressed="${l === level}" data-level="${l}">${l}</button>`).join('')}</div></div>
+    <h1 style="margin:0 0 10px">S’entraîner</h1>
+    <div class="track-switch" role="group" aria-label="Parcours">${LEVELS.map((l) => `<button data-level="${l}" aria-pressed="${l === level}"><span aria-hidden="true">${l === 'ALA' ? '🪑' : '⚖️'}</span> ${esc(LEVEL_SHORT[l])}</button>`).join('')}</div>
     ${live ? `<div class="notice warn row between" style="margin-bottom:12px"><span>${MODES[live.mode].icon} Partie « ${esc(MODES[live.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
+    ${ja ? `<div class="cat-grid" role="group" aria-label="Catégorie">
+      <button class="cat-card" data-cat="" aria-pressed="${!prefs.cat}"><span aria-hidden="true">🎯</span><strong>Tout</strong><span class="small">${catCount('')} questions</span></button>
+      ${Object.entries(CATS).filter(([c]) => c !== 'ligue' || catCount('ligue')).map(([c, m]) => `<button class="cat-card" data-cat="${c}" aria-pressed="${prefs.cat === c}"><span aria-hidden="true">${m.icon}</span><strong>${esc(m.name)}</strong><span class="small">${esc(m.tag)} · ${catCount(c)}</span></button>`).join('')}
+    </div>
+    <p class="small muted" style="margin:-4px 0 12px">📍 Ligue : <strong>${esc(LIGUES[state.settings.ligue] || 'non renseignée')}</strong>${catCount('ligue') ? ` · ${catCount('ligue')} question(s) propres à votre ligue` : state.settings.ligue ? ' · pas encore de questions propres à cette ligue' : ''} · <a href="#/reglages">modifier</a></p>` : '<p class="small muted" style="margin-top:0">Règles du jeu, instructions aux officiels techniques, annonces de l’arbitre, juge de service et juge de ligne.</p>'}
     <section class="hero-card">
-      <div class="hero-top"><span class="hero-emoji" aria-hidden="true">🎯</span>
-        <div><h2>Série intelligente</h2><p class="small">Vous découvrez toute la banque sans revoir les mêmes questions, et vos erreurs reviennent au bon moment.</p></div></div>
+      <div class="hero-top"><span class="hero-emoji" aria-hidden="true">${prefs.cat ? CATS[prefs.cat].icon : '🎯'}</span>
+        <div><h2>Série intelligente${prefs.cat ? ` · ${esc(CATS[prefs.cat].name)}` : ''}</h2><p class="small">Vous découvrez toute la banque sans revoir les mêmes questions, et vos erreurs reviennent au bon moment.</p></div></div>
       <div class="deck-stats">
         <span><b>${sum.new}</b>nouvelles</span><span><b>${sum.review + sum.cooldown}</b>à revoir</span><span><b>${sum.mastered}</b>acquises</span><span><b>${sum.total}</b>au total</span>
       </div>
@@ -138,13 +161,17 @@ export async function renderPlayHub(main) {
         <span class="small muted">Questions par série :</span>
         <div class="chips" role="group" aria-label="Nombre de questions par série">${[10, 20, 40].map((n) => `<button class="chip sm" aria-pressed="${prefs.count === n}" data-count="${n}">${n}</button>`).join('')}</div>
       </div>
-      <button class="btn block big" data-start="smart">C’est parti !</button>
+      <div class="btn-row" style="margin-top:12px">
+        <button class="btn big" style="flex:1" data-start="smart">C’est parti !</button>
+        <button class="btn big secondary" style="flex:1" data-start="learn">📖 Apprendre</button>
+      </div>
+      <p class="small muted" style="margin:6px 0 0">« Apprendre » affiche directement la bonne réponse et l’article du règlement.</p>
       <details class="themes-pick"><summary class="small">Thèmes : <strong>${esc(themeLabel)}</strong> (modifier)</summary>
-        <div class="chips" style="margin-top:8px">${Object.entries(qdata.themes).map(([t, name]) => {
-          const n = qdata.questions.filter((q) => q.theme === t && q.levels.includes(level)).length;
-          return n ? `<button class="chip sm" aria-pressed="${prefs.themes.includes(t)}" data-theme="${t}">${esc(name)} <span class="muted">${n}</span></button>` : '';
+        <div class="chips" style="margin-top:8px">${themeList.map((t) => {
+          const n = levelPool(qdata, level, [t], prefs.cat).length;
+          return n ? `<button class="chip sm" aria-pressed="${prefs.themes.includes(t)}" data-theme="${t}">${esc(qdata.themes[t])} <span class="muted">${n}</span></button>` : '';
         }).join('')}</div>
-        <p class="small muted">Les thèmes choisis s’appliquent aussi au mode oral et aux jeux.</p>
+        <p class="small muted">La catégorie et les thèmes choisis s’appliquent aussi aux modes apprentissage et oral, et aux jeux.</p>
       </details>
     </section>
 
@@ -161,11 +188,12 @@ export async function renderPlayHub(main) {
       ${modeCard('chrono', rec('chrono') ? `Record : ${rec('chrono')}` : 'Pas encore de record')}
       ${modeCard('survival', rec('survival') ? `Record : ${rec('survival')}` : 'Pas encore de record')}
       ${modeCard('score', 'Variantes illimitées')}
-      <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(level)}</strong><span class="small">Conditions réelles, chronométré</span><span class="mode-rec">${state.exams.filter((e) => e.level === level && e.passed).length} réussi(s)</span></a>
+      <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(LEVEL_SHORT[level])}</strong><span class="small">Conditions réelles, chronométré</span><span class="mode-rec">${state.exams.filter((e) => e.level === level && e.passed).length} réussi(s)</span></a>
     </div>
 
     <h2>Réviser autrement</h2>
     <div class="grid two">
+      ${tile('learn', 'Bonne réponse et article affichés tout de suite')}
       ${tile('retry', allSum.errors ? `${allSum.errors} question(s) à retravailler` : 'Aucune erreur en attente', !allSum.errors)}
       ${tile('oral', 'Flashcards : réponse libre puis auto-évaluation')}
       ${tile('fav', favs ? `${favs} question(s) marquée(s)` : 'Touchez ☆ pendant une question', !favs)}
@@ -181,22 +209,26 @@ export async function renderPlayHub(main) {
       renderPlayHub(main);
       return;
     }
+    if (b.dataset.cat !== undefined) {
+      prefs.cat = b.dataset.cat; save2();
+      renderPlayHub(main);
+      return;
+    }
     if (b.dataset.count) {
-      prefs.count = Number(b.dataset.count);
-      state.settings.train = prefs; save();
+      prefs.count = Number(b.dataset.count); save2();
       main.querySelectorAll('[data-count]').forEach((x) => x.setAttribute('aria-pressed', x === b));
       return;
     }
     if (b.dataset.theme) {
       const t = b.dataset.theme;
       prefs.themes = prefs.themes.includes(t) ? prefs.themes.filter((x) => x !== t) : [...prefs.themes, t];
-      state.settings.train = prefs; save();
+      save2();
       renderPlayHub(main).then(() => { const d = main.querySelector('.themes-pick'); if (d) d.open = true; });
       return;
     }
     if (b.dataset.start) {
       const mode = b.dataset.start;
-      startPlay({ mode, level, count: mode === 'smart' || mode === 'oral' ? prefs.count : 20, themes: prefs.themes, replay: mode === 'daily' && !!daily });
+      startPlay({ mode, level, count: ['smart', 'oral', 'learn'].includes(mode) ? prefs.count : 20, themes: prefs.themes, cat: prefs.cat, replay: mode === 'daily' && !!daily });
     }
   };
 }
@@ -233,7 +265,9 @@ export async function renderPlaySession(main) {
   const item = session.cur;
   const mode = session.mode;
   const oral = mode === 'oral';
-  const ok = item.revealed ? isCorrect(q, item.selected) : null;
+  const learn = mode === 'learn';
+  if (learn && !item.revealed) { item.revealed = true; item.selected = [...q.answer]; persist(); }
+  const ok = item.revealed && !learn ? isCorrect(q, item.selected) : null;
   const fav = qStat(q.id).f;
   const fresh = item.fresh;
   item.fresh = false;
@@ -248,7 +282,12 @@ export async function renderPlaySession(main) {
   }
 
   let feedback = '';
-  if (item.revealed && !oral) {
+  if (learn) {
+    feedback = `<div class="feedback info">
+      <div class="fb-head"><span class="fb-icon" aria-hidden="true">📖</span><strong>${q.answer.length > 1 ? 'Bonnes réponses' : 'Bonne réponse'}</strong></div>
+      <p>${esc(q.explain)}</p>${await refLink(q.ref)}${await articleExcerpt(q.ref)}
+    </div>`;
+  } else if (item.revealed && !oral) {
     const seed = session.answers.length;
     const title = ok ? (session.combo >= 5 ? `Série de ${session.combo} ! 🔥` : pick(PRAISE, seed)) : item.timeout ? 'Temps écoulé !' : pick(OOPS, seed);
     feedback = `<div class="feedback ${ok ? 'ok' : 'ko'} ${fresh ? 'anim' : ''}">
@@ -261,7 +300,9 @@ export async function renderPlaySession(main) {
   const n = session.ids.length;
   const last = session.idx + 1 >= n;
   let actions;
-  if (oral) {
+  if (learn) {
+    actions = `<button class="btn block primary-act" data-act="next">${last ? 'Terminer' : 'Question suivante'}</button>`;
+  } else if (oral) {
     actions = item.revealed
       ? '<button class="btn danger" data-act="oral-ko">Je ne savais pas</button><button class="btn ok primary-act" data-act="oral-ok">Je savais</button>'
       : '<button class="btn block primary-act" data-act="reveal">Afficher la réponse</button>';
@@ -276,11 +317,11 @@ export async function renderPlaySession(main) {
   main.innerHTML = `
     ${hud(n)}
     ${session.notice ? `<div class="notice small play-notice">${esc(session.notice)}</div>` : ''}
-    <article class="qcard ${item.revealed && !oral ? (ok ? 'is-ok' : 'is-ko') : ''} ${fresh && item.revealed && !ok && !oral ? 'shake' : ''}">
-      <div class="qmeta"><span class="badge info">${esc(themeName(qdata, q.theme))}</span>${diffDots(q.difficulty)}
+    <article class="qcard ${item.revealed && !oral && !learn ? (ok ? 'is-ok' : 'is-ko') : ''} ${fresh && item.revealed && !ok && !oral && !learn ? 'shake' : ''}">
+      <div class="qmeta"><span class="badge info">${esc(themeName(qdata, q.theme))}</span>${q.ligue ? `<span class="badge">📍 ${esc(LIGUES[q.ligue] || q.ligue)}</span>` : ''}${diffDots(q.difficulty)}
         ${q.generated ? '<span class="badge">générée</span>' : `<button class="fav-btn" data-act="fav" aria-pressed="${!!fav}" aria-label="${fav ? 'Retirer des favoris' : 'Ajouter aux favoris'}">${fav ? '★' : '☆'}</button>`}</div>
-      <p class="question">${esc(q.q)}</p>
-      ${q.type === 'multiple' && !oral ? '<p class="small multi-hint">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
+      ${questionHtml(q)}
+      ${q.type === 'multiple' && !oral && !learn ? '<p class="small multi-hint">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
       ${body}
     </article>
     ${feedback}
@@ -290,7 +331,7 @@ export async function renderPlaySession(main) {
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;
-    if (b.dataset.choice != null && !item.revealed) {
+    if (b.dataset.choice != null && !item.revealed && !learn) {
       const ci = Number(b.dataset.choice);
       if (q.type === 'multiple') {
         item.selected = item.selected.includes(ci) ? item.selected.filter((x) => x !== ci) : [...item.selected, ci];
@@ -317,11 +358,11 @@ export async function renderPlaySession(main) {
     }
   };
   startTicker(main, q);
-  if (fresh && item.revealed && mode !== 'chrono') main.querySelector('.feedback')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  if (fresh && item.revealed && mode !== 'chrono' && !learn) main.querySelector('.feedback')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   if (item.revealed && mode === 'chrono') autoNext = setTimeout(() => { if (onSession()) next(main); }, ok ? 650 : 1400);
 }
 
-const finiteMode = () => ['smart', 'daily', 'oral', 'retry', 'fav', 'score'].includes(session.mode);
+const finiteMode = () => ['smart', 'daily', 'oral', 'learn', 'retry', 'fav', 'score'].includes(session.mode);
 const onSession = () => location.hash.startsWith('#/entrainement/session') && session && !session.finished;
 
 function endReached() {
@@ -397,12 +438,18 @@ async function next(main) {
   clearTimeout(autoNext);
   if (!session || session.finished) return;
   if (endReached()) { await finish(main); return; }
+  if (session.mode === 'learn' && session.idx + 1 >= session.ids.length) {
+    session = null; persist();
+    toast('Série d’apprentissage terminée : passez en série intelligente pour vous tester !');
+    navigate('#/entrainement', true);
+    return;
+  }
   session.idx += 1;
   if (session.idx >= session.ids.length) {
     if (finiteMode()) { await finish(main); return; }
     const qdata = await getQuestions();
     const done = new Set(session.ids);
-    const more = planSession(levelPool(qdata, session.level, session.themes).filter((q) => !done.has(q.id)), qStat,
+    const more = planSession(levelPool(qdata, session.level, session.themes, session.cat).filter((q) => !done.has(q.id)), qStat,
       { count: 40, now: Date.now(), seed: state.settings.seed || 'prepa', salt: `${session.mode}${session.idx}` });
     if (!more.length) { await finish(main); return; }
     session.ids.push(...more.map((q) => q.id));
@@ -547,7 +594,7 @@ async function renderEnd(main) {
     const q = index.get(a.id);
     if (!q) continue;
     reviews.push(`<details class="card flat review"><summary>${esc(q.q.slice(0, 140))}${q.q.length > 140 ? '…' : ''}</summary>
-      <p class="question">${esc(q.q)}</p>
+      ${questionHtml(q)}
       ${choiceList(q, { order: q.choices.map((_, k) => k), selected: a.sel }, { locked: true, showResult: true })}
       <div class="feedback ko"><p>${esc(q.explain)}</p>${await refLink(q.ref)}</div></details>`);
   }
@@ -575,11 +622,11 @@ async function renderEnd(main) {
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;
-    const { mode, level, themes } = s;
+    const { mode, level, themes, cat } = s;
     const ids = wrong.map((a) => a.id);
     if (b.dataset.act === 'again') {
       session = null; persist();
-      startPlay({ mode: ['daily', 'retry', 'fav'].includes(mode) ? 'smart' : mode, level, themes, count: state.settings.train?.count || 10 });
+      startPlay({ mode: ['daily', 'retry', 'fav'].includes(mode) ? 'smart' : mode, level, themes, cat, count: state.settings[level === 'JALA' ? 'train' : 'trainAla']?.count || 10 });
     } else if (b.dataset.act === 'retry') {
       session = null; persist();
       startPlay({ mode: 'retry', level, ids });

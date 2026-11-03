@@ -1,11 +1,11 @@
 // Point d'entrée : routes, accueil (progression ludique et jauge de préparation), progression et réglages.
 import { esc, fmtDate, pct, toast, icons } from './ui.js';
-import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, exportData, importData, resetAll } from './store.js';
+import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, LEVEL_SHORT, LIGUES, exportData, importData, resetAll } from './store.js';
 import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog } from './data.js';
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
-import { readiness, ring, bar, WEIGHTS } from './gauge.js';
+import { readiness, ring, bar } from './gauge.js';
 import { renderExamSetup, renderExamSession, renderExamResult, activeExam } from './quiz.js';
-import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, OPTIONAL_THEMES } from './play.js';
+import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, levelPool } from './play.js';
 import { renderDocsHome, renderDoc, renderFiches, renderFiche, renderGlossary, renderUpdates, renderSearch, renderQuestion } from './docs.js';
 import { renderPracticeHome, renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
 import { initOffline, renderOffline, isStandalone } from './offline.js';
@@ -23,7 +23,7 @@ function applyTheme() {
 }
 
 function updateLevelPill() {
-  document.getElementById('levelPill').textContent = state.settings.level;
+  document.getElementById('levelPill').textContent = LEVEL_SHORT[state.settings.level] || state.settings.level;
   const streak = currentStreak(state.game);
   const pill = document.getElementById('streakPill');
   if (pill) {
@@ -40,6 +40,23 @@ async function bundle() {
 
 const GOALS = [[10, 'Tranquille', '≈ 5 min'], [20, 'Régulier', '≈ 10 min'], [40, 'Intensif', '≈ 20 min']];
 
+function ligueSelect(current) {
+  return `<select id="ligue" class="select"><option value="">— Non renseignée —</option>${Object.entries(LIGUES)
+    .map(([k, name]) => `<option value="${k}" ${k === current ? 'selected' : ''}>${esc(name)}</option>`).join('')}</select>`;
+}
+
+// ------------------------------------------------------------------ parcours (juge-arbitre / arbitre)
+
+function trackSwitch(level) {
+  return `<div class="track-switch" role="group" aria-label="Parcours">${LEVELS.map((l) => `<button data-track="${l}" aria-pressed="${l === level}"><span aria-hidden="true">${l === 'ALA' ? '🪑' : '⚖️'}</span> ${esc(LEVEL_SHORT[l])}</button>`).join('')}</div>`;
+}
+
+function setTrack(level) {
+  state.settings.level = level; save();
+  updateLevelPill();
+  document.dispatchEvent(new CustomEvent('levelchange'));
+}
+
 // ------------------------------------------------------------------ accueil
 
 async function renderHome() {
@@ -51,7 +68,7 @@ async function renderHome() {
   const lastUpdate = updates.find((u) => u.changes?.length);
   const exam = activeExam();
   const play = activePlay();
-  const pool = b.qdata.questions.filter((q) => q.levels.includes(level) && !OPTIONAL_THEMES.includes(q.theme));
+  const pool = levelPool(b.qdata, level);
   const sum = summarize(pool, qStat, Date.now());
   const themes = Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value);
   const weakest = themes.slice(0, 2).map(([t]) => b.qdata.themes[t]).filter(Boolean);
@@ -61,7 +78,8 @@ async function renderHome() {
   const todayStats = g.days[dayKey()] || { a: 0, g: 0, xp: 0 };
   const goal = state.settings.dailyGoal || 20;
   const daily = g.daily[`${dayKey()}|${level}`];
-  const count = state.settings.train?.count || 10;
+  const tp = state.settings[level === 'JALA' ? 'train' : 'trainAla'] || {};
+  const count = tp.count || 10;
   const nextCount = Math.min(count, sum.total);
   const nNew = Math.min(sum.new, Math.max(0, nextCount - Math.min(sum.review, Math.round(nextCount * 0.4))));
   const earned = BADGES.filter((x) => g.badges[x.id]).sort((x, y) => g.badges[y.id] - g.badges[x.id]);
@@ -69,7 +87,8 @@ async function renderHome() {
   const hello = hour < 5 ? 'Bonsoir' : hour < 18 ? 'Bonjour' : 'Bonsoir';
 
   main.innerHTML = `
-    ${exam ? `<div class="notice warn row between" style="margin-bottom:12px"><span>Un examen blanc ${esc(exam.level)} est en cours.</span><a class="btn small" href="#/examen/session">Reprendre</a></div>` : ''}
+    ${trackSwitch(level)}
+    ${exam ? `<div class="notice warn row between" style="margin-bottom:12px"><span>Un examen blanc ${esc(LEVEL_SHORT[exam.level] || exam.level)} est en cours.</span><a class="btn small" href="#/examen/session">Reprendre</a></div>` : ''}
     ${play ? `<div class="notice warn row between" style="margin-bottom:12px"><span>${MODES[play.mode].icon} Partie « ${esc(MODES[play.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
     <section class="player-card">
       <div class="pc-top">
@@ -105,26 +124,25 @@ async function renderHome() {
     <h2>Jouer</h2>
     <div class="modes">
       ${['match', 'chrono', 'survival'].map((m) => `<button class="mode-card m-${m}" data-mode="${m}"><span class="mode-emoji" aria-hidden="true">${MODES[m].icon}</span><strong>${esc(MODES[m].name)}</strong><span class="small">${esc(MODES[m].tag)}</span></button>`).join('')}
-      <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(level)}</strong><span class="small">Conditions réelles, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></a>
+      <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(LEVEL_SHORT[level])}</strong><span class="small">Conditions réelles, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></a>
     </div>
 
     <h2>Ma préparation</h2>
     <section class="card">
-      <div class="chips" style="margin-bottom:12px" aria-label="Grade visé">${LEVELS.map((l) => `<button class="chip sm" aria-pressed="${l === level}" data-level="${l}">${l}</button>`).join('')}</div>
       <div class="readiness">
         ${ring(r.value, { size: 150, caption: 'préparation' })}
         <div>
-          <h3 style="margin:0 0 4px">${esc(level)} · <span class="badge ${r.label.tone}">${esc(r.label.text)}</span></h3>
+          <h3 style="margin:0 0 4px">${esc(LEVEL_SHORT[level])} · <span class="badge ${r.label.tone}">${esc(r.label.text)}</span></h3>
           <p class="small muted" style="margin-top:0">${esc(LEVEL_NAMES[level])}</p>
           <div class="bars">
-            ${bar(`Connaissances (${Math.round(WEIGHTS.knowledge * 100)} %)`, r.knowledge.value)}
-            ${bar(`Examens blancs (${Math.round(WEIGHTS.exams * 100)} %)`, r.exams.count ? r.exams.value : 0)}
-            ${bar(`Pratique (${Math.round(WEIGHTS.practice * 100)} %)`, r.practice.value)}
+            ${bar(`Connaissances (${Math.round(r.weights.knowledge * 100)} %)`, r.knowledge.value)}
+            ${bar(`Examens blancs (${Math.round(r.weights.exams * 100)} %)`, r.exams.count ? r.exams.value : 0)}
+            ${r.weights.practice ? bar(`Pratique (${Math.round(r.weights.practice * 100)} %)`, r.practice.value) : ''}
           </div>
         </div>
       </div>
       <p class="small advice">💡 ${nextAdvice(r, weakest, sum.errors)}</p>
-      <p class="small muted">${sum.seen}/${sum.total} questions vues · ${sum.mastered} acquises · ${r.exams.count ? `${r.exams.count} examen(s) blanc(s)` : 'aucun examen blanc'} · ${r.practice.done}/${r.practice.total} cas pratiques</p>
+      <p class="small muted">${sum.seen}/${sum.total} questions vues · ${sum.mastered} acquises · ${r.exams.count ? `${r.exams.count} examen(s) blanc(s)` : 'aucun examen blanc'} ${r.practice.total ? ` · ${r.practice.done}/${r.practice.total} cas pratiques` : ''}</p>
       <a class="small" href="#/progression">Statistiques, badges et calcul de la jauge →</a>
     </section>
 
@@ -136,7 +154,7 @@ async function renderHome() {
 
     <h2>Pour aller plus loin</h2>
     <div class="grid two">
-      <a class="card tile" href="#/cas"><span class="ico emoji" aria-hidden="true">🧑‍⚖️</span><span><strong>Cas pratiques</strong><span class="small muted">Décisions de JA en situation réelle</span></span></a>
+      ${level === 'JALA' ? '<a class="card tile" href="#/cas"><span class="ico emoji" aria-hidden="true">🧑‍⚖️</span><span><strong>Cas pratiques</strong><span class="small muted">Décisions de JA en situation réelle</span></span></a>' : ''}
       <a class="card tile" href="#/fiches"><span class="ico emoji" aria-hidden="true">📝</span><span><strong>Fiches de synthèse</strong><span class="small muted">Nouveautés 2026-2027 : score en 3×15</span></span></a>
       ${sum.errors ? `<button class="card tile" data-act="retry" style="text-align:left;cursor:pointer"><span class="ico emoji" aria-hidden="true">🔁</span><span><strong>Revoir mes erreurs</strong><span class="small muted">${sum.errors} question(s) à retravailler</span></span></button>` : ''}
       ${isStandalone() ? '' : `<a class="card tile" href="#/hors-ligne"><span class="ico">${ic('wifi')}</span><span><strong>Installer l’application</strong><span class="small muted">Sur votre téléphone, utilisable hors ligne</span></span></a>`}
@@ -146,18 +164,17 @@ async function renderHome() {
   main.onclick = (e) => {
     const btn = e.target.closest('button');
     if (!btn) return;
-    if (btn.dataset.level) {
-      state.settings.level = btn.dataset.level; save();
-      updateLevelPill();
+    if (btn.dataset.track) {
+      setTrack(btn.dataset.track);
       renderHome();
     } else if (btn.dataset.act === 'smart') {
-      startPlay({ mode: 'smart', level, count, themes: state.settings.train?.themes || [] });
+      startPlay({ mode: 'smart', level, count, themes: tp.themes || [], cat: level === 'JALA' ? tp.cat || '' : '' });
     } else if (btn.dataset.act === 'daily') {
       startPlay({ mode: 'daily', level, replay: !!daily });
     } else if (btn.dataset.act === 'retry') {
       startPlay({ mode: 'retry', level, count: 20 });
     } else if (btn.dataset.mode) {
-      startPlay({ mode: btn.dataset.mode, level, themes: state.settings.train?.themes || [] });
+      startPlay({ mode: btn.dataset.mode, level, themes: tp.themes || [], cat: level === 'JALA' ? tp.cat || '' : '' });
     }
   };
   if (r.value >= 0.85 && r.exams.passed) refreshBadges();
@@ -174,22 +191,25 @@ function goalRing(done, goal) {
 }
 
 function renderOnboarding() {
-  const st = { level: state.settings.level || 'JALA', goal: state.settings.dailyGoal || 20 };
+  const st = { level: state.settings.level || 'JALA', goal: state.settings.dailyGoal || 20, ligue: state.settings.ligue || '' };
   const draw = () => {
     main.innerHTML = `
       <section class="onboard">
         <div class="onboard-hero"><span aria-hidden="true">🏸</span></div>
         <h1>Bienvenue sur Prépa JA !</h1>
-        <p>Préparez les examens de <strong>juge-arbitre de badminton</strong> (FFBaD) en jouant : questions corrigées, défis, matchs en 3×15, examens blancs et cas pratiques.</p>
-        <h2>1. Quel grade préparez-vous ?</h2>
-        <div class="grid two">${LEVELS.map((l) => `<button class="pick ${st.level === l ? 'on' : ''}" data-onboard="${l}" aria-pressed="${st.level === l}"><strong>${l}</strong><span class="small muted">${esc(LEVEL_NAMES[l])}</span></button>`).join('')}</div>
+        <p>Préparez les examens d’<strong>officiel technique de badminton</strong> (FFBaD) en jouant : questions corrigées, défis, matchs en 3×15, examens blancs et cas pratiques.</p>
+        <h2>1. Que préparez-vous ?</h2>
+        <div class="grid two">${LEVELS.map((l) => `<button class="pick ${st.level === l ? 'on' : ''}" data-onboard="${l}" aria-pressed="${st.level === l}"><strong>${esc(LEVEL_SHORT[l])}</strong><span class="small muted">${esc(LEVEL_NAMES[l])}</span></button>`).join('')}</div>
         <h2>2. Votre objectif quotidien</h2>
         <div class="grid three">${GOALS.map(([n, name, time]) => `<button class="pick ${st.goal === n ? 'on' : ''}" data-goal="${n}" aria-pressed="${st.goal === n}"><strong>${name}</strong><span class="small muted">${n} questions/jour · ${time}</span></button>`).join('')}</div>
+        <h2>3. Votre ligue <span class="small muted">(facultatif)</span></h2>
+        ${ligueSelect(st.ligue)}
         <button class="btn block big" id="go" style="margin-top:18px">C’est parti !</button>
         <p class="small muted center">Sans compte : votre progression reste sur cet appareil. Tout se modifie ensuite dans les réglages.</p>
       </section>`;
   };
   draw();
+  main.onchange = (e) => { if (e.target.id === 'ligue') st.ligue = e.target.value; };
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;
@@ -198,6 +218,7 @@ function renderOnboarding() {
     if (b.id === 'go') {
       state.settings.level = st.level;
       state.settings.dailyGoal = st.goal;
+      state.settings.ligue = st.ligue;
       state.settings.onboarded = true;
       save(true);
       updateLevelPill();
@@ -263,7 +284,7 @@ async function renderProgress() {
       </div>
     </section>
     <div class="kpis" style="margin-top:12px">
-      <div class="kpi"><b>${Math.round(r.value * 100)} %</b><span>préparation ${esc(level)}</span></div>
+      <div class="kpi"><b>${Math.round(r.value * 100)} %</b><span>préparation ${esc(LEVEL_SHORT[level])}</span></div>
       <div class="kpi"><b>${totalAnswers}</b><span>réponses données</span></div>
       <div class="kpi"><b>${totalAnswers ? pct(totalGood / totalAnswers) : '—'}</b><span>taux de réussite</span></div>
       <div class="kpi"><b>🔥 ${g.counters.bestCombo}</b><span>meilleure série de bonnes réponses</span></div>
@@ -275,18 +296,18 @@ async function renderProgress() {
       const at = g.badges[x.id];
       return `<div class="bdg-card ${at ? 'got' : ''}"><span class="bdg-icon" aria-hidden="true">${at ? x.icon : '🔒'}</span><strong>${esc(x.name)}</strong><span class="small muted">${esc(x.desc)}</span>${at ? `<span class="small bdg-date">${new Date(at).toLocaleDateString('fr-FR')}</span>` : ''}</div>`;
     }).join('')}</div>
-    <h2>Par thème (${esc(level)})</h2>
+    <h2>Par thème (${esc(LEVEL_SHORT[level])})</h2>
     <div class="card bars">${Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value)
       .map(([t, v]) => bar(b.qdata.themes[t] || t, v.value, v.accuracy != null ? ` <span title="taux de réussite">(${Math.round(v.accuracy * 100)}%)</span>` : '')).join('')}</div>
     <h2>Comment la jauge est calculée</h2>
     <div class="card small">
-      <p><strong>Connaissances (${Math.round(WEIGHTS.knowledge * 100)} %)</strong> — maîtrise moyenne des ${r.knowledge.total} questions du niveau, pondérée par l'importance de chaque thème à l'examen. Une question est « acquise » après plusieurs bonnes réponses espacées dans le temps ; une erreur la fait redescendre.</p>
-      <p><strong>Examens blancs (${Math.round(WEIGHTS.exams * 100)} %)</strong> — moyenne des 3 derniers examens blancs rapportée au seuil de réussite (atteindre le seuil = 100 %).</p>
-      <p><strong>Pratique (${Math.round(WEIGHTS.practice * 100)} %)</strong> — cas pratiques réussis (60 %) et auto-évaluation des critères d'examen (40 %).</p>
+      <p><strong>Connaissances (${Math.round(r.weights.knowledge * 100)} %)</strong> — maîtrise moyenne des ${r.knowledge.total} questions du parcours, pondérée par l'importance de chaque thème à l'examen. Une question est « acquise » après plusieurs bonnes réponses espacées dans le temps ; une erreur la fait redescendre.</p>
+      <p><strong>Examens blancs (${Math.round(r.weights.exams * 100)} %)</strong> — moyenne des 3 derniers examens blancs rapportée au seuil de réussite (atteindre le seuil = 100 %).</p>
+      ${r.weights.practice ? `<p><strong>Pratique (${Math.round(r.weights.practice * 100)} %)</strong> — cas pratiques réussis (60 %) et auto-évaluation des critères d'examen (40 %).</p>` : ''}
       <p>« Prêt pour l'examen » exige au moins 85 % et un examen blanc réussi récemment. L'XP et les badges motivent mais n'entrent pas dans la jauge. Calcul effectué uniquement sur cet appareil.</p>
     </div>
-    <h2>Examens blancs ${esc(level)}</h2>
-    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce grade.</p>'}
+    <h2>Examens blancs ${esc(LEVEL_SHORT[level])}</h2>
+    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce parcours.</p>'}
     <h2>Pratique</h2>
     <p>${r.practice.done}/${r.practice.total} cas pratiques réalisés · ${r.practice.rated}/${r.practice.criteria} critères auto-évalués · exercice de poule : ${state.drills.poule.ok}/${state.drills.poule.n} réussis.</p>`;
   if (location.hash.includes('voir=badges')) document.getElementById('badges')?.scrollIntoView();
@@ -298,10 +319,10 @@ async function renderConditions() {
   const exams = await getExams();
   main.innerHTML = `
     <h1>Conditions d'examen</h1>
-    <p class="muted">Synthèse du chapitre 06.02 du Guide du Badminton (filière juge-arbitrage, édition 2026/1, en vigueur au 1er septembre 2026) et de ses annexes. Les modalités précises (nombre de questions, durée) sont fixées par FormaBad et votre ligue : renseignez-vous auprès de votre CLOT.</p>
+    <p class="muted">Synthèse des chapitres 06.01 (filière arbitrage) et 06.02 (filière juge-arbitrage) du Guide du Badminton, édition 2026/1, et de leurs annexes. Les modalités précises (nombre de questions, durée) sont fixées par FormaBad et votre ligue : renseignez-vous auprès de votre CLOT.</p>
     ${LEVELS.map((l) => {
       const c = exams[l];
-      return `<div class="card" style="margin-bottom:12px"><h2>${l} — ${esc(LEVEL_NAMES[l])}</h2>
+      return `<div class="card" style="margin-bottom:12px"><h2>${esc(LEVEL_NAMES[l])}</h2>
         <p>${esc(c.official.summary)}</p><ul>${c.official.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
         <h3>Ce que l'application simule</h3>
         <p class="small">${c.sim.questions} questions · ${c.sim.minutes} min · seuil ${c.sim.passPct} % · ${c.sim.documents ? 'avec documents' : 'sans documents'}. ${esc(c.sim.note || '')}</p>
@@ -319,7 +340,9 @@ async function renderSettings() {
   main.innerHTML = `
     <h1>Réglages</h1>
     <div class="card stack">
-      <div><label class="field">Grade préparé</label><div class="chips">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === st.level}" data-level="${l}">${l}</button>`).join('')}</div></div>
+      <div><label class="field">Parcours</label><div class="chips">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === st.level}" data-level="${l}">${esc(LEVEL_SHORT[l])}</button>`).join('')}</div></div>
+      <div><label class="field" for="ligue">Ma ligue</label>${ligueSelect(st.ligue)}
+        <p class="small muted" style="margin:4px 0 0">Ajoute les questions propres à votre ligue (interclubs régionaux, règlements régionaux) et écarte celles des autres ligues.</p></div>
       <div><label class="field">Objectif quotidien</label><div class="chips">${GOALS.map(([n, name]) => `<button class="chip" aria-pressed="${(st.dailyGoal || 20) === n}" data-goal="${n}">${name} · ${n} questions</button>`).join('')}</div></div>
       <div><label class="field">Apparence</label><div class="chips">${[['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(([k, t]) => `<button class="chip" aria-pressed="${st.theme === k}" data-theme="${k}">${t}</button>`).join('')}</div></div>
       <div><label class="field">Sons</label><div class="chips">${onOff('sound', true, '🔊 Activés')}${onOff('sound', false, '🔇 Coupés')}</div></div>
@@ -344,6 +367,11 @@ async function renderSettings() {
       <p>Application indépendante de préparation aux examens de juge-arbitre, non éditée par la Fédération Française de Badminton. Les règlements proviennent du Guide du Badminton publié par la FFBaD (<a href="https://gdb.ffbad.org" target="_blank" rel="noopener">gdb.ffbad.org</a>) et sont mis à jour automatiquement ; seul le texte officiel fait foi.</p>
       <p>Les questions et cas pratiques sont rédigés à partir de ces textes. Une erreur ? Signalez-la sur le dépôt GitHub du projet.</p>
     </div>`;
+  main.onchange = (e) => {
+    if (e.target.id !== 'ligue') return;
+    state.settings.ligue = e.target.value; save();
+    toast(e.target.value ? `Ligue enregistrée : ${LIGUES[e.target.value]}` : 'Ligue retirée');
+  };
   main.onclick = (e) => {
     const btn = e.target.closest('button');
     if (!btn) return;
@@ -401,6 +429,7 @@ const wrap = (fn) => async (args) => {
 route('/', wrap(renderHome), { tab: TABS.home });
 route('/progression', wrap(renderProgress), { tab: TABS.home, back: true });
 route('/entrainement', wrap(() => renderPlayHub(main)), { tab: TABS.train });
+route('/ala', () => { setTrack('ALA'); navigate('#/entrainement', true); });
 route('/entrainement/session', wrap(() => renderPlaySession(main)), { tab: TABS.train });
 route('/examen', wrap(() => renderExamSetup(main)), { tab: TABS.exam });
 route('/examen/session', wrap(() => renderExamSession(main)), { tab: TABS.exam });

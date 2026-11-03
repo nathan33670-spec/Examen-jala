@@ -449,10 +449,24 @@ class Sync:
         self.process_extras(rules_parent)
         self.detect_removed()
 
-    def process_extras(self, rules_parent: dict | None) -> None:
+    def run_ligues(self) -> None:
+        """Règlements de ligue seuls : les autres documents du catalogue sont conservés tels quels."""
+        self.season = self.old.get("season")
+        self.seasons = self.old.get("seasons", [])
+        self.docs = [d for d in self.old.get("docs", []) if not d.get("ligue")]
+        self.process_extras(None, only_ligues=True)
+        known = {d["id"] for d in self.docs}
+        for doc_id, prev in self.old_docs.items():
+            if prev.get("ligue") and doc_id not in known:
+                self.changes.append({"id": doc_id, "title": prev.get("title"), "type": "retiré",
+                                     "season": prev.get("season")})
+
+    def process_extras(self, rules_parent: dict | None, only_ligues: bool = False) -> None:
         for extra in self.cfg.get("extra", []):
-            url = None
-            if rules_parent and extra.get("discover_from") == rules_parent.get("code"):
+            if only_ligues and not extra.get("ligue"):
+                continue
+            url = extra.get("url")  # adresse fixe (règlements de ligue : à mettre à jour chaque saison)
+            if not url and rules_parent and extra.get("discover_from") == rules_parent.get("code"):
                 for link in pdf_links(self.site / rules_parent["pdf"]):
                     if extra.get("discover_host", "") in link:
                         url = link.rstrip("/")
@@ -462,8 +476,10 @@ class Sync:
             url = url or extra.get("fallback_url")
             if not url:
                 continue
-            self.process(doc_id=extra["id"], title=extra["title"], folder=extra.get("folder", ""),
-                         filename=extra["filename"], url=url, season=self.season, upcoming=False)
+            entry = self.process(doc_id=extra["id"], title=extra["title"], folder=extra.get("folder", ""),
+                                 filename=extra["filename"], url=url, season=self.season, upcoming=False)
+            if entry is not None and extra.get("ligue"):
+                entry["ligue"] = extra["ligue"]  # document propre à une ligue (filtré dans l'appli)
 
     def detect_removed(self) -> None:
         current_ids = {d["id"] for d in self.docs}
@@ -556,6 +572,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--today", help="date de référence AAAA-MM-JJ (tests)")
     ap.add_argument("--offline-dir", help="répertoire local de PDF (tests sans réseau)")
     ap.add_argument("--no-build", action="store_true", help="ne pas relancer scripts/build_site.py")
+    ap.add_argument("--only-ligues", action="store_true",
+                    help="ne mettre à jour que les règlements de ligue (extras avec « ligue »), sans le Guide du Badminton")
     ap.add_argument("--reextract", action="store_true",
                     help="régénérer le texte de tous les documents (après une amélioration de l'extraction)")
     args = ap.parse_args(argv)
@@ -564,7 +582,10 @@ def main(argv: list[str] | None = None) -> int:
     site = Path(args.site).resolve()
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
     sync = Sync(site, cfg, today, Path(args.offline_dir) if args.offline_dir else None, reextract=args.reextract)
-    sync.run()
+    if args.only_ligues:
+        sync.run_ligues()
+    else:
+        sync.run()
     changed = sync.write()
     report = sync.report(site / "data" / "questions.json")
     if args.report:
