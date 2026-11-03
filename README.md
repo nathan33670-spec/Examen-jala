@@ -99,7 +99,7 @@ dossier `/docs`.
 
 Le dossier `android/` est un projet [Capacitor](https://capacitorjs.com) qui embarque l'application web (`docs/`) : l'appli Android fonctionne entièrement hors ligne, sans dépendre du site.
 
-**Publier une version** : pousser un tag `vX.Y.Z` (par exemple `git tag v1.1.0 && git push origin v1.1.0`) ou lancer le workflow **Application Android** depuis l'onglet *Actions*. Le workflow vérifie le contenu, construit l'APK et l'AAB, puis crée la release GitHub avec les deux fichiers :
+**Publier une version** : changer le numéro dans `android/VERSION` (par exemple `1.1.0`) et pousser, pousser un tag `vX.Y.Z`, ou lancer le workflow **Application Android** depuis l'onglet *Actions*. Le workflow vérifie le contenu, construit l'APK et l'AAB, puis crée la release GitHub avec les deux fichiers :
 
 - `prepa-ja-X.Y.Z.apk` : à installer directement sur un téléphone ;
 - `prepa-ja-X.Y.Z.aab` : à déposer dans la Play Console (le Play Store n'accepte que le format AAB).

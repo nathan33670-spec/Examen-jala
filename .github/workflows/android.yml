@@ -1,7 +1,8 @@
 name: Application Android
 
 # Construit l'application Android (APK à installer, AAB pour le Play Store) et publie une release GitHub.
-# Déclenchement : pousser un tag de version (ex. `git tag v1.2.0 && git push origin v1.2.0`)
+# Déclenchement : modifier le numéro de version dans android/VERSION (ex. 1.2.0) et pousser,
+# pousser un tag de version (ex. `git tag v1.2.0 && git push origin v1.2.0`),
 # ou lancer le workflow à la main (onglet Actions) en indiquant la version.
 #
 # Signature Play Store : ajouter dans Settings > Secrets and variables > Actions les secrets
@@ -12,7 +13,10 @@ name: Application Android
 
 on:
   push:
+    # branches : publication quand android/VERSION change ; tags : les filtres de chemin ne s'y appliquent pas
+    branches: ['**']
     tags: ['v*']
+    paths: ['android/VERSION']
   workflow_dispatch:
     inputs:
       version:
@@ -36,7 +40,9 @@ jobs:
       - name: Version
         id: v
         run: |
-          RAW="${{ github.event.inputs.version || github.ref_name }}"
+          if [ -n "${{ github.event.inputs.version }}" ]; then RAW="${{ github.event.inputs.version }}"
+          elif [ "${{ github.ref_type }}" = "tag" ]; then RAW="${{ github.ref_name }}"
+          else RAW="$(tr -d ' \n\r' < android/VERSION)"; fi
           VERSION="${RAW#v}"
           if ! echo "$VERSION" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
             echo "Version invalide : $RAW (attendu : 1.2.3)"; exit 1
