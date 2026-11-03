@@ -40,7 +40,80 @@
       "discover_from": "03.00",
       "discover_host": "echange.ffbad.org",
       "fallback_url": "https://media.ffbad.org/documents/regles_officielles_du_badminton_version_2024-05-11.pdf"
+    },
+    {
+      "id": "LIFB.ICRS",
+      "title": "Championnat régional interclubs (ICR) — Règlement",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_ICRS_Reglement_2026-2027.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/07/ICRS_Reglement_2026-2027.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.ICRS.A",
+      "title": "Championnat régional interclubs (ICR) — Annexes 2026-2027",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_ICRS_Annexes_2026-2027.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/07/ICRS_Annexes_2026-2027.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.TOURNOIS",
+      "title": "Règlement des autorisations de tournois 2026-2027",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Reglement_Autorisations_Tournois_2026-2027.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/07/Reglement_Autorisations_Tournois_2026-2027.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.TOURNOIS.A1",
+      "title": "Autorisation de tournois 2026-2027 — Annexe 1",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Annexe1_Autorisation-de-tournois_2026-2027.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/07/Annexe1_Autorisation-de-tournois_2026-2027.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.FORFAITS",
+      "title": "Règlement des forfaits 2026-2027",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Reglement_forfaits_2026-2027_Vdef.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/09/Reglement_forfaits_2026-2027_Vdef.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.VETERANS",
+      "title": "Règlement du championnat régional vétérans 2026-2027",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Reglement_Regional_Veterans_2026-2027-1.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/09/Reglement_Regional_Veterans_2026-2027-1.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.JEUNES",
+      "title": "Règlement du championnat régional jeunes 2026",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Reglement-Regional-Jeunes-2026.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/01/Reglement-Regional-Jeunes-2026.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.INTERCOMITES",
+      "title": "Règlement des intercomités jeunes 2026",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Reglement_Intercomites_Jeunes_2026.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/04/Reglement_Intercomites_Jeunes_2026.pdf",
+      "ligue": "IDF"
+    },
+    {
+      "id": "LIFB.CONVENTION",
+      "title": "Convention d'organisation des compétitions régionales 2027",
+      "folder": "Ligue Île-de-France (LIFB)",
+      "filename": "LIFB_Convention_Competitions-Regionales_2027-1.pdf",
+      "url": "https://www.lifb.org/wp-content/uploads/2026/07/Convention_Competitions-Regionales_2027-1.pdf",
+      "ligue": "IDF"
     }
   ],
-  "upcoming_seasons": true
+  "upcoming_seasons": true,
+  "_comment_ligues": "Règlements de ligue (« ligue » = code de docs/js/store.js, LIGUES) : adresses fixes, à mettre à jour à chaque nouvelle saison. En cas d'erreur de téléchargement, l'ancienne version est conservée et l'erreur figure dans le rapport."
 }

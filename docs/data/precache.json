@@ -1,5 +1,5 @@
 {
- "build": "5377c0a2bc61",
+ "build": "a4b8e5e4bbff",
  "core": [
   "./",
   "css/app.css",
@@ -122,9 +122,18 @@
   "reglements/text/07.12.json",
   "reglements/text/08.03.A01.json",
   "reglements/text/08.03.json",
+  "reglements/text/LIFB.CONVENTION.json",
+  "reglements/text/LIFB.FORFAITS.json",
+  "reglements/text/LIFB.ICRS.A.json",
+  "reglements/text/LIFB.ICRS.json",
+  "reglements/text/LIFB.INTERCOMITES.json",
+  "reglements/text/LIFB.JEUNES.json",
+  "reglements/text/LIFB.TOURNOIS.A1.json",
+  "reglements/text/LIFB.TOURNOIS.json",
+  "reglements/text/LIFB.VETERANS.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 3127238,
+ "coreSize": 3374767,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
@@ -190,10 +199,19 @@
   "reglements/pdf/GUI07.12_VS_CharteGestionOfficielsTechniques.pdf",
   "reglements/pdf/GUI08.03A01_ADM_TableauLicences.pdf",
   "reglements/pdf/GUI08.03_ADM_ReglementLicences.pdf",
+  "reglements/pdf/LIFB_Annexe1_Autorisation-de-tournois_2026-2027.pdf",
+  "reglements/pdf/LIFB_Convention_Competitions-Regionales_2027-1.pdf",
+  "reglements/pdf/LIFB_ICRS_Annexes_2026-2027.pdf",
+  "reglements/pdf/LIFB_ICRS_Reglement_2026-2027.pdf",
+  "reglements/pdf/LIFB_Reglement-Regional-Jeunes-2026.pdf",
+  "reglements/pdf/LIFB_Reglement_Autorisations_Tournois_2026-2027.pdf",
+  "reglements/pdf/LIFB_Reglement_Intercomites_Jeunes_2026.pdf",
+  "reglements/pdf/LIFB_Reglement_Regional_Veterans_2026-2027-1.pdf",
+  "reglements/pdf/LIFB_Reglement_forfaits_2026-2027_Vdef.pdf",
   "reglements/pdf/Regles_officielles_du_badminton.pdf",
   "reglements/pdf/a-venir/2027-2028/GUI03.07A01_VS_TenueAutresActeursJeu.pdf",
   "reglements/pdf/a-venir/2027-2028/GUI03.07A02_VS_TenueCompetitionsParEquipe.pdf",
   "reglements/pdf/a-venir/2027-2028/GUI03.07A03_VS_TenueChampionnatsDeFrance.pdf"
  ],
- "pdfSize": 16688243
+ "pdfSize": 20616971
 }

@@ -70,7 +70,8 @@ export function findArticle(blocks, art) {
   if (!num) return -1;
   const instr = /instr/i.test(art);
   const startsWith = (s) => new RegExp(`^${num.replace(/\./g, '\\.')}\\.?(\\s|$)`).test(s);
-  const candidates = blocks.map((b, i) => [i, b]).filter(([, b]) => startsWith(b[1]));
+  const toc = (t) => /_{5,}|\.{5,}/.test(t); // lignes de sommaire
+  const candidates = blocks.map((b, i) => [i, b]).filter(([, b]) => startsWith(b[1]) && !toc(b[1]));
   if (!candidates.length) {
     const i = blocks.findIndex((b) => b[1].includes(num));
     return i;

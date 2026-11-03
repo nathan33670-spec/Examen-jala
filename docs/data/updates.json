@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-11-03",
+    "season": "2026-2027",
+    "changes": [
+      {
+        "id": "LIFB.ICRS",
+        "title": "Championnat régional interclubs (ICR) — Règlement",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.ICRS.A",
+        "title": "Championnat régional interclubs (ICR) — Annexes 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.TOURNOIS",
+        "title": "Règlement des autorisations de tournois 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.TOURNOIS.A1",
+        "title": "Autorisation de tournois 2026-2027 — Annexe 1",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.FORFAITS",
+        "title": "Règlement des forfaits 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.VETERANS",
+        "title": "Règlement du championnat régional vétérans 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.JEUNES",
+        "title": "Règlement du championnat régional jeunes 2026",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.INTERCOMITES",
+        "title": "Règlement des intercomités jeunes 2026",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LIFB.CONVENTION",
+        "title": "Convention d'organisation des compétitions régionales 2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "season": "2026-2027",
     "changes": [],

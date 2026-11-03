@@ -510,7 +510,11 @@ def main(argv: list[str] | None = None) -> int:
             print("ERREUR :", e, file=sys.stderr)
         return 2
 
+    ligue_of_doc = {d["id"]: d["ligue"] for d in catalog.get("docs", []) if d.get("ligue")}
     for q in questions:
+        doc = (q.get("ref") or {}).get("doc")
+        if doc in ligue_of_doc:  # question sur un règlement de ligue : réservée aux licenciés de la ligue
+            q.setdefault("ligue", ligue_of_doc[doc])
         categorize(q)
     stats = {lv: sum(1 for q in questions if lv in q["levels"]) for lv in CATEGORIES}
     by_theme = {t: sum(1 for q in questions if q["theme"] == t) for t in THEMES}

@@ -21,7 +21,8 @@ function docItem(d) {
 
 export async function renderDocsHome(main) {
   const [cat, updates] = await Promise.all([getCatalog(), getUpdates()]);
-  const current = cat.docs.filter((d) => !d.upcoming);
+  const mine = (d) => !d.ligue || d.ligue === state.settings.ligue; // règlements des autres ligues masqués
+  const current = cat.docs.filter((d) => !d.upcoming && mine(d));
   const upcoming = cat.docs.filter((d) => d.upcoming);
   const folders = {};
   for (const d of current) (folders[d.folder || 'Autres'] ||= []).push(d);
@@ -213,7 +214,7 @@ let corpus = null;
 async function buildCorpus() {
   if (corpus) return corpus;
   const [cat, qdata, fiches, glossary] = await Promise.all([getCatalog(), getQuestions(), getFiches(), getGlossary()]);
-  const docs = await Promise.all(cat.docs.map(async (d) => {
+  const docs = await Promise.all(cat.docs.filter((d) => !d.ligue || d.ligue === state.settings.ligue).map(async (d) => {
     try {
       const t = await getDocText(d);
       return t.blocks.map((b, i) => ({ kind: 'doc', doc: d, i, text: b[1], n: norm(b[1]) }));
