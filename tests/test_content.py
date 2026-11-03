@@ -23,7 +23,7 @@ class QuestionBankTests(unittest.TestCase):
     def setUpClass(cls):
         cls.data = load("questions.json")
         cls.questions = cls.data["questions"]
-        cls.catalog = {d["id"] for d in load("catalog.json")["docs"]}
+        cls.catalog = {d["id"] for d in build_site.load_catalog(build_site.ROOT / "docs")["docs"]}
 
     def test_volume(self):
         self.assertGreaterEqual(len(self.questions), 400, "la banque doit contenir plusieurs centaines de questions")
