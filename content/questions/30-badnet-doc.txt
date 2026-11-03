@@ -1,0 +1,1360 @@
+# Logiciel BadNet : utilisation par le juge-arbitre et le GEO (gestionnaire et organisateur de compétition).
+# Source unique : documentation et FAQ BadNet (blog i-click) et supports PDF Formation GEO, Interclubs, Circuits.
+# Chaque question cite la page de la documentation (R: BADNET <page>).
+@theme logiciel
+@doc BADNET
+@levels JALA JALC JAFA JAFC
+
+# ---------------------------------------------------------------- AVANT : création et réglages
+
+Q bn-001 | D: 1 | R: BADNET formation-geo | P: avant
+Le GEO veut se connecter au compte BadNet du club organisateur. Quel identifiant (login) doit-il saisir ?
+- Le numéro de licence du président du club
++ Le numéro fédéral de l'instance (par exemple OCCI.31.00.000)
+- Le numéro de dossier Poona du tournoi
+- L'adresse mail du correspondant du club
+> Formation GEO, « Connexion à BadNet » : le login d'un compte instance (clubs, comités ou ligues) est le numéro fédéral de l'instance (par exemple OCCI.31.00.000) ; le login d'un compte joueur est son numéro de licence.
+
+Q bn-002 | D: 2 | R: BADNET formation-geo | P: avant
+Lors de la création d'un tournoi dans BadNet, le numéro de dossier Poona du tournoi est-il obligatoire ?
+- Oui, sans lui la compétition ne peut pas être créée
++ Non, il permet seulement de pré-remplir les étapes suivantes
+- Oui, mais uniquement pour un tournoi jeunes
+- Non, et il ne pourra plus être ajouté ensuite
+> Formation GEO, « Création de la compétition » : le numéro de dossier Poona du tournoi n'est pas obligatoire, il permet juste de pré-remplir les étapes suivantes. Tout peut être modifié ensuite dans les réglages de la compétition.
+
+Q bn-003 | D: 2 | R: BADNET faq_pourquoi-est-ce-que-je-narrive-pas-creer-ma-competition-partir-de-son-numero | P: avant
+Le GEO n'arrive pas à créer la compétition dans BadNet à partir de son numéro d'autorisation : le tournoi est encore en cours d'autorisation sur Poona. Que dit la FAQ BadNet ?
+- Il faut attendre l'autorisation avant de pouvoir ouvrir les inscriptions sur BadNet
++ Créer la compétition sans numéro d'autorisation, le renseigner plus tard et recevoir déjà des inscriptions
+- Il doit ouvrir un ticket au support BadNet pour forcer la récupération du tournoi depuis Poona avant toute inscription
+- Il doit créer la compétition sur le BadNet de test en attendant
+> FAQ BadNet : pour être récupérée depuis Poona, la compétition doit être autorisée sur Poona. En revanche, il est possible de créer la compétition sur BadNet sans numéro d'autorisation et de le renseigner à postériori ; on peut ainsi commencer à recevoir des inscriptions même si la compétition n'est pas totalement autorisée.
+
+Q bn-004 | D: 2 | R: BADNET faq_comment-renseigner-le-numero-poona-sur-sa-competition | P: avant
+Où renseigne-t-on le numéro Poona d'une compétition déjà créée dans BadNet ?
+- Dans Compétition > Inscriptions > Actions
++ Dans Réglages > Préférences > Informations générales
+- Dans Extras > Juge-arbitre
+- Dans Compétitions > Exports Poona, au moment de l'export uniquement
+> FAQ BadNet : il faut se rendre dans Réglages > Préférences > Informations générales et renseigner le champ prévu à cet effet. Il faut le rôle Administrateur ou gestionnaire de la compétition pour accéder à ces réglages. Le support Formation GEO rappelle que ce numéro doit être renseigné pour permettre l'export à l'issue de la compétition.
+
+Q bn-005 | D: 1 | R: BADNET gestion-des-inscriptions | P: avant
+Dans Réglages > Préférences > Réglages sportifs, quelle est la valeur maximale du nombre de tableaux ouverts à l'inscription pour un joueur ?
+- 2
++ 3
+- 4
+- Elle est illimitée
+> Gestion des inscriptions, « Le nombre maximum de tableaux » : il s'agit de définir le nombre maximum de tableaux ouvert à l'inscription pour un joueur ; le nombre maximum pouvant être renseigné est 3.
+
+Q bn-006 | D: 2 | R: BADNET formation-geo | P: avant
+Le nombre maximal de joueurs fixé dans les réglages sportifs est atteint. Que se passe-t-il pour les joueurs qui s'inscrivent ensuite ?
+- Le bouton d'inscription disparaît de la fiche publique
++ Ils peuvent toujours s'inscrire mais sont placés sur liste d'attente
+- Leur inscription est refusée automatiquement par BadNet
+- Ils sont inscrits normalement, le nombre n'est qu'indicatif sans effet
+> Formation GEO, « Réglages sportifs » : une fois le nombre maximal de joueurs atteint, les joueurs peuvent toujours s'inscrire mais sont placés sur liste d'attente.
+
+Q bn-007 | D: 2 | R: BADNET faq_comment-interdire-ou-autoriser-une-combinaison-de-tableaux-dans-les-inscriptions-en | P: avant
+Le règlement particulier interdit de jouer le simple et le mixte. Que permet BadNet ?
+- Rien : il faut contrôler les inscriptions à la main
++ L'interdire dans les réglages sportifs ; l'organisateur peut la forcer, avec une alerte sur la fiche du joueur
+- L'interdire dans les réglages sportifs ; la combinaison devient alors impossible pour tout le monde, organisateur compris
+- Fermer le tableau de mixte avec le cadenas
+> FAQ BadNet : dans Réglages > Préférences > Réglages sportifs, on coche les combinaisons à interdire (Simple ET Double, Simple ET Mixte, Double ET Mixte). Elles sont bloquées lors de l'inscription en ligne ; côté organisateur, il est toujours possible de forcer une combinaison interdite mais un message d'alerte est présent sur la fiche du joueur.
+
+Q bn-008 | D: 1 | R: BADNET formation-geo | P: avant
+Quelles sont les trois possibilités de réglage du paiement en ligne d'une compétition ?
+- Libre, conseillé, imposé
++ Facultatif, obligatoire, désactivé
+- Par carte, par portefeuille, par virement
+- Joueur, club, organisateur
+> Formation GEO, « Réglages inscriptions en ligne » : facultatif (le joueur ou l'instance choisit de payer, ou pas), obligatoire (une inscription devra obligatoirement être payée pour être envoyée à l'organisateur), désactivé (aucun paiement en ligne ne pourra être réalisé).
+
+Q bn-009 | D: 1 | R: BADNET comment-minscrire-sur-une-competition-individuelle | P: avant
+Un joueur s'inscrit et paie son inscription en ligne. Que doit faire l'organisateur pour que l'inscription soit validée ?
+- La valider dans l'onglet En attente
+- Attendre la date de clôture des inscriptions
++ Rien : l'inscription payée est automatiquement validée par BadNet
+- La valider depuis le module Finances, onglet Paiements à valider, après réception des fonds
+> Comment m'inscrire sur une compétition individuelle : lorsque vous payez votre inscription, celle-ci est automatiquement validée par BadNet sans attendre que l'organisateur la valide manuellement. Sans paiement, il faut attendre que l'organisateur valide manuellement l'inscription.
+
+Q bn-010 | D: 2 | R: BADNET faq_pourquoi-une-inscription-est-en-attente-et-comment-gerer-ces-inscriptions | P: avant
+Un jeune s'inscrit à un tableau gratuit (inscription à 0 €). Comment BadNet traite-t-il cette inscription ?
+- Elle est validée automatiquement, exactement comme une inscription payée en ligne
++ Elle est considérée comme non payée et mise en attente de validation
+- Elle est refusée, une inscription ne peut pas être à 0 €
+- Elle est envoyée au club du joueur pour validation
+> FAQ BadNet : une inscription gratuite (à 0€) sera considérée comme non payée donc sera mise en attente de validation par l'organisateur.
+
+Q bn-011 | D: 1 | R: BADNET gestion-des-inscriptions-en-attente | P: avant
+Pour quelles raisons un joueur peut-il apparaître dans l'onglet En attente des inscriptions ? (plusieurs réponses)
++ Il s'est inscrit mais n'a pas payé en ligne
++ Il s'est inscrit mais son partenaire n'est pas encore inscrit
++ Il est inscrit mais a modifié son inscription
+- Il est sanctionné par la FFBaD
+> Gestion des inscriptions en attente : un joueur peut être en attente de validation pour 3 raisons : il s'est inscrit mais n'a pas payé en ligne ; il s'est inscrit mais son partenaire n'est pas encore inscrit ; il est inscrit mais a modifié son inscription. Les sanctions se consultent dans un onglet distinct.
+
+Q bn-012 | D: 2 | R: BADNET gestion-des-inscriptions-en-attente | P: avant
+Dans l'onglet En attente, le nom d'un joueur n'est pas cliquable. Qu'est-ce que cela signifie ?
+- Il est inscrit, mais son inscription n'est pas payée
++ Il n'est pas encore inscrit à la compétition
+- Il a été barré par l'organisateur
+- Il est forfait sur toute la compétition
+> Gestion des inscriptions en attente : si un joueur est cliquable, il est inscrit à la compétition mais son inscription est incomplète (pas payée, en attente de partenaire ou modifiée). S'il n'est pas cliquable, alors il n'est pas encore inscrit.
+
+Q bn-013 | D: 2 | R: BADNET gestion-des-inscriptions-en-attente | P: avant
+Un joueur demande à changer de série alors que l'organisateur l'a déjà placé autrement. Dans l'onglet En attente, que permet le « - » en bout de ligne ?
+- Supprimer le joueur de la compétition
++ Ne pas traiter son inscription, le joueur apparaissant barré
+- Le placer en liste d'attente
+- Refuser définitivement l'inscription et prévenir automatiquement le joueur par mail
+> Gestion des inscriptions en attente : le « - » en bout de ligne permet de ne pas traiter l'inscription, pour ne pas écraser l'inscription du joueur suite à des modifications de l'organisateur. Le joueur est alors barré (repère visuel indiquant qu'on a ignoré sa demande, par exemple changer de série) ; en cliquant sur « + », on annule l'action.
+
+Q bn-014 | D: 1 | R: BADNET gestion-des-inscriptions-en-attente | P: avant
+Dans l'onglet En attente, comment le GEO valide-t-il en une fois tous les joueurs d'un même club ?
+- En cliquant sur le bonhomme vert à droite de chaque joueur
++ En cliquant sur le « v » vert à droite du club
+- En cochant le club puis Actions > Valider
+- En validant le paiement du club dans les Finances
+> Gestion des inscriptions en attente : le « v » vert à droite du club valide tous les joueurs du club ; le bonhomme vert à droite d'une personne valide l'inscription du joueur ; le bouton « Valider toutes les inscriptions » en bas valide toutes les inscriptions reçues.
+
+Q bn-015 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Pour une compétition réglée en tri « Elite », sur quel critère les inscriptions sont-elles classées ?
+- La date d'envoi des inscriptions
+- La date de règlement des inscriptions
++ Le classement CPPH à la date d'arrêt des classements
+- L'ordre alphabétique des clubs
+> Gestion des inscriptions, « Tri des inscriptions » : trois choix sont possibles : Standard (date d'envoi des inscriptions), Paiement (date de règlement des inscriptions), Elite (classement CPPH à la date d'arrêt des classements).
+
+Q bn-016 | D: 1 | R: BADNET faq_comment-sassurer-quaucun-joueur-sanctionne-participe-la-competition | P: avant
+Où le juge-arbitre vérifie-t-il qu'aucun joueur sanctionné n'est inscrit à la compétition ?
+- Dans Extras > Toolbox > Activités joueurs
++ Dans Compétition > Inscriptions > Sanctions
+- Dans Compétition > Tableaux > Historique
+- Dans Extras > Finances > Impayés
+> FAQ BadNet : pour afficher la liste des joueurs sanctionnés pendant la période de la compétition, aller dans Compétition > Inscriptions > Sanctions. La liste s'affiche avec la raison et la durée.
+
+Q bn-017 | D: 2 | R: BADNET faq_comment-sassurer-quaucun-joueur-sanctionne-participe-la-competition | P: avant
+Un joueur inscrit apparaît dans l'onglet Sanctions. Que fait BadNet ?
+- Il le retire automatiquement de ses tableaux et le place en liste d'attente jusqu'à la fin de sa sanction
+- Il bloque son pointage le jour de la compétition
++ Rien : le GEO et le juge-arbitre décident d'accepter ou de refuser le joueur
+- Il envoie un mail au joueur pour lui demander de se désinscrire
+> FAQ BadNet : une décision doit être prise par le GEO et le juge-arbitre pour accepter ou refuser le joueur sanctionné. La sanction peut être en cours d'étude ou permettre de participer quand même ; aucune décision n'est prise automatiquement par BadNet.
+
+Q bn-018 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Le jour de la compétition, le juge-arbitre a saisi un commentaire en déclarant un abandon. Où le GEO retrouve-t-il l'ensemble de ces commentaires ?
+- Dans l'onglet Historique des inscriptions
++ Dans l'onglet Commentaires des inscriptions
+- Uniquement dans l'onglet Historique du tableau
+- Dans le module Communication
+> Gestion des inscriptions, « Onglet commentaires » : on y retrouve l'ensemble des commentaires ajoutés par les joueurs lors de leur inscription, ceux faits par l'organisateur sur la fiche d'un joueur ainsi que ceux mis en cas de forfait ou abandon rentrés le jour de la compétition (par le JA par exemple).
+
+Q bn-019 | D: 1 | R: BADNET gestion-des-inscriptions | P: avant
+Quels officiels techniques peuvent être enregistrés dans l'onglet Officiels des inscriptions ? (plusieurs réponses)
++ Juge-arbitre adjoint
++ Juge de ligne
++ Évaluateur
+- Responsable de la buvette
+> Gestion des inscriptions, « Onglet officiels » : arbitre, juge-arbitre, juge-arbitre adjoint, conseiller d'arbitrage, conseiller juge-arbitrage, évaluateur, juge de ligne, licencié (potentiel futur arbitre). Les bénévoles relèvent de l'onglet Autres inscrits.
+
+Q bn-020 | D: 2 | R: BADNET faq_pourquoi-est-ce-quun-arbitre-nest-pas-trouve-dans-lajout-dun-officiel-sur-une | P: avant
+Un arbitre stagiaire doit officier sur le tournoi mais il ne remonte pas dans la recherche des arbitres. Que conseille la FAQ BadNet ?
+- Demander au support BadNet de créer l'officiel
++ Rechercher un « Licencié futur arbitre » lors de l'ajout de l'officiel
+- L'inscrire dans l'onglet Autres inscrits comme bénévole, puis l'affecter aux matchs depuis le déroulement
+- L'ajouter comme officiel étranger
+> FAQ BadNet : un arbitre ne remonte pas dans la liste s'il n'est pas officiellement arbitre dans Poona ou si la date d'obtention de son grade n'y est pas renseignée (il faut alors contacter sa ligue). S'il s'agit d'un arbitre stagiaire, il suffit de rechercher un Licencié futur arbitre lors de l'ajout d'un officiel pour trouver n'importe quel licencié.
+
+Q bn-021 | D: 1 | R: BADNET faq_comment-ajouter-un-officiel-etranger-sur-ma-competition | P: avant
+Un arbitre belge vient officier sur le tournoi. Comment l'enregistrer dans BadNet ?
+- Avec le bouton + Ajouter un joueur non licencié FFBAD, en cochant ensuite « arbitre » sur sa fiche
++ Onglet Officiels, bouton Ajouter un officiel étranger
+- Dans l'onglet Autres inscrits
+- Il n'est pas possible d'ajouter un officiel non licencié FFBaD
+> FAQ BadNet : pour inscrire un officiel étranger, aller dans Compétition > Inscriptions onglet Officiels et cliquer sur Ajouter un officiel étranger ; une popup permet de chercher parmi les officiels étrangers déjà présents ou d'en inscrire un en renseignant ses informations.
+
+Q bn-022 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Une fois les arbitres ajoutés dans l'onglet Officiels, dans quels modules les retrouve-t-on pour les affecter à des matchs ? (plusieurs réponses)
++ Compétition > Déroulement
++ Extras > Rotations arbitres
+- Compétition > Convocations
+- Réglages > Préférences > Privilèges
+> Gestion des inscriptions, « Onglet officiels » : en ajoutant les arbitres ici, on les retrouve dans Compétition > Déroulement et Extras > Rotations arbitres pour affecter des arbitres à des matchs. Un PDF listant les matchs de chaque arbitre est disponible.
+
+Q bn-023 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Pour générer des badges d'accréditation, où enregistre-t-on les coachs, bénévoles ou journalistes de la compétition ?
+- Dans l'onglet Officiels
++ Dans l'onglet Autres inscrits
+- Dans l'onglet Instances
+- Dans le module Pointage
+> Gestion des inscriptions, « Onglet autres inscrits » : on y ajoute toutes les personnes autres que joueurs ou officiels jouant un rôle dans la compétition (coachs, bénévoles, commentateur, presse…). Cette partie est utilisée pour les compétitions qui utilisent un système d'accréditation avec la génération de badge.
+
+Q bn-024 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+À quel moment la documentation BadNet recommande-t-elle de lancer l'action Mise à jour du CPPH des inscrits ?
+- Dès l'ouverture des inscriptions
++ Une fois les inscriptions fermées, avant les tableaux et le tirage au sort
+- Après le tirage au sort, juste avant l'envoi des convocations, pour que les têtes de série soient à jour
+- Le matin de la compétition, au moment du pointage
+> Gestion des inscriptions, « Mise à jour du CPPH » : cette action permet de choisir une date de mise à jour et tous les joueurs ont le classement à cette date. Elle est à faire une fois les inscriptions fermées et avant l'établissement des tableaux et du tirage au sort.
+
+Q bn-025 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Le GEO lance Actions > Mise à jour des clubs dans le module Inscriptions. Quelle conséquence la documentation signale-t-elle ?
+- Les classements CPPH sont remis à la date du jour
++ Les joueurs inscrits avec leur comité ou leur ligue seront inscrits avec leur club
+- Les inscriptions en attente sont validées automatiquement pour tous les joueurs dont le club a été trouvé
+- Les frais d'inscription sont recalculés
+> Gestion des inscriptions, « Mise à jour des clubs » : cette action met à jour les instances (clubs) des joueurs en fonction des données fédérales. Attention : les joueurs inscrits avec leur comité ou leur ligue seront inscrits avec leur club.
+
+Q bn-026 | D: 2 | R: BADNET gestion-des-inscriptions | P: avant
+Selon quels critères l'action Recalculer les frais d'inscription peut-elle être lancée ? (plusieurs réponses)
++ Selon les inscriptions
++ Selon les matchs, en faisant payer les forfaits
++ Selon les matchs, sans faire payer les forfaits
+- Selon le classement CPPH des joueurs
+> Gestion des inscriptions, « Recalculer les frais d'inscription » : trois critères : selon les inscriptions ; selon les matchs (faire payer les forfaits) ; selon les matchs (ne pas faire payer les forfaits).
+
+Q bn-027 | D: 2 | R: BADNET faq_est-ce-quun-joueur-non-licencie-dans-un-tableau-est-bloquant-pour-lelaboration-des | P: avant
+Un joueur inscrit n'est toujours pas licencié au moment de faire les tableaux. Est-ce bloquant dans BadNet ?
+- Oui, le tirage au sort du tableau est impossible
+- Oui, le joueur est automatiquement retiré du tableau
++ Non, mais il peut poser problème lors de l'export Poona
+- Non, et il n'aura aucune incidence, même lors de l'export des résultats vers Poona
+> FAQ BadNet : l'indication de licence d'un joueur n'est à aucun moment bloquante dans BadNet ; on peut faire des tableaux avec des joueurs non licenciés. C'est à l'export fédéral vers Poona que les joueurs non licenciés peuvent poser problème s'ils ne sont toujours pas licenciés.
+
+Q bn-028 | D: 2 | R: BADNET gestion-des-inscriptions-une-competition-en-debut-de-saison | P: avant
+En début de saison, beaucoup de joueurs ne sont pas encore licenciés. Quel réglage permet de les laisser s'inscrire en ligne ?
+- Passer la compétition en nature Championnats
++ Décocher la case Limiter aux joueurs licenciés dans les réglages d'inscription en ligne
+- Désactiver le paiement en ligne
+- Cocher Ajouter un joueur non licencié FFBaD dans les réglages sportifs de la compétition
+> Gestion des inscriptions à une compétition en début de saison : dans Préférences > Réglages inscription en ligne, il faut décocher la case Limiter aux joueurs licenciés pour permettre aux joueurs pas encore licenciés de s'inscrire. On s'assure ensuite qu'ils sont licenciés avec le contrôle des licences.
+
+Q bn-029 | D: 1 | R: BADNET gestion-des-inscriptions-une-competition-en-debut-de-saison | P: avant
+Quelle action du module Inscriptions affiche les joueurs non licenciés, avec la possibilité d'exporter la liste en CSV avec leur adresse mail ?
+- Actions > Mise à jour du CPPH
+- Actions > Mise à jour des clubs
++ Actions > Contrôler les licences
+- Onglet Sanctions
+> Gestion des inscriptions à une compétition en début de saison : le contrôle des licences (Action > Contrôler les licences) permet de s'assurer que tous les joueurs inscrits sont licenciés ; ceux qui ne le sont pas s'affichent dans une liste exportable au format CSV avec leur adresse mail pour les contacter.
+
+Q bn-030 | D: 2 | R: BADNET faq_pourquoi-certains-joueurs-sont-affiches-non-licencies-alors-quils-sont-licencies | P: avant
+Un joueur apparaît « non licencié » dans les inscriptions alors qu'il a renouvelé sa licence depuis. Pourquoi ?
+- Son club a oublié de valider son inscription
++ BadNet a gardé l'état de sa licence à la date d'inscription : il faut le mettre à jour
+- Le joueur est sanctionné par la FFBaD
+- Le contrôle des licences ne fonctionne qu'après la clôture des inscriptions, il faut donc attendre cette date
+> FAQ BadNet : lorsqu'un joueur est inscrit, BadNet enregistre son classement et sa licence à la date de l'inscription. S'il n'était pas licencié à ce moment, il faut mettre à jour son classement et son état civil depuis sa fiche ; cela ne pose aucun souci pour le déroulement de la compétition.
+
+Q bn-031 | D: 2 | R: BADNET faq_comment-desinscrire-ou-supprimer-un-joueur-de-la-competition | P: avant
+Un joueur qui a payé en ligne se désiste avant le tournoi. Le GEO peut-il le supprimer complètement de la compétition ?
+- Oui, avec l'icône poubelle de la liste des joueurs
++ Non : on le désinscrit (Non sur tous ses tableaux), le paiement en ligne devant rester tracé
+- Oui, mais seulement après avoir reversé les paiements en ligne sur le compte bancaire du club organisateur
+- Non : seul le support BadNet peut supprimer un joueur
+> FAQ BadNet : pour désinscrire un joueur, il suffit de choisir Non sur chacun de ses tableaux. S'il n'a pas payé en ligne, on peut le supprimer avec la poubelle ; il n'est pas possible de supprimer totalement un joueur qui a payé en ligne, pour garder la trace du paiement.
+
+Q bn-032 | D: 2 | R: BADNET faq_est-il-possible-dinterdire-un-joueur-de-sinscrire-la-competition | P: avant
+L'organisateur souhaite empêcher un joueur précis de s'inscrire en ligne à son tournoi. Que permet BadNet ?
+- Ajouter le numéro de licence du joueur à la liste des joueurs interdits, dans les réglages sportifs
++ Aucune interdiction, mais il peut l'inscrire dans aucun tableau ou ignorer son inscription
+- Bloquer son numéro de licence dans les privilèges
+- Le marquer sanctionné dans l'onglet Sanctions
+> FAQ BadNet : il n'est pas possible d'interdire un joueur de s'inscrire en ligne. Par contre, il est possible de modifier son inscription pour l'inscrire dans aucun tableau, ou d'ignorer son inscription au niveau des inscriptions en attente.
+
+Q bn-033 | D: 2 | R: BADNET faq_comment-annuler-une-inscription-une-competition | P: avant
+La date limite d'inscription est dépassée et un joueur ne peut plus modifier son inscription. Comment peut-il signaler son forfait lui-même ?
++ Avec Déclarer forfait sur ebad, ou Je suis forfait sur BadNet
+- En envoyant son inscription avec Non sur tous les tableaux
+- Il ne peut pas : seul le juge-arbitre peut enregistrer un forfait
+- En se désinscrivant depuis l'onglet Forfaits du module Inscriptions, accessible depuis son compte joueur
+> FAQ BadNet : pour annuler une inscription, on la renvoie avec Non sur tous les tableaux (l'organisateur valide). Si la date limite est dépassée, on peut utiliser le bouton Déclarer forfait sur la fiche tournoi (onglet Infos) sur ebad, ou Je suis forfait dans la section dédiée à l'inscription sur BadNet, ou contacter l'organisateur.
+
+Q bn-034 | D: 2 | R: BADNET formation-geo | P: avant
+Un joueur prévient qu'il sera forfait et envoie un certificat. Quel est le « premier réflexe » recommandé par le support Formation GEO ?
+- Le supprimer de la compétition pour libérer sa place
++ Le noter dans BadNet avec la raison, la date et le justificatif
+- Attendre le jour du tournoi pour le déclarer forfait depuis le déroulement en ligne, au moment de l'appel
+- Transmettre le certificat au support BadNet
+> Formation GEO, « Inscription du joueur » : lors d'un forfait, le premier réflexe est de venir sur BadNet le noter en précisant la raison, la date et en enregistrant le justificatif si fourni. Cela permet de garder une trace et de faciliter le rapport du JA à l'issue de la compétition.
+
+Q bn-035 | D: 2 | R: BADNET faq_que-signifie-le-warning-partenaire-inscrit-dans-un-autre-tableau | P: avant
+Un joueur s'inscrit en double série 1 et son partenaire en double série 2. Que fait BadNet ?
+- Il inscrit la paire dans la série la plus haute et prévient les deux joueurs par mail
+- Il inscrit la paire dans la série la plus basse
++ Il affiche un warning ; l'organisateur doit placer la paire à la main
+- Il refuse les deux inscriptions
+> FAQ BadNet : BadNet ne sait pas s'il faut inscrire la paire en série 1 ou en série 2 ; un warning indique que le partenaire n'est pas inscrit dans le même tableau. Une action manuelle de l'organisateur est nécessaire pour inscrire la paire dans le tableau souhaité.
+
+Q bn-036 | D: 1 | R: BADNET faq_comment-fermer-les-inscriptions-dun-tableau | P: avant
+Le tableau de double dames est complet : l'organisateur veut fermer les inscriptions à ce seul tableau. Comment faire ?
+- Modifier la date de clôture des inscriptions dans les réglages d'inscription en ligne
++ Cliquer sur le cadenas du tableau dans le module Tableaux
+- Supprimer le tableau
+- Cacher le tableau sur la fiche publique
+> FAQ BadNet : pour fermer les inscriptions à un tableau uniquement, aller dans le module Tableaux puis cliquer sur l'icône de cadenas de la colonne Action. Plus aucun joueur ne pourra s'y inscrire, mais l'organisateur aura toujours la main pour inscrire un joueur dans le tableau.
+
+Q bn-037 | D: 2 | R: BADNET faq_pourquoi-personne-ne-peut-sinscrire-sur-ma-competition | P: avant
+Personne n'arrive à s'inscrire au tournoi. Quelles conditions doivent être remplies pour que les inscriptions soient possibles ? (plusieurs réponses)
++ La date d'ouverture des inscriptions doit être passée ou le jour même
++ La date de clôture doit être renseignée et dans le futur
++ La compétition doit être visible
+- L'échéancier doit être verrouillé
+> FAQ BadNet : la date de la compétition doit être dans le futur ; la date d'ouverture des inscriptions passée ou le jour même ; la date de clôture renseignée et dans le futur ; la compétition visible. Sinon, l'accueil de la compétition côté administrateur indique que les inscriptions sont fermées.
+
+Q bn-038 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Un joueur n'a pas les points requis par la définition du tableau. Qui peut malgré tout l'inscrire dans ce tableau ?
+- Personne : les bornes du tableau sont bloquantes
+- Le joueur lui-même, en s'inscrivant depuis ebad
++ L'organisateur, pour qui rien n'est bloquant
+- Le club du joueur, depuis son compte instance
+> Gestion des tableaux : un joueur qui n'est pas dans les bornes Catégorie/Clt/Points ne peut pas s'inscrire en ligne. Par contre, un organisateur peut outre passer ces bornes : rien n'est bloquant pour un organisateur.
+
+Q bn-039 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+À quelle condition BadNet considère-t-il un tableau comme un tableau jeunes ?
+- Son nom contient une catégorie jeune (par exemple « SH Cadet »)
++ Sa catégorie maximale est une catégorie jeune (au plus haut Junior)
+- Sa catégorie minimale est Minibad
+- Il est créé avec la création guidée
+> Gestion des tableaux, « Définition d'un tableau » : pour qu'un tableau soit considéré comme un tableau jeunes, il faut que sa catégorie maximale soit une catégorie jeune (au plus haut Junior). La FAQ précise qu'un tableau « SH Cadet S1 » de catégorie maximale Sénior est identifié comme adulte.
+
+Q bn-040 | D: 1 | R: BADNET faq_comment-changer-le-systeme-de-comptage-de-points-dun-tableau | P: avant
+Où change-t-on le système de comptage des points d'un tableau (par exemple pour des jeunes) ?
+- Dans Réglages > Préférences > Réglages sportifs
++ Dans l'onglet Définition du tableau
+- Dans l'onglet Structure du tableau
+- Dans les options du déroulement en ligne
+> FAQ BadNet : pour changer le système de comptage d'un tableau, aller dans l'onglet Définition du tableau et choisir le système de comptage souhaité. Le support Formation GEO rappelle qu'un tableau peut avoir un système de comptage différent des autres (pour les jeunes par exemple).
+
+Q bn-041 | D: 1 | R: BADNET gestion-des-tableaux | P: avant
+Le nombre maximum de participants d'un tableau est atteint. Que deviennent les joueurs qui s'y inscrivent ensuite ?
+- Leur inscription est refusée
++ Ils sont automatiquement placés sur liste d'attente dans le tableau
+- Ils sont basculés automatiquement dans le tableau de la série inférieure de la même discipline
+- Ils sont placés en tableau de qualification
+> Gestion des tableaux, « Définition d'un tableau » : lorsque le nombre maximum de participants est atteint, les joueurs sont automatiquement placés sur liste d'attente dans le tableau.
+
+Q bn-042 | D: 1 | R: BADNET gestion-des-tableaux | P: avant
+Dans la liste des tableaux, un tableau a le statut « Tirage au sort non effectué ». Qu'est-ce que cela signifie ?
+- Aucune structure n'a été choisie
++ La structure est choisie mais le tirage au sort n'a pas encore été réalisé
+- Le tableau est complet
+- Le tableau a été tiré au sort mais le juge-arbitre ne l'a pas encore validé ni publié
+> Gestion des tableaux, « La liste des tableaux » : Structure non choisie (le tableau n'est pas prêt du tout) ; Tirage au sort non effectué (la structure est choisie mais le tirage n'a pas encore été réalisé) ; Tirage au sort effectué (le tableau est complètement prêt).
+
+Q bn-043 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Dans la liste des tableaux, la côte min/côte max du DH S1 s'affiche en rouge. Qu'en déduit le juge-arbitre ?
+- Le tableau dépasse le nombre maximum de participants
+- Des joueurs du tableau ne sont pas licenciés ou ont un classement antérieur à la date de mise à jour
++ La règle des 16 fois l'écart entre deux joueurs du tableau n'est pas respectée
+- Le tableau n'a pas encore été tiré au sort
+> Gestion des tableaux : la côte min/côte max correspond au point CCPH minimum et maximum que doit avoir un joueur qui souhaite intégrer le tableau. Si ce chiffre est rouge, la règle des 16 fois l'écart entre deux joueurs du tableau n'est pas respectée.
+
+Q bn-044 | D: 2 | R: BADNET faq_que-signifie-cote-min-et-cote-max-au-niveau-dun-tableau | P: avant
+La côte min d'un tableau est de 43. Que peut en conclure le juge-arbitre ?
+- Le moins bien classé du tableau a 43 points
++ Un joueur à moins de 43 points ne respecterait pas la règle des x16
+- Le tableau doit compter au moins 43 joueurs
+- Les joueurs à moins de 43 points sont automatiquement placés en liste d'attente lors du tirage au sort
+> FAQ BadNet : la côte min et la côte max indiquent, en fonction des participants du tableau principal, le classement le plus faible ou le plus élevé possible d'un joueur tout en respectant la règle des x16. Si la côte min est de 43, aucun joueur ayant moins de 43 points ne pourra être ajouté sans avoir plus de 16 fois d'écart avec le joueur ayant le plus de points.
+
+Q bn-045 | D: 1 | R: BADNET gestion-des-tableaux | P: avant
+Dans l'onglet Participants d'un tableau, le nom d'un joueur est écrit en rouge et barré. Qu'est-ce que cela signifie ?
+- Il ne respecte pas la règle des x16
++ Il est WO et ne jouera donc pas de match dans le tableau
+- Il est sur liste d'attente et ne sera pas retenu au tirage au sort
+- Il n'a pas payé son inscription
+> Gestion des tableaux, « Participants du tableau » : nom rouge barré : le joueur est WO, il ne jouera donc pas de match dans le tableau ; nom écrit en rouge : le joueur ne respecte pas la règle des x16.
+
+Q bn-046 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Dans l'onglet Participants d'un tableau de double, une icône « attention » apparaît sur une paire. Qu'indique-t-elle ?
+- La paire n'a pas réglé son inscription
++ Les deux joueurs ne respectent pas la règle des x16 entre eux
+- La paire est en recherche de partenaire
+- Un commentaire figure sur la fiche d'un des joueurs, à lire avant le tirage au sort
+> Gestion des tableaux, « Participants du tableau » : icône attention : les deux joueurs ne respectent pas la règle des x16 entre eux, ils ne peuvent donc pas jouer ensemble. L'icône bulle signale un commentaire, l'icône loupe un joueur en recherche de partenaire.
+
+Q bn-047 | D: 1 | R: BADNET gestion-des-tableaux | P: avant
+Dans la colonne Statut des participants d'un tableau, que signifie « R4 » ?
+- La paire est tête de série n° 4
+- La paire est placée dans la poule R, position 4
++ La paire est en liste d'attente en position 4
+- La paire est dans le tableau de qualification, 4e tour
+> Gestion des tableaux, « Gestion de la liste d'attente » : M : la paire est dans le tableau principal ; R4 : la paire est en liste d'attente en position 4 ; Q : la paire est dans le tableau de qualification. Cliquer sur le statut le fait passer au suivant (M-R-Q-M).
+
+Q bn-048 | D: 2 | R: BADNET faq_comment-est-gere-la-liste-dattente-sur-badnet | P: avant
+Lors du tirage au sort d'un tableau, quelles paires BadNet sélectionne-t-il ?
+- Toutes les paires inscrites, y compris la liste d'attente
++ Seulement les paires du tableau principal (statut M) ou qualificatif (statut Q)
+- Seulement les paires ayant payé leur inscription, en ligne ou par un paiement saisi à la main
+- Seulement les paires pointées présentes
+> FAQ BadNet : la liste d'attente est gérée tableau par tableau ; lors du tirage au sort, seules les paires présentes dans le tableau principal (statut M) ou qualificatif (statut Q) sont sélectionnées.
+
+Q bn-049 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Un joueur ne veut plus faire de double. Le GEO utilise Actions > Enlever des participants dans le tableau de double. Quelle conséquence la documentation signale-t-elle ?
+- Le joueur est basculé dans un autre tableau de double de la même série, choisi par BadNet
++ Le joueur ne sera plus inscrit dans la discipline du tableau
+- Le joueur est supprimé de toute la compétition
+- Le joueur est placé en fin de liste d'attente
+> Gestion des tableaux, « Enlever des participants » : attention, les participants enlevés ne seront plus inscrits dans la discipline du tableau ; cette fonctionnalité ne sert qu'à dire qu'un joueur ne fait plus de double par exemple.
+
+Q bn-050 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Dans quel cas la documentation BadNet déconseille-t-elle d'utiliser la création guidée des séries ?
+- Pour un tournoi de double uniquement
++ Pour un tournoi jeunes séparé par catégorie d'âge
+- Pour un tournoi de plus de 100 joueurs, la courbe devenant illisible
+- Pour un tournoi sur deux jours
+> Gestion des tableaux, « Création guidée des séries » : elle peut/doit être utilisée dans 99 % des tournois individuels classiques, quand les joueurs sont mélangés dans toutes les séries par CCPH. Il ne faut pas l'utiliser pour un tournoi jeune dans lequel les joueurs sont séparés par leur catégorie d'âge.
+
+Q bn-051 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Comment préparer une compétition de simple et de double pour utiliser la création guidée des séries ?
+- Créer toutes les séries à l'avance et laisser chaque joueur choisir la sienne
++ Créer un tableau « Oui » par discipline, sans série
+- Créer un seul tableau pour toutes les disciplines
+- Créer les séries après le tirage au sort
+> Gestion des tableaux, « Bien préparer sa création guidée » : il suffit de créer 1 tableau par discipline autorisée (SH, SD, DH, DD pour une compétition de simple et de double) ; les joueurs s'inscrivent dans le tableau sans choisir la série. Ce sont les tableaux Oui - Oui ; la création guidée répartit ensuite les joueurs par CCPH. Les inscriptions doivent être terminées.
+
+Q bn-052 | D: 2 | R: BADNET formation-geo | P: avant
+Que faut-il penser à faire avant de réaliser la création guidée des tableaux ?
+- Envoyer les convocations
++ Mettre à jour le classement des participants
+- Verrouiller l'échéancier
+- Recalculer les frais d'inscription en fonction des matchs des joueurs
+> Formation GEO, « Création guidée » : pensez à mettre à jour le classement des participants avant de réaliser la création guidée des tableaux. La page Gestion des tableaux le rappelle : mettre à jour les CCPH pour avoir une courbe à jour par rapport au règlement de la compétition.
+
+Q bn-053 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Le GEO veut une structure de tableau qui n'existe pas parmi les structures automatiques et choisit la « Formule libre ». Quelle contrainte en découle ?
+- Le tableau ne peut pas être placé dans l'échéancier et ses matchs devront être appelés à la main
++ Le passage d'une phase à l'autre se fera à la main
+- Le tableau est limité à 8 participants
+- Le tableau ne peut pas être affiché sur les écrans déportés
+> Gestion des tableaux, « Structure d'un tableau » : la formule libre permet de définir les différentes phases du tableau, mais elles devront être remplies manuellement d'une phase à une autre : le tirage au sort ne sera pas automatique. Le support Formation GEO ajoute que les formules libres ne sont pas exportées sur Poona.
+
+Q bn-054 | D: 2 | R: BADNET gestion-des-tableaux | P: avant
+Pour la structure « Poule + élimination directe », quel ordre des matchs de poule faut-il laisser en France ?
+- Fixe, pour que les têtes de poule jouent en premier
++ Dynamique : le perdant du 1er match rejoue contre la tête de poule
+- Fixe, pour respecter l'ordre des numéros de matchs prévu dans l'échéancier et sur les convocations
+- Dynamique, pour que le vainqueur du premier match se repose
+> Gestion des tableaux, « Structure d'un tableau » : l'ordre des matchs peut être dynamique ou fixe. En France, il faut laisser dynamique pour que le perdant du premier match rejoue le tour suivant contre la tête de poule.
+
+Q bn-055 | D: 1 | R: BADNET faq_comment-ajouter-un-match-pour-la-troisieme-place-dun-tableau-petite-finale | P: avant
+Le règlement particulier prévoit un match pour la troisième place. Comment le créer dans BadNet ?
+- Ajouter une phase manuelle après les demi-finales
++ Dans la structure Poule + élimination directe, cocher la case Petite finale
+- Ajouter le match à la main dans l'échéancier
+- Créer un tableau séparé pour les demi-finalistes, rempli à la main après les demi-finales
+> FAQ BadNet : dans la structure du tableau, choisir Poule + élimination directe et cocher la case Petite finale pour que le match de la troisième place soit créé et puisse être placé dans l'échéancier.
+
+Q bn-056 | D: 1 | R: BADNET gestion-des-tableaux | P: avant
+Selon quels critères le tirage au sort d'un tableau peut-il séparer les joueurs dans BadNet ?
+- Par catégorie d'âge
++ Par ligue, comité ou club
+- Par date d'inscription
+- Par nationalité uniquement
+> Gestion des tableaux, « Placement des joueurs » : le tirage au sort peut être réalisé en séparant les joueurs par Ligue, comité ou club.
+
+Q bn-057 | D: 2 | R: BADNET formation-geo | P: avant
+Après le tirage au sort, un joueur déclare forfait. Selon le support Formation GEO, que permet l'inversion d'une paire avec une autre dans le placement ?
++ Remplacer le joueur par un joueur inscrit dans un autre tableau
+- Uniquement échanger deux joueurs d'une même poule, sans faire entrer de nouveau joueur
+- Rien : un tableau tiré au sort ne peut plus être modifié
+- Seulement retirer la tête de série de la paire
+> Formation GEO, « Placement des joueurs » : l'inversion d'une paire avec une autre permet, en cas de forfait, de modifier un joueur par un joueur inscrit dans un autre tableau. Elle permet aussi d'inverser A2 et B2 si c'est la volonté du GEO ou du JA.
+
+Q bn-058 | D: 1 | R: BADNET faq_comment-massurer-que-le-tirage-au-sort-na-pas-ete-modifie | P: avant
+Le juge-arbitre veut s'assurer qu'aucun tableau n'a été modifié sans son accord après le tirage au sort. Où regarde-t-il ?
+- Dans l'onglet Matchs du tableau
++ Dans l'onglet Historique du tableau
+- Dans l'onglet Commentaires des inscriptions, où chaque modification est consignée
+- Dans le module Statistiques
+> FAQ BadNet : l'onglet Historique d'un tableau permet de consulter toutes les modifications depuis sa création (ajout de joueurs, tirage au sort, inversions dans les poules). Toutes les actions sont datées, ce qui permet de s'assurer qu'aucune modification n'a été faite sans l'accord du juge-arbitre après le tirage au sort.
+
+Q bn-059 | D: 2 | R: BADNET bien-comprendre-la-regle-des-x16 | P: avant
+BadNet signale qu'un tableau ne respecte pas la règle des x16. Que peut faire l'organisateur ?
+- Rien : BadNet bloque la validation du tableau
++ Valider malgré l'avertissement, au risque d'un refus par Poona s'il y a bien un problème
+- Demander au support BadNet de lever le blocage
+- Valider le tableau uniquement après avoir obtenu l'accord écrit de la FFBaD, qui lève le blocage
+> Bien comprendre la règle des x16 : la règle a été mise en place par la FFBaD ; BadNet a ajouté un contrôle non bloquant. On peut ignorer le warning et valider le tableau, mais si l'on a tort, le tableau peut ne pas être validé par Poona dans le comptage des points.
+
+Q bn-060 | D: 2 | R: BADNET bien-comprendre-la-regle-des-x16 | P: avant
+Un GEO a une question sur l'interprétation de la règle des x16 dans un cas particulier. À qui la documentation BadNet lui conseille-t-elle de s'adresser ?
+- Au support BadNet
++ Au JA de la compétition ou à la FFBaD
+- Au comité départemental de chaque joueur
+- Aux joueurs concernés
+> Bien comprendre la règle des x16 : pour toute question concernant le détail de la règle, il faut demander au JA de la compétition ou à la FFBaD des explications, mais non au support BadNet qui interprète simplement la règle.
+
+Q bn-061 | D: 2 | R: BADNET bien-comprendre-la-regle-des-x16 | P: avant
+Pour le contrôle de la règle des x16 dans BadNet, quels CCPH sont comparés ?
+- La moyenne des CCPH de chaque paire
++ Les CCPH des joueurs, et non la moyenne d'une paire
+- Le CCPH du meilleur joueur de chaque paire uniquement
+- Le total des CCPH de chaque paire
+> Bien comprendre la règle des x16 : nous parlons ici de CCPH des joueurs, et non de la moyenne d'une paire. Certains joueurs ne peuvent donc pas jouer ensemble s'ils ont plus de 16 fois l'écart de CCPH, quels que soient les autres joueurs du tableau.
+
+Q bn-062 | D: 3 | R: BADNET bien-comprendre-la-regle-des-x16 | P: avant
+Quand la règle des x16 n'est pas respectée dans un tableau, quels joueurs BadNet affiche-t-il en rouge ?
+- Les joueurs ayant trop de points par rapport au plus faible
++ Les plus faibles, qui ont moins de 16 fois le nombre de points du plus fort
+- Tous les joueurs du tableau
+- Uniquement le meilleur et le moins bon joueur
+> Bien comprendre la règle des x16 : BadNet a fait le choix d'afficher en rouge les plus faibles qui ne respectent pas la règle, car c'est généralement un joueur moins bien classé qui vient s'intégrer au milieu de joueurs avec un meilleur CCPH. Il reste possible d'enlever les joueurs ayant trop de points ; BadNet n'impose rien.
+
+Q bn-063 | D: 3 | R: BADNET faq_comment-desactiver-la-regle-des-x16-sur-ma-competition | P: avant
+Comment désactiver l'avertissement de la règle des x16 sur une compétition, et pourquoi cela fonctionne-t-il ?
+- En décochant « règle des x16 » dans les réglages sportifs, la règle étant facultative pour les tournois privés
++ En choisissant la nature Championnats, la règle ne s'y appliquant pas
+- En supprimant la date de mise à jour du CPPH
+- Ce n'est pas possible, la règle s'applique à toutes les compétitions
+> FAQ BadNet : le warning n'est jamais bloquant ; on peut le désactiver dans les préférences, onglet Informations générales, en choisissant comme nature Championnats. En effet, selon le RGC, la règle des x16 ne s'applique pas pour les tournois de nature Championnat.
+
+Q bn-064 | D: 2 | R: BADNET comment-preparer-ses-tableaux-en-10-minutes-avec-badnet | P: avant
+Selon l'article « Comment préparer ses tableaux en 10 minutes », quelle est la toute première étape avant toute manipulation des tableaux ?
+- Le tirage au sort automatique
+- La création guidée
++ La mise à jour du CPPH de tous les joueurs participants
+- La génération des structures
+> Comment préparer ses tableaux en 10 minutes : avant toute chose et toute manipulation des tableaux, il faut mettre à jour les CPPH de tous les joueurs (module Tableaux, Actions > Mise à jour CPPH), à la date qui correspond à la déclaration Poona.
+
+Q bn-065 | D: 2 | R: BADNET comment-preparer-ses-tableaux-en-10-minutes-avec-badnet | P: avant
+Que vérifie la popup « Respect du RGC » du module Tableaux avant la mise en place des séries ? (plusieurs réponses)
++ Que tous les joueurs sont licenciés
++ Qu'aucun joueur n'a de sanction
++ Que la compétition est déclarée sur Poona et que son numéro fédéral est renseigné
+- Que tous les joueurs ont payé leur inscription
+> Comment préparer ses tableaux en 10 minutes, étape 2 : la popup Respect du RGC vérifie que la compétition est bien déclarée sur Poona et que le numéro fédéral est renseigné, que tous les joueurs sont licenciés, qu'aucun joueur n'a de sanction et que tous sont à jour à la même date de CPPH.
+
+Q bn-066 | D: 2 | R: BADNET comment-preparer-ses-tableaux-en-10-minutes-avec-badnet | P: avant
+Après la création guidée, il ne reste dans le « SH Oui » que la liste d'attente. Que permet l'icône flèche en bout de ligne de ce tableau ?
+- Tirer au sort le tableau rapidement
++ Ventiler les joueurs restants dans leur série
+- Supprimer le tableau et ses joueurs
+- Fusionner le tableau avec la série 1 en plaçant ses joueurs en fin de liste d'attente
+> Comment préparer ses tableaux en 10 minutes, étape 5 : au niveau du tableau dans lequel il reste des joueurs, l'icône flèche ouvre une popup indiquant dans quelle série sera ventilé chaque joueur ; « Ventiler » les met dans leur nouvelle série tout en recalculant la liste d'attente.
+
+Q bn-067 | D: 2 | R: BADNET comment-preparer-ses-tableaux-en-10-minutes-avec-badnet | P: avant
+Une fois les joueurs restants ventilés après la création guidée, que conseille la documentation de préciser dans le règlement particulier ?
+- Que les tableaux seront publiés 15 jours avant la compétition
++ Qu'une fois les tirages au sort effectués, les listes d'attente se font par tableau
+- Que la règle des x16 ne s'applique pas
+- Que les joueurs en liste d'attente seront remboursés automatiquement
+> Comment préparer ses tableaux en 10 minutes, étape 5 : ventiler permet de passer à une liste d'attente par tableau, plus facile à gérer qu'une liste d'attente générale. Pensez à préciser dans votre règlement particulier qu'une fois les tirages au sort effectués, les listes d'attente se font par tableau.
+
+Q bn-068 | D: 2 | R: BADNET comment-preparer-ses-tableaux-en-10-minutes-avec-badnet | P: avant
+Selon la dernière étape de l'article « Comment préparer ses tableaux en 10 minutes », que faut-il contrôler une fois les tirages au sort réalisés ? (plusieurs réponses)
++ Que la règle des x16 est respectée par l'ensemble des tableaux
++ Que les séries sont continues d'un point de vue CPPH
++ Que les structures des tableaux choisis respectent le RGC
+- Que les convocations ont été ouvertes par tous les joueurs
+> Comment préparer ses tableaux en 10 minutes, étape 8 : vérifier que les structures des tableaux respectent le RGC, que la règle des x16 est respectée par l'ensemble des tableaux et que les séries sont continues d'un point de vue CPPH. Il ne reste ensuite plus qu'à réaliser l'échéancier.
+
+Q bn-069 | D: 1 | R: BADNET faq_comment-verifier-que-ma-competition-respecte-le-rgc | P: avant
+Où le juge-arbitre trouve-t-il l'écran qui affiche les règles du RGC que BadNet peut contrôler, avec un warning rouge pour chaque règle non respectée ?
+- Compétition > Inscriptions > Sanctions
++ Extras > Toolbox > Respect du RGC
+- Réglages > Préférences > Réglages sportifs
+- Extras > Statistiques
+> FAQ BadNet : pour s'assurer que la compétition respecte la plupart des règles du RGC, aller dans Extras > Toolbox > Respect du RGC ; il suffit de vérifier si un warning en rouge est présent pour constater la règle non respectée.
+
+Q bn-070 | D: 1 | R: BADNET faq_comment-savoir-le-nombre-de-matchs-maximum-possible-par-jour-pour-un-joueur | P: avant
+En préparant l'échéancier, le juge-arbitre veut savoir combien de matchs les joueurs effectuent au maximum chaque jour. Où trouve-t-il cette information ?
+- Dans l'onglet Matchs de chaque tableau
++ Dans le module Toolbox, onglet Activités joueurs
+- Dans le module Pointage
+- Dans Extras > Finances
+> FAQ BadNet : rendez-vous sur votre tournoi dans le module Toolbox puis l'onglet Activités joueurs pour savoir combien de matchs effectuent au maximum les joueurs chaque jour de la compétition.
+
+Q bn-071 | D: 2 | R: BADNET faq_comment-generer-un-reglement-particulier-dune-competition-sur-badnet | P: avant
+Le GEO génère le règlement particulier depuis la Toolbox de BadNet. Que précise la FAQ sur ce document ?
+- Il est transmis et validé automatiquement par la ligue lors de la demande d'autorisation
++ C'est un exemple pré-rempli, à modifier par l'organisateur
+- Il remplace le règlement général des compétitions
+- Il ne peut pas être modifié une fois généré
+> FAQ BadNet : depuis le module Toolbox et l'onglet règlement particulier, on peut générer un PDF rempli avec des informations issues de la compétition (tarifs, date limite d'inscription, etc.). Attention, ce règlement est un exemple et doit être modifié pour correspondre aux souhaits de l'organisateur.
+
+Q bn-072 | D: 2 | R: BADNET faq_comment-cacher-les-tableaux-de-ma-competition | P: avant
+Le GEO ne veut pas publier les tableaux avant leur validation par le juge-arbitre. Comment les cacher ?
+- En verrouillant chaque tableau avec le cadenas de la liste des tableaux
++ Dans Réglages > Accueil, en rendant les tableaux invisibles
+- En supprimant le tirage au sort
+- En rendant toute la compétition invisible
+> FAQ BadNet : pour cacher les tableaux (ou toute autre donnée comme l'échéancier ou les inscriptions), se rendre dans Réglages > Accueil puis dans le bloc de droite rendre invisibles les données à cacher. Elles sont cachées à la fois sur ebad et sur BadNet.
+
+# ---------------------------------------------------------------- AVANT : privilèges et droits
+
+Q bn-073 | D: 1 | R: BADNET faq_comment-devenir-juge-arbitre-sur-une-competition | P: avant
+Un juge-arbitre veut suivre depuis son propre compte BadNet la compétition qu'il va diriger. Que doit faire l'organisateur ?
+- Lui communiquer le mot de passe du compte du club
++ L'ajouter en tant que juge-arbitre dans les privilèges de la compétition
+- L'inscrire dans l'onglet Autres inscrits
+- Lui envoyer le code ScorBad
+> FAQ BadNet : pour devenir juge-arbitre sur une compétition, il faut que l'organisateur vous ajoute en tant que juge-arbitre dans Préférences > Gestion des privilèges. La compétition sera alors présente sur votre tableau de bord.
+
+Q bn-074 | D: 1 | R: BADNET faq_pourquoi-je-ne-trouve-pas-un-geo-ja-ou-autre-utilisateur-lors-de-lajout-dun | P: avant
+L'organisateur ne trouve pas le juge-arbitre dans la recherche au moment de lui attribuer le privilège. Quelle en est la cause la plus probable ?
+- Le juge-arbitre n'est pas licencié dans le club organisateur
++ Le juge-arbitre n'a pas encore créé son compte BadNet
+- Le privilège juge-arbitre ne peut être donné qu'après la clôture des inscriptions
+- La compétition n'a pas de numéro Poona
+> FAQ BadNet : le GEO ou le JA doit impérativement avoir créé son compte BadNet AVANT d'être recherché pour lui attribuer le privilège ; sinon, il ne sera pas trouvé lors de la recherche.
+
+Q bn-075 | D: 2 | R: BADNET gestion-des-privileges-et-droits | P: avant
+Quels profils apparaissent dans le tableau « Légende des privilèges » d'une compétition ? (plusieurs réponses)
++ Juge arbitre
++ Gestionnaire
++ Trésorier
+- Capitaine
+> Gestion des privilèges et droits : le module Privilèges (Réglages > Préférences > onglet Privilèges) présente une Légende des privilèges selon les profils : Administrateur, Gestionnaire, Organisateur, Trésorier, Juge arbitre.
+
+Q bn-076 | D: 2 | R: BADNET faq_comment-inverser-le-role-dun-ja-en-ja-adjoint | P: avant
+L'organisateur a donné le privilège juge-arbitre d'abord au JA adjoint, puis au JA principal. Comment BadNet les a-t-il enregistrés et comment corriger ?
+- Dans l'ordre alphabétique ; on corrige dans les privilèges
++ Le premier ajouté est JA principal ; on corrige dans Inscriptions > Officiels
+- Les deux sont JA principaux ; il faut supprimer l'un des deux privilèges puis le redonner en adjoint
+- Le dernier ajouté est JA principal ; rien à corriger
+> FAQ BadNet : lorsque l'on donne les privilèges de juge-arbitre, le premier ajouté est automatiquement le JA principal et le suivant le JA adjoint. Pour inverser, aller dans le module Inscriptions > officiels et utiliser le crayon du juge-arbitre à modifier pour changer son rôle.
+
+Q bn-077 | D: 2 | R: BADNET faq_lorsquun-club-recoit-des-privileges-que-une-competition-est-ce-que-les-geo-du-club | P: avant
+Un club reçoit des privilèges sur une compétition organisée par le comité. Les GEO de ce club en bénéficient-ils automatiquement ?
+- Oui, les privilèges sont transmis à tous les GEO et trésoriers du club
++ Non, l'organisateur doit les donner à chaque acteur
+- Oui, mais seulement pour le module Inscriptions
+- Seulement si le GEO est aussi coach du club
+> FAQ BadNet : les droits ou privilèges ne sont pas affectés en cascade aux GEO ou trésoriers d'un club qui reçoit des privilèges sur une compétition. L'organisateur doit donner les privilèges à tous les acteurs pour qu'ils y aient accès.
+
+Q bn-078 | D: 2 | R: BADNET gestion-des-privileges-et-droits | P: avant
+Depuis le compte d'un club (Mon instance > Privilèges), quelles actions permet le profil GEO ? (plusieurs réponses)
++ Gérer les tournois organisés par le club
++ Gérer et visualiser les équipes d'interclubs
+- Gérer le portefeuille du club
+- Gérer la boutique du club
+> Gestion des privilèges et droits, « Cas d'un club » : GEO : gérer les tournois organisés par le club ; gérer et visualiser les équipes d'interclubs. Le portefeuille relève du Trésorier, la boutique du Responsable boutique.
+
+Q bn-079 | D: 2 | R: BADNET faq_comment-utiliser-plusieurs-ordinateurs-pour-gerer-ma-competition | P: avant
+L'organisateur prévoit deux ordinateurs à la table de marque et un au pointage. Que faut-il prévoir ?
+- Une licence BadNet par ordinateur
++ Utiliser le déroulement en ligne, avec des comptes ayant des privilèges
+- Installer BadNetSource sur chaque ordinateur
+- Ce n'est pas possible : un seul ordinateur peut être connecté au déroulement d'une compétition
+> FAQ BadNet : il est possible d'utiliser plusieurs ordinateurs à la table de marque ou au pointage ; il faut gérer la compétition avec le déroulement en ligne et se connecter avec des comptes ayant accès à la compétition, en pensant à donner des privilèges sur la compétition.
+
+# ---------------------------------------------------------------- AVANT : tests, sauvegarde
+
+Q bn-080 | D: 2 | R: BADNET faq_comment-realiser-des-tests-sur-une-competition | P: avant
+Le GEO veut tester son échéancier et le déroulement sans risque pour la vraie compétition. Que propose BadNet ?
+- Dupliquer la compétition sur le vrai BadNet et la supprimer ensuite
++ La transférer sur test.badnet.org depuis Export Poona > Sauvegarde/Restauration/Test
+- Utiliser BadNetSource en mode hors ligne
+- Créer une copie de la compétition dans ebad
+> FAQ BadNet : on peut cloner la compétition vers le BadNet de test, dans Export Poona > Sauvegarde/Restauration/Test, bouton Transférer sur test.badnet.org. Elle est clonée à l'identique ; son nom est préfixé de la date du jour.
+
+Q bn-081 | D: 3 | R: BADNET faq_comment-realiser-des-tests-sur-une-competition | P: avant
+Le GEO veut vérifier avant le tournoi que ScorBad fonctionne. Que dit la FAQ BadNet ?
+- Le tester sur la compétition clonée sur test.badnet.org, ScorBad y étant connecté
++ Lancer un match sur le vrai BadNet, puis annuler le résultat avant la compétition
+- ScorBad ne peut être testé que pendant la compétition
+- Il faut demander un code ScorBad de test au support
+> FAQ BadNet : ScorBad ne peut pas être testé depuis l'interface de test. Par contre, il est tout à fait possible de lancer un match depuis le déroulement en ligne du vrai BadNet et tester ScorBad, puis annuler le résultat du match avant le début de la compétition.
+
+# ---------------------------------------------------------------- AVANT : échéancier
+
+Q bn-082 | D: 1 | R: BADNET mise-en-place-dun-echeancier | P: avant
+Quelles sont, dans l'ordre, les trois étapes de réalisation d'un échéancier dans BadNet ?
+- Positionner les matchs, déclarer les salles, verrouiller
++ Salles, puis créneaux et répartition des séries, puis matchs salle par salle
+- Tirer au sort, générer les structures, positionner les matchs
+- Paramétrer les créneaux, envoyer les convocations, positionner les matchs dans chaque salle
+> Mise en place d'un échéancier : il faut respecter 3 étapes : déclarer les salles ; paramétrer les créneaux et répartir les séries dans les salles ; pour chaque salle, positionner les matchs dans l'échéancier.
+
+Q bn-083 | D: 2 | R: BADNET mise-en-place-dun-echeancier | P: avant
+Lors de la configuration des créneaux de deux salles, quel paramètre ne doit jamais être identique entre elles ?
+- La couleur de la salle
+- La durée d'un créneau
++ Le premier numéro de match de la salle
+- L'heure de début des matchs
+> Mise en place d'un échéancier, « Configuration des créneaux » : on indique le premier numéro de match de la salle ; il ne faut pas que 2 salles commencent par le même numéro de match.
+
+Q bn-084 | D: 2 | R: BADNET mise-en-place-dun-echeancier | P: avant
+Pendant la répartition des tours, le nombre de matchs affiché pour une salle dépasse ce que permet sa configuration. Que fait BadNet ?
+- Il refuse de placer les tours supplémentaires
++ Il l'indique, mais cette information n'est pas bloquante
+- Il déplace automatiquement les tours dans une autre salle
+- Il allonge automatiquement la journée
+> Mise en place d'un échéancier, « Répartition des tours » : le nombre de matchs dans une salle se met à jour et permet de voir s'il y a trop de matchs par rapport à la configuration. Cette information n'est pas bloquante.
+
+Q bn-085 | D: 1 | R: BADNET faq_comment-verrouiller-lecheancier-une-fois-quil-est-pret | P: avant
+L'échéancier est terminé. Comment éviter qu'une mauvaise manipulation supprime des matchs d'une salle ?
+- En imprimant l'échéancier en PDF
++ En le verrouillant avec le cadenas
+- En rendant l'échéancier invisible
+- En renumérotant l'échéancier
+> FAQ BadNet : on verrouille l'échéancier depuis le module Échéancier en cliquant sur le petit cadenas sous la liste des salles. Une fois verrouillé, il n'est plus possible de le modifier en cliquant sur les tours et les tableaux ; cela évite une mauvaise manipulation. On peut le déverrouiller de la même façon.
+
+Q bn-086 | D: 2 | R: BADNET mise-en-place-dun-echeancier | P: avant
+Dans l'écran de répartition des tours, que signalent les couleurs vert, jaune, orange et rouge ?
+- L'état de remplissage des salles par rapport au nombre de matchs possibles dans la journée
+- Les tableaux non tirés au sort
++ Le temps d'attente entre deux tours
+- Le niveau des séries
+> Mise en place d'un échéancier : les couleurs (vert, jaune, orange, rouge) indiquent le temps d'attente entre deux tours pour identifier d'un coup d'œil une série qui risque d'être trop longue pour les joueurs, ou au contraire deux tours qui s'enchaînent trop vite.
+
+Q bn-087 | D: 2 | R: BADNET mise-en-place-dun-echeancier | P: avant
+Le tirage au sort des séries n'a pas encore été fait. Peut-on déjà réaliser l'échéancier ?
++ Oui, l'échéancier peut être fait avant le tirage
+- Non, BadNet exige que tous les tableaux soient tirés au sort
+- Oui, mais il faudra le refaire entièrement après le tirage, les matchs n'étant pas encore créés
+- Non, sauf avec la génération automatique
+> Mise en place d'un échéancier : l'échéancier peut être réalisé même si le tirage au sort des séries n'a pas été réalisé. Si le tirage a été fait, des couleurs peuvent apparaître indiquant que certains joueurs enchaînent les matchs rapidement.
+
+Q bn-088 | D: 3 | R: BADNET faq_comment-renumeroter-un-echeancier | P: avant
+La compétition a commencé et le GEO modifie l'échéancier. Les numéros de matchs sont-ils mis à jour ?
+- Oui, automatiquement à chaque modification
++ Non, volontairement, à cause de ScorBad
+- Oui, à condition de cliquer sur Actions > Renuméroter échéancier après chaque modification
+- Non, sauf si l'échéancier est déverrouillé
+> FAQ BadNet : Actions > Renuméroter échéancier renumérote tous les matchs par ordre croissant. Une fois la compétition commencée, modifier un échéancier ne met pas à jour les numéros des matchs ; cela est volontaire pour éviter des soucis de synchronisation avec ScorBad.
+
+Q bn-089 | D: 2 | R: BADNET faq_comment-modifier-le-nombre-de-terrain-dun-jour-lautre-pour-une-meme-salle | P: avant
+La salle compte 9 terrains, mais le dimanche seuls 7 seront utilisés. Comment l'indiquer ?
+- Créer une deuxième salle à 7 terrains pour le dimanche
++ Changer le nombre de terrains du dimanche dans l'onglet Échéancier
+- Modifier la salle dans le compte instance
+- Ce n'est pas possible : le nombre de terrains d'une salle est le même tous les jours de la compétition
+> FAQ BadNet : dans Compétitions > Échéancier > onglet échéancier, un select du nombre de terrains est administrable pour chaque journée ; par défaut il reprend le nombre de terrains déclaré pour la salle. On peut aussi le changer depuis les Options du déroulement en ligne.
+
+Q bn-090 | D: 2 | R: BADNET generer-automatiquement-son-echeancier | P: avant | L: JALC JAFA JAFC
+Le GEO teste plusieurs configurations de génération automatique de l'échéancier. À quel moment le résultat est-il réellement écrit dans l'échéancier de la salle ?
+- Dès que la configuration est enregistrée
+- Dès que l'aperçu est généré
++ Uniquement lorsqu'il clique sur « Définir comme échéancier principal »
+- Lorsqu'il clique sur « Enregistrer une version de cet échéancier »
+> Générer automatiquement son échéancier : tant que vous n'avez pas cliqué sur Définir comme échéancier principal, rien n'est écrit dans votre échéancier réel. C'est la seule action qui écrit le résultat ; « Enregistrer une version » sauvegarde une copie sans rien changer à l'échéancier en place.
+
+Q bn-091 | D: 2 | R: BADNET generer-automatiquement-son-echeancier | P: avant | L: JALC JAFA JAFC
+Dans la génération automatique de l'échéancier, le temps de repos entre deux matchs d'un joueur s'exprime en rotations. Qu'est-ce qu'une rotation ?
+- La durée d'un créneau
++ Un tour complet sur l'ensemble des terrains de la salle
+- Le temps entre deux tours d'un même tableau
+- 20 minutes
+> Générer automatiquement son échéancier, « Paramétrage des séries » : le temps de repos minimum/maximum s'exprime en nombre de rotations ; une rotation correspond à un tour complet sur l'ensemble des terrains de la salle. Un curseur permet de basculer l'échelle en minutes.
+
+Q bn-092 | D: 3 | R: BADNET generer-automatiquement-son-echeancier | P: avant | L: JALC JAFA JAFC
+Les séries jeunes doivent être terminées avant que les séries seniors ne commencent (jeunes le matin, seniors l'après-midi). Quelle règle de la génération automatique utiliser ?
+- Hiérarchie du démarrage des séries
++ Séparation des séries
+- Terrains indisponibles
+- Débuter avant
+> Générer automatiquement son échéancier : la Séparation des séries impose que les séries « avant » soient terminées avant le démarrage des séries « après » (répartition matin/après-midi). La Hiérarchie du démarrage impose seulement que les séries « avant » aient été lancées.
+
+# ---------------------------------------------------------------- AVANT : convocations et mails
+
+Q bn-093 | D: 1 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Quel est le délai de convocation « classique » proposé par BadNet ?
+- 30 minutes
++ 60 minutes
+- 45 minutes
+- 90 minutes
+> Gestion de l'envoi des convocations : les délais peuvent être configurés avec un délai classique de convocation (60 minutes) et un délai de convocation du premier tour de la journée.
+
+Q bn-094 | D: 2 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Le premier match est à 8h, le gymnase ouvre à 7h30. Quel réglage évite de convoquer les premiers joueurs à 7h ?
+- Convoquer à l'heure du premier match du tableau
++ Le délai de convocation du premier tour
+- Le lieu de convocation
+- Le délai de repos du déroulement
+> Gestion de l'envoi des convocations : il n'est pas forcément nécessaire de convoquer des joueurs à 7h si le tournoi commence à 8h et que le gymnase ouvre à 7h30 ; on peut saisir 30 minutes pour le délai de convocation du premier tour.
+
+Q bn-095 | D: 2 | R: BADNET faq_pourquoi-les-joueurs-ne-sont-ils-pas-convoques-dans-le-gymnase-dans-lequel-ils | P: avant
+Sur un tournoi à deux gymnases, tous les joueurs sont convoqués dans le même gymnase alors qu'ils jouent dans deux salles. Quelle est la cause ?
+- La salle 2 n'a pas été déclarée active
++ Le champ Lieu de convocation est rempli ; il faut le laisser vide
+- Le premier numéro de match des deux salles est identique
+- Les convocations ont été envoyées aux clubs et non aux joueurs, ce qui regroupe tout le monde dans la salle principale
+> FAQ BadNet : pour qu'un joueur soit convoqué dans le gymnase dans lequel il joue, il faut laisser le champ Lieu de convocation vide (Compétition > Convocations > Réglages). Ce champ sert à convoquer tous les joueurs au même endroit.
+
+Q bn-096 | D: 1 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Combien de textes de convocation différents peut-on rédiger dans BadNet ?
+- Un seul, commun à tous
+- Deux : joueurs et clubs
++ Trois
+- Un par tableau
+> Gestion de l'envoi des convocations : il y a 3 textes de convocations : pour les clubs, pour les joueurs, pour le PDF. Pour chaque texte, des balises sont remplacées lors de l'envoi par les informations du club ou du joueur.
+
+Q bn-097 | D: 2 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Dans le texte de convocation envoyé aux joueurs, quelle balise affiche son inscription en double avec l'horaire de convocation ?
+- [PARTENAIRE_DOUBLE]
++ [TABLEAU_DOUBLE]
+- [CONVOCATIONS]
+- [SOLDE_DETAIL]
+> Gestion de l'envoi des convocations : [TABLEAU_DOUBLE] = inscription en double (tableau + convocation) ; [PARTENAIRE_DOUBLE] = nom et prénom du partenaire de double ; [CONVOCATIONS] et [SOLDE_DETAIL] sont des balises pour les clubs.
+
+Q bn-098 | D: 1 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Avant l'envoi en masse, comment vérifier le contenu et la mise en page d'un mail de convocation ?
+- En envoyant les convocations à un seul tableau
++ Avec le bouton Tester, sur sa propre adresse mail
+- En imprimant le PDF des convocations
+- En consultant l'onglet Historique des inscriptions, qui affiche un aperçu de chaque mail
+> Gestion de l'envoi des convocations, « Tester l'envoi » : on choisit le club ou le joueur, on remplit l'adresse mail d'envoi et on clique sur Tester : un mail de convocation est envoyé avec les informations du joueur ou du club choisi.
+
+Q bn-099 | D: 2 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Seul l'horaire du DD S2 a changé après l'envoi des convocations. Comment ne prévenir que les joueuses concernées ?
+- Renvoyer les convocations à tous les clubs
++ Dans l'envoi aux joueurs, ne cocher que ce tableau
+- Modifier le délai de convocation du premier tour
+- Utiliser la balise [TABLEAU_DOUBLE] dans le texte des clubs pour filtrer les destinataires
+> Gestion de l'envoi des convocations, « Envoyer aux joueurs » : l'envoi fonctionne en choisissant les tableaux à contacter, ce qui évite d'envoyer un mail à tous alors que seul un tableau a été modifié. « Inverser les tableaux cochés » décoche tout pour n'en sélectionner que 1 ou 2.
+
+Q bn-100 | D: 2 | R: BADNET gestion-de-lenvoi-des-convocations | P: avant
+Un joueur se plaint de ne pas recevoir sa convocation par mail. Quelle est, selon la documentation, la cause habituelle ?
+- Un bug d'envoi qu'il faut signaler au support
++ Un choix de sa part dans Mon compte > Réglages
+- Le GEO a oublié de cocher son tableau
+- Les joueurs ne reçoivent jamais de convocation, seuls les clubs en reçoivent
+> Gestion de l'envoi des convocations : certains joueurs ou clubs ne reçoivent pas les convocations ; cela est volontaire de leur part, via une configuration de leur compte BadNet. Pour les recevoir, ils doivent modifier le réglage dans Mon compte > Réglages.
+
+Q bn-101 | D: 2 | R: BADNET formation-geo | P: avant
+Pourquoi le support Formation GEO qualifie-t-il l'envoi des convocations par mail de « quasiment inutile » ?
+- Parce que BadNet n'envoie plus de mails
++ Parce qu'un mail n'est pas mis à jour en cas de changement, contrairement à ebad ou BadNet
+- Parce que la FFBaD interdit désormais l'envoi de convocations par mail pour les compétitions autorisées
+- Parce que les convocations sont envoyées par SMS
+> Formation GEO, « Envoi » : l'envoi des convocations est de moins en moins utilisé et quasiment inutile : en cas de changement, un mail n'est pas mis à jour alors que le compte BadNet ou ebad l'est ; bien souvent les joueurs consultent ebad ou BadNet. Soyez écoresponsable et n'envoyez pas les convocations par mail.
+
+Q bn-102 | D: 2 | R: BADNET les-statuts-de-mails | P: avant
+Dans les statuts de mails, une convocation est indiquée « Délivré ». Qu'est-ce que cela garantit ?
+- Que le joueur a lu sa convocation
+- Que le mail est arrivé dans la boîte de réception et non dans le dossier des spams
++ Que le serveur destinataire a accepté le message
+- Que le joueur a cliqué sur un lien du mail
+> Les statuts de mails : le statut Délivré signifie que le message a bien été envoyé et accepté par le serveur destinataire. Il ne signifie pas forcément que l'email arrivera dans la boîte de réception ; seul le destinataire peut savoir s'il est dans la boîte de réception ou les spams.
+
+# ---------------------------------------------------------------- AVANT : finances utiles au JA
+
+Q bn-103 | D: 2 | R: BADNET ajouter-correctement-un-paiement-sur-ma-competition | P: avant
+Un club paie par chèque les inscriptions de deux de ses trois joueurs. Comment l'enregistrer correctement ?
+- Sur la fiche de chacun des deux joueurs
++ Sur la fiche du club, en répartissant le montant sur les deux joueurs
+- Dans l'onglet Paiements à valider
+- Il n'y a rien à saisir : les paiements par chèque ne sont pas suivis dans BadNet, seuls les paiements en ligne le sont
+> Ajouter correctement un paiement : si un club réalise un paiement, il faut l'ajouter sur la fiche du club en précisant pour quels joueurs il a payé. La répartition évite que des joueurs aient un solde négatif alors que celui du club est à zéro. Seuls les paiements en ligne sont ajoutés automatiquement.
+
+Q bn-104 | D: 2 | R: BADNET formation-geo | P: avant
+Pourquoi faut-il procéder à tous les remboursements avant de reverser les sommes payées en ligne sur le compte bancaire du club ?
++ Parce qu'une fois reversé sur le compte bancaire, un paiement en ligne ne peut plus être remboursé
+- Parce que le reversement clôture définitivement la compétition
+- Parce que le reversement supprime l'historique des paiements
+- Parce que la FFBaD l'exige pour l'export Poona
+> Formation GEO, « Paiements en ligne » : une fois reversé sur son compte bancaire, un paiement en ligne ne peut pas être remboursé. Il faut donc penser à procéder à TOUS les remboursements avant de reverser les sommes payées en ligne.
+
+# ---------------------------------------------------------------- AVANT : interclubs (préparation)
+
+Q bn-105 | D: 2 | R: BADNET gestion-des-matchs-en-or-sur-une-rencontre-dinterclub | P: avant | L: JALC JAFA JAFC
+L'organisateur d'un interclub veut permettre l'ajout d'un match en or pour départager les égalités. Que doit-il faire dans le format des matchs du groupe ?
+- Créer dans la division un groupe supplémentaire réservé aux matchs en or
++ Cocher Autoriser l'ajout, sans ajouter de match à la liste
+- Créer une division spéciale pour les matchs en or
+- Rien : le match en or est toujours disponible
+> Gestion des matchs en or : dans l'onglet Format des matchs du groupe, cocher la case Autoriser l'ajout et enregistrer. Laisser les matchs normaux d'une rencontre, sans ajouter de match en plus : le match en or sera ajouté si besoin sur chaque rencontre, depuis le déroulement en ligne.
+
+Q bn-106 | D: 2 | R: BADNET guide-interclubs | P: avant | L: JALC JAFA JAFC
+Dans le format des rencontres d'un interclub, quelles options BadNet propose-t-il pour désigner le vainqueur d'une rencontre en cas d'égalité ? (plusieurs réponses)
++ Classement général : le meilleur au classement général gagne la rencontre
++ Match décisif : le vainqueur d'un match noté décisif remporte la rencontre
++ Égalité autorisée : aucun vainqueur, match nul
+- Tirage au sort par le juge-arbitre
+> Support Interclubs, « Format des rencontres » : il permet de configurer le vainqueur d'une rencontre en cas d'égalité : classement général, match décisif ou égalité autorisée (match nul).
+
+Q bn-107 | D: 2 | R: BADNET exporter-les-resultats-dinterclub-sur-poona | P: avant | L: JALC JAFA JAFC
+Pour l'export Poona d'un interclub, à quoi correspond une division dans BadNet ?
+- À une rencontre dans Poona
+- À un groupe (poule) dans Poona
++ À un numéro d'autorisation dans Poona
+- À une journée de championnat
+> Exporter les résultats d'interclub sur Poona : une division dans BadNet correspond à un numéro d'autorisation dans Poona. Un numéro de dossier Poona est unique et ne peut pas être utilisé sur plusieurs divisions ; il faut donc déclarer autant de compétitions que de divisions ou regrouper les divisions.
+
+Q bn-108 | D: 2 | R: BADNET importer-ses-rencontres-dinterclub-laide-dun-fichier-csv | P: avant | L: JALC JAFA JAFC
+Que permet l'import d'un fichier CSV de rencontres d'interclubs ? (plusieurs réponses)
++ Positionner le JA sur la rencontre, s'il est précisé dans le fichier
++ Positionner la rencontre à la bonne date et à la bonne heure
++ Créer les équipes
+- Saisir les compositions d'équipe
+> Importer ses rencontres d'interclub à l'aide d'un fichier CSV : l'import permet de créer les équipes, les positionner dans les divisions et groupes, positionner la rencontre à la bonne date et heure, positionner le JA (s'il est précisé), positionner la rencontre dans le bon gymnase et mettre à jour IcBad.
+
+Q bn-109 | D: 2 | R: BADNET guide-interclubs | P: avant | L: JALC JAFA JAFC
+Une sanction automatique d'interclub a été supprimée avec l'icône poubelle. Que se passe-t-il au prochain contrôle de la rencontre ?
+- Elle reste supprimée définitivement
++ Elle est ajoutée à nouveau
+- Elle est transformée en sanction manuelle, que l'organisateur doit valider ou supprimer
+- Elle est transformée en bonus
+> Support Interclubs, « Sanctions automatiques » : à l'issue d'une rencontre, des sanctions automatiques sont générées selon le réglage de conformité ; elles peuvent modifier le vainqueur et être supprimées avec la poubelle. À chaque nouveau contrôle d'une rencontre, les sanctions automatiques, même si supprimées, sont ajoutées.
+
+Q bn-110 | D: 2 | R: BADNET faq_comment-mettre-une-equipe-forfait-sur-une-rencontre-ou-toute-la-competition | P: avant | L: JALC JAFA JAFC
+Une équipe d'interclubs abandonne le championnat. Comment l'enregistrer dans BadNet ?
+- En la déclarant forfait pour toute la compétition en un clic depuis la fiche de l'équipe
++ En la mettant forfait à chaque rencontre, depuis la fiche de la rencontre
+- Depuis le déroulement en ligne de chaque rencontre
+- En supprimant l'équipe de la division
+> FAQ BadNet : il n'est pas possible de mettre une équipe forfait pour toute la compétition (cela fausserait le classement) ; il faut la mettre forfait à chaque rencontre, depuis la fiche de la rencontre côté administration, Actions > Modifier les matchs. Cela ne peut pas être fait depuis le déroulement en ligne.
+
+# ---------------------------------------------------------------- PENDANT : déroulement en ligne
+
+Q bn-111 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Entre la fin de l'échauffement et le début du match, un terrain clignote et une alerte sonore retentit. À quoi cela sert-il ?
+- À signaler que la tablette ScorBad est déconnectée
++ À indiquer à la table d'annoncer la fin de l'échauffement
+- À signaler qu'un joueur du match est absent
+- À indiquer que le match dépasse sa durée moyenne
+> Gestion du déroulement en ligne : entre le passage de l'échauffement au début du match, le terrain clignote pour indiquer à la table d'annoncer la fin de l'échauffement ; une alerte sonore retentit également.
+
+Q bn-112 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Un match a été lancé par erreur sur le terrain 4. Comment l'annuler depuis le déroulement ?
+- Avec la flèche de retour du crayon d'édition
++ En mettant le terrain à 0 dans le choix du terrain
+- En supprimant le match de l'échéancier
+- En le déclarant WO
+> Gestion du déroulement en ligne : le choix du terrain permet de lancer le match sur le terrain souhaité ; mettre à 0 le terrain permet d'annuler un match.
+
+Q bn-113 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Que permet le crayon d'édition d'un match dans le déroulement en ligne ? (plusieurs réponses)
++ Saisir un abandon (Ab) ou un WO
++ Saisir le nombre de volants
++ Modifier l'heure de début et de fin du match
+- Remplacer un joueur par un joueur d'un autre tableau
+> Gestion du déroulement en ligne : le crayon d'édition ouvre le match en mode saisie du score ; il permet de saisir un abandon (Ab) ou un Wo, le nombre de volants, de modifier l'heure de début et de fin, et donne accès à une flèche de retour pour annuler le résultat.
+
+Q bn-114 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Le juge-arbitre veut enregistrer un carton infligé pendant un match. Quelle action du déroulement utiliser ?
+- L'icône utilisateur avec cravate
++ L'icône attention du match
+- Le crayon d'édition du match
+- L'onglet Sanctions des inscriptions
+> Gestion du déroulement en ligne : l'icône attention permet d'ajouter un incident de match en choisissant l'officiel, la sanction et le joueur concerné. L'icône utilisateur avec cravate sert à affecter un arbitre et un juge de service.
+
+Q bn-115 | D: 2 | R: BADNET faq_comment-affecter-un-juge-de-ligne-sur-un-match | P: pendant
+Le juge-arbitre veut placer des juges de ligne sur la finale, mais l'icône œil n'apparaît pas sur les matchs. Pourquoi ?
+- Le match n'est pas encore lancé
++ Aucun juge de ligne n'a été ajouté sur la compétition
+- La finale n'a pas d'arbitre affecté
+- Les juges de ligne ne peuvent être affectés qu'en interclubs, pas en tournoi individuel
+> FAQ BadNet : depuis le déroulement en ligne, l'icône d'œil d'un match ouvre une popup pour ajouter des juges de ligne. Pour que l'œil soit disponible, au moins un juge de ligne doit être ajouté sur la compétition depuis le module Inscriptions > Officiels.
+
+Q bn-116 | D: 1 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Quelles sont les valeurs par défaut du temps de repos et du temps d'échauffement dans les options du déroulement ?
+- 15 minutes de repos et 120 secondes d'échauffement
++ 20 minutes de repos et 180 secondes d'échauffement
+- 20 minutes de repos et 120 secondes d'échauffement
+- 30 minutes de repos et 180 secondes d'échauffement
+> Gestion du déroulement en ligne, « Les options du déroulement » : le temps de repos (par défaut de 20 minutes) et le temps d'échauffement (par défaut 180 secondes) peuvent être modifiés.
+
+Q bn-117 | D: 1 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Le GEO veut afficher sur la fiche publique BadNet et sur ebad un message comme « la buvette est ouverte ». Quelle option du déroulement utiliser ?
++ Info minute
+- Point de rassemblement
+- Affichage > Tableaux
+- Le module Communication
+> Gestion du déroulement en ligne : Info minute permet d'afficher une information sur la fiche publique de BadNet et sur ebad, pour indiquer au public ou aux joueurs certaines informations (buvette prête, recherche de joueur, convocations, etc.).
+
+Q bn-118 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Quelle information du menu supérieur du déroulement permet au juge-arbitre de mesurer le retard pris sur l'échéancier ?
+- Le choix du créneau
++ La durée moyenne et l'avance/retard
+- Le nombre de matchs terminés
+- L'icône de batterie des terrains
+> Gestion du déroulement en ligne : « Durée moyenne et avance/retard » affiche la durée moyenne des matchs terminés et l'avance ou le retard par rapport au dernier match lancé et à son heure théorique.
+
+Q bn-119 | D: 2 | R: BADNET faq_pourquoi-est-ce-que-je-ne-peux-pas-lancer-un-match-sur-un-terrain | P: pendant
+La table de marque ne parvient pas à lancer un match sur un terrain libre. Quelles peuvent en être les causes ? (plusieurs réponses)
++ Un des joueurs du match n'est pas pointé présent
++ Le match n'est pas complet : par exemple une demi-finale dont une seule paire est connue
+- La tablette ScorBad du terrain est déchargée
+- L'échéancier est verrouillé
+> FAQ BadNet : pour lancer un match, il faut que le match soit complet (tous les joueurs renseignés ; impossible de lancer une demi-finale dont une seule paire est connue) et que tous les joueurs soient pointés présents (cliquer sur le nom d'un joueur absent, cocher Présent et Enregistrer).
+
+Q bn-120 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+À la table de marque, le juge-arbitre veut modifier une sortie de poule sans quitter l'écran des terrains. Quelle action du déroulement utilise-t-il ?
+- Le module Tableaux, onglet Placements
++ Le bouton Sortie de poule du menu supérieur du déroulement
+- Le crayon d'édition du dernier match de la poule
+- Actions > Refaire le TAS
+> Gestion du déroulement en ligne : « Sortie de poule » permet d'afficher et de modifier directement depuis le déroulement une sortie de poule, tout en gardant les terrains à l'écran. Le support Formation GEO montre qu'on peut y inverser deux joueurs ou tirer à nouveau au sort.
+
+Q bn-121 | D: 2 | R: BADNET formation-geo | P: pendant
+Le dernier match des poules d'un tableau vient d'être saisi. Que fait BadNet pour la phase suivante ?
+- Rien : le juge-arbitre doit lancer le tirage au sort dans le module Tableaux
++ Il fait automatiquement le tirage au sort, modifiable depuis le déroulement
+- Il envoie le tirage par mail aux joueurs qualifiés
+- Il publie aussitôt le tableau final sur ebad, sans possibilité de modification par le juge-arbitre
+> Formation GEO, « Tirage au sort automatique » : à la fin des matchs de poules, le tirage au sort est réalisé automatiquement par BadNet ; une popup s'ouvre pour afficher le TAS au format PDF pour impression. Il est possible de le modifier directement depuis le déroulement en ligne.
+
+Q bn-122 | D: 1 | R: BADNET gestion-du-deroulement-en-ligne | P: pendant
+Quel écran déporté affiche les prochains matchs qui vont être lancés, avec les arbitres s'ils sont positionnés ?
+- Prochain match
+- Matchs en cours
++ Point de rassemblement
+- Derniers résultats
+> Gestion du déroulement en ligne, « Affichage » : Prochain match affiche le numéro du prochain match ; Matchs en cours, l'ensemble des matchs en cours ; Point de rassemblement, les prochains matchs qui vont être lancés, avec les arbitres s'ils sont positionnés ; Derniers résultats, les résultats des derniers matchs terminés.
+
+Q bn-123 | D: 2 | R: BADNET faq_est-il-possible-dutiliser-plusieurs-ordinateurs-pour-gerer-ma-competition-en-meme | P: pendant
+Deux ordinateurs sont connectés à la table de marque et un au pointage. Quels modules se mettent à jour automatiquement sur tous les postes ?
+- Tous les modules sans exception
++ Le déroulement en ligne et le pointage
+- Aucun : il faut rafraîchir la page sur chaque poste
+- Seulement le module Tableaux
+> FAQ BadNet : les modules Déroulement en ligne et Pointage sont connectés : une modification sur un ordinateur est transmise automatiquement à tous les ordinateurs connectés à ces modules. Pour les autres modules, il faut rafraîchir la page.
+
+# ---------------------------------------------------------------- PENDANT : pointage
+
+Q bn-124 | D: 1 | R: BADNET utilisation-du-module-pointage | P: pendant
+Un joueur arrive au gymnase. Comment le bénévole du pointage le rend-il présent dans le module Pointage ?
+- En cochant son nom dans le déroulement puis en lançant son match
++ Avec le « + » de la colonne Action ; le « x » le rend absent
+- En scannant le QR code de l'affiche de pointage
+- En validant son inscription dans l'onglet En attente
+> Utilisation du module Pointage : pour mettre un joueur présent ou absent, on utilise la colonne « Action » et le « + » ou le « x ». Le joueur est directement mis à jour dans le Déroulement : la table de marque sait qu'il est dans la salle et peut lancer son match.
+
+Q bn-125 | D: 2 | R: BADNET faq_comment-gerer-le-pointage-des-joueurs-avec-un-lecteur-de-code-barre | P: pendant
+Lors du pointage au lecteur de code barre, quels supports le joueur peut-il présenter ? (plusieurs réponses)
++ Le code barre de l'application mobile ebad
++ Une accréditation papier générée avec le module Accréditation de BadNet
+- Sa licence imprimée depuis Poona
+- Le QR code de l'affiche de pointage autonome
+> FAQ BadNet : le code barre peut être présenté depuis l'application mobile ebad ou depuis une accréditation papier générée avec le module Accréditation de BadNet ; il est scanné avec un lecteur USB, BadNet étant ouvert sur le module pointage.
+
+Q bn-126 | D: 2 | R: BADNET formation-geo | P: pendant
+Au pointage, un joueur règle son solde par chèque. Que permet le contrôle du solde du module Pointage ?
++ Pointer le joueur et saisir son paiement en un clic
+- Encaisser le chèque en ligne
+- Bloquer le pointage du joueur tant que le chèque n'a pas été encaissé par le trésorier
+- Envoyer automatiquement un reçu au club
+> Formation GEO, « Pointage » : le contrôle du solde permet de pointer un joueur et de renseigner en 1 clic un paiement sur sa fiche à l'aide d'une pop-up, si le joueur donne un chèque lorsqu'il se pointe par exemple.
+
+Q bn-127 | D: 1 | R: BADNET pointage-autonome-des-joueurs-dans-la-salle | P: pendant
+Comment fonctionne le pointage autonome des joueurs ?
+- Les joueurs saisissent leur numéro de licence sur une tablette ScorBad placée à l'entrée du gymnase
++ Le joueur scanne avec ebad le QR code d'une affiche
+- Le joueur envoie un SMS à la table de marque
+- Le joueur est pointé dès qu'il ouvre sa convocation sur ebad
+> Pointage autonome des joueurs dans la salle : une affiche est générée par BadNet avec un QR Code de pointage ; disposée aux entrées du gymnase, elle est scannée par le joueur avec son application ebad : il est alors pointé automatiquement présent sur la compétition.
+
+Q bn-128 | D: 2 | R: BADNET pointage-autonome-des-joueurs-dans-la-salle | P: pendant
+Où le GEO génère-t-il l'affiche de pointage autonome, et que faut-il surveiller sur un tournoi à deux gymnases ?
+- Dans le module Pointage ; une seule affiche suffit pour tous les gymnases
++ Dans Toolbox > Impressions ; une affiche par gymnase
+- Dans Compétition > Convocations ; l'affiche est envoyée par mail
+- Dans Réglages > Promotion / Affiche ; l'affiche est commune
+> Pointage autonome : pour générer l'affiche, aller dans le module Toolbox > Impressions puis cliquer sur Pointage autonome de la salle concernée. S'il y a plusieurs gymnases, il faut imprimer une affiche différente par gymnase ; le nom du gymnase figure sur l'affiche.
+
+Q bn-129 | D: 2 | R: BADNET pointage-autonome-des-joueurs-dans-la-salle | P: pendant
+Un joueur scanne le QR code de pointage le vendredi soir, la veille de la compétition. Que se passe-t-il ?
+- Il est pointé présent pour le samedi
++ Rien, le scan ne fonctionne que pendant la compétition
+- Il est pointé présent pour tous les jours de la compétition dans le gymnase scanné
+- Son inscription est validée
+> Pointage autonome, « Tester le pointage avec ebad » : le pointage autonome ne fonctionnera que si le QR Code est scanné pendant la compétition ; le joueur est pointé en fonction du jour dans la salle choisie. Pour tester, on peut le faire le jour de la compétition, avant le début.
+
+# ---------------------------------------------------------------- PENDANT : forfaits
+
+Q bn-130 | D: 1 | R: BADNET gestion-des-forfaits-pour-un-tournoi-individuel | P: pendant
+Dans BadNet, quelle différence fait-on entre un forfait volontaire (wo) et un forfait involontaire (abandon) ?
+- Le forfait volontaire concerne un seul tableau, alors que le forfait involontaire vaut pour toute la compétition
++ Le volontaire, sans justificatif, sera sanctionné ; l'involontaire, justifié, non
+- Le forfait volontaire est déclaré par le joueur, l'involontaire par le juge-arbitre
+- Il n'y a pas de différence dans BadNet
+> Gestion des forfaits : forfait volontaire (wo) : le joueur devra être sanctionné car il n'a pas fourni de justificatif ; forfait involontaire (abandon) : le joueur a fourni un justificatif valide, il ne sera pas sanctionné ; forfait à justifier : le justificatif doit être fourni par le joueur.
+
+Q bn-131 | D: 1 | R: BADNET gestion-des-forfaits-pour-un-tournoi-individuel | P: pendant
+Un joueur déclaré forfait sur toute la compétition apparaît en rouge avec la mention [Aj] dans le déroulement. Quel type de forfait a été enregistré ?
+- Forfait volontaire
+- Forfait involontaire (abandon)
++ Forfait à justifier
+- Abandon en cours de match
+> Gestion des forfaits : une fois le forfait renseigné, le joueur apparaît en rouge dans le déroulement avec la mention [wo] (forfait volontaire), [Ab] (forfait involontaire) ou [Aj] (forfait à justifier), pour l'ensemble de la compétition.
+
+Q bn-132 | D: 2 | R: BADNET gestion-des-forfaits-pour-un-tournoi-individuel | P: pendant
+Le juge-arbitre doit déclarer un joueur forfait pour toute la compétition. D'où peut-il le faire ? (plusieurs réponses)
++ Depuis le déroulement, en cliquant sur le nom du joueur
++ Depuis la fiche complète du joueur, partie forfait
+- Depuis l'onglet Placements de chacun de ses tableaux
+- Depuis le module Convocations
+> Gestion des forfaits, « Forfait complet » : on le fait dans la fiche complète du joueur (accessible par la barre de recherche générale ou Compétitions > Inscriptions > onglet joueurs), partie forfait, avec type, date et commentaire ; ou depuis le déroulement en cliquant sur le nom du joueur, qui ouvre une popup.
+
+Q bn-133 | D: 2 | R: BADNET gestion-des-forfaits-pour-un-tournoi-individuel | P: pendant
+Un joueur blessé déclare forfait pour son double mais veut jouer son simple. Comment le juge-arbitre l'enregistre-t-il ?
+- Dans la fiche complète du joueur, partie forfait, en choisissant le type de forfait
++ Dans l'onglet Participants du tableau de double, case wo
+- Depuis le déroulement en cliquant sur son nom
+- En supprimant le joueur de la compétition
+> Gestion des forfaits, « Forfait spécifiquement sur un tableau » : la déclaration se fait au niveau du tableau concerné (Compétitions > Tableaux, onglet Participants, éditer le joueur, cocher wo et une date si besoin). Le joueur est marqué forfait uniquement sur ce tableau ; la fiche joueur et le déroulement déclarent un forfait sur toute la compétition.
+
+Q bn-134 | D: 1 | R: BADNET gestion-des-forfaits-pour-un-tournoi-individuel | P: pendant
+Où le juge-arbitre retrouve-t-il le récapitulatif des forfaits de la compétition, dans l'espace qui lui est dédié ?
+- Dans Compétition > Pointage
++ Dans Compétitions > Extras > Juge-arbitre, bloc forfaits
+- Dans Extras > Finances
+- Dans l'onglet Historique des tableaux
+> Gestion des forfaits, « Récapitulatif des forfaits » : tous les forfaits sont listés dans Compétitions > Inscriptions > onglet forfaits ; le juge-arbitre les retrouve dans Compétitions > Extras > Juge-arbitre, au niveau du bloc forfaits.
+
+# ---------------------------------------------------------------- PENDANT : ScorBad
+
+Q bn-135 | D: 2 | R: BADNET utilisation-de-scorbad-sur-une-competition | P: pendant
+Pour connecter une tablette ScorBad à une compétition individuelle, quelles informations faut-il, et lesquelles sont confidentielles ?
+- Le numéro de licence du juge-arbitre, confidentiel
++ Le numéro de compétition (public) et le code ScorBad (confidentiel)
+- Le code ScorBad seul, communiqué à tous les joueurs
+- Le numéro Poona de la compétition (public) et le mot de passe du compte club (confidentiel)
+> Utilisation de ScorBad : le numéro de compétition et le code ScorBad sont disponibles dans le déroulement en ligne, en haut à droite. Le numéro de tournoi est public ; le code ScorBad est confidentiel et ne doit pas être partagé avec les joueurs, pour éviter qu'ils connectent leur propre matériel et saisissent les scores.
+
+Q bn-136 | D: 2 | R: BADNET utilisation-de-scorbad-sur-une-competition | P: pendant
+En auto-arbitrage avec ScorBad en mode Saisie en fin de match, combien de terrains au maximum la documentation conseille-t-elle de confier à une tablette ?
+- 4
++ 7
+- 10
+- Tous les terrains de la salle, sans limite
+> Utilisation de ScorBad : il est conseillé d'utiliser une tablette pour 7 terrains en auto-arbitrage maximum ; au-delà, il peut y avoir de l'attente lors de la saisie du score.
+
+Q bn-137 | D: 2 | R: BADNET faq_peut-lancer-un-match-alors-que-le-score-na-pas-encore-ete-saisi-sur-la-tablette | P: pendant
+Un match vient de se terminer sur le terrain 2 mais les joueurs n'ont pas encore saisi le score sur la tablette. Peut-on lancer le match suivant sur ce terrain ?
+- Non, BadNet bloque le terrain jusqu'à la saisie du score
++ Oui, la tablette proposera d'abord le match terminé
+- Oui, mais le score du match précédent sera perdu
+- Oui, à condition de saisir d'abord le score du match terminé dans le déroulement à la table de marque
+> FAQ BadNet : il est possible de lancer un match au moment où le précédent est terminé même si le score n'a pas été rentré sur la tablette ; BadNet enverra le match qui vient de se terminer pour la saisie du score et n'enverra pas le nouveau match lancé. La documentation ScorBad précise que cela permet de bien gérer les temps d'échauffement et de repos.
+
+Q bn-138 | D: 2 | R: BADNET utilisation-de-scorbad-sur-une-competition | P: pendant
+En arbitrage avec ScorBad, un match a été lancé sur le mauvais terrain. Que faut-il faire sur la tablette de ce terrain ?
++ Quitter le mauvais match sur la tablette
+- Rien : la tablette se met à jour seule
+- Saisir un score fictif puis l'annuler dans BadNet
+- Déconnecter puis reconnecter la tablette à la compétition
+> Utilisation de ScorBad : si un match est lancé sur un mauvais terrain, il faut aller sur la tablette du mauvais terrain pour quitter le mauvais match ; la tablette repasse alors en attente. Sinon, le prochain match lancé sur la tablette ne sera pas reçu.
+
+Q bn-139 | D: 1 | R: BADNET faq_comment-faire-si-un-joueur-se-trompe-lors-de-la-saisie-du-score-sur-scorbad | P: pendant
+Un joueur s'aperçoit qu'il a saisi un mauvais score sur la tablette ScorBad en fin de match. Que doit-il faire ?
+- Ressaisir le score sur la tablette
++ Aller voir la table de marque, qui corrige le score
+- Demander à l'arbitre de refaire jouer le dernier set
+- Saisir le bon score sur ebad
+> FAQ BadNet : il doit aller voir directement la table de marque, qui pourra réaliser la modification du score depuis le déroulement en ligne de BadNet ; c'est la même situation qu'une erreur sur une feuille de score papier.
+
+# ---------------------------------------------------------------- PENDANT : interclubs (JA et table de marque)
+
+Q bn-140 | D: 1 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Comment le juge-arbitre d'une rencontre d'interclubs accède-t-il à l'interface de déroulement de la rencontre ?
+- Avec le code secret du capitaine recevant
++ Par son compte juge-arbitre, bouton Déroulement de la rencontre
+- Avec le code ScorBad de la rencontre
+- Uniquement depuis le compte du club organisateur, le juge-arbitre n'ayant pas d'accès personnel
+> Gestion déroulement interclubs table de marque et juge-arbitre, « Préalables » : il faut se connecter sur son compte juge-arbitre en tant qu'officiel de la rencontre, ou sur le compte club en tant qu'organisateur de la journée, puis cliquer sur Déroulement de la rencontre depuis le tableau de bord.
+
+Q bn-141 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Dans le bloc d'une rencontre d'interclubs, un bouton d'action est orange. Qu'est-ce que cela signifie pour le juge-arbitre ?
+- L'action n'est pas encore disponible
+- On attend la validation du ou des capitaines
++ Une action de la table de marque ou du JA est attendue
+- L'action est terminée et validée
+> Gestion déroulement interclubs : gris : action pas encore disponible ; blanc : action disponible, pas d'action à faire ; jaune : en attente de la validation du ou des capitaines ; orange : en attente d'une action de la table de marque ou du JA ; vert : action terminée, validée.
+
+Q bn-142 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Le capitaine visiteur n'a pas reçu ses codes d'accès à l'interface capitaine. Que peut faire le juge-arbitre le jour même ?
+- Lui donner son propre code juge-arbitre
++ Lui envoyer le code par la roue de réglages de la rencontre
+- Lui demander de créer un nouveau compte BadNet
+- Saisir lui-même l'effectif et la composition de l'équipe, sans code, à la place du capitaine absent de l'interface
+> Gestion déroulement interclubs, « Codes des capitaines » : les capitaines reçoivent normalement leurs accès par mail deux jours avant la rencontre. Sinon, l'icône roue de réglages permet de cliquer sur Codes interface capitaine et de choisir la personne qui recevra le code. Cette icône reste rouge tant que les deux capitaines ne se sont pas connectés.
+
+Q bn-143 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Au pointage de l'effectif d'une équipe d'interclubs, quels statuts le juge-arbitre peut-il attribuer à un joueur ? (plusieurs réponses)
++ Présent
++ Absent
++ Sans justificatif
+- Remplaçant
+> Gestion déroulement interclubs, « Effectif et pointage » : l'icône + fait passer le joueur de En attente à Présent ; le menu déroulant permet aussi de noter le joueur Présent, Absent ou Sans justificatif.
+
+Q bn-144 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Le bouton Valider de l'effectif d'une équipe d'interclubs reste non cliquable. Pourquoi ?
+- Le capitaine adverse n'a pas encore validé son effectif
++ Un des membres de l'effectif a encore le statut En attente
+- La composition d'équipe n'a pas été saisie
+- Le juge-arbitre n'a pas été désigné sur la rencontre
+> Gestion déroulement interclubs, « Effectif et pointage » : pour poursuivre, il faut valider l'effectif ; ce bouton reste non cliquable tant qu'un des membres de l'effectif a un statut En attente. Une fois validé, le bouton Effectif passe au vert.
+
+Q bn-145 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Les deux compositions d'équipe sont saisies et le bouton composition est orange. Que permet le bouton Contrôler avant validation ?
+- De comparer les points des deux équipes
++ De vérifier les erreurs de placement des capitaines
+- De vérifier les licences des joueurs
+- De tirer au sort l'ordre des matchs
+> Gestion déroulement interclubs, « Compositions d'équipe » : avant de valider, on peut contrôler la composition avec le bouton Contrôler, afin de vérifier que les capitaines n'ont pas fait d'erreur de placement dans les matchs. La validation porte sur les deux compositions en même temps.
+
+Q bn-146 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Les capitaines n'arrivent pas à se mettre d'accord sur l'ordre des matchs. Que permet le bouton Ordre aléatoire du juge-arbitre ?
++ Un ordre au hasard tenant compte des temps de pause
+- Tirer au sort le capitaine qui choisit l'ordre
+- Reprendre l'ordre par défaut défini dans le format des matchs du groupe, sans tenir compte des pauses
+- Inverser l'ordre proposé par le capitaine recevant
+> Gestion déroulement interclubs, « Ordre des matchs » : si les capitaines ne trouvent pas d'entente, le JA peut déterminer un ordre au hasard avec le bouton Ordre aléatoire ; cet ordre tient compte des temps de pause nécessaires. L'Ordre avancé permet de placer certains matchs selon des demandes particulières.
+
+Q bn-147 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Le temps presse et les capitaines ne se sont pas concertés sur un ordre commun. Le juge-arbitre peut-il fixer l'ordre des matchs ?
+- Non, il doit attendre la proposition d'ordre commun
++ Oui, sans attendre les capitaines
+- Oui, mais seulement avec l'accord écrit de l'organisateur
+- Non, seul le capitaine recevant peut fixer l'ordre
+> Gestion déroulement interclubs, « Ordre des matchs » : lorsque les contraintes temporelles ne permettent pas une concertation des capitaines, il est tout à fait possible de valider un ordre de match définitif sans attendre leur proposition d'ordre commun. C'est au JA de vérifier la cohérence de l'ordre, notamment pour les temps de récupération.
+
+Q bn-148 | D: 2 | R: BADNET gestion-deroulement-interclubs-table-de-marque-et-juge-arbitre | P: pendant
+Le dernier match d'une rencontre d'interclubs est saisi. Dans quel ordre la validation des résultats se déroule-t-elle ?
+- Le JA valide d'abord, puis les capitaines
++ Les capitaines valident, puis le JA
+- L'organisateur de la division valide seul après la rencontre, au vu des feuilles transmises par le JA
+- La validation est automatique dès la saisie du dernier score
+> Gestion déroulement interclubs, « Validation et envoi des résultats » : après le dernier score, le bouton éclair passe au jaune : les capitaines valident ; puis il passe à l'orange : c'est au JA de valider après vérification. Au vert, les documents sont envoyés automatiquement à l'instance organisatrice, aux capitaines et au juge-arbitre.
+
+Q bn-149 | D: 2 | R: BADNET gestion-des-matchs-en-or-sur-une-rencontre-dinterclub | P: pendant
+Deux équipes sont à égalité et le règlement prévoit un match en or (ajout autorisé par l'organisateur). Comment l'ajouter depuis le déroulement en ligne de la rencontre ?
++ Cliquer sur l'icône Trophée et choisir la discipline
+- Ajouter un match dans le format des matchs du groupe
+- Cliquer sur l'icône éclair de la rencontre
+- Demander aux capitaines de l'ajouter depuis leur interface, au moment de la validation de la rencontre
+> Gestion des matchs en or : depuis le déroulement en ligne d'une rencontre, cliquer sur l'icône Trophée pour ajouter un match en or de la discipline souhaitée (selon l'accord des capitaines et le règlement), puis ouvrir la popup de composition et renseigner les joueurs. Un match en or ajouté par erreur se supprime avec l'icône Poubelle.
+
+Q bn-150 | D: 2 | R: BADNET espace-interclubs-dedie-capitaine | P: pendant
+Dans un interclub avec table de marque, un capitaine a validé sa composition puis un joueur se blesse. Qui peut modifier la composition ?
+- Le capitaine, depuis son interface
+- Le capitaine adverse, avec son code
++ La table de marque
+- Personne, la composition est définitive
+> Espace interclubs dédié capitaine : dans les interclubs avec table de marque, une fois la composition validée, le capitaine ne peut plus la modifier ; tout ajustement, lié par exemple à une blessure, doit se faire par la table de marque. Sans table de marque, les modifications des capitaines sont enregistrées.
+
+Q bn-151 | D: 2 | R: BADNET espace-interclubs-dedie-capitaine | P: pendant
+Dans un interclub avec juge-arbitre, l'ordre commun saisi par les deux capitaines est-il l'ordre final des matchs ?
+- Oui, le juge-arbitre ne peut pas le modifier
++ Non, le juge-arbitre peut l'ajuster
+- Oui, dès lors qu'il a été validé par les deux capitaines sur leur interface
+- Non : l'ordre final est toujours tiré au sort
+> Espace interclubs dédié capitaine, « Ordre définitif » : avec table de marque et plus particulièrement avec juge-arbitre, l'ordre commun n'est pas l'ordre final ; le juge-arbitre peut le valider ou l'ajuster, et peut même établir un ordre avant que les capitaines se soient concertés.
+
+# ---------------------------------------------------------------- APRÈS : export, résultats, palmarès
+
+Q bn-152 | D: 1 | R: BADNET exporter-sa-competition-sur-poona | P: apres
+Où se trouve, dans BadNet, le module qui envoie les résultats d'un tournoi individuel vers Poona ?
+- Extras > Juge-arbitre
++ Compétitions > Exports Poona
+- Réglages > Préférences > Informations générales
+- Compétition > Déroulement > Impressions
+> Exporter sa compétition sur Poona : le module d'export Poona est disponible dans Compétitions > Exports Poona ; il faut aller dans l'onglet Export Poona et cliquer sur Transférer sur Poona. Une popup vérifie que la compétition peut être exportée.
+
+Q bn-153 | D: 2 | R: BADNET exporter-sa-competition-sur-poona | P: apres
+Quelles conditions doivent être réunies pour pouvoir exporter un tournoi individuel sur Poona ? (plusieurs réponses)
++ Le numéro fédéral de la compétition est renseigné
++ Tous les matchs de la compétition ont un score renseigné
++ Le solde de ticknets de l'organisateur n'est pas négatif
+- Tous les joueurs ont payé leur inscription
+> Exporter sa compétition sur Poona : la compétition ne peut être exportée que si le numéro fédéral est renseigné, si tous les matchs sont terminés (tous ont un score) et si le solde de ticknets n'est pas négatif. L'export ne coûte aucun ticknet (la FAQ précise que 0 ticknet suffit), mais une dette doit être remboursée avant l'export.
+
+Q bn-154 | D: 2 | R: BADNET exporter-sa-competition-sur-poona | P: apres
+Quels matchs d'un tournoi individuel ne sont pas exportés sur Poona ?
+- Les matchs gagnés par WO, qui ne comptent pas pour le classement
+- Les matchs de poule
++ Les phases manuelles et les formules libres
+- Les matchs des tableaux jeunes
+> Exporter sa compétition sur Poona, « Structures non exportées » : toutes les phases rajoutées manuellement et les tableaux en formule libre ne sont pas exportés sur Poona. Il faut passer par des structures automatiques pour être sûr que tous les matchs soient exportés.
+
+Q bn-155 | D: 3 | R: BADNET faq_pourquoi-un-tableau-de-ma-competition-ne-sexporte-pas-sur-poona | P: apres
+La compétition est terminée et un tableau a été géré avec une phase manuelle : ses matchs ne partent pas sur Poona. Que conseille la FAQ ?
+- Contacter la FFBaD pour qu'elle saisisse les matchs
++ Recréer une structure automatique et ressaisir les matchs
+- Exporter ce tableau seul en générant un fichier XML depuis l'onglet Matchs
+- Rien : ces matchs ne peuvent plus jamais être pris en compte
+> FAQ BadNet : les phases manuelles ne sont pas exportées. Si la compétition est terminée, il faut télécharger le PDF des matchs, créer une structure automatique collant au mieux avec la structure manuelle et ressaisir les matchs. Un message rouge prévient lors de la création d'une phase manuelle.
+
+Q bn-156 | D: 2 | R: BADNET faq_jai-exporte-mon-tournoi-sur-poona-mais-rien-nest-visible-sur-poona-ou-myffbad | P: apres
+L'export Poona a réussi, mais les résultats ne sont pas encore visibles sur MyFFBaD. Qui s'occupe de la suite ?
+- Le support BadNet, qui valide les résultats
++ La FFBaD
+- Le juge-arbitre, qui doit valider l'export
+- La ligue, qui ressaisit les résultats
+> FAQ BadNet : une fois les résultats exportés sur Poona, c'est la FFBaD qui s'occupe du traitement, de la validation et de l'affichage des résultats sur Poona, MyFFBaD et les outils de la fédération. Depuis son compte Poona, on peut vérifier l'état de traitement.
+
+Q bn-157 | D: 2 | R: BADNET exporter-les-resultats-dinterclub-sur-poona | P: apres | L: JALC JAFA JAFC
+Quels problèmes peuvent empêcher l'export Poona d'une rencontre d'interclubs ? (plusieurs réponses)
++ Un match n'a pas de score mais n'est pas WO
++ Une paire est incomplète (un seul joueur renseigné)
++ Un match en or a mal été ajouté sur la rencontre
+- La rencontre a déjà été exportée une première fois
+> Exporter les résultats d'interclub sur Poona : peuvent empêcher l'export : un match sans score mais non WO, une paire incomplète, un match en or mal rajouté. Exporter plusieurs fois une même rencontre n'est pas problématique : Poona ignore un export déjà réalisé.
+
+Q bn-158 | D: 2 | R: BADNET exporter-les-resultats-dinterclub-sur-poona | P: apres | L: JALC JAFA JAFC
+Avant de pouvoir exporter les rencontres d'une division d'interclubs sur Poona, quelle opération faut-il réaliser ?
+- Exporter chaque rencontre en XML
++ Exporter la structure de la division sur IcBad
+- Valider toutes les sanctions automatiques de la division, sans quoi Poona refuse l'export
+- Clôturer la saison dans BadNet
+> Exporter les résultats d'interclub sur Poona : une fois le numéro de dossier Poona renseigné sur la division, un bouton d'export permet d'exporter la structure de la division sur IcBad et de débloquer l'export Poona des rencontres. Un message d'alerte signale une division dont la structure n'a pas été exportée.
+
+Q bn-159 | D: 3 | R: BADNET faq_pourquoi-un-match-dune-rencontre-est-jour-sur-badnet-mais-pas-sur-poona | P: apres | L: JALC JAFA JAFC
+Un match d'une rencontre d'interclubs déjà envoyée sur Poona est corrigé dans BadNet. Que faut-il faire ?
+- Rien : Poona se met à jour automatiquement
++ Contacter la FFBaD
+- Supprimer la rencontre dans BadNet et la recréer
+- Exporter toute la division une nouvelle fois sans prévenir personne
+> FAQ BadNet : si l'on modifie dans BadNet un match déjà envoyé sur Poona, il faut contacter directement la FFBaD, qui pourra modifier le résultat dans Poona et donnera la marche à suivre (ré-exporter la rencontre par exemple).
+
+Q bn-160 | D: 3 | R: BADNET faq_comment-exporter-correctement-mes-interclubs-jeunes-de-badnet-vers-poona | P: apres | L: JALC JAFA JAFC
+Pourquoi une division d'interclubs jeunes regroupant un groupe garçons (SH, DH) et un groupe filles (SD, DD) ne peut-elle pas être exportée sur Poona ?
++ Une compétition Poona n'accepte qu'un format de match
+- Poona refuse les interclubs jeunes qui mélangent garçons et filles dans une même compétition
+- Une division ne peut contenir qu'un seul groupe
+- Les tableaux jeunes ne sont jamais exportés
+> FAQ BadNet : une compétition sur Poona ne peut accepter qu'un seul format de match ; une division BadNet correspond à une compétition Poona. Il faut créer autant de compétitions Poona que de formats différents et regrouper dans des divisions les groupes ayant les mêmes formats (division Garçons, division Filles).
+
+Q bn-161 | D: 1 | R: BADNET faq_comment-utiliser-badnet-pour-rediger-un-rapport-de-juge-arbitre | P: apres
+Pour rédiger son rapport, quel espace de BadNet regroupe les informations utiles au juge-arbitre (volants, arbitres, durée des matchs) ?
+- Extras > Statistiques
++ Extras > Juge-arbitre
+- Compétition > Déroulement > Options
+- Toolbox > Respect du RGC
+> FAQ BadNet : pour aider à rédiger le rapport du juge-arbitre, une interface spéciale est disponible : Extras > Juge-arbitre, avec toutes les informations importantes pour le rapport (volants, arbitres, durée des matchs).
+
+Q bn-162 | D: 1 | R: BADNET faq_comment-acceder-au-palmares-dune-competition | P: apres
+Comment accéder au palmarès d'une compétition terminée et l'imprimer ?
++ Sur la fiche publique, menu Palmarès
+- Uniquement depuis l'export Poona, une fois les résultats validés par la fédération
+- Depuis le module Pointage
+- Il faut le demander à la FFBaD
+> FAQ BadNet : aller sur la fiche publique de la compétition et cliquer sur le menu Palmarès ; les résultats de tous les tableaux sont affichés et un bouton permet d'imprimer le palmarès au format PDF.
+
+Q bn-163 | D: 2 | R: BADNET gestion-du-deroulement-en-ligne | P: apres
+Pour la remise des récompenses par club, que calculent automatiquement les « Trophées » du menu Impressions du déroulement ?
+- Le nombre de matchs joués par club
++ Un classement des instances selon leurs podiums
+- Les points CPPH gagnés par chaque club
+- Le nombre de volants utilisés par club
+> Gestion du déroulement en ligne, « Impressions » : les Trophées par club, comité ou ligue sont calculés automatiquement par BadNet en fonction du nombre de 1re, 2e ou 3e places par instance. On y trouve aussi les Palmarès (du jour, par club, par comité, par ligue).
+
+Q bn-164 | D: 2 | R: BADNET gestion-des-tableaux | P: apres
+À l'issue de la compétition, à quoi sert l'onglet Matchs d'un tableau ?
+- À saisir les scores pendant la compétition, à la place du déroulement en ligne
++ À contrôler les scores
+- À exporter le tableau sur Poona
+- À imprimer les feuilles de score
+> Gestion des tableaux, « Matchs » : l'onglet Matchs permet de visualiser tous les matchs de chaque phase, avec un crayon pour modifier un score si besoin. Il sert de contrôle à l'issue de la compétition ; l'ensemble des scores doivent être saisis depuis le déroulement.
+
+Q bn-165 | D: 2 | R: BADNET gestion-des-finances-dune-competition-individuelle | P: apres
+Après la compétition, le GEO doit décider si les joueurs forfaits paient ou non leur inscription. Quelle action utilise-t-il ?
+- Le bouton Tout rembourser
++ Actions > Recalculer les frais d'inscription
+- La suppression des joueurs forfaits
+- La relance par mail des impayés, en excluant les joueurs forfaits
+> Gestion des finances d'une compétition individuelle, « Après la compétition » : en fonction des forfaits avant ou le jour de la compétition, on peut faire payer ou non les personnes déclarées forfait en cliquant à nouveau sur Actions > Recalculer les frais d'inscription et en choisissant le fonctionnement souhaité.
+
+Q bn-166 | D: 2 | R: BADNET guide-circuits | P: apres | L: JALC JAFA JAFC
+Dans un circuit BadNet, un joueur figure à la fois dans le classement Mixte, le classement Homme et le classement Benjamin. Ses points sont-ils les mêmes dans les trois ?
++ Oui, seule sa position change d'un classement à l'autre
+- Non, ses points sont recalculés selon les règles propres à chaque classement du circuit
+- Oui, et sa position est la même dans les trois classements
+- Non, un joueur ne peut figurer que dans un seul classement
+> Support Circuits, « Classements » : un joueur aura le même nombre de points attribués quel que soit le classement dans lequel il est ; par contre, sa position sera différente en fonction des autres participants du classement.

@@ -1,0 +1,1237 @@
+# Pendant la compétition : ce que fait le juge-arbitre de l'arrivée au gymnase jusqu'au départ.
+# Chronologie : 1. arrivée et contrôles ; 2. lancement et déroulement de l'échéancier ; 3. matchs
+# (arbitres, jeu, conseillers, blessures) ; 4. comportement, sanctions et réclamations ; 5. fin de journée.
+# Questions complémentaires des fichiers 02, 05, 06, 07, 12, 21 et 26 : situations peu ou pas couvertes.
+@theme instructions
+@doc REGLES
+@levels JALA JALC JAFA JAFC
+@phase pendant
+
+# ---------------------------------------------------------------- 1. Arrivée : salle, terrains, matériel, pointage
+
+Q pd-002 | D: 2 | R: 03.01 2.10 | T: rgc
+Un tournoi comporte un tableau poussins. Sur quel terrain ces matchs se disputent-ils ?
+- Sur un terrain standard de double, le filet restant à hauteur normale
++ Sur un terrain spécialement aménagé, décrit dans un règlement spécifique (annexe 08), par dérogation aux règles du jeu
+- Sur un terrain de simple dont le juge-arbitre fixe librement les dimensions
+- Sur le terrain choisi d'un commun accord par les deux joueurs
+> RGC 2.10 : par dérogation aux règles du jeu (art. 2.1), les compétitions des catégories d'âge poussins ou plus jeunes se disputent sur un terrain spécialement aménagé, décrit dans un règlement spécifique (annexe 08).
+
+Q pd-003 | D: 2 | R: 03.01 2.10 | T: rgc
+Le règlement d'une compétition impose une salle sans tracés d'autres sports dans l'aire de jeu. Le RGC permet-il une telle exigence ?
++ Oui, certaines compétitions peuvent se voir imposer des installations respectant d'autres contraintes, comme l'absence de tracés d'autres sports
+- Non, le RGC exige seulement des terrains conformes aux règles du jeu
+- Non, seule la fédération internationale peut imposer une telle contrainte
+- Oui, mais uniquement pour les rencontres PromoBad
+> RGC 2.10 : les équipements doivent être conformes aux règles techniques fédérales ; certaines compétitions peuvent se voir imposer un niveau de classement des salles ou d'autres contraintes (absence de tracés d'autres sports dans l'aire de jeu, notamment). À l'inverse, des conditions moins strictes peuvent être tolérées, notamment pour les rencontres PromoBad.
+
+Q pd-004 | D: 2 | R: 03.01 2.11 | T: rgc
+Selon le RGC, certaines dispositions relatives à la conduite ou à la publicité ne s'appliquent qu'à l'intérieur d'une zone déterminée. Laquelle ?
+- L'ensemble du gymnase, tribunes comprises
++ La surface de jeu, c'est-à-dire les terrains et l'espace libre qui entoure chacun d'eux
+- Les seuls terrains, lignes comprises
+- La zone comprise entre la table de marque et les terrains
+> RGC 2.11 : la surface de jeu comprend les terrains eux-mêmes et un espace libre entourant chaque terrain ; certaines dispositions (relatives à la conduite ou à la publicité, p. ex.) ne s'appliquent qu'à l'intérieur de la surface de jeu.
+
+Q pd-005 | D: 2 | R: 03.01 2.21 | T: rgc
+À l'arrivée, le JA constate qu'une banderole de partenaire est installée de telle sorte qu'elle gêne la visibilité depuis une chaise d'arbitre. Que prévoit le RGC pour les publicités dans la salle ?
++ Elles doivent respecter le règlement fédéral et la législation, et ne doivent en aucun cas gêner les joueurs, les officiels ou les spectateurs
+- Elles sont libres dès lors qu'elles sont placées hors des terrains
+- Elles relèvent uniquement de l'organisateur et du propriétaire de la salle
+- Elles sont admises si la mairie a donné son accord
+> RGC 2.21 : les publicités dans la salle, et notamment dans la surface de jeu, doivent se conformer au règlement fédéral et à la législation en vigueur ; en outre, elles ne doivent en aucun cas gêner ni joueurs, ni officiels, ni spectateurs.
+
+Q pd-006 | D: 2 | R: REGLES Instr. 3.5.2.2 | T: instructions
+Chaque matin, avant le premier match, le JA s'assure que les outils informatiques sont opérationnels. Lesquels sont cités en exemple par les instructions ? (plusieurs réponses)
++ Le système de sonorisation
++ Les tablettes des arbitres et les tableaux d'affichage
++ Le SRI et le compte à rebours
+- Les téléphones des conseillers
+- Les ordinateurs personnels des joueurs
+> Instruction 3.5.2.2 : le JA doit s'assurer que tous les outils informatiques sont opérationnels (par exemple système de sonorisation, tablettes des arbitres, tableaux d'affichage, SRI, compte à rebours).
+
+Q pd-007 | D: 2 | R: REGLES Instr. 3.5.4.2 | T: instructions
+Lors du test des volants qu'il supervise avant la première journée, comment le JA fait-il tester les vitesses ?
+- Seule la vitesse conseillée par le fabricant est testée, d'un seul côté du terrain
++ Toutes les vitesses disponibles sont testées, des deux extrémités du terrain
+- Deux vitesses au choix du testeur, sur le terrain central
+- Une vitesse par terrain, chaque terrain pouvant avoir sa propre vitesse
+> Instruction 3.5.4.2 : toutes les vitesses disponibles doivent être testées des deux extrémités du terrain. Le JA communique ensuite sa décision au contrôleur des volants (3.5.4.5).
+
+Q pd-008 | D: 2 | R: REGLES Instr. 3.5.4.4 | T: instructions
+Lors du test, un volant tombe trop court ; le JA a remarqué que la frappe était faible et que le testeur se trouvait un mètre devant la ligne de fond. Comment évalue-t-il ce résultat ?
+- Il le retient tel quel : seul le point de chute compte
++ Il tient compte de la manière dont le volant a été frappé (force, trajectoire) et de la position du testeur, qui doit être sur la ligne de fond
+- Il demande au testeur quelle vitesse il recommande
+- Il retient automatiquement la vitesse supérieure
+> Instruction 3.5.4.4 : lors de l'évaluation du résultat, le JA tient compte de la manière dont les volants ont été frappés (force de la frappe et trajectoire) et s'ils ont été frappés de la bonne position (sur la ligne de fond). Il ne doit pas demander l'opinion du testeur (3.5.4.6).
+
+Q pd-010 | D: 2 | R: 03.01 2.19 | T: rgc
+Où le JA vérifie-t-il quelles compétitions doivent se jouer avec des volants d'une catégorie de classement donnée ?
+- Uniquement dans le règlement particulier du tournoi
++ Dans le « cadre d'utilisation des volants », publié annuellement par la Fédération avec la liste des volants classés
+- Dans les règles officielles du badminton
+- Sur l'étiquette de chaque tube de volants
+> RGC 2.19 : la Fédération effectue un classement catégoriel (élite, standard…) des volants commercialisés en France et publie annuellement la liste des volants classés et celle des compétitions requérant des volants d'une certaine catégorie (« cadre d'utilisation des volants »).
+
+Q pd-011 | D: 1 | R: REGLES 2.2.1 | T: regles
+En contrôlant les volants en plumes fournis par l'organisateur, combien de plumes le JA doit-il compter sur chaque volant ?
+- 14
++ 16
+- 18
+- 20
+> Règle 2.2.1 : le volant doit avoir 16 plumes fixées dans la base ; elles doivent être solidement fixées avec du fil ou tout autre matériau adéquat (règle 2.2.4).
+
+Q pd-015 | D: 2 | R: 08.03 3.3.1 | T: joueurs
+Au pointage d'une compétition de racketlon, un joueur présente un « titre de participation évènementiel racketlon ». Que permet ce titre ?
++ De participer à une compétition, pour la seule durée de celle-ci ; un même joueur peut en souscrire plusieurs dans la saison
+- De participer à toutes les compétitions de la saison
+- Seulement de s'entraîner dans un club affilié
+- De participer à une compétition, à condition d'être aussi titulaire d'une licence classique
+> 08.03 art. 3.3.1 et 3.3.2 : ce titre est délivré uniquement pour la durée d'une compétition, à n'importe quel moment de la saison, et un même joueur peut en souscrire plusieurs ; il confère le droit de participer à une compétition organisée par la Fédération, ses ligues, ses comités et ses associations affiliées.
+
+Q pd-016 | D: 1 | R: 08.03 6 | T: joueurs
+Un joueur n'a pas sa licence sur lui et demande au JA comment la retrouver. Que prévoit le règlement des licences ?
++ La licence est envoyée à l'adresse électronique du licencié ou peut être téléchargée sur son espace licencié MyFFBaD
+- Elle ne peut être délivrée que sur papier par le secrétariat de son club
+- Seule la ligue peut en délivrer un duplicata
+- Le JA doit l'imprimer lui-même depuis le logiciel de compétition
+> 08.03 art. 6 : la licence ou le titre de participation est envoyé par la Fédération à l'adresse électronique du licencié ou peut être téléchargé sur l'espace licenciés de la Fédération « MyFFBaD ».
+
+Q pd-017 | D: 2 | R: 08.03 7 | T: joueurs
+Un joueur se blesse pendant le tournoi et demande s'il est assuré. Que comprend le montant de la licence classique ?
++ Une cotisation couvrant la responsabilité civile du licencié et les risques d'accidents corporels
+- Aucune assurance : chaque joueur doit souscrire une assurance personnelle
+- Uniquement une assurance en responsabilité civile
+- Une assurance valable seulement pendant les entraînements au club
+> 08.03 art. 7 : le titulaire de la licence bénéficie d'une assurance individuelle ; le montant de la licence comprend une cotisation couvrant, d'une part, la responsabilité civile et, d'autre part, les risques d'accidents corporels.
+
+Q pd-019 | D: 2 | R: 03.01 2.12.2 | T: rgc
+Un joueur dépendant d'une fédération étrangère participe au tournoi avec une tenue non conforme au règlement fédéral, mais admise dans son pays. Que décide le JA ?
++ Les joueurs dépendant d'une fédération étrangère sont soumis aux règles fédérales pendant la compétition, notamment pour les tenues : il doit se mettre en conformité
+- Il applique la réglementation du pays du joueur
+- Il le laisse jouer, les tenues des joueurs étrangers n'étant pas contrôlées
+- Il le laisse jouer sur présentation d'une attestation de sa fédération
+> RGC 2.12.2 : les joueurs ou les équipes dépendant d'une fédération étrangère sont soumis aux règles fédérales pendant la compétition, notamment en ce qui concerne les catégories d'âge, la conduite ou les tenues.
+
+Q pd-020 | D: 2 | R: 03.01 2.4 | T: rgc
+Comment les règlements complémentaires d'un tournoi (règlement particulier, règlement cadre…) doivent-ils être portés à la connaissance des intéressés ?
++ Par des moyens adéquats, avant et pendant la compétition, à tous les participants, organisateurs, officiels et instances fédérales
+- Uniquement par l'envoi de l'invitation
+- Seulement à la demande d'un joueur auprès du JA
+- Uniquement par affichage le jour de la compétition
+> RGC 2.4 : tous les règlements complémentaires s'appliquant à une compétition doivent être portés à la connaissance de tous les participants, organisateurs, officiels et instances fédérales, par des moyens adéquats, avant et pendant la compétition.
+
+Q pd-021 | D: 1 | R: 03.01 2.8.2 | T: rgc
+Un arbitre se présente pour officier en jean et sweat à capuche. Que prévoit le RGC ?
++ Les officiels techniques portent les tenues réglementaires
+- La tenue des arbitres est libre en tournoi
+- Seul le juge-arbitre doit porter une tenue réglementaire
+- La tenue réglementaire n'est exigée qu'à partir des demi-finales
+> RGC 2.8.2 : les officiels techniques portent les tenues réglementaires. Le code de conduite des officiels techniques (07.09, 4.9) précise qu'ils la portent en tout temps en service.
+
+Q pd-022 | D: 2 | R: 03.01 2.22 | T: sante
+L'organisateur d'un grand tournoi demande au JA si la présence d'un médecin est obligatoire. Que prévoit le RGC ?
+- Elle est obligatoire dans toute compétition officielle
++ Un dispositif de premier secours et une trousse de secours sont obligatoires ; dans les compétitions importantes, la présence d'un médecin, de praticiens paramédicaux ou de secouristes est souhaitable
+- Elle est obligatoire dès que plus de 100 joueurs sont inscrits
+- Elle n'est jamais nécessaire, les secours pouvant être appelés à tout moment
+> RGC 2.22 : un dispositif de premier secours doit être prévu pendant la durée de la compétition, avec une trousse de secours dans tous les gymnases, et la possibilité de contacter un service médical d'urgence à tout moment ; dans les compétitions importantes, la présence d'un médecin, de praticiens paramédicaux ou celle de secouristes est souhaitable.
+
+Q pd-023 | D: 2 | R: 02.01 6 | T: sante
+Selon le règlement médical, comment sont dimensionnés les moyens humains et matériels de surveillance médicale d'une compétition ?
++ Ils doivent être adaptés selon l'importance de la manifestation, leur organisation incombant à l'organisateur
+- Ils sont fixés par le juge-arbitre pour chaque compétition
+- Ils sont identiques pour toutes les compétitions autorisées
+- Ils sont fixés par la ligue selon le nombre de terrains
+> Règlement médical (02.01) § 6 : la CMN rappelle que les moyens humains et matériels à mettre en œuvre doivent être adaptés selon l'importance de la manifestation, et qu'il appartient à l'organisateur de toute compétition de prévoir la surveillance médicale.
+
+Q pd-024 | D: 2 | R: REGLES Instr. 4.1.4 | T: instructions
+En coopération avec qui le JA est-il responsable des conditions dans lesquelles le tournoi est organisé ?
++ Le comité d'organisation et l'institution sportive
+- Les seuls arbitres
+- Les capitaines d'équipe
+- Le propriétaire de la salle uniquement
+> Instruction 4.1.4 : le juge-arbitre, en coopération avec le comité d'organisation et l'institution sportive, est responsable des conditions dans lesquelles le tournoi est organisé ; il doit notamment fournir aux joueurs de bonnes conditions de jeu en toute sécurité (4.1.4.1).
+
+Q pd-025 | D: 2 | R: 03.07 1.2.1 | T: tenues
+Au pointage, le JA refuse la tenue d'un joueur, qui en change. Que prévoit le règlement des tenues quant à la trace de cette décision ?
++ L'ensemble des décisions du JA sur les tenues est à consigner dans un rapport, preuves photographiques à l'appui
+- Aucune trace n'est nécessaire puisque le joueur a changé de tenue
+- L'arbitre du premier match la note sur la feuille de score
+- Seules les décisions contestées par le joueur sont consignées
+> Règlement des tenues (03.07) art. 1.2.1 : le juge-arbitre a toute autorité ; l'ensemble de ses décisions est à consigner dans un rapport, preuve(s) photographique(s) à l'appui.
+
+Q pd-026 | D: 2 | R: 03.07 1.2.2 | T: tenues
+Le JA apprécie-t-il les tenues de la même manière dans un tournoi régional sans public et lors d'une finale filmée par la télévision ?
++ Il peut adapter son appréciation selon le contexte (spectateurs, officiels, journalistes, télévision), sans être plus restrictif que le règlement
+- Non : il doit, pour la télévision, imposer des exigences plus strictes que le règlement
+- Oui, strictement : il ne dispose d'aucune marge d'appréciation
+- Non : sans public, il n'a pas à contrôler les tenues
+> 03.07 art. 1.2.2 : un juge-arbitre peut décider si une tenue est conforme ou non sans pour autant être plus restrictif que le règlement ; il peut s'adapter dans son appréciation selon le contexte de la compétition (présence de spectateurs, d'officiels, de journalistes, de la télévision, etc.).
+
+Q pd-027 | D: 1 | R: 03.07 3.1.1 | T: tenues
+Qui doit veiller à l'application du règlement des tenues pendant une compétition ?
++ Les juges-arbitres et les arbitres désignés pour la compétition
+- L'organisateur seul
+- La ligue, après la compétition
+- Les capitaines d'équipe
+> 03.07 art. 3.1.1 : il appartient aux juges-arbitres et arbitres, désignés pour la compétition selon le RGC et les règlements complémentaires, de veiller à l'application de ces dispositions.
+
+Q pd-028 | D: 2 | R: 07.08 3.2.4 | T: tenues
+Un joueur se présente à l'appel de son match avec un maillot sale et déchiré. Quelle disposition du code de conduite des joueurs est concernée ?
++ S'habiller et se présenter avec une tenue correcte et adéquate : des vêtements de badminton propres et convenables doivent être portés
+- Se présenter à l'heure pour jouer un match
+- Terminer son match
+- Respecter les officiels techniques
+> Code de conduite des joueurs (07.08) art. 3.2.4 : s'habiller et se présenter pour jouer un match avec une tenue correcte et adéquate ; des vêtements de badminton propres et convenables doivent être portés.
+
+Q pd-029 | D: 2 | R: 07.09 4.11 | T: conduite
+Le JA a convoqué les arbitres à un briefing à 8 h 15. Un arbitre arrive à 8 h 40 sans avoir lu les consignes envoyées la veille. Quelle disposition du code de conduite des officiels techniques est en cause ?
++ Être à l'heure, participer et arriver préparé pour tous les briefings
+- Porter la tenue réglementaire en tout temps en service
+- Ne pas fraterniser avec les joueurs
+- S'abstenir de critiquer les compétences des collègues
+> Code de conduite des officiels techniques (07.09) art. 4.11 : être à l'heure, participer et arriver préparé, pour tous les briefings.
+
+# ---------------------------------------------------------------- 2. Lancement : appels, retards, forfaits, remplacements, échéancier
+
+Q pd-031 | D: 2 | R: 03.01 3.3.1.3 | T: rgc
+En milieu de journée, l'échéancier a pris 40 minutes de retard. Que prévoit le RGC pour l'horaire ?
++ Il est mis à jour au fur et à mesure du déroulement de la compétition
+- Il reste figé : seul l'horaire publié une heure avant le début fait foi
+- Il ne peut être modifié qu'avec l'accord de tous les joueurs
+- Il doit être republié une heure avant chaque nouveau tour
+> RGC 3.3.1.3 : l'horaire est établi à partir d'une durée moyenne de match, prévoit des marges et sera mis à jour au fur et à mesure du déroulement de la compétition.
+
+Q pd-033 | D: 2 | R: 03.01 2.16 | T: rgc
+Un joueur sort d'un simple très éprouvant ; son double est prévu 25 minutes plus tard, le temps de repos réglementaire étant de 20 minutes. Le JA estime qu'il a besoin de récupérer davantage. Peut-il lui accorder plus de repos ?
++ Oui, le JA peut accorder un repos plus long lorsque cela lui paraît souhaitable
+- Non, le temps de repos fixé par le règlement particulier ne peut pas être modifié
+- Oui, mais seulement avec l'accord des adversaires
+- Non, seule la commission compétitions peut l'accorder
+> RGC 2.16 : le temps de repos, compris entre 20 et 30 minutes, ne peut être réduit qu'à la demande expresse de l'intéressé ou en cas de nombre réduit de points par set ; le juge-arbitre pourra accorder un repos plus long lorsque cela lui paraît souhaitable.
+
+Q pd-036 | D: 3 | R: 03.01 3.2.5.2 | T: rgc
+Après publication des tableaux, un joueur de double est privé de son partenaire (force majeure). Le JA lui fixe un délai pour nommer un remplaçant ; le délai expire sans qu'il ait trouvé de partenaire. Que se passe-t-il ?
++ Il est lui-même retiré du tableau et une autre paire peut prendre la place libérée
+- La paire est maintenue et jouera si le partenaire initial revient
+- Le JA lui désigne d'office un partenaire de la liste d'attente
+- Le match est joué en un contre deux
+> RGC 3.2.5.2 : s'il n'a pas nommé son nouveau partenaire dans le délai imparti par le juge-arbitre, il sera lui-même retiré du tableau et une autre paire pourra prendre la place ainsi libérée.
+
+Q pd-037 | D: 3 | R: 03.01 3.2.5.2 | T: rgc | L: JALC JAFA JAFC
+Un joueur de double mixte privé de sa partenaire propose de la remplacer par une joueuse déjà inscrite dans ce même tableau avec un autre partenaire. Le JA peut-il l'accepter ?
++ Non : la constitution de la nouvelle paire ne doit avoir aucune incidence sur la composition d'une autre paire du même ou d'un autre tableau
+- Oui, si les deux paires concernées sont d'accord
+- Oui, si la nouvelle paire n'est pas mieux classée que l'ancienne
+- Oui, tant que l'autre paire n'a pas encore joué
+> RGC 3.2.5.2 : la nouvelle paire ne doit pas avoir une valeur telle qu'elle aurait dû occuper une place de tête de série plus élevée, et sa constitution ne doit avoir aucune incidence sur la composition d'une autre paire dans le même ou un autre tableau.
+
+Q pd-038 | D: 2 | R: 03.01 3.2.5.6 | T: rgc
+Le premier tour de simple a commencé. Un joueur dont le match n'a pas encore été joué est victime d'un accident en venant au gymnase. Le JA peut-il autoriser son remplacement ?
++ Oui, à titre exceptionnel, puisque la force majeure est survenue après le début du tour, sous réserve de pouvoir prévenir l'adversaire en temps voulu
+- Non, aucun remplacement n'est possible après le début du tour
+- Oui, sans aucune condition
+- Oui, mais uniquement par un joueur mieux classé que le joueur remplacé
+> RGC 3.2.5.6 : le remplacement de joueurs empêchés doit normalement intervenir avant le début du tour concerné ; le juge-arbitre peut toutefois l'autoriser après ce délai si le cas de force majeure intervient après le début du tour, sous réserve de pouvoir prévenir le ou les adversaires en temps voulu.
+
+Q pd-039 | D: 2 | R: 03.01 3.2.5.7 | T: rgc
+Un tableau est lancé, ses premiers matchs ayant été joués, lorsque plusieurs défections le déséquilibrent fortement. Le JA peut-il refaire le tirage au sort ?
++ Non : il ne peut en aucun cas être procédé à un nouveau tirage au sort après le lancement du tableau concerné
+- Oui, à condition de prévenir tous les joueurs
+- Oui, avec l'accord de la commission compétitions
+- Oui, pour les seuls matchs non encore joués
+> RGC 3.2.5.7 : le juge-arbitre peut décider d'un nouveau tirage au sort si un tableau est excessivement déséquilibré après publication, mais en aucun cas après le lancement du tableau concerné.
+
+Q pd-040 | D: 1 | R: 07.08 3.2.1 | T: conduite
+Un joueur arrive régulièrement sur le terrain plusieurs minutes après l'appel de ses matchs. Quelle obligation du code de conduite des joueurs méconnaît-il ?
++ Se présenter à l'heure pour jouer un match
+- Terminer son match
+- Respecter les officiels techniques
+- Ne pas chercher à recevoir de conseils
+> Code de conduite des joueurs (07.08) art. 3.2.1 : se présenter à l'heure pour jouer un match. Le RGC (3.3.1.2) permet en outre au JA de déclarer forfait un joueur absent dans les 5 minutes suivant l'appel.
+
+Q pd-041 | D: 2 | R: 07.05 1 | T: sanctions
+L'organisateur conteste auprès du JA la qualification d'« involontaire » donnée à un forfait constaté sur place. Qui juge du caractère d'un forfait constaté sur la compétition ?
++ Le JA, seul juge du caractère du forfait qu'il constate sur la compétition dont il a la responsabilité
+- L'organisateur, qui a reçu l'inscription
+- Le club du joueur
+- La commission compétitions, seule compétente le jour même
+> Procédure des forfaits (07.05) § 1 : le juge-arbitre est le seul juge du caractère du forfait qu'il constate sur la compétition dont il a la responsabilité ; sans justificatif le jour même, il peut indiquer que le forfait « reste à justifier ».
+
+Q pd-043 | D: 2 | R: 07.07 4.4 | T: conduite
+Dans une compétition par équipes, un joueur se blesse la veille de la rencontre. Selon le code de conduite des conseillers, que doit faire le capitaine d'équipe ?
++ Signaler le forfait du joueur en temps utile et en suivant la procédure réglementaire
+- Attendre l'appel du match pour l'annoncer à l'arbitre
+- Le remplacer par n'importe quel joueur présent sans en informer le JA
+- Rien : c'est au joueur de prévenir lui-même sa ligue
+> Code de conduite des conseillers, entraîneurs et éducateurs (07.07) art. 4.4 : le capitaine doit signaler tout forfait de joueur en temps utile et en suivant la procédure réglementaire.
+
+Q pd-044 | D: 2 | R: 07.07 4.3 | T: conduite
+Le JA convoque une réunion des capitaines avant une compétition par équipes. Selon le code de conduite des conseillers, que doit faire chaque capitaine ?
++ Assister, au nom de l'équipe ou des joueurs, à la réunion planifiée des capitaines ou à toute autre réunion demandée par le JA
+- Y envoyer le joueur de son choix, même mineur
+- N'y assister que si son équipe joue le premier match
+- Se faire représenter par l'organisateur
+> 07.07 art. 4.3 : assister, au nom de l'équipe ou des joueurs, à la réunion planifiée des capitaines ou à toute autre réunion demandée par le juge-arbitre de la compétition.
+
+Q pd-045 | D: 2 | R: 07.07 4.2 | T: conduite
+Selon le code de conduite des conseillers, entre qui le capitaine d'équipe relaie-t-il les informations logistiques (transport, hébergement, horaires d'entraînement…) ?
++ Entre les organisateurs du tournoi et l'équipe ou ses joueurs
+- Entre les arbitres et les spectateurs
+- Entre le JA et la ligue
+- Entre les joueurs et les médias
+> 07.07 art. 4.2 : relayer pleinement l'ensemble des informations sur la logistique entre les organisateurs du tournoi et l'équipe ou ses joueurs ; les informations techniques sont relayées entre le juge-arbitre et les joueurs (4.1).
+
+Q pd-046 | D: 2 | R: REGLES Instr. 3.5.19.2 | T: instructions
+Lorsqu'il élabore l'échéancier du lendemain, de qui le JA sollicite-t-il les contributions ?
++ Des intervenants concernés, par exemple le responsable de l'événement ou le directeur du tournoi
+- Des seuls joueurs têtes de série
+- Des seuls arbitres
+- De personne : l'échéancier ne se discute pas
+> Instruction 3.5.19.2 : lors de l'élaboration de l'échéancier du lendemain, solliciter les contributions des intervenants concernés (par exemple responsable de l'événement, directeur du tournoi, etc.) ; le juge-arbitre approuve l'échéancier avant sa publication (3.5.19).
+
+Q pd-048 | D: 2 | R: REGLES Instr. 3.5.11.1 | T: instructions
+En préparant les affectations, le JA s'apprête à désigner un arbitre sur le match d'un joueur de son propre club. Quel principe des instructions doit-il appliquer ?
++ Assurer la neutralité de l'arbitre et du juge de service dans la mesure du possible
+- Désigner en priorité l'arbitre le plus proche du terrain
+- Laisser les joueurs choisir leur arbitre
+- Aucun : l'affectation des arbitres est libre
+> Instruction 3.5.11.1 : assurer la neutralité de l'arbitre et du juge de service dans la mesure du possible ; l'instruction 3.1.2 prévoit aussi que, dans la mesure du possible, des officiels techniques neutres soient désignés.
+
+# ---------------------------------------------------------------- 3. Matchs : jeu, arbitres, conseillers, blessures
+
+Q pd-071 | D: 3 | R: REGLES Instr. 5.17.1 | T: instructions | L: JALC JAFA JAFC
+Selon les instructions, une infraction sur le terrain aux articles 3.2.6 à 3.2.15 du code de conduite des joueurs (abandon abusif, insultes, gestes obscènes…) est considérée comme une infraction à quelle règle ?
++ La règle 16.6.4 (conduite répréhensible non définie par ailleurs dans les règles)
+- La règle 13.4.5 (distraction délibérée)
+- La règle 16.4.1 (retard de jeu)
+- La règle 17.6.8 (réclamations)
+> Instruction 5.17.1 : l'arbitre s'assure que la conduite des joueurs est honorable ; toute infraction aux articles 3.2.2 à 3.2.3, et 3.2.6 à 3.2.15 du code de conduite des joueurs est considérée comme une infraction à la règle 16.6.4.
+
+Q pd-075 | D: 2 | R: 07.07 4.6 | T: conduite
+Un conseiller veut quitter le terrain 2 pour aller s'asseoir derrière un autre joueur de son club sur le terrain 5. Quand peut-il se déplacer ?
++ Lorsque le volant n'est pas en jeu
+- Seulement pendant les intervalles
+- Seulement entre deux matchs
+- À tout moment, à condition de passer derrière les panneaux
+> Code de conduite des conseillers (07.07) art. 4.6 : rester assis sur les chaises prévues derrière ses joueurs sauf aux arrêts de jeu autorisés ; si un conseiller souhaite aller sur un autre terrain, il doit le faire lorsque le volant n'est pas en jeu (instruction 5.12.2).
+
+Q pd-076 | D: 1 | R: 07.07 4.9 | T: conduite
+Pendant l'intervalle entre deux sets, à quel moment le conseiller doit-il regagner sa chaise ?
++ Dès que l'arbitre annonce « 20 secondes »
+- À la fin des 120 secondes
+- Quand son joueur reprend position sur le terrain
+- Quand le JA le lui demande
+> 07.07 art. 4.9 : au cours des arrêts de jeu autorisés pendant un match, les conseillers retournent à leur chaise dès que l'arbitre annonce « 20 secondes ».
+
+Q pd-077 | D: 2 | R: 07.07 4.8 | T: conduite
+À la fin de l'intervalle, un conseiller continue à donner des consignes, ce qui retarde la reprise. Quelle disposition du code de conduite des conseillers méconnaît-il ?
++ Ne pas retarder le jeu en conseillant, sous quelque forme que ce soit
+- S'habiller de façon appropriée
+- Relayer les informations techniques du JA
+- Ne pas utiliser d'appareil électronique
+> 07.07 art. 4.8 : ne pas retarder le jeu en conseillant sous quelque forme que ce soit.
+
+Q pd-078 | D: 2 | R: 07.07 4.7 | T: conduite
+Pendant les échanges, un conseiller fait de grands gestes qui gênent l'adversaire de son joueur. Quelle disposition du code de conduite des conseillers est en cause ?
++ Ne pas conseiller lorsque le volant est en jeu, ni d'une manière qui gêne le joueur adverse ou perturbe le jeu
+- Rester assis sur les chaises prévues
+- Signaler les forfaits en temps utile
+- Relayer les informations logistiques
+> 07.07 art. 4.7 : ne pas conseiller lorsque le volant est en jeu, ou de quelque manière que ce soit qui gêne le joueur adverse ou perturbe le jeu. Si le jeu est perturbé, l'arbitre annonce « let » (règle 14.2.5) et appelle le JA en cas de répétition (instruction 5.12.7).
+
+Q pd-079 | D: 2 | R: 07.07 4.10 | T: conduite
+Depuis sa chaise de conseiller, un entraîneur hurle contre un spectateur dans les tribunes. Le code de conduite des conseillers s'applique-t-il ?
++ Oui : le conseiller ne doit agresser verbalement ou intimider quiconque présent dans l'enceinte du site de la compétition
+- Non : il ne vise que les relations avec les joueurs et les officiels
+- Non : il ne s'applique qu'aux conseillers licenciés
+- Seulement si le spectateur est licencié
+> 07.07 art. 4.10 : ne pas agresser verbalement ou intimider, sous quelque forme que ce soit (cri, geste, autre…), quiconque présent dans l'enceinte du site de la compétition.
+
+Q pd-080 | D: 2 | R: 07.07 4.11 | T: conduite
+Pendant le match, un conseiller interpelle le conseiller de l'équipe adverse assis à l'autre bout du terrain. Que dit le code de conduite des conseillers ?
++ Le conseiller ne doit pas tenter de communiquer, de quelque façon que ce soit, avec des joueurs, des conseillers ou des officiels d'équipe adverses
+- C'est permis entre deux échanges
+- C'est permis s'ils appartiennent au même club
+- C'est permis s'il s'agit seulement de saluer
+> 07.07 art. 4.11 : ne pas tenter de communiquer avec des joueurs, des conseillers ou des officiels d'équipe adverses, ni utiliser un appareil électronique ; l'instruction 5.12.5 reprend cette interdiction pendant le match.
+
+Q pd-081 | D: 2 | R: 07.07 2.1 | T: conduite
+Le père d'un joueur, non licencié, s'assoit sur la chaise de conseiller en fond de terrain. Est-il soumis au code de conduite des conseillers, entraîneurs et éducateurs ?
++ Oui : le code vise toute personne qui assure la fonction de conseiller en fond de terrain, qu'elle soit licenciée ou non à la FFBaD
+- Non : seuls les entraîneurs diplômés y sont soumis
+- Non : seuls les licenciés y sont soumis
+- Oui, mais seulement dans les compétitions par équipes
+> 07.07 art. 2.1 : les termes « conseiller », « entraîneur » et « éducateur » visent toute personne qui endosse les responsabilités de conseiller, qu'elle soit licenciée ou non, ainsi que toute personne assurant la fonction de conseiller en fond de terrain sur l'aire de jeu des compétitions autorisées.
+
+Q pd-082 | D: 2 | R: 07.07 3.1 | T: conduite
+Que doivent accepter, et donc respecter, les conseillers et entraîneurs participant à une compétition autorisée par la FFBaD ? (plusieurs réponses)
++ Le code de conduite des conseillers, entraîneurs et éducateurs
++ Les règles du badminton
++ Le règlement général des compétitions
+- Le règlement intérieur du club organisateur, à l'exclusion de tout autre texte
+> 07.07 art. 3.1 : tous les conseillers, entraîneurs et éducateurs participant à une compétition autorisée par la FFBaD doivent accepter ce code, les règles du badminton et le règlement général des compétitions, et sont tenus de les respecter.
+
+Q pd-083 | D: 2 | R: 07.07 5.1 | T: conduite
+Un conseiller saisit le bras d'un arbitre pour contester une décision. Quelles mesures le JA peut-il prendre ? (plusieurs réponses)
++ Le faire sortir de l'aire de jeu
++ Compte tenu de la gravité de l'infraction (contact physique), l'exclure pour tout ou partie du reste du tournoi
+- Lui infliger une amende payable sur place
+- Disqualifier le joueur qu'il conseille
+> 07.07 art. 5.1 : toute infraction peut être sanctionnée par le juge-arbitre, qui peut faire sortir le conseiller de l'aire de jeu et, en cas d'infractions répétées ou d'infraction grave (par exemple l'article 4.12, contact physique), l'exclure pour tout ou partie du reste du tournoi. Sa décision est définitive.
+
+Q pd-084 | D: 2 | R: 07.07 5.1 | T: conduite
+Le JA a exclu un entraîneur de l'aire de jeu pour le reste du tournoi après des infractions répétées. L'entraîneur veut faire appel de cette décision. Que prévoit le code de conduite ?
++ La décision du JA est définitive et ne peut faire l'objet d'aucun appel
+- Il peut faire appel auprès de la ligue dans les sept jours
+- Il peut faire appel immédiatement auprès de l'organisateur
+- La décision doit être confirmée par la commission disciplinaire avant d'être appliquée
+> 07.07 art. 5.1 : la décision du juge-arbitre est définitive et ne peut faire l'objet d'aucun appel. D'autres sanctions peuvent suivre via le rapport du JA (5.2).
+
+Q pd-085 | D: 2 | R: 07.07 5.2 | T: conduite
+Une infraction flagrante d'un conseiller a été sanctionnée sur place par le JA. D'autres sanctions peuvent-elles suivre ?
++ Oui : les infractions persistantes ou flagrantes peuvent être signalées à la FFBaD par le rapport du JA, et d'autres sanctions peuvent être mises en place
+- Non : la mesure prise par le JA clôt l'affaire
+- Seulement si le conseiller est aussi joueur dans le tournoi
+- Seulement si l'organisateur porte plainte
+> 07.07 art. 5.2 et 5.3 : les infractions persistantes ou flagrantes peuvent être signalées à la FFBaD au moyen du rapport du juge-arbitre, et d'autres sanctions mises en place selon le règlement cadre des pénalités sportives et le règlement disciplinaire.
+
+Q pd-086 | D: 2 | R: 07.07 4.18 | T: conduite
+Un entraîneur laisse ses joueurs de 12 ans sans surveillance dans le gymnase pendant plusieurs heures. Quelle obligation du code de conduite des entraîneurs et éducateurs est en cause ?
++ Prendre des mesures adaptées pour encadrer les pratiquants, protéger leur bien-être et leur santé, et assumer ses responsabilités à l'égard des mineurs
+- Respecter les règles de confidentialité
+- Être juste dans l'évaluation des élèves
+- Ne pas utiliser d'appareil électronique
+> 07.07 art. 4.18 : prendre des mesures adaptées et appropriées pour encadrer les élèves et/ou les pratiquants et protéger leur bien-être et leur santé ; assumer ses responsabilités et ses devoirs lorsqu'il s'agit de mineurs. Le RGC (2.15) impose par ailleurs qu'un mineur soit en permanence sous la responsabilité d'un adulte connu du JA.
+
+Q pd-087 | D: 2 | R: REGLES Annexe 4 3.6.9 | T: instructions
+Un conseiller a déplacé sa chaise sans autorisation. Quelle annonce de la terminologie officielle l'arbitre peut-il utiliser ?
++ « Conseiller(s), remettez votre chaise à sa position initiale. »
+- « Conseiller(s), quittez l'aire de jeu. »
+- « Le jeu est suspendu. »
+- « Venez ici. »
+> Annexe 4 (terminologie), 3.6.9 : « Conseiller(s), remettez votre chaise à sa position initiale. » L'instruction 5.12.3 interdit aux conseillers de déplacer leur chaise sans la permission du juge-arbitre.
+
+Q pd-088 | D: 2 | R: 03.01.A10 3 | T: annexes
+Dans une compétition départementale de jeunes sans arbitre, le comité prévoit qu'un adulte extérieur compte les points des plus jeunes joueurs. Est-ce compatible avec l'annexe sur le conseil aux jeunes ?
++ Oui : ces dispositions n'empêchent pas d'assurer, à défaut d'arbitre, le comptage des points par une personne extérieure pour les plus jeunes
+- Non : toute personne au bord du terrain est considérée comme un conseiller
+- Non : seul le JA peut compter les points
+- Oui, à condition que ce soit un parent du joueur
+> Annexe 10 du RGC, § 3 : les ligues et comités peuvent adopter des dispositions adaptées ; celles-ci n'empêchent pas de prendre des dispositions visant à assurer, à défaut d'arbitre, le comptage des points par une personne extérieure pour les plus jeunes joueurs.
+
+Q pd-089 | D: 2 | R: 03.01.A10 2 | T: annexes
+Le règlement particulier d'une compétition par équipes réservée aux benjamins autorise le conseil entre les points. Cette disposition est-elle valable ?
++ Oui : le règlement particulier d'une compétition, notamment par équipes, peut déroger à l'interdiction du conseil entre les points
+- Non : l'interdiction est absolue pour les benjamins et plus jeunes
+- Non : seule la commission fédérale peut y déroger
+- Oui, mais seulement dans les championnats de France
+> Annexe 10 du RGC, § 2 : le conseil entre les points n'est pas autorisé (il l'est lors des interruptions normales du jeu) ; toutefois, le règlement particulier d'une compétition, notamment par équipes, peut déroger à ces dispositions.
+
+Q pd-092 | D: 2 | R: REGLES Instr. 5.14.2 | T: sante
+Un joueur qui saignait au coude a été pansé et le jeu reprend. Il reste une petite tache de sang séché sur le terrain. Que prévoient les instructions ?
++ Tout sang sur le terrain, même sec, doit être nettoyé dès que possible par le personnel de l'aire de jeu ou le personnel médical local
+- Le sang séché peut rester jusqu'à la fin du match
+- Le terrain doit être fermé pour le reste de la journée
+- Le joueur doit nettoyer lui-même avant de reprendre
+> Instruction 5.14.2 : en cas de saignement, le jeu est retardé jusqu'à l'arrêt du saignement ou un pansement convenable ; tout sang sur le terrain — même sec — doit être nettoyé dès que possible par le personnel en charge de l'aire de jeu ou médical local.
+
+Q pd-094 | D: 2 | R: 07.08 3.2.6 | T: conduite
+Un joueur, qui boitait déjà nettement à l'échauffement, abandonne après trois points. Que prévoit le code de conduite des joueurs ?
++ Un abus manifeste du choix d'abandonner, par exemple lorsque le joueur était déjà blessé et n'aurait pas dû jouer le match, est considéré comme une infraction
+- Un abandon pour blessure n'est jamais une infraction
+- Le joueur est disqualifié de plein droit
+- L'abandon est refusé et transformé en forfait volontaire
+> Code de conduite des joueurs (07.08) art. 3.2.6 : au moment d'aller sur le terrain, le joueur doit être raisonnablement convaincu d'être prêt à jouer tout le match ; un abus manifeste du choix d'abandonner sera considéré comme une infraction.
+
+Q pd-095 | D: 2 | R: 03.01 2.18.4 | T: rgc
+Dans une poule de quatre, un joueur abandonne son deuxième match à la suite d'un malaise. Peut-il disputer son troisième match de poule s'il se sent mieux ?
++ Non : un abandon signifie que le joueur ne peut plus jouer à nouveau dans le tableau concerné
+- Oui, s'il se sent mieux
+- Oui, avec l'accord du médecin du tournoi
+- Oui, après un repos d'au moins 30 minutes
+> RGC 2.18.4 : l'abandon consiste à arrêter son match parce que l'on ne se sent plus en mesure de le terminer ; il signifie que le joueur ne peut plus jouer à nouveau dans le tableau concerné.
+
+Q pd-096 | D: 2 | R: REGLES Instr. 3.6.3 | T: instructions
+En observant les premiers matchs, le JA trouve les volants nettement trop rapides sur tous les terrains, sans qu'aucun joueur ne s'en soit plaint. Que prévoient les instructions ?
++ Le JA doit à tout moment, en observant le jeu, considérer si la vitesse retenue semble correcte, et peut faire re-tester les volants si nécessaire
+- Il ne peut rien changer sans une demande des deux joueurs d'un match
+- La vitesse fixée lors du test du premier jour est définitive
+- Il fait voter les arbitres
+> Instruction 3.6.3 : le juge-arbitre doit à tout moment, en observant le jeu, considérer si la vitesse du volant sélectionnée semble être correcte ; l'instruction 3.5.4.7 prévoit de re-tester les volants si nécessaire, notamment si les conditions de jeu changent ou sur la base d'observations visuelles.
+
+Q pd-109 | D: 2 | R: REGLES Instr. 3.5.8 | T: instructions
+Pendant le tournoi, le JA remarque qu'un arbitre fraternise ostensiblement avec les joueurs d'un club entre ses matchs. Quelle responsabilité lui confient les instructions à ce sujet ?
++ S'assurer que tous les officiels techniques respectent le code de conduite des officiels techniques
+- Seulement veiller à leur bien-être (repas, boissons)
+- Aucune : la conduite des officiels hors service ne le regarde pas
+- Le signaler aux joueurs concernés
+> Instruction 3.5.8 : le juge-arbitre doit s'assurer que tous les officiels techniques respectent le code de conduite des officiels techniques ; celui-ci interdit notamment de fraterniser avec les joueurs (07.09, 4.13.2).
+
+Q pd-110 | D: 2 | R: 07.09 4.13 | T: conduite
+Pendant la pause du midi, un arbitre plaisante et échange des confidences avec les joueurs d'un club dont il arbitrera le match l'après-midi. Que dit le code de conduite des officiels techniques ?
++ L'officiel doit maintenir strictement une limite claire avec les joueurs, ce qui inclut de ne pas fraterniser avec eux
+- C'est encouragé pour créer une bonne ambiance
+- C'est permis tant qu'il n'est pas encore en service
+- Seul le JA est soumis à cette règle
+> Code de conduite des officiels techniques (07.09) art. 4.13 : maintenir strictement une limite claire entre l'amitié envers des joueurs et l'intimité avec ceux-ci, ce qui inclut de ne pas s'engager dans des relations inappropriées, ne pas fraterniser (4.13.2) et ne pas solliciter d'autographes ou d'échanges.
+
+Q pd-111 | D: 2 | R: 07.09 4.3 | T: conduite
+Selon le code de conduite des officiels techniques, quelle est leur responsabilité vis-à-vis des joueurs ?
++ Prendre des mesures raisonnables pour protéger et assurer leur bien-être, en veillant à ce que les compétitions se déroulent de manière sécurisante et équitable
+- Aucune : le bien-être des joueurs relève du seul médecin
+- Seulement leur fournir de l'eau
+- Uniquement dans les compétitions jeunes
+> 07.09 art. 4.3 : prendre des mesures raisonnables pour protéger et assurer le bien-être des joueurs, en veillant à ce que les compétitions se déroulent de manière sécurisantes et équitables.
+
+Q pd-112 | D: 1 | R: 07.09 4.1 | T: conduite
+Selon le code de conduite des officiels techniques, comment ceux-ci doivent-ils appliquer les règles du badminton ? (plusieurs réponses)
++ Avec honnêteté et régularité
++ Avec objectivité et impartialité
++ Avec courtoisie
+- Avec indulgence envers les joueurs du club organisateur
+> 07.09 art. 4.1 : être honnête, régulier, objectif, impartial et courtois lors de l'application des règles du badminton.
+
+Q pd-113 | D: 2 | R: 07.09 4.2 | T: conduite
+Un officiel tient des propos dévalorisants sur une joueuse en raison de son origine. Quelle disposition du code de conduite des officiels techniques est méconnue ?
++ Respecter les droits, la dignité et les valeurs de tous les participants, indépendamment de leur sexe, de leurs capacités ou de leurs origines culturelles
+- Porter la tenue réglementaire
+- Être à l'heure aux briefings
+- Actualiser régulièrement ses connaissances
+> 07.09 art. 4.2 : respecter les droits, la dignité et les valeurs de tous les participants, indépendamment de leur sexe, de leurs capacités ou leurs origines culturelles.
+
+Q pd-114 | D: 2 | R: 07.09 4.14 | T: conduite
+Le soir de la compétition, un juge de ligne publie sur un réseau social un message insultant envers un joueur. Le code de conduite des officiels techniques s'applique-t-il ?
++ Oui : il interdit les propos offensants ou insultants, dans l'enceinte de la compétition comme sur les réseaux sociaux, et vise aussi les juges de ligne
+- Non : seuls les arbitres et les juges-arbitres y sont soumis
+- Non : il ne s'applique que pendant le service
+- Seulement si le message est publié sous son vrai nom
+> 07.09 art. 2 : le terme « officiel technique » inclut notamment les juges-arbitres, arbitres, juges de service et juges de ligne ; art. 4.14 : s'abstenir de propos offensants, insultants, à caractère personnel… dans l'enceinte de la compétition ou sur les réseaux sociaux.
+
+Q pd-115 | D: 2 | R: 07.09 3.2 | T: conduite
+Outre leur code de conduite, à quels textes les officiels techniques sont-ils également soumis ? (plusieurs réponses)
++ Le règlement disciplinaire de la FFBaD
++ La charte d'éthique et de déontologie de la FFBaD
++ La charte des officiels techniques de la FFBaD
+- Le code de conduite des conseillers, entraîneurs et éducateurs
+> 07.09 art. 3.2 : les officiels techniques sont également soumis au règlement disciplinaire de la FFBaD, à la charte d'éthique et de déontologie et à la charte des officiels techniques.
+
+Q pd-116 | D: 1 | R: 07.09 4.8 | T: conduite
+Selon le code de conduite des officiels techniques, en quoi l'officiel doit-il être une référence pour le sport ?
++ Dans ses comportements, sa communication et son apparence
+- Dans ses résultats sportifs personnels
+- Uniquement dans sa connaissance des règles
+- Dans le nombre de compétitions qu'il a arbitrées
+> 07.09 art. 4.8 : être une référence pour le sport — dans ses comportements, sa communication et son apparence.
+
+Q pd-117 | D: 2 | R: 07.09 4.12 | T: conduite
+Avec qui l'officiel technique doit-il toujours maintenir une relation professionnelle de travail ? (plusieurs réponses)
++ Les joueurs et les directeurs d'équipe
++ Les autres officiels techniques
++ Les organisateurs de la compétition
+- Uniquement le juge-arbitre
+> 07.09 art. 4.12 : toujours montrer et maintenir une relation professionnelle de travail avec les joueurs, les directeurs d'équipe, les autres officiels techniques et les organisateurs de la compétition.
+
+# ---------------------------------------------------------------- 4. Comportement, sanctions et réclamations
+
+Q pd-118 | D: 2 | R: 07.08 3.2.9 | T: conduite
+Après une faute, un joueur lance un juron grossier assez fort pour être entendu par l'arbitre et les spectateurs, sans viser personne. Le code de conduite des joueurs est-il concerné ?
++ Oui : il interdit les mots généralement connus comme injurieux ou indécents, prononcés assez distinctement et fort pour être entendus par l'arbitre ou les spectateurs
+- Non : seules les insultes adressées à une personne sont visées
+- Non : seuls les mots prononcés en français sont visés
+- Non, s'il s'excuse aussitôt
+> Code de conduite des joueurs (07.08) art. 3.2.9 : ne pas utiliser de mots généralement connus et compris dans n'importe quelle langue comme étant injurieux ou indécents et les prononcer de façon suffisamment distincte et forte pour être entendus par l'arbitre ou les spectateurs.
+
+Q pd-119 | D: 2 | R: 07.08 3.2.10 | T: conduite
+Après un point litigieux, un joueur adresse au juge de ligne un geste obscène de la main. Quelle disposition du code de conduite des joueurs est en cause ?
++ Ne pas faire avec les mains, la raquette ou le volant de gestes ou de signes ayant un sens généralement reconnu comme obscène ou choquant
+- Ne pas frapper délibérément un volant de manière dangereuse
+- Se présenter à l'heure
+- Ne pas chercher à recevoir de conseils
+> 07.08 art. 3.2.10 : ne pas faire avec les mains et/ou la raquette ou le volant des gestes ou des signes qui ont un sens généralement reconnu comme étant obscène ou choquant.
+
+Q pd-120 | D: 2 | R: 07.08 3.2.3 | T: conduite
+À la balle de match, le vainqueur court directement fêter sa victoire avec son entraîneur dans les tribunes. Que prévoit le code de conduite des joueurs ?
++ Les joueurs doivent remercier leurs adversaires et l'arbitre avant de quitter l'aire de jeu pour célébrer la victoire
+- Rien : la célébration est libre une fois le match terminé
+- Il doit d'abord saluer le public
+- Il doit attendre l'autorisation du JA pour quitter l'aire de jeu
+> 07.08 art. 3.2.3 : respecter les règles de bonne conduite avant, pendant et après le match ; les joueurs doivent remercier leurs adversaires et l'arbitre avant de quitter l'aire de jeu pour célébrer la victoire avec leurs entraîneurs ou les spectateurs (terminologie : « Vous devez serrer les mains avant de célébrer »).
+
+Q pd-121 | D: 2 | R: 07.08 3.2.2 | T: conduite
+Un joueur éliminé insulte un bénévole à la buvette du gymnase. Le code de conduite des joueurs s'applique-t-il ?
++ Oui : le joueur doit se conduire de manière honorable et sportive pendant tout match ou à tout moment dans l'enceinte du site
+- Non : il ne s'applique que sur le terrain
+- Non : il ne s'applique que pendant les matchs du joueur
+- Seulement si la victime est un officiel technique
+> 07.08 art. 3.2.2 : se conduire d'une manière honorable et sportive pendant tout match ou à tout moment dans l'enceinte du site d'un tournoi.
+
+Q pd-122 | D: 3 | R: 07.08 3.1.2 | T: conduite
+Le JA apprend qu'un joueur inscrit et accepté dans son tournoi, dont les tableaux se jouent sur les deux jours, dispute le dimanche une autre compétition autorisée ; le règlement particulier ne prévoit rien. Que dit le code de conduite des joueurs ?
++ C'est une infraction : être inscrit et accepté dans une compétition et jouer une autre compétition autorisée pendant la même période, sauf si le règlement particulier l'indique clairement
+- C'est permis s'il a été éliminé de tous ses tableaux le samedi
+- C'est permis s'il a prévenu l'organisateur
+- Cela ne relève pas du code de conduite
+> 07.08 art. 3.1.2 : être inscrit et accepté dans les qualifications ou le tableau principal d'une compétition autorisée et jouer dans une autre compétition autorisée pendant la période où se déroule la première, excepté si cela est clairement indiqué dans le règlement particulier.
+
+Q pd-125 | D: 2 | R: 07.04 2 | T: sanctions
+Un joueur de 16 ans reçoit un carton noir lors d'une compétition par équipes. Qui signe le formulaire de notification ?
++ Le responsable d'équipe, ou la personne qu'il délègue
+- Le joueur seul
+- L'arbitre du match
+- Le président du club organisateur
+> 07.04 § 2 : dans le cas d'un mineur, le responsable d'équipe, ou la personne qu'il délègue, signe le formulaire.
+
+Q pd-127 | D: 2 | R: 07.04.F01 1 | T: sanctions
+À la suite d'une disqualification par le JA, quelle instance est exclusivement compétente pour les poursuites disciplinaires ?
++ La commission disciplinaire fédérale
+- La commission disciplinaire de la ligue où s'est déroulée la compétition
+- Le JA de la compétition
+- La commission d'examen des réclamations et litiges
+> Formulaire 07.04.F01, § 1 : des poursuites disciplinaires sont engagées d'office contre tout licencié ayant fait l'objet d'une disqualification ; elles sont de la compétence exclusive de la commission disciplinaire fédérale.
+
+Q pd-133 | D: 3 | R: 07.04 3.3 | T: sanctions
+Un joueur a reçu un carton jaune en octobre 2025, un autre en mars 2026 et un troisième en novembre 2026. Est-il suspendu ?
++ Non : les trois cartons jaunes ne s'inscrivent pas dans une même période de douze mois glissants
+- Oui : trois cartons jaunes entraînent toujours deux mois de suspension
+- Oui, pour un mois
+- Oui, s'ils ont été donnés par des arbitres différents
+> 07.04 § 3.3 : un joueur sanctionné trois fois par un carton jaune dans une période de douze mois glissants est interdit de toute compétition pendant deux mois. D'octobre 2025 à novembre 2026, plus de douze mois séparent le premier et le troisième carton.
+
+Q pd-135 | D: 1 | R: 07.01.A01 1.1 | T: sanctions
+Quel est le montant des droits de consignation d'une réclamation en première instance devant la commission régionale, pour un litige d'origine régionale ?
++ 86 €
+- 170 €
+- 342 €
+- 50 €
+> Droits de consignation (07.01.A01) § 1.1 : origine régionale, première instance (commission régionale) 86 € ; appel (commission fédérale d'appel) 342 €. Ces montants sont fixés chaque année par l'Assemblée générale fédérale.
+
+Q pd-136 | D: 2 | R: 07.01.A01 1.2 | T: sanctions | L: JALC JAFA JAFC
+Pour un litige d'origine nationale, quels sont les droits de consignation en première instance et en appel ?
++ 170 € en première instance (commission nationale), 342 € en appel (commission fédérale d'appel)
+- 86 € en première instance, 170 € en appel
+- 170 € dans les deux cas
+- 342 € en première instance, 684 € en appel
+> 07.01.A01 § 1.2 : origine nationale, première instance (commission nationale des réclamations et litiges) 170 € ; appel (commission fédérale d'appel) 342 €.
+
+Q pd-138 | D: 2 | R: 07.01 3.1.6 | T: sanctions
+Une réclamation est déposée contre une décision. Celle-ci est-elle suspendue en attendant l'examen de la réclamation ?
++ Non : la saisine de la commission ne suspend pas la décision contestée, sauf décision motivée de son responsable
+- Oui, automatiquement
+- Oui, si le JA l'accepte
+- Oui, jusqu'à la fin de la saison
+> 07.01 art. 3.1.6 : la saisine de la commission d'examen des réclamations et litiges ne suspend pas la décision contestée ; son responsable peut, par une décision motivée non susceptible de recours, en suspendre tout ou partie des effets.
+
+Q pd-141 | D: 2 | R: 07.01 4.1.8 | T: sanctions | L: JALC JAFA JAFC
+L'appel d'une décision d'une commission d'examen des réclamations et litiges de première instance est-il suspensif ?
++ Oui, sauf lorsque la décision de première instance est assortie de l'exécution provisoire
+- Non, jamais
+- Oui, uniquement pour les litiges nationaux
+- Seulement si le président de la Fédération le décide
+> 07.01 art. 4.1.8 et 4.1.9 : nonobstant l'article 4.1.9, l'appel est suspensif ; lorsque la décision est assortie de l'exécution provisoire, seul le responsable de la commission fédérale d'appel peut accorder un sursis.
+
+Q pd-142 | D: 2 | R: 03.01 2.4 | T: sante
+Un joueur de 15 ans est désigné pour un contrôle antidopage pendant le tournoi. Est-il tenu de s'y soumettre ?
++ Oui : tous les participants, y compris les mineurs, sont tenus de se soumettre aux examens et prélèvements prévus par la réglementation antidopage
+- Non : les mineurs ne peuvent pas être contrôlés
+- Seulement si le JA donne son accord
+- Non, s'il joue dans un tableau jeunes
+> RGC 2.4 : tous les participants, y compris les mineurs, sont tenus de se soumettre aux examens et prélèvements prévus par la réglementation en matière de lutte contre le dopage.
+
+Q pd-143 | D: 2 | R: REGLES Instr. 4.2.2.6 | T: instructions
+Avant d'accéder à une demande inhabituelle d'un responsable d'équipe, quelle conséquence les instructions invitent-elles le JA à considérer ?
++ Le risque que sa décision crée un précédent inutile
+- Le risque d'une réclamation ultérieure du demandeur
+- L'impact financier pour l'organisateur
+- L'avis des spectateurs
+> Instruction 4.2.2.6 : considérer si la conséquence d'une décision est susceptible de créer un précédent inutile ; 4.2.2.7 : prendre la décision dès que possible, mais seulement lorsqu'il est prêt à le faire.
+
+Q pd-144 | D: 2 | R: REGLES Instr. 4.2.2.8 | T: instructions
+Le JA a tranché une demande d'un responsable d'équipe concernant l'horaire d'un match. À qui communique-t-il sa décision ?
++ À la personne qui a soulevé l'affaire et à tous ceux que la décision peut affecter directement ou indirectement
+- Uniquement au responsable d'équipe demandeur
+- Uniquement à la table de marque
+- À personne avant la fin de la journée
+> Instruction 4.2.2.8 : communiquer la décision à la personne qui soulève l'affaire et à tous les autres que la décision peut affecter directement ou indirectement.
+
+Q pd-145 | D: 1 | R: REGLES Instr. 4.1.5.2 | T: instructions
+Selon les conseils généraux, que doit faire le JA une fois sa décision prise ?
++ La communiquer clairement et s'assurer qu'elle est bien comprise par les destinataires
+- La garder confidentielle jusqu'à la rédaction du rapport
+- La faire valider par l'organisateur
+- L'afficher sans explication
+> Instruction 4.1.5.2 : quand une décision est prise, la communiquer clairement et s'assurer qu'elle est bien comprise par les destinataires.
+
+Q pd-146 | D: 2 | R: REGLES Instr. 4.1.5.1 | T: instructions
+Avant de prendre une décision importante, en cas de doute, qui le JA peut-il consulter selon les instructions ? (plusieurs réponses)
++ Son ou ses juges-arbitres adjoints
++ L'institution sportive et le comité d'organisation
++ Un évaluateur d'arbitre, selon le cas
+- Les spectateurs présents
+> Instruction 4.1.5.1 : avant de prendre une décision importante, examiner toute réglementation pertinente, réfléchir et, en cas de doute, consulter son (ses) juge(s)-arbitre(s) adjoint(s), l'institution sportive, le comité d'organisation et/ou un évaluateur d'arbitre, selon le cas.
+
+Q pd-147 | D: 2 | R: REGLES Instr. 3.5.14 | T: instructions
+Comment le JA doit-il traiter les plaintes des joueurs, des conseillers et des responsables d'équipes ?
++ Avec fermeté et équité
+- Avec indulgence, pour éviter tout conflit
+- Uniquement par écrit, après la compétition
+- En les renvoyant systématiquement à l'organisateur
+> Instruction 3.5.14 : le juge-arbitre doit traiter toutes les plaintes des joueurs, des conseillers et des responsables d'équipes avec fermeté et équité.
+
+Q pd-148 | D: 2 | R: 03.01 2.8.1 | T: rgc
+En plein match, le JA constate qu'un juge de ligne commet des erreurs répétées. Peut-il le remplacer avant la fin du match ?
++ Oui : le JA valide la liste des arbitres, juges de service et juges de ligne et peut, à sa discrétion, les changer au cours d'un match
+- Non : un officiel désigné doit terminer son match
+- Oui, mais seulement à la fin d'un set et sur demande d'un joueur
+- Non : seul l'arbitre peut décider d'un remplacement, sans le JA
+> RGC 2.8.1 : le juge-arbitre valide la liste des arbitres, des juges de service et des juges de ligne ; il peut, à sa discrétion, les changer au cours d'un match (voir aussi règle 17.6.4 et instruction 2.3).
+
+Q pd-149 | D: 2 | R: 03.01 2.8.1 | T: rgc
+Une fuite d'eau rend plusieurs terrains impraticables ; le JA interrompt la compétition puis envisage de la reprendre une heure plus tard. Qui décide de l'arrêt, de la suspension ou de la reprise de la compétition ?
++ Le JA
+- Le comité d'organisation seul
+- La ligue, contactée par téléphone
+- Les joueurs, à la majorité
+> RGC 2.8.1 : c'est le juge-arbitre qui décide de l'arrêt, de la suspension ou de la reprise de la compétition ; RGC 2.10 : il peut suspendre ou interrompre la compétition si les exigences techniques ou de sécurité ne sont pas ou plus remplies.
+
+# ---------------------------------------------------------------- 5. Fin de journée, récompenses, éléments du rapport
+
+Q pd-153 | D: 2 | R: REGLES Annexe 4 7.14 | T: instructions
+Une feuille de score porte : « … a été fauté pour avoir utilisé un langage inapproprié. Le juge arbitre a été appelé sur le terrain et a demandé d'observer et de fauter à nouveau si nécessaire. » Que traduit ce commentaire ?
++ Appelé après le carton rouge, le JA n'a pas disqualifié le joueur, mais a demandé à l'arbitre de fauter de nouveau en cas de récidive
+- Le joueur a été disqualifié
+- Le match a été suspendu
+- Le joueur a abandonné
+> Annexe 4, 7.14 (exemple de commentaire). Après une faute pour mauvaise conduite, l'arbitre appelle le JA, qui a le pouvoir de disqualifier (règle 16.7.2) mais peut aussi laisser le match se poursuivre.
+
+Q pd-154 | D: 2 | R: REGLES Annexe 4 8.20 | T: tenues
+L'arbitre constate qu'un joueur a masqué une publicité de son maillot avec du ruban adhésif. Ce cas figure-t-il parmi les exemples de commentaires de non-respect de tenue à porter sur la feuille de score ?
++ Oui : « Il y a du ruban adhésif sur le maillot de … »
+- Non : le ruban adhésif est la solution recommandée
+- Non : seul le JA peut le mentionner, dans son rapport
+- Oui, mais uniquement en compétition internationale
+> Annexe 4, section 8 (commentaires du non-respect de tenue), 8.20 : « Il y a du ruban adhésif sur le maillot de/du [nom du joueur/conseiller] ».
+
+Q pd-155 | D: 2 | R: REGLES Instr. 3.5.12.1 | T: instructions | L: JAFA JAFC
+Des évaluateurs d'arbitres sont présents sur le tournoi. Pourquoi le JA sollicite-t-il leurs retours sur chaque arbitre ?
++ Pour guider ses décisions concernant les affectations des phases finales
+- Pour décider sur place de la promotion de grade des arbitres
+- Pour établir un classement public des arbitres
+- Pour sanctionner les arbitres fautifs
+> Instruction 3.5.12.1 : le juge-arbitre doit solliciter les retours des évaluateurs d'arbitres sur la performance de chaque arbitre pour guider les décisions concernant les affectations pour les phases finales du tournoi ; il garde l'autorité finale sur toutes les affectations (3.5.12.3).
+
+Q pd-156 | D: 2 | R: REGLES Instr. 3.5.13.2 | T: instructions | L: JALC JAFA JAFC
+Que fait le JA des commentaires des arbitres sur les juges de ligne les plus forts et les plus faibles ?
++ Il les transmet au coordonnateur des juges de ligne, pour qu'ils soient affectés de manière appropriée dans les phases finales
+- Il les affiche à la table de marque
+- Il les conserve pour son rapport sans les utiliser
+- Il les communique aux joueurs
+> Instruction 3.5.13.2 : transmettre les commentaires des arbitres et de l'équipe arbitrale au coordonnateur des juges de ligne sur les juges de ligne les plus forts et les plus faibles afin qu'ils puissent être assignés de manière appropriée dans les phases finales.
+
+Q pd-158 | D: 2 | R: REGLES Instr. 4.1.2.1 | T: instructions
+Avec qui le JA doit-il établir des relations de travail constructives pendant le tournoi ? (plusieurs réponses)
++ Les juges-arbitres adjoints et les évaluateurs d'arbitres
++ Le comité d'organisation
++ Les responsables d'équipes, qui représentent les joueurs
+- Les parieurs présents dans la salle
+> Instruction 4.1.2.1 : établir des relations de travail constructives avec les juges-arbitres adjoints, les évaluateurs des arbitres, le comité d'organisation, les responsables d'équipes (représentant les joueurs) et tous les représentants de l'institution sportive nommés pour le tournoi.
+
+# ---------------------------------------------------------------- Compléments : officiels techniques en service (charte 07.12, code 07.09)
+
+Q pd-159 | D: 2 | R: 07.12 4.9 | T: conduite
+Un arbitre veut s'absenter de la salle une demi-heure entre deux rotations. Que lui impose la charte des officiels techniques ?
++ Prévenir le juge-arbitre ou le coordinateur avant de quitter la salle ou de finir sa session
+- Rien, s'il n'est pas affecté à un match
+- Obtenir l'accord écrit de l'organisateur
+- Se faire remplacer lui-même par un autre arbitre de son choix
+> Charte des officiels techniques (07.12) § 4.9 : parmi les bons comportements attendus, prévenir le juge-arbitre ou le coordinateur en cas de difficultés ou avant de quitter la salle ou de finir sa session.
+
+Q pd-160 | D: 2 | R: 07.12 4.9 | T: conduite
+Un arbitre conteste bruyamment devant ses collègues de ne pas avoir été désigné sur une finale. Que prévoit la charte des officiels techniques ?
++ Les désignations du JA (ou d'un coordinateur placé sous son autorité) sur les phases finales doivent être acceptées sans critiques déplacées
+- Il peut exiger d'arbitrer une finale s'il a le grade le plus élevé
+- Il peut demander à l'organisateur de modifier les désignations
+- Les désignations des finales sont faites par tirage au sort entre les arbitres
+> 07.12 § 4.9 : les désignations par le juge-arbitre — ou un coordinateur d'officiels techniques placé sous son autorité — sur les phases finales de la compétition doivent être acceptées sans critiques déplacées. Le JA a l'autorité finale sur les affectations (instruction 3.5.12.3).
+
+Q pd-161 | D: 2 | R: 07.12 4.9 | T: conduite
+Dans la zone de rassemblement, un arbitre discute bruyamment avec un collègue pendant que les joueurs se concentrent avant leur entrée. Quelle règle de comportement de la charte est méconnue ?
++ Être à l'heure et respectueux de la concentration des joueurs dans la zone de rassemblement
+- Participer à la vie sociale de l'organisation
+- Accepter le système de rotation
+- Tenir à jour le relevé des sommes perçues
+> 07.12 § 4.9 : être à l'heure et respectueux de la concentration des joueurs dans la zone de rassemblement ; respecter les consignes reçues et le protocole mis en place.
+
+Q pd-162 | D: 2 | R: 07.12 4.9 | T: conduite
+Pendant un match, l'arbitre corrige l'annonce d'un juge de ligne, qui manifeste ostensiblement son mécontentement. Que prévoit la charte des officiels techniques ?
++ Lors d'un match, l'officiel accepte les changements de décision, sans mauvais esprit, conformément aux instructions
+- Le juge de ligne peut maintenir son annonce
+- Le juge de ligne peut demander l'intervention du JA pour faire annuler la correction
+- Le juge de ligne peut quitter sa chaise jusqu'à la fin de l'échange suivant
+> 07.12 § 4.9 : lors d'un match, accepter les changements de décision, sans mauvais esprit, conformément aux instructions ; l'arbitre doit corriger un juge de ligne en cas d'erreur manifeste (règle 17.5.1).
+
+Q pd-163 | D: 2 | R: 07.12 4.9 | T: conduite
+Un arbitre vient officier accompagné de son conjoint et demande à l'organisateur de prendre en charge son repas. Que prévoit la charte des officiels techniques ?
++ La prise en charge des accompagnants ne peut pas être réclamée à l'organisation, sauf si celle-ci le propose
+- L'organisateur doit prendre en charge un accompagnant par officiel
+- L'accompagnant est pris en charge si l'officiel officie plus d'une journée
+- La prise en charge est décidée par le JA
+> 07.12 § 4.9 : si l'officiel technique est accompagné, la prise en charge de la personne ou des personnes concernées ne peut être réclamée à l'organisation sauf si celle-ci le propose.
+
+Q pd-164 | D: 2 | R: 07.12 4.8 | T: conduite
+Un arbitre convoqué pour deux jours doit finalement partir plus tôt que prévu le dimanche. Qui doit-il avertir sur place ?
++ Le juge-arbitre principal, un juge-arbitre adjoint ou le coordinateur s'il existe
+- Uniquement les joueurs dont il devait arbitrer les matchs
+- Uniquement la table de marque
+- Personne, si son départ intervient après midi
+> 07.12 § 4.8 : en cas de retard pour le jour d'arrivée ou de départ avancé, l'officiel technique doit en avertir le juge-arbitre principal ou un juge-arbitre adjoint ou le coordinateur si celui-ci existe ; il prévient aussi au plus tôt l'instance qui l'a convoqué ou le club qui l'a invité.
+
+Q pd-165 | D: 2 | R: 07.12 4.9 | T: conduite
+Quelle tenue un arbitre porte-t-il pendant la compétition, selon la charte des officiels techniques ?
++ La tenue officielle décrite dans le règlement de la compétition ou fournie par l'organisation
+- La tenue de son club
+- Une tenue libre, pourvu qu'elle soit sombre
+- Un survêtement aux couleurs du tournoi, obligatoirement fourni par la ligue
+> 07.12 § 4.9 : porter la tenue officielle, telle que décrite dans le règlement de la compétition ou fournie par l'organisation ; voir aussi RGC 2.8.2 et code de conduite des officiels techniques 4.9.
+
+Q pd-166 | D: 2 | R: 07.09 4.4 | T: conduite
+Un jeune arbitre est déstabilisé après un match difficile. Selon le code de conduite des officiels techniques, quelle attitude ses collègues plus expérimentés doivent-ils adopter ?
++ Assurer le leadership, tenir une ligne directrice et offrir leur soutien, en particulier envers les autres officiels techniques
+- Le laisser gérer seul pour qu'il s'endurcisse
+- Le signaler immédiatement à la ligue
+- Le critiquer devant les joueurs pour qu'il progresse
+> Code de conduite des officiels techniques (07.09) art. 4.4 : assurer le leadership, tenir une ligne directrice et offrir le soutien à chaque participant, en particulier envers les autres officiels techniques ; art. 4.5 : s'abstenir de critiquer les compétences des collègues.
+
+Q pd-167 | D: 2 | R: 07.09 4.13 | T: conduite
+Un juge-arbitre entretient une relation intime avec une joueuse qui participe au tournoi qu'il dirige. Que dit le code de conduite des officiels techniques ?
++ L'officiel doit maintenir strictement une limite claire et ne pas s'engager dans des relations inappropriées avec les joueurs
+- C'est permis s'il n'arbitre pas lui-même ses matchs
+- C'est une affaire privée qui ne relève pas du code
+- C'est permis s'il en informe l'organisateur
+> 07.09 art. 4.13 et 4.13.1 : maintenir strictement une limite claire entre l'amitié envers des joueurs et l'intimité avec ceux-ci, ce qui inclut de ne pas s'engager dans des relations inappropriées avec les joueurs.
+
+Q pd-168 | D: 2 | R: 07.09 5.1 | T: conduite
+Comment sont traitées les violations potentielles du code de conduite des officiels techniques ?
++ Elles font l'objet d'une enquête et sont jugées selon le règlement cadre des pénalités sportives et le règlement disciplinaire de la FFBaD
+- Elles sont tranchées définitivement par le JA de la compétition
+- Elles sont réglées par l'organisateur qui a invité l'officiel
+- Elles ne peuvent entraîner aucune sanction
+> 07.09 art. 5.1 : les violations potentielles de ce code doivent faire l'objet d'une enquête et être jugées conformément au règlement cadre des pénalités sportives et au règlement disciplinaire. La charte 07.12 (5.2) ajoute une gestion possible par l'instance gestionnaire (rétrogradation).
+
+# ---------------------------------------------------------------- Compléments : éthique et entourage (charte 07.11)
+
+Q pd-169 | D: 2 | R: 07.11 4.1 | T: conduite
+Dans les tribunes, un parent critique avec véhémence l'adversaire de son enfant. Quelle recommandation la charte d'éthique et de déontologie adresse-t-elle aux parents ?
++ Faire preuve de réserve et de recul, et n'employer ni mot ni attitude déplacés
+- Encourager leur enfant de toutes les manières possibles
+- Ne pas assister aux matchs de leur enfant
+- S'adresser directement à l'arbitre en cas de désaccord
+> Charte d'éthique et de déontologie (07.11) § 4.1 : les parents sont les premiers supporters de leurs enfants mais peuvent adopter un comportement excessif ; il leur est recommandé de faire preuve de réserve et de recul et de n'employer ni mot, ni attitude déplacés.
+
+Q pd-170 | D: 2 | R: 07.11 3.1.3 | T: conduite
+Un joueur reproche vivement à un arbitre une erreur d'appréciation sur un volant litigieux. Que dit la charte d'éthique et de déontologie de ces erreurs ?
++ Elles doivent être admises comme des aléas du jeu, ne pas être discutées et ne jamais donner lieu à des réactions excessives, injurieuses ou violentes
+- Elles justifient que le point soit rejoué
+- Elles peuvent être contestées jusqu'à la fin du set
+- Elles entraînent le remplacement de l'arbitre
+> 07.11 § 3.1.3 : les officiels techniques peuvent commettre des erreurs d'appréciation qui doivent impérativement être admises comme des aléas du jeu ; elles ne doivent pas être discutées et ne doivent jamais donner lieu à des réactions excessives, injurieuses ou violentes.
+
+Q pd-171 | D: 2 | R: 07.11 3.1.3 | T: conduite
+Selon la charte d'éthique et de déontologie, quel rôle les organisateurs de compétitions et les dirigeants de clubs ont-ils envers les officiels techniques ?
++ Protéger la fonction d'officiel technique et favoriser les actions de sensibilisation et de formation à cette fonction
+- Évaluer les arbitres à la fin de chaque compétition
+- Désigner les arbitres des phases finales
+- Fixer les indemnités des arbitres fédéraux
+> 07.11 § 3.1.3 : les organisateurs de compétitions et les dirigeants de clubs doivent protéger la fonction d'officiel technique et favoriser les actions de sensibilisation et de formation à cette fonction.
+
+Q pd-172 | D: 2 | R: 07.11 3.1.2 | T: conduite
+Un joueur se moque ouvertement d'un bénévole de la table de marque. Que prévoit la charte d'éthique et de déontologie ?
++ Chaque acteur du jeu doit adopter un comportement courtois et respectueux et s'interdire toute injure ou moquerie envers un autre acteur de la compétition
+- Les bénévoles ne sont pas des acteurs de la compétition
+- Seules les injures envers les arbitres sont visées
+- La moquerie est tolérée si elle n'est pas publique
+> 07.11 § 3.1.2 : adversaires, partenaires, éducateurs, dirigeants, officiels techniques, organisateurs et responsables des installations remplissent une fonction indispensable ; chaque acteur doit adopter un comportement courtois et respectueux et s'interdire de formuler des injures ou moqueries à l'égard d'un autre acteur.
+
+Q pd-173 | D: 2 | R: 07.11 3.1.5 | T: conduite
+Selon la charte d'éthique et de déontologie, qui doit rester mesuré dans son attitude et contrôler propos, réactions et émotions en toute occasion ? (plusieurs réponses)
++ Les sportifs
++ Les entraîneurs
++ Les officiels techniques et les dirigeants
+- Uniquement les joueurs mineurs
+> 07.11 § 3.1.5 : les sportifs, les entraîneurs, les officiels techniques et les dirigeants doivent rester mesurés dans leur attitude, contrôler leurs propos, leurs réactions et leurs émotions en toute occasion, quels que soient les enjeux.
+
+Q pd-174 | D: 2 | R: 07.11 1 | T: conduite
+Un joueur affirme au JA qu'il n'a jamais « signé » la charte d'éthique et de déontologie et qu'elle ne le concerne pas. Que prévoit la charte ?
++ L'adhésion à une association sportive affiliée à la FFBaD implique l'acceptation pure et simple et le respect de toutes ses dispositions
+- Elle ne s'applique qu'aux licenciés qui l'ont signée
+- Elle ne concerne que les dirigeants
+- Elle remplace le règlement disciplinaire
+> 07.11 § 1 : l'adhésion à une association sportive affiliée implique acceptation pure et simple et respect de toutes les dispositions de la charte ; elle n'a pas vocation à se substituer au règlement disciplinaire, les commissions concernées pouvant toutefois y faire référence.
+
+Q pd-175 | D: 2 | R: 07.11 4.3 | T: conduite
+Le sponsor principal d'un tournoi demande au JA de programmer un joueur qu'il parraine sur le terrain central et de lui accorder plus de repos que ses adversaires. Que dit la charte d'éthique sur les partenaires économiques ?
++ Ils doivent s'engager à ne pas instrumentaliser le sport, influencer le déroulement des compétitions ou dénaturer ses valeurs
+- Leurs demandes doivent être satisfaites, puisqu'ils financent la compétition
+- Ils peuvent influencer l'échéancier s'ils en informent la ligue
+- La charte ne les concerne pas
+> 07.11 § 4.3 : le partenaire économique du sport doit adopter un comportement éthique et s'engager à ne pas instrumentaliser le sport, influencer le déroulement des compétitions ou dénaturer les valeurs du sport. L'instruction 3.5.19.5 impose par ailleurs des temps de repos non disproportionnés entre adversaires.
+
+Q pd-176 | D: 2 | R: 07.11 3.1.4 | T: conduite
+Selon la charte d'éthique et de déontologie, comment répondre à la violence et à la tricherie sur et aux abords des terrains ?
++ Par des sanctions disciplinaires, complétées par une démarche éducative et/ou curative permanente auprès de tous les acteurs du jeu
+- Uniquement par des sanctions disciplinaires, qui sont une fin en soi
+- Uniquement par la prévention, sans sanction
+- Par des amendes infligées sur place par le JA
+> 07.11 § 3.1.4 : les sanctions disciplinaires s'imposent pour réprimer la violence et la tricherie mais ne constituent pas une fin en soi ; l'approche disciplinaire doit être complétée par une démarche éducative et/ou curative permanente, à la charge de la FFBaD, de ses organes déconcentrés et des clubs.
+
+# ---------------------------------------------------------------- Compléments : conseillers, entraîneurs et joueurs (07.07, 07.08)
+
+Q pd-177 | D: 2 | R: 07.07 4.13 | T: conduite
+Le soir de la compétition, un entraîneur publie sur un réseau social un message mettant en doute l'intégrité du JA. Le code de conduite des conseillers s'applique-t-il ?
++ Oui : il interdit les propos offensants, insultants ou mettant en doute l'intégrité d'autrui, y compris dans les médias et sur les réseaux sociaux
+- Non : il ne s'applique que dans l'enceinte du gymnase
+- Non : seuls les joueurs sont visés pour les réseaux sociaux
+- Seulement si le message est publié pendant la compétition
+> Code de conduite des conseillers (07.07) art. 4.13 (et 4.23 pour les entraîneurs/éducateurs) : s'abstenir de tenir des propos, dans l'enceinte de la compétition ou dans les médias ou réseaux sociaux, offensants, insultants, à caractère personnel, comportant des préjugés ou mettant en doute l'intégrité d'autrui.
+
+Q pd-178 | D: 2 | R: 07.07 4.12 | T: conduite
+Selon le code de conduite des conseillers, quel comportement physique est proscrit envers les personnes présentes dans l'enceinte de la compétition ?
++ Tout contact physique déplacé, abusif ou intimidant, ou toute tentative d'un tel contact
+- Toute poignée de main avec l'adversaire de son joueur
+- Toute accolade avec son propre joueur après le match
+- Uniquement les coups portés à un officiel
+> 07.07 art. 4.12 : ne pas avoir, ou tenter d'avoir, un contact physique déplacé, abusif ou intimidant, de quelque manière que ce soit, avec quiconque présent dans l'enceinte du site ; l'article 5.1 cite cette infraction comme exemple d'infraction grave pouvant entraîner l'exclusion du reste du tournoi.
+
+Q pd-179 | D: 2 | R: 07.07 4.16 | T: conduite
+Un entraîneur évoque à voix haute, devant d'autres clubs, les problèmes de santé d'un de ses jeunes joueurs. Quelle obligation du code de conduite des entraîneurs et éducateurs est en cause ?
++ Comprendre et respecter les règles de confidentialité sur les informations personnelles des élèves et pratiquants
+- Rester assis sur la chaise de conseiller
+- Retourner à sa chaise à l'annonce « 20 secondes »
+- Relayer les informations logistiques
+> 07.07 art. 4.16 : comprendre et respecter les règles de confidentialité ; veiller à ce que les informations confidentielles et personnelles relatives aux élèves et/ou aux pratiquants ne soient utilisées que de manière appropriée.
+
+Q pd-180 | D: 2 | R: 07.07 4.17 | T: conduite
+Un entraîneur n'adresse la parole qu'à ses meilleurs joueurs et ignore ostensiblement les autres pendant la compétition. Quelle disposition du code de conduite des entraîneurs est méconnue ?
++ Traiter tous les élèves et pratiquants de manière égale, avec respect, équité, honnêteté et cohérence
+- Ne pas conseiller quand le volant est en jeu
+- Ne pas utiliser d'appareil électronique
+- Signaler les forfaits en temps utile
+> 07.07 art. 4.17 : traiter tous les élèves et/ou les pratiquants de manière égale et avec respect, équité, honnêteté et cohérence, indépendamment de leurs origines, croyances et capacités.
+
+Q pd-181 | D: 2 | R: 07.07 4.21 | T: conduite
+Selon le code de conduite des entraîneurs et éducateurs, quelle relation doivent-ils entretenir avec leurs élèves ?
++ Une relation de travail professionnelle, avec une frontière claire entre l'amitié et l'intimité, sans relation inappropriée
+- Une relation strictement amicale, sans hiérarchie
+- Une relation libre, dès lors que l'élève est majeur et consentant
+- Aucune règle n'est fixée
+> 07.07 art. 4.21 : toujours offrir et maintenir une relation de travail professionnelle ; être conscient du pouvoir inhérent à la fonction ; maintenir une frontière claire entre l'amitié et l'intimité et ne pas s'engager dans des relations inappropriées ; 4.22 : éviter toute situation pouvant être interprétée comme compromettante.
+
+Q pd-182 | D: 2 | R: 07.07 1.3 | T: conduite
+Selon son objet, que vise notamment le code de conduite des conseillers, entraîneurs et éducateurs lorsqu'un entraîneur, un capitaine ou un joueur se trouve sur l'aire de jeu en qualité de conseiller ?
++ Assurer et maintenir une gestion et une conduite justes et ordonnées des tournois
+- Garantir la victoire des joueurs conseillés
+- Organiser la formation des entraîneurs
+- Fixer la rémunération des conseillers
+> 07.07 art. 1.3 : assurer et maintenir une gestion et une conduite justes et ordonnées des tournois organisés par la FFBaD, lorsqu'un entraîneur, un capitaine d'équipe ou un joueur se trouve sur l'aire de jeu en qualité de conseiller.
+
+Q pd-183 | D: 2 | R: 07.08 3.3 | T: conduite
+Un vainqueur refuse de participer à la cérémonie de remise des prix et aux sollicitations des partenaires. Que dit le code de conduite des joueurs sur ces activités ?
++ Ce sont des moments importants des tournois ; les joueurs ont des obligations vis-à-vis de ces activités, selon les règlements sur l'engagement des joueurs
+- Elles sont entièrement facultatives
+- Seuls les joueurs professionnels y sont tenus
+- Elles ne concernent que les compétitions télévisées
+> Code de conduite des joueurs (07.08) art. 3.3 : les activités relatives aux médias, aux partenaires et aux cérémonies de remise de prix sont des moments importants ; les joueurs ont des obligations vis-à-vis de ces activités et doivent suivre les règlements sur l'engagement des joueurs (voir aussi 3.1.4).
+
+Q pd-184 | D: 2 | R: 07.08 3.2.5 | T: conduite
+Un joueur refuse de retirer de son maillot une publicité non conforme, estimant que le code de conduite ne traite que du comportement. Que prévoit ce code ?
++ Le joueur doit respecter les conditions d'inscription relatives au règlement sur les tenues et les publicités de la FFBaD
+- Le code de conduite ne vise pas les tenues
+- Les publicités relèvent uniquement du sponsor
+- Le joueur peut garder la publicité s'il paie une amende
+> 07.08 art. 3.2.5 : respecter les conditions d'inscription à une compétition concernant le règlement sur les tenues et les publicités ; le règlement des tenues (03.07, 5.1.2) renvoie aux articles 3.2.4 et 3.2.7 du code pour imposer un changement immédiat.
+
+Q pd-185 | D: 2 | R: 07.08 2.2 | T: conduite
+Un joueur affirme qu'il n'a pas accepté le code de conduite des joueurs et qu'il ne peut donc pas lui être opposé. Que prévoit ce code ?
++ Les joueurs qui s'inscrivent ou participent à une compétition autorisée doivent accepter ce code, les règles du badminton et le RGC, et sont donc tenus de les respecter
+- Le code ne s'applique qu'après signature d'une feuille d'engagement
+- Il ne s'applique qu'aux compétitions fédérales
+- Il ne s'applique qu'aux joueurs majeurs
+> 07.08 art. 2.1 et 2.2 : le code s'applique à tous les joueurs participant à une compétition autorisée par la FFBaD ; ceux qui s'inscrivent ou participent doivent l'accepter, ainsi que les règles du badminton et le RGC.
+
+Q pd-186 | D: 2 | R: 07.08 4.1 | T: conduite
+Le JA constate une violation du code de conduite des joueurs qui ne peut être réglée sur place. Comment cette violation sera-t-elle traitée ?
++ Elle fait l'objet d'une enquête et est jugée selon le règlement cadre des pénalités sportives et le règlement disciplinaire de la FFBaD
+- Le JA fixe lui-même une suspension
+- L'organisateur décide d'une interdiction de ses futurs tournois
+- Elle ne peut entraîner aucune suite
+> 07.08 art. 4.1 : les violations potentielles de ce code doivent faire l'objet d'une enquête et être jugées conformément au règlement cadre des pénalités sportives et au règlement disciplinaire de la FFBaD. Le JA les signale dans son rapport.
+
+# ---------------------------------------------------------------- Compléments : le juge-arbitre au travail (instructions, conseils généraux)
+
+Q pd-187 | D: 2 | R: REGLES Instr. 3.5.1.1 | T: instructions
+En cours de tournoi, un problème de chauffage de la salle apparaît. Que prévoient les instructions sur les relations du JA avec le comité d'organisation ?
++ Le JA rencontre, au besoin, les membres du comité d'organisation au fur et à mesure que le tournoi progresse et que des problèmes spécifiques se présentent
+- Le JA ne rencontre le comité qu'à la fin du tournoi
+- Le JA règle seul tous les problèmes matériels
+- Le JA renvoie toute question au propriétaire de la salle
+> Instruction 3.5.1.1 : le JA se tient informé de l'avancement du tournoi et rencontre, au besoin, les membres du comité d'organisation au fur et à mesure que le tournoi progresse et que des problèmes spécifiques se présentent.
+
+Q pd-188 | D: 2 | R: REGLES Instr. 3.5.10.3 | T: instructions
+Après avoir donné une consigne à un arbitre pour corriger un point de sa prestation, que doit faire ensuite le JA ?
++ S'assurer que ses instructions sont bien comprises, puis observer l'arbitre pour vérifier qu'elles sont suivies
+- Le retirer de la rotation pour le reste de la journée
+- Le signaler immédiatement à la commission des officiels techniques
+- Rien de plus : la consigne suffit
+> Instruction 3.5.10.3 : s'assurer que ses instructions sont bien comprises et, par la suite, observer l'arbitre pour s'assurer qu'elles sont suivies ; le retour est fait rapidement après le match et dans un cadre privé (3.5.10.1 et 3.5.10.2).
+
+Q pd-189 | D: 2 | R: REGLES Instr. 3.5.12.2 | T: instructions | L: JAFA JAFC
+Un évaluateur d'arbitres demande que tel arbitre soit affecté comme juge de service sur un match afin de l'évaluer. Que prévoient les instructions ?
++ Dans la mesure du possible, le JA répond aux requêtes des évaluateurs concernant les affectations, pour faciliter l'évaluation, tout en gardant l'autorité finale
+- Le JA doit obligatoirement suivre la demande
+- Le JA doit refuser toute demande des évaluateurs
+- L'évaluateur procède lui-même à l'affectation
+> Instruction 3.5.12.2 : dans la mesure du possible, le juge-arbitre répond aux requêtes des évaluateurs d'arbitres en ce qui a trait aux affectations des arbitres et des juges de service afin de faciliter l'évaluation ; il a autorité finale sur toutes les affectations (3.5.12.3).
+
+Q pd-190 | D: 1 | R: REGLES Instr. 4.1.1 | T: instructions
+Selon les conseils généraux sur le juge-arbitrage, que doit d'abord connaître et comprendre le JA ?
++ Les règles du badminton, en restant à jour sur le code d'éthique, les règlements fédéraux et le code de conduite des officiels techniques
+- Uniquement le règlement particulier de chaque tournoi
+- Uniquement les règlements de la BWF
+- Les seules instructions aux arbitres
+> Instruction 4.1.1 : le juge-arbitre doit connaître et comprendre les règles du badminton ; 4.1.1.1 : rester à jour sur le code d'éthique, les règlements généraux de la fédération et leurs annexes, en particulier le code de conduite des officiels techniques ; 4.1.1.2 : maîtriser les outils informatiques de gestion de tournoi.
+
+Q pd-191 | D: 2 | R: REGLES Instr. 4.1.3 | T: instructions
+Selon les conseils généraux, que fait le JA en observant le jeu ?
++ Après consultation s'il y a lieu, il prend toutes les mesures nécessaires pour s'assurer que le jeu est juste et correct
+- Il note les erreurs des arbitres sans jamais intervenir
+- Il intervient uniquement à la demande des joueurs
+- Il se limite à vérifier les scores
+> Instruction 4.1.3 : le juge-arbitre doit observer le jeu et, après consultation, s'il y a lieu, prendre toutes les mesures nécessaires pour s'assurer que le jeu est juste et correct ; il peut déléguer, mais garde la responsabilité finale (4.1.3.1).
+
+Q pd-192 | D: 2 | R: REGLES Instr. 4.1.4.3 | T: instructions
+La télévision locale filme les finales et le partenaire principal a des obligations contractuelles. Quel est le rôle du JA selon les conseils généraux ?
++ Aider le comité d'organisation et l'institution sportive à offrir la meilleure présentation possible du tournoi et respecter les obligations contractuelles de la fédération
+- Refuser toute contrainte liée à la télévision
+- Laisser la télévision fixer seule l'ordre des matchs
+- Ne s'occuper que des arbitres
+> Instruction 4.1.4.3 : le juge-arbitre aide le comité d'organisation et l'institution sportive à fournir la meilleure présentation possible du tournoi aux spectateurs et téléspectateurs, et respecte les obligations contractuelles de la fédération (télévision, sponsors). Les demandes de la télévision sont négociées sans préjudice injustifié pour un joueur (3.5.19.3).
+
+Q pd-193 | D: 1 | R: REGLES Instr. 4.1.5 | T: instructions
+Face à un incident tendu impliquant plusieurs joueurs et leurs entraîneurs, quelle attitude générale les instructions attendent-elles du JA ?
++ Rester juste et calme en toutes circonstances et être prêt à prendre toutes les décisions nécessaires
+- Éviter de trancher pour ne mécontenter personne
+- Laisser l'organisateur gérer les conflits
+- Reporter toute décision à la fin de la journée
+> Instruction 4.1.5 : le juge-arbitre doit rester juste et calme en toutes circonstances et doit être prêt à prendre toutes les décisions nécessaires.
+
+Q pd-194 | D: 2 | R: REGLES Instr. 4.2.2.2 | T: instructions
+Un joueur étranger ne parlant pas français vient demander une décision au JA sur un cas précis. Que prévoient les instructions ?
++ Poser des questions pour clarifier complètement le problème, en utilisant un interprète si nécessaire, et s'assurer que tous les faits sont bien compris
+- Refuser d'examiner la demande faute de langue commune
+- Décider immédiatement sans chercher à comprendre les faits
+- Demander au joueur de revenir avec une demande écrite en français
+> Instruction 4.2.2.2 : poser des questions pour clarifier complètement le problème, en utilisant un interprète, si nécessaire, et s'assurer que tous les faits sont bien compris ; 4.2.2.1 : écouter attentivement l'affaire et les arguments.
+
+Q pd-195 | D: 2 | R: REGLES Instr. 4.2.2.7 | T: instructions
+Un responsable d'équipe presse le JA de trancher immédiatement une question réglementaire complexe. Que prévoient les instructions ?
++ Prendre la décision dès que possible, mais seulement lorsqu'il est prêt à le faire, en prenant si nécessaire le temps de réfléchir et de consulter la réglementation
+- Décider sur-le-champ pour ne pas faire attendre
+- Refuser de répondre avant la fin du tournoi
+- Laisser le responsable d'équipe décider
+> Instruction 4.2.2.3 : prendre le temps, si nécessaire, de réfléchir et de consulter toute réglementation pertinente ; 4.2.2.7 : prendre la décision dès que possible, mais seulement lorsqu'il est prêt à le faire.
+
+Q pd-196 | D: 2 | R: REGLES Instr. 4.2.2.5 | T: instructions
+Un joueur soumet au JA une question qui relève en réalité du service des transports de l'organisateur. Que prévoient les instructions ?
++ Considérer l'importance et l'urgence de la question, décider de la priorité et si elle doit être tranchée par le JA ou référée ailleurs
+- Répondre lui-même, quelle que soit la question
+- Ignorer la question
+- Exiger une demande écrite
+> Instruction 4.2.2.5 : considérer l'importance et l'urgence de la décision, décider de la priorité et si le juge-arbitre doit prendre la décision ou si elle doit être référée ailleurs ; 3.5.1.2 : il assure ensuite un suivi des questions redirigées.
+
+Q pd-197 | D: 2 | R: REGLES Instr. 4.4.2 | T: instructions
+Un photographe de presse franchit la zone qui lui est réservée et s'approche des terrains en plein match. Que prévoient les instructions sur les médias ?
++ Le JA doit connaître les directives de la fédération pour le personnel des médias et aider à les faire respecter sur le terrain de jeu
+- Le JA n'a aucune compétence envers les médias
+- Le JA doit interdire toute photo pendant les matchs
+- Le JA doit confisquer l'appareil du photographe
+> Instruction 4.4.2 : le juge-arbitre doit être au courant des directives spécifiques de la fédération pour le personnel des médias et aider à maintenir ces directives sur le terrain de jeu ; 4.4.1 : sans compromettre la santé et la sécurité des joueurs ni les conditions de jeu.
+
+Q pd-198 | D: 2 | R: REGLES Instr. 3.6.1.1 | T: instructions
+Appelé sur un terrain pour une blessure, le JA s'est informé auprès de l'arbitre et a fait venir le médecin. Que doit-il rappeler à l'arbitre ?
++ De chronométrer le retard dû à la blessure
+- D'annoncer un intervalle de 120 secondes
+- De remettre le score à zéro dans le set en cours
+- De donner un avertissement au joueur blessé
+> Instruction 3.6.1.1 : le juge-arbitre parle d'abord à l'arbitre, appelle si nécessaire le médecin (qui attend aux abords du terrain) et doit rappeler à l'arbitre de chronométrer le retard dû à la blessure.
+
+Q pd-199 | D: 2 | R: REGLES Instr. 3.6.1.2 | T: sante
+Pendant un intervalle entre deux sets, le médecin du tournoi souhaite poser un strap sur la cheville d'un joueur. Est-ce possible ?
++ Oui, un traitement est possible pendant les arrêts de jeu réguliers, si le médecin estime pouvoir le terminer (ou presque) avant la fin de l'intervalle
+- Non, aucun soin n'est autorisé pendant un match
+- Oui, quelle que soit sa durée, le jeu attendant la fin du soin
+- Seulement avec l'accord de l'adversaire
+> Instruction 3.6.1.2 : le médecin peut appliquer un secours rapide, mais aucun traitement prenant du temps n'est autorisé, excepté durant les arrêts de jeu réguliers et seulement si le médecin estime que le traitement peut être complété (ou presque) avant la fin de l'intervalle.
+
+Q pd-200 | D: 2 | R: REGLES Instr. 1.4 | T: instructions | L: JALC JAFA JAFC
+Dans les instructions aux officiels techniques, que désignent respectivement les « instructions » et les « règles » ?
++ Les « instructions » sont les clauses de ce document destiné aux officiels ; les « règles » sont les règles du badminton
+- Les « instructions » sont les décisions du JA ; les « règles » sont le règlement particulier
+- Les deux termes sont synonymes
+- Les « règles » désignent le RGC
+> Instruction 1.4 : les références aux « instructions » sont des clauses individuelles dans ce document, tandis que les références aux « règles » concernent les règles du badminton.
+
+# ---------------------------------------------------------------- Compléments : santé, médecin et compétitions par équipes
+
+Q pd-201 | D: 2 | R: 02.01 3.5.7 | T: sante
+Le médecin assurant la surveillance médicale d'un tournoi se présente au JA. Quelles conditions le règlement médical pose-t-il pour ce médecin ? (plusieurs réponses)
++ Être docteur en médecine
++ Bénéficier d'une assurance en responsabilité civile professionnelle adaptée
++ Faire l'objet d'un contrat de travail déclinant ses missions et ses moyens
+- Être licencié dans le club organisateur
+> Règlement médical (02.01) § 3.5.7 : le médecin de surveillance agit en tant que professionnel de santé ; il est docteur en médecine, bénéficie d'une assurance en responsabilité civile professionnelle et doit faire l'objet d'un contrat de travail ; il peut être rémunéré.
+
+Q pd-202 | D: 2 | R: 02.01 7.1.3 | T: sante
+Un joueur demande au JA selon quelles modalités se déroulera le contrôle antidopage auquel il est convoqué. Par quelles règles ces modalités sont-elles précisées ?
++ Par les règles édictées par l'Agence française de lutte contre le dopage
+- Par le règlement particulier du tournoi
+- Par le JA de la compétition
+- Par le règlement disciplinaire de la ligue
+> 02.01 § 7.1.3 : les modalités de la lutte contre le dopage sont précisées par les règles édictées par l'Agence française de lutte contre le dopage ; les joueurs licenciés et les étrangers participant à une compétition autorisée sont tenus de se soumettre aux contrôles (7.1.2).
+
+Q pd-203 | D: 2 | R: 03.01 4.5.5 | T: rgc
+Dans une compétition par équipes, une équipe se présente avec plus de joueurs qu'il n'en faut pour disputer la rencontre. Est-ce admis ?
++ Oui, sauf disposition contraire des règlements complémentaires, qui précisent aussi les règles de remplacement
+- Non, l'équipe doit compter exactement le nombre de joueurs nécessaires
+- Oui, mais les joueurs en surnombre doivent quitter la salle
+- Non, sauf accord du capitaine adverse
+> RGC 4.5.5 : sauf disposition contraire des règlements complémentaires, une équipe peut comprendre plus de membres qu'il n'est nécessaire pour jouer une rencontre ; les règlements complémentaires précisent les règles de remplacement d'un joueur initialement prévu pour un match.
+
+Q pd-204 | D: 2 | R: 03.01 4.5.1 | T: rgc
+Selon le RGC, quelles limitations les règlements complémentaires peuvent-ils prévoir pour la composition d'une équipe lors d'une rencontre ? (plusieurs réponses)
++ Un nombre maximum d'étrangers, de mutés ou de licenciés hors du club
++ Un nombre minimum de jeunes
++ L'interdiction de jouer plus de deux matchs par rencontre ou plus d'un dans la même discipline
+- L'obligation que tous les joueurs aient le même classement
+> RGC 4.5.1 : les règlements complémentaires peuvent comprendre des limitations : nombre maximum d'étrangers, de mutés ou de licenciés hors du club ; nombre minimum de jeunes ; interdiction de jouer plus de deux matchs par rencontre ou plus d'un dans la même discipline, etc.
+
+Q pd-205 | D: 2 | R: 03.01 4.6 | T: rgc
+Dans une rencontre par équipes, le JA déclare forfait une paire pour un match. Sur quelle marque ce match est-il gagné par l'équipe adverse (système de marque normal) ?
++ 15-0, 15-0
+- 21-0, 21-0
+- 0-0 dans chaque set
+- 11-0, 11-0
+> RGC 4.6 : si un joueur ou une paire est déclaré forfait par le juge-arbitre pour un match de la rencontre, celui-ci est gagné par l'équipe adverse sur la marque de 15-0, 15-0 (marque adaptée si un autre système de marque est utilisé ; 0-0 par set si les deux équipes sont forfaits).
+
+Q pd-206 | D: 2 | R: 03.01 2.8.1 | T: rgc
+Selon le RGC, de quoi le JA a-t-il la responsabilité totale pendant la compétition ?
++ Du traitement équitable des joueurs ; il partage avec l'organisateur la bonne présentation du sport à l'égard des spectateurs et des médias
+- De la buvette et de l'accueil des spectateurs
+- De la fixation des droits d'inscription
+- Du transport des joueurs, seul
+> RGC 2.8.1 : le juge-arbitre a la responsabilité totale du traitement équitable des joueurs et, avec l'organisateur, de la bonne présentation du sport à l'égard des spectateurs et des médias ; il veille au total respect des règles et règlements.
+
+Q pd-207 | D: 2 | R: 07.07 4.14 | T: conduite
+Selon le code de conduite des entraîneurs et éducateurs, quelle attitude générale doivent-ils adopter pendant une compétition ?
++ Agir en modèle, promouvoir les aspects positifs du sport et toujours maintenir un haut niveau de conduite personnelle et professionnelle
+- Défendre leurs joueurs en toutes circonstances, y compris contre les décisions arbitrales
+- Se limiter à des conseils techniques, sans autre obligation
+- Se faire discrets en laissant la discipline à l'organisateur
+> 07.07 art. 4.14 : agir en modèle et promouvoir les aspects positifs du sport et du badminton ; toujours maintenir un haut niveau de conduite personnelle et professionnelle ; 4.15 : reconnaître sa responsabilité vis-à-vis du sport, des joueurs, des autres entraîneurs, des parents, de la FFBaD et des officiels.
+
+Q pd-208 | D: 2 | R: 07.07 4.19 | T: conduite
+Un entraîneur impose à un jeune joueur, visiblement épuisé, un échauffement très intense entre deux matchs. Quelle disposition du code de conduite des entraîneurs est en cause ?
++ Utiliser des méthodes appropriées et s'assurer que les tâches conviennent à l'âge, à l'expérience, aux capacités et à la condition physique et psychologique du pratiquant
+- Retourner à sa chaise à l'annonce « 20 secondes »
+- Respecter les règles de confidentialité
+- Signaler les forfaits en temps utile
+> 07.07 art. 4.19 : utiliser des méthodes de formation appropriées, éviter tout ce qui pourrait porter préjudice aux pratiquants et s'assurer que les tâches et les activités conviennent à l'âge, à l'expérience, aux capacités et aux conditions physiques et psychologiques des élèves.
+
+Q pd-209 | D: 2 | R: 07.07 4.24.3 | T: conduite | L: JALC JAFA JAFC
+Un entraîneur s'est comporté, à un moment quelconque, de façon à nuire gravement à la réputation du badminton. Que prévoit le code de conduite des conseillers, entraîneurs et éducateurs ?
++ Il peut, en vertu de ce comportement, être considéré comme ayant porté atteinte à l'image du badminton
+- Rien, si les faits n'ont pas eu lieu pendant une compétition
+- Seul le code de conduite des joueurs prévoit ce cas
+- Il est automatiquement radié
+> 07.07 art. 4.24.3 : si un conseiller, entraîneur, éducateur, capitaine d'équipe ou représentant d'équipe s'est comporté, à quelque moment que ce soit, de façon à nuire gravement à la réputation du sport, il peut être considéré comme ayant porté atteinte à l'image du badminton (4.24.1 : interdiction de toute conduite contraire à l'intégrité du badminton).
+
+Q pd-210 | D: 2 | R: 07.07 4.20 | T: conduite
+Selon le code de conduite des entraîneurs et éducateurs, comment doivent-ils évaluer leurs élèves ?
++ De façon juste, en adéquation avec les objectifs de l'apprentissage, avec des commentaires bienveillants et honnêtes
+- Uniquement d'après leurs résultats en compétition
+- Publiquement, pour stimuler la concurrence
+- Selon l'avis des parents
+> 07.07 art. 4.20 : être juste dans l'évaluation des élèves et/ou des pratiquants et être certain que ces évaluations sont en adéquation avec les objectifs de l'apprentissage ; apporter des commentaires bienveillants et honnêtes.
+
+Q pd-211 | D: 1 | R: 07.09 4.6 | T: conduite
+Selon le code de conduite des officiels techniques, de quelle manière l'officiel doit-il officier ?
++ D'une manière positive, professionnelle et respectueuse
+- D'une manière distante, sans adresser la parole aux joueurs
+- D'une manière souple, en tolérant les écarts des joueurs locaux
+- D'une manière autoritaire, en sanctionnant au moindre doute
+> 07.09 art. 4.6 : officier d'une manière positive, professionnelle et respectueuse.
+
+Q pd-212 | D: 2 | R: 07.08 1.1 | T: conduite
+Selon son objet, que vise le code de conduite des joueurs ? (plusieurs réponses)
++ Assurer une gestion rigoureuse et une organisation équitable des compétitions autorisées ou organisées par la FFBaD
++ Protéger les droits des joueurs, ainsi que ceux de la FFBaD, des partenaires et du public
++ Défendre l'image de marque de la FFBaD et préserver l'intégrité du badminton
+- Fixer le classement des joueurs
+> 07.08 art. 1.1 et 1.2 : assurer et maintenir une gestion rigoureuse et une organisation équitable des compétitions, protéger les droits des joueurs et les droits respectifs de la FFBaD, des partenaires et du public ; défendre l'image de marque de la FFBaD et préserver l'intégrité du badminton.
+
+Q pd-213 | D: 2 | R: 07.11 2 | T: conduite
+Selon la charte d'éthique et de déontologie, qu'est-ce qu'avoir l'esprit sportif dans la pratique du badminton ? (plusieurs réponses)
++ Être respectueux du jeu, des règles, de soi-même, des autres et des institutions
++ Être honnête, intègre et loyal
++ Être solidaire, altruiste, fraternel et tolérant
+- Gagner à tout prix, dans le respect apparent des règles
+> 07.11 § 2 : avoir l'esprit sportif, c'est être respectueux du jeu, des règles, de soi-même, des autres et des institutions ; être honnête, intègre et loyal ; être solidaire, altruiste et fraternel ; être tolérant.
+
+Q pd-214 | D: 2 | R: 07.11 3.2.1 | T: conduite
+Un organisateur envisage de refuser un joueur en situation de handicap au motif qu'il « ralentirait » le tableau. Que dit la charte d'éthique et de déontologie ?
++ Tout individu doit pouvoir pratiquer et participer à des compétitions, sans incompatibilité ou refus dû notamment à ses caractéristiques physiques ou à un éventuel handicap
+- L'organisateur est libre de refuser tout joueur
+- Le refus est possible si le JA l'approuve
+- La charte ne traite pas de l'accès aux compétitions
+> 07.11 § 3.2.1 : assurer le libre et égal accès de tous à la pratique ; tout individu doit être placé en mesure de pratiquer et de participer à des compétitions, sans qu'on puisse lui opposer un refus dû à sa situation sociale, son sexe, son âge, son origine, ses caractéristiques physiques ou un éventuel handicap.
+
+Q pd-215 | D: 2 | R: 07.11 4.2 | T: conduite
+Selon la charte d'éthique et de déontologie, quelle est la place des médias et des journalistes ?
++ Ils sont libres de s'exprimer et de critiquer, mais doivent avoir conscience de leur influence et sont des vecteurs de promotion de l'esprit sportif
+- Ils doivent faire valider leurs articles par le JA
+- Ils n'ont aucune responsabilité éthique
+- Ils ne peuvent pas critiquer les décisions des officiels
+> 07.11 § 4.2 : les médias et les journalistes sont libres de s'exprimer et de critiquer ; ils doivent toutefois avoir conscience de leur influence et sont des vecteurs essentiels de connaissance, de promotion et de défense de l'esprit sportif et des valeurs du sport.
+
+Q pd-216 | D: 2 | R: 07.11 3.1.6 | T: conduite | L: JALC JAFA JAFC
+Selon la charte d'éthique et de déontologie, dans quel intérêt un dirigeant de club ou d'instance doit-il agir, et quelle situation doit-il éviter ?
++ Exclusivement dans l'intérêt général du badminton, en évitant toute situation susceptible d'entraîner un conflit d'intérêts
+- Dans l'intérêt de son club, en priorité
+- Dans l'intérêt des partenaires financeurs
+- Dans l'intérêt de ses propres joueurs
+> 07.11 § 3.1.6 : l'ensemble des actions ou décisions d'un dirigeant de la FFBaD, de ses organes déconcentrés ou de ses clubs doit l'être exclusivement dans l'intérêt général du badminton, en évitant toute situation susceptible d'entraîner un conflit d'intérêts.
+
+Q pd-217 | D: 2 | R: 07.12 4 | T: conduite
+Selon la charte des officiels techniques, comment ceux-ci doivent-ils se considérer, et quelle image doivent-ils véhiculer ?
++ Comme des ambassadeurs de la FFBaD, l'image véhiculée devant être digne et exempte de tout reproche
+- Comme des prestataires de l'organisateur
+- Comme de simples bénévoles sans obligation particulière
+- Comme des représentants de leur club
+> Charte des officiels techniques (07.12) § 4 : ayant des droits et des devoirs, les officiels techniques sont avant tout des ambassadeurs de la FFBaD ; l'image véhiculée doit être digne et exempte de tout reproche, en France comme à l'étranger.
+
+Q pd-218 | D: 2 | R: 07.12 4.9 | T: conduite
+Selon la charte des officiels techniques, de quand à quand le comportement d'un officiel doit-il être exemplaire ?
++ Du moment où il est assigné jusqu'à la fin de la compétition et la remise de son compte rendu, bilan ou rapport
+- Uniquement pendant les matchs qu'il arbitre
+- Uniquement sur l'aire de jeu
+- Uniquement pendant les phases finales
+> 07.12 § 4.9 : le comportement de l'officiel technique doit être exemplaire entre le moment où celui-ci est assigné jusqu'à la fin de la compétition et le compte rendu, le bilan ou le rapport effectué.
+
+Q pd-219 | D: 2 | R: 07.11 3.2.4 | T: conduite | L: JALC JAFA JAFC
+Selon la charte d'éthique et de déontologie, qu'implique la mission des institutions sportives de contribuer au déroulement sincère des compétitions ?
++ Prendre toutes les mesures nécessaires au déroulement sincère, équitable et intègre des compétitions encadrées ou organisées
+- Garantir la victoire des équipes locales
+- Publier les résultats dans la presse
+- Fixer le montant des récompenses
+> 07.11 § 3.2.4 : la raison d'être du sport réside dans la confiance portée au déroulement des compétitions ; cela implique de prendre toutes les mesures nécessaires au déroulement sincère, équitable et intègre des compétitions encadrées ou organisées.
