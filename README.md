@@ -18,55 +18,33 @@ tous les règlements officiels consultables hors ligne.
 
 ## Fonctionnalités
 
-- **Banque de plus de 2 000 questions** (QCM à une ou plusieurs réponses), chacune avec son explication
-  et un lien vers l'article du règlement (ou la page de la documentation BadNet) concerné.
-- **Catégories d'entraînement du juge-arbitre**, dans l'ordre d'une compétition : *Avant* (BadNet,
-  règlement particulier, échéancier, tableaux), *Pendant* (de l'arrivée au gymnase au départ), *Après*
-  (rapport, résultats, suites) et *RGC*. La catégorie est déduite de l'article cité, ou fixée par
-  `P: avant|pendant|apres` dans le fichier de questions.
-- **Mode apprentissage** : la bonne réponse, l'explication et l'extrait du texte officiel de l'article
-  s'affichent tout de suite, sans noter la réponse.
-- **Questions sur écran** : écrans simplifiés de logiciel de compétition (données fictives, générés par
-  `scripts/make_screens.py`) à interpréter avec le règlement ou la documentation BadNet.
-- **Séries sans répétition** : chaque utilisateur parcourt toute la banque dans un ordre qui lui est
-  propre ; une question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16
-  et 35 jours après des bonnes réponses successives). Les examens blancs font passer en dernier les
-  questions déjà tombées.
-- **Modes de jeu** :
-  - *Série intelligente* (10, 20 ou 40 questions, filtrables par thème) ;
-  - *Défi du jour* : 10 questions, les mêmes pour tous les candidats d'un grade ce jour-là ;
-  - *Match en 3×15* : chaque bonne réponse marque un point, chaque erreur en donne un à
-    l'adversaire ; tableau d'affichage, zone de service, intervalle à 8 points, prolongation à 14-14
-    et point décisif à 20-20, 30 s par question ;
-  - *Contre-la-montre* (90 s, une erreur coûte 5 s) et *Mort subite* (3 vies), avec records ;
-  - *Score & service* : questions générées à l'infini (score de set valide ou non, zone de service
-    en simple et en double, intervalles et changement de côté, service au set suivant), calculées
-    à partir des règles 7, 8, 10, 11 et 16.2 ;
-  - *Mode oral* (flashcards), *Mes erreurs*, *Favoris*.
-- **Progression ludique** : points d'expérience et niveaux (de « Ramasseur de volants » à « Légende
-  du volant »), série de jours d'entraînement, objectif quotidien, 29 badges, confettis, sons et
-  vibrations désactivables. L'XP motive mais n'entre pas dans la jauge de préparation.
-- **Examens blancs** JALA et ALA : chronomètre, navigation entre questions, questions marquées,
-  correction détaillée, résultats par thème. Barème et seuil conformes aux conditions connues
-  (voir plus bas), personnalisables si votre ligue communique d'autres modalités.
-- **Partie pratique** :
-  - 35 **cas pratiques** en plusieurs étapes (retards, forfaits, cartons, blessures, tenues,
-    volants, interclubs, contrôle antidopage, compétitions fédérales…) avec débrief et références ;
-  - exercice généré à l'infini de **classement de poule** (départage RGC 3.4.1) ;
-  - outil de **dimensionnement d'une compétition** (formats de l'annexe 12, nombre de matchs,
-    rotations, heure de fin, limite de 8 matchs par jour) ;
-  - **check-lists** du JA (avant, jour J, après, rencontre d'interclubs) ;
-  - **auto-évaluation** sur la grille officielle des critères (annexe 02 de la filière JA).
-- **Jauge de préparation** calculée localement pour chaque parcours (juge-arbitre : connaissances 55 %,
-  examens blancs 25 %, pratique 20 % ; arbitre : connaissances 70 %, examens blancs 30 %), avec conseils sur la prochaine étape.
-- **Documentation intégrée** : 68 documents du Guide du Badminton 2026-2027 + les Règles
-  officielles du badminton (texte lisible et cherchable hors ligne, PDF officiels téléchargeables),
-  14 fiches de synthèse, un glossaire et une recherche globale.
-- **Mode hors ligne** : l'application, les questions et le texte des règlements sont mis en cache
-  dès la première visite ; un bouton télécharge en plus les PDF officiels (≈ 17 Mo).
-- **Bot de mise à jour** : une action GitHub vérifie deux fois par semaine le Guide du Badminton
-  publié par la FFBaD, intègre les nouvelles versions et signale les questions à relire.
-- Aucune donnée personnelle envoyée : la progression reste sur l'appareil (export/import possible).
+- **Premier lancement** : parcours (juge-arbitre ou arbitre), niveau de connaissance (je découvre,
+  j'ai des bases, je révise l'examen), priorités de travail et ligue. Ces préférences restent
+  uniquement sur l'appareil (localStorage) et se modifient dans les réglages.
+- **Banque de plus de 2 400 questions** (QCM à une ou plusieurs réponses), chacune avec son explication,
+  le lien vers l'article cité et l'extrait du texte officiel.
+- **Entraînement** par domaine : *Mes priorités*, tout le programme, ou un domaine précis
+  (juge-arbitre : avant, pendant, après la compétition, RGC, BadNet, ma ligue ; arbitre : règles du jeu,
+  arbitrage et annonces, juge de ligne). Deux modes : *S'entraîner* (correction après chaque réponse) et
+  *Apprendre* (réponse et article affichés directement, sans notation), plus *Mes erreurs*.
+- **Sans répétition** : chaque utilisateur parcourt la banque dans un ordre qui lui est propre ; une
+  question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16 et 35 jours).
+  Le niveau « Je découvre » commence par les questions les plus simples.
+- **Examens blancs** JALA et ALA : chronomètre, navigation entre questions, correction détaillée,
+  résultats par thème, conditions personnalisables.
+- **Questions propres à la ligue** (Île-de-France, Nouvelle-Aquitaine) : interclubs régionaux,
+  autorisation des tournois, forfaits, championnats régionaux.
+- **Ressources** : règlements (Guide du Badminton, Règles officielles, règlements de la ligue choisie),
+  fiches, glossaire, recherche, cas pratiques, outils (classement de poule, dimensionnement d'une
+  compétition, check-lists, auto-évaluation).
+- **Jauge de préparation** calculée localement (connaissances, examens blancs, pratique).
+- **Hors ligne et mises à jour** : l'application, les questions et les règlements sont en cache dès la
+  première visite (ou embarqués dans l'appli Android). Dès qu'une connexion est disponible, l'application
+  vérifie en arrière-plan si une nouvelle version des questions est publiée (au démarrage, au retour sur
+  l'application, au retour du réseau), la conserve sur l'appareil et l'utilise aussitôt, même si
+  l'ancienne version est en cache. L'appli Android interroge pour cela le site publié.
+- **Bot de mise à jour** des règlements (Guide du Badminton et règlements de ligue).
+- Aucune donnée personnelle envoyée : tout reste sur l'appareil (export/import possible).
 
 ## Mettre l'application en ligne sur GitHub Pages
 
@@ -110,12 +88,32 @@ Le code de version Android est calculé à partir du tag (`1.2.3` → `10203`) :
 
 ```
 keytool -genkeypair -v -keystore upload.jks -alias upload -keyalg RSA -keysize 2048 -validity 10000
-base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks
+base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks | tr -d "\n"
 ```
 
 Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
 
 **Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
+
+## Sécurité et performances
+
+- **Politique de sécurité du contenu (CSP)** : seuls les scripts de l'application s'exécutent (aucun script
+  en ligne, aucune URL `javascript:`), les connexions sont limitées à l'application et au site publié (mises
+  à jour des questions de l'appli Android), pas de formulaire ni d'objet externe.
+- **Données locales** : tout ce qui est lu depuis le stockage de l'appareil ou un fichier importé est
+  normalisé (clés connues, types et bornes contrôlés, identifiants vérifiés, `__proto__` ignoré) ; un fichier
+  forgé ne peut ni casser l'application ni injecter de contenu (test de bout en bout dédié).
+- **Mises à jour des questions** : fichier téléchargé contrôlé (taille, structure de chaque question,
+  réponses valides, images locales uniquement), refusé s'il est plus petit que la banque embarquée (pas de
+  retour en arrière) ; seul un petit `data/version.json` est téléchargé tant que rien n'a changé.
+- **Liens** : liens externes en `https://` uniquement, ouverts avec `rel="noopener"`.
+- **Service worker** : mise en cache limitée aux fichiers de l'application ; installation du cache hors
+  ligne après le premier affichage pour ne pas ralentir le démarrage.
+- **Android** : trafic non chiffré interdit, débogage de la WebView désactivé, partage de fichiers réduit
+  au cache de l'application, aucune autre permission qu'Internet.
+- **GitHub** : actions épinglées par empreinte de commit, permissions minimales, valeurs saisies passées
+  par variables d'environnement (pas d'injection de commande), mises à jour de sécurité proposées par
+  Dependabot (`.github/dependabot.yml`).
 
 ## Le bot de mise à jour des règlements
 
@@ -155,7 +153,7 @@ python bot/update_regulations.py --report rapport.md
 
 ### Règlements de ligue
 
-Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements de cette ligue dans la bibliothèque et ajoute ses questions à l'entraînement (catégorie « Ma ligue »). Les règlements de ligue sont déclarés dans `bot/sources.json` (entrées `extra` avec `"ligue": "<code>"` et une adresse `url` fixe, à mettre à jour à chaque saison) ; `python bot/update_regulations.py --only-ligues` les télécharge sans toucher au Guide du Badminton. Une question qui cite un document de ligue (`R: LIFB.ICRS 6.12`) n'est proposée qu'aux licenciés de cette ligue ; on peut aussi marquer une question à la main avec `G: <code>`. Ligue intégrée aujourd'hui : Île-de-France (LIFB).
+Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements de cette ligue dans la bibliothèque et ajoute ses questions à l'entraînement (catégorie « Ma ligue »). Les règlements de ligue sont déclarés dans `bot/sources.json` (entrées `extra` avec `"ligue": "<code>"` et une adresse `url` fixe, à mettre à jour à chaque saison) ; `python bot/update_regulations.py --only-ligues` les télécharge sans toucher au Guide du Badminton. Une question qui cite un document de ligue (`R: LIFB.ICRS 6.12`) n'est proposée qu'aux licenciés de cette ligue ; on peut aussi marquer une question à la main avec `G: <code>`. Ligues intégrées aujourd'hui : Île-de-France (LIFB) et Nouvelle-Aquitaine (LNAQ).
 
 ## Conditions d'examen : ce qui est officiel et ce qui est simulé
 

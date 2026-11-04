@@ -3,9 +3,12 @@
   "appName": "Prépa JA Badminton",
   "webDir": "docs",
   "android": {
-    "backgroundColor": "#0f4c5c"
+    "backgroundColor": "#ffffff",
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
   },
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "cleartext": false
   }
 }

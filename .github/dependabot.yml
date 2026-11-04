@@ -1,0 +1,12 @@
+# Mises à jour de sécurité automatiques (propositions de pull request) pour les actions et les dépendances
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: monthly }
+  - package-ecosystem: npm
+    directory: /
+    schedule: { interval: monthly }
+  - package-ecosystem: pip
+    directory: /bot
+    schedule: { interval: monthly }

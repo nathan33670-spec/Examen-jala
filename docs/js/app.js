@@ -1,20 +1,18 @@
-// Point d'entrée : routes, accueil (progression ludique et jauge de préparation), progression et réglages.
-import { esc, fmtDate, pct, toast, icons } from './ui.js';
+// Point d'entrée : routes, accueil, préférences du premier lancement, progression, ressources et réglages.
+import { esc, fmtDate, pct, toast } from './ui.js';
 import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, LEVEL_SHORT, LIGUES, exportData, importData, resetAll } from './store.js';
-import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog } from './data.js';
+import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog, onDataUpdate } from './data.js';
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
-import { readiness, ring, bar } from './gauge.js';
+import { readiness, bar } from './gauge.js';
 import { renderExamSetup, renderExamSession, renderExamResult, activeExam } from './quiz.js';
-import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, levelPool } from './play.js';
+import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, FOCUS, levelPool, priorities, focusOf, trackSwitch, setLevel } from './play.js';
 import { renderDocsHome, renderDoc, renderFiches, renderFiche, renderGlossary, renderUpdates, renderSearch, renderQuestion } from './docs.js';
 import { renderPracticeHome, renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
 import { initOffline, renderOffline, isStandalone } from './offline.js';
 import { summarize } from './engine.js';
-import { levelInfo, currentStreak, dayKey, addDays, BADGES } from './game.js';
-import { refreshBadges } from './reward.js';
+import { dayKey } from './game.js';
 
 const main = document.getElementById('main');
-const ic = (name, size = 24) => icons[name].replace('<svg', `<svg width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`);
 
 function applyTheme() {
   const t = state.settings.theme;
@@ -23,14 +21,7 @@ function applyTheme() {
 }
 
 function updateLevelPill() {
-  document.getElementById('levelPill').textContent = LEVEL_SHORT[state.settings.level] || state.settings.level;
-  const streak = currentStreak(state.game);
-  const pill = document.getElementById('streakPill');
-  if (pill) {
-    pill.querySelector('b').textContent = streak;
-    pill.classList.toggle('cold', streak === 0);
-    pill.setAttribute('aria-label', `Série : ${streak} jour${streak > 1 ? 's' : ''} d'entraînement`);
-  }
+  document.getElementById('levelPill').textContent = LEVEL_SHORT[state.settings.level] || '';
 }
 
 async function bundle() {
@@ -38,24 +29,11 @@ async function bundle() {
   return { qdata, casesData, exams, practice };
 }
 
-const GOALS = [[10, 'Tranquille', '≈ 5 min'], [20, 'Régulier', '≈ 10 min'], [40, 'Intensif', '≈ 20 min']];
-
-function ligueSelect(current) {
-  return `<select id="ligue" class="select"><option value="">— Non renseignée —</option>${Object.entries(LIGUES)
-    .map(([k, name]) => `<option value="${k}" ${k === current ? 'selected' : ''}>${esc(name)}</option>`).join('')}</select>`;
-}
-
-// ------------------------------------------------------------------ parcours (juge-arbitre / arbitre)
-
-function trackSwitch(level) {
-  return `<div class="track-switch" role="group" aria-label="Parcours">${LEVELS.map((l) => `<button data-track="${l}" aria-pressed="${l === level}"><span aria-hidden="true">${l === 'ALA' ? '🪑' : '⚖️'}</span> ${esc(LEVEL_SHORT[l])}</button>`).join('')}</div>`;
-}
-
-function setTrack(level) {
-  state.settings.level = level; save();
-  updateLevelPill();
-  document.dispatchEvent(new CustomEvent('levelchange'));
-}
+const KNOWLEDGE = {
+  decouverte: ['Je découvre', 'Premières séries avec les questions les plus simples'],
+  bases: ['J’ai des bases', 'Toutes les difficultés, révisions régulières'],
+  revision: ['Je révise l’examen', 'Toutes les difficultés, davantage de révisions'],
+};
 
 // ------------------------------------------------------------------ accueil
 
@@ -64,253 +42,214 @@ async function renderHome() {
   const b = await bundle();
   const level = state.settings.level;
   const r = readiness(level, b);
-  const updates = await getUpdates().catch(() => []);
-  const lastUpdate = updates.find((u) => u.changes?.length);
   const exam = activeExam();
   const play = activePlay();
-  const pool = levelPool(b.qdata, level);
+  const prio = priorities(level);
+  const focus = prio.length ? 'prio' : '';
+  const pool = levelPool(b.qdata, level, { focus });
   const sum = summarize(pool, qStat, Date.now());
-  const themes = Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value);
-  const weakest = themes.slice(0, 2).map(([t]) => b.qdata.themes[t]).filter(Boolean);
-  const g = state.game;
-  const info = levelInfo(g.xp);
-  const streak = currentStreak(g);
-  const todayStats = g.days[dayKey()] || { a: 0, g: 0, xp: 0 };
-  const goal = state.settings.dailyGoal || 20;
-  const daily = g.daily[`${dayKey()}|${level}`];
-  const tp = state.settings[level === 'JALA' ? 'train' : 'trainAla'] || {};
-  const count = tp.count || 10;
-  const nextCount = Math.min(count, sum.total);
-  const nNew = Math.min(sum.new, Math.max(0, nextCount - Math.min(sum.review, Math.round(nextCount * 0.4))));
-  const earned = BADGES.filter((x) => g.badges[x.id]).sort((x, y) => g.badges[y.id] - g.badges[x.id]);
-  const hour = new Date().getHours();
-  const hello = hour < 5 ? 'Bonsoir' : hour < 18 ? 'Bonjour' : 'Bonsoir';
+  const all = summarize(levelPool(b.qdata, level), qStat, Date.now());
+  const count = state.settings.trainPrefs?.[level]?.count || 10;
+  const today = state.game.days[dayKey()] || { a: 0, g: 0 };
+  const updates = await getUpdates().catch(() => []);
+  const lastUpdate = updates.find((u) => u.changes?.length);
+  const focusList = FOCUS[level].filter((f) => f.id !== 'ligue' || levelPool(b.qdata, level, { focus: 'ligue' }).length);
 
   main.innerHTML = `
     ${trackSwitch(level)}
-    ${exam ? `<div class="notice warn row between" style="margin-bottom:12px"><span>Un examen blanc ${esc(LEVEL_SHORT[exam.level] || exam.level)} est en cours.</span><a class="btn small" href="#/examen/session">Reprendre</a></div>` : ''}
-    ${play ? `<div class="notice warn row between" style="margin-bottom:12px"><span>${MODES[play.mode].icon} Partie « ${esc(MODES[play.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
-    <section class="player-card">
-      <div class="pc-top">
-        <div class="avatar" aria-hidden="true">🏸</div>
-        <div class="pc-id">
-          <span class="small pc-hello">${hello} ! Objectif ${esc(level)}</span>
-          <strong>Niv. ${info.level} · ${esc(info.title)}</strong>
-          <div class="xpbar" title="${info.into}/${info.need} XP"><i style="width:${Math.round(info.progress * 100)}%"></i></div>
-          <span class="small pc-xp">${g.xp} XP · encore ${info.need - info.into} XP pour le niveau ${info.level + 1}</span>
-        </div>
-        <a class="streak ${streak ? '' : 'cold'}" href="#/progression" aria-label="Série de ${streak} jour(s)"><span aria-hidden="true">🔥</span><b>${streak}</b><span class="small">jour${streak > 1 ? 's' : ''}</span></a>
+    ${exam ? `<div class="notice row between"><span>Examen blanc en cours.</span><a class="btn small" href="#/examen/session">Reprendre</a></div>` : ''}
+    ${play ? `<div class="notice row between"><span>Série « ${esc(MODES[play.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
+    <section class="panel">
+      <p class="eyebrow">${esc(LEVEL_NAMES[level])}${state.settings.ligue ? ` · ${esc(LIGUES[state.settings.ligue])}` : ''}</p>
+      <h1 style="margin-top:2px">${prio.length ? 'Mes priorités' : 'Tout le programme'}</h1>
+      <p class="muted small" style="margin-top:0">${prio.length ? prio.map((id) => esc(focusOf(level, id).name)).join(' · ') : 'Aucune priorité choisie'} · <a href="#/reglages">modifier</a></p>
+      <div class="stats">
+        <div><b>${sum.new}</b><span>nouvelles</span></div>
+        <div><b>${sum.review}</b><span>à revoir</span></div>
+        <div><b>${sum.mastered}</b><span>maîtrisées</span></div>
       </div>
-      <div class="goal">
-        ${goalRing(todayStats.a, goal)}
-        <div><strong>Objectif du jour : ${Math.min(todayStats.a, goal)}/${goal} questions</strong>
-          <span class="small">${todayStats.a >= goal ? 'Objectif atteint, bravo ! 🎉' : todayStats.a ? `Plus que ${goal - todayStats.a} pour l’atteindre.` : streak ? 'Entraînez-vous aujourd’hui pour garder votre série 🔥' : 'Une petite série et c’est parti !'}</span></div>
-      </div>
+      <button class="btn block" data-act="train">S’entraîner (${Math.min(count, sum.total)} questions)</button>
+      <button class="btn block secondary" data-act="learn" style="margin-top:8px">Apprendre (réponses affichées)</button>
     </section>
 
-    <button class="cta-continue" data-act="smart">
-      <span class="cta-play" aria-hidden="true">▶</span>
-      <span class="cta-text"><strong>${g.counters.answers ? 'Continuer ma préparation' : 'Commencer ma préparation'}</strong>
-        <span class="small">${nextCount} questions · ${nNew} nouvelle${nNew > 1 ? 's' : ''}${sum.review ? `, ${Math.min(sum.review, nextCount - nNew)} à revoir` : ''}</span></span>
-    </button>
+    <section class="panel">
+      <div class="row between"><h2 style="margin:0">Préparation</h2><a class="small" href="#/progression">Détails</a></div>
+      <div class="ready"><b>${Math.round(r.value * 100)} %</b><span class="badge ${r.label.tone}">${esc(r.label.text)}</span></div>
+      <div class="pbar big"><i style="width:${Math.round(r.value * 100)}%"></i></div>
+      <p class="small muted">${all.seen} questions vues sur ${all.total} · ${today.a} aujourd’hui · ${r.exams.count ? `${r.exams.count} examen(s) blanc(s)` : 'aucun examen blanc'}</p>
+      <p class="small">${esc(nextAdvice(r, all))}</p>
+    </section>
 
-    <button class="daily-card ${daily ? 'done' : ''}" data-act="daily">
-      <span class="daily-sun" aria-hidden="true">☀️</span>
-      <span class="daily-body"><strong>Défi du jour</strong>
-        <span class="small">${daily ? `Fait : ${daily.good}/${daily.total} ${'★'.repeat(daily.stars)}${'☆'.repeat(3 - daily.stars)} — nouveau défi demain` : '10 questions, les mêmes pour tous aujourd’hui'}</span></span>
-      <span class="daily-go" aria-hidden="true">${daily ? '✓' : '›'}</span>
-    </button>
+    <h2>Domaines</h2>
+    <div class="rows">${focusList.map((f) => {
+      const s = summarize(levelPool(b.qdata, level, { focus: f.id }), qStat, Date.now());
+      const p = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
+      return `<button class="row-item" data-focus="${f.id}"><span class="ri-main"><strong>${esc(f.name)}</strong><span class="small muted">${s.total} questions</span></span>
+        <span class="ri-side"><span class="small muted">${p} % maîtrisé</span><span class="pbar"><i style="width:${p}%"></i></span></span></button>`;
+    }).join('')}</div>
 
-    <h2>Jouer</h2>
-    <div class="modes">
-      ${['match', 'chrono', 'survival'].map((m) => `<button class="mode-card m-${m}" data-mode="${m}"><span class="mode-emoji" aria-hidden="true">${MODES[m].icon}</span><strong>${esc(MODES[m].name)}</strong><span class="small">${esc(MODES[m].tag)}</span></button>`).join('')}
-      <a class="mode-card m-exam" href="#/examen"><span class="mode-emoji" aria-hidden="true">📝</span><strong>Examen blanc ${esc(LEVEL_SHORT[level])}</strong><span class="small">Conditions réelles, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></a>
+    <h2>Aller plus loin</h2>
+    <div class="rows">
+      <a class="row-item" href="#/examen"><span class="ri-main"><strong>Examen blanc ${esc(LEVEL_SHORT[level].toLowerCase())}</strong><span class="small muted">Conditions de l’examen, chronométré, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></span><span class="ri-side" aria-hidden="true">›</span></a>
+      ${r.knowledge.total && all.errors ? `<button class="row-item" data-act="retry"><span class="ri-main"><strong>Mes erreurs</strong><span class="small muted">${all.errors} question(s) à revoir</span></span><span class="ri-side" aria-hidden="true">›</span></button>` : ''}
+      <a class="row-item" href="#/ressources"><span class="ri-main"><strong>Ressources</strong><span class="small muted">Règlements, fiches, cas pratiques, outils</span></span><span class="ri-side" aria-hidden="true">›</span></a>
+      ${isStandalone() ? '' : '<a class="row-item" href="#/hors-ligne"><span class="ri-main"><strong>Installer l’application</strong><span class="small muted">Utilisable hors ligne sur téléphone</span></span><span class="ri-side" aria-hidden="true">›</span></a>'}
     </div>
-
-    <h2>Ma préparation</h2>
-    <section class="card">
-      <div class="readiness">
-        ${ring(r.value, { size: 150, caption: 'préparation' })}
-        <div>
-          <h3 style="margin:0 0 4px">${esc(LEVEL_SHORT[level])} · <span class="badge ${r.label.tone}">${esc(r.label.text)}</span></h3>
-          <p class="small muted" style="margin-top:0">${esc(LEVEL_NAMES[level])}</p>
-          <div class="bars">
-            ${bar(`Connaissances (${Math.round(r.weights.knowledge * 100)} %)`, r.knowledge.value)}
-            ${bar(`Examens blancs (${Math.round(r.weights.exams * 100)} %)`, r.exams.count ? r.exams.value : 0)}
-            ${r.weights.practice ? bar(`Pratique (${Math.round(r.weights.practice * 100)} %)`, r.practice.value) : ''}
-          </div>
-        </div>
-      </div>
-      <p class="small advice">💡 ${nextAdvice(r, weakest, sum.errors)}</p>
-      <p class="small muted">${sum.seen}/${sum.total} questions vues · ${sum.mastered} acquises · ${r.exams.count ? `${r.exams.count} examen(s) blanc(s)` : 'aucun examen blanc'} ${r.practice.total ? ` · ${r.practice.done}/${r.practice.total} cas pratiques` : ''}</p>
-      <a class="small" href="#/progression">Statistiques, badges et calcul de la jauge →</a>
-    </section>
-
-    <h2>Badges <span class="badge">${earned.length}/${BADGES.length}</span></h2>
-    <a class="card badge-strip" href="#/progression?voir=badges">
-      ${earned.length ? earned.slice(0, 6).map((x) => `<span class="bdg" title="${esc(x.name)}">${x.icon}</span>`).join('') : '<span class="small muted">Répondez à votre première question pour débloquer « Premier volant » 🏸</span>'}
-      ${earned.length ? '<span class="small muted" style="margin-left:auto">Voir tout →</span>' : ''}
-    </a>
-
-    <h2>Pour aller plus loin</h2>
-    <div class="grid two">
-      ${level === 'JALA' ? '<a class="card tile" href="#/cas"><span class="ico emoji" aria-hidden="true">🧑‍⚖️</span><span><strong>Cas pratiques</strong><span class="small muted">Décisions de JA en situation réelle</span></span></a>' : ''}
-      <a class="card tile" href="#/fiches"><span class="ico emoji" aria-hidden="true">📝</span><span><strong>Fiches de synthèse</strong><span class="small muted">Nouveautés 2026-2027 : score en 3×15</span></span></a>
-      ${sum.errors ? `<button class="card tile" data-act="retry" style="text-align:left;cursor:pointer"><span class="ico emoji" aria-hidden="true">🔁</span><span><strong>Revoir mes erreurs</strong><span class="small muted">${sum.errors} question(s) à retravailler</span></span></button>` : ''}
-      ${isStandalone() ? '' : `<a class="card tile" href="#/hors-ligne"><span class="ico">${ic('wifi')}</span><span><strong>Installer l’application</strong><span class="small muted">Sur votre téléphone, utilisable hors ligne</span></span></a>`}
-      ${lastUpdate ? `<a class="card tile" href="#/mises-a-jour"><span class="ico">${ic('news')}</span><span><strong>Règlements mis à jour le ${fmtDate(lastUpdate.date)}</strong><span class="small muted">${lastUpdate.changes.length} document(s) — saison ${esc(lastUpdate.season)}</span></span></a>` : ''}
-    </div>`;
+    ${lastUpdate ? `<p class="small muted" style="margin-top:14px">Règlements mis à jour le ${fmtDate(lastUpdate.date)} · <a href="#/mises-a-jour">voir</a></p>` : ''}`;
 
   main.onclick = (e) => {
     const btn = e.target.closest('button');
     if (!btn) return;
-    if (btn.dataset.track) {
-      setTrack(btn.dataset.track);
-      renderHome();
-    } else if (btn.dataset.act === 'smart') {
-      startPlay({ mode: 'smart', level, count, themes: tp.themes || [], cat: level === 'JALA' ? tp.cat || '' : '' });
-    } else if (btn.dataset.act === 'daily') {
-      startPlay({ mode: 'daily', level, replay: !!daily });
-    } else if (btn.dataset.act === 'retry') {
-      startPlay({ mode: 'retry', level, count: 20 });
-    } else if (btn.dataset.mode) {
-      startPlay({ mode: btn.dataset.mode, level, themes: tp.themes || [], cat: level === 'JALA' ? tp.cat || '' : '' });
-    }
+    if (btn.dataset.track) { setLevel(btn.dataset.track); renderHome(); return; }
+    if (btn.dataset.act === 'train' || btn.dataset.act === 'learn') startPlay({ mode: btn.dataset.act === 'train' ? 'smart' : 'learn', level, count, focus });
+    if (btn.dataset.act === 'retry') startPlay({ mode: 'retry', level, count: 20 });
+    if (btn.dataset.focus) startPlay({ mode: 'smart', level, count, focus: btn.dataset.focus });
   };
-  if (r.value >= 0.85 && r.exams.passed) refreshBadges();
 }
 
-function goalRing(done, goal) {
-  const v = Math.min(1, done / goal);
-  const r = 20;
-  const c = 2 * Math.PI * r;
-  return `<svg class="goal-ring" viewBox="0 0 50 50" width="56" height="56" role="img" aria-label="Objectif du jour : ${done} sur ${goal}">
-    <circle cx="25" cy="25" r="${r}" fill="none" stroke-width="6" class="track"/>
-    <circle cx="25" cy="25" r="${r}" fill="none" stroke-width="6" class="val ${v >= 1 ? 'full' : ''}" ${v === 0 ? 'stroke-opacity="0"' : ''} stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${(c * (1 - v)).toFixed(1)}" transform="rotate(-90 25 25)"/>
-    <text x="25" y="29" text-anchor="middle">${v >= 1 ? '✓' : Math.round(v * 100) + '%'}</text></svg>`;
+function nextAdvice(r, all) {
+  if (r.knowledge.seen === 0) return 'Commencez par une première série : la jauge se calibre au fil des réponses.';
+  if (r.knowledge.coverage < 0.5) return `Continuez à découvrir la banque (${pct(r.knowledge.coverage)} des questions vues).`;
+  if (all.errors > 15) return `Revoyez vos ${all.errors} erreurs avant de tenter un examen blanc.`;
+  if (!r.exams.count) return 'Vous pouvez tenter un premier examen blanc.';
+  if (!r.exams.passed) return 'Visez le seuil de réussite en examen blanc.';
+  return 'Entretenez vos acquis : une série par jour et un examen blanc par semaine.';
+}
+
+// ------------------------------------------------------------------ préférences (premier lancement et réglages)
+
+function ligueSelect(current) {
+  return `<select id="ligue"><option value="">— Non renseignée —</option>${Object.entries(LIGUES)
+    .map(([k, name]) => `<option value="${k}" ${k === current ? 'selected' : ''}>${esc(name)}</option>`).join('')}</select>`;
+}
+
+/** Formulaire de préférences (stockées uniquement sur l'appareil). */
+function prefsForm(st) {
+  const prioOf = (l) => st.priorities[l] || [];
+  return `
+    <fieldset class="field-group"><legend>Ce que vous préparez</legend>
+      <div class="options">${LEVELS.map((l) => `<button type="button" class="option" data-level="${l}" aria-pressed="${st.level === l}"><strong>${esc(LEVEL_SHORT[l])}</strong><span class="small muted">${esc(LEVEL_NAMES[l])}</span></button>`).join('')}</div>
+    </fieldset>
+    <fieldset class="field-group"><legend>Votre niveau de connaissance</legend>
+      <div class="options">${Object.entries(KNOWLEDGE).map(([k, [name, desc]]) => `<button type="button" class="option" data-knowledge="${k}" aria-pressed="${st.knowledge === k}"><strong>${name}</strong><span class="small muted">${desc}</span></button>`).join('')}</div>
+    </fieldset>
+    <fieldset class="field-group"><legend>Vos priorités <span class="small muted">(plusieurs choix possibles)</span></legend>
+      <div class="options">${FOCUS[st.level].map((f) => `<button type="button" class="option check" data-prio="${f.id}" aria-pressed="${prioOf(st.level).includes(f.id)}"><strong>${esc(f.name)}</strong><span class="small muted">${esc(f.tag)}</span></button>`).join('')}</div>
+    </fieldset>
+    <fieldset class="field-group"><legend>Votre ligue</legend>
+      ${ligueSelect(st.ligue)}
+      <p class="small muted">Pour les questions sur les interclubs régionaux et les règlements de votre ligue.</p>
+    </fieldset>`;
+}
+
+function prefsHandlers(st, redraw) {
+  return {
+    click(e) {
+      const b = e.target.closest('button');
+      if (!b) return false;
+      if (b.dataset.level) { st.level = b.dataset.level; redraw(); return true; }
+      if (b.dataset.knowledge) { st.knowledge = b.dataset.knowledge; redraw(); return true; }
+      if (b.dataset.prio) {
+        const list = st.priorities[st.level] || [];
+        st.priorities = { ...st.priorities, [st.level]: list.includes(b.dataset.prio) ? list.filter((x) => x !== b.dataset.prio) : [...list, b.dataset.prio] };
+        redraw();
+        return true;
+      }
+      return false;
+    },
+    change(e) { if (e.target.id === 'ligue') st.ligue = e.target.value; },
+  };
+}
+
+const currentPrefs = () => ({
+  level: state.settings.level || 'JALA',
+  knowledge: state.settings.knowledge || 'bases',
+  priorities: { ...(state.settings.priorities || {}) },
+  ligue: state.settings.ligue || '',
+});
+
+function storePrefs(st) {
+  Object.assign(state.settings, { level: st.level, knowledge: st.knowledge, priorities: st.priorities, ligue: st.ligue });
+  save(true);
+  updateLevelPill();
 }
 
 function renderOnboarding() {
-  const st = { level: state.settings.level || 'JALA', goal: state.settings.dailyGoal || 20, ligue: state.settings.ligue || '' };
+  const st = currentPrefs();
   const draw = () => {
     main.innerHTML = `
       <section class="onboard">
-        <div class="onboard-hero"><span aria-hidden="true">🏸</span></div>
-        <h1>Bienvenue sur Prépa JA !</h1>
-        <p>Préparez les examens d’<strong>officiel technique de badminton</strong> (FFBaD) en jouant : questions corrigées, défis, matchs en 3×15, examens blancs et cas pratiques.</p>
-        <h2>1. Que préparez-vous ?</h2>
-        <div class="grid two">${LEVELS.map((l) => `<button class="pick ${st.level === l ? 'on' : ''}" data-onboard="${l}" aria-pressed="${st.level === l}"><strong>${esc(LEVEL_SHORT[l])}</strong><span class="small muted">${esc(LEVEL_NAMES[l])}</span></button>`).join('')}</div>
-        <h2>2. Votre objectif quotidien</h2>
-        <div class="grid three">${GOALS.map(([n, name, time]) => `<button class="pick ${st.goal === n ? 'on' : ''}" data-goal="${n}" aria-pressed="${st.goal === n}"><strong>${name}</strong><span class="small muted">${n} questions/jour · ${time}</span></button>`).join('')}</div>
-        <h2>3. Votre ligue <span class="small muted">(facultatif)</span></h2>
-        ${ligueSelect(st.ligue)}
-        <button class="btn block big" id="go" style="margin-top:18px">C’est parti !</button>
-        <p class="small muted center">Sans compte : votre progression reste sur cet appareil. Tout se modifie ensuite dans les réglages.</p>
+        <h1>Bienvenue</h1>
+        <p class="muted">Quelques réglages pour adapter les séries à votre préparation. Ils restent sur cet appareil et se modifient à tout moment dans les réglages.</p>
+        ${prefsForm(st)}
+        <button class="btn block" id="go">Commencer</button>
       </section>`;
   };
   draw();
-  main.onchange = (e) => { if (e.target.id === 'ligue') st.ligue = e.target.value; };
+  const h = prefsHandlers(st, draw);
+  main.onchange = h.change;
   main.onclick = (e) => {
-    const b = e.target.closest('button');
-    if (!b) return;
-    if (b.dataset.onboard) { st.level = b.dataset.onboard; draw(); }
-    if (b.dataset.goal) { st.goal = Number(b.dataset.goal); draw(); }
-    if (b.id === 'go') {
-      state.settings.level = st.level;
-      state.settings.dailyGoal = st.goal;
-      state.settings.ligue = st.ligue;
+    if (h.click(e)) return;
+    if (e.target.closest('#go')) {
+      storePrefs(st);
       state.settings.onboarded = true;
       save(true);
-      updateLevelPill();
       renderHome();
     }
   };
 }
 
-function nextAdvice(r, weakest, errors) {
-  if (r.knowledge.seen === 0) return 'Lancez une première série : elle vous fera découvrir les questions et calibrera la jauge.';
-  if (r.knowledge.coverage < 0.5) return `Continuez à découvrir la banque (${pct(r.knowledge.coverage)} vues).${weakest.length ? ` Points faibles : ${weakest.join(', ')}.` : ''}`;
-  if (errors > 15) return `Retravaillez vos ${errors} questions ratées avant de tenter un examen blanc.`;
-  if (!r.exams.count) return 'Vous êtes prêt à tenter un premier examen blanc dans les conditions de l’examen.';
-  if (!r.exams.passed) return `Visez le seuil de réussite en examen blanc.${weakest.length ? ` Thèmes à consolider : ${weakest.join(', ')}.` : ''}`;
-  if (r.practice.done < 3) return 'Complétez avec les cas pratiques et l’auto-évaluation : l’examen pratique compte autant que la théorie.';
-  return 'Maintenez le niveau : un défi par jour, un examen blanc par semaine et une relecture des nouveautés.';
-}
-
 // ------------------------------------------------------------------ progression
-
-function activityChart(days, goal) {
-  const today = dayKey();
-  const keys = Array.from({ length: 14 }, (_, i) => addDays(today, i - 13));
-  const vals = keys.map((k) => days[k] || { a: 0, g: 0, xp: 0 });
-  const max = Math.max(goal, ...vals.map((v) => v.a), 1);
-  const top = Math.ceil(max / 10) * 10;
-  const H = 120;
-  const fmt = (k) => new Date(`${k}T12:00:00`).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
-  const total = vals.reduce((s, v) => s + v.a, 0);
-  return `<figure class="activity" aria-label="Questions répondues par jour sur 14 jours">
-    <figcaption class="small muted">Questions répondues par jour (14 derniers jours) · ${total} au total</figcaption>
-    <div class="act-plot" style="height:${H}px">
-      <span class="act-axis small muted" style="bottom:${H - 8}px">${top}</span>
-      <span class="act-goal" style="bottom:${(goal / top) * H}px"><span class="small">objectif ${goal}</span></span>
-      ${vals.map((v, i) => `<div class="act-col" tabindex="0" data-tip="${esc(`${fmt(keys[i])} : ${v.a} réponse${v.a > 1 ? 's' : ''}${v.a ? `, ${v.g} juste${v.g > 1 ? 's' : ''}` : ''}`)}">
-        <i style="height:${v.a ? Math.max(3, (v.a / top) * H) : 0}px"></i></div>`).join('')}
-    </div>
-    <div class="act-days small muted"><span>${fmt(keys[0])}</span><span>aujourd’hui</span></div>
-    <table class="sr-only"><caption>Questions répondues par jour</caption><tr><th>Jour</th><th>Réponses</th><th>Justes</th></tr>
-      ${vals.map((v, i) => `<tr><td>${fmt(keys[i])}</td><td>${v.a}</td><td>${v.g}</td></tr>`).join('')}</table>
-  </figure>`;
-}
 
 async function renderProgress() {
   const b = await bundle();
   const level = state.settings.level;
   const r = readiness(level, b);
-  const g = state.game;
-  const info = levelInfo(g.xp);
   const exams = state.exams.filter((e) => e.level === level);
   const totalAnswers = Object.values(state.q).reduce((s, x) => s + x.n, 0);
   const totalGood = Object.values(state.q).reduce((s, x) => s + x.c, 0);
-  const streak = currentStreak(g);
   main.innerHTML = `
-    <h1>Progression</h1>
-    <section class="player-card compact">
-      <div class="pc-top">
-        <div class="avatar" aria-hidden="true">🏸</div>
-        <div class="pc-id"><strong>Niv. ${info.level} · ${esc(info.title)}</strong>
-          <div class="xpbar"><i style="width:${Math.round(info.progress * 100)}%"></i></div>
-          <span class="small pc-xp">${g.xp} XP au total · ${info.into}/${info.need} XP vers le niveau ${info.level + 1}</span></div>
-        <div class="streak ${streak ? '' : 'cold'}"><span aria-hidden="true">🔥</span><b>${streak}</b><span class="small">record ${g.streak.best}</span></div>
-      </div>
-    </section>
-    <div class="kpis" style="margin-top:12px">
-      <div class="kpi"><b>${Math.round(r.value * 100)} %</b><span>préparation ${esc(LEVEL_SHORT[level])}</span></div>
-      <div class="kpi"><b>${totalAnswers}</b><span>réponses données</span></div>
-      <div class="kpi"><b>${totalAnswers ? pct(totalGood / totalAnswers) : '—'}</b><span>taux de réussite</span></div>
-      <div class="kpi"><b>🔥 ${g.counters.bestCombo}</b><span>meilleure série de bonnes réponses</span></div>
+    <h1>Progression · ${esc(LEVEL_SHORT[level])}</h1>
+    <div class="stats panel">
+      <div><b>${Math.round(r.value * 100)} %</b><span>préparation</span></div>
+      <div><b>${totalAnswers}</b><span>réponses</span></div>
+      <div><b>${totalAnswers ? pct(totalGood / totalAnswers) : '—'}</b><span>de réussite</span></div>
     </div>
-    <h2>Activité</h2>
-    <div class="card">${activityChart(g.days, state.settings.dailyGoal || 20)}</div>
-    <h2 id="badges">Badges <span class="badge">${BADGES.filter((x) => g.badges[x.id]).length}/${BADGES.length}</span></h2>
-    <div class="badge-grid">${BADGES.map((x) => {
-      const at = g.badges[x.id];
-      return `<div class="bdg-card ${at ? 'got' : ''}"><span class="bdg-icon" aria-hidden="true">${at ? x.icon : '🔒'}</span><strong>${esc(x.name)}</strong><span class="small muted">${esc(x.desc)}</span>${at ? `<span class="small bdg-date">${new Date(at).toLocaleDateString('fr-FR')}</span>` : ''}</div>`;
-    }).join('')}</div>
-    <h2>Par thème (${esc(LEVEL_SHORT[level])})</h2>
-    <div class="card bars">${Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value)
-      .map(([t, v]) => bar(b.qdata.themes[t] || t, v.value, v.accuracy != null ? ` <span title="taux de réussite">(${Math.round(v.accuracy * 100)}%)</span>` : '')).join('')}</div>
-    <h2>Comment la jauge est calculée</h2>
-    <div class="card small">
-      <p><strong>Connaissances (${Math.round(r.weights.knowledge * 100)} %)</strong> — maîtrise moyenne des ${r.knowledge.total} questions du parcours, pondérée par l'importance de chaque thème à l'examen. Une question est « acquise » après plusieurs bonnes réponses espacées dans le temps ; une erreur la fait redescendre.</p>
-      <p><strong>Examens blancs (${Math.round(r.weights.exams * 100)} %)</strong> — moyenne des 3 derniers examens blancs rapportée au seuil de réussite (atteindre le seuil = 100 %).</p>
-      ${r.weights.practice ? `<p><strong>Pratique (${Math.round(r.weights.practice * 100)} %)</strong> — cas pratiques réussis (60 %) et auto-évaluation des critères d'examen (40 %).</p>` : ''}
-      <p>« Prêt pour l'examen » exige au moins 85 % et un examen blanc réussi récemment. L'XP et les badges motivent mais n'entrent pas dans la jauge. Calcul effectué uniquement sur cet appareil.</p>
+    <h2>Par thème</h2>
+    <div class="panel bars">${Object.entries(r.knowledge.byTheme).sort((x, y) => x[1].value - y[1].value)
+      .map(([t, v]) => bar(b.qdata.themes[t] || t, v.value, v.accuracy != null ? ` <span title="taux de réussite">(${Math.round(v.accuracy * 100)} %)</span>` : '')).join('') || '<p class="muted">Pas encore de réponse.</p>'}</div>
+    <h2>Calcul de la jauge</h2>
+    <div class="panel small">
+      <p><strong>Connaissances (${Math.round(r.weights.knowledge * 100)} %)</strong> : maîtrise moyenne des ${r.knowledge.total} questions du parcours, pondérée par l'importance de chaque thème à l'examen. Une question est maîtrisée après plusieurs bonnes réponses espacées dans le temps ; une erreur la fait redescendre.</p>
+      <p><strong>Examens blancs (${Math.round(r.weights.exams * 100)} %)</strong> : moyenne des 3 derniers examens blancs rapportée au seuil de réussite.</p>
+      ${r.weights.practice ? `<p><strong>Pratique (${Math.round(r.weights.practice * 100)} %)</strong> : cas pratiques réussis et auto-évaluation des critères d'examen.</p>` : ''}
     </div>
-    <h2>Examens blancs ${esc(LEVEL_SHORT[level])}</h2>
-    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce parcours.</p>'}
-    <h2>Pratique</h2>
-    <p>${r.practice.done}/${r.practice.total} cas pratiques réalisés · ${r.practice.rated}/${r.practice.criteria} critères auto-évalués · exercice de poule : ${state.drills.poule.ok}/${state.drills.poule.n} réussis.</p>`;
-  if (location.hash.includes('voir=badges')) document.getElementById('badges')?.scrollIntoView();
+    <h2>Examens blancs</h2>
+    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${encodeURIComponent(h.id)}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${Number(h.good)}/${Number(h.total)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce parcours.</p>'}`;
+}
+
+// ------------------------------------------------------------------ ressources
+
+function renderResources() {
+  const item = (href, title, sub) => `<a class="row-item" href="${href}"><span class="ri-main"><strong>${title}</strong><span class="small muted">${sub}</span></span><span class="ri-side" aria-hidden="true">›</span></a>`;
+  main.innerHTML = `
+    <h1>Ressources</h1>
+    <h2>Textes</h2>
+    <div class="rows">
+      ${item('#/docs', 'Règlements', 'Guide du Badminton, Règles officielles, règlements de votre ligue')}
+      ${item('#/fiches', 'Fiches de synthèse', 'L’essentiel à connaître')}
+      ${item('#/glossaire', 'Glossaire', 'Sigles et vocabulaire')}
+      ${item('#/conditions', 'Conditions d’examen', 'Ce que disent les filières d’arbitrage et de juge-arbitrage')}
+      ${item('#/mises-a-jour', 'Mises à jour des règlements', 'Historique des nouvelles versions')}
+    </div>
+    <h2>Pratique du juge-arbitre</h2>
+    <div class="rows">
+      ${item('#/cas', 'Cas pratiques', 'Situations de compétition, décisions étape par étape')}
+      ${item('#/exercice/poule', 'Classement de poule', 'Départager les égalités (RGC 3.4.1)')}
+      ${item('#/outil/echeancier', 'Dimensionner une compétition', 'Formats, nombre de matchs, heure de fin')}
+      ${item('#/checklists', 'Check-lists', 'Avant, pendant et après la compétition')}
+      ${item('#/auto-evaluation', 'Auto-évaluation', 'Grille des critères JALA')}
+    </div>`;
 }
 
 // ------------------------------------------------------------------ conditions d'examen
@@ -322,7 +261,7 @@ async function renderConditions() {
     <p class="muted">Synthèse des chapitres 06.01 (filière arbitrage) et 06.02 (filière juge-arbitrage) du Guide du Badminton, édition 2026/1, et de leurs annexes. Les modalités précises (nombre de questions, durée) sont fixées par FormaBad et votre ligue : renseignez-vous auprès de votre CLOT.</p>
     ${LEVELS.map((l) => {
       const c = exams[l];
-      return `<div class="card" style="margin-bottom:12px"><h2>${esc(LEVEL_NAMES[l])}</h2>
+      return `<div class="panel"><h2>${esc(LEVEL_NAMES[l])}</h2>
         <p>${esc(c.official.summary)}</p><ul>${c.official.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
         <h3>Ce que l'application simule</h3>
         <p class="small">${c.sim.questions} questions · ${c.sim.minutes} min · seuil ${c.sim.passPct} % · ${c.sim.documents ? 'avec documents' : 'sans documents'}. ${esc(c.sim.note || '')}</p>
@@ -335,79 +274,76 @@ async function renderConditions() {
 async function renderSettings() {
   const cat = await getCatalog().catch(() => null);
   const q = await getQuestions();
-  const st = state.settings;
-  const onOff = (key, val, label) => `<button class="chip" aria-pressed="${st[key] === val}" data-set="${key}" data-val="${val}">${label}</button>`;
-  main.innerHTML = `
-    <h1>Réglages</h1>
-    <div class="card stack">
-      <div><label class="field">Parcours</label><div class="chips">${LEVELS.map((l) => `<button class="chip" aria-pressed="${l === st.level}" data-level="${l}">${esc(LEVEL_SHORT[l])}</button>`).join('')}</div></div>
-      <div><label class="field" for="ligue">Ma ligue</label>${ligueSelect(st.ligue)}
-        <p class="small muted" style="margin:4px 0 0">Ajoute les questions propres à votre ligue (interclubs régionaux, règlements régionaux) et écarte celles des autres ligues.</p></div>
-      <div><label class="field">Objectif quotidien</label><div class="chips">${GOALS.map(([n, name]) => `<button class="chip" aria-pressed="${(st.dailyGoal || 20) === n}" data-goal="${n}">${name} · ${n} questions</button>`).join('')}</div></div>
-      <div><label class="field">Apparence</label><div class="chips">${[['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(([k, t]) => `<button class="chip" aria-pressed="${st.theme === k}" data-theme="${k}">${t}</button>`).join('')}</div></div>
-      <div><label class="field">Sons</label><div class="chips">${onOff('sound', true, '🔊 Activés')}${onOff('sound', false, '🔇 Coupés')}</div></div>
-      <div><label class="field">Vibrations (téléphone)</label><div class="chips">${onOff('haptics', true, 'Activées')}${onOff('haptics', false, 'Désactivées')}</div></div>
-    </div>
-    <div class="card stack" style="margin-top:12px">
-      <h2>Ma progression</h2>
-      <p class="small muted">Les données restent sur cet appareil (aucun compte, aucun serveur). Exportez-les pour les sauvegarder ou les transférer sur un autre appareil.</p>
-      <div class="btn-row">
-        <button class="btn secondary" data-act="export">Exporter (fichier)</button>
-        <label class="btn secondary" for="importFile">Importer</label><input type="file" id="importFile" accept="application/json,.json" hidden>
-        <button class="btn danger" data-act="reset">Tout réinitialiser</button>
-      </div>
-    </div>
-    <div class="card stack" style="margin-top:12px">
-      <h2>Hors-ligne et mises à jour</h2>
-      <a class="btn secondary" href="#/hors-ligne">Gérer le mode hors-ligne</a>
-      <p class="small muted">${q.count} questions · ${cat ? `${cat.count} documents officiels (saison ${esc(cat.season)})` : ''}</p>
-    </div>
-    <div class="card small" style="margin-top:12px">
-      <h2>À propos</h2>
-      <p>Application indépendante de préparation aux examens de juge-arbitre, non éditée par la Fédération Française de Badminton. Les règlements proviennent du Guide du Badminton publié par la FFBaD (<a href="https://gdb.ffbad.org" target="_blank" rel="noopener">gdb.ffbad.org</a>) et sont mis à jour automatiquement ; seul le texte officiel fait foi.</p>
-      <p>Les questions et cas pratiques sont rédigés à partir de ces textes. Une erreur ? Signalez-la sur le dépôt GitHub du projet.</p>
-    </div>`;
-  main.onchange = (e) => {
-    if (e.target.id !== 'ligue') return;
-    state.settings.ligue = e.target.value; save();
-    toast(e.target.value ? `Ligue enregistrée : ${LIGUES[e.target.value]}` : 'Ligue retirée');
+  const st = currentPrefs();
+  const draw = () => {
+    main.innerHTML = `
+      <h1>Réglages</h1>
+      <section class="panel">
+        <h2>Préférences</h2>
+        ${prefsForm(st)}
+        <button class="btn" id="savePrefs">Enregistrer</button>
+      </section>
+      <section class="panel">
+        <h2>Apparence</h2>
+        <div class="seg" role="group" aria-label="Apparence">${[['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(([k, t]) => `<button data-theme="${k}" aria-pressed="${state.settings.theme === k}">${t}</button>`).join('')}</div>
+      </section>
+      <section class="panel">
+        <h2>Données</h2>
+        <p class="small muted">Préférences et progression restent sur cet appareil (aucun compte, aucun serveur). Exportez-les pour les sauvegarder ou les transférer.</p>
+        <div class="btn-row">
+          <button class="btn secondary" data-act="export">Exporter</button>
+          <label class="btn secondary" for="importFile">Importer</label><input type="file" id="importFile" accept="application/json,.json" hidden>
+          <button class="btn danger" data-act="reset">Tout effacer</button>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>Contenu</h2>
+        <p class="small muted">${Number(q.count)} questions${q.version ? ` (version ${esc(q.version)})` : ''} · ${cat ? `${Number(cat.count)} documents (saison ${esc(cat.season)})` : ''}. Les questions sont mises à jour automatiquement dès qu'une connexion est disponible.</p>
+        <a class="btn secondary" href="#/hors-ligne">Mode hors ligne</a>
+      </section>
+      <section class="panel small">
+        <h2>À propos</h2>
+        <p>Application indépendante de préparation aux examens d'officiel technique, non éditée par la Fédération Française de Badminton. Les règlements proviennent du Guide du Badminton (<a href="https://gdb.ffbad.org" target="_blank" rel="noopener">gdb.ffbad.org</a>) et des sites des ligues ; seul le texte officiel fait foi.</p>
+      </section>`;
+    main.querySelector('#importFile').onchange = async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      try {
+        importData(await file.text());
+        applyTheme(); updateLevelPill();
+        toast('Données importées');
+        renderSettings();
+      } catch (err) {
+        toast(`Import impossible : ${err.message}`);
+      }
+    };
   };
+  draw();
+  const h = prefsHandlers(st, draw);
+  main.onchange = h.change;
   main.onclick = (e) => {
+    if (h.click(e)) return;
     const btn = e.target.closest('button');
     if (!btn) return;
-    if (btn.dataset.level) { state.settings.level = btn.dataset.level; save(); updateLevelPill(); renderSettings(); }
-    if (btn.dataset.goal) { setting('dailyGoal', Number(btn.dataset.goal)); renderSettings(); }
-    if (btn.dataset.theme) { setting('theme', btn.dataset.theme); applyTheme(); renderSettings(); }
-    if (btn.dataset.set) { setting(btn.dataset.set, btn.dataset.val === 'true'); renderSettings(); }
+    if (btn.id === 'savePrefs') { storePrefs(st); toast('Préférences enregistrées'); }
+    if (btn.dataset.theme) { setting('theme', btn.dataset.theme); applyTheme(); draw(); }
     if (btn.dataset.act === 'export') {
       const blob = new Blob([exportData()], { type: 'application/json' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = `prepa-ja-progression-${new Date().toISOString().slice(0, 10)}.json`;
+      a.download = `prepa-ja-${new Date().toISOString().slice(0, 10)}.json`;
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 2000);
     }
-    if (btn.dataset.act === 'reset' && window.confirm('Effacer toute la progression (réponses, examens, cas pratiques, XP et badges) ?')) {
-      resetAll(); applyTheme(); updateLevelPill(); toast('Progression réinitialisée'); renderSettings();
-    }
-  };
-  main.querySelector('#importFile').onchange = async (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    try {
-      importData(await file.text());
-      applyTheme(); updateLevelPill();
-      toast('Progression importée');
-      renderSettings();
-    } catch (err) {
-      toast(`Import impossible : ${err.message}`);
+    if (btn.dataset.act === 'reset' && window.confirm('Effacer toutes les données (préférences, réponses, examens) ?')) {
+      resetAll(); applyTheme(); updateLevelPill(); toast('Données effacées'); renderHome();
     }
   };
 }
 
 // ------------------------------------------------------------------ démarrage
 
-const TABS = { home: 'home', train: 'train', exam: 'exam', practice: 'practice', docs: 'docs' };
+const TABS = { home: 'home', train: 'train', exam: 'exam', res: 'res' };
 onRouteChange((meta, path) => {
   document.querySelectorAll('.tabbar a').forEach((a) => a.classList.toggle('active', a.dataset.tab === meta.tab));
   document.getElementById('backBtn').hidden = path === '/' || !meta.back;
@@ -422,32 +358,33 @@ const wrap = (fn) => async (args) => {
     await fn(args);
   } catch (err) {
     console.error(err);
-    main.innerHTML = `<h1>Oups…</h1><p>Impossible d'afficher cette page${navigator.onLine ? '' : ' hors ligne'}.</p><p class="small muted">${esc(err.message)}</p><a class="btn" href="#/">Accueil</a>`;
+    main.innerHTML = `<h1>Page indisponible</h1><p>Impossible d'afficher cette page${navigator.onLine ? '' : ' hors ligne'}.</p><p class="small muted">${esc(err.message)}</p><a class="btn" href="#/">Accueil</a>`;
   }
 };
 
 route('/', wrap(renderHome), { tab: TABS.home });
 route('/progression', wrap(renderProgress), { tab: TABS.home, back: true });
 route('/entrainement', wrap(() => renderPlayHub(main)), { tab: TABS.train });
-route('/ala', () => { setTrack('ALA'); navigate('#/entrainement', true); });
+route('/ala', () => { setLevel('ALA'); navigate('#/entrainement', true); });
 route('/entrainement/session', wrap(() => renderPlaySession(main)), { tab: TABS.train });
 route('/examen', wrap(() => renderExamSetup(main)), { tab: TABS.exam });
 route('/examen/session', wrap(() => renderExamSession(main)), { tab: TABS.exam });
 route('/examen/resultat/:id', wrap(({ id }) => renderExamResult(main, id)), { tab: TABS.exam, back: true });
-route('/pratique', wrap(() => renderPracticeHome(main)), { tab: TABS.practice });
-route('/cas', wrap(() => renderCases(main)), { tab: TABS.practice, back: true });
-route('/cas/:id', wrap(({ id }) => renderCase(main, id)), { tab: TABS.practice, back: true });
-route('/exercice/poule', wrap(() => renderPouleDrill(main)), { tab: TABS.practice, back: true });
-route('/outil/echeancier', wrap(() => renderScheduler(main)), { tab: TABS.practice, back: true });
-route('/checklists', wrap(() => renderChecklists(main)), { tab: TABS.practice, back: true });
-route('/auto-evaluation', wrap(() => renderSelfEval(main)), { tab: TABS.practice, back: true });
-route('/docs', wrap(() => renderDocsHome(main)), { tab: TABS.docs });
-route('/doc/:id', wrap(({ id, query }) => renderDoc(main, id, query)), { tab: TABS.docs, back: true });
-route('/fiches', wrap(() => renderFiches(main)), { tab: TABS.docs, back: true });
-route('/fiche/:id', wrap(({ id }) => renderFiche(main, id)), { tab: TABS.docs, back: true });
-route('/glossaire', wrap(() => renderGlossary(main)), { tab: TABS.docs, back: true });
-route('/conditions', wrap(renderConditions), { tab: TABS.docs, back: true });
-route('/mises-a-jour', wrap(() => renderUpdates(main)), { tab: TABS.docs, back: true });
+route('/ressources', wrap(renderResources), { tab: TABS.res });
+route('/pratique', () => navigate('#/ressources', true));
+route('/cas', wrap(() => renderCases(main)), { tab: TABS.res, back: true });
+route('/cas/:id', wrap(({ id }) => renderCase(main, id)), { tab: TABS.res, back: true });
+route('/exercice/poule', wrap(() => renderPouleDrill(main)), { tab: TABS.res, back: true });
+route('/outil/echeancier', wrap(() => renderScheduler(main)), { tab: TABS.res, back: true });
+route('/checklists', wrap(() => renderChecklists(main)), { tab: TABS.res, back: true });
+route('/auto-evaluation', wrap(() => renderSelfEval(main)), { tab: TABS.res, back: true });
+route('/docs', wrap(() => renderDocsHome(main)), { tab: TABS.res, back: true });
+route('/doc/:id', wrap(({ id, query }) => renderDoc(main, id, query)), { tab: TABS.res, back: true });
+route('/fiches', wrap(() => renderFiches(main)), { tab: TABS.res, back: true });
+route('/fiche/:id', wrap(({ id }) => renderFiche(main, id)), { tab: TABS.res, back: true });
+route('/glossaire', wrap(() => renderGlossary(main)), { tab: TABS.res, back: true });
+route('/conditions', wrap(renderConditions), { tab: TABS.res, back: true });
+route('/mises-a-jour', wrap(() => renderUpdates(main)), { tab: TABS.res, back: true });
 route('/recherche', wrap(({ query }) => renderSearch(main, query)), { back: true });
 route('/question/:id', wrap(({ id }) => renderQuestion(main, id)), { back: true });
 route('/hors-ligne', wrap(() => renderOffline(main)), { back: true });
@@ -458,6 +395,11 @@ document.getElementById('backBtn').addEventListener('click', () => {
   if (history.length > 1) history.back(); else navigate('#/');
 });
 document.addEventListener('levelchange', updateLevelPill);
+// questions mises à jour en arrière-plan : l'écran courant est réaffiché (sauf pendant une série ou un examen)
+onDataUpdate((info) => {
+  toast(`Questions mises à jour (${info.count} questions)`);
+  if (!/^#\/(entrainement\/session|examen\/session)/.test(location.hash)) resolve();
+});
 
 applyTheme();
 updateLevelPill();

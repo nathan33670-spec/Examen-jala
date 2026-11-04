@@ -104,3 +104,11 @@ export const icons = {
   wifi: '<svg viewBox="0 0 24 24"><path d="M2 8.5a15 15 0 0 1 20 0M5 12a10 10 0 0 1 14 0M8.5 15.5a5 5 0 0 1 7 0"/><circle cx="12" cy="19" r="1"/></svg>',
   news: '<svg viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 13h7M7 16h4"/></svg>',
 };
+
+/** Lien sûr : adresse relative à l'application ou https:// uniquement (jamais javascript:, data:…). */
+export function safeUrl(u) {
+  const s = String(u ?? '').trim();
+  if (/^https:\/\//i.test(s)) return esc(s);
+  if (/^(#\/|[\w-]+\/[\w./%-]*$|[\w-]+\.[a-z]+$)/i.test(s) && !s.includes('..')) return esc(s);
+  return '#';
+}

@@ -6,8 +6,7 @@ import { navigate } from './router.js';
 import { examPick } from './engine.js';
 import { questionHtml, makeItem, isCorrect, refLink, choiceList, themeName } from './qcommon.js';
 import { startPlay } from './play.js';
-import { rewardActivity, flush } from './reward.js';
-import { confetti } from './fx.js';
+import { rewardActivity } from './reward.js';
 
 export { isCorrect };
 
@@ -99,8 +98,8 @@ export async function renderExamSetup(main) {
       <button class="btn block accent" id="go" style="margin-top:12px" ${available < 5 ? 'disabled' : ''}>Démarrer l'examen (${Math.min(sim.questions, available)} questions)</button>
     </div>
     ${history.length ? `<h2>Derniers examens ${esc(level)}</h2><div class="doclist">${history.map((h) => `
-      <a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span>
-      <span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total} · ${fmtDuration(h.durationSec)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : ''}`;
+      <a class="docitem" href="#/examen/resultat/${encodeURIComponent(h.id)}"><span class="code">${Math.round(h.score * 100)}%</span>
+      <span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${Number(h.good)}/${Number(h.total)} · ${fmtDuration(h.durationSec)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : ''}`;
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;
@@ -250,7 +249,7 @@ async function finishExam() {
   session = null;
   persist();
   clearInterval(timerHandle);
-  await rewardActivity(30 + Math.round(score * 20) + (result.passed ? 100 : 0), { now: false });
+  rewardActivity();
   justFinished = result.id;
   navigate(`#/examen/resultat/${result.id}`, true);
 }
@@ -275,9 +274,8 @@ export async function renderExamResult(main, id) {
   }
   const wrongIds = result.answers.filter((a) => !a.ok).map((a) => a.id);
   main.innerHTML = `
-    <h1>Résultat — examen blanc ${esc(result.level)}</h1>
+    <h1>Résultat de l’examen blanc</h1>
     <div class="card center">
-      <div class="end-icon" aria-hidden="true">${result.passed ? '🎓' : '📚'}</div>
       <div class="score-big ${result.passed ? 'result-ok' : 'result-ko'}">${Math.round(result.score * 100)} %</div>
       <p><strong>${result.passed ? 'Réussi' : 'Non réussi'}</strong> — seuil ${result.passPct} % · ${result.good} bonne(s) réponse(s) sur ${result.total}</p>
       <p class="small muted">${errors} erreur(s) ou absence(s) de réponse pour ${maxErr} tolérée(s)${result.penalty ? ` · pénalité ${result.penalty}/mauvaise réponse` : ''} · durée ${fmtDuration(result.durationSec)}</p>
@@ -286,7 +284,7 @@ export async function renderExamResult(main, id) {
     <div class="card bars">${Object.entries(result.byTheme).sort((a, b) => a[1].good / a[1].total - b[1].good / b[1].total)
       .map(([t, v]) => `<div class="bar"><span>${esc(themeName(qdata, t))}</span><div class="meter"><i class="${v.good / v.total >= 0.8 ? 'high' : v.good / v.total >= 0.5 ? 'mid' : 'low'}" style="width:${(v.good / v.total) * 100}%"></i></div><span class="small muted">${v.good}/${v.total}</span></div>`).join('')}</div>
     <div class="btn-row" style="margin:14px 0">
-      ${wrongIds.length ? '<button class="btn accent" id="retry">Retravailler mes erreurs</button>' : ''}
+      ${wrongIds.length ? '<button class="btn" id="retry">Revoir mes erreurs</button>' : ''}
       <a class="btn secondary" href="#/examen">Nouvel examen</a>
     </div>
     <h2>Correction détaillée</h2>
@@ -294,9 +292,5 @@ export async function renderExamResult(main, id) {
   const retry = main.querySelector('#retry');
   if (retry) retry.onclick = () => startPlay({ mode: 'retry', level: result.level, ids: wrongIds });
   main.onclick = null;
-  if (justFinished === id) {
-    justFinished = null;
-    if (result.passed) confetti(160);
-    setTimeout(flush, result.passed ? 900 : 200);
-  }
+  if (justFinished === id) justFinished = null;
 }

@@ -3,19 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- politique de sécurité : scripts et données de l'application seulement ; mises à jour des questions depuis le site publié (appli Android) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://nathan33670-spec.github.io; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; worker-src 'self'; manifest-src 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Prépa JA Badminton</title>
   <meta name="description" content="Préparation aux examens théoriques et pratiques d’officiel technique de badminton (juge-arbitre JALA et arbitre ALA) : questions, examens blancs, cas pratiques et règlements, utilisable hors ligne.">
-  <meta name="theme-color" content="#0f4c5c" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0b1f26" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1e24" media="(prefers-color-scheme: dark)">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Prépa JA">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="preload" href="data/questions.json" as="fetch" crossorigin="anonymous">
+  <link rel="modulepreload" href="js/app.js">
+  <link rel="modulepreload" href="js/ui.js">
+  <link rel="modulepreload" href="js/store.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/router.js">
+  <link rel="modulepreload" href="js/gauge.js">
+  <link rel="modulepreload" href="js/quiz.js">
+  <link rel="modulepreload" href="js/play.js">
+  <link rel="modulepreload" href="js/docs.js">
+  <link rel="modulepreload" href="js/practice.js">
+  <link rel="modulepreload" href="js/offline.js">
+  <link rel="modulepreload" href="js/engine.js">
+  <link rel="modulepreload" href="js/game.js">
+  <link rel="modulepreload" href="js/qcommon.js">
+  <link rel="modulepreload" href="js/reward.js">
 </head>
 <body>
   <a class="skip" href="#main">Aller au contenu</a>
@@ -27,8 +46,7 @@
       <img src="icons/icon.svg" alt="" width="28" height="28">
       <span>Prépa JA</span>
     </a>
-    <a class="streak-pill cold" id="streakPill" href="#/progression" aria-label="Série de jours d'entraînement"><span aria-hidden="true">🔥</span><b>0</b></a>
-    <span class="level-pill" id="levelPill" title="Grade visé"></span>
+    <span class="level-pill" id="levelPill" title="Parcours"></span>
     <span class="net" id="netStatus" hidden>Hors ligne</span>
     <a class="icon-btn" href="#/recherche" aria-label="Rechercher">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
@@ -57,20 +75,16 @@
       <span>Accueil</span>
     </a>
     <a href="#/entrainement" data-tab="train">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h10"/><circle cx="19" cy="19" r="2"/></svg>
-      <span>S’entraîner</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h10"/></svg>
+      <span>Entraînement</span>
     </a>
     <a href="#/examen" data-tab="exam">
       <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
       <span>Examen</span>
     </a>
-    <a href="#/pratique" data-tab="practice">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg>
-      <span>Pratique</span>
-    </a>
-    <a href="#/docs" data-tab="docs">
+    <a href="#/ressources" data-tab="res">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h9l5 5v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M14 4v5h5"/></svg>
-      <span>Règlements</span>
+      <span>Ressources</span>
     </a>
   </nav>
 

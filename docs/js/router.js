@@ -34,7 +34,8 @@ export async function resolve() {
   for (const r of routes) {
     const m = path.match(r.re);
     if (m) {
-      const args = Object.fromEntries(r.keys.map((k, i) => [k, decodeURIComponent(m[i + 1])]));
+      const dec = (v) => { try { return decodeURIComponent(v); } catch { return v; } };
+      const args = Object.fromEntries(r.keys.map((k, i) => [k, dec(m[i + 1])]));
       onChange?.(r.meta, path);
       await r.handler({ ...args, query: params, path });
       return;

@@ -27,7 +27,9 @@ export function initOffline() {
   // Première visite : le service worker s'installe en silence. Une mise à jour n'est proposée
   // que si une version précédente contrôlait déjà la page.
   const hadController = !!navigator.serviceWorker.controller;
-  navigator.serviceWorker.register('sw.js').then((reg) => {
+  // enregistrement après le premier affichage : le précache (≈ 4 Mo) ne ralentit pas le démarrage
+  const register = () => navigator.serviceWorker.register('sw.js').then((reg) => {
+    if (!reg) return;
     const track = (worker) => {
       worker?.addEventListener('statechange', () => {
         if (worker.state === 'installed' && hadController) showUpdate(worker);
@@ -38,6 +40,8 @@ export function initOffline() {
     // vérification périodique (application laissée ouverte)
     setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000);
   }).catch((err) => console.warn('Service worker non enregistré', err));
+  if (hadController || document.readyState === 'complete') setTimeout(register, hadController ? 0 : 1500);
+  else window.addEventListener('load', () => setTimeout(register, 1500), { once: true });
   navigator.serviceWorker.addEventListener('controllerchange', () => {
     if (updateRequested) location.reload();
   });

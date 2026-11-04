@@ -43,14 +43,79 @@ function newSeed() {
   return Math.random().toString(36).slice(2, 10);
 }
 
+const isObj = (x) => x && typeof x === 'object' && !Array.isArray(x);
+const num = (x, d = 0) => (Number.isFinite(Number(x)) ? Number(x) : d);
+const safeKey = (k) => k !== '__proto__' && k !== 'constructor' && k !== 'prototype';
+/** Copie d'un objet sans clés dangereuses (protection contre la pollution de prototype). */
+const clean = (o) => Object.fromEntries(Object.entries(isObj(o) ? o : {}).filter(([k]) => safeKey(k)));
+const idOk = (id) => typeof id === 'string' && /^[\w.@-]{1,80}$/.test(id);
+
+/**
+ * Normalise des données lues (localStorage ou fichier importé) : seules les clés connues, avec le bon
+ * type, sont gardées ; les nombres sont forcés et les identifiants contrôlés. Un fichier forgé ne peut
+ * ainsi ni casser l'application ni injecter de contenu dans les pages.
+ */
+function normalize(data) {
+  const base = blank();
+  if (!isObj(data)) return base;
+  const s = clean(data.settings);
+  const settings = { ...base.settings };
+  for (const k of ['level', 'ligue', 'theme', 'knowledge', 'seed']) if (typeof s[k] === 'string' && s[k].length < 40) settings[k] = s[k];
+  if (typeof s.onboarded === 'boolean') settings.onboarded = s.onboarded;
+  settings.dailyGoal = num(s.dailyGoal, base.settings.dailyGoal);
+  settings.priorities = Object.fromEntries(Object.entries(clean(s.priorities))
+    .filter(([, v]) => Array.isArray(v)).map(([k, v]) => [k, v.filter((x) => typeof x === 'string' && x.length < 20)]));
+  settings.trainPrefs = Object.fromEntries(Object.entries(clean(s.trainPrefs))
+    .map(([k, v]) => [k, { count: [10, 20, 40].includes(num(v?.count)) ? num(v.count) : 10, focus: typeof v?.focus === 'string' ? v.focus.slice(0, 20) : '' }]));
+  settings.examOverrides = Object.fromEntries(Object.entries(clean(s.examOverrides)).map(([k, v]) => {
+    const o = clean(v);
+    return [k, { ...(o.questions != null && { questions: Math.max(5, Math.min(200, num(o.questions, 40))) }),
+      ...(o.minutes != null && { minutes: Math.max(5, Math.min(240, num(o.minutes, 60))) }),
+      ...(o.passPct != null && { passPct: Math.max(50, Math.min(100, num(o.passPct, 80))) }),
+      ...(o.penalty != null && { penalty: Math.max(0, Math.min(1, num(o.penalty, 0))) }),
+      ...(o.documents != null && { documents: !!o.documents }) }];
+  }));
+  if (isObj(s.scheduler) && Array.isArray(s.scheduler.tableaux)) settings.scheduler = JSON.parse(JSON.stringify(s.scheduler, (k, v) => (safeKey(k) ? (typeof v === 'string' ? v.replace(/[^\w :.-]/g, '').slice(0, 20) : v) : undefined)));
+  const q = {};
+  for (const [id, st] of Object.entries(clean(data.q))) {
+    if (!idOk(id) || !isObj(st)) continue;
+    q[id] = { b: Math.max(0, Math.min(5, num(st.b))), n: Math.max(0, num(st.n)), c: Math.max(0, num(st.c)), t: num(st.t), ...(st.last != null && { last: st.last ? 1 : 0 }), ...(st.f && { f: true }) };
+  }
+  const exams = (Array.isArray(data.exams) ? data.exams : []).slice(0, 100).filter((e) => isObj(e) && idOk(e.id)).map((e) => ({
+    id: e.id, level: typeof e.level === 'string' ? e.level.slice(0, 10) : 'JALA', date: typeof e.date === 'string' ? e.date.slice(0, 40) : '',
+    score: Math.max(0, Math.min(1, num(e.score))), good: num(e.good), total: num(e.total), passed: !!e.passed,
+    passPct: num(e.passPct, 80), penalty: num(e.penalty), durationSec: num(e.durationSec),
+    byTheme: Object.fromEntries(Object.entries(clean(e.byTheme)).filter(([k]) => idOk(k)).map(([k, v]) => [k, { good: num(v?.good), total: Math.max(1, num(v?.total, 1)) }])),
+    answers: (Array.isArray(e.answers) ? e.answers : []).filter((a) => isObj(a) && idOk(a.id)).slice(0, 300)
+      .map((a) => ({ id: a.id, ok: !!a.ok, sel: (Array.isArray(a.sel) ? a.sel : []).map((x) => num(x)).filter((x) => x >= 0 && x < 10) })),
+  }));
+  const cases = Object.fromEntries(Object.entries(clean(data.cases)).filter(([k, v]) => idOk(k) && isObj(v))
+    .map(([k, v]) => [k, { best: Math.max(0, Math.min(1, num(v.best))), last: num(v.last), n: num(v.n), t: num(v.t) }]));
+  const boolMap = (o) => Object.fromEntries(Object.entries(clean(o)).filter(([k]) => idOk(k)).map(([k, v]) => [k, isObj(v) ? Object.fromEntries(Object.entries(clean(v)).map(([a, b]) => [a, !!b])) : !!v]));
+  const selfEval = Object.fromEntries(Object.entries(clean(data.selfEval)).filter(([k]) => idOk(k)).map(([k, v]) => [k, Math.max(0, Math.min(3, num(v)))]));
+  const poule = clean(clean(data.drills).poule);
+  return { ...base, version: 1, createdAt: typeof data.createdAt === 'string' ? data.createdAt.slice(0, 40) : base.createdAt,
+    settings, q, exams, cases, checklists: boolMap(data.checklists), selfEval,
+    drills: { poule: { n: num(poule.n), ok: num(poule.ok) } },
+    pdfShas: Object.fromEntries(Object.entries(clean(data.pdfShas)).filter(([, v]) => typeof v === 'string')),
+    game: cleanGame(mergeGame(clean(data.game))) };
+}
+
+/** Compteurs d'activité : nombres seulement, jours au format AAAA-MM-JJ. */
+function cleanGame(g) {
+  const days = Object.fromEntries(Object.entries(clean(g.days)).filter(([k]) => /^\d{4}-\d{2}-\d{2}$/.test(k))
+    .slice(-400).map(([k, v]) => [k, { a: num(v?.a), g: num(v?.g), xp: num(v?.xp) }]));
+  const counters = Object.fromEntries(Object.entries(clean(g.counters)).map(([k, v]) => [k, num(v)]));
+  return { ...g, xp: num(g.xp), days, counters, streak: { ...g.streak, cur: num(g.streak?.cur), best: num(g.streak?.best) },
+    badges: Object.fromEntries(Object.entries(clean(g.badges)).filter(([k]) => idOk(k)).map(([k, v]) => [k, num(v)])),
+    records: Object.fromEntries(Object.entries(clean(g.records)).filter(([k]) => /^[\w|]{1,40}$/.test(k)).map(([k, v]) => [k, num(v)])),
+    daily: {}, docsSeen: Object.fromEntries(Object.entries(clean(g.docsSeen)).filter(([k]) => idOk(k)).map(([k]) => [k, 1])) };
+}
+
 function load() {
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return blank();
-    const data = JSON.parse(raw);
-    const base = blank();
-    return { ...base, ...data, settings: { ...base.settings, ...(data.settings || {}) },
-      drills: { ...base.drills, ...(data.drills || {}) }, game: mergeGame(data.game) };
+    return raw ? normalize(JSON.parse(raw)) : blank();
   } catch (err) {
     console.warn('Progression illisible, réinitialisation', err);
     return blank();
@@ -132,12 +197,14 @@ export function exportData() {
 }
 
 export function importData(text) {
+  if (text.length > 5e6) throw new Error('Fichier trop volumineux');
   const parsed = JSON.parse(text);
-  const data = parsed.data || parsed;
-  if (!data || typeof data !== 'object' || !data.settings) throw new Error('Fichier de progression invalide');
+  const data = isObj(parsed?.data) ? parsed.data : parsed;
+  if (!isObj(data) || !isObj(data.settings)) throw new Error('Fichier de progression invalide');
+  const next = normalize(data);
+  if (!LEVELS.includes(next.settings.level)) next.settings.level = 'JALA';
   for (const k of Object.keys(state)) delete state[k];
-  const base = blank();
-  Object.assign(state, base, data, { settings: { ...base.settings, ...data.settings }, game: mergeGame(data.game) });
+  Object.assign(state, next);
   save(true);
 }
 

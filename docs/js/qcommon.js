@@ -1,10 +1,11 @@
 // Éléments communs aux écrans de questions (entraînement, jeux, examen).
-import { esc, shuffle } from './ui.js';
+import { esc, shuffle, safeUrl } from './ui.js';
 import { getCatalog, getDocText } from './data.js';
 
 /** Énoncé + illustration éventuelle (écran de logiciel, feuille de match…). */
 export function questionHtml(q, style = '') {
-  const img = q.img ? `<figure class="qimg"><a href="${esc(q.img.src)}" target="_blank" rel="noopener" title="Agrandir l’écran"><img src="${esc(q.img.src)}" alt="${esc(q.img.alt || '')}" loading="lazy" decoding="async"></a><figcaption class="small muted">Touchez l’écran pour l’agrandir.</figcaption></figure>` : '';
+  const imgOk = q.img && /^img\/[\w./-]+\.(svg|png|jpe?g|webp)$/.test(q.img.src || '') && !q.img.src.includes('..');
+  const img = imgOk ? `<figure class="qimg"><a href="${esc(q.img.src)}" target="_blank" rel="noopener" title="Agrandir l’écran"><img src="${esc(q.img.src)}" alt="${esc(q.img.alt || '')}" loading="lazy" decoding="async"></a><figcaption class="small muted">Touchez l’écran pour l’agrandir.</figcaption></figure>` : '';
   return `<p class="question"${style ? ` style="${style}"` : ''}>${esc(q.q)}</p>${img}`;
 }
 
@@ -28,7 +29,7 @@ export async function refLink(ref) {
   const doc = cat.docs.find((d) => d.id === ref.doc);
   if (doc?.external) {
     const page = doc.pages?.[ref.art];
-    return `<p class="ref muted">Référence : <a href="${esc(page?.url || doc.source)}" target="_blank" rel="noopener">Documentation BadNet${page ? ` — ${esc(page.title)}` : ''}</a></p>`;
+    return `<p class="ref muted">Référence : <a href="${safeUrl(page?.url || doc.source)}" target="_blank" rel="noopener">Documentation BadNet${page ? ` — ${esc(page.title)}` : ''}</a></p>`;
   }
   const name = !doc ? ref.doc : doc.id === 'REGLES' ? 'Règles officielles du badminton' : `GdB ${doc.id} — ${doc.title}`;
   const art = ref.art ? ` · ${ref.art}` : '';

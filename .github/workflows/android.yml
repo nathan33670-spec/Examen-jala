@@ -35,13 +35,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Version
         id: v
+        env:  # valeurs passées par l'environnement, jamais interpolées dans le script (injection)
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
         run: |
-          if [ -n "${{ github.event.inputs.version }}" ]; then RAW="${{ github.event.inputs.version }}"
-          elif [ "${{ github.ref_type }}" = "tag" ]; then RAW="${{ github.ref_name }}"
+          if [ -n "$INPUT_VERSION" ]; then RAW="$INPUT_VERSION"
+          elif [ "$REF_TYPE" = "tag" ]; then RAW="$REF_NAME"
           else RAW="$(tr -d ' \n\r' < android/VERSION)"; fi
           VERSION="${RAW#v}"
           if ! echo "$VERSION" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
@@ -52,7 +56,7 @@ jobs:
           echo "code=$((MA * 10000 + MI * 100 + PA))" >> "$GITHUB_OUTPUT"
           echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
 
@@ -61,12 +65,12 @@ jobs:
           pip install -r bot/requirements.txt
           python scripts/build_site.py --check
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
         with:
           distribution: temurin
           java-version: '21'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
 
@@ -85,7 +89,20 @@ jobs:
         run: |
           KS="$RUNNER_TEMP/upload.jks"
           if [ -n "$KEYSTORE_B64" ]; then
-            echo "$KEYSTORE_B64" | base64 -d > "$KS"
+            # retours à la ligne, espaces et retours chariot ajoutés au copier-coller sont ignorés
+            CLEAN="$(printf '%s' "$KEYSTORE_B64" | tr -d ' \t\r\n')"
+            if ! printf '%s' "$CLEAN" | base64 -d > "$KS" 2>/dev/null; then
+              echo "::error::Le secret ANDROID_KEYSTORE_BASE64 n'est pas du base64 valide. Recréez-le avec : base64 -i upload.jks | tr -d '\n' (macOS) ou base64 -w0 upload.jks (Linux), puis collez tout le résultat."
+              exit 1
+            fi
+            if ! keytool -list -keystore "$KS" -storepass "$KEYSTORE_PASSWORD" >/dev/null 2>&1; then
+              echo "::error::Keystore illisible : vérifiez ANDROID_KEYSTORE_PASSWORD (et que le secret contient bien le fichier .jks encodé en base64)."
+              exit 1
+            fi
+            if ! keytool -list -keystore "$KS" -storepass "$KEYSTORE_PASSWORD" -alias "$KEY_ALIAS" >/dev/null 2>&1; then
+              echo "::error::Alias « $KEY_ALIAS » absent du keystore : vérifiez ANDROID_KEY_ALIAS (alias choisi avec keytool -alias)."
+              exit 1
+            fi
             {
               echo "ANDROID_KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD"
               echo "ANDROID_KEY_ALIAS=$KEY_ALIAS"
@@ -116,13 +133,13 @@ jobs:
           cp app/build/outputs/bundle/release/app-release.aab "../dist/prepa-ja-${{ steps.v.outputs.name }}.aab"
           rm -f "$ANDROID_KEYSTORE_PATH"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: android-${{ steps.v.outputs.name }}
           path: dist/
 
       - name: Release GitHub
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
         with:
           tag_name: ${{ steps.v.outputs.tag }}
           name: Prépa JA ${{ steps.v.outputs.name }}
