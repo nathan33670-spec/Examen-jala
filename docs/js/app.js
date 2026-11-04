@@ -225,7 +225,7 @@ async function renderProgress() {
       ${r.weights.practice ? `<p><strong>Pratique (${Math.round(r.weights.practice * 100)} %)</strong> : cas pratiques réussis et auto-évaluation des critères d'examen.</p>` : ''}
     </div>
     <h2>Examens blancs</h2>
-    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce parcours.</p>'}`;
+    ${exams.length ? `<div class="doclist">${exams.slice(0, 20).map((h) => `<a class="docitem" href="#/examen/resultat/${encodeURIComponent(h.id)}"><span class="code">${Math.round(h.score * 100)}%</span><span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${Number(h.good)}/${Number(h.total)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : '<p class="muted">Aucun examen blanc pour ce parcours.</p>'}`;
 }
 
 // ------------------------------------------------------------------ ressources
@@ -298,7 +298,7 @@ async function renderSettings() {
       </section>
       <section class="panel">
         <h2>Contenu</h2>
-        <p class="small muted">${q.count} questions${q.version ? ` (version ${esc(q.version)})` : ''} · ${cat ? `${cat.count} documents (saison ${esc(cat.season)})` : ''}. Les questions sont mises à jour automatiquement dès qu'une connexion est disponible.</p>
+        <p class="small muted">${Number(q.count)} questions${q.version ? ` (version ${esc(q.version)})` : ''} · ${cat ? `${Number(cat.count)} documents (saison ${esc(cat.season)})` : ''}. Les questions sont mises à jour automatiquement dès qu'une connexion est disponible.</p>
         <a class="btn secondary" href="#/hors-ligne">Mode hors ligne</a>
       </section>
       <section class="panel small">

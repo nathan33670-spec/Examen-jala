@@ -1,5 +1,5 @@
 // Bibliothèque des règlements, liseuse, fiches de synthèse, glossaire et recherche.
-import { esc, fmtSize, fmtDate, richText, icons } from './ui.js';
+import { esc, fmtSize, fmtDate, richText, icons, safeUrl } from './ui.js';
 import { getCatalog, getDocText, getFiches, getGlossary, getUpdates, getQuestions } from './data.js';
 import { examBanner } from './quiz.js';
 import { state, save } from './store.js';
@@ -87,9 +87,9 @@ function renderExternal(main, doc, query = {}) {
     <p class="small muted"><a href="#/docs">Règlements</a> › ${esc(doc.folder || '')}</p>
     <h1>${esc(doc.title)}</h1>
     <p class="muted">Documentation en ligne de l’éditeur, consultable avec une connexion Internet. Les questions « logiciel » y renvoient page par page.</p>
-    ${target ? `<div class="notice"><strong>Page citée :</strong> <a href="${esc(target.url)}" target="_blank" rel="noopener">${esc(target.title)}</a></div>` : ''}
-    <div class="btn-row" style="margin:10px 0"><a class="btn small" href="${esc(doc.source)}" target="_blank" rel="noopener">Ouvrir la documentation</a></div>
-    <div class="doclist">${pages.map(([, pg]) => `<a class="docitem" href="${esc(pg.url)}" target="_blank" rel="noopener"><span class="t">${esc(pg.title)}</span></a>`).join('')}</div>`;
+    ${target ? `<div class="notice"><strong>Page citée :</strong> <a href="${safeUrl(target.url)}" target="_blank" rel="noopener">${esc(target.title)}</a></div>` : ''}
+    <div class="btn-row" style="margin:10px 0"><a class="btn small" href="${safeUrl(doc.source)}" target="_blank" rel="noopener">Ouvrir la documentation</a></div>
+    <div class="doclist">${pages.map(([, pg]) => `<a class="docitem" href="${safeUrl(pg.url)}" target="_blank" rel="noopener"><span class="t">${esc(pg.title)}</span></a>`).join('')}</div>`;
 }
 
 export async function renderDoc(main, id, query = {}) {
@@ -126,8 +126,8 @@ export async function renderDoc(main, id, query = {}) {
     <h1>${esc(doc.id === 'REGLES' ? '' : `${doc.code} — `)}${esc(doc.title)}</h1>
     <p class="small muted">${meta.map(esc).join(' · ')}${doc.updatedAt ? ` · récupéré le ${fmtDate(doc.updatedAt)}` : ''}</p>
     <div class="btn-row" style="margin-bottom:6px">
-      <a class="btn small" href="${esc(window.Capacitor?.isNativePlatform?.() ? doc.source : doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
-      <a class="btn small secondary" href="${esc(doc.source)}" target="_blank" rel="noopener">Source FFBaD</a>
+      <a class="btn small" href="${safeUrl(window.Capacitor?.isNativePlatform?.() ? doc.source : doc.pdf)}" target="_blank" rel="noopener">${icons.download.replace('<svg', '<svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"')} PDF officiel (${fmtSize(doc.size)})</a>
+      <a class="btn small secondary" href="${safeUrl(doc.source)}" target="_blank" rel="noopener">Source FFBaD</a>
     </div>
     ${doc.id === 'REGLES' ? '<div class="notice small">Le PDF officiel signale les modifications (ancien texte barré en rouge, nouveau texte en bleu). Dans la version texte ci-dessous, les deux valeurs peuvent apparaître côte à côte : « 21 15 points » se lit <strong>15 points</strong> (système 3×15 appliqué par la FFBaD depuis le 1er septembre 2026).</div>' : ''}
     ${doc.upcoming ? `<div class="notice warn small">Document applicable à partir de la saison ${esc(doc.season)}.</div>` : ''}
@@ -173,7 +173,7 @@ export async function renderFiches(main) {
   const fiches = await getFiches();
   main.innerHTML = `${examBanner()}<h1>Fiches de synthèse</h1>
     <p class="muted">Résumés rédigés pour la préparation, avec renvoi aux articles officiels. En cas de divergence, le texte du Guide du Badminton fait foi.</p>
-    <div class="grid two">${fiches.map((f) => `<a class="card" href="#/fiche/${f.id}"><strong>${esc(f.title)}</strong><p class="small muted">${esc(f.summary)}</p><span class="badge info">${f.levels.join(' · ')}</span></a>`).join('')}</div>`;
+    <div class="grid two">${fiches.map((f) => `<a class="card" href="#/fiche/${encodeURIComponent(f.id)}"><strong>${esc(f.title)}</strong><p class="small muted">${esc(f.summary)}</p><span class="badge info">${esc(f.levels.join(' · '))}</span></a>`).join('')}</div>`;
 }
 
 export async function renderFiche(main, id) {
@@ -264,7 +264,7 @@ export async function renderSearch(main, query = {}) {
       ${f.length ? `<h2>Fiches</h2><div class="doclist">${f.map((x) => `<a class="docitem" href="#/fiche/${x.f.id}"><span class="t">${esc(x.f.title)}</span></a>`).join('')}</div>` : ''}
       <h2>Règlements (${b.length}${b.length === 60 ? '+' : ''})</h2>
       ${b.length ? `<div class="doclist">${b.map((x) => `<a class="docitem" href="#/doc/${encodeURIComponent(x.doc.id)}?q=${encodeURIComponent(v)}"><span class="code">${esc(docLabel(x.doc))}</span><span class="t small">${snippet(x.text, terms)}</span></a>`).join('')}</div>` : '<p class="muted">Aucun passage trouvé.</p>'}
-      ${q.length ? `<h2>Questions</h2><div class="doclist">${q.map((x) => `<a class="docitem" href="#/question/${x.q.id}"><span class="code">${esc(x.q.levels[0])}</span><span class="t small">${snippet(x.q.q, terms)}</span></a>`).join('')}</div>` : ''}`;
+      ${q.length ? `<h2>Questions</h2><div class="doclist">${q.map((x) => `<a class="docitem" href="#/question/${encodeURIComponent(x.q.id)}"><span class="code">${esc(x.q.levels[0] || '')}</span><span class="t small">${snippet(x.q.q, terms)}</span></a>`).join('')}</div>` : ''}`;
   };
   let deb;
   input.oninput = () => { clearTimeout(deb); deb = setTimeout(run, 300); };
@@ -278,5 +278,5 @@ export async function renderQuestion(main, id) {
   main.innerHTML = `<h1>Question ${esc(q.id)}</h1><div class="card">${questionHtml(q)}
     <ul>${q.choices.map((c, i) => `<li>${q.answer.includes(i) ? '<strong>✔ ' : ''}${esc(c)}${q.answer.includes(i) ? '</strong>' : ''}</li>`).join('')}</ul>
     <div class="explain card flat ok">${richText(q.explain)}</div>
-    ${q.ref ? `<p class="small muted">Référence : <a href="#/doc/${encodeURIComponent(q.ref.doc)}?a=${encodeURIComponent(q.ref.art)}">${esc(q.ref.doc)} ${esc(q.ref.art)}</a> · niveaux ${q.levels.join(', ')}</p>` : ''}</div>`;
+    ${q.ref ? `<p class="small muted">Référence : <a href="#/doc/${encodeURIComponent(q.ref.doc)}?a=${encodeURIComponent(q.ref.art)}">${esc(q.ref.doc)} ${esc(q.ref.art)}</a> · ${esc(q.levels.join(', '))}</p>` : ''}</div>`;
 }

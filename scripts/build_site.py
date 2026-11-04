@@ -519,8 +519,11 @@ def main(argv: list[str] | None = None) -> int:
     stats = {lv: sum(1 for q in questions if lv in q["levels"]) for lv in CATEGORIES}
     by_theme = {t: sum(1 for q in questions if q["theme"] == t) for t in THEMES}
     by_phase = {ph: sum(1 for q in questions if q.get("phase") == ph) for ph in PHASES}
+    qversion = hashlib.sha256(json.dumps(questions, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:10]
     outputs = {
-        site / "data" / "questions.json": dump(None, {"version": hashlib.sha256(json.dumps(questions, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:10],
+        # petit fichier consulté par l'application pour savoir s'il faut télécharger de nouvelles questions
+        site / "data" / "version.json": dump(None, {"version": qversion, "count": len(questions)}),
+        site / "data" / "questions.json": dump(None, {"version": qversion,
                                                        "themes": THEMES, "categories": CATEGORIES,
                                                        "phases": PHASES, "count": len(questions),
                                                        "byLevel": stats, "byTheme": by_theme, "byPhase": by_phase,

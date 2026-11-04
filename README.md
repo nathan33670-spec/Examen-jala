@@ -95,6 +95,26 @@ Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les 
 
 **Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
 
+## Sécurité et performances
+
+- **Politique de sécurité du contenu (CSP)** : seuls les scripts de l'application s'exécutent (aucun script
+  en ligne, aucune URL `javascript:`), les connexions sont limitées à l'application et au site publié (mises
+  à jour des questions de l'appli Android), pas de formulaire ni d'objet externe.
+- **Données locales** : tout ce qui est lu depuis le stockage de l'appareil ou un fichier importé est
+  normalisé (clés connues, types et bornes contrôlés, identifiants vérifiés, `__proto__` ignoré) ; un fichier
+  forgé ne peut ni casser l'application ni injecter de contenu (test de bout en bout dédié).
+- **Mises à jour des questions** : fichier téléchargé contrôlé (taille, structure de chaque question,
+  réponses valides, images locales uniquement), refusé s'il est plus petit que la banque embarquée (pas de
+  retour en arrière) ; seul un petit `data/version.json` est téléchargé tant que rien n'a changé.
+- **Liens** : liens externes en `https://` uniquement, ouverts avec `rel="noopener"`.
+- **Service worker** : mise en cache limitée aux fichiers de l'application ; installation du cache hors
+  ligne après le premier affichage pour ne pas ralentir le démarrage.
+- **Android** : trafic non chiffré interdit, débogage de la WebView désactivé, partage de fichiers réduit
+  au cache de l'application, aucune autre permission qu'Internet.
+- **GitHub** : actions épinglées par empreinte de commit, permissions minimales, valeurs saisies passées
+  par variables d'environnement (pas d'injection de commande), mises à jour de sécurité proposées par
+  Dependabot (`.github/dependabot.yml`).
+
 ## Le bot de mise à jour des règlements
 
 Le Guide du Badminton est publié sur [gdb.ffbad.org](https://gdb.ffbad.org), qui expose une API

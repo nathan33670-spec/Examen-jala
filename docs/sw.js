@@ -4,7 +4,7 @@
  * - pack PDF téléchargeable à la demande (cache séparé, conservé entre deux versions) ;
  * - BUILD est réécrit automatiquement par scripts/build_site.py à chaque changement de contenu.
  */
-const BUILD = 'a6a5a7d94fca';
+const BUILD = 'add485de6809';
 const CORE = `core-${BUILD}`;
 const PDF = 'pdf-v1';
 const RUNTIME = 'runtime-v1';
@@ -103,5 +103,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(cacheFirst(request, PDF));
     return;
   }
-  event.respondWith(cacheFirst(request, RUNTIME));
+  // mise en cache à la demande limitée aux fichiers de l'application (pas de cache illimité)
+  const cacheable = /^(reglements\/text\/|img\/|icons\/|data\/|js\/|css\/)/.test(path);
+  event.respondWith(cacheFirst(request, cacheable ? RUNTIME : null));
 });

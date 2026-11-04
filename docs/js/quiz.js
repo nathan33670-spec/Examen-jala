@@ -98,8 +98,8 @@ export async function renderExamSetup(main) {
       <button class="btn block accent" id="go" style="margin-top:12px" ${available < 5 ? 'disabled' : ''}>Démarrer l'examen (${Math.min(sim.questions, available)} questions)</button>
     </div>
     ${history.length ? `<h2>Derniers examens ${esc(level)}</h2><div class="doclist">${history.map((h) => `
-      <a class="docitem" href="#/examen/resultat/${h.id}"><span class="code">${Math.round(h.score * 100)}%</span>
-      <span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${h.good}/${h.total} · ${fmtDuration(h.durationSec)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : ''}`;
+      <a class="docitem" href="#/examen/resultat/${encodeURIComponent(h.id)}"><span class="code">${Math.round(h.score * 100)}%</span>
+      <span class="t">${h.passed ? '<span class="badge ok">Réussi</span>' : '<span class="badge ko">Échoué</span>'} ${Number(h.good)}/${Number(h.total)} · ${fmtDuration(h.durationSec)}<small>${new Date(h.date).toLocaleString('fr-FR')}</small></span></a>`).join('')}</div>` : ''}`;
   main.onclick = (e) => {
     const b = e.target.closest('button');
     if (!b) return;

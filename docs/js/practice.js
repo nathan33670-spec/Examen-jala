@@ -317,7 +317,7 @@ const toMin = (hhmm) => { const [h, m] = hhmm.split(':').map(Number); return h *
 const toHHMM = (min) => `${String(Math.floor(min / 60) % 24).padStart(2, '0')}h${String(Math.round(min % 60)).padStart(2, '0')}`;
 
 export function renderScheduler(main) {
-  const cfg = state.settings.scheduler || {
+  const defaults = {
     courts: 7, start: '09:00', duration: 30, margin: 10, limit: '19:00', perPlayer: 2,
     tableaux: [
       { name: 'SH R', entries: 20, format: 'poules', poolSize: 4, qualifiers: 2 },
@@ -325,6 +325,8 @@ export function renderScheduler(main) {
       { name: 'DMx P', entries: 12, format: 'poules', poolSize: 4, qualifiers: 1 },
     ],
   };
+  const saved = state.settings.scheduler || {};
+  const cfg = { ...defaults, ...saved, tableaux: Array.isArray(saved.tableaux) ? saved.tableaux : defaults.tableaux };
   const draw = () => {
     const results = cfg.tableaux.map(analyseTableau);
     const total = results.reduce((s, r) => s + r.matches, 0);

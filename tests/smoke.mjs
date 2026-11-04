@@ -145,10 +145,12 @@ await step('mise à jour des questions malgré le cache', async () => {
   const fresh = { ...current, version: 'test-maj', count: current.count + 1,
     questions: [...current.questions, { ...current.questions[0], id: 'maj-001', q: 'Question ajoutée par la mise à jour' }] };
   await p2.route(/data\/questions\.json\?fresh=/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify(fresh) }));
+  await p2.route(/data\/version\.json\?fresh=/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ version: fresh.version, count: fresh.count }) }));
   await p2.evaluate(async () => (await import('./js/data.js')).checkQuestionUpdate({ force: true }));
   await p2.getByText(`Questions mises à jour (${fresh.count} questions)`).waitFor();
   await p2.unroute(/data\/questions\.json\?fresh=/);
-  await p2.route(/data\/questions\.json\?fresh=/, (r) => r.abort());
+  await p2.unroute(/data\/version\.json\?fresh=/);
+  await p2.route(/\?fresh=/, (r) => r.abort());
   await p2.reload();
   await p2.locator('[data-act="train"]').waitFor();
   const kept = await p2.evaluate(async () => (await (await import('./js/data.js')).getQuestions()).version);
@@ -256,6 +258,29 @@ await step('progression, conditions, réglages, hors-ligne', async () => {
   if ((await store()).settings.knowledge !== 'revision') throw new Error('réglages non enregistrés');
   await go('#/hors-ligne');
   await page.getByText('Mode hors-ligne').waitFor();
+});
+
+await step('sécurité : import d’un fichier forgé', async () => {
+  const evil = '"><meta http-equiv="refresh" content="0;url=https://example.com"><img src=x>';
+  const file = JSON.stringify({ data: {
+    __proto__: { hacked: true },
+    settings: { onboarded: true, level: 'JALA', priorities: { JALA: 'pas une liste' }, examOverrides: { JALA: { questions: evil } }, scheduler: { courts: evil } },
+    q: null, pdfShas: null,
+    exams: [{ id: evil, level: 'JALA', score: 0.5, good: evil, total: 2, answers: [], byTheme: { regles: { good: evil, total: 1 } } }, { id: 'ok1', level: 'JALA', score: 1, good: 2, total: 2, passed: true, answers: [] }],
+    game: { days: { [new Date().toISOString().slice(0, 10)]: { a: evil } }, counters: { answers: evil } },
+  } });
+  await go('#/reglages');
+  await page.locator('#importFile').setInputFiles({ name: 'forge.json', mimeType: 'application/json', buffer: Buffer.from(file) });
+  await page.getByText('Données importées').waitFor();
+  for (const h of ['#/', '#/progression', '#/examen', '#/entrainement', '#/outil/echeancier']) {
+    await go(h);
+    if (!page.url().startsWith(base)) throw new Error(`redirection après import (${h})`);
+    if (await page.locator('main meta, main img[src="x"]').count()) throw new Error(`contenu injecté dans ${h}`);
+  }
+  const st = await store();
+  if (st.exams.length !== 1 || st.exams[0].id !== 'ok1') throw new Error('examen forgé conservé');
+  if (({}).hacked) throw new Error('pollution de prototype');
+  await page.evaluate(() => localStorage.clear());
 });
 
 await step('service worker actif et cache rempli', async () => {
