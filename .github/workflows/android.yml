@@ -89,7 +89,20 @@ jobs:
         run: |
           KS="$RUNNER_TEMP/upload.jks"
           if [ -n "$KEYSTORE_B64" ]; then
-            echo "$KEYSTORE_B64" | base64 -d > "$KS"
+            # retours à la ligne, espaces et retours chariot ajoutés au copier-coller sont ignorés
+            CLEAN="$(printf '%s' "$KEYSTORE_B64" | tr -d ' \t\r\n')"
+            if ! printf '%s' "$CLEAN" | base64 -d > "$KS" 2>/dev/null; then
+              echo "::error::Le secret ANDROID_KEYSTORE_BASE64 n'est pas du base64 valide. Recréez-le avec : base64 -i upload.jks | tr -d '\n' (macOS) ou base64 -w0 upload.jks (Linux), puis collez tout le résultat."
+              exit 1
+            fi
+            if ! keytool -list -keystore "$KS" -storepass "$KEYSTORE_PASSWORD" >/dev/null 2>&1; then
+              echo "::error::Keystore illisible : vérifiez ANDROID_KEYSTORE_PASSWORD (et que le secret contient bien le fichier .jks encodé en base64)."
+              exit 1
+            fi
+            if ! keytool -list -keystore "$KS" -storepass "$KEYSTORE_PASSWORD" -alias "$KEY_ALIAS" >/dev/null 2>&1; then
+              echo "::error::Alias « $KEY_ALIAS » absent du keystore : vérifiez ANDROID_KEY_ALIAS (alias choisi avec keytool -alias)."
+              exit 1
+            fi
             {
               echo "ANDROID_KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD"
               echo "ANDROID_KEY_ALIAS=$KEY_ALIAS"
