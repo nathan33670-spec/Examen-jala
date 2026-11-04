@@ -1,0 +1,968 @@
+# Spécificités de la Ligue Nouvelle-Aquitaine de Badminton (LNAQ) pour les juges-arbitres.
+# Ces questions ne concernent que la LNAQ : règlement, annexes et formulaires du championnat régional interclubs (ICR),
+# fonctionnement du calendrier, championnats et circuits régionaux, prise en charge des frais (saison 2026-2027).
+@theme interclubs
+@doc LNAQ.ICR
+@levels JALA JALC JAFA JAFC
+
+# ---------------------------------------------------------------- ICR : généralités et structure
+
+Q naq-001 | D: 1 | R: LNAQ.ICR 1 | P: avant | T: interclubs
+Comment est structuré, de préférence, le championnat régional interclubs (ICR) de Nouvelle-Aquitaine ?
+- Trois divisions (PN, R1, R2), chacune en deux poules de 8 équipes
++ Quatre divisions : PN (1 poule), R1 (2 poules), R2 (4 poules) et R3 (6 poules), en poules de 6 équipes
+- Quatre divisions : PN (2 poules), R1 (2 poules), R2 (4 poules) et R3 (8 poules), en poules de 6 équipes
+- Cinq divisions de PN à R4, en poule unique de 10 équipes
+> LNAQ.ICR 1 (alinéas 2 à 6) : l'ICR comporte quatre divisions ; la PN est constituée de préférence d'une poule de six équipes, la R1 de deux poules parallèles de 6, la R2 de quatre poules et la R3 de six poules parallèles de 6 équipes.
+
+Q naq-002 | D: 1 | R: LNAQ.ICR 1 | P: avant | T: interclubs
+Comment se répartissent, en principe, les journées de la saison d'ICR en Nouvelle-Aquitaine ?
+- 5 journées sur 5 dimanches, une journée par dimanche
++ 10 journées aller/retour réparties sur 5 dimanches, avec 2 journées par dimanche
+- 10 journées réparties sur 10 week-ends, le samedi
+- 14 journées réparties sur 7 dimanches
+> LNAQ.ICR 1 (alinéa 7) : dans toutes les divisions, le championnat se déroule principalement sur 10 journées aller/retour réparties sur 5 dimanches avec 2 journées par dimanche ; la Ligue peut adapter ce point pour des raisons d'organisation.
+
+Q naq-003 | D: 2 | R: LNAQ.ICR 1 | P: avant | T: interclubs
+Quel système de comptage des points s'applique aux matchs de l'ICR de Nouvelle-Aquitaine ?
+- Celui choisi par les deux capitaines avant chaque rencontre
+- Celui du dernier tournoi organisé par le club hôte
++ Celui adopté par la FFBaD pour la première division au-dessus de la Prénationale avant le début de la saison, dès la première journée
+- Celui fixé par le JA lors de la réunion des capitaines
+> LNAQ.ICR 1 (alinéa 9) : le système de comptage de points appliqué est celui adopté par la FFBaD pour la première division au-dessus de la Prénationale avant le début de la saison, et ce dès la première journée de la compétition.
+
+Q naq-004 | D: 2 | R: LNAQ.ICR 1 | P: apres | T: interclubs
+Quelles missions la commission chargée de la gestion de l'ICR exerce-t-elle ? (plusieurs réponses)
++ Elle homologue les résultats
++ Elle statue sur les réserves et réclamations
++ Elle prononce d'éventuelles pénalités sportives
+- Elle désigne les juges-arbitres des journées
+> LNAQ.ICR 1 (alinéa 10) : la commission gère les inscriptions, la qualification des joueurs et le calendrier, homologue les résultats, statue sur les réserves et réclamations et prononce d'éventuelles pénalités sportives. Les JA sont en revanche désignés par la CLOT (article 13).
+
+Q naq-005 | D: 1 | R: LNAQ.ICR 1 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR en Nouvelle-Aquitaine, le JA rencontre une situation que le règlement régional ne prévoit pas. Quel texte sert de référence ?
+- Le règlement du dernier tournoi organisé par le club hôte
++ Le règlement des interclubs nationaux (ICN) de la FFBaD
+- Le règlement du championnat départemental du club hôte
+- Aucun : le JA décide en équité, sans référence
+> LNAQ.ICR 1 (alinéa 11) : en cas de point non cité dans ce règlement, la référence est le règlement des interclubs nationaux de la FFBaD ; le conseil d'administration de la ligue peut prendre des dispositions pour le bon déroulement du championnat.
+
+Q naq-006 | D: 3 | R: LNAQ.ICR 2 | P: apres | T: interclubs
+Pour départager des équipes de R2 classées au même rang dans des poules différentes, quel est le premier critère appliqué après le classement dans la poule ?
+- La différence de matchs sur l'ensemble de la saison
++ Le nombre de points divisé par le nombre de rencontres disputées
+- Le résultat des rencontres directes
+- Un tirage au sort
+> LNAQ.ICR 2 (Relégations) : en R1, R2 et R3, les équipes de poules différentes sont classées selon le classement dans la poule, puis le nombre de points divisé par le nombre de rencontres disputées, puis la différence de matchs, de sets et de points (chacune divisée par le nombre de rencontres disputées), et enfin un tirage au sort.
+
+Q naq-007 | D: 1 | R: LNAQ.ICR 3 | P: avant | T: interclubs
+Un club peut-il engager deux équipes dans la même division de l'ICR de Nouvelle-Aquitaine ?
+- Oui, si elles sont placées dans des poules différentes
+- Oui, en R3 uniquement
++ Non, une seule équipe d'un même club est autorisée dans chaque division
+- Oui, avec l'accord de la commission ICR
+> LNAQ.ICR 3 (alinéa 1) : une seule équipe d'un même club est autorisée à participer dans chaque division.
+
+Q naq-008 | D: 2 | R: LNAQ.ICR 3 | P: avant | T: interclubs
+Une équipe de R2 a obtenu la promotion en R1 mais son club ne souhaite pas monter. Que prévoit le règlement ?
+- Elle reste en R2 et la place est proposée à l'équipe suivante
+- Elle peut refuser une fois sans conséquence
++ Elle est obligée d'accepter ; à défaut, elle n'est pas inscrite en championnat régional la saison suivante et elle est remplacée
+- Elle est rétrogradée en R3
+> LNAQ.ICR 3 (alinéa 9) : une équipe ayant obtenu la promotion est dans l'obligation de l'accepter. Si elle ne le souhaite pas, elle ne sera pas inscrite en championnat régional la saison suivante et sera remplacée selon les modalités de l'article 3.7.
+
+# ---------------------------------------------------------------- ICR : inscription, forfaits d'équipe, obligations
+
+Q naq-009 | D: 2 | R: LNAQ.ICR 4 | P: avant | T: interclubs
+Que doit comprendre le dossier d'inscription d'une équipe à l'ICR de Nouvelle-Aquitaine ? (plusieurs réponses)
++ L'inscription de l'équipe sur BadNet
++ La lettre d'engagement du juge-arbitre (formulaire 2)
++ Le versement des droits d'engagement et des amendes éventuelles de la saison précédente
+- La liste nominative définitive des joueurs pour toute la saison
+> LNAQ.ICR 4 (alinéa 2) : le dossier comprend le formulaire en ligne, accompagné de l'inscription sur BadNet de chaque équipe, du versement des droits d'engagement, du versement des amendes éventuelles de la saison précédente, de la lettre d'engagement du JA (formulaire 2) et du formulaire d'acceptation du règlement.
+
+Q naq-010 | D: 1 | R: LNAQ.ICR 4 | P: avant | T: interclubs
+Le dossier d'inscription d'une équipe parvient incomplet à la commission ICR. Que se passe-t-il ?
+- Le club dispose de 10 jours pour le compléter
+- L'équipe est inscrite sous réserve, avec une amende
++ Aucun délai supplémentaire n'est accordé : l'équipe est considérée comme non réengagée
+- L'équipe est rétrogradée d'une division
+> LNAQ.ICR 4 (alinéa 3) : en cas de dossier incomplet, aucun délai supplémentaire n'est accordé et l'équipe est considérée comme non réengagée ; elle est remplacée selon l'article 3.
+
+Q naq-011 | D: 3 | R: LNAQ.ICR 4 | P: avant | T: interclubs
+Une équipe déclare forfait après l'officialisation des poules, mais avant le début du championnat. Quelles conséquences ? (plusieurs réponses)
++ Toutes ses rencontres sont considérées comme perdues par forfait
++ Une amende pour désistement tardif et une pénalité sportive sont appliquées
++ L'équipe n'est pas remplacée
+- Les droits d'engagement sont remboursés
+> LNAQ.ICR 4 (alinéa 5) : si la composition des poules est officialisée et que le championnat n'a pas débuté, toutes les rencontres de l'équipe sont perdues par forfait, une amende pour désistement tardif et une pénalité sportive sont appliquées, les droits ne sont pas remboursés et l'équipe n'est pas remplacée.
+
+Q naq-012 | D: 2 | R: LNAQ.ICR 4 | P: apres | T: interclubs
+En cas de forfait général d'une équipe d'ICR en Nouvelle-Aquitaine, où est-elle placée au classement ?
+- Elle conserve les points acquis et garde son rang
+- Elle est retirée du classement, qui est recalculé sans elle
++ Elle est automatiquement placée dernière du championnat
+- Elle est classée avant-dernière, derrière la plus mauvaise équipe
+> LNAQ.ICR 4 (alinéa 5) : en cas de forfait général, l'équipe est automatiquement placée dernière du championnat et ses rencontres sont perdues par forfait.
+
+Q naq-013 | D: 2 | R: LNAQ.ICR 4 | P: avant | T: sanctions
+Un club n'a pas payé une amende infligée lors de la saison d'ICR. Quelle est la conséquence ?
+- Le montant est doublé la saison suivante
+- Ses équipes perdent un point au classement
++ Il ne peut pas inscrire d'équipe sur la première saison de participation après la saison de l'amende
+- Son JA référent est suspendu
+> LNAQ.ICR 4 (alinéa 8) : le paiement des amendes doit être fait au plus tard au moment de l'inscription pour la saison suivante ; le non-paiement entraîne l'interdiction d'inscription sur la première saison de participation après la saison de l'amende (également prévu à l'annexe 2).
+
+Q naq-014 | D: 2 | R: LNAQ.ICR 5 | P: avant | T: interclubs
+À quelle date un club participant à l'ICR de Nouvelle-Aquitaine doit-il compter un juge-arbitre actif parmi ses licenciés (ou en cours de formation) ?
+- Au 1er septembre de la saison
+- À la date limite d'inscription
++ Au 1er février de la saison en cours
+- Au 1er juin de la saison en cours
+> LNAQ.ICR 5 : les clubs participants ont l'obligation de compter, au 1er février de la saison en cours, un juge-arbitre actif parmi leurs licenciés ou en cours de formation.
+
+Q naq-015 | D: 2 | R: LNAQ.ICR 5 | P: avant | T: interclubs
+Un club a une équipe en R2 et une équipe en R3. Quel grade minimum doit avoir le JA licencié au club pour satisfaire l'obligation des équipes ?
+- Ligue certifié (JALC)
++ Ligue accrédité (JALA), la règle s'appliquant au club et non à chaque équipe
+- Un JA par équipe, de grade JALA
+- Fédéral accrédité (JAFA)
+> LNAQ.ICR 5 : le grade du JA doit être au minimum ligue certifié pour la PN (et, à partir de 2027-2028, pour la R1) et au minimum ligue accrédité pour la R2 et la R3. Cette règle s'applique au club et non à chaque équipe.
+
+Q naq-016 | D: 2 | R: LNAQ.ICR 5 | P: avant | T: interclubs
+Un club accède pour la première fois à l'ICR et ne compte aucun JA. Que prévoit le règlement ?
+- Il ne peut pas inscrire son équipe
+- Il reçoit une amende dès le 1er février
++ Il bénéficie d'une dérogation d'une saison
+- Il doit payer un JA extérieur pour chaque journée
+> LNAQ.ICR 5 : une dérogation d'une saison est accordée à tous les clubs qui accèdent pour la première fois au championnat d'ICR.
+
+Q naq-017 | D: 3 | R: LNAQ.ICR 5 | P: avant | T: sanctions
+Un club sanctionné une saison pour absence de JA est de nouveau en défaut lors des contrôles de la saison suivante, y compris au 1er juin. Quelle est la conséquence ?
+- Une simple amende
+- La rétrogradation de son équipe la plus haute
++ Le club ne pourra pas engager d'équipe la saison suivante
+- La suspension de ses joueurs pour une journée
+> LNAQ.ICR 5 : en cas de récidive au 1er février de la saison n+1, amende et sanction sportive ; un contrôle est effectué au 1er juin de la saison n+1, et en cas de non-respect à cette date, le club ne pourra pas engager d'équipe la saison suivante (n+2). L'annexe 2 prévoit l'interdiction d'inscription du club en ICR.
+
+Q naq-018 | D: 2 | R: LNAQ.ICR 5 | P: avant | T: interclubs
+Quelles obligations d'arbitres s'appliquent aux clubs et équipes de l'ICR en 2026-2027 ? (plusieurs réponses)
++ Les clubs ayant une équipe en PN, R1 ou R2 doivent compter au 1er février un arbitre licencié actif ou en formation
++ Chaque équipe de PN doit comporter dans son effectif un arbitre formé de niveau ligue accrédité au minimum
+- Chaque équipe de R3 doit comporter un arbitre ligue accrédité
+- Chaque équipe de R2 doit comporter un arbitre ligue certifié
+> LNAQ.ICR 5 : les clubs participant en PN, R1 et R2 doivent compter au 1er février un arbitre licencié actif au club ou en cours de formation ; les équipes de PN doivent comporter un arbitre formé de niveau ligue accrédité à minima (obligation étendue à la R1 à partir de 2027-2028).
+
+# ---------------------------------------------------------------- ICR : joueurs et composition
+
+Q naq-019 | D: 1 | R: LNAQ.ICR 6 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR en Nouvelle-Aquitaine, à partir de quel effectif présent par équipe la rencontre peut-elle se dérouler ?
+- 3 hommes et 3 femmes
++ 2 femmes et 2 hommes, des amendes ou sanctions s'appliquant pour les matchs forfaits
+- 4 hommes et 4 femmes
+- 1 femme et 3 hommes
+> LNAQ.ICR 6 (alinéa 3) : une rencontre ne peut se dérouler qu'à partir du moment où les deux équipes présentent 2 femmes et 2 hommes ; la totalité des matchs ne pourra pas se faire et des amendes ou sanctions seront appliquées pour matchs forfaits.
+
+Q naq-020 | D: 2 | R: LNAQ.ICR 6 | P: pendant | T: interclubs
+Deux équipes régionales d'un même club (R1 et R3) jouent le même jour. L'équipe de R1 est incomplète et reçoit des points de pénalité pour manque de joueurs. Que prévoit le règlement ?
+- Rien pour l'équipe de R3
++ L'équipe de R3 se voit appliquer la même pénalité
+- L'équipe de R3 perd ses rencontres par forfait
+- Les pénalités sont partagées entre les deux équipes
+> LNAQ.ICR 6 (alinéa 4) : si deux équipes d'un même club jouent le même jour, l'équipe de plus haut niveau doit être au complet ; si des points de pénalité lui sont appliqués pour manque de joueurs, l'équipe inférieure se voit appliquer la même pénalité lorsque les deux équipes évoluent au niveau régional.
+
+Q naq-021 | D: 2 | R: LNAQ.ICR 7 | P: avant | T: interclubs
+Jusqu'à quand un joueur doit-il être en règle (autorisation de jouer, classement, mutation) pour participer à une journée d'ICR en Nouvelle-Aquitaine ?
+- La veille de la journée à minuit
++ Au plus tard 10 jours à minuit avant la journée
+- Au plus tard 30 jours avant la journée
+- Au plus tard au moment du contrôle d'identité
+> LNAQ.ICR 7 : tout joueur doit être en règle au plus tard 10 jours à minuit avant la journée (autorisé à jouer en compétition, classement officialisé si nécessaire, autorisation de mutation le cas échéant), sous peine de sanction sportive.
+
+Q naq-022 | D: 2 | R: LNAQ.ICR 9 | P: pendant | T: interclubs
+Lors d'une journée d'ICR en Nouvelle-Aquitaine, sur quelle base le JA contrôle-t-il la hiérarchie des joueurs en simple ?
+- Le classement fédéral du jour de la rencontre
+- Le CPPH à J-21
++ La cote CPPH à J-10 précédant la journée
+- Le classement de début de saison
+> LNAQ.ICR 9 (alinéa 1) : la hiérarchie des joueurs en simple est établie selon le classement fédéral (cote du CPPH) à J-10 précédant la journée. Le même CPPH à J-10 sert à apprécier la valeur des équipes (article 8).
+
+Q naq-023 | D: 2 | R: LNAQ.ICR 9 | P: pendant | T: interclubs
+Comment est établie la hiérarchie des paires de double en ICR de Nouvelle-Aquitaine ?
+- Selon la cote du meilleur joueur de la paire
++ En additionnant les cotes CPPH de chaque joueur dans la discipline de double concernée
+- Selon la moyenne des classements de simple
+- Au libre choix du capitaine
+> LNAQ.ICR 9 (alinéa 2) : la hiérarchie des paires est établie selon le classement fédéral (cote du CPPH) en additionnant les points de chaque joueur dans la discipline de double concernée, selon le même calendrier qu'en simple.
+
+Q naq-024 | D: 1 | R: LNAQ.ICR 9 | P: pendant | T: interclubs
+Deux joueurs d'une même équipe ont exactement la même cote CPPH en simple. Qui décide de leur ordre (SH1 / SH2) ?
+- Le JA, par tirage au sort
+- Le plus âgé est obligatoirement SH1
++ Le capitaine, à chaque rencontre
+- La commission ICR, une fois pour la saison
+> LNAQ.ICR 9 (alinéa 4) : à cote égale (CPPH), le capitaine a le choix, à chaque rencontre, de la hiérarchie de ses joueurs ou paires.
+
+Q naq-025 | D: 3 | R: LNAQ.ICR 8 | P: apres | T: interclubs
+Lors de rencontres portant le même numéro, l'équipe 2 d'un club a une valeur supérieure à celle de son équipe 1. Quelle est la conséquence ?
+- Seule l'équipe 2 perd sa rencontre par forfait
+- Un point de pénalité pour l'équipe 1
++ Les deux équipes perdent leurs rencontres par forfait
+- Aucune, la hiérarchie entre équipes n'étant contrôlée qu'en fin de saison
+> LNAQ.ICR 8 (alinéa 2) : au cours de rencontres portant le même numéro, l'équipe 1 doit avoir une valeur supérieure ou égale à l'équipe 2, elle-même supérieure ou égale à l'équipe 3, etc. En cas d'infraction, les deux équipes perdent leurs rencontres par forfait.
+
+Q naq-026 | D: 2 | R: LNAQ.ICR 10 | P: pendant | T: interclubs
+Un joueur a disputé trois rencontres de saison régulière avec l'équipe de R1 de son club. Son club veut l'aligner en R3. Est-ce possible ?
+- Oui, sans restriction
+- Oui, à condition qu'il n'ait pas joué la même journée
++ Non : ayant participé à au moins trois rencontres, il ne peut plus être aligné dans une équipe de division inférieure
+- Oui, seulement lors des deux dernières journées
+> LNAQ.ICR 10 : un joueur ayant participé à au moins trois rencontres de la saison régulière dans une ou plusieurs équipes de son club ne peut plus être aligné, au cours de la même saison, dans une autre équipe de son club évoluant dans une division inférieure.
+
+Q naq-027 | D: 2 | R: LNAQ.ICR 10 | P: pendant | T: interclubs
+La journée J3 de la R1 a lieu un dimanche et la J3 de la R3 a été décalée au dimanche suivant. Un joueur ayant joué la J3 en R1 peut-il jouer la J3 en R3 ?
+- Oui, puisque les dates sont différentes
++ Non : un joueur ne peut jouer qu'avec une seule équipe de son club par journée, même si elles ont lieu à des dates différentes
+- Oui, s'il n'a disputé qu'un seul match en R1
+- Oui, avec l'accord du JA
+> LNAQ.ICR 10 : un joueur ne peut jouer qu'avec une seule équipe de son club par journée, même si elles ont lieu à des dates différentes.
+
+Q naq-028 | D: 1 | R: LNAQ.ICR 11 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR en Nouvelle-Aquitaine, combien de joueurs mutés et de joueurs de nationalité étrangère une équipe peut-elle aligner au maximum ?
+- 2 mutés et 2 étrangers
++ 3 mutés et 3 étrangers
+- 4 mutés et 1 étranger
+- Aucune limite en régional
+> LNAQ.ICR 11 : l'équipe alignée pour chaque rencontre ne doit pas comprendre plus de 3 joueurs mutés ni plus de 3 joueurs de nationalité étrangère.
+
+Q naq-029 | D: 2 | R: LNAQ.ICR 11 | P: pendant | T: interclubs
+Quels joueurs sont considérés (ou non) comme mutés au sens de l'ICR de Nouvelle-Aquitaine ? (plusieurs réponses)
++ Un joueur non licencié en France ayant participé à une compétition à l'étranger la saison précédente est considéré comme muté
++ Un joueur en provenance d'un club qui n'existe plus n'est pas considéré comme muté
+- Un joueur revenant au club après une saison sans licence est toujours considéré comme muté
+- Un joueur de nationalité étrangère est automatiquement considéré comme muté
+> LNAQ.ICR 11 : tout joueur non licencié en France et ayant participé à une compétition à l'étranger la saison précédente est considéré comme muté ; un joueur en provenance d'un club qui n'existe plus n'est pas considéré comme muté au sens des interclubs. Mutés et étrangers font l'objet de deux limites distinctes.
+
+Q naq-030 | D: 1 | R: LNAQ.ICR 12 | P: pendant | T: interclubs
+De combien de matchs se compose une rencontre de saison régulière d'ICR en Nouvelle-Aquitaine ?
+- 6 matchs : 1 SH, 1 SD, 1 DH, 1 DD, 2 DX
++ 8 matchs : 2 SH, 2 SD, 1 DH, 1 DD, 2 DX
+- 8 matchs : 3 SH, 1 SD, 1 DH, 1 DD, 2 DX
+- 7 matchs : 2 SH, 1 SD, 1 DH, 1 DD, 2 DX
+> LNAQ.ICR 12 (Nombre de matchs par rencontre) : chaque rencontre de la saison régulière consiste en 8 matchs : 2 simples hommes, 2 simples dames, 1 double hommes, 1 double dames et 2 doubles mixtes. Un joueur ne peut disputer ni plus de deux matchs, ni deux matchs dans la même discipline.
+
+Q naq-031 | D: 3 | R: LNAQ.ICR 12 | P: pendant | T: interclubs
+Lors d'une rencontre de R3, seules deux joueuses d'une équipe figurent sur la feuille de présence. Que prévoit le règlement ?
+- Elles ne peuvent jouer que deux matchs chacune et les autres matchs sont forfaits sans amende
++ Elles peuvent disputer trois matchs dans des disciplines différentes, mais le club reçoit une amende pour défaut de joueuse
+- La rencontre ne peut pas avoir lieu
+- Elles peuvent jouer trois matchs, sans aucune sanction
+> LNAQ.ICR 12 : en R3, les filles sont autorisées à faire trois matchs (dans des disciplines différentes) si elles sont seulement deux à figurer sur la feuille de présence pour la journée concernée ; le club reçoit cependant une amende pour défaut de joueuse.
+
+# ---------------------------------------------------------------- ICR : juge-arbitre et arbitres
+
+Q naq-032 | D: 2 | R: LNAQ.ICR 13 | P: avant | T: interclubs
+Lors de son inscription, chaque équipe d'ICR doit indiquer un juge-arbitre. À quoi ce JA s'engage-t-il ?
+- À officier sur toutes les journées reçues par le club
++ À officier au minimum sur une journée par équipe dans la saison
+- À officier uniquement pour les rencontres de son propre club
+- À assurer la table de marque des journées reçues
+> LNAQ.ICR 13 : chaque équipe indique le nom d'un JA (licencié dans son club ou non) qui s'engage par écrit à accepter d'officier au minimum sur une journée par équipe dans la saison d'interclubs. Par défaut, la ligue positionne le JA référent du club sur la ou les journées reçues par le club.
+
+Q naq-033 | D: 2 | R: LNAQ.ICR 13 | P: avant | T: interclubs
+Combien de clubs et d'équipes un même juge-arbitre peut-il représenter au maximum pour l'ICR de Nouvelle-Aquitaine ?
+- 1 club et 2 équipes
++ 2 clubs et 4 équipes
+- 3 clubs et 6 équipes
+- Aucune limite
+> LNAQ.ICR 13 : un même juge-arbitre peut représenter au maximum 2 clubs engagés en interclubs et 4 équipes. Le formulaire 2 ajoute qu'il doit alors proposer 2 dates par équipe.
+
+Q naq-034 | D: 1 | R: LNAQ.ICR 13 | P: avant | T: interclubs
+Quel grade minimum doit avoir le juge-arbitre d'une journée de Prénationale en Nouvelle-Aquitaine ?
+- Ligue accrédité (JALA)
++ Ligue certifié (JALC)
+- Fédéral accrédité (JAFA)
+- JA stagiaire
+> LNAQ.ICR 13 : le JA doit être au minimum de grade ligue certifié pour la Prénationale (et, à partir de 2027-2028, pour la R1) ; il doit être au minimum ligue accrédité pour la R2 et la R3.
+
+Q naq-035 | D: 2 | R: LNAQ.ICR 13 | P: avant | T: interclubs
+Quel changement le règlement ICR de Nouvelle-Aquitaine annonce-t-il pour la Régionale 1 à partir de la saison 2027-2028 ? (plusieurs réponses)
++ Le JA devra être au minimum ligue certifié
++ Les matchs seront arbitrés par des arbitres officiels formés
+- La R1 passera en poule unique de 8 équipes
+- Les rencontres se joueront en 10 matchs
+> LNAQ.ICR 13 : le JA doit être au minimum ligue certifié en PN et, à partir de 2027-2028, en R1 ; en R1, à partir de la saison 2027-2028, les matchs sont arbitrés par les arbitres officiels formés (article 5 : chaque équipe de R1 devra alors comporter un arbitre ligue accrédité).
+
+Q naq-036 | D: 1 | R: LNAQ.ICR 13 | P: avant | T: interclubs
+Qui désigne les juges-arbitres des journées d'ICR en Nouvelle-Aquitaine ?
+- Le club recevant
+- Les capitaines d'un commun accord
++ La Commission Ligue Officiels Techniques (CLOT)
+- Le comité départemental du club hôte
+> LNAQ.ICR 13 : les juges-arbitres sont désignés par la Commission Ligue Officiels Techniques (CLOT).
+
+Q naq-037 | D: 2 | R: LNAQ.ICR 13 | P: apres | T: interclubs
+Un JA habitant à 200 km du lieu d'une journée d'ICR y est nommé. Comment ses frais sont-ils pris en charge ? (plusieurs réponses)
++ Ses indemnités de vacation sont à la charge de la ligue
++ Ses frais de déplacement sont à la charge de la ligue dans la limite de 150 km et du club au-delà
++ Ses repas sont à la charge du club recevant la journée
+- Son hébergement est toujours à la charge du club recevant
+> LNAQ.ICR 13 : les indemnités de vacation sont à la charge de la ligue ; les frais de déplacement sont à la charge de la ligue dans la limite de 150 km et des clubs au-delà (distance domicile-lieu de nomination via Google Maps) ; l'hébergement, sur demande préalable, est à la charge de la ligue ; les repas sont à la charge du club recevant.
+
+Q naq-038 | D: 2 | R: LNAQ.ICR 13 | P: pendant | T: interclubs
+Lors d'une rencontre de R2 en 2026-2027, par qui les matchs sont-ils arbitrés ?
+- Obligatoirement par des arbitres officiels formés
++ Par un compteur de points faisant partie de l'équipe, qui arbitre ou supervise
+- Par le JA lui-même
+- Par les joueurs, en auto-arbitrage sans compteur
+> LNAQ.ICR 13 : tous les matchs sont arbitrés ou supervisés par un compteur de points faisant partie de l'équipe. Ce n'est qu'en Prénationale (et en R1 à partir de 2027-2028) que les matchs sont arbitrés par les arbitres officiels formés.
+
+Q naq-039 | D: 3 | R: LNAQ.ICR 13 | P: apres | T: sanctions
+L'arbitre officiel d'une équipe de PN est absent pour raison médicale, absence connue 3 jours avant la rencontre. La ligue peut-elle annuler l'amende pour défaut d'arbitre ?
+- Non, l'amende est automatique
++ Oui, au titre de la force majeure, si l'arbitre fournit un certificat médical précisant son indisponibilité
+- Oui, sur simple déclaration du capitaine au JA
+- Oui, mais seulement si le JA a lui-même arbitré les matchs
+> LNAQ.ICR 13 : dans un cas de force majeure, la ligue peut annuler la sanction financière pour défaut d'arbitre formé, notamment pour une absence de dernière minute (connue au maximum 4 jours avant la rencontre) pour raison médicale, l'arbitre devant fournir un certificat médical, ou pour raison professionnelle avec une attestation de l'employeur.
+
+# ---------------------------------------------------------------- ICR : déroulement
+
+Q naq-040 | D: 2 | R: LNAQ.ICR 14 | P: pendant | T: interclubs
+Avant le début de son premier match, un joueur inscrit sur la feuille de rencontre se blesse à l'échauffement. Son capitaine demande à le remplacer. Que décide le JA ?
+- Il accepte, le remplaçant devant figurer sur la déclaration de présence
++ Il refuse : le remplacement avant le premier match n'est pas autorisé
+- Il accepte, avec l'accord du capitaine adverse
+- Il accepte, mais le match est joué en fin de rencontre
+> LNAQ.ICR 14 : seul un joueur ayant débuté son premier match et dans l'impossibilité de disputer le match qui lui reste peut être remplacé ; le remplacement avant le premier match n'est pas autorisé.
+
+Q naq-041 | D: 3 | R: LNAQ.ICR 14 | P: pendant | T: interclubs
+Le SH1 d'une équipe se blesse pendant son double et ne peut pas jouer son simple ; aucun des deux simples hommes n'a encore été joué. Que peut faire le JA ?
+- Rien : le SH1 est perdu par forfait
++ Après avoir informé les deux capitaines, et seulement si le joueur n'est pas en capacité physique de jouer, autoriser l'inversion des joueurs pour respecter la hiérarchie
+- Autoriser le remplacement par n'importe quel joueur, même absent de la déclaration de présence
+- Reporter le simple à la journée suivante
+> LNAQ.ICR 14 : le remplacement doit respecter la hiérarchie ; cependant, si aucun des deux matchs d'une discipline n'a été joué, le JA peut, en informant les 2 capitaines et seulement si le joueur n'est pas en capacité physique de jouer, autoriser l'inversion des joueurs (en simple) ou des équipes (en double). Le remplaçant doit figurer sur la déclaration de présence.
+
+Q naq-042 | D: 2 | R: LNAQ.ICR 15 | P: pendant | T: tenues
+Lors d'une rencontre de Prénationale, deux équipes se présentent avec des maillots de même couleur et ne parviennent pas à s'accorder. Que se passe-t-il ?
+- L'équipe visiteuse joue obligatoirement avec des chasubles
+- La rencontre est jouée ainsi et chaque club reçoit une amende
++ Le JA tranche ; en PN chaque équipe doit disposer de 2 jeux de maillots de couleurs différentes
+- L'équipe hôte change obligatoirement de maillot
+> LNAQ.ICR 15 : en PN, les équipes doivent disposer de 2 jeux de maillots de couleurs différentes ; les équipes se mettent d'accord sur la couleur utilisée, à défaut le JA tranche. Tous les joueurs d'une même équipe doivent porter un maillot identique sur chaque rencontre, sous peine d'amende.
+
+Q naq-043 | D: 1 | R: LNAQ.ICR 15 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR, les deux équipes ne s'accordent pas sur les volants. Lesquels sont utilisés ?
+- Ceux de l'équipe visiteuse
+- Des volants synthétiques fournis par le JA
++ Le volant officiel du club hôte, qui doit être mis en vente le jour de la compétition
+- Ceux de l'équipe la mieux classée
+> LNAQ.ICR 15 : les rencontres se jouent avec des volants plumes agréés (au minimum catégorie standard), à la charge de chaque équipe ; en cas de litige, il faut utiliser le volant officiel du club hôte, qui doit être mis en vente le jour de la compétition. L'annexe 4 précise que les volants sont répartis à parts égales entre les 2 équipes.
+
+Q naq-044 | D: 3 | R: LNAQ.ICR 16 | P: pendant | T: interclubs
+Un joueur est aligné dans les trois disciplines alors qu'il ne peut disputer que deux matchs. Pour quel match est-il considéré comme non qualifié ?
+- Pour le simple
+- Pour le mixte
++ Pour le double (hommes ou dames)
+- Pour le dernier match joué dans l'ordre de la rencontre
+> LNAQ.ICR 16 : dans le cas d'un joueur aligné dans les trois disciplines, c'est pour le double (hommes ou dames) qu'il est considéré comme non qualifié.
+
+Q naq-045 | D: 2 | R: LNAQ.ICR.A4 4 | P: avant | T: interclubs
+Quelle obligation de réception l'annexe 4 de l'ICR impose-t-elle aux équipes régionales des clubs de Nouvelle-Aquitaine ?
+- Recevoir au moins deux journées par saison
++ Proposer une date de réception d'une journée dans chaque division ICR
+- Recevoir uniquement si le club dispose de 8 terrains
+- Aucune, la ligue choisissant seule les salles
+> LNAQ.ICR.A4 4 : chaque équipe d'un club inscrite dans une division régionale est tenue de proposer une date de réception d'une journée dans chaque division ICR ; la salle doit disposer d'au moins 5 terrains (6 recommandés).
+
+Q naq-046 | D: 3 | R: LNAQ.ICR 16 | P: apres | T: sanctions
+Lors d'une rencontre, une équipe aligne deux joueurs non qualifiés, commet une erreur de hiérarchie et ne joue pas deux matchs. Combien de points de pénalité reçoit-elle sur la rencontre ?
+- 5
+- 4
++ 3, le nombre de points de pénalité étant plafonné par équipe et par rencontre
+- 1
+> LNAQ.ICR 16 : l'équipe est sanctionnée d'un point de pénalité (et d'une amende) pour chaque match non joué, chaque joueur non qualifié aligné et chaque erreur de hiérarchie ; le nombre de points de pénalité par équipe et par rencontre est limité à trois, même si le nombre d'infractions est supérieur.
+
+Q naq-047 | D: 2 | R: LNAQ.ICR 16 | P: pendant | T: interclubs
+Le JA constate, entre deux matchs d'une même rencontre, qu'un joueur est blessé et ne peut pas disputer son second match, qui n'est pas joué. L'équipe reçoit-elle un point de pénalité ?
+- Oui, comme pour tout match non joué
++ Non : le match est perdu, mais le point de pénalité n'est pas appliqué pour une blessure constatée par le JA entre les matchs de la même rencontre
+- Oui, et l'équipe reçoit en plus une amende pour forfait stratégique
+- Non, et le match est rejoué ultérieurement
+> LNAQ.ICR 16 : le point de pénalité et l'amende s'appliquent pour chaque match non joué, sauf s'il est consécutif à un abandon sur blessure lors d'un match précédent de la même rencontre ou à une blessure constatée par le JA entre les matchs de la même rencontre. Le match reste perdu par forfait.
+
+Q naq-048 | D: 3 | R: LNAQ.ICR 18 | P: apres | T: sanctions
+Une équipe présente 3 hommes et 3 femmes mais décide de ne pas jouer un match. Quelle pénalité encourt-elle ?
+- 1 point de pénalité
++ 2 points de pénalité (match non joué + forfait stratégique) et une amende pour défaut de joueur
+- 3 points de pénalité et la perte de la rencontre
+- Une simple amende, sans point de pénalité
+> LNAQ.ICR 18 : une équipe avec suffisamment de joueurs (3 hommes et 3 femmes minimum) qui décide de ne pas jouer un match reçoit 1 point de pénalité + 1 point de pénalité pour forfait stratégique, soit 2 points, ainsi qu'une amende pour défaut de joueur.
+
+Q naq-049 | D: 2 | R: LNAQ.COUPE 2.4 | P: apres | T: tournois
+Lors de la Coupe Nouvelle-Aquitaine, combien de points une équipe marque-t-elle au classement de la poule selon le résultat d'une rencontre ?
+- Victoire 3 points, défaite 1 point, forfait 0 point
++ Victoire 5 points, défaite 1 point, forfait -1 point
+- Victoire 2 points, défaite 0 point, forfait -1 point
+- Victoire 1 point par match gagné, sans bonus
+> LNAQ.COUPE 2.4 (barème des points sur l'ensemble des rencontres d'une poule) : victoire 5 points, défaite 1 point, forfait -1 point ; en cas d’égalité, les 5 points sont répartis entre les deux équipes.
+
+Q naq-050 | D: 2 | R: LNAQ.ICR 20 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR, le JA disqualifie un joueur après son premier match. Le capitaine veut le remplacer pour son second match. Que répond le JA ?
+- Le remplacement est possible par un joueur de la déclaration de présence
++ Le remplacement n'est pas autorisé : le joueur disqualifié ne peut plus jouer dans la rencontre en cours
+- Le remplacement est possible avec l'accord du capitaine adverse
+- Le joueur disqualifié peut jouer son second match, la disqualification ne valant que pour le match en cours
+> LNAQ.ICR 20 : tout joueur disqualifié par le JA ne peut plus jouer de match dans la rencontre en cours et son remplacement n'est pas autorisé ; la procédure disciplinaire relative aux cartons s'applique (suspension à titre conservatoire jusqu'à décision de l'instance disciplinaire).
+
+Q naq-051 | D: 2 | R: LNAQ.ICR 21 | P: apres | T: interclubs
+À la fin d'une journée d'ICR en Nouvelle-Aquitaine, que doit faire le JA concernant les résultats dans BadNet ?
+- Rien, la commission ICR saisit les résultats en fin de semaine
+- Attendre que le club hôte envoie les feuilles de match
++ Contrôler la validation des rencontres par les capitaines sur leur compte BadNet et procéder à la validation des rencontres
+- Faire signer les résultats papier par le président du club hôte
+> LNAQ.ICR 21 : le JA de chaque journée est chargé de contrôler la validation des rencontres par les capitaines sur leur compte BadNet à la fin des rencontres et de procéder à la validation des rencontres, en plus de son rapport sur Poona.
+
+Q naq-052 | D: 1 | R: LNAQ.ICR 22 | P: avant | T: interclubs
+Selon le règlement ICR de Nouvelle-Aquitaine, au plus tard combien de temps avant les rencontres le gymnase doit-il être accessible ?
+- 30 minutes
+- 1 heure
++ 1 h 30
+- 2 heures
+> LNAQ.ICR 22 : pour chaque rencontre, le gymnase doit être accessible au plus tard 1 h 30 avant les rencontres (repris à l'annexe 4, article 7 : ouvert au moins 1 h 30 avant le début de la rencontre).
+
+Q naq-053 | D: 2 | R: LNAQ.ICR 22 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR, quel calendrier le JA doit-il faire respecter avant le début de la rencontre ?
+- Feuilles de présence 30 min avant, identité 15 min avant, composition 10 min avant
++ Feuilles de présence au plus tard 60 min avant, validation de l'identité au plus tard 45 min avant, composition au plus tard 30 min avant
+- Feuilles de présence 2 h avant, identité 1 h avant, composition 45 min avant
+- Feuilles de présence et composition remises ensemble 15 min avant
+> LNAQ.ICR 22 : les feuilles de présence sont complétées au plus tard 60 minutes avant le début de la rencontre, la validation de l'identité des joueurs est faite au plus tard 45 minutes avant et la composition des équipes est donnée au plus tard 30 minutes avant.
+
+Q naq-054 | D: 2 | R: LNAQ.ICR 23 | P: pendant | T: interclubs
+Pendant une rencontre d'ICR, un capitaine estime qu'un joueur adverse n'est pas qualifié. Comment doit-il procéder pour que sa réserve soit valable ? (plusieurs réponses)
++ La signaler au JA au moment où l'infraction supposée est commise
++ La faire noter sur la feuille de rencontre et la présenter sur le formulaire 1
++ La confirmer dans les cinq jours à la commission ICR, avec le paiement d'une consignation
+- L'envoyer directement à la FFBaD dans les 30 jours
+> LNAQ.ICR 23 : les réserves portant sur des faits révélés pendant la rencontre doivent, sous peine de nullité, être signalées au JA au moment où l'infraction supposée est commise, notées sur la feuille de rencontre et présentées sur le formulaire 1 ; elles sont confirmées dans les cinq jours à la commission ICR, accompagnées d'une consignation (80 € selon l'annexe 1).
+
+Q naq-055 | D: 2 | R: LNAQ.ICR 23 | P: apres | T: interclubs
+Dans quel délai la commission ICR statue-t-elle en première instance sur une réserve confirmée, et que devient la consignation ?
+- Sous 5 jours ; la consignation est toujours conservée
++ Dans les quinze jours suivant la réception de la confirmation ; la consignation est remboursée si la réclamation est fondée et validée
+- Sous un mois ; la consignation est toujours remboursée
+- Lors de la réunion de fin de saison ; la consignation est reversée au club adverse
+> LNAQ.ICR 23 : la commission statue en première instance dans les quinze jours suivant la réception de la lettre de confirmation de la réserve ou de la réclamation. Si la réclamation est fondée et validée par la commission, le paiement de consignation est remboursé.
+
+Q naq-056 | D: 2 | R: LNAQ.ICR 24 | P: apres | T: interclubs
+Un club conteste une pénalité sportive prononcée par la commission ICR de Nouvelle-Aquitaine. Qui peut-il saisir ?
+- Le JA de la journée
+- La CLOT
++ La commission régionale d'examen des réclamations et litiges, selon le règlement fédéral 07.01
+- Directement le conseil d'administration de la FFBaD
+> LNAQ.ICR 24 : en cas de désaccord avec une décision de la commission ICR, un club peut saisir la commission régionale d'examen des réclamations et litiges, comme indiqué dans le règlement fédéral (chapitre 07.01 du guide du badminton).
+
+# ---------------------------------------------------------------- ICR : annexe 1 (dispositions de la saison)
+
+Q naq-057 | D: 1 | R: LNAQ.ICR.A1 1 | P: avant | T: interclubs
+Quelle était la date limite d'inscription des équipes à l'ICR de Nouvelle-Aquitaine pour la saison 2026-2027 ?
+- 30 juin 2026
++ 12 août 2026
+- 1er septembre 2026
+- 30 septembre 2026
+> LNAQ.ICR.A1 1 : l'inscription et le règlement des droits d'engagement se font sur BadNet ; la date limite d'inscription pour la saison 2026-2027 est fixée au 12 août 2026.
+
+Q naq-058 | D: 2 | R: LNAQ.ICR.A1 2 | P: avant | T: interclubs
+Selon l'annexe 1 de l'ICR, quels délais de communication la ligue s'impose-t-elle ? (plusieurs réponses)
++ Communication des poules au plus tard 21 jours avant le début du championnat
++ Communication des lieux au plus tard 10 jours avant chaque rencontre
+- Communication des lieux la veille de chaque rencontre
+- Communication des poules au plus tard 7 jours avant le début du championnat
+> LNAQ.ICR.A1 2 : au plus tard 21 jours avant le début du championnat, la commission communique les poules ; au plus tard 10 jours avant chaque rencontre, la ligue communique les lieux et les modalités d'organisation des rencontres.
+
+Q naq-059 | D: 1 | R: LNAQ.ICR.A1 4 | P: pendant | T: interclubs
+Lors d'une rencontre d'ICR, un capitaine dépose une réserve. Quel est le montant de la consignation à verser lors de sa confirmation ?
+- 30 €
+- 50 €
++ 80 €
+- 120 €
+> LNAQ.ICR.A1 4 : le droit de consignation pour le dépôt d'une réserve ou d'une réclamation est de 80 € (le formulaire 1 précise un chèque à l'ordre de la Ligue Nouvelle-Aquitaine de Badminton).
+
+Q naq-060 | D: 1 | R: LNAQ.ICR.A1 3 | P: avant | T: interclubs
+Quel est le montant des droits d'engagement d'une équipe à l'ICR de Nouvelle-Aquitaine en 2026-2027 ?
+- 80 € en R3 et 200 € en PN
++ 120 € dans toutes les divisions
+- 150 € dans toutes les divisions
+- Gratuit en R3
+> LNAQ.ICR.A1 3 : les droits d'engagement sont de 120 € en Prénationale, Régionale 1, Régionale 2 et Régionale 3.
+
+# ---------------------------------------------------------------- ICR : annexe 2 (amendes et pénalités)
+
+Q naq-061 | D: 2 | R: LNAQ.ICR.A2 1 | P: apres | T: sanctions
+Quelles amendes de l'ICR de Nouvelle-Aquitaine sont doublées à partir de la deuxième infraction ?
+- Toutes les amendes pour retard
++ Les amendes pour « absence d'arbitrage » et « arbitre insuffisamment gradé »
+- Les amendes pour maillots non conformes
+- Les amendes pour forfait sur un match
+> LNAQ.ICR.A2 1 : les amendes pour « absence d'arbitrage » et « arbitre insuffisamment gradé » sont doublées à partir de la 2e infraction.
+
+Q naq-062 | D: 2 | R: LNAQ.ICR.A2 2 | P: apres | T: sanctions
+Une équipe déclare forfait général en cours de championnat. Quelle pénalité sportive frappe son club selon l'annexe 2 ?
+- La seule perte des rencontres restantes
++ L'interdiction de promotion pour toutes les équipes du club inscrites en ICR ou prétendant aux ICR
+- La suspension du capitaine pour une saison
+- L'interdiction d'organiser un tournoi la saison suivante
+> LNAQ.ICR.A2 2 : forfait général → interdiction de promotion pour toutes les équipes du club inscrites en ICR ou prétendant aux ICR.
+
+Q naq-063 | D: 3 | R: LNAQ.ICR.A2 2 | P: apres | T: sanctions
+Quelle pénalité sportive s'ajoute pour un désistement tardif, par rapport à un forfait général ?
+- Une amende doublée
++ La rétrogradation automatique, pour la saison suivante, de l'équipe forfait
+- La perte de tous les points de la saison précédente
+- La suspension du JA référent du club
+> LNAQ.ICR.A2 2 : désistement tardif → interdiction de promotion pour toutes les équipes du club inscrites en ICR ou prétendant aux ICR, et rétrogradation automatique pour la saison suivante de l'équipe forfait.
+
+Q naq-064 | D: 2 | R: LNAQ.ICR.A2 2 | P: apres | T: sanctions
+Le JA signale dans son rapport qu'un joueur non en règle a été aligné. Quelles pénalités prévoit l'annexe 2 ? (plusieurs réponses)
++ Un point de pénalité
++ Les matchs du joueur non en règle sont perdus par forfait
++ Le joueur est susceptible d'être suspendu pour une ou plusieurs rencontres
+- La rencontre entière est rejouée
+> LNAQ.ICR.A2 2 : joueur non en règle → un point de pénalité, matchs du joueur perdus par forfait, et le joueur est susceptible d'être suspendu pour une ou plusieurs rencontres.
+
+Q naq-065 | D: 2 | R: LNAQ.ICR.A2 2 | P: apres | T: sanctions
+Une équipe ne se présente pas sur une deuxième journée d'ICR dans la saison. Quelle est la conséquence ?
+- Une nouvelle amende, sans autre effet
+- Deux points de pénalité au classement
++ Le forfait général : tous ses résultats sont annulés
+- La rétrogradation immédiate dans la division inférieure en cours de saison
+> LNAQ.ICR.A2 2 : la non-participation d'une équipe sur une journée entraîne la perte de ses rencontres par forfait ; la non-participation sur une deuxième journée entraîne le forfait général : tous ses résultats sont annulés.
+
+Q naq-066 | D: 2 | R: LNAQ.ICR.A2 2 | P: avant | T: sanctions
+Quelle pénalité sportive frappe un club qui ne compte pas de JA actif ou en formation lors du contrôle du 1er février (hors dérogation) ?
+- L'interdiction d'inscription en ICR pour la saison suivante
++ L'interdiction de promotion pour toutes les équipes du club en ICR
+- Un point de pénalité pour chaque équipe
+- La rétrogradation de toutes ses équipes
+> LNAQ.ICR.A2 2 : absence de JA actif ou en formation (en dehors des éléments dérogatoires) → interdiction de promotion pour toutes les équipes du club en ICR, y compris en cas de récidive ; l'interdiction d'inscription la saison suivante ne vient qu'après le contrôle post-récidive au 1er juin.
+
+# ---------------------------------------------------------------- ICR : annexe 3 (feuille de route)
+
+Q naq-067 | D: 2 | R: LNAQ.ICR.A3 15 jours | P: avant | T: interclubs
+Quelles informations l'organisateur d'une journée d'ICR doit-il envoyer 15 jours avant à la commission ICR et aux juges-arbitres ? (plusieurs réponses)
++ La marque et le type de volants utilisés
++ La ou les personnes qui tiendront la table de marque (GEO)
++ Le nombre de terrains utilisables et d'échauffement
+- La composition des équipes de chaque rencontre
+> LNAQ.ICR.A3 (15 jours avant l'interclubs) : l'organisateur envoie à la commission et aux JA la marque et le type de volants, la ou les personnes de la table de marque (GEO), la sonorisation, le matériel informatique, le nombre de terrains utilisables et d'échauffement et les références poteaux/filets.
+
+Q naq-068 | D: 2 | R: LNAQ.ICR.A3 jeudi | P: avant | T: interclubs
+Selon la feuille de route de l'ICR, que fait le juge-arbitre à partir du jeudi précédant la rencontre ?
+- Il saisit les déclarations de présence des équipes
+- Il actualise les CPPH des joueurs sur BadNet
++ Il exporte depuis Poona la liste des joueurs et arbitres de la ligue
+- Il envoie les convocations aux capitaines
+> LNAQ.ICR.A3 (à partir du jeudi précédent le jour de la rencontre) : la commission actualise les CPPH des joueurs sur BadNet, les capitaines saisissent la feuille de déclaration de présence en ligne et le JA exporte la liste des joueurs et arbitres de la ligue depuis la base fédérale Poona.
+
+Q naq-069 | D: 2 | R: LNAQ.ICR.A3 Pendant les rencontres | P: pendant | T: interclubs
+Selon la feuille de route de l'ICR, quelles tâches reviennent au juge-arbitre le jour de la rencontre ? (plusieurs réponses)
++ Vérifier les pièces d'identité des joueurs et des arbitres au plus tard 45 min avant les rencontres
++ Valider l'ordre des matchs de chaque rencontre
++ S'assurer que tous les matchs sont arbitrés
+- Saisir les résultats au fur et à mesure des matchs
+> LNAQ.ICR.A3 : le JA vérifie les pièces d'identité des joueurs et arbitres au plus tard 45 min avant les rencontres, valide l'ordre des matchs, s'assure du bon déroulement, de l'ordre préconisé et que tous les matchs sont arbitrés. La saisie des résultats revient à l'organisateur (GEO).
+
+Q naq-070 | D: 2 | R: LNAQ.ICR.A3 Après les rencontres | P: apres | T: interclubs
+Après une journée d'ICR, jusqu'à quand l'organisateur conserve-t-il, le cas échéant, les feuilles de présence et de matchs ?
+- Une semaine
+- Jusqu'à l'homologation de la journée
++ Jusqu'à la fin du championnat
+- Un an
+> LNAQ.ICR.A3 (après les rencontres) : l'organisateur conserve les feuilles de présence, les feuilles de matchs et le fichier des résultats jusqu'à la fin du championnat, le cas échéant.
+
+Q naq-071 | D: 2 | R: LNAQ.ICR.A3 imprimer | P: pendant | T: interclubs
+Une équipe arrive à une journée d'ICR sans ses feuilles de déclaration et l'organisateur doit les imprimer sur place. Que doit faire le JA ?
+- Refuser l'équipe
+- Infliger lui-même une amende
++ Le consigner dans son rapport
+- Rien, cette impression étant prévue sans formalité
+> LNAQ.ICR.A3 (note) : les feuilles sont à imprimer le jour J pour les équipes n'en ayant pas amené (le JA devra le consigner dans son rapport) ou si la connexion internet n'est pas suffisante.
+
+Q naq-072 | D: 1 | R: LNAQ.ICR.A3 Après les rencontres | P: apres | T: interclubs
+Selon la feuille de route, que fait le JA dès la fin des rencontres de chaque journée ?
+- Il envoie les volants usagés à la ligue
++ Il exporte ou s'assure que les résultats sont publiés sur le site BadNet
+- Il rédige les décisions de pénalités
+- Il publie les pénalités sur le site de gestion des interclubs
+> LNAQ.ICR.A3 : le JA exporte ou s'assure que les résultats sont publiés sur BadNet dès la fin des rencontres de chacune des journées. La rédaction des décisions et la publication des pénalités relèvent de la commission ICR.
+
+# ---------------------------------------------------------------- ICR : annexe 4 (déroulement d'une rencontre)
+
+Q naq-073 | D: 1 | R: LNAQ.ICR.A4 4 | P: avant | T: interclubs
+Combien de terrains au minimum la salle du club hôte d'une journée d'ICR doit-elle offrir ?
+- 3 terrains
+- 4 terrains
++ 5 terrains, 6 étant recommandés
+- 7 terrains
+> LNAQ.ICR.A4 4 : le club hôte doit fournir une salle disposant d'un minimum de 5 terrains (6 terrains recommandés).
+
+Q naq-074 | D: 2 | R: LNAQ.ICR.A4 6 | P: avant | T: interclubs
+Quelles exigences s'appliquent à la table de marque d'une journée d'ICR en Nouvelle-Aquitaine ? (plusieurs réponses)
++ Au moins une personne doit être GEO
++ Les personnes à la table de marque ne doivent pas avoir un autre rôle pendant qu'elles y sont
++ L'équipe hôte tient à disposition une trousse de secours complète
+- Le JA doit tenir la table de marque si aucun GEO n'est présent
+> LNAQ.ICR.A4 6 : l'équipe hôte prévoit des moyens informatiques et humains suffisants (deux personnes fixes recommandées), dont au moins 1 GEO ; les 2 personnes ne doivent pas avoir un autre rôle pendant qu'elles sont à la table de marque ; une trousse de secours complète doit être tenue à disposition.
+
+Q naq-075 | D: 2 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Que doit contenir la déclaration de présence saisie par le capitaine sur l'application ?
+- La composition des matchs de la rencontre
++ La liste des joueurs et le nom de l'arbitre
+- Uniquement la liste des joueurs titulaires
+- Le CPPH de chaque joueur
+> LNAQ.ICR.A4 7 : le capitaine doit saisir et valider, dès son arrivée et au plus tard une heure avant l'heure prévue de la rencontre, la présence de son équipe comportant la liste des joueurs et le nom de l'arbitre. Un retard est inscrit au rapport du JA et le club reçoit une amende.
+
+Q naq-076 | D: 2 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Au plus tard quand doit avoir lieu la réunion du JA avec les capitaines lors d'une rencontre d'ICR ?
+- 15 min avant l'heure prévisionnelle de la rencontre
++ 40 min avant l'heure prévisionnelle de la rencontre
+- 1 h 30 avant l'heure prévisionnelle de la rencontre
+- Juste avant le premier match
+> LNAQ.ICR.A4 7 : la réunion du JA avec les capitaines a lieu dès que les déclarations de présence sont imprimées ou accessibles en ligne, au plus tard 40 min avant l'heure prévisionnelle de la rencontre.
+
+Q naq-077 | D: 2 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Lors de la réunion des capitaines, le JA fixe l'heure limite de remise des compositions. Quel délai minimum doit-il laisser aux capitaines ?
+- 5 minutes
++ 15 minutes
+- 30 minutes
+- 45 minutes
+> LNAQ.ICR.A4 7 : le JA fixe l'heure limite de remise des compositions des équipes, avec un minimum de 15 minutes avant de restituer la composition.
+
+Q naq-078 | D: 1 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Un joueur se présente au contrôle d'identité d'une rencontre d'ICR avec sa seule licence FFBaD ; le JA le connaît personnellement. Peut-il être validé ?
+- Oui, la licence suffit
+- Oui, puisque le JA le connaît
++ Non : une pièce d'identité en cours de validité est exigée, la licence seule et le fait d'être connu ne suffisant pas
+- Oui, si le capitaine adverse ne s'y oppose pas
+> LNAQ.ICR.A4 7 : les joueurs valident la déclaration de présence en présence du JA, au plus tard 45 min avant l'heure prévisionnelle, en présentant une pièce d'identité en cours de validité. La seule licence FFBaD n'est plus suffisante et le fait que le joueur soit connu ne suffit pas ; à défaut, il ne peut participer à la rencontre.
+
+Q naq-079 | D: 2 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Qui, outre les joueurs, doit présenter une pièce d'identité lors d'une rencontre d'ICR en Nouvelle-Aquitaine ?
+- Le capitaine non joueur
++ L'arbitre accompagnant l'équipe
+- Le GEO de la table de marque
+- Les spectateurs accédant au plateau
+> LNAQ.ICR.A4 7 : l'arbitre accompagnant l'équipe doit également présenter une pièce d'identité.
+
+Q naq-080 | D: 2 | R: LNAQ.ICR.A4 7 | P: pendant | T: interclubs
+Comment est fixé l'ordre des matchs d'une rencontre d'ICR en Nouvelle-Aquitaine ?
+- Il est imposé par le règlement : simples, puis doubles, puis mixtes
++ Le JA le détermine pour améliorer le déroulement ; si les deux capitaines sont d'accord sur un ordre, ils peuvent le lui proposer
+- Le capitaine de l'équipe hôte le choisit
+- Il est tiré au sort par la table de marque
+> LNAQ.ICR.A4 7 : l'ordre des matchs est déterminé par le JA afin d'améliorer le déroulement (équité sportive, temps de repos, enchaînement des matchs) ; si les deux capitaines sont d'accord sur un ordre, ils peuvent le proposer au JA.
+
+Q naq-081 | D: 1 | R: LNAQ.ICR.A4 8 | P: avant | T: interclubs
+À quelle heure débutent, en règle générale, les deux rencontres d'un dimanche d'ICR en Nouvelle-Aquitaine ?
+- 9 h et 13 h
++ 10 h pour la 1re rencontre, 14 h au plus tard pour la 2e (si les matchs de la précédente sont terminés)
+- 8 h 30 et 13 h 30
+- 10 h et 15 h
+> LNAQ.ICR.A4 8 : les journées débutent à 10 h pour la 1re rencontre et à 14 h au plus tard pour la 2e rencontre, sous réserve que les matchs de la précédente rencontre soient terminés.
+
+Q naq-082 | D: 3 | R: LNAQ.ICR.A4 10.1.1 | P: pendant | T: interclubs
+Une équipe prévient le JA qu'elle aura 40 minutes de retard sur l'horaire de dépôt de la déclaration de présence. Que prévoit l'annexe 4 ? (plusieurs réponses)
++ La rencontre doit être lancée dès l'arrivée des retardataires
++ Le JA prévient la commission ICR dès que possible
++ Les premiers matchs ne pourront pas démarrer à plus de H+1 par rapport à l'horaire prévu de dépôt de la composition
+- La rencontre est perdue par forfait par l'équipe en retard
+> LNAQ.ICR.A4 10.1.1 : le capitaine prévient le JA, qui prévient la commission ; pour un retard de moins d'une heure par rapport au dépôt de la déclaration de présence (H-1), la rencontre est lancée dès l'arrivée des retardataires ; les premiers matchs ne peuvent démarrer à plus de H+1 par rapport au dépôt de la composition. Au-delà d'une heure de retard, la rencontre est perdue par forfait.
+
+Q naq-083 | D: 2 | R: LNAQ.ICR.A4 10.1.1 | P: pendant | T: interclubs
+Une équipe en retard voit arriver ses premiers joueurs. À partir de quand est-elle considérée comme complète pour que le JA lance la rencontre ?
+- Dès que 3 joueurs sont présents
++ Dès qu'elle compte 4 joueurs, avec au moins 2 hommes et au moins 2 dames
+- Dès que 6 joueurs sont présents
+- Uniquement lorsque tous les joueurs déclarés sont arrivés
+> LNAQ.ICR.A4 10.1.1 : dès qu'une équipe est composée de 4 joueurs (avec au moins 2 hommes et au moins 2 dames), elle est considérée comme complète ; le JA lance la rencontre dès que les deux équipes sont complètes.
+
+Q naq-084 | D: 2 | R: LNAQ.ICR.A4 10.1.2 | P: apres | T: interclubs
+Après une rencontre d'ICR marquée par le retard d'une équipe, que prévoit l'annexe 4 ?
+- Le JA inflige directement l'amende à l'équipe en retard
++ Le JA consigne les faits dans son rapport et l'équipe en retard envoie dans les 5 jours une lettre explicative à la commission ICR, qui décide
+- L'équipe en retard perd automatiquement un point de pénalité
+- Aucune formalité si la rencontre a pu se dérouler
+> LNAQ.ICR.A4 10.1.2 : le JA consigne les faits dans son rapport ; l'équipe en retard doit, dans les 5 jours suivants, envoyer une lettre explicative à la commission ICR, qui décide de la sanction et/ou de l'amende éventuelle.
+
+# ---------------------------------------------------------------- ICR : formulaires
+
+Q naq-085 | D: 2 | R: LNAQ.ICR.F1 réserve | P: pendant | T: interclubs
+Le JA signe le formulaire de réserve déposé par un capitaine lors d'une rencontre d'ICR. Que signifie sa signature ?
+- Qu'il approuve le bien-fondé de la réserve
+- Qu'il valide la sanction demandée
++ Seulement la constatation du dépôt de la réserve, en aucun cas son approbation
+- Que la rencontre est suspendue jusqu'à décision de la commission
+> LNAQ.ICR.F1 : le fait de signer, pour le JA et le capitaine de l'autre équipe, n'est en aucun cas une approbation des réserves mais juste une constatation du dépôt de celles-ci.
+
+Q naq-086 | D: 2 | R: LNAQ.ICR.F2 Rappel | P: avant | T: interclubs
+Un JA remplit le formulaire 2 d'engagement pour l'ICR. Que doit-il y respecter ? (plusieurs réponses)
++ Remplir un formulaire par équipe
++ Proposer au minimum deux dates de disponibilité par équipe
++ Indiquer son numéro de licence, obligatoire
+- Le faire valider par le président de la CLOT avant l'envoi
+> LNAQ.ICR.F2 : le formulaire, signé par le JA proposé, accompagne l'inscription (envoi à icr@lnaqbad.fr) ; il faut remplir un formulaire par équipe ; le JA s'engage à officier au minimum sur une journée en proposant au minimum deux dates de disponibilité par équipe ; le numéro de licence est obligatoire.
+
+# ---------------------------------------------------------------- Calendrier et autorisation des tournois
+
+Q naq-087 | D: 1 | R: LNAQ.CALENDRIER 1 | P: avant | T: tournois
+Dans quel ordre la LNAQ positionne-t-elle les compétitions dans son calendrier ?
++ Fédérales, puis régionales, puis départementales, puis locales (clubs)
+- Locales, puis départementales, puis régionales, puis fédérales
+- Régionales, puis fédérales, puis départementales, puis locales
+- Par ordre d'arrivée des demandes, sans distinction
+> LNAQ.CALENDRIER 1 : l'échelonnement est le suivant : compétitions fédérales, puis régionales, puis départementales, puis compétitions dites locales (clubs).
+
+Q naq-088 | D: 2 | R: LNAQ.CALENDRIER 4 | P: avant | T: tournois
+Un club souhaite organiser un tournoi le même week-end qu'une compétition régionale. À quelles conditions la ligue peut-elle donner son accord ? (plusieurs réponses)
++ Une demande écrite par mail à calendrier@lnaqbad.fr
++ Une compétition distante de plus de 100 km du lieu de la compétition régionale
++ Un public, une catégorie ou un niveau différents
+- L'accord écrit du JA de la compétition régionale
+> LNAQ.CALENDRIER 4 (positionnement face à une compétition régionale) : l'accord est donné à la suite d'une demande écrite par mail à calendrier@lnaqbad.fr, si la compétition ne concerne pas directement le même public ou le même niveau et si elle est distante de plus de 100 km (Google Maps, trajet le plus court).
+
+Q naq-089 | D: 2 | R: LNAQ.CALENDRIER 5 | P: avant | T: tournois
+Un club demande à positionner son tournoi au calendrier régional. Que doit-il savoir ? (plusieurs réponses)
++ Le tournoi ne sera pas autorisé via Poona sans validation de l'intégration au calendrier régional
++ La proposition de date sur Poona doit se faire 90 jours avant la manifestation
+- La ligue répond obligatoirement sous 48 heures
+- Les demandes sont traitées par ordre de taille des clubs
+> LNAQ.CALENDRIER 5 : la demande de positionnement se fait par formulaire en ligne ; le tournoi ne sera pas autorisé via Poona sans validation de l'intégration au calendrier régional ; les demandes sont traitées par ordre d'arrivée, avec réponse dans la mesure du possible sous 10 jours ; la proposition de date sur Poona doit se faire 90 jours avant la manifestation.
+
+Q naq-090 | D: 2 | R: LNAQ.CALENDRIER 6 | P: avant | T: tournois
+Jusqu'au 31 octobre, combien de dates un même club peut-il demander pour des compétitions dites privées adultes ou vétérans ?
+- 1
++ 2
+- 3
+- 4
+> LNAQ.CALENDRIER 6 : jusqu'au 31 octobre, un même club peut demander 2 dates pour des compétitions privées adultes ou vétérans ; une troisième à partir du 1er novembre et jusqu'au 31 décembre ; une 4e à partir du 1er janvier s'il a reçu la validation pour la réception d'une compétition fédérale.
+
+Q naq-091 | D: 2 | R: LNAQ.CALENDRIER 6 | P: avant | T: tournois
+Quelles compétitions n'entrent pas dans le quota de compétitions privées d'un club en Nouvelle-Aquitaine ? (plusieurs réponses)
++ Une compétition réservée aux jeunes
++ Une compétition réservée au public féminin
++ Une compétition réservée au handibad
+- Un tournoi mêlant adultes et vétérans
+> LNAQ.CALENDRIER 6 : les compétitions réservées aux jeunes, au public féminin ou handibad ne sont pas soumises à cette règle. Sont comprises les compétitions adultes, vétérans ou mélangeant un des deux publics. Une compétition fédérale, régionale ou départementale n'entre pas non plus dans les 2 compétitions privées.
+
+Q naq-092 | D: 2 | R: LNAQ.CALENDRIER 7 | P: avant | T: tournois
+Un club veut organiser un tournoi alors qu'une compétition pour le même public et le même niveau est prévue à 40 km le même week-end, sur deux jours, hors secteur de Bordeaux. Que décide la ligue ?
++ Le club ne peut pas organiser sa compétition : la distance minimale est de 50 km
+- C'est autorisé, la règle de distance étant de 30 km
+- C'est autorisé si le JA est différent
+- C'est autorisé si la demande a été faite la première
+> LNAQ.CALENDRIER 7 : un club ne peut pas organiser de compétition si une compétition est déjà prévue à moins de 50 km pour le même public et le même niveau ou la même catégorie. Les compétitions dans un rayon de 20 km autour de Bordeaux sont traitées au cas par cas, et une compétition sur une seule journée ne bloque pas le week-end.
+
+Q naq-093 | D: 2 | R: LNAQ.CALENDRIER 9 | P: avant | T: tournois
+Un club de moins de 60 licenciés n'a pas de JA licencié au club mais a défini un JA référent. Quelles compétitions peut-il organiser ?
+- Aucune compétition
+- Toutes les compétitions sans restriction
++ Des compétitions ouvertes aux joueurs R4 maximum
+- Uniquement des rencontres promobad
+> LNAQ.CALENDRIER 9 : les clubs de moins de 60 licenciés peuvent ne pas avoir de JA licencié au club mais doivent définir un JA référent ; ils peuvent alors organiser des compétitions ouvertes aux joueurs R4 maximum. Sans JA référent, seules des rencontres promobad avec un GEO sont possibles.
+
+Q naq-094 | D: 2 | R: LNAQ.CALENDRIER 9 | P: avant | T: tournois
+Un club de plus de 60 licenciés n'a pas de JA licencié et actif au club. Que peut-il organiser ?
+- Un tournoi normal, avec un JA d'un autre club
++ Pas de compétition dite « normale », mais des rencontres promobad avec un GEO
+- Un tournoi limité aux joueurs R4 maximum
+- Uniquement des compétitions jeunes
+> LNAQ.CALENDRIER 9 : les clubs de plus de 60 licenciés voulant organiser un tournoi officiel doivent avoir un JA licencié et actif dans le club ; à défaut, ils ne peuvent pas organiser de compétition dite « normale », mais peuvent organiser des rencontres promobad avec un GEO.
+
+Q naq-095 | D: 3 | R: LNAQ.CALENDRIER 10 | P: apres | T: tournois
+Dans le cas d'une violation du RGC lors d'une compétition, quelles mesures la LNAQ prévoit-elle à l'égard du ou des JA de la compétition ? (plusieurs réponses)
++ Un avertissement et un rappel
++ La rétrogradation
+- Une amende personnelle
+- La radiation définitive de la filière
+> LNAQ.CALENDRIER 10 : en cas de violation du RGC, la ligue analyse la situation, avertit le club ou comité fautif, peut interdire d'organisation un club déjà averti et prévoit l'avertissement et le rappel du ou des JA, puis leur rétrogradation.
+
+# ---------------------------------------------------------------- Championnats et circuits régionaux
+
+Q naq-096 | D: 1 | R: LNAQ.SENIORS 2.3 | P: pendant | T: tournois
+Comment se répartissent les disciplines lors du championnat régional seniors de Nouvelle-Aquitaine ?
+- Sur 2 jours : simples et mixtes le samedi, doubles le dimanche
++ Sur 3 jours : simples le samedi, doubles le dimanche, mixtes le lundi
+- Sur 3 jours : mixtes le samedi, simples le dimanche, doubles le lundi
+- Sur 1 jour, toutes disciplines confondues
+> LNAQ.SENIORS 2.3 : le championnat se déroule sur 3 jours ; les simples se jouent le samedi, les doubles le dimanche et les mixtes le lundi.
+
+Q naq-097 | D: 2 | R: LNAQ.SENIORS 2.3 | P: pendant | T: tournois
+Lors d'un championnat régional de Nouvelle-Aquitaine (seniors, vétérans ou jeunes), un joueur appelé ne se présente pas sur le terrain. Quand est-il déclaré forfait ?
+- Dès le premier appel
++ Cinq minutes après le deuxième appel
+- Dix minutes après le troisième appel
+- À l'appel du match suivant sur le même terrain
+> LNAQ.SENIORS 2.3 : les joueurs doivent se tenir prêts 45 minutes avant l'horaire prévisionnel et ne peuvent s'absenter qu'avec l'accord du JA ; en cas d'absence, ils sont déclarés forfait (WO) cinq minutes après le deuxième appel. Les règlements vétérans et jeunes prévoient la même règle.
+
+Q naq-098 | D: 2 | R: LNAQ.SENIORS 2.7 | P: pendant | T: tournois
+Quelles règles de jeu fixe le règlement du championnat régional seniors ? (plusieurs réponses)
++ Temps d'échauffement de 3 minutes à partir de l'annonce du match
++ Temps de repos minimum de 20 minutes entre chaque match, ou moins si accord entre les joueurs
+- Temps de repos minimum de 30 minutes, sans dérogation possible
+- Échauffement de 5 minutes
+> LNAQ.SENIORS 2.7 : le temps d'échauffement est de 3 minutes à partir de l'annonce du match ; le temps de repos minimum est de 20 minutes entre chaque match, ou moins si accord entre les joueurs.
+
+Q naq-099 | D: 2 | R: LNAQ.SENIORS 1.7 | P: pendant | T: tournois
+Lors d'un championnat régional, un match oppose quatre joueurs classés D7 et D8. Les deux paires ne s'entendent pas : l'une veut jouer en hybrides, l'autre propose ses volants plumes. Quel volant est utilisé ?
+- Le volant hybride, puisque tous les joueurs sont D7 ou inférieur
++ Le volant plume fourni par un joueur, prioritaire en cas de désaccord
+- Un volant synthétique fourni par le JA
+- Le volant choisi par tirage au sort
+> LNAQ.SENIORS 1.7 : dès lors que tous les joueurs sur le terrain sont D7 et/ou inférieur, ils peuvent utiliser, d'un accord mutuel, des volants hybrides ou synthétiques homologués ; en cas de désaccord, le volant plume fourni par un joueur est prioritaire, et faute d'entente c'est le volant officiel de la compétition qui est choisi.
+
+Q naq-100 | D: 2 | R: LNAQ.SENIORS 2.7 | P: avant | T: tournois
+Qui prend en charge les frais du juge-arbitre du championnat régional seniors ?
+- Le club organisateur, pour l'ensemble des frais
++ La ligue pour les indemnités et les déplacements ; la structure d'accueil pour la restauration en journée
+- Les joueurs, via les droits d'inscription reversés au JA
+- Le comité départemental du lieu de la compétition
+> LNAQ.SENIORS 2.7 : la compétition est placée sous le contrôle d'un JA désigné par la CLOT ; ses indemnités et frais de déplacement sont à la charge de la Ligue, le coût de restauration en journée étant à la charge de la structure accueillant le championnat.
+
+Q naq-101 | D: 2 | R: LNAQ.SENIORS 3.2 | P: apres | T: tournois
+Après un championnat régional seniors, un président de club constate une erreur de classement concernant un de ses joueurs. Dans quel délai peut-il réclamer ?
+- 5 jours après la compétition
++ 8 jours après réception du classement, auprès de la Commission Compétition
+- 15 jours après la compétition
+- 30 jours après réception du classement
+> LNAQ.SENIORS 3.2 : en cas d'erreur de classement, une réclamation peut être effectuée dans un délai de 8 jours après réception du classement auprès de la Commission Compétition par le président du club du joueur concerné. Les autres réclamations sont signalées au JA ou envoyées par écrit dans les 5 jours.
+
+Q naq-102 | D: 2 | R: LNAQ.VETERANS 2.4 | P: avant | T: tournois
+Au championnat régional vétérans, une paire de double associe un V2 et un V4. Dans quel tableau d'âge est-elle placée ?
+- V3-V4, catégorie du plus âgé
++ V1-V2, catégorie du plus jeune
+- Au choix de la paire
+- Obligatoirement en tableau élite
+> LNAQ.VETERANS 2.4 : en double, si 2 joueurs sont de catégories d'âge différentes, c'est la catégorie du plus jeune qui est retenue pour le choix du tableau.
+
+Q naq-103 | D: 3 | R: LNAQ.VETERANS 2.4 | P: avant | T: tournois
+Au championnat régional vétérans, un joueur V2 classé R4 s'inscrit dans le tableau d'âge V1-V2. Où joue-t-il ?
+- Dans le tableau V1-V2, comme il l'a demandé
++ Automatiquement dans la série élite, qui regroupe les joueurs N et R4 des catégories V1 à V3
+- Dans le tableau V3-V4
+- Au choix du JA
+> LNAQ.VETERANS 2.4 : un tableau élite regroupe les joueurs N et R4 des catégories V1-V2-V3 ; un joueur ayant le classement prévu dans la catégorie élite participe automatiquement dans la série élite, sauf à partir de la catégorie V4.
+
+Q naq-104 | D: 2 | R: LNAQ.JEUNES 2.4 | P: pendant | T: tournois
+Au championnat régional jeunes, comment sont départagés les demi-finalistes alors que la 3e place n'est pas jouée ?
+- Par un match de classement le dimanche soir
+- Par tirage au sort
++ Au CPPH, dans le retour de la ligue à la FFBaD pour la phase qualificative du championnat de France jeunes
+- Par le nombre de sets gagnés dans la compétition
+> LNAQ.JEUNES 2.4 : les matchs de la 3e place ne sont pas joués ; la ligue utilise le CPPH pour départager les demi-finalistes dans son retour à destination de la FFBaD pour la qualification à la phase qualificative du championnat de France jeunes.
+
+Q naq-105 | D: 2 | R: LNAQ.JEUNES 2.4 | P: avant | T: tournois
+Au championnat régional jeunes, comment sont organisés de préférence les tableaux juniors ?
+- En poules de 4 avec 2 sortants
++ En poules de 3 avec 1 sortant, puis élimination directe
+- En élimination directe dès le premier tour
+- En poule unique
+> LNAQ.JEUNES 2.4 : en dehors des juniors, les tableaux sont organisés de préférence en poules de 4 avec 2 sortants ; pour les juniors, en poules de 3 avec 1 sortant par poule ; les phases finales se jouent en élimination directe.
+
+Q naq-106 | D: 2 | R: LNAQ.TRJ 3.7 | P: apres | T: tournois
+Sur une étape du circuit TRJ, un joueur gagne un match par forfait (WO) et remporte son TOP. Quelles conséquences ? (plusieurs réponses)
++ Les points du barème lui sont attribués même si un match a été gagné par WO
++ Il est automatiquement promu dans le TOP supérieur à l'étape suivante
+- Ses points sont divisés par deux à cause du WO
+- Il doit rejouer le match gagné par WO
+> LNAQ.TRJ 3.7 : les points sont attribués même si le match est gagné par forfait (WO) ; le vainqueur d'un TOP est automatiquement promu dans le TOP supérieur sur l'étape suivante.
+
+Q naq-107 | D: 2 | R: LNAQ.TRJ 3.9 | P: pendant | T: tournois
+Lors d'une étape TRJ, un TOP mêle poussins et benjamins. Le terrain est-il adapté aux poussins ?
+- Oui, dès qu'un poussin est sur le terrain
++ Non : l'adaptation du terrain poussin ne se fait que lorsque le TOP n'est composé que de minibad-poussins
+- Oui, à la demande des entraîneurs
+- Non, le terrain poussin n'est jamais utilisé en TRJ
+> LNAQ.TRJ 3.9 : les tableaux se déroulant en TOPS de niveau, les minibad-poussins peuvent jouer contre des joueurs plus âgés ; l'adaptation pour les terrains poussins ne se fait que lorsque le TOP n'est composé que de minibad-poussins.
+
+Q naq-108 | D: 2 | R: LNAQ.TOPELITE 2.9 | P: pendant | T: tournois
+Lors du Top Élite Nouvelle-Aquitaine, un benjamin affronte un minime. Le coaching est-il autorisé entre les points ?
+- Non, il n'est possible que pendant les pauses réglementaires pour tous les matchs
++ Oui, car un poussin ou benjamin est opposé à un joueur d'une catégorie supérieure
+- Oui, pour tous les matchs du Top Élite
+- Non, le coaching est totalement interdit au Top Élite
+> LNAQ.TOPELITE 2.9 : pour toutes les catégories, le coaching n'est pas autorisé entre les points et ne peut se faire que pendant les pauses réglementaires ; en revanche, lors d'un match opposant des poussins ou benjamins à un joueur d'une catégorie supérieure, il est autorisé entre les points. Il reste interdit pendant les points.
+
+Q naq-109 | D: 1 | R: LNAQ.TOPELITE 1.7 | P: pendant | T: tournois
+Qui fournit les volants lors du Top Élite Nouvelle-Aquitaine ?
+- Les joueurs, à parts égales
++ La Ligue Nouvelle-Aquitaine, pour toute la compétition
+- Le club hôte, qui les met en vente
+- Le comité départemental de chaque joueur
+> LNAQ.TOPELITE 1.7 : les volants (plumes homologués au moins standard) sont fournis par la Ligue Nouvelle-Aquitaine pour toute la compétition.
+
+Q naq-110 | D: 3 | R: LNAQ.COUPE 2.4 | P: pendant | T: tournois
+Lors d'une rencontre de la Coupe Nouvelle-Aquitaine, un joueur se blesse à l'échauffement avant de commencer son match. Le JA peut-il autoriser son remplacement ?
++ Oui, à la suite d'une blessure ou d'une circonstance imprévisible, à condition que le joueur remplacé n'ait pas commencé son match ; le motif est à la seule appréciation du JA
+- Non, aucun remplacement n'est possible en cours de rencontre
+- Oui, mais seulement après le début de son premier match, comme en ICR
+- Oui, uniquement avec l'accord du responsable de l'équipe adverse
+> LNAQ.COUPE 2.4 (remplacement d'un joueur) : lors d'une rencontre, le JA peut autoriser le remplacement d'un joueur, à la suite d'une blessure ou d'une circonstance imprévisible, par un autre joueur à condition que le joueur remplacé n'ait pas commencé son match. Le motif est à la seule appréciation du JA.
+
+Q naq-111 | D: 2 | R: LNAQ.COUPE 2.4 | P: pendant | T: tournois
+Lors de la Coupe Nouvelle-Aquitaine, le JA établit l'ordre des matchs d'une rencontre. Quelle contrainte doit-il respecter ?
+- Les poussins jouent obligatoirement en dernier
++ Les trois derniers matchs (10-11-12) ne doivent pas être des matchs de la catégorie poussine
+- Les minimes jouent toujours en premier
+- L'ordre SH, SD, DH, DD, DMx ne peut jamais être modifié
+> LNAQ.COUPE 2.4 : l'ordre des matchs est SH, SD, DH, DD, DMx, le JA pouvant le changer dans l'intérêt de la compétition ; les trois derniers matchs (10-11-12) ne doivent pas être des matchs de la catégorie poussine.
+
+Q naq-112 | D: 2 | R: LNAQ.COUPE 2.4 | P: apres | T: tournois
+Lors de la Coupe Nouvelle-Aquitaine, comment est traité un match forfait dans la catégorie poussin ?
+- Il est sanctionné d'un point de pénalité
++ Il n'est pas sanctionné et est notifié comme perdu
+- Il est rejoué en fin de journée
+- Il entraîne la perte de la rencontre
+> LNAQ.COUPE 2.4 : un match forfait sur la catégorie poussin n'est pas sanctionné, il est notifié comme perdu. De même, un match non joué à la suite d'un abandon sur blessure lors d'un match précédent est considéré comme forfait involontaire et notifié comme simple défaite.
+
+Q naq-113 | D: 2 | R: LNAQ.COUPE 1.4 | P: avant | T: tournois
+Quelle exigence relative à l'arbitrage s'applique à chaque équipe de la Coupe Nouvelle-Aquitaine ?
+- Fournir un JA stagiaire
++ Comprendre dans son effectif un arbitre officiel actif (jeune ou adulte) ou un jeune officiel UNSS
+- Fournir deux juges de ligne
+- Aucune, l'arbitrage étant assuré par la ligue
+> LNAQ.COUPE 1.4 : chaque équipe doit comprendre dans son effectif un arbitre officiel actif (jeune ou adulte) ou un jeune officiel UNSS.
+
+# ---------------------------------------------------------------- Prise en charge des frais
+
+Q naq-114 | D: 1 | R: LNAQ.FRAIS 1 | P: apres | T: filiere
+Quelle indemnité journalière la LNAQ verse-t-elle à un juge-arbitre de grade Ligue accrédité en 2026-2027 ?
+- 30 € par jour
++ 50 € par jour
+- 60 € par jour
+- 70 € par jour
+> LNAQ.FRAIS 1 : les indemnités des JA sont de 0 € par jour pour un stagiaire, 50 € pour un Ligue accrédité, 60 € pour un Ligue certifié et 70 € pour un JA fédéral.
+
+Q naq-115 | D: 2 | R: LNAQ.FRAIS 2 | P: apres | T: filiere
+Un JA s'est rendu en voiture sur une action de la ligue. Comment ses frais de déplacement sont-ils remboursés ? (plusieurs réponses)
++ Selon un barème de 0,35 € par km, sur l'itinéraire Google Maps entre le domicile et le lieu d'exercice
++ Les frais de péage sont remboursés sur justificatif de paiement
+- Selon un forfait de 50 € quelle que soit la distance
+- Sans justificatif ni fiche de frais
+> LNAQ.FRAIS 2 : les frais annexes sont remboursés sur présentation d'une fiche de frais et des factures ; le barème est de 0,35 €/km, sur l'itinéraire Google Maps entre domicile et lieu d'exercice ; les péages sont remboursés sur justificatif.
+
+Q naq-116 | D: 2 | R: LNAQ.FRAIS 2 | P: apres | T: filiere
+Dans quel délai un officiel doit-il adresser sa demande de remboursement de frais après une action de la ligue ?
+- 5 jours
+- 15 jours
++ Au maximum 1 mois après la date de l'action
+- 3 mois
+> LNAQ.FRAIS 2 : la demande de remboursement doit être faite au maximum 1 mois après la date de l'action, à destination du responsable de l'action, avec copie au secrétariat de la ligue.
+
+Q naq-117 | D: 2 | R: LNAQ.FRAIS 2 | P: avant | T: filiere
+Selon le barème des frais de la LNAQ, dans quel cas un officiel peut-il arriver la veille d'une action de la ligue ?
+- Dans tous les cas, sur simple demande
++ Notamment si la distance est supérieure à 200 km via Google Maps
+- Uniquement si l'action dure plus de deux jours
+- Si la distance est supérieure à 50 km
+> LNAQ.FRAIS 2 (hébergement) : l'officiel peut arriver la veille si la distance le justifie et sous condition : distance supérieure à 200 km via Google Maps, ou raisons professionnelles ou personnelles validées au préalable, ou distance de plus de 2 h avec nécessité d'arriver à la salle avant 9 h, ou raison particulière validée. Le barème est de 60 € par chambre.

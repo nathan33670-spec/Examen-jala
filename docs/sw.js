@@ -4,7 +4,7 @@
  * - pack PDF téléchargeable à la demande (cache séparé, conservé entre deux versions) ;
  * - BUILD est réécrit automatiquement par scripts/build_site.py à chaque changement de contenu.
  */
-const BUILD = '68a0db6fb54c';
+const BUILD = 'a6a5a7d94fca';
 const CORE = `core-${BUILD}`;
 const PDF = 'pdf-v1';
 const RUNTIME = 'runtime-v1';
@@ -89,6 +89,10 @@ self.addEventListener('fetch', (event) => {
         return shell || Response.error();
       }
     })());
+    return;
+  }
+  if (url.searchParams.has('fresh')) { // vérification de mise à jour : toujours le réseau
+    event.respondWith(fetch(request));
     return;
   }
   if (FRESH.includes(path)) {

@@ -40,88 +40,87 @@ async function answer(good = true) {
   await page.locator('.feedback').waitFor();
 }
 
-await step('premier lancement : parcours et objectif quotidien', async () => {
+await step('premier lancement : préférences enregistrées sur l’appareil', async () => {
   await page.goto(base);
   await page.evaluate(() => { localStorage.clear(); sessionStorage.clear(); });
   await page.reload();
-  await page.getByText('Que préparez-vous ?').waitFor();
-  await page.locator('[data-onboard="ALA"]').click();
-  await page.locator('[data-onboard="JALA"]').click();
-  await page.locator('[data-goal="10"]').click();
+  await page.getByText('Votre niveau de connaissance').waitFor();
+  await page.locator('[data-level="ALA"]').click();
+  await page.locator('[data-level="JALA"]').click();
+  await page.locator('[data-knowledge="decouverte"]').click();
+  await page.locator('[data-prio="apres"]').click();
+  await page.locator('[data-prio="rgc"]').click();
   await page.locator('#ligue').selectOption('NAQ');
   await page.locator('#go').click();
-  await page.locator('.player-card').waitFor();
-  await page.locator('.readiness').waitFor();
+  await page.locator('[data-act="train"]').waitFor();
   if ((await page.textContent('#levelPill')).trim() !== 'Juge-arbitre') throw new Error('parcours non mémorisé');
-  if ((await store()).settings.dailyGoal !== 10) throw new Error('objectif non mémorisé');
-  if ((await store()).settings.ligue !== 'NAQ') throw new Error('ligue non mémorisée');
+  const st = (await store()).settings;
+  if (st.knowledge !== 'decouverte' || st.ligue !== 'NAQ') throw new Error('préférences non mémorisées');
+  if (st.priorities.JALA.join() !== 'apres,rgc') throw new Error(`priorités non mémorisées : ${st.priorities.JALA}`);
 });
 
-await step('série intelligente : réponse, XP, badge, bilan', async () => {
-  await page.locator('.cta-continue').click();
+await step('série sur les priorités : correction, bilan', async () => {
+  await page.locator('[data-act="train"]').click();
+  const s = await play();
+  const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
+  const off = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.phase !== 'apres' && !q.rgc);
+  if (off.length) throw new Error(`questions hors priorités : ${off.map((q) => q.id).join(', ')}`);
+  const hard = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.difficulty > 2);
+  if (hard.length) throw new Error('niveau « Je découvre » : questions difficiles proposées');
   await answer(true);
+  await page.locator('.feedback .ref').waitFor();
   await page.waitForTimeout(400);
-  const st = await store();
-  if (Object.keys(st.q).length !== 1) throw new Error('réponse non enregistrée');
-  if (!(st.game.xp > 0)) throw new Error('XP non attribuée');
-  if (!st.game.badges.first) throw new Error('badge « Premier volant » non attribué');
+  if (Object.keys((await store()).q).length !== 1) throw new Error('réponse non enregistrée');
   await page.locator('[data-act="next"]').click();
   for (let i = 1; i < 10; i += 1) {
     await answer(i % 3 !== 0);
     await page.locator('[data-act="next"]').click();
   }
-  await page.locator('.end-card').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
-  if ((await store()).game.streak.cur !== 1) throw new Error('journée non comptée dans la série');
+  await page.getByText('Bilan de la série').waitFor();
+  await page.getByText('À retenir').waitFor();
 });
 
 await step('pas de répétition entre deux séries', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="smart"]').click();
+  await page.locator('[data-act="again"]').click();
   for (let i = 0; i < 10; i += 1) {
     await answer(true);
     await page.locator('[data-act="next"]').click();
   }
-  await page.locator('.end-card').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
+  await page.getByText('Bilan de la série').waitFor();
+  await page.waitForTimeout(400);
   const seen = Object.keys((await store()).q).length;
   if (seen !== 20) throw new Error(`questions répétées : ${seen} questions distinctes sur 20 réponses`);
 });
 
-await step('revoir mes erreurs', async () => {
-  await page.locator('[data-act="retry"]').click({ timeout: 3000 }).catch(async () => {
-    await go('#/entrainement');
-    await page.locator('[data-start="retry"]').click();
-  });
+await step('mes erreurs', async () => {
+  await go('#/entrainement');
+  await page.locator('[data-start="retry"]').click();
   await answer(true);
   await page.locator('[data-act="quit"]').click();
-  await page.locator('.end-card').waitFor();
+  await page.getByText('Bilan de la série').waitFor();
 });
 
-await step('catégories avant / pendant / après / RGC', async () => {
+await step('domaines : avant / pendant / après / RGC / BadNet / ligue', async () => {
   await go('#/entrainement');
-  for (const c of ['avant', 'pendant', 'apres', 'rgc']) {
-    await page.locator(`[data-cat="${c}"]`).click();
-    await page.locator(`[data-cat="${c}"][aria-pressed="true"]`).waitFor();
+  for (const f of ['avant', 'pendant', 'apres', 'rgc', 'badnet', 'ligue']) {
+    await page.locator(`[data-focus="${f}"]`).click();
+    await page.locator(`[data-focus="${f}"][aria-pressed="true"]`).waitFor();
   }
-  await page.locator('[data-cat="apres"]').click();
-  await page.locator('.hero-card [data-start="smart"]').click();
+  await page.locator('[data-start="smart"]').click();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
-  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.phase !== 'apres');
-  if (bad.length) throw new Error(`questions hors catégorie « après » : ${bad.map((q) => q.id).join(', ')}`);
+  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.ligue !== 'NAQ');
+  if (bad.length) throw new Error(`questions hors ligue Nouvelle-Aquitaine : ${bad.map((q) => q.id).join(', ')}`);
   await page.locator('[data-act="quit"]').click();
-  await go('#/entrainement');
-  await page.locator('[data-cat=""]').click();
 });
 
 await step('mode apprentissage : réponse et article affichés', async () => {
   await go('#/entrainement');
+  await page.locator('[data-focus="rgc"]').click();
   const before = Object.keys((await store()).q).length;
-  await page.locator('.hero-card [data-start="learn"]').click();
+  await page.locator('[data-start="learn"]').click();
   await page.locator('.feedback.info').waitFor();
   if (!(await page.locator('.qcard .choice.correct').count())) throw new Error('bonne réponse non affichée');
-  await page.locator('.ref a').first().waitFor();
   let excerpts = 0;
   for (let i = 0; i < 9; i += 1) {
     excerpts += await page.locator('.article-excerpt').count();
@@ -134,90 +133,27 @@ await step('mode apprentissage : réponse et article affichés', async () => {
   if (Object.keys((await store()).q).length !== before) throw new Error('le mode apprentissage ne doit pas noter les réponses');
 });
 
-await step('mode oral', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="oral"]').click();
-  await page.locator('[data-act="reveal"]').click();
-  await page.locator('[data-act="oral-ok"]').click();
-  await page.locator('[data-act="reveal"]').waitFor();
-  await page.waitForTimeout(400);
-  if ((await store()).game.counters.oral !== 1) throw new Error('réponse orale non comptée');
-});
-
-await step('défi du jour', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="daily"]').click();
-  for (let i = 0; i < 10; i += 1) {
-    await answer(true);
-    await page.locator('[data-act="next"]').click();
-  }
-  await page.locator('.end-card').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
-  const st = await store();
-  const d = Object.values(st.game.daily)[0];
-  if (!d || d.good !== 10) throw new Error('défi du jour non enregistré');
-  if (!st.game.badges.dailyPerfect) throw new Error('badge « Sans faute » manquant');
-});
-
-await step('match en 3×15 : score, intervalle, victoire', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="match"]').click();
-  await page.locator('.scoreboard').waitFor();
-  await answer(false);
-  await page.locator('[data-act="next"]').click();
-  for (let i = 0; i < 15; i += 1) {
-    await answer(true);
-    if (i === 7 && !(await page.getByText('Intervalle').count())) throw new Error('intervalle à 8 points non signalé');
-    await page.locator('[data-act="next"]').click();
-  }
-  await page.getByText('Set gagné !').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
-  const st = await store();
-  if (st.game.records.matchWins !== 1) throw new Error('victoire non enregistrée');
-});
-
-await step('contre-la-montre : fin du temps et record', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="chrono"]').click();
-  await page.locator('#clock').waitFor();
-  await answer(true);
-  await page.waitForTimeout(900);
-  await answer(true);
-  await page.evaluate(() => {
-    const s = JSON.parse(sessionStorage.getItem('prepa-ja-play'));
-    s.deadline = Date.now() - 1000;
-    sessionStorage.setItem('prepa-ja-play', JSON.stringify(s));
-  });
-  await page.reload();
-  await page.getByText('Nouveau record !').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
-  const rec = Object.entries((await store()).game.records).find(([k]) => k.startsWith('chrono|'));
-  if (!rec || rec[1] < 2) throw new Error('record non enregistré');
-});
-
-await step('mort subite : trois vies', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="survival"]').click();
-  await answer(true);
-  for (let i = 0; i < 3; i += 1) {
-    await page.locator('[data-act="next"]').click();
-    await answer(false);
-  }
-  await page.locator('[data-act="next"]').click();
-  await page.locator('.end-card').waitFor();
-  await page.getByText('1 bonne réponse').waitFor();
-});
-
-await step('score & service : questions générées', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="score"]').click();
-  for (let i = 0; i < 15; i += 1) {
-    await answer(true);
-    await page.locator('[data-act="next"]').click();
-  }
-  await page.getByText('15/15').waitFor();
-  await page.locator('.celebrate button').click({ timeout: 3000 }).catch(() => {});
-  if (Object.keys((await store()).q).some((id) => id.startsWith('gen-'))) throw new Error('question générée enregistrée dans la banque');
+await step('mise à jour des questions malgré le cache', async () => {
+  // contexte sans service worker : Playwright n'intercepte pas les requêtes émises par le service worker
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'block' });
+  const p2 = await ctx.newPage();
+  p2.on('pageerror', (e) => errors.push(`pageerror (maj): ${e.message}`));
+  await p2.addInitScript(() => localStorage.setItem('prepa-ja-v1', JSON.stringify({ settings: { onboarded: true, level: 'JALA' } })));
+  await p2.goto(base);
+  await p2.locator('[data-act="train"]').waitFor();
+  const current = await p2.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
+  const fresh = { ...current, version: 'test-maj', count: current.count + 1,
+    questions: [...current.questions, { ...current.questions[0], id: 'maj-001', q: 'Question ajoutée par la mise à jour' }] };
+  await p2.route(/data\/questions\.json\?fresh=/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify(fresh) }));
+  await p2.evaluate(async () => (await import('./js/data.js')).checkQuestionUpdate({ force: true }));
+  await p2.getByText(`Questions mises à jour (${fresh.count} questions)`).waitFor();
+  await p2.unroute(/data\/questions\.json\?fresh=/);
+  await p2.route(/data\/questions\.json\?fresh=/, (r) => r.abort());
+  await p2.reload();
+  await p2.locator('[data-act="train"]').waitFor();
+  const kept = await p2.evaluate(async () => (await (await import('./js/data.js')).getQuestions()).version);
+  if (kept !== 'test-maj') throw new Error(`version mise à jour non conservée après rechargement (${kept})`);
+  await ctx.close();
 });
 
 await step('examen blanc : démarrer, répondre, terminer', async () => {
@@ -271,21 +207,22 @@ await step('auto-évaluation et check-lists', async () => {
 
 await step('parcours arbitre : questions et examen dédiés', async () => {
   await go('#/');
-  await page.locator('.track-switch [data-track="ALA"]').click();
+  await page.locator('[data-track="ALA"]').click();
   await page.waitForTimeout(300);
   if ((await page.textContent('#levelPill')).trim() !== 'Arbitre') throw new Error('parcours arbitre non activé');
   await go('#/entrainement');
-  if (await page.locator('[data-cat]').count()) throw new Error('catégories JA affichées pour l’arbitre');
-  await page.locator('.hero-card [data-start="smart"]').click();
+  if (await page.locator('[data-focus="rgc"]').count()) throw new Error('domaines JA affichés pour l’arbitre');
+  await page.locator('[data-focus="regles"]').click();
+  await page.locator('[data-start="smart"]').click();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
-  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => !q.levels.includes('ALA'));
+  const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => !q.levels.includes('ALA') || q.theme !== 'regles');
   if (bad.length) throw new Error(`questions hors parcours arbitre : ${bad.map((q) => q.id).join(', ')}`);
   await page.locator('[data-act="quit"]').click();
   await go('#/examen');
   await page.getByText('Arbitre de ligue accrédité (ALA)').first().waitFor();
   await go('#/');
-  await page.locator('.track-switch [data-track="JALA"]').click();
+  await page.locator('[data-track="JALA"]').click();
 });
 
 await step('règlements : liste, lecture et article ciblé', async () => {
@@ -309,11 +246,14 @@ await step('fiches, glossaire, recherche', async () => {
 
 await step('progression, conditions, réglages, hors-ligne', async () => {
   await go('#/progression');
-  await page.getByText('Comment la jauge est calculée').waitFor();
-  await page.locator('.bdg-card.got').first().waitFor();
-  await page.locator('.act-col').first().waitFor();
+  await page.getByText('Calcul de la jauge').waitFor();
+  await go('#/ressources');
+  await page.getByText('Cas pratiques').waitFor();
   await go('#/conditions');
   await go('#/reglages');
+  await page.locator('[data-knowledge="revision"]').click();
+  await page.locator('#savePrefs').click();
+  if ((await store()).settings.knowledge !== 'revision') throw new Error('réglages non enregistrés');
   await go('#/hors-ligne');
   await page.getByText('Mode hors-ligne').waitFor();
 });

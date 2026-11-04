@@ -3,7 +3,6 @@ import { esc, fmtSize, fmtDate, richText, icons } from './ui.js';
 import { getCatalog, getDocText, getFiches, getGlossary, getUpdates, getQuestions } from './data.js';
 import { examBanner } from './quiz.js';
 import { state, save } from './store.js';
-import { refreshBadges } from './reward.js';
 import { questionHtml, findArticle } from './qcommon.js';
 
 const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -108,7 +107,6 @@ export async function renderDoc(main, id, query = {}) {
     g.docsSeen[doc.id] = 1;
     g.counters.docs = Object.keys(g.docsSeen).length;
     save();
-    refreshBadges();
   }
   let text;
   try {

@@ -4,7 +4,6 @@ import { state, save, recordCase } from './store.js';
 import { getCases, getPractice } from './data.js';
 import { isCorrect } from './qcommon.js';
 import { rewardActivity } from './reward.js';
-import { confetti } from './fx.js';
 import { practiceScore } from './gauge.js';
 
 const svg = (name) => icons[name].replace('<svg', '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"');
@@ -98,7 +97,6 @@ export async function renderCase(main, id) {
         const score = run.answers.filter((x) => x.ok).length / c.steps.length;
         const first = !state.cases[c.id];
         recordCase(c.id, score);
-        if (score === 1) confetti(80);
         rewardActivity(Math.round(10 + 30 * score) + (first ? 10 : 0), { active: false });
       }
       draw();
@@ -243,7 +241,7 @@ export function renderPouleDrill(main) {
           <button class="btn small secondary" data-down="${i}" ${i === order.length - 1 || checked ? 'disabled' : ''} aria-label="Descendre">▼</button></li>`).join('')}</ol>
         <div class="btn-row" style="margin-top:12px">${checked ? '<button class="btn" data-act="new">Nouvelle poule</button>' : '<button class="btn" data-act="check">Vérifier</button>'}</div>
       </div>
-      ${checked ? `<div class="card explain ${ok ? 'ok' : 'ko'}" style="margin-top:12px"><h3>${ok ? 'Exact !' : 'Classement correct'}</h3>
+      ${checked ? `<div class="card explain ${ok ? 'ok' : 'ko'}" style="margin-top:12px"><h3>${ok ? 'Classement exact' : 'Classement correct'}</h3>
         <div class="table-wrap"><table class="data"><thead><tr><th>Rang</th><th>Joueur</th><th>Victoires</th><th>Sets ±</th><th>Points ±</th><th>Départagé par</th></tr></thead><tbody>
         ${right.map((p, i) => { const s = g.res.stats[p]; return `<tr><td>${i + 1}</td><td>${esc(p)}</td><td>${s.pts}</td><td>${s.sf - s.sa >= 0 ? '+' : ''}${s.sf - s.sa}</td><td>${s.pf - s.pa >= 0 ? '+' : ''}${s.pf - s.pa}</td><td>${esc(g.res.reasons[p])}</td></tr>`; }).join('')}
         </tbody></table></div>
@@ -262,7 +260,6 @@ export function renderPouleDrill(main) {
       if (ok) state.drills.poule.ok += 1;
       save();
       draw(true);
-      if (ok) confetti(60);
       rewardActivity(ok ? 15 : 3, { active: false });
     }
     if (b.dataset.act === 'new') renderPouleDrill(main);
