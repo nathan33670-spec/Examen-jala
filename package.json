@@ -11,7 +11,7 @@
     "test": "node --test tests/engine.test.mjs"
   },
   "devDependencies": {
-    "@capacitor/android": "8.5.3",
+    "@capacitor/android": "8.6.0",
     "@capacitor/cli": "8.5.3",
     "@capacitor/core": "8.5.3"
   }
