@@ -155,7 +155,7 @@ python bot/update_regulations.py --report rapport.md
 
 ### Règlements de ligue
 
-Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements de cette ligue dans la bibliothèque et ajoute ses questions à l'entraînement (catégorie « Ma ligue »). Les règlements de ligue sont déclarés dans `bot/sources.json` (entrées `extra` avec `"ligue": "<code>"` et une adresse `url` fixe, à mettre à jour à chaque saison) ; `python bot/update_regulations.py --only-ligues` les télécharge sans toucher au Guide du Badminton. Une question qui cite un document de ligue (`R: LIFB.ICRS 6.12`) n'est proposée qu'aux licenciés de cette ligue ; on peut aussi marquer une question à la main avec `G: <code>`. Ligue intégrée aujourd'hui : Île-de-France (LIFB).
+Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements de cette ligue dans la bibliothèque et ajoute ses questions à l'entraînement (catégorie « Ma ligue »). Les règlements de ligue sont déclarés dans `bot/sources.json` (entrées `extra` avec `"ligue": "<code>"` et une adresse `url` fixe, à mettre à jour à chaque saison) ; `python bot/update_regulations.py --only-ligues` les télécharge sans toucher au Guide du Badminton. Une question qui cite un document de ligue (`R: LIFB.ICRS 6.12`) n'est proposée qu'aux licenciés de cette ligue ; on peut aussi marquer une question à la main avec `G: <code>`. Ligues intégrées aujourd'hui : Île-de-France (LIFB) et Nouvelle-Aquitaine (LNAQ).
 
 ## Conditions d'examen : ce qui est officiel et ce qui est simulé
 

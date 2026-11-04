@@ -1,5 +1,101 @@
 [
   {
+    "date": "2026-11-04",
+    "season": "2026-2027",
+    "changes": [
+      {
+        "id": "LNAQ.ICR",
+        "title": "Interclubs régionaux (ICR) — Règlement 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.A1",
+        "title": "ICR 2026-2027 — Annexe 1 : dispositions de la saison",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.A2",
+        "title": "ICR 2026-2027 — Annexe 2 : amendes et pénalités sportives",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.A3",
+        "title": "ICR 2026-2027 — Annexe 3 : feuille de route",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.A4",
+        "title": "ICR 2026-2027 — Annexe 4 : déroulement d'une rencontre",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.F1",
+        "title": "ICR 2026-2027 — Formulaire 1 : réserve",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.ICR.F2",
+        "title": "ICR 2026-2027 — Formulaire 2 : engagement du juge-arbitre",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.CALENDRIER",
+        "title": "Fonctionnement du calendrier des compétitions 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.SENIORS",
+        "title": "Règlement du championnat régional seniors",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.VETERANS",
+        "title": "Règlement du championnat régional vétérans",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.JEUNES",
+        "title": "Règlement du championnat régional jeunes",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.TRJ",
+        "title": "Règlement du circuit TRJ",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.TOPELITE",
+        "title": "Règlement du circuit TOP Élite",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.COUPE",
+        "title": "Règlement de la Coupe Nouvelle-Aquitaine",
+        "type": "nouveau",
+        "season": "2026-2027"
+      },
+      {
+        "id": "LNAQ.FRAIS",
+        "title": "Prise en charge des frais annexes 2026-2027",
+        "type": "nouveau",
+        "season": "2026-2027"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "season": "2026-2027",
     "changes": [

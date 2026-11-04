@@ -112,6 +112,126 @@
       "filename": "LIFB_Convention_Competitions-Regionales_2027-1.pdf",
       "url": "https://www.lifb.org/wp-content/uploads/2026/07/Convention_Competitions-Regionales_2027-1.pdf",
       "ligue": "IDF"
+    },
+    {
+      "id": "LNAQ.ICR",
+      "title": "Interclubs régionaux (ICR) — Règlement 2026-2027",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR__Reglement-2026-2027.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR__Reglement-2026-2027.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.A1",
+      "title": "ICR 2026-2027 — Annexe 1 : dispositions de la saison",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR26-27-A1_DispositionsSaison.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/ICR26-27-A1_DispositionsSaison.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.A2",
+      "title": "ICR 2026-2027 — Annexe 2 : amendes et pénalités sportives",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR26-27_A2_Amendespenalites-sportives-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR26-27_A2_Amendespenalites-sportives-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.A3",
+      "title": "ICR 2026-2027 — Annexe 3 : feuille de route",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR26-27_A3_FeuilleRoute-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR26-27_A3_FeuilleRoute-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.A4",
+      "title": "ICR 2026-2027 — Annexe 4 : déroulement d'une rencontre",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR26-27_A4_DeroulementRencontre-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR26-27_A4_DeroulementRencontre-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.F1",
+      "title": "ICR 2026-2027 — Formulaire 1 : réserve",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR26-27_F1_Reserve.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR26-27_F1_Reserve.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.ICR.F2",
+      "title": "ICR 2026-2027 — Formulaire 2 : engagement du juge-arbitre",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_ICR_F2_EngagementJA_Form-2026-2027.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/ICR_F2_EngagementJA_Form-2026-2027.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.CALENDRIER",
+      "title": "Fonctionnement du calendrier des compétitions 2026-2027",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Fonctionnement-du-calendrier-des-competitions-26-27-v1.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/Fonctionnement-du-calendrier-des-competitions-26-27-v1.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.SENIORS",
+      "title": "Règlement du championnat régional seniors",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_champ_regional_seniors_VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/Reg_champ_regional_seniors_VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.VETERANS",
+      "title": "Règlement du championnat régional vétérans",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_champ_regional_veteran_VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/Reg_champ_regional_veteran_VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.JEUNES",
+      "title": "Règlement du championnat régional jeunes",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_champ_regional_jeunes_VF1.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/10/Reg_champ_regional_jeunes_VF1.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.TRJ",
+      "title": "Règlement du circuit TRJ",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_TRJ-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/Reg_TRJ-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.TOPELITE",
+      "title": "Règlement du circuit TOP Élite",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_Circuit_TOP-Elite-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/Reg_Circuit_TOP-Elite-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.COUPE",
+      "title": "Règlement de la Coupe Nouvelle-Aquitaine",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Reg_coupe-nouvelle-Aquitaine-VF.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/06/Reg_coupe-nouvelle-Aquitaine-VF.pdf",
+      "ligue": "NAQ"
+    },
+    {
+      "id": "LNAQ.FRAIS",
+      "title": "Prise en charge des frais annexes 2026-2027",
+      "folder": "Ligue Nouvelle-Aquitaine (LNAQ)",
+      "filename": "LNAQ_Prise-en-charge-des-frais-annexes-26-27.pdf",
+      "url": "https://lnaqbad.fr/wp-content/uploads/2026/05/Prise-en-charge-des-frais-annexes-26-27.pdf",
+      "ligue": "NAQ"
     }
   ],
   "upcoming_seasons": true,
