@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "io.github.nathan33670spec.prepaja"
+    namespace = "fr.corsicajack.prepajala"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "io.github.nathan33670spec.prepaja"
+        applicationId "fr.corsicajack.prepajala"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         // fixés par la publication (workflow « Application Android ») : -PversionCode=… -PversionName=…

@@ -94,7 +94,7 @@ base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks | tr -d "\n"
 
 Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
 
-**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
+**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `fr.corsicajack.prepajala` (dans `capacitor.config.json` et `android/app/build.gradle`) ; il devient définitif dès la première publication sur le Play Store.
 
 ## Sécurité et performances
 
