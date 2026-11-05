@@ -87,21 +87,6 @@ export function label(value, k, e) {
   return { text: 'Débutant', tone: 'ko' };
 }
 
-export function ring(value, { size = 160, stroke = 14, mini = false, caption = '' } = {}) {
-  const r = 50 - stroke / 2;
-  const c = 2 * Math.PI * r;
-  const v = Math.max(0, Math.min(1, value || 0));
-  const color = v >= 0.85 ? 'var(--ok)' : v >= 0.65 ? 'var(--primary-2)' : v >= 0.35 ? 'var(--warn)' : 'var(--ko)';
-  return `<div class="gauge${mini ? ' mini' : ''}" style="width:${size}px;max-width:100%">
-    <svg viewBox="0 0 100 100" role="img" aria-label="Préparation ${Math.round(v * 100)} %">
-      <circle class="track" cx="50" cy="50" r="${r}" fill="none" stroke-width="${stroke}"/>
-      <circle class="val" cx="50" cy="50" r="${r}" fill="none" stroke="${color}" stroke-width="${stroke}" ${v === 0 ? 'stroke-opacity="0"' : ''}
-        stroke-dasharray="${c.toFixed(2)}" stroke-dashoffset="${(c * (1 - v)).toFixed(2)}"/>
-    </svg>
-    <div class="label"><div><b>${Math.round(v * 100)}%</b><span>${esc(caption)}</span></div></div>
-  </div>`;
-}
-
 export function bar(labelText, value, extra = '') {
   const v = value == null ? 0 : Math.max(0, Math.min(1, value));
   const cls = v >= 0.8 ? 'high' : v >= 0.5 ? 'mid' : 'low';

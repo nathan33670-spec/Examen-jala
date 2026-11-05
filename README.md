@@ -23,10 +23,11 @@ tous les règlements officiels consultables hors ligne.
   uniquement sur l'appareil (localStorage) et se modifient dans les réglages.
 - **Banque de plus de 2 400 questions** (QCM à une ou plusieurs réponses), chacune avec son explication,
   le lien vers l'article cité et l'extrait du texte officiel.
-- **Entraînement** par domaine : *Mes priorités*, tout le programme, ou un domaine précis
-  (juge-arbitre : avant, pendant, après la compétition, RGC, BadNet, ma ligue ; arbitre : règles du jeu,
-  arbitrage et annonces, juge de ligne). Deux modes : *S'entraîner* (correction après chaque réponse) et
-  *Apprendre* (réponse et article affichés directement, sans notation), plus *Mes erreurs*.
+- **Entraînement direct** : l'accueil lance une série en un appui (*Mes priorités*, tout le programme ou
+  un domaine : avant, pendant, après la compétition, RGC, BadNet, ma ligue ; pour l'arbitre : règles du
+  jeu, arbitrage et annonces, juge de ligne). Aucune indication avant la réponse ; une fois répondu, la
+  correction est complète : réponse attendue, explication, référence et extrait du texte officiel.
+  *Mes erreurs* reprend les questions ratées.
 - **Sans répétition** : chaque utilisateur parcourt la banque dans un ordre qui lui est propre ; une
   question déjà vue ne revient qu'à échéance (10 min après une erreur, puis 1, 3, 7, 16 et 35 jours).
   Le niveau « Je découvre » commence par les questions les plus simples.
@@ -93,7 +94,9 @@ base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks | tr -d "\n"
 
 Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
 
-**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `io.github.nathan33670spec.prepaja` (dans `capacitor.config.json` ; à changer avant la toute première publication si vous préférez un autre identifiant, il devient ensuite définitif).
+**Règles de confidentialité** : page `docs/confidentialite.html`, publiée à l'adresse https://nathan33670-spec.github.io/Examen-jala/confidentialite.html (à indiquer dans la Play Console) et accessible depuis les réglages de l'application.
+
+**Construire en local** (JDK 21 et SDK Android requis) : `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease bundleRelease`. Les icônes Android se régénèrent avec `python scripts/android_assets.py`. Identifiant de l'application : `fr.corsicajack.prepajala` (dans `capacitor.config.json` et `android/app/build.gradle`) ; il devient définitif dès la première publication sur le Play Store.
 
 ## Sécurité et performances
 
@@ -157,21 +160,16 @@ Le choix « Ma ligue » (premier lancement ou réglages) affiche les règlements
 
 ## Conditions d'examen : ce qui est officiel et ce qui est simulé
 
-D'après le chapitre 06.02 du Guide du Badminton (filière juge-arbitrage, édition 2026/1) :
-
-- **JALA** : contrôle de connaissances passé pendant le stage pratique, seul, en temps limité et
-  sous surveillance ; **seuil de 80 % du total des points** (mémento d'évaluation JALA de la CFOT) ;
-  rattrapage dans les 6 mois ; puis examen pratique sur une journée de compétition avec finales.
-- **JALC** : questionnaire **oral** et partie pratique sur une compétition de deux jours.
-- **JAFA** : contrôle de connaissances **avec documents** à l'issue d'une formation de 20 h, sans
-  rattrapage, puis examen comme JA principal d'une compétition fédérale.
-- **JAFC** : atelier de 8 h validé par un contrôle de connaissances, puis examen comme JA principal
-  d'un championnat de France.
+- **JALA** (chapitre 06.02 du Guide du Badminton, édition 2026/1) : contrôle de connaissances passé
+  pendant le stage pratique, seul, en temps limité et sous surveillance ; **seuil de 80 %** (mémento
+  d'évaluation JALA de la CFOT) ; rattrapage dans les 6 mois ; puis examen pratique sur une journée de
+  compétition avec finales.
+- **ALA** (annexe 01 du chapitre 06.01) : certification théorique et pratique d'une journée par la
+  commission de ligue des officiels techniques, après la formation FormaBad.
 
 Le nombre de questions et la durée des épreuves ne sont pas publiés : l'application utilise des
-valeurs d'entraînement (JALA 40 questions / 60 min, JALC 30 / 45 min, JAFA 50 / 90 min avec
-documents, JAFC 40 / 60 min) et un seuil de 80 % pour tous les grades, modifiables dans l'écran
-d'examen (seuil, durée, nombre de questions, pénalité pour réponse fausse, documents autorisés).
+valeurs d'entraînement (JALA 40 questions / 60 min, ALA 30 / 45 min, seuil 80 %), modifiables dans
+l'écran d'examen (seuil, durée, nombre de questions, pénalité pour réponse fausse, documents autorisés).
 Une question à réponses multiples n'est juste que si toutes les bonnes réponses, et elles seules,
 sont cochées.
 
@@ -222,14 +220,16 @@ HTML (`content/fiches/*.html`) et le glossaire un fichier `Terme :: définition`
 
 ```bash
 python -m unittest discover -s tests -v          # bot, cohérence du contenu
-node --test tests/engine.test.mjs                # sélection sans répétition, score 3×15, XP et badges
+node --test tests/engine.test.mjs                # sélection sans répétition, examens blancs, activité
 python -m http.server -d docs 8765 &              # serveur local
 node tests/smoke.mjs http://localhost:8765/      # parcours complet dans Chromium (Playwright)
 ```
 
-Le parcours de bout en bout joue chaque mode (série, défi du jour, match, contre-la-montre, mort
-subite, score & service, oral, examen blanc), vérifie qu'aucune question ne revient entre deux
-séries, puis teste les cas pratiques, les règlements, le cache et le fonctionnement hors ligne.
+Le parcours de bout en bout teste le premier lancement et les préférences, les séries (aucune
+correction avant la réponse, correction complète après, pas de répétition entre deux séries), les
+erreurs, les domaines et la ligue, le parcours arbitre, l'examen blanc, la mise à jour des questions
+malgré le cache, l'import d'un fichier forgé, les cas pratiques, les règlements, le cache et le
+fonctionnement hors ligne.
 
 La CI ([`ci.yml`](.github/workflows/ci.yml)) exécute ces contrôles à chaque push.
 
@@ -241,8 +241,11 @@ docs/                 application publiée (GitHub Pages)
   data/               questions, cas, fiches, glossaire, examens, catalogue, précache
   reglements/         PDF officiels et texte extrait (générés par le bot)
 content/              sources rédactionnelles (questions, cas, fiches, glossaire)
-bot/                  bot de mise à jour des règlements
-scripts/build_site.py compilation du contenu et du cache hors ligne
+android/              application Android (Capacitor) ; version dans android/VERSION
+bot/                  bot de mise à jour des règlements (Guide du Badminton et ligues)
+scripts/              compilation (build_site.py), contrôle des questions (check_questions.py),
+                      lecture des textes (doc_text.py), écrans illustrés (make_screens.py),
+                      icônes Android (android_assets.py)
 tests/                tests unitaires et de bout en bout
 .github/workflows/    déploiement, bot planifié, contrôles
 ```

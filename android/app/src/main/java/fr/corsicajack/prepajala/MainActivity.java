@@ -1,4 +1,4 @@
-package io.github.nathan33670spec.prepaja;
+package fr.corsicajack.prepajala;
 
 import com.getcapacitor.BridgeActivity;
 

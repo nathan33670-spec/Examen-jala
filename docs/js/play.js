@@ -4,15 +4,13 @@ import { esc, toast } from './ui.js';
 import { state, save, qStat, recordAnswer, LEVELS, LEVEL_SHORT, LIGUES, forMyLigue } from './store.js';
 import { getQuestions } from './data.js';
 import { navigate } from './router.js';
-import { planSession, summarize } from './engine.js';
+import { planSession } from './engine.js';
 import { articleExcerpt, questionHtml, makeItem, isCorrect, refLink, choiceList, themeName } from './qcommon.js';
-import { rewardAnswer } from './reward.js';
 
 const KEY = 'prepa-ja-play';
 
 export const MODES = {
-  smart: { name: 'Entraînement', tag: 'Répondez, puis lisez la correction' },
-  learn: { name: 'Apprentissage', tag: 'Réponse et article affichés directement' },
+  smart: { name: 'Entraînement', tag: 'Répondez, puis lisez la correction complète' },
   retry: { name: 'Mes erreurs', tag: 'Les questions ratées, jusqu’à les maîtriser' },
 };
 
@@ -101,72 +99,10 @@ export async function startPlay({ mode = 'smart', level = state.settings.level, 
   return true;
 }
 
-// ------------------------------------------------------------------ accueil de l'entraînement
+// ------------------------------------------------------------------ réglages de série
 
-/** Ligne de domaine : nombre de questions et part maîtrisée. */
-function focusRow(f, pool, selected) {
-  const sum = summarize(pool, qStat, Date.now());
-  const pctM = sum.total ? Math.round((sum.mastered / sum.total) * 100) : 0;
-  return `<button class="row-item" data-focus="${f.id}" aria-pressed="${selected}">
-    <span class="ri-main"><strong>${esc(f.name)}</strong><span class="small muted">${esc(f.tag)}</span></span>
-    <span class="ri-side"><span class="small muted">${sum.total} q. · ${pctM} %</span><span class="pbar"><i style="width:${pctM}%"></i></span></span>
-  </button>`;
-}
-
-export async function renderPlayHub(main) {
-  const qdata = await getQuestions();
-  const level = state.settings.level;
-  const prio = priorities(level);
-  const prefs = { count: 10, focus: prio.length ? 'prio' : '', ...(state.settings.trainPrefs?.[level] || {}) };
-  if (prefs.focus && prefs.focus !== 'prio' && !focusOf(level, prefs.focus)) prefs.focus = '';
-  if (prefs.focus === 'prio' && !prio.length) prefs.focus = '';
-  const focusList = FOCUS[level].filter((f) => f.id !== 'ligue' || levelPool(qdata, level, { focus: 'ligue' }).length);
-  const errors = levelPool(qdata, level).filter((q) => isError(qStat(q.id))).length;
-  const live = activePlay();
-  const savePrefs = () => { state.settings.trainPrefs = { ...(state.settings.trainPrefs || {}), [level]: prefs }; save(); };
-  const all = levelPool(qdata, level);
-  main.innerHTML = `
-    <h1>Entraînement</h1>
-    ${trackSwitch(level)}
-    ${live ? `<div class="notice row between"><span>Série « ${esc(MODES[live.mode].name)} » en cours (${live.idx + 1}/${live.ids.length}).</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
-    <section class="panel">
-      <h2>Que voulez-vous travailler ?</h2>
-      <div class="rows">
-        ${prio.length ? focusRow({ id: 'prio', name: 'Mes priorités', tag: prio.map((id) => focusOf(level, id).name).join(' · ') }, levelPool(qdata, level, { focus: 'prio' }), prefs.focus === 'prio') : ''}
-        ${focusRow({ id: '', name: 'Tout le programme', tag: level === 'JALA' ? 'Juge-arbitre' : 'Arbitre' }, all, !prefs.focus)}
-        ${focusList.map((f) => focusRow(f, levelPool(qdata, level, { focus: f.id }), prefs.focus === f.id)).join('')}
-      </div>
-      ${level === 'JALA' ? `<p class="small muted">Ligue : ${esc(LIGUES[state.settings.ligue] || 'non renseignée')} · <a href="#/reglages">modifier</a></p>` : ''}
-    </section>
-    <section class="panel">
-      <div class="row between">
-        <span class="small muted">Questions par série</span>
-        <div class="seg" role="group" aria-label="Questions par série">${[10, 20, 40].map((n) => `<button data-count="${n}" aria-pressed="${prefs.count === n}">${n}</button>`).join('')}</div>
-      </div>
-      <div class="btn-row" style="margin-top:12px">
-        <button class="btn" style="flex:1" data-start="smart">S’entraîner</button>
-        <button class="btn secondary" style="flex:1" data-start="learn">Apprendre</button>
-      </div>
-      <p class="small muted" style="margin-bottom:0">S’entraîner : vous répondez, puis la correction s’affiche. Apprendre : la bonne réponse et l’article sont affichés directement.</p>
-    </section>
-    <button class="row-item" data-start="retry" ${errors ? '' : 'disabled'}>
-      <span class="ri-main"><strong>Mes erreurs</strong><span class="small muted">${errors ? `${errors} question(s) à revoir` : 'Aucune erreur en attente'}</span></span>
-      <span class="ri-side" aria-hidden="true">›</span>
-    </button>`;
-
-  main.onclick = (e) => {
-    const b = e.target.closest('button');
-    if (!b || b.disabled) return;
-    if (b.dataset.track) { setLevel(b.dataset.track); renderPlayHub(main); return; }
-    if (b.dataset.focus !== undefined) { prefs.focus = b.dataset.focus; savePrefs(); renderPlayHub(main); return; }
-    if (b.dataset.count) {
-      prefs.count = Number(b.dataset.count); savePrefs();
-      main.querySelectorAll('[data-count]').forEach((x) => x.setAttribute('aria-pressed', x === b));
-      return;
-    }
-    if (b.dataset.start) startPlay({ mode: b.dataset.start, level, count: b.dataset.start === 'retry' ? 20 : prefs.count, focus: prefs.focus });
-  };
-}
+/** Nombre de questions par série (réglages). */
+export const seriesCount = (level = state.settings.level) => state.settings.trainPrefs?.[level]?.count || 10;
 
 export function trackSwitch(level) {
   return `<div class="seg wide" role="group" aria-label="Parcours">${LEVELS.map((l) => `<button data-track="${l}" aria-pressed="${l === level}">${esc(LEVEL_SHORT[l])}</button>`).join('')}</div>`;
@@ -180,7 +116,7 @@ export function setLevel(level) {
 // ------------------------------------------------------------------ série en cours
 
 export async function renderPlaySession(main) {
-  if (!session) { navigate('#/entrainement', true); return; }
+  if (!session) { navigate('#/', true); return; }
   if (session.finished) { renderEnd(main); return; }
   const qdata = await getQuestions();
   const index = new Map(qdata.questions.map((q) => [q.id, q]));
@@ -190,21 +126,20 @@ export async function renderPlaySession(main) {
     session.cur = makeItem(index.get(session.ids[session.idx]) || { id: session.ids[session.idx], choices: [] });
     q = index.get(session.cur.id);
   }
-  if (!q) { session = null; persist(); navigate('#/entrainement', true); return; }
+  if (!q) { session = null; persist(); navigate('#/', true); return; }
 
   document.body.classList.add('in-play');
   const item = session.cur;
-  const learn = session.mode === 'learn';
-  if (learn && !item.revealed) { item.revealed = true; item.selected = [...q.answer]; persist(); }
-  const ok = item.revealed && !learn ? isCorrect(q, item.selected) : null;
+  const ok = item.revealed ? isCorrect(q, item.selected) : null;
   const n = session.ids.length;
   const last = session.idx + 1 >= n;
 
   let feedback = '';
   if (item.revealed) {
-    const head = learn ? (q.answer.length > 1 ? 'Bonnes réponses' : 'Bonne réponse') : ok ? 'Bonne réponse' : 'Réponse incorrecte';
-    feedback = `<div class="feedback ${learn ? 'info' : ok ? 'ok' : 'ko'}">
-      <p class="fb-title">${head}</p>
+    // correction complète, seulement une fois la réponse donnée
+    feedback = `<div class="feedback ${ok ? 'ok' : 'ko'}">
+      <p class="fb-title">${ok ? 'Bonne réponse' : 'Réponse incorrecte'}</p>
+      ${ok ? '' : `<p><strong>${q.answer.length > 1 ? 'Réponses attendues' : 'Réponse attendue'} :</strong> ${q.answer.map((i) => esc(q.choices[i])).join(' · ')}</p>`}
       <p>${esc(q.explain)}</p>${await refLink(q.ref)}${await articleExcerpt(q.ref)}
     </div>`;
   }
@@ -223,7 +158,7 @@ export async function renderPlaySession(main) {
     <article class="qcard">
       <p class="small muted qtheme">${esc(themeName(qdata, q.theme))}${q.ligue ? ` · ${esc(LIGUES[q.ligue] || q.ligue)}` : ''}</p>
       ${questionHtml(q)}
-      ${q.type === 'multiple' && !learn ? '<p class="small muted">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
+      ${q.type === 'multiple' ? '<p class="small muted">Plusieurs réponses possibles : cochez-les toutes, puis validez.</p>' : ''}
       ${choiceList(q, item, { locked: item.revealed, showResult: item.revealed })}
     </article>
     ${feedback}
@@ -260,7 +195,6 @@ async function answer(main, q) {
   recordAnswer(q.id, ok);
   if (ok) session.good += 1;
   persist();
-  rewardAnswer(q, ok); // statistiques du jour (sans effet visuel)
   await renderPlaySession(main);
   main.querySelector('.feedback')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -268,12 +202,6 @@ async function answer(main, q) {
 async function next(main) {
   if (!session) return;
   if (session.idx + 1 >= session.ids.length) {
-    if (session.mode === 'learn') {
-      session = null; persist();
-      toast('Série terminée. Lancez « S’entraîner » pour vous tester.');
-      navigate('#/entrainement', true);
-      return;
-    }
     session.finished = true; persist();
     renderEnd(main);
     return;
@@ -288,9 +216,9 @@ async function next(main) {
 }
 
 function quit(main) {
-  if (!session.answers.length || session.mode === 'learn') {
+  if (!session.answers.length) {
     session = null; persist();
-    navigate('#/entrainement', true);
+    navigate('#/', true);
     return;
   }
   session.finished = true; persist();
@@ -327,7 +255,7 @@ async function renderEnd(main) {
     const b = e.target.closest('button');
     if (!b) return;
     const { level, focus } = s;
-    const count = state.settings.trainPrefs?.[level]?.count || 10;
+    const count = seriesCount(level);
     if (b.dataset.act === 'again') { session = null; persist(); startPlay({ mode: 'smart', level, focus, count }); }
     if (b.dataset.act === 'retry') { session = null; persist(); startPlay({ mode: 'retry', level, ids: wrong.map((q) => q.id) }); }
   };

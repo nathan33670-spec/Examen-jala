@@ -31,7 +31,7 @@ export async function refLink(ref) {
     const page = doc.pages?.[ref.art];
     return `<p class="ref muted">Référence : <a href="${safeUrl(page?.url || doc.source)}" target="_blank" rel="noopener">Documentation BadNet${page ? ` — ${esc(page.title)}` : ''}</a></p>`;
   }
-  const name = !doc ? ref.doc : doc.id === 'REGLES' ? 'Règles officielles du badminton' : `GdB ${doc.id} — ${doc.title}`;
+  const name = !doc ? ref.doc : doc.id === 'REGLES' ? 'Règles officielles du badminton' : doc.ligue ? doc.title : `GdB ${doc.id} — ${doc.title}`;
   const art = ref.art ? ` · ${ref.art}` : '';
   const link = `#/doc/${encodeURIComponent(ref.doc)}${ref.art ? `?a=${encodeURIComponent(ref.art)}` : ''}`;
   return `<p class="ref muted">Référence : <a href="${link}">${esc(name)}${esc(art)}</a></p>`;
@@ -52,8 +52,6 @@ export function choiceList(q, item, { locked, showResult, fresh = false }) {
       <span class="key">${String.fromCharCode(65 + k)}</span><span>${esc(q.choices[ci])}</span></button>`;
   }).join('')}</div>`;
 }
-
-export const diffDots = (d = 1) => `<span class="diff" title="Difficulté ${d}/3" aria-label="Difficulté ${d} sur 3">${'●'.repeat(d)}${'○'.repeat(3 - d)}</span>`;
 
 /** Trouve le bloc correspondant à un article (« 2.16 », « Instr. 3.5.4 », « règle 9.1.6 »). */
 export function findArticle(blocks, art) {

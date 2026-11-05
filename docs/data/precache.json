@@ -1,7 +1,8 @@
 {
- "build": "add485de6809",
+ "build": "788ed3c52d4b",
  "core": [
   "./",
+  "confidentialite.html",
   "css/app.css",
   "data/cases.json",
   "data/catalog.json",
@@ -38,18 +39,17 @@
   "img/ecrans/tds-placement.svg",
   "img/ecrans/volants.svg",
   "index.html",
+  "js/activity.js",
   "js/app.js",
   "js/data.js",
   "js/docs.js",
   "js/engine.js",
-  "js/game.js",
   "js/gauge.js",
   "js/offline.js",
   "js/play.js",
   "js/practice.js",
   "js/qcommon.js",
   "js/quiz.js",
-  "js/reward.js",
   "js/router.js",
   "js/store.js",
   "js/ui.js",
@@ -147,7 +147,7 @@
   "reglements/text/LNAQ.VETERANS.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 3703175,
+ "coreSize": 3684911,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
