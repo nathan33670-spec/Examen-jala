@@ -272,6 +272,7 @@ async function renderSettings() {
       <section class="panel small">
         <h2>À propos</h2>
         <p>Application indépendante de préparation aux examens d'officiel technique, non éditée par la Fédération Française de Badminton. Les règlements proviennent du Guide du Badminton (<a href="https://gdb.ffbad.org" target="_blank" rel="noopener">gdb.ffbad.org</a>) et des sites des ligues ; seul le texte officiel fait foi.</p>
+        <p><a href="confidentialite.html" target="_blank" rel="noopener">Règles de confidentialité</a></p>
       </section>`;
     main.querySelector('#importFile').onchange = async (e) => {
       const file = e.target.files[0];

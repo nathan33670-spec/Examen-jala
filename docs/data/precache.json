@@ -1,7 +1,8 @@
 {
- "build": "05df77568c5b",
+ "build": "788ed3c52d4b",
  "core": [
   "./",
+  "confidentialite.html",
   "css/app.css",
   "data/cases.json",
   "data/catalog.json",
@@ -146,7 +147,7 @@
   "reglements/text/LNAQ.VETERANS.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 3679408,
+ "coreSize": 3684911,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
