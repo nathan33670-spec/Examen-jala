@@ -52,7 +52,7 @@ await step('premier lancement : préférences enregistrées sur l’appareil', a
   await page.locator('[data-prio="rgc"]').click();
   await page.locator('#ligue').selectOption('NAQ');
   await page.locator('#go').click();
-  await page.locator('[data-act="train"]').waitFor();
+  await page.locator('button.btn.big').waitFor();
   if ((await page.textContent('#levelPill')).trim() !== 'Juge-arbitre') throw new Error('parcours non mémorisé');
   const st = (await store()).settings;
   if (st.knowledge !== 'decouverte' || st.ligue !== 'NAQ') throw new Error('préférences non mémorisées');
@@ -60,7 +60,8 @@ await step('premier lancement : préférences enregistrées sur l’appareil', a
 });
 
 await step('série sur les priorités : correction, bilan', async () => {
-  await page.locator('[data-act="train"]').click();
+  await page.locator('button.btn.big').click();
+  await page.locator('.qcard').waitFor();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
   const off = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.phase !== 'apres' && !q.rgc);
@@ -93,20 +94,17 @@ await step('pas de répétition entre deux séries', async () => {
 });
 
 await step('mes erreurs', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-start="retry"]').click();
+  await go('#/');
+  await page.locator('[data-act="retry"]').click();
   await answer(true);
   await page.locator('[data-act="quit"]').click();
   await page.getByText('Bilan de la série').waitFor();
 });
 
-await step('domaines : avant / pendant / après / RGC / BadNet / ligue', async () => {
-  await go('#/entrainement');
-  for (const f of ['avant', 'pendant', 'apres', 'rgc', 'badnet', 'ligue']) {
-    await page.locator(`[data-focus="${f}"]`).click();
-    await page.locator(`[data-focus="${f}"][aria-pressed="true"]`).waitFor();
-  }
-  await page.locator('[data-start="smart"]').click();
+await step('domaine en un appui : ligue de l’utilisateur', async () => {
+  await go('#/');
+  await page.locator('.rows [data-focus="ligue"]').click();
+  await page.locator('.qcard').waitFor();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
   const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => q.ligue !== 'NAQ');
@@ -114,23 +112,24 @@ await step('domaines : avant / pendant / après / RGC / BadNet / ligue', async (
   await page.locator('[data-act="quit"]').click();
 });
 
-await step('mode apprentissage : réponse et article affichés', async () => {
-  await go('#/entrainement');
-  await page.locator('[data-focus="rgc"]').click();
-  const before = Object.keys((await store()).q).length;
-  await page.locator('[data-start="learn"]').click();
-  await page.locator('.feedback.info').waitFor();
-  if (!(await page.locator('.qcard .choice.correct').count())) throw new Error('bonne réponse non affichée');
+await step('entraînement : aucune réponse avant de répondre, correction complète après', async () => {
+  await go('#/');
+  await page.locator('.rows [data-focus="rgc"]').click();
   let excerpts = 0;
-  for (let i = 0; i < 9; i += 1) {
-    excerpts += await page.locator('.article-excerpt').count();
+  for (let i = 0; i < 6; i += 1) {
+    await page.locator('.qcard .choice').first().waitFor();
+    const early = await page.locator('.choice.correct, .choice.wrong, .feedback, .article-excerpt').count();
+    if (early) throw new Error('la correction apparaît avant la réponse');
+    await answer(false);
+    await page.locator('.feedback.ko').waitFor();
+    if (!(await page.locator('.feedback').getByText(/Réponses? attendues? :/).count())) throw new Error('réponse attendue non indiquée');
+    if (!(await page.locator('.qcard .choice.correct').count())) throw new Error('bonne réponse non surlignée');
+    if (!(await page.locator('.feedback .ref').count())) throw new Error('référence absente');
+    excerpts += await page.locator('.feedback .article-excerpt').count();
     await page.locator('[data-act="next"]').click();
-    await page.waitForTimeout(150);
   }
-  if (!excerpts) throw new Error('aucun extrait d’article affiché');
-  await page.locator('[data-act="next"]').click();
-  await page.waitForURL(/#\/entrainement$/);
-  if (Object.keys((await store()).q).length !== before) throw new Error('le mode apprentissage ne doit pas noter les réponses');
+  if (!excerpts) throw new Error('aucun extrait d’article dans la correction');
+  await page.locator('[data-act="quit"]').click();
 });
 
 await step('mise à jour des questions malgré le cache', async () => {
@@ -140,7 +139,7 @@ await step('mise à jour des questions malgré le cache', async () => {
   p2.on('pageerror', (e) => errors.push(`pageerror (maj): ${e.message}`));
   await p2.addInitScript(() => localStorage.setItem('prepa-ja-v1', JSON.stringify({ settings: { onboarded: true, level: 'JALA' } })));
   await p2.goto(base);
-  await p2.locator('[data-act="train"]').waitFor();
+  await p2.locator('button.btn.big').waitFor();
   const current = await p2.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
   const fresh = { ...current, version: 'test-maj', count: current.count + 1,
     questions: [...current.questions, { ...current.questions[0], id: 'maj-001', q: 'Question ajoutée par la mise à jour' }] };
@@ -152,7 +151,7 @@ await step('mise à jour des questions malgré le cache', async () => {
   await p2.unroute(/data\/version\.json\?fresh=/);
   await p2.route(/\?fresh=/, (r) => r.abort());
   await p2.reload();
-  await p2.locator('[data-act="train"]').waitFor();
+  await p2.locator('button.btn.big').waitFor();
   const kept = await p2.evaluate(async () => (await (await import('./js/data.js')).getQuestions()).version);
   if (kept !== 'test-maj') throw new Error(`version mise à jour non conservée après rechargement (${kept})`);
   await ctx.close();
@@ -212,10 +211,9 @@ await step('parcours arbitre : questions et examen dédiés', async () => {
   await page.locator('[data-track="ALA"]').click();
   await page.waitForTimeout(300);
   if ((await page.textContent('#levelPill')).trim() !== 'Arbitre') throw new Error('parcours arbitre non activé');
-  await go('#/entrainement');
   if (await page.locator('[data-focus="rgc"]').count()) throw new Error('domaines JA affichés pour l’arbitre');
-  await page.locator('[data-focus="regles"]').click();
-  await page.locator('[data-start="smart"]').click();
+  await page.locator('.rows [data-focus="regles"]').click();
+  await page.locator('.qcard').waitFor();
   const s = await play();
   const qdata = await page.evaluate(() => fetch('data/questions.json').then((r) => r.json()));
   const bad = s.ids.map((id) => qdata.questions.find((q) => q.id === id)).filter((q) => !q.levels.includes('ALA') || q.theme !== 'regles');
@@ -301,8 +299,8 @@ await step('fonctionnement hors ligne', async () => {
   await context.setOffline(true);
   await page.goto(base + '#/doc/07.04');
   await page.locator('.reader p').first().waitFor();
-  await go('#/entrainement');
-  await page.locator('[data-start="smart"]').click();
+  await go('#/');
+  await page.locator('button.btn.big').click();
   await page.locator('.qcard .choice').first().waitFor();
   await context.setOffline(false);
 });

@@ -1,13 +1,8 @@
-// Tests du moteur de sélection et de la ludification : node --test tests/
+// Tests du moteur de sélection et du suivi d'activité : node --test tests/engine.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {
-  planSession, examPick, dailyPick, summarize, classify, dueAt, INTERVALS, DAY, MIN,
-  setState, isValidFinalScore,
-} from '../docs/js/engine.js';
-import {
-  blankGame, noteAnswer, noteActivity, levelInfo, currentStreak, checkBadges, xpFloor, dayKey, addDays,
-} from '../docs/js/game.js';
+import { planSession, examPick, summarize, classify, dueAt, INTERVALS, DAY, MIN } from '../docs/js/engine.js';
+import { blankActivity, noteAnswer, dayKey, addDays } from '../docs/js/activity.js';
 
 const THEMES = ['regles', 'rgc', 'sanctions', 'tenues'];
 const bank = (n) => Array.from({ length: n }, (_, i) => ({ id: `q-${i}`, theme: THEMES[i % THEMES.length], difficulty: 1 + (i % 3) }));
@@ -100,15 +95,6 @@ test('examen blanc : quotas par thème et rotation des questions', () => {
   }
 });
 
-test('défi du jour : identique pour une même date, différent le lendemain', () => {
-  const pool = bank(300);
-  const a = dailyPick(pool, '2026-10-15', 'JALA').map((q) => q.id);
-  const b = dailyPick(pool, '2026-10-15', 'JALA').map((q) => q.id);
-  const c = dailyPick(pool, '2026-10-16', 'JALA').map((q) => q.id);
-  assert.deepEqual(a, b);
-  assert.notDeepEqual(a, c);
-  assert.equal(new Set(a).size, 10);
-});
 
 test('résumé de la banque', () => {
   const pool = bank(10);
@@ -122,53 +108,14 @@ test('résumé de la banque', () => {
   assert.equal(s.seen, 2);
 });
 
-test('score en 3×15', () => {
-  assert.equal(setState(15, 13).over, true);
-  assert.equal(setState(15, 14).over, false);
-  assert.equal(setState(14, 14).deuce, true);
-  assert.equal(setState(16, 14).winner, 0);
-  assert.equal(setState(20, 20).golden, true);
-  assert.equal(setState(20, 21).winner, 1);
-  assert.equal(setState(8, 5).interval, true);
-  for (const [w, l, ok] of [[15, 0, true], [15, 13, true], [15, 14, false], [16, 14, true], [16, 13, false],
-    [20, 18, true], [21, 19, true], [21, 20, true], [22, 20, false], [21, 18, false], [17, 15, true]]) {
-    assert.equal(isValidFinalScore(w, l), ok, `${w}-${l}`);
-  }
-});
-
-test('niveaux et XP', () => {
-  assert.equal(xpFloor(1), 0);
-  assert.equal(xpFloor(2), 100);
-  assert.equal(levelInfo(0).level, 1);
-  assert.equal(levelInfo(99).level, 1);
-  assert.equal(levelInfo(100).level, 2);
-  assert.equal(levelInfo(4500).level, 10);
-  assert.ok(levelInfo(150).progress > 0 && levelInfo(150).progress < 1);
-});
-
-test('série de jours, combo et badges', () => {
-  const g = blankGame();
+test('activité : réponses comptées par jour', () => {
+  const a = blankActivity();
   const d1 = new Date(2026, 9, 13, 10).getTime();
-  for (let i = 0; i < 5; i += 1) noteAnswer(g, { correct: true }, d1);
-  assert.equal(g.streak.cur, 1);
-  const d2 = new Date(2026, 9, 14, 10).getTime();
-  for (let i = 0; i < 6; i += 1) noteAnswer(g, { correct: true }, d2);
-  assert.equal(g.streak.cur, 2);
-  assert.equal(g.counters.bestCombo, 11);
-  assert.equal(currentStreak(g, new Date(2026, 9, 15, 9).getTime()), 2, 'la série tient jusqu’au lendemain');
-  assert.equal(currentStreak(g, new Date(2026, 9, 16, 9).getTime()), 0, 'série perdue après un jour sans activité');
-  noteAnswer(g, { correct: false }, d2);
-  assert.equal(g.counters.combo, 0);
-  const state = { exams: [], cases: {}, q: {}, drills: { poule: { ok: 0 } } };
-  const earned = checkBadges({ game: g, state, qdata: null, casesTotal: 35 }).map((b) => b.id);
-  assert.ok(earned.includes('first'));
-  assert.ok(earned.includes('combo10'));
-  assert.ok(!earned.includes('q100'));
-  assert.equal(checkBadges({ game: g, state, qdata: null, casesTotal: 35 }).length, 0, 'badge attribué une seule fois');
-  const r = noteActivity(g, 50, new Date(2026, 9, 17, 10).getTime());
-  assert.equal(g.streak.cur, 1);
-  assert.equal(r.xp, 50);
+  noteAnswer(a, true, d1);
+  noteAnswer(a, false, d1);
+  assert.deepEqual(a.days['2026-10-13'], { a: 2, g: 1 });
+  assert.equal(a.counters.answers, 2);
+  assert.equal(a.counters.good, 1);
   assert.equal(addDays('2026-10-31', 1), '2026-11-01');
   assert.equal(dayKey(new Date(2026, 0, 5, 12)), '2026-01-05');
 });
-

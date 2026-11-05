@@ -1,16 +1,15 @@
 // Point d'entrée : routes, accueil, préférences du premier lancement, progression, ressources et réglages.
-import { esc, fmtDate, pct, toast } from './ui.js';
+import { esc, pct, toast } from './ui.js';
 import { state, save, setting, qStat, LEVELS, LEVEL_NAMES, LEVEL_SHORT, LIGUES, exportData, importData, resetAll } from './store.js';
-import { getQuestions, getCases, getExams, getPractice, getUpdates, getCatalog, onDataUpdate } from './data.js';
+import { getQuestions, getCases, getExams, getPractice, getCatalog, onDataUpdate } from './data.js';
 import { route, fallback, onRouteChange, resolve, navigate } from './router.js';
 import { readiness, bar } from './gauge.js';
 import { renderExamSetup, renderExamSession, renderExamResult, activeExam } from './quiz.js';
-import { renderPlayHub, renderPlaySession, startPlay, activePlay, MODES, FOCUS, levelPool, priorities, focusOf, trackSwitch, setLevel } from './play.js';
+import { renderPlaySession, startPlay, activePlay, FOCUS, levelPool, priorities, focusOf, trackSwitch, setLevel, seriesCount } from './play.js';
 import { renderDocsHome, renderDoc, renderFiches, renderFiche, renderGlossary, renderUpdates, renderSearch, renderQuestion } from './docs.js';
-import { renderPracticeHome, renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
+import { renderCases, renderCase, renderPouleDrill, renderScheduler, renderChecklists, renderSelfEval } from './practice.js';
 import { initOffline, renderOffline, isStandalone } from './offline.js';
 import { summarize } from './engine.js';
-import { dayKey } from './game.js';
 
 const main = document.getElementById('main');
 
@@ -41,79 +40,43 @@ async function renderHome() {
   if (!state.settings.onboarded) { renderOnboarding(); return; }
   const b = await bundle();
   const level = state.settings.level;
-  const r = readiness(level, b);
   const exam = activeExam();
   const play = activePlay();
   const prio = priorities(level);
-  const focus = prio.length ? 'prio' : '';
-  const pool = levelPool(b.qdata, level, { focus });
-  const sum = summarize(pool, qStat, Date.now());
-  const all = summarize(levelPool(b.qdata, level), qStat, Date.now());
-  const count = state.settings.trainPrefs?.[level]?.count || 10;
-  const today = state.game.days[dayKey()] || { a: 0, g: 0 };
-  const updates = await getUpdates().catch(() => []);
-  const lastUpdate = updates.find((u) => u.changes?.length);
-  const focusList = FOCUS[level].filter((f) => f.id !== 'ligue' || levelPool(b.qdata, level, { focus: 'ligue' }).length);
-
+  const count = seriesCount(level);
+  const now = Date.now();
+  const all = summarize(levelPool(b.qdata, level), qStat, now);
+  const r = readiness(level, b);
+  const rows = [
+    ...(prio.length ? [{ id: 'prio', name: 'Mes priorités', tag: prio.map((id) => focusOf(level, id).name).join(' · ') }] : []),
+    { id: '', name: 'Tout le programme', tag: LEVEL_NAMES[level] },
+    ...FOCUS[level].filter((f) => f.id !== 'ligue' || levelPool(b.qdata, level, { focus: 'ligue' }).length),
+  ];
   main.innerHTML = `
     ${trackSwitch(level)}
     ${exam ? `<div class="notice row between"><span>Examen blanc en cours.</span><a class="btn small" href="#/examen/session">Reprendre</a></div>` : ''}
-    ${play ? `<div class="notice row between"><span>Série « ${esc(MODES[play.mode].name)} » en cours.</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
-    <section class="panel">
-      <p class="eyebrow">${esc(LEVEL_NAMES[level])}${state.settings.ligue ? ` · ${esc(LIGUES[state.settings.ligue])}` : ''}</p>
-      <h1 style="margin-top:2px">${prio.length ? 'Mes priorités' : 'Tout le programme'}</h1>
-      <p class="muted small" style="margin-top:0">${prio.length ? prio.map((id) => esc(focusOf(level, id).name)).join(' · ') : 'Aucune priorité choisie'} · <a href="#/reglages">modifier</a></p>
-      <div class="stats">
-        <div><b>${sum.new}</b><span>nouvelles</span></div>
-        <div><b>${sum.review}</b><span>à revoir</span></div>
-        <div><b>${sum.mastered}</b><span>maîtrisées</span></div>
-      </div>
-      <button class="btn block" data-act="train">S’entraîner (${Math.min(count, sum.total)} questions)</button>
-      <button class="btn block secondary" data-act="learn" style="margin-top:8px">Apprendre (réponses affichées)</button>
-    </section>
-
-    <section class="panel">
-      <div class="row between"><h2 style="margin:0">Préparation</h2><a class="small" href="#/progression">Détails</a></div>
-      <div class="ready"><b>${Math.round(r.value * 100)} %</b><span class="badge ${r.label.tone}">${esc(r.label.text)}</span></div>
-      <div class="pbar big"><i style="width:${Math.round(r.value * 100)}%"></i></div>
-      <p class="small muted">${all.seen} questions vues sur ${all.total} · ${today.a} aujourd’hui · ${r.exams.count ? `${r.exams.count} examen(s) blanc(s)` : 'aucun examen blanc'}</p>
-      <p class="small">${esc(nextAdvice(r, all))}</p>
-    </section>
-
-    <h2>Domaines</h2>
-    <div class="rows">${focusList.map((f) => {
-      const s = summarize(levelPool(b.qdata, level, { focus: f.id }), qStat, Date.now());
+    ${play ? `<div class="notice row between"><span>Série en cours (${play.idx + 1}/${play.ids.length}).</span><a class="btn small" href="#/entrainement/session">Reprendre</a></div>` : ''}
+    <button class="btn block big" data-focus="${rows[0].id}">Commencer · ${count} questions${prio.length ? ' sur mes priorités' : ''}</button>
+    <p class="small muted center">${all.seen} / ${all.total} questions vues · ${all.mastered} maîtrisées · <a href="#/progression">préparation ${Math.round(r.value * 100)} %</a></p>
+    <h2>Choisir un domaine</h2>
+    <div class="rows">${rows.map((f) => {
+      const s = summarize(levelPool(b.qdata, level, { focus: f.id }), qStat, now);
       const p = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
-      return `<button class="row-item" data-focus="${f.id}"><span class="ri-main"><strong>${esc(f.name)}</strong><span class="small muted">${s.total} questions</span></span>
-        <span class="ri-side"><span class="small muted">${p} % maîtrisé</span><span class="pbar"><i style="width:${p}%"></i></span></span></button>`;
+      return `<button class="row-item" data-focus="${f.id}"><span class="ri-main"><strong>${esc(f.name)}</strong><span class="small muted">${esc(f.tag)}</span></span>
+        <span class="ri-side"><span class="small muted">${s.total} q. · ${p} %</span><span class="pbar"><i style="width:${p}%"></i></span></span></button>`;
     }).join('')}</div>
-
-    <h2>Aller plus loin</h2>
     <div class="rows">
-      <a class="row-item" href="#/examen"><span class="ri-main"><strong>Examen blanc ${esc(LEVEL_SHORT[level].toLowerCase())}</strong><span class="small muted">Conditions de l’examen, chronométré, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></span><span class="ri-side" aria-hidden="true">›</span></a>
-      ${r.knowledge.total && all.errors ? `<button class="row-item" data-act="retry"><span class="ri-main"><strong>Mes erreurs</strong><span class="small muted">${all.errors} question(s) à revoir</span></span><span class="ri-side" aria-hidden="true">›</span></button>` : ''}
-      <a class="row-item" href="#/ressources"><span class="ri-main"><strong>Ressources</strong><span class="small muted">Règlements, fiches, cas pratiques, outils</span></span><span class="ri-side" aria-hidden="true">›</span></a>
-      ${isStandalone() ? '' : '<a class="row-item" href="#/hors-ligne"><span class="ri-main"><strong>Installer l’application</strong><span class="small muted">Utilisable hors ligne sur téléphone</span></span><span class="ri-side" aria-hidden="true">›</span></a>'}
-    </div>
-    ${lastUpdate ? `<p class="small muted" style="margin-top:14px">Règlements mis à jour le ${fmtDate(lastUpdate.date)} · <a href="#/mises-a-jour">voir</a></p>` : ''}`;
+      <button class="row-item" data-act="retry" ${all.errors ? '' : 'disabled'}><span class="ri-main"><strong>Mes erreurs</strong><span class="small muted">${all.errors ? `${all.errors} question(s) à revoir` : 'Aucune erreur en attente'}</span></span><span class="ri-side" aria-hidden="true">›</span></button>
+      <a class="row-item" href="#/examen"><span class="ri-main"><strong>Examen blanc</strong><span class="small muted">${b.exams[level]?.sim.questions ?? 40} questions, chronométré, seuil ${b.exams[level]?.sim.passPct ?? 80} %</span></span><span class="ri-side" aria-hidden="true">›</span></a>
+    </div>`;
 
   main.onclick = (e) => {
     const btn = e.target.closest('button');
-    if (!btn) return;
+    if (!btn || btn.disabled) return;
     if (btn.dataset.track) { setLevel(btn.dataset.track); renderHome(); return; }
-    if (btn.dataset.act === 'train' || btn.dataset.act === 'learn') startPlay({ mode: btn.dataset.act === 'train' ? 'smart' : 'learn', level, count, focus });
     if (btn.dataset.act === 'retry') startPlay({ mode: 'retry', level, count: 20 });
-    if (btn.dataset.focus) startPlay({ mode: 'smart', level, count, focus: btn.dataset.focus });
+    if (btn.dataset.focus !== undefined) startPlay({ mode: 'smart', level, count, focus: btn.dataset.focus });
   };
-}
-
-function nextAdvice(r, all) {
-  if (r.knowledge.seen === 0) return 'Commencez par une première série : la jauge se calibre au fil des réponses.';
-  if (r.knowledge.coverage < 0.5) return `Continuez à découvrir la banque (${pct(r.knowledge.coverage)} des questions vues).`;
-  if (all.errors > 15) return `Revoyez vos ${all.errors} erreurs avant de tenter un examen blanc.`;
-  if (!r.exams.count) return 'Vous pouvez tenter un premier examen blanc.';
-  if (!r.exams.passed) return 'Visez le seuil de réussite en examen blanc.';
-  return 'Entretenez vos acquis : une série par jour et un examen blanc par semaine.';
 }
 
 // ------------------------------------------------------------------ préférences (premier lancement et réglages)
@@ -242,6 +205,7 @@ function renderResources() {
       ${item('#/conditions', 'Conditions d’examen', 'Ce que disent les filières d’arbitrage et de juge-arbitrage')}
       ${item('#/mises-a-jour', 'Mises à jour des règlements', 'Historique des nouvelles versions')}
     </div>
+    ${isStandalone() ? '' : `<h2>Application</h2><div class="rows">${item('#/hors-ligne', 'Installer et utiliser hors ligne', 'Sur téléphone ou ordinateur')}${item('#/reglages', 'Réglages', 'Préférences, questions par série, apparence, données')}</div>`}
     <h2>Pratique du juge-arbitre</h2>
     <div class="rows">
       ${item('#/cas', 'Cas pratiques', 'Situations de compétition, décisions étape par étape')}
@@ -282,6 +246,10 @@ async function renderSettings() {
         <h2>Préférences</h2>
         ${prefsForm(st)}
         <button class="btn" id="savePrefs">Enregistrer</button>
+      </section>
+      <section class="panel">
+        <h2>Questions par série</h2>
+        <div class="seg" role="group" aria-label="Questions par série">${[10, 20, 40].map((n) => `<button data-count="${n}" aria-pressed="${seriesCount(st.level) === n}">${n}</button>`).join('')}</div>
       </section>
       <section class="panel">
         <h2>Apparence</h2>
@@ -327,6 +295,11 @@ async function renderSettings() {
     if (!btn) return;
     if (btn.id === 'savePrefs') { storePrefs(st); toast('Préférences enregistrées'); }
     if (btn.dataset.theme) { setting('theme', btn.dataset.theme); applyTheme(); draw(); }
+    if (btn.dataset.count) {
+      const lv = state.settings.level;
+      state.settings.trainPrefs = { ...(state.settings.trainPrefs || {}), [lv]: { ...(state.settings.trainPrefs?.[lv] || {}), count: Number(btn.dataset.count) } };
+      save(); draw();
+    }
     if (btn.dataset.act === 'export') {
       const blob = new Blob([exportData()], { type: 'application/json' });
       const a = document.createElement('a');
@@ -343,7 +316,7 @@ async function renderSettings() {
 
 // ------------------------------------------------------------------ démarrage
 
-const TABS = { home: 'home', train: 'train', exam: 'exam', res: 'res' };
+const TABS = { home: 'home', exam: 'exam', res: 'res' };
 onRouteChange((meta, path) => {
   document.querySelectorAll('.tabbar a').forEach((a) => a.classList.toggle('active', a.dataset.tab === meta.tab));
   document.getElementById('backBtn').hidden = path === '/' || !meta.back;
@@ -364,9 +337,9 @@ const wrap = (fn) => async (args) => {
 
 route('/', wrap(renderHome), { tab: TABS.home });
 route('/progression', wrap(renderProgress), { tab: TABS.home, back: true });
-route('/entrainement', wrap(() => renderPlayHub(main)), { tab: TABS.train });
-route('/ala', () => { setLevel('ALA'); navigate('#/entrainement', true); });
-route('/entrainement/session', wrap(() => renderPlaySession(main)), { tab: TABS.train });
+route('/entrainement', () => navigate('#/', true));
+route('/ala', () => { setLevel('ALA'); navigate('#/', true); });
+route('/entrainement/session', wrap(() => renderPlaySession(main)), { tab: TABS.home });
 route('/examen', wrap(() => renderExamSetup(main)), { tab: TABS.exam });
 route('/examen/session', wrap(() => renderExamSession(main)), { tab: TABS.exam });
 route('/examen/resultat/:id', wrap(({ id }) => renderExamResult(main, id)), { tab: TABS.exam, back: true });

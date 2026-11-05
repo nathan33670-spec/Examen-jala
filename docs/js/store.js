@@ -1,5 +1,5 @@
 // État local de l'utilisateur (progression, examens, réglages), stocké dans localStorage.
-import { mergeGame, blankGame } from './game.js';
+import { blankActivity, noteAnswer } from './activity.js';
 
 const KEY = 'prepa-ja-v1';
 /** Deux parcours : juge-arbitre (examen JALA) et arbitre (ALA). */
@@ -36,7 +36,7 @@ const blank = () => ({
   selfEval: {},   // critère -> 0..3
   drills: { poule: { n: 0, ok: 0 } },
   pdfShas: {},    // chemin PDF -> empreinte téléchargée (mode hors-ligne)
-  game: blankGame(), // XP, série de jours, badges, records
+  game: blankActivity(), // réponses par jour
 });
 
 function newSeed() {
@@ -98,18 +98,16 @@ function normalize(data) {
     settings, q, exams, cases, checklists: boolMap(data.checklists), selfEval,
     drills: { poule: { n: num(poule.n), ok: num(poule.ok) } },
     pdfShas: Object.fromEntries(Object.entries(clean(data.pdfShas)).filter(([, v]) => typeof v === 'string')),
-    game: cleanGame(mergeGame(clean(data.game))) };
+    game: cleanGame(data.game) };
 }
 
 /** Compteurs d'activité : nombres seulement, jours au format AAAA-MM-JJ. */
 function cleanGame(g) {
-  const days = Object.fromEntries(Object.entries(clean(g.days)).filter(([k]) => /^\d{4}-\d{2}-\d{2}$/.test(k))
-    .slice(-400).map(([k, v]) => [k, { a: num(v?.a), g: num(v?.g), xp: num(v?.xp) }]));
-  const counters = Object.fromEntries(Object.entries(clean(g.counters)).map(([k, v]) => [k, num(v)]));
-  return { ...g, xp: num(g.xp), days, counters, streak: { ...g.streak, cur: num(g.streak?.cur), best: num(g.streak?.best) },
-    badges: Object.fromEntries(Object.entries(clean(g.badges)).filter(([k]) => idOk(k)).map(([k, v]) => [k, num(v)])),
-    records: Object.fromEntries(Object.entries(clean(g.records)).filter(([k]) => /^[\w|]{1,40}$/.test(k)).map(([k, v]) => [k, num(v)])),
-    daily: {}, docsSeen: Object.fromEntries(Object.entries(clean(g.docsSeen)).filter(([k]) => idOk(k)).map(([k]) => [k, 1])) };
+  const src = clean(g);
+  const days = Object.fromEntries(Object.entries(clean(src.days)).filter(([k]) => /^\d{4}-\d{2}-\d{2}$/.test(k))
+    .slice(-400).map(([k, v]) => [k, { a: num(v?.a), g: num(v?.g) }]));
+  const c = clean(src.counters);
+  return { days, counters: { answers: num(c.answers), good: num(c.good) } };
 }
 
 function load() {
@@ -157,7 +155,9 @@ export function qStat(id) {
 }
 
 /** Répétition espacée simplifiée (boîtes de Leitner). */
+/** Réponse donnée en entraînement : répétition espacée et compteur du jour. */
 export function recordAnswer(id, correct) {
+  noteAnswer(state.game, correct);
   const s = { ...qStat(id) };
   s.n += 1;
   if (correct) {
@@ -172,13 +172,6 @@ export function recordAnswer(id, correct) {
   save();
 }
 
-export function toggleFavorite(id) {
-  const s = { ...qStat(id) };
-  s.f = !s.f;
-  state.q[id] = s;
-  save();
-  return s.f;
-}
 
 export function recordExam(result) {
   state.exams.unshift(result);

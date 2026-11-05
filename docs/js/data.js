@@ -115,14 +115,3 @@ export const getGlossary = () => loadJSON('data/glossaire.json');
 export const getPractice = () => loadJSON('data/pratique.json');
 export const getDocText = (doc) => (doc?.text ? loadJSON(doc.text) : Promise.reject(new Error(`${doc?.id} : pas de texte hors ligne`)));
 
-export async function questionIndex() {
-  const data = await getQuestions();
-  if (!data._index) data._index = new Map(data.questions.map((q) => [q.id, q]));
-  return data._index;
-}
-
-/** Retrouve l'entrée du catalogue correspondant à une référence (« 03.01 », « REGLES »). */
-export async function findDoc(code) {
-  const cat = await getCatalog();
-  return cat.docs.find((d) => d.id === code) || cat.docs.find((d) => d.code === code && !d.upcoming);
-}

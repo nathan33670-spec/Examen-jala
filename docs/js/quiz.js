@@ -6,7 +6,6 @@ import { navigate } from './router.js';
 import { examPick } from './engine.js';
 import { questionHtml, makeItem, isCorrect, refLink, choiceList, themeName } from './qcommon.js';
 import { startPlay } from './play.js';
-import { rewardActivity } from './reward.js';
 
 export { isCorrect };
 
@@ -249,7 +248,6 @@ async function finishExam() {
   session = null;
   persist();
   clearInterval(timerHandle);
-  rewardActivity();
   justFinished = result.id;
   navigate(`#/examen/resultat/${result.id}`, true);
 }

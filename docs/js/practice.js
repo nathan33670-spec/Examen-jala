@@ -1,29 +1,9 @@
 // Partie pratique : cas concrets, exercices et outils du juge-arbitre.
-import { esc, shuffle, richText, icons, pct } from './ui.js';
+import { esc, shuffle, richText, pct } from './ui.js';
 import { state, save, recordCase } from './store.js';
 import { getCases, getPractice } from './data.js';
 import { isCorrect } from './qcommon.js';
-import { rewardActivity } from './reward.js';
-import { practiceScore } from './gauge.js';
 
-const svg = (name) => icons[name].replace('<svg', '<svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"');
-
-export async function renderPracticeHome(main) {
-  const [casesData, practice] = await Promise.all([getCases(), getPractice()]);
-  const level = 'JALA'; // la pratique concerne le juge-arbitre
-  const p = practiceScore(level, casesData, practice);
-  main.innerHTML = `
-    <h1>Pratique du juge-arbitre</h1>
-    <p class="muted">L'examen pratique se déroule sur une vraie compétition : préparation en amont, gestion le jour J, rapport après la compétition. Entraînez-vous sur des situations concrètes et vérifiez vos réflexes.</p>
-    <div class="grid two">
-      <a class="card tile" href="#/cas"><span class="ico">${svg('case')}</span><span><strong>Cas pratiques</strong><span class="small muted">${p.done}/${p.total} cas réalisés · situations réelles de compétition</span></span></a>
-      <a class="card tile" href="#/exercice/poule"><span class="ico">${svg('table')}</span><span><strong>Classement de poule</strong><span class="small muted">Départager les égalités (RGC 3.4.1) — exercices générés à l'infini</span></span></a>
-      <a class="card tile" href="#/outil/echeancier"><span class="ico">${svg('calc')}</span><span><strong>Dimensionner une compétition</strong><span class="small muted">Formats de tableaux, nombre de matchs, horaires de fin</span></span></a>
-      <a class="card tile" href="#/checklists"><span class="ico">${svg('check')}</span><span><strong>Check-lists du JA</strong><span class="small muted">Avant, pendant et après la compétition</span></span></a>
-      <a class="card tile" href="#/auto-evaluation"><span class="ico">${svg('grid')}</span><span><strong>Auto-évaluation</strong><span class="small muted">Grille des critères JALA (annexe 02 de la filière) · ${p.rated}/${p.criteria} critères évalués</span></span></a>
-      <a class="card tile" href="#/entrainement"><span class="ico">${svg('mic')}</span><span><strong>Préparer l'oral</strong><span class="small muted">Activez le « mode oral » dans l'entraînement</span></span></a>
-    </div>`;
-}
 
 // ------------------------------------------------------------------ cas pratiques
 
@@ -97,7 +77,6 @@ export async function renderCase(main, id) {
         const score = run.answers.filter((x) => x.ok).length / c.steps.length;
         const first = !state.cases[c.id];
         recordCase(c.id, score);
-        rewardActivity(Math.round(10 + 30 * score) + (first ? 10 : 0), { active: false });
       }
       draw();
       window.scrollTo(0, 0);
@@ -260,7 +239,6 @@ export function renderPouleDrill(main) {
       if (ok) state.drills.poule.ok += 1;
       save();
       draw(true);
-      rewardActivity(ok ? 15 : 3, { active: false });
     }
     if (b.dataset.act === 'new') renderPouleDrill(main);
   };

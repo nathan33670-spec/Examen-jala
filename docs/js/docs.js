@@ -101,13 +101,6 @@ export async function renderDoc(main, id, query = {}) {
   }
   if (doc.external) { renderExternal(main, doc, query); return; }
   main.innerHTML = `<div class="loading"><div class="spinner"></div></div>`;
-  const g = state.game;
-  g.docsSeen ||= {};
-  if (!g.docsSeen[doc.id]) {
-    g.docsSeen[doc.id] = 1;
-    g.counters.docs = Object.keys(g.docsSeen).length;
-    save();
-  }
   let text;
   try {
     text = await getDocText(doc);
