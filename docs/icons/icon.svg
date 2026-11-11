@@ -1,11 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#0f4c5c"/>
-  <g transform="rotate(-35 256 256)">
-    <path d="M170 120 L342 120 L296 318 L216 318 Z" fill="#ffffff"/>
-    <path d="M198 120 L232 318 M226 120 L245 318 M256 120 L256 318 M286 120 L267 318 M314 120 L280 318" stroke="#c9dde3" stroke-width="7"/>
-    <path d="M178 165 L334 165 M188 210 L324 210 M199 258 L313 258" stroke="#c9dde3" stroke-width="7"/>
-    <rect x="206" y="312" width="100" height="22" rx="6" fill="#e36414"/>
-    <path d="M206 334 h100 v14 a50 50 0 0 1 -100 0 z" fill="#e36414"/>
+    <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a63b0"/><stop offset="1" stop-color="#163d72"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(256 236) rotate(-35) translate(-256 -236)">
+    <path d="M182 92 L330 92 L292 266 L220 266 Z" fill="#ffffff"/>
+    <path d="M206 92 L236 266 M231 92 L248 266 M256 92 L256 266 M281 92 L264 266 M306 92 L276 266" stroke="#c7d6ec" stroke-width="6"/>
+    <path d="M189 132 L323 132 M198 172 L314 172 M207 214 L305 214" stroke="#c7d6ec" stroke-width="6"/>
+    <rect x="214" y="260" width="84" height="20" rx="5" fill="#f28c28"/>
+    <path d="M214 280 h84 v12 a42 42 0 0 1 -84 0 z" fill="#f28c28"/>
   </g>
-  <text x="256" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" fill="#ffffff">JA</text>
+  <text x="256" y="432" text-anchor="middle" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="700" font-size="92" letter-spacing="4" fill="#ffffff">JA</text>
 </svg>
