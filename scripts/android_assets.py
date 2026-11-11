@@ -12,7 +12,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 RES = ROOT / "android" / "app" / "src" / "main" / "res"
 ICONS = ROOT / "docs" / "icons"
-BRAND = (15, 76, 92)  # #0f4c5c, couleur de l'application
+BRAND = (29, 79, 145)  # #1d4f91, couleur de l application
 DENSITIES = {"mdpi": 1, "hdpi": 1.5, "xhdpi": 2, "xxhdpi": 3, "xxxhdpi": 4}
 
 
@@ -41,7 +41,7 @@ def main() -> int:
         layer.paste(motif, ((fg - inner) // 2, (fg - inner) // 2), motif)
         layer.save(d / "ic_launcher_foreground.png")
     (RES / "values" / "ic_launcher_background.xml").write_text(
-        '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n    <color name="ic_launcher_background">#0F4C5C</color>\n</resources>\n',
+        '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n    <color name="ic_launcher_background">#1D4F91</color>\n</resources>\n',
         encoding="utf-8")
     for splash in RES.glob("drawable*/splash.png"):
         w, h = Image.open(splash).size

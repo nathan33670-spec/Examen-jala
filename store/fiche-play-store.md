@@ -1,14 +1,15 @@
 # Fiche Play Store — Prépa JA Badminton
 
 Tout ce qu'il faut pour remplir la Play Console (identifiant de l'application : `fr.corsicajack.prepajala`).
-Les visuels se régénèrent avec `python scripts/store_assets.py` ; les captures sont prises dans l'application.
+Les visuels se régénèrent avec `node scripts/store_assets.mjs` ; les captures sont prises dans l'application.
 
 ## Visuels (dossier `store/`)
 
 | Élément Play Console | Fichier | Format |
 |---|---|---|
-| Icône de l'application | `icone-512.png` | 512 × 512, PNG 32 bits |
+| Icône de l'application | `icone-512.png` | 512 × 512, PNG, carré plein sans coins arrondis ni ombre (Google applique son masque) |
 | Image de présentation | `banniere-1024x500.png` | 1024 × 500, PNG |
+| Sources modifiables | `source/icone.svg`, `source/banniere.html` | régénérées par `node scripts/store_assets.mjs` |
 | Captures d'écran (téléphone) | `captures/01-preferences.png` … `08-parcours-arbitre.png` | 1080 × 1920 (9:16), 8 captures |
 
 Captures, dans l'ordre conseillé : accueil (02), question (03), correction (04), examen blanc (05),

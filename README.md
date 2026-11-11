@@ -94,7 +94,7 @@ base64 -w0 upload.jks     # sous macOS : base64 -i upload.jks | tr -d "\n"
 
 Puis, dans *Settings > Secrets and variables > Actions* du dépôt, ajouter les secrets `ANDROID_KEYSTORE_BASE64` (sortie de la commande base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS` (`upload`) et `ANDROID_KEY_PASSWORD`. Sans ces secrets, le workflow signe avec une clé de test jetable : l'APK s'installe, mais l'AAB est refusé par le Play Store. Dans la Play Console, activer la *signature des applications par Google Play* et déclarer cette clé comme clé d'importation.
 
-**Fiche Play Store** : textes, réponses aux questionnaires de la Play Console, icône 512 × 512, bannière 1024 × 500 et 8 captures d'écran dans [`store/`](store/fiche-play-store.md) (visuels régénérés par `python scripts/store_assets.py`).
+**Fiche Play Store** : textes, réponses aux questionnaires de la Play Console, icône 512 × 512, bannière 1024 × 500 et 8 captures d'écran dans [`store/`](store/fiche-play-store.md) (visuels régénérés par `node scripts/store_assets.mjs`).
 
 **Règles de confidentialité** : page `docs/confidentialite.html`, publiée à l'adresse https://nathan33670-spec.github.io/Examen-jala/confidentialite.html (à indiquer dans la Play Console) et accessible depuis les réglages de l'application.
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Icône Play Store : carré plein, sans coins arrondis ni ombre (Google applique son propre masque). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a63b0"/><stop offset="1" stop-color="#163d72"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 236) rotate(-35) translate(-256 -236)">
+    <path d="M182 92 L330 92 L292 266 L220 266 Z" fill="#ffffff"/>
+    <path d="M206 92 L236 266 M231 92 L248 266 M256 92 L256 266 M281 92 L264 266 M306 92 L276 266" stroke="#c7d6ec" stroke-width="6"/>
+    <path d="M189 132 L323 132 M198 172 L314 172 M207 214 L305 214" stroke="#c7d6ec" stroke-width="6"/>
+    <rect x="214" y="260" width="84" height="20" rx="5" fill="#f28c28"/>
+    <path d="M214 280 h84 v12 a42 42 0 0 1 -84 0 z" fill="#f28c28"/>
+  </g>
+  <text x="256" y="432" text-anchor="middle" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-weight="700" font-size="92" letter-spacing="4" fill="#ffffff">JA</text>
+</svg>

@@ -4,7 +4,7 @@
  * - pack PDF téléchargeable à la demande (cache séparé, conservé entre deux versions) ;
  * - BUILD est réécrit automatiquement par scripts/build_site.py à chaque changement de contenu.
  */
-const BUILD = '788ed3c52d4b';
+const BUILD = '031476c4f8bb';
 const CORE = `core-${BUILD}`;
 const PDF = 'pdf-v1';
 const RUNTIME = 'runtime-v1';
