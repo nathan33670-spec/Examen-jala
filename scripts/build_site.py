@@ -529,6 +529,8 @@ def main(argv: list[str] | None = None) -> int:
                                                        "byLevel": stats, "byTheme": by_theme, "byPhase": by_phase,
                                                        "questions": questions}),
         site / "data" / "cases.json": dump(None, {"count": len(cases), "cases": cases}),
+        # copie servie à …/docs/confidentialite.html quand le site est publié depuis la racine du dépôt
+        site / "docs" / "confidentialite.html": (site / "confidentialite.html").read_text(encoding="utf-8"),
         site / "data" / "fiches.json": dump(None, fiches),
         site / "data" / "glossaire.json": dump(None, glossary),
     }
