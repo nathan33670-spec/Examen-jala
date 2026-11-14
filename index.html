@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Prépa JA Badminton</title>
+<!-- Utile seulement si GitHub Pages publie la racine du dépôt (Source : « Deploy from a branch ») :
+     l'application est alors dans docs/. Avec la source « GitHub Actions », ce fichier n'est pas publié. -->
+<script>
+  (async () => {
+    try {
+      // ancienne installation à la racine : on la désinstalle (l'application est dans docs/)
+      const regs = (await navigator.serviceWorker?.getRegistrations()) || [];
+      const root = new URL('./', location.href).pathname;
+      await Promise.all(regs.filter((r) => new URL(r.scope).pathname === root).map((r) => r.unregister()));
+    } catch (e) { /* sans service worker */ }
+    location.replace('docs/' + location.hash);
+  })();
+</script>
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+<p><a href="docs/">Ouvrir Prépa JA Badminton</a></p>
+</body>
+</html>

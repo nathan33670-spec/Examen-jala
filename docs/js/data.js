@@ -69,9 +69,14 @@ export async function checkQuestionUpdate({ force = false } = {}) {
   lastCheck = Date.now();
   try {
     const current = await getQuestions();
-    const base = isNative() ? REMOTE_BASE : '';
     const stamp = `fresh=${Date.now()}`;
-    const v = await fetch(`${base}data/version.json?${stamp}`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+    // appli Android : site publié, à la racine (GitHub Actions) ou dans docs/ (publication de la racine du dépôt)
+    let base = '';
+    let v = null;
+    for (const b of isNative() ? [REMOTE_BASE, `${REMOTE_BASE}docs/`] : ['']) {
+      v = await fetch(`${b}data/version.json?${stamp}`, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+      if (v) { base = b; break; }
+    }
     if (v && v.version === current.version) return false;
     const res = await fetch(`${base}${QUESTIONS}?${stamp}`, { cache: 'no-store' });
     if (!res.ok) return false;
