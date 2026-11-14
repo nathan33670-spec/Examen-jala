@@ -1,5 +1,5 @@
 {
- "build": "031476c4f8bb",
+ "build": "e98e8102e514",
  "core": [
   "./",
   "confidentialite.html",
@@ -147,7 +147,7 @@
   "reglements/text/LNAQ.VETERANS.json",
   "reglements/text/REGLES.json"
  ],
- "coreSize": 3626234,
+ "coreSize": 3626455,
  "pdf": [
   "reglements/pdf/GUI00.01_ADM_Presentation.pdf",
   "reglements/pdf/GUI02.01_PSO_ReglementMedical.pdf",
